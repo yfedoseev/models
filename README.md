@@ -71,9 +71,9 @@ Combined with pricing from official API pages, this enables both performance ran
 | Metric | Count |
 |--------|-------|
 | Providers | 108 |
-| Total Models | 11,481 |
-| With Pricing | 1,930 |
-| With Benchmarks | 1,247 |
+| Total Models | 11,250 |
+| With Pricing | 1,918 |
+| With Benchmarks | 1,193 |
 
 ## What's Included
 

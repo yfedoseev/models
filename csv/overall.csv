@@ -38,8 +38,8 @@ rank,name,provider,score
 37,tiiuae/falcon-40b,ai71,0.5217
 38,Claude Sonnet 4.5,anthropic,0.5211
 39,Claude Opus 4.5,anthropic,0.5188
-40,DeepSeek-R1,bedrock,0.5133
-41,DeepSeek R1 (Fast),fireworks,0.5133
+40,DeepSeek R1 (Fast),fireworks,0.5133
+41,Deepseek R1 05/28,fireworks,0.5133
 42,publishers/microsoft/models/phi4,vertex,0.5131
 43,microsoft/phi-4,deepinfra,0.5131
 44,Claude Haiku 4.5,anthropic,0.5064

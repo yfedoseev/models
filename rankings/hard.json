@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-01-11T15:02:29.701409",
+  "generated_at": "2026-01-11T15:14:16.897675",
   "ranking_type": "hard",
-  "count": 46,
+  "count": 41,
   "models": [
     {
       "rank": 1,
@@ -175,9 +175,9 @@
     },
     {
       "rank": 18,
-      "model_id": "bedrock/anthropic.claude-3-7-sonnet-20250219-v1:0",
-      "provider": "bedrock",
-      "name": "Claude 3.7 Sonnet",
+      "model_id": "replicate/anthropic/claude-3.7-sonnet",
+      "provider": "replicate",
+      "name": "anthropic/claude-3.7-sonnet",
       "score": 0.031,
       "composite_score": 0.4526,
       "benchmark_count": 7,
@@ -225,13 +225,13 @@
     },
     {
       "rank": 23,
-      "model_id": "bedrock/deepseek.v3-v1:0",
-      "provider": "bedrock",
-      "name": "DeepSeek-V3.1",
+      "model_id": "fireworks/deepseek-v3",
+      "provider": "fireworks",
+      "name": "DeepSeek V3",
       "score": 0.017,
       "composite_score": 0.3802,
       "benchmark_count": 10,
-      "intelligence_tier": "S"
+      "intelligence_tier": "F"
     },
     {
       "rank": 24,
@@ -305,9 +305,9 @@
     },
     {
       "rank": 31,
-      "model_id": "bedrock/anthropic.claude-3-5-sonnet-20241022-v2:0:18k",
-      "provider": "bedrock",
-      "name": "Claude 3.5 Sonnet v2",
+      "model_id": "snowflake/claude-3-5-sonnet",
+      "provider": "snowflake",
+      "name": "claude-3-5-sonnet",
       "score": 0.0105,
       "composite_score": 0.3196,
       "benchmark_count": 9,
@@ -315,36 +315,6 @@
     },
     {
       "rank": 32,
-      "model_id": "bedrock/anthropic.claude-3-5-sonnet-20241022-v2:0:51k",
-      "provider": "bedrock",
-      "name": "Claude 3.5 Sonnet v2",
-      "score": 0.0105,
-      "composite_score": 0.3196,
-      "benchmark_count": 9,
-      "intelligence_tier": "S"
-    },
-    {
-      "rank": 33,
-      "model_id": "bedrock/anthropic.claude-3-5-sonnet-20241022-v2:0:200k",
-      "provider": "bedrock",
-      "name": "Claude 3.5 Sonnet v2",
-      "score": 0.0105,
-      "composite_score": 0.3196,
-      "benchmark_count": 9,
-      "intelligence_tier": "S"
-    },
-    {
-      "rank": 34,
-      "model_id": "bedrock/anthropic.claude-3-5-sonnet-20241022-v2:0",
-      "provider": "bedrock",
-      "name": "Claude 3.5 Sonnet v2",
-      "score": 0.0105,
-      "composite_score": 0.3196,
-      "benchmark_count": 9,
-      "intelligence_tier": "S"
-    },
-    {
-      "rank": 35,
       "model_id": "openai/gpt-4.1-nano-2025-04-14",
       "provider": "openai",
       "name": "gpt-4.1-nano-2025-04-14",
@@ -354,7 +324,7 @@
       "intelligence_tier": "S"
     },
     {
-      "rank": 36,
+      "rank": 33,
       "model_id": "qwen/qwen-max",
       "provider": "qwen",
       "name": "qwen/qwen-max",
@@ -364,7 +334,7 @@
       "intelligence_tier": "S"
     },
     {
-      "rank": 37,
+      "rank": 34,
       "model_id": "qwen/qwen-max-latest",
       "provider": "qwen",
       "name": "qwen/qwen-max-latest",
@@ -374,7 +344,7 @@
       "intelligence_tier": "S"
     },
     {
-      "rank": 38,
+      "rank": 35,
       "model_id": "groq/Llama 4 Maverick 17B 128E meta-llama/llama-4-maverick-17b-128e-instruct",
       "provider": "groq",
       "name": "Llama 4 Maverick 17B 128E meta-llama/llama-4-maverick-17b-128e-instruct",
@@ -384,7 +354,7 @@
       "intelligence_tier": "S"
     },
     {
-      "rank": 39,
+      "rank": 36,
       "model_id": "deepinfra/meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
       "provider": "deepinfra",
       "name": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
@@ -394,7 +364,7 @@
       "intelligence_tier": "S"
     },
     {
-      "rank": 40,
+      "rank": 37,
       "model_id": "openai/gpt-4o",
       "provider": "openai",
       "name": "gpt-4o",
@@ -404,7 +374,7 @@
       "intelligence_tier": "S"
     },
     {
-      "rank": 41,
+      "rank": 38,
       "model_id": "openai/chatgpt-4o-latest",
       "provider": "openai",
       "name": "chatgpt-4o-latest",
@@ -414,7 +384,7 @@
       "intelligence_tier": "S"
     },
     {
-      "rank": 42,
+      "rank": 39,
       "model_id": "mistral-large-latest",
       "provider": "mistral",
       "name": "mistral-large-latest",
@@ -424,7 +394,7 @@
       "intelligence_tier": "P"
     },
     {
-      "rank": 43,
+      "rank": 40,
       "model_id": "mistral-medium-latest",
       "provider": "mistral",
       "name": "mistral-medium-latest",
@@ -434,27 +404,7 @@
       "intelligence_tier": "S"
     },
     {
-      "rank": 44,
-      "model_id": "bedrock/anthropic.claude-3-5-haiku-20241022-v1:0",
-      "provider": "bedrock",
-      "name": "Claude 3.5 Haiku",
-      "score": 0.003,
-      "composite_score": 0.2324,
-      "benchmark_count": 7,
-      "intelligence_tier": "F"
-    },
-    {
-      "rank": 45,
-      "model_id": "bedrock/mistral.mistral-large-2402-v1:0",
-      "provider": "bedrock",
-      "name": "Mistral Large (24.02)",
-      "score": 0.003,
-      "composite_score": 0.2763,
-      "benchmark_count": 7,
-      "intelligence_tier": "P"
-    },
-    {
-      "rank": 46,
+      "rank": 41,
       "model_id": "ollama/mistral-large",
       "provider": "ollama",
       "name": "mistral-large",

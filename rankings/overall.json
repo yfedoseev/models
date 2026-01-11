@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-11T15:02:29.698516",
+  "generated_at": "2026-01-11T15:14:16.894866",
   "ranking_type": "overall",
   "count": 50,
   "models": [
@@ -395,9 +395,9 @@
     },
     {
       "rank": 40,
-      "model_id": "bedrock/deepseek.r1-v1:0",
-      "provider": "bedrock",
-      "name": "DeepSeek-R1",
+      "model_id": "fireworks/deepseek-r1",
+      "provider": "fireworks",
+      "name": "DeepSeek R1 (Fast)",
       "score": 0.5133,
       "composite_score": 0.5133,
       "benchmark_count": 8,
@@ -405,9 +405,9 @@
     },
     {
       "rank": 41,
-      "model_id": "fireworks/deepseek-r1",
+      "model_id": "fireworks/deepseek-r1-0528",
       "provider": "fireworks",
-      "name": "DeepSeek R1 (Fast)",
+      "name": "Deepseek R1 05/28",
       "score": 0.5133,
       "composite_score": 0.5133,
       "benchmark_count": 8,

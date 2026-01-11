@@ -522,6 +522,7 @@
       "model_id": "qwen/qwq-plus",
       "context_window": 98304,
       "input_price_per_million": 1.0,
+      "output_price_per_million": 2.4,
       "benchmarks": {
         "gpqa_diamond": 0.654
       },
@@ -534,6 +535,7 @@
       "model_id": "qwen/qwq-plus-latest",
       "context_window": 98304,
       "input_price_per_million": 1.0,
+      "output_price_per_million": 2.4,
       "benchmarks": {
         "gpqa_diamond": 0.654
       },
@@ -546,6 +548,7 @@
       "model_id": "qwen/qwq-plus-2025-03-05",
       "context_window": 98304,
       "input_price_per_million": 1.0,
+      "output_price_per_million": 2.4,
       "benchmarks": {
         "gpqa_diamond": 0.654
       },
@@ -557,6 +560,8 @@
       "provider": "qwen",
       "model_id": "qwen/qwen-long-latest",
       "context_window": 10000000,
+      "input_price_per_million": 0.4,
+      "output_price_per_million": 1.2,
       "model_type": "chat"
     },
     {
@@ -565,6 +570,8 @@
       "provider": "qwen",
       "model_id": "qwen/qwen-long-2025-01-25",
       "context_window": 10000000,
+      "input_price_per_million": 0.4,
+      "output_price_per_million": 1.2,
       "model_type": "chat"
     },
     {
@@ -792,6 +799,7 @@
       "model_id": "qwen/qwen-vl-plus",
       "context_window": 2048,
       "input_price_per_million": 0.63,
+      "output_price_per_million": 1.2,
       "model_type": "vision"
     },
     {
@@ -801,6 +809,7 @@
       "model_id": "qwen/qwen-vl-plus-latest",
       "context_window": 32768,
       "input_price_per_million": 0.63,
+      "output_price_per_million": 1.2,
       "model_type": "vision"
     },
     {
@@ -810,6 +819,7 @@
       "model_id": "qwen/qwen-vl-plus-2025-08-15",
       "context_window": 32768,
       "input_price_per_million": 0.63,
+      "output_price_per_million": 1.2,
       "model_type": "vision"
     },
     {
@@ -819,6 +829,7 @@
       "model_id": "qwen/qwen-vl-plus-2025-05-07",
       "context_window": 32768,
       "input_price_per_million": 0.63,
+      "output_price_per_million": 1.2,
       "model_type": "vision"
     },
     {
@@ -828,6 +839,7 @@
       "model_id": "qwen/qwen-vl-plus-2025-01-25",
       "context_window": 32768,
       "input_price_per_million": 0.63,
+      "output_price_per_million": 1.2,
       "model_type": "vision"
     },
     {
@@ -915,6 +927,7 @@
       "model_id": "qwen/qwen-vl-plus-2025-07-10",
       "context_window": 32768,
       "input_price_per_million": 0.216,
+      "output_price_per_million": 1.2,
       "model_type": "vision"
     },
     {
@@ -924,6 +937,7 @@
       "model_id": "qwen/qwen-vl-plus-2025-01-02",
       "context_window": 2048,
       "input_price_per_million": 0.646,
+      "output_price_per_million": 1.2,
       "model_type": "vision"
     },
     {
@@ -933,6 +947,7 @@
       "model_id": "qwen/qwen-vl-plus-2024-08-09",
       "context_window": 32768,
       "input_price_per_million": 0.646,
+      "output_price_per_million": 1.2,
       "model_type": "vision"
     },
     {
@@ -992,6 +1007,8 @@
       "provider": "qwen",
       "model_id": "qwen/qwen-math-plus",
       "context_window": 3072,
+      "input_price_per_million": 0.8,
+      "output_price_per_million": 2.4,
       "model_type": "chat"
     },
     {
@@ -1000,6 +1017,8 @@
       "provider": "qwen",
       "model_id": "qwen/qwen-math-plus-latest",
       "context_window": 3072,
+      "input_price_per_million": 0.8,
+      "output_price_per_million": 2.4,
       "model_type": "chat"
     },
     {
@@ -1008,6 +1027,8 @@
       "provider": "qwen",
       "model_id": "qwen/qwen-math-plus-2024-09-19",
       "context_window": 3072,
+      "input_price_per_million": 0.8,
+      "output_price_per_million": 2.4,
       "model_type": "chat"
     },
     {
@@ -1016,6 +1037,8 @@
       "provider": "qwen",
       "model_id": "qwen/qwen-math-plus-2024-08-16",
       "context_window": 3072,
+      "input_price_per_million": 0.8,
+      "output_price_per_million": 2.4,
       "model_type": "chat"
     },
     {
@@ -1023,6 +1046,9 @@
       "name": null,
       "provider": "qwen",
       "model_id": "qwen/qwen-math-turbo",
+      "context_window": 131072,
+      "input_price_per_million": 0.1,
+      "output_price_per_million": 0.4,
       "model_type": "chat"
     },
     {
@@ -1030,6 +1056,9 @@
       "name": null,
       "provider": "qwen",
       "model_id": "qwen/qwen-math-turbo-latest",
+      "context_window": 131072,
+      "input_price_per_million": 0.1,
+      "output_price_per_million": 0.4,
       "model_type": "chat"
     },
     {
@@ -1037,6 +1066,9 @@
       "name": null,
       "provider": "qwen",
       "model_id": "qwen/qwen-math-turbo-2024-09-19",
+      "context_window": 131072,
+      "input_price_per_million": 0.1,
+      "output_price_per_million": 0.4,
       "model_type": "chat"
     },
     {
@@ -1191,6 +1223,7 @@
       "provider": "qwen",
       "model_id": "qwen/qwen3-next-80b-a3b-thinking",
       "context_window": 126976,
+      "input_price_per_million": 1.0,
       "output_price_per_million": 1.2,
       "benchmarks": {
         "arena_elo": 1368.0,
@@ -1212,6 +1245,7 @@
       "model_id": "qwen/qwen3-next-80b-a3b-instruct",
       "context_window": 131072,
       "input_price_per_million": 1.2,
+      "output_price_per_million": 2.8,
       "benchmarks": {
         "arena_elo": 1401.0,
         "livebench_global": 51.04,
@@ -1231,6 +1265,7 @@
       "provider": "qwen",
       "model_id": "qwen/qwen3-235b-a22b-thinking-2507",
       "context_window": 81920,
+      "input_price_per_million": 1.4,
       "output_price_per_million": 2.3,
       "benchmarks": {
         "gpqa_diamond": 0.801,
@@ -1250,6 +1285,7 @@
       "model_id": "qwen/qwen3-235b-a22b-instruct-2507",
       "context_window": 131072,
       "input_price_per_million": 0.92,
+      "output_price_per_million": 5.6,
       "benchmarks": {
         "gpqa_diamond": 0.707,
         "math_level_5": 0.689,
@@ -1265,6 +1301,7 @@
       "provider": "qwen",
       "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
       "context_window": 81920,
+      "input_price_per_million": 0.5,
       "output_price_per_million": 2.4,
       "model_type": "reasoning"
     },
@@ -1275,6 +1312,7 @@
       "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
       "context_window": 131072,
       "input_price_per_million": 0.8,
+      "output_price_per_million": 1.4,
       "benchmarks": {
         "arena_elo": 1326.0,
         "livebench_global": 42.11,
@@ -1402,6 +1440,8 @@
       "provider": "qwen",
       "model_id": "qwen/qwq-32b",
       "context_window": 32768,
+      "input_price_per_million": 0.8,
+      "output_price_per_million": 2.4,
       "benchmarks": {
         "aider_polyglot": 20.9,
         "arena_elo": 1159.0
@@ -1414,6 +1454,8 @@
       "provider": "qwen",
       "model_id": "qwen/qwq-32b-preview",
       "context_window": 16384,
+      "input_price_per_million": 0.8,
+      "output_price_per_million": 2.4,
       "benchmarks": {
         "aider_polyglot": 20.9,
         "arena_elo": 1159.0
@@ -1427,6 +1469,7 @@
       "model_id": "qwen/qwen2.5-14b-instruct-1m",
       "context_window": 8192,
       "input_price_per_million": 1.0,
+      "output_price_per_million": 1.4,
       "model_type": "chat"
     },
     {
@@ -1434,7 +1477,9 @@
       "name": null,
       "provider": "qwen",
       "model_id": "qwen/qwen2.5-7b-instruct-1m",
-      "context_window": 131072,
+      "context_window": 1000000,
+      "input_price_per_million": 0.4,
+      "output_price_per_million": 1.2,
       "model_type": "chat"
     },
     {
@@ -1443,6 +1488,8 @@
       "provider": "qwen",
       "model_id": "qwen/qwen2.5-72b-instruct",
       "context_window": 131072,
+      "input_price_per_million": 1.4,
+      "output_price_per_million": 5.6,
       "benchmarks": {
         "gpqa_diamond": 0.491,
         "mmlu": 0.834,
@@ -1459,6 +1506,8 @@
       "provider": "qwen",
       "model_id": "qwen/qwen2.5-32b-instruct",
       "context_window": 131072,
+      "input_price_per_million": 0.7,
+      "output_price_per_million": 2.8,
       "benchmarks": {
         "gpqa_diamond": 0.461,
         "math_level_5": 0.561,
@@ -1472,6 +1521,8 @@
       "provider": "qwen",
       "model_id": "qwen/qwen2.5-14b-instruct",
       "context_window": 131072,
+      "input_price_per_million": 0.35,
+      "output_price_per_million": 1.4,
       "benchmarks": {
         "mmlu": 0.799
       },
@@ -1483,6 +1534,8 @@
       "provider": "qwen",
       "model_id": "qwen/qwen2.5-7b-instruct",
       "context_window": 131072,
+      "input_price_per_million": 0.175,
+      "output_price_per_million": 0.7,
       "benchmarks": {
         "mmlu": 0.729
       },
@@ -1493,6 +1546,9 @@
       "name": null,
       "provider": "qwen",
       "model_id": "qwen/qwen2.5-3b-instruct",
+      "context_window": 131072,
+      "input_price_per_million": 0.1,
+      "output_price_per_million": 0.4,
       "model_type": "chat"
     },
     {
@@ -1500,6 +1556,9 @@
       "name": null,
       "provider": "qwen",
       "model_id": "qwen/qwen2.5-1.5b-instruct",
+      "context_window": 131072,
+      "input_price_per_million": 0.05,
+      "output_price_per_million": 0.2,
       "model_type": "chat"
     },
     {
@@ -1507,6 +1566,9 @@
       "name": null,
       "provider": "qwen",
       "model_id": "qwen/qwen2.5-0.5b-instruct",
+      "context_window": 131072,
+      "input_price_per_million": 0.05,
+      "output_price_per_million": 0.2,
       "model_type": "chat"
     },
     {
@@ -1548,6 +1610,7 @@
       "model_id": "qwen/qwen3-vl-235b-a22b-instruct",
       "context_window": 32768,
       "input_price_per_million": 1.147,
+      "output_price_per_million": 5.6,
       "benchmarks": {
         "arena_elo": 1414.0
       },
@@ -1611,6 +1674,7 @@
       "model_id": "qwen/qwen2.5-vl-72b-instruct",
       "context_window": 8192,
       "input_price_per_million": 1.0,
+      "output_price_per_million": 5.6,
       "model_type": "vision"
     },
     {
@@ -1618,6 +1682,9 @@
       "name": null,
       "provider": "qwen",
       "model_id": "qwen/qwen2.5-vl-32b-instruct",
+      "context_window": 32768,
+      "input_price_per_million": 0.7,
+      "output_price_per_million": 2.8,
       "model_type": "vision"
     },
     {
@@ -1625,6 +1692,9 @@
       "name": null,
       "provider": "qwen",
       "model_id": "qwen/qwen2.5-vl-7b-instruct",
+      "context_window": 32768,
+      "input_price_per_million": 0.175,
+      "output_price_per_million": 0.7,
       "model_type": "vision"
     },
     {
@@ -1632,6 +1702,9 @@
       "name": null,
       "provider": "qwen",
       "model_id": "qwen/qwen2.5-vl-3b-instruct",
+      "context_window": 32768,
+      "input_price_per_million": 0.1,
+      "output_price_per_million": 0.4,
       "model_type": "vision"
     },
     {
@@ -1640,6 +1713,8 @@
       "provider": "qwen",
       "model_id": "qwen/qwen2-vl-72b-instruct",
       "context_window": 2048,
+      "input_price_per_million": 1.4,
+      "output_price_per_million": 5.6,
       "model_type": "vision"
     },
     {
@@ -1648,6 +1723,8 @@
       "provider": "qwen",
       "model_id": "qwen/qwen2.5-math-72b-instruct",
       "context_window": 3072,
+      "input_price_per_million": 1.4,
+      "output_price_per_million": 5.6,
       "model_type": "chat"
     },
     {
@@ -1655,6 +1732,9 @@
       "name": null,
       "provider": "qwen",
       "model_id": "qwen/qwen2.5-math-7b-instruct",
+      "context_window": 131072,
+      "input_price_per_million": 0.175,
+      "output_price_per_million": 0.7,
       "model_type": "chat"
     },
     {
@@ -1662,6 +1742,9 @@
       "name": null,
       "provider": "qwen",
       "model_id": "qwen/qwen2.5-math-1.5b-instruct",
+      "context_window": 131072,
+      "input_price_per_million": 0.05,
+      "output_price_per_million": 0.2,
       "model_type": "chat"
     },
     {
@@ -1692,6 +1775,7 @@
       "model_id": "qwen/qwen2.5-coder-32b-instruct",
       "context_window": 8192,
       "input_price_per_million": 0.861,
+      "output_price_per_million": 2.8,
       "benchmarks": {
         "mmlu": 0.791,
         "gsm8k": 0.911,
@@ -1707,6 +1791,7 @@
       "model_id": "qwen/qwen2.5-coder-14b-instruct",
       "context_window": 131072,
       "input_price_per_million": 0.861,
+      "output_price_per_million": 1.4,
       "benchmarks": {
         "mmlu": 0.752,
         "gsm8k": 0.887
@@ -1718,7 +1803,9 @@
       "name": null,
       "provider": "qwen",
       "model_id": "qwen/qwen2.5-coder-7b-instruct",
+      "context_window": 131072,
       "input_price_per_million": 0.287,
+      "output_price_per_million": 0.7,
       "benchmarks": {
         "mmlu": 0.68,
         "gsm8k": 0.839
@@ -1730,6 +1817,9 @@
       "name": null,
       "provider": "qwen",
       "model_id": "qwen/qwen2.5-coder-3b-instruct",
+      "context_window": 131072,
+      "input_price_per_million": 0.1,
+      "output_price_per_million": 0.4,
       "benchmarks": {
         "gsm8k": 0.757
       },
@@ -1740,6 +1830,9 @@
       "name": null,
       "provider": "qwen",
       "model_id": "qwen/qwen2.5-coder-1.5b-instruct",
+      "context_window": 131072,
+      "input_price_per_million": 0.05,
+      "output_price_per_million": 0.2,
       "benchmarks": {
         "mmlu": 0.536,
         "gsm8k": 0.658
@@ -1751,6 +1844,9 @@
       "name": null,
       "provider": "qwen",
       "model_id": "qwen/qwen2.5-coder-0.5b-instruct",
+      "context_window": 131072,
+      "input_price_per_million": 0.05,
+      "output_price_per_million": 0.2,
       "benchmarks": {
         "mmlu": 0.42,
         "gsm8k": 0.345
@@ -1763,6 +1859,8 @@
       "provider": "qwen",
       "model_id": "qwen/deepseek-v3.2",
       "context_window": 32768,
+      "input_price_per_million": 0.27,
+      "output_price_per_million": 1.1,
       "benchmarks": {
         "aider_polyglot": 70.2,
         "arena_elo": 1423.0,
@@ -1782,6 +1880,9 @@
       "name": null,
       "provider": "qwen",
       "model_id": "qwen/deepseek-v3.2-exp",
+      "context_window": 65536,
+      "input_price_per_million": 0.27,
+      "output_price_per_million": 1.1,
       "benchmarks": {
         "aider_polyglot": 70.2,
         "arena_elo": 1423.0,
@@ -1801,6 +1902,9 @@
       "name": null,
       "provider": "qwen",
       "model_id": "qwen/deepseek-v3.1",
+      "context_window": 65536,
+      "input_price_per_million": 0.27,
+      "output_price_per_million": 1.1,
       "model_type": "chat"
     },
     {
@@ -1808,6 +1912,9 @@
       "name": null,
       "provider": "qwen",
       "model_id": "qwen/deepseek-r1",
+      "context_window": 65536,
+      "input_price_per_million": 0.55,
+      "output_price_per_million": 2.19,
       "benchmarks": {
         "gpqa_diamond": 0.692,
         "math_level_5": 0.931,
@@ -1825,6 +1932,9 @@
       "name": null,
       "provider": "qwen",
       "model_id": "qwen/deepseek-r1-0528",
+      "context_window": 65536,
+      "input_price_per_million": 0.55,
+      "output_price_per_million": 2.19,
       "benchmarks": {
         "gpqa_diamond": 0.692,
         "math_level_5": 0.931,
@@ -1842,6 +1952,9 @@
       "name": null,
       "provider": "qwen",
       "model_id": "qwen/deepseek-v3",
+      "context_window": 65536,
+      "input_price_per_million": 0.27,
+      "output_price_per_million": 1.1,
       "benchmarks": {
         "gpqa_diamond": 0.565,
         "mmlu": 0.871,
@@ -1862,6 +1975,8 @@
       "provider": "qwen",
       "model_id": "qwen/deepseek-r1-distill-qwen-1.5b",
       "context_window": 16384,
+      "input_price_per_million": 0.14,
+      "output_price_per_million": 0.28,
       "model_type": "chat"
     },
     {
@@ -1869,6 +1984,9 @@
       "name": null,
       "provider": "qwen",
       "model_id": "qwen/deepseek-r1-distill-qwen-7b",
+      "context_window": 65536,
+      "input_price_per_million": 0.14,
+      "output_price_per_million": 0.28,
       "model_type": "chat"
     },
     {
@@ -1876,6 +1994,9 @@
       "name": null,
       "provider": "qwen",
       "model_id": "qwen/deepseek-r1-distill-qwen-14b",
+      "context_window": 65536,
+      "input_price_per_million": 0.14,
+      "output_price_per_million": 0.28,
       "benchmarks": {
         "gpqa_diamond": 0.447,
         "math_level_5": 0.871
@@ -1887,6 +2008,9 @@
       "name": null,
       "provider": "qwen",
       "model_id": "qwen/deepseek-r1-distill-qwen-32b",
+      "context_window": 65536,
+      "input_price_per_million": 0.14,
+      "output_price_per_million": 0.28,
       "model_type": "chat"
     },
     {
@@ -1894,6 +2018,9 @@
       "name": null,
       "provider": "qwen",
       "model_id": "qwen/deepseek-r1-distill-llama-8b",
+      "context_window": 65536,
+      "input_price_per_million": 0.14,
+      "output_price_per_million": 0.28,
       "model_type": "chat"
     },
     {
@@ -1901,6 +2028,9 @@
       "name": null,
       "provider": "qwen",
       "model_id": "qwen/deepseek-r1-distill-llama-70b",
+      "context_window": 65536,
+      "input_price_per_million": 0.14,
+      "output_price_per_million": 0.28,
       "benchmarks": {
         "gpqa_diamond": 0.557,
         "math_level_5": 0.899,
@@ -2509,6 +2639,8 @@
       "provider": "qwen",
       "model_id": "qwen/qwen-plus-character-ja",
       "context_window": 512,
+      "input_price_per_million": 0.4,
+      "output_price_per_million": 1.2,
       "model_type": "chat"
     },
     {
@@ -2517,6 +2649,8 @@
       "provider": "qwen",
       "model_id": "qwen/qwen-plus-character",
       "context_window": 4096,
+      "input_price_per_million": 0.4,
+      "output_price_per_million": 1.2,
       "model_type": "chat"
     },
     {

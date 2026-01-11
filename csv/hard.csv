@@ -16,12 +16,12 @@ rank,name,provider,score
 15,gemini-2.5-flash,google,0.045
 16,qwen/qwen3-235b-a22b-thinking-2507,qwen,0.0425
 17,Claude Haiku 4.5,anthropic,0.041
-18,Claude 3.7 Sonnet,bedrock,0.031
+18,anthropic/claude-3.7-sonnet,replicate,0.031
 19,glm-4.6,ollama,0.0295
 20,gpt-4.1-2025-04-14,openai,0.0275
 21,Claude Opus 4,anthropic,0.0225
 22,Claude Sonnet 4,anthropic,0.0205
-23,DeepSeek-V3.1,bedrock,0.017
+23,DeepSeek V3,fireworks,0.017
 24,Deepseek V3 03-24,fireworks,0.017
 25,publishers/google/models/gemini-2.0-flash-001,vertex,0.017
 26,qwen/qwen-plus,qwen,0.017
@@ -29,19 +29,14 @@ rank,name,provider,score
 28,deepseek-v3.1,ollama,0.017
 29,deepseek-v2.5,ollama,0.017
 30,deepseek,xinference,0.017
-31,Claude 3.5 Sonnet v2,bedrock,0.0105
-32,Claude 3.5 Sonnet v2,bedrock,0.0105
-33,Claude 3.5 Sonnet v2,bedrock,0.0105
-34,Claude 3.5 Sonnet v2,bedrock,0.0105
-35,gpt-4.1-nano-2025-04-14,openai,0.01
-36,qwen/qwen-max,qwen,0.01
-37,qwen/qwen-max-latest,qwen,0.01
-38,Llama 4 Maverick 17B 128E meta-llama/llama-4-maverick-17b-128e-instruct,groq,0.007
-39,meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8,deepinfra,0.007
-40,gpt-4o,openai,0.003
-41,chatgpt-4o-latest,openai,0.003
-42,mistral-large-latest,mistral,0.003
-43,mistral-medium-latest,mistral,0.003
-44,Claude 3.5 Haiku,bedrock,0.003
-45,Mistral Large (24.02),bedrock,0.003
-46,mistral-large,ollama,0.003
+31,claude-3-5-sonnet,snowflake,0.0105
+32,gpt-4.1-nano-2025-04-14,openai,0.01
+33,qwen/qwen-max,qwen,0.01
+34,qwen/qwen-max-latest,qwen,0.01
+35,Llama 4 Maverick 17B 128E meta-llama/llama-4-maverick-17b-128e-instruct,groq,0.007
+36,meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8,deepinfra,0.007
+37,gpt-4o,openai,0.003
+38,chatgpt-4o-latest,openai,0.003
+39,mistral-large-latest,mistral,0.003
+40,mistral-medium-latest,mistral,0.003
+41,mistral-large,ollama,0.003

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-01-11T15:02:29.703355",
+  "generated_at": "2026-01-11T15:14:16.899977",
   "ranking_type": "providers",
-  "count": 87,
+  "count": 86,
   "providers": [
     {
       "provider": "nvidia_nim",
@@ -26,14 +26,6 @@
       "avg_composite": 0.1416,
       "max_composite": 0.862,
       "top_model": "microsoft/Phi-3.5-mini-instruct"
-    },
-    {
-      "provider": "bedrock",
-      "model_count": 185,
-      "models_with_benchmarks": 40,
-      "avg_composite": 0.315,
-      "max_composite": 0.82,
-      "top_model": "Nova Pro"
     },
     {
       "provider": "openai",

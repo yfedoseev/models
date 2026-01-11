@@ -19,7 +19,7 @@ rank,name,provider,score
 18,gpt-5.2-pro-2025-12-11,openai,0.842
 19,gemini-3-flash-preview,google,0.832
 20,o4-mini-2025-04-16,openai,0.811
-21,Claude Opus 4.5,bedrock,0.807
+21,publishers/anthropic/models/claude-opus-4-5,vertex,0.807
 22,qwen/qwen3-235b-a22b-thinking-2507,qwen,0.801
 23,o1-pro-2025-03-19,openai,0.781
 24,o1-2024-12-17,openai,0.781
@@ -31,14 +31,14 @@ rank,name,provider,score
 30,gemini-2.5-flash-lite,google,0.712
 31,gemini-2.5-flash-preview-tts,google,0.712
 32,Qwen 3 235B Instruct*,cerebras,0.707
-33,DeepSeek-R1,bedrock,0.692
-34,DeepSeek R1 (Fast),fireworks,0.692
+33,DeepSeek R1 (Fast),fireworks,0.692
+34,Deepseek R1 05/28,fireworks,0.692
 35,Claude Opus 4,anthropic,0.692
 36,Llama 4 Maverick 17B 128E meta-llama/llama-4-maverick-17b-128e-instruct,groq,0.67
 37,meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8,deepinfra,0.67
 38,gpt-4.1-2025-04-14,openai,0.669
 39,Claude Sonnet 4,anthropic,0.667
-40,Claude 3.7 Sonnet,bedrock,0.66
+40,anthropic/claude-3.7-sonnet,replicate,0.66
 41,gpt-4.1-mini-2025-04-14,openai,0.658
 42,qwen/qwq-plus,qwen,0.654
 43,qwen/qwq-plus-latest,qwen,0.654
@@ -47,5 +47,5 @@ rank,name,provider,score
 46,gemini-2.0-flash-lite,google,0.623
 47,Claude Haiku 4.5,anthropic,0.605
 48,mistral-medium-latest,mistral,0.595
-49,DeepSeek-V3.1,bedrock,0.565
+49,DeepSeek V3,fireworks,0.565
 50,Deepseek V3 03-24,fireworks,0.565

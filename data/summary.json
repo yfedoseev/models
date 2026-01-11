@@ -1,8 +1,8 @@
 {
   "total_providers": 108,
-  "total_models": 11481,
-  "models_with_pricing": 1930,
-  "models_with_benchmarks": 1247,
+  "total_models": 11250,
+  "models_with_pricing": 1918,
+  "models_with_benchmarks": 1193,
   "providers": [
     {
       "name": "featherless",
@@ -29,7 +29,7 @@
       "name": "qwen",
       "display_name": "qwen",
       "model_count": 256,
-      "with_pricing": 140,
+      "with_pricing": 185,
       "with_benchmarks": 67
     },
     {
@@ -45,13 +45,6 @@
       "model_count": 238,
       "with_pricing": 223,
       "with_benchmarks": 46
-    },
-    {
-      "name": "bedrock",
-      "display_name": "bedrock",
-      "model_count": 231,
-      "with_pricing": 57,
-      "with_benchmarks": 54
     },
     {
       "name": "ollama",

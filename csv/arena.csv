@@ -38,8 +38,8 @@ rank,name,provider,score
 37,Qwen3 Next 80B A3B Instruct,fireworks,0.6683
 38,Qwen 3 Next 80B A3b Instruct,hyperbolic,0.6683
 39,qwen/qwen3-235b-a22b-thinking-2507,qwen,0.6633
-40,DeepSeek-R1,bedrock,0.66
-41,DeepSeek R1 (Fast),fireworks,0.66
+40,DeepSeek R1 (Fast),fireworks,0.66
+41,Deepseek R1 05/28,fireworks,0.66
 42,Qwen3 VL 235B A22B Thinking,fireworks,0.6567
 43,o4-mini-2025-04-16,openai,0.6517
 44,Claude Opus 4,anthropic,0.65

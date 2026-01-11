@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-11T15:02:29.702179",
+  "generated_at": "2026-01-11T15:14:16.898661",
   "ranking_type": "value",
   "count": 50,
   "models": [
@@ -29,30 +29,6 @@
     },
     {
       "rank": 3,
-      "model_id": "bedrock/meta.llama3-1-8b-instruct-v1:0:128k",
-      "provider": "bedrock",
-      "name": "Llama 3.1 8B Instruct",
-      "score": 84.7619,
-      "composite_score": 0.2967,
-      "benchmark_count": 5,
-      "intelligence_tier": "S",
-      "input_price": 0.02,
-      "output_price": 0.049999999999999996
-    },
-    {
-      "rank": 4,
-      "model_id": "bedrock/meta.llama3-1-8b-instruct-v1:0",
-      "provider": "bedrock",
-      "name": "Llama 3.1 8B Instruct",
-      "score": 84.7619,
-      "composite_score": 0.2967,
-      "benchmark_count": 5,
-      "intelligence_tier": "S",
-      "input_price": 0.02,
-      "output_price": 0.049999999999999996
-    },
-    {
-      "rank": 5,
       "model_id": "deepinfra/google/gemma-3-4b-it",
       "provider": "deepinfra",
       "name": "google/gemma-3-4b-it",
@@ -64,7 +40,7 @@
       "output_price": 0.08
     },
     {
-      "rank": 6,
+      "rank": 4,
       "model_id": "nebius/google/gemma-2-2b-it",
       "provider": "nebius",
       "name": "google/gemma-2-2b-it",
@@ -76,7 +52,7 @@
       "output_price": 0.06
     },
     {
-      "rank": 7,
+      "rank": 5,
       "model_id": "deepinfra/mistralai/Mistral-Small-24B-Instruct-2501",
       "provider": "deepinfra",
       "name": "mistralai/Mistral-Small-24B-Instruct-2501",
@@ -88,7 +64,7 @@
       "output_price": 0.08
     },
     {
-      "rank": 8,
+      "rank": 6,
       "model_id": "deepinfra/google/gemma-3-12b-it",
       "provider": "deepinfra",
       "name": "google/gemma-3-12b-it",
@@ -100,7 +76,7 @@
       "output_price": 0.13
     },
     {
-      "rank": 9,
+      "rank": 7,
       "model_id": "deepinfra/meta-llama/Meta-Llama-3-8B-Instruct",
       "provider": "deepinfra",
       "name": "meta-llama/Meta-Llama-3-8B-Instruct",
@@ -112,7 +88,7 @@
       "output_price": 0.06
     },
     {
-      "rank": 10,
+      "rank": 8,
       "model_id": "openai/gpt-5-nano-2025-08-07",
       "provider": "openai",
       "name": "gpt-5-nano-2025-08-07",
@@ -124,7 +100,7 @@
       "output_price": 0.2
     },
     {
-      "rank": 11,
+      "rank": 9,
       "model_id": "vertex/publishers/microsoft/models/phi4",
       "provider": "vertex",
       "name": "publishers/microsoft/models/phi4",
@@ -136,7 +112,7 @@
       "output_price": 0.14
     },
     {
-      "rank": 12,
+      "rank": 10,
       "model_id": "deepinfra/microsoft/phi-4",
       "provider": "deepinfra",
       "name": "microsoft/phi-4",
@@ -148,19 +124,19 @@
       "output_price": 0.14
     },
     {
-      "rank": 13,
-      "model_id": "bedrock/mistral.mistral-7b-instruct-v0:2",
-      "provider": "bedrock",
-      "name": "Mistral 7B Instruct",
-      "score": 45.122,
-      "composite_score": 0.185,
-      "benchmark_count": 1,
+      "rank": 11,
+      "model_id": "qwen/qwen2.5-coder-1.5b-instruct",
+      "provider": "qwen",
+      "name": "qwen/qwen2.5-coder-1.5b-instruct",
+      "score": 47.76,
+      "composite_score": 0.597,
+      "benchmark_count": 2,
       "intelligence_tier": "S",
-      "input_price": 0.028,
-      "output_price": 0.054
+      "input_price": 0.05,
+      "output_price": 0.2
     },
     {
-      "rank": 14,
+      "rank": 12,
       "model_id": "nebius/openai/gpt-oss-20b",
       "provider": "nebius",
       "name": "openai/gpt-oss-20b",
@@ -172,7 +148,7 @@
       "output_price": 0.2
     },
     {
-      "rank": 15,
+      "rank": 13,
       "model_id": "cloudflare/mistral/mistral-7b-instruct-v0.1",
       "provider": "cloudflare",
       "name": "@cf/mistral/mistral-7b-instruct-v0.1",
@@ -184,7 +160,7 @@
       "output_price": 0.19
     },
     {
-      "rank": 16,
+      "rank": 14,
       "model_id": "google/gemini-2.0-flash-lite",
       "provider": "google",
       "name": "gemini-2.0-flash-lite",
@@ -196,7 +172,7 @@
       "output_price": 0.3
     },
     {
-      "rank": 17,
+      "rank": 15,
       "model_id": "deepinfra/google/gemma-3-27b-it",
       "provider": "deepinfra",
       "name": "google/gemma-3-27b-it",
@@ -206,6 +182,30 @@
       "intelligence_tier": "S",
       "input_price": 0.09,
       "output_price": 0.16
+    },
+    {
+      "rank": 16,
+      "model_id": "qwen/qwen2.5-coder-0.5b-instruct",
+      "provider": "qwen",
+      "name": "qwen/qwen2.5-coder-0.5b-instruct",
+      "score": 30.6,
+      "composite_score": 0.3825,
+      "benchmark_count": 2,
+      "intelligence_tier": "S",
+      "input_price": 0.05,
+      "output_price": 0.2
+    },
+    {
+      "rank": 17,
+      "model_id": "qwen/deepseek-r1-distill-llama-70b",
+      "provider": "qwen",
+      "name": "qwen/deepseek-r1-distill-llama-70b",
+      "score": 30.5918,
+      "composite_score": 0.6424,
+      "benchmark_count": 3,
+      "intelligence_tier": "S",
+      "input_price": 0.14,
+      "output_price": 0.28
     },
     {
       "rank": 18,
@@ -221,18 +221,30 @@
     },
     {
       "rank": 19,
-      "model_id": "bedrock/meta.llama3-8b-instruct-v1:0",
-      "provider": "bedrock",
-      "name": "Llama 3 8B Instruct",
-      "score": 24.1782,
-      "composite_score": 0.1088,
-      "benchmark_count": 2,
+      "model_id": "qwen/qwen2.5-coder-3b-instruct",
+      "provider": "qwen",
+      "name": "qwen/qwen2.5-coder-3b-instruct",
+      "score": 30.28,
+      "composite_score": 0.757,
+      "benchmark_count": 1,
       "intelligence_tier": "S",
-      "input_price": 0.03,
-      "output_price": 0.06
+      "input_price": 0.1,
+      "output_price": 0.4
     },
     {
       "rank": 20,
+      "model_id": "qwen/deepseek-r1-distill-qwen-14b",
+      "provider": "qwen",
+      "name": "qwen/deepseek-r1-distill-qwen-14b",
+      "score": 29.3619,
+      "composite_score": 0.6166,
+      "benchmark_count": 2,
+      "intelligence_tier": "S",
+      "input_price": 0.14,
+      "output_price": 0.28
+    },
+    {
+      "rank": 21,
       "model_id": "deepinfra/Qwen/Qwen3-32B",
       "provider": "deepinfra",
       "name": "Qwen/Qwen3-32B",
@@ -244,7 +256,7 @@
       "output_price": 0.28
     },
     {
-      "rank": 21,
+      "rank": 22,
       "model_id": "deepinfra/Qwen/Qwen3-235B-A22B-Instruct-2507",
       "provider": "deepinfra",
       "name": "Qwen/Qwen3-235B-A22B-Instruct-2507",
@@ -256,22 +268,10 @@
       "output_price": 0.463
     },
     {
-      "rank": 22,
+      "rank": 23,
       "model_id": "mistral-small-latest",
       "provider": "mistral",
       "name": "mistral-small-latest",
-      "score": 21.2067,
-      "composite_score": 0.4241,
-      "benchmark_count": 5,
-      "intelligence_tier": "F",
-      "input_price": 0.1,
-      "output_price": 0.3
-    },
-    {
-      "rank": 23,
-      "model_id": "bedrock/mistral.mistral-small-2402-v1:0",
-      "provider": "bedrock",
-      "name": "Mistral Small (24.02)",
       "score": 21.2067,
       "composite_score": 0.4241,
       "benchmark_count": 5,
@@ -425,30 +425,18 @@
     },
     {
       "rank": 36,
-      "model_id": "bedrock/meta.llama3-3-70b-instruct-v1:0:128k",
-      "provider": "bedrock",
-      "name": "Llama 3.3 70B Instruct",
-      "score": 16.5195,
-      "composite_score": 0.3469,
-      "benchmark_count": 5,
+      "model_id": "qwen/qwen2.5-7b-instruct",
+      "provider": "qwen",
+      "name": "qwen/qwen2.5-7b-instruct",
+      "score": 16.6629,
+      "composite_score": 0.729,
+      "benchmark_count": 1,
       "intelligence_tier": "S",
-      "input_price": 0.09999999999999999,
-      "output_price": 0.32
+      "input_price": 0.175,
+      "output_price": 0.7
     },
     {
       "rank": 37,
-      "model_id": "bedrock/meta.llama3-3-70b-instruct-v1:0",
-      "provider": "bedrock",
-      "name": "Llama 3.3 70B Instruct",
-      "score": 16.5195,
-      "composite_score": 0.3469,
-      "benchmark_count": 5,
-      "intelligence_tier": "S",
-      "input_price": 0.09999999999999999,
-      "output_price": 0.32
-    },
-    {
-      "rank": 38,
       "model_id": "deepinfra/meta-llama/Llama-4-Scout-17B-16E-Instruct",
       "provider": "deepinfra",
       "name": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
@@ -458,6 +446,18 @@
       "intelligence_tier": "S",
       "input_price": 0.08,
       "output_price": 0.3
+    },
+    {
+      "rank": 38,
+      "model_id": "qwen/qwen2.5-coder-7b-instruct",
+      "provider": "qwen",
+      "name": "qwen/qwen2.5-coder-7b-instruct",
+      "score": 15.3901,
+      "composite_score": 0.7595,
+      "benchmark_count": 2,
+      "intelligence_tier": "F",
+      "input_price": 0.287,
+      "output_price": 0.7
     },
     {
       "rank": 39,
@@ -557,18 +557,6 @@
     },
     {
       "rank": 47,
-      "model_id": "bedrock/ai21.jamba-1-5-mini-v1:0",
-      "provider": "bedrock",
-      "name": "Jamba 1.5 Mini",
-      "score": 13.2778,
-      "composite_score": 0.3983,
-      "benchmark_count": 1,
-      "intelligence_tier": "F",
-      "input_price": 0.2,
-      "output_price": 0.4
-    },
-    {
-      "rank": 48,
       "model_id": "jamba-1.5-mini",
       "provider": "ai21",
       "name": "jamba-1.5-mini",
@@ -580,7 +568,7 @@
       "output_price": 0.4
     },
     {
-      "rank": 49,
+      "rank": 48,
       "model_id": "nebius/meta-llama/Llama-3.3-70B-Instruct",
       "provider": "nebius",
       "name": "meta-llama/Llama-3.3-70B-Instruct",
@@ -592,7 +580,7 @@
       "output_price": 0.4
     },
     {
-      "rank": 50,
+      "rank": 49,
       "model_id": "fireworks/qwen3-vl-235b-a22b-instruct",
       "provider": "fireworks",
       "name": "Qwen3 VL 235B A22B Instruct",
@@ -602,6 +590,18 @@
       "intelligence_tier": "F",
       "input_price": 0.22,
       "output_price": 0.88
+    },
+    {
+      "rank": 50,
+      "model_id": "deepinfra/meta-llama/Meta-Llama-3.1-70B-Instruct",
+      "provider": "deepinfra",
+      "name": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+      "score": 12.2083,
+      "composite_score": 0.4883,
+      "benchmark_count": 1,
+      "intelligence_tier": "S",
+      "input_price": 0.4,
+      "output_price": 0.4
     }
   ]
 }

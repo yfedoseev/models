@@ -2,30 +2,30 @@ rank,name,provider,roi_score,category_score,avg_price_per_million
 1,meta-llama/Llama-3.2-11B-Vision-Instruct,deepinfra,11.5306,0.565,0.049
 2,gpt-5-nano-2025-08-07,openai,7.4844,0.842,0.1125
 3,gpt-5-nano,openai,7.4844,0.842,0.1125
-4,Llama 3.1 8B Instruct,bedrock,7.4,0.259,0.035
-5,Llama 3.1 8B Instruct,bedrock,7.4,0.259,0.035
-6,meta-llama/Meta-Llama-3-8B-Instruct,deepinfra,5.8,0.261,0.045
-7,publishers/microsoft/models/phi4,vertex,5.61,0.561,0.1
-8,microsoft/phi-4,deepinfra,5.3429,0.561,0.105
-9,gpt-4.1-nano-2025-04-14,openai,3.912,0.489,0.125
-10,gpt-4.1-nano,openai,3.912,0.489,0.125
-11,eu/gpt-4.1-nano,azure_openai,3.912,0.489,0.125
-12,us/gpt-4.1-nano,azure_openai,3.912,0.489,0.125
-13,google/gemma-3-27b-it,deepinfra,3.912,0.489,0.125
-14,@cf/mistral/mistral-7b-instruct-v0.1,cloudflare,3.7733,0.566,0.15
+4,meta-llama/Meta-Llama-3-8B-Instruct,deepinfra,5.8,0.261,0.045
+5,publishers/microsoft/models/phi4,vertex,5.61,0.561,0.1
+6,microsoft/phi-4,deepinfra,5.3429,0.561,0.105
+7,qwen/qwen2.5-coder-1.5b-instruct,qwen,4.288,0.536,0.125
+8,gpt-4.1-nano-2025-04-14,openai,3.912,0.489,0.125
+9,gpt-4.1-nano,openai,3.912,0.489,0.125
+10,eu/gpt-4.1-nano,azure_openai,3.912,0.489,0.125
+11,us/gpt-4.1-nano,azure_openai,3.912,0.489,0.125
+12,google/gemma-3-27b-it,deepinfra,3.912,0.489,0.125
+13,@cf/mistral/mistral-7b-instruct-v0.1,cloudflare,3.7733,0.566,0.15
+14,qwen/qwen2.5-coder-0.5b-instruct,qwen,3.36,0.42,0.125
 15,gemini-2.0-flash-lite,google,3.3227,0.623,0.1875
-16,meta-llama/Llama-4-Scout-17B-16E-Instruct,deepinfra,2.7263,0.518,0.19
-17,Qwen/Qwen3-235B-A22B-Instruct-2507,deepinfra,2.6479,0.707,0.267
-18,@cf/meta/llama-3.2-11b-vision-instruct,cloudflare,2.574,0.565,0.2195
-19,Qwen/Qwen2.5-32B-Instruct,siliconflow,2.5611,0.461,0.18
-20,ministral-3b-latest,mistral,2.53,0.253,0.1
-21,gemini-2.0-flash,google,2.492,0.623,0.25
-22,google/gemma-3-27b-it,nebius,2.445,0.489,0.2
-23,mistral-small-latest,mistral,2.265,0.453,0.2
-24,Mistral Small (24.02),bedrock,2.265,0.453,0.2
-25,publishers/mistralai/models/mistral-small-2503,vertex,2.265,0.453,0.2
-26,Llama 3.3 70B Instruct,bedrock,2.2571,0.474,0.21
-27,Llama 3.3 70B Instruct,bedrock,2.2571,0.474,0.21
+16,qwen/qwen2.5-coder-3b-instruct,qwen,3.028,0.757,0.25
+17,meta-llama/Llama-4-Scout-17B-16E-Instruct,deepinfra,2.7263,0.518,0.19
+18,qwen/deepseek-r1-distill-llama-70b,qwen,2.6524,0.557,0.21
+19,Qwen/Qwen3-235B-A22B-Instruct-2507,deepinfra,2.6479,0.707,0.267
+20,@cf/meta/llama-3.2-11b-vision-instruct,cloudflare,2.574,0.565,0.2195
+21,Qwen/Qwen2.5-32B-Instruct,siliconflow,2.5611,0.461,0.18
+22,ministral-3b-latest,mistral,2.53,0.253,0.1
+23,gemini-2.0-flash,google,2.492,0.623,0.25
+24,google/gemma-3-27b-it,nebius,2.445,0.489,0.2
+25,mistral-small-latest,mistral,2.265,0.453,0.2
+26,publishers/mistralai/models/mistral-small-2503,vertex,2.265,0.453,0.2
+27,qwen/deepseek-r1-distill-qwen-14b,qwen,2.1286,0.447,0.21
 28,gpt-4o-mini-2024-07-18,openai,2.0107,0.377,0.1875
 29,gpt-4o-mini,openai,2.0107,0.377,0.1875
 30,eu/gpt-4o-mini,azure_openai,2.0107,0.377,0.1875
@@ -38,14 +38,14 @@ rank,name,provider,roi_score,category_score,avg_price_per_million
 37,Qwen/Qwen3-235B-A22B-Instruct-2507,nebius,1.7675,0.707,0.4
 38,Qwen2.5-Coder-32B-Instruct,sambanova,1.7578,0.791,0.45
 39,publishers/google/models/gemini-2.0-flash-001,vertex,1.7093,0.641,0.375
-40,Qwen/Qwen3-235B-A22B-Thinking-2507,nebius,1.602,0.801,0.5
-41,grok-4-1-fast-non-reasoning,xai,1.6,0.56,0.35
-42,gpt-5-mini-2025-08-07,openai,1.4969,0.842,0.5625
-43,Llama-4-Maverick-17B-128E-Instruct,sambanova,1.4889,0.67,0.45
-44,gpt-4.1-mini-2025-04-14,openai,1.316,0.658,0.5
-45,gpt-4.1-mini,openai,1.316,0.658,0.5
-46,eu/gpt-4.1-mini,azure_openai,1.316,0.658,0.5
-47,us/gpt-4.1-mini,azure_openai,1.316,0.658,0.5
-48,Qwen3 235B A22B,fireworks,1.2855,0.707,0.55
-49,Qwen3 235B A22B Instruct 2507,fireworks,1.2855,0.707,0.55
-50,@cf/meta/llama-3.1-8b-instruct-awq,cloudflare,1.18,0.259,0.2195
+40,qwen/qwen2.5-7b-instruct,qwen,1.6663,0.729,0.4375
+41,Qwen/Qwen3-235B-A22B-Thinking-2507,nebius,1.602,0.801,0.5
+42,grok-4-1-fast-non-reasoning,xai,1.6,0.56,0.35
+43,gpt-5-mini-2025-08-07,openai,1.4969,0.842,0.5625
+44,Llama-4-Maverick-17B-128E-Instruct,sambanova,1.4889,0.67,0.45
+45,qwen/qwen2.5-coder-7b-instruct,qwen,1.3779,0.68,0.4935
+46,gpt-4.1-mini-2025-04-14,openai,1.316,0.658,0.5
+47,gpt-4.1-mini,openai,1.316,0.658,0.5
+48,eu/gpt-4.1-mini,azure_openai,1.316,0.658,0.5
+49,us/gpt-4.1-mini,azure_openai,1.316,0.658,0.5
+50,Qwen3 235B A22B,fireworks,1.2855,0.707,0.55

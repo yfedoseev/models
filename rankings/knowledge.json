@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-11T15:02:29.700721",
+  "generated_at": "2026-01-11T15:14:16.896970",
   "ranking_type": "knowledge",
   "count": 50,
   "models": [
@@ -140,9 +140,9 @@
     },
     {
       "rank": 7,
-      "model_id": "bedrock/deepseek.r1-v1:0",
-      "provider": "bedrock",
-      "name": "DeepSeek-R1",
+      "model_id": "fireworks/deepseek-r1",
+      "provider": "fireworks",
+      "name": "DeepSeek R1 (Fast)",
       "score": 0.274,
       "tiebreaker": 0.0,
       "composite_score": 0.5133,
@@ -161,9 +161,9 @@
     },
     {
       "rank": 8,
-      "model_id": "fireworks/deepseek-r1",
+      "model_id": "fireworks/deepseek-r1-0528",
       "provider": "fireworks",
-      "name": "DeepSeek R1 (Fast)",
+      "name": "Deepseek R1 05/28",
       "score": 0.274,
       "tiebreaker": 0.0,
       "composite_score": 0.5133,
@@ -216,26 +216,6 @@
     },
     {
       "rank": 10,
-      "model_id": "bedrock/anthropic.claude-3-5-haiku-20241022-v1:0",
-      "provider": "bedrock",
-      "name": "Claude 3.5 Haiku",
-      "score": 0.067,
-      "tiebreaker": 0.0,
-      "composite_score": 0.2324,
-      "benchmark_count": 7,
-      "intelligence_tier": "F",
-      "benchmarks": {
-        "gpqa_diamond": 0.381,
-        "mmlu": 0.743,
-        "math_level_5": 0.464,
-        "otis_mock_aime_2024_2025": 0.043,
-        "frontiermath": 0.003,
-        "aider_polyglot": 28.0,
-        "simpleqa_verified": 0.067
-      }
-    },
-    {
-      "rank": 11,
       "model_id": "openai/o3-2025-04-16",
       "provider": "openai",
       "name": "o3-2025-04-16",
@@ -257,7 +237,7 @@
       }
     },
     {
-      "rank": 12,
+      "rank": 11,
       "model_id": "openai/gpt-5-2025-08-07",
       "provider": "openai",
       "name": "gpt-5-2025-08-07",
@@ -274,7 +254,7 @@
       }
     },
     {
-      "rank": 13,
+      "rank": 12,
       "model_id": "openai/gpt-5-mini-2025-08-07",
       "provider": "openai",
       "name": "gpt-5-mini-2025-08-07",
@@ -290,7 +270,7 @@
       }
     },
     {
-      "rank": 14,
+      "rank": 13,
       "model_id": "openai/gpt-5-nano-2025-08-07",
       "provider": "openai",
       "name": "gpt-5-nano-2025-08-07",
@@ -314,7 +294,7 @@
       }
     },
     {
-      "rank": 15,
+      "rank": 14,
       "model_id": "openai/gpt-5-codex",
       "provider": "openai",
       "name": "gpt-5-codex",
@@ -330,7 +310,7 @@
       }
     },
     {
-      "rank": 16,
+      "rank": 15,
       "model_id": "openai/gpt-5-pro-2025-10-06",
       "provider": "openai",
       "name": "gpt-5-pro-2025-10-06",
@@ -355,7 +335,7 @@
       }
     },
     {
-      "rank": 17,
+      "rank": 16,
       "model_id": "openai/gpt-5-search-api",
       "provider": "openai",
       "name": "gpt-5-search-api",
@@ -371,7 +351,7 @@
       }
     },
     {
-      "rank": 18,
+      "rank": 17,
       "model_id": "openai/gpt-5.1-chat-latest",
       "provider": "openai",
       "name": "gpt-5.1-chat-latest",
@@ -388,7 +368,7 @@
       }
     },
     {
-      "rank": 19,
+      "rank": 18,
       "model_id": "openai/gpt-5.1-codex",
       "provider": "openai",
       "name": "gpt-5.1-codex",
@@ -412,7 +392,7 @@
       }
     },
     {
-      "rank": 20,
+      "rank": 19,
       "model_id": "openai/gpt-5.1-codex-mini",
       "provider": "openai",
       "name": "gpt-5.1-codex-mini",
@@ -436,7 +416,7 @@
       }
     },
     {
-      "rank": 21,
+      "rank": 20,
       "model_id": "openai/gpt-5.1-codex-max",
       "provider": "openai",
       "name": "gpt-5.1-codex-max",
@@ -452,7 +432,7 @@
       }
     },
     {
-      "rank": 22,
+      "rank": 21,
       "model_id": "openai/gpt-5.2-2025-12-11",
       "provider": "openai",
       "name": "gpt-5.2-2025-12-11",
@@ -469,7 +449,7 @@
       }
     },
     {
-      "rank": 23,
+      "rank": 22,
       "model_id": "openai/gpt-5.2-pro-2025-12-11",
       "provider": "openai",
       "name": "gpt-5.2-pro-2025-12-11",
@@ -485,7 +465,7 @@
       }
     },
     {
-      "rank": 24,
+      "rank": 23,
       "model_id": "openai/o1-2024-12-17",
       "provider": "openai",
       "name": "o1-2024-12-17",
@@ -506,7 +486,7 @@
       }
     },
     {
-      "rank": 25,
+      "rank": 24,
       "model_id": "openai/o1-pro-2025-03-19",
       "provider": "openai",
       "name": "o1-pro-2025-03-19",
@@ -524,7 +504,7 @@
       }
     },
     {
-      "rank": 26,
+      "rank": 25,
       "model_id": "openai/gpt-4.1-2025-04-14",
       "provider": "openai",
       "name": "gpt-4.1-2025-04-14",
@@ -548,7 +528,7 @@
       }
     },
     {
-      "rank": 27,
+      "rank": 26,
       "model_id": "openai/o4-mini-2025-04-16",
       "provider": "openai",
       "name": "o4-mini-2025-04-16",
@@ -569,7 +549,7 @@
       }
     },
     {
-      "rank": 28,
+      "rank": 27,
       "model_id": "openai/gpt-4.1-mini-2025-04-14",
       "provider": "openai",
       "name": "gpt-4.1-mini-2025-04-14",
@@ -591,95 +571,29 @@
       }
     },
     {
+      "rank": 28,
+      "model_id": "snowflake/claude-3-5-sonnet",
+      "provider": "snowflake",
+      "name": "claude-3-5-sonnet",
+      "score": 0.873,
+      "tiebreaker": 0.0,
+      "composite_score": 0.3196,
+      "benchmark_count": 9,
+      "intelligence_tier": "S",
+      "benchmarks": {
+        "gpqa_diamond": 0.54,
+        "mmlu": 0.873,
+        "math_level_5": 0.517,
+        "otis_mock_aime_2024_2025": 0.085,
+        "frontiermath": 0.021,
+        "aider_polyglot": 51.6,
+        "simplebench": 0.275,
+        "frontiermath_tier_4": 0.0,
+        "swe_bench_verified": 0.406
+      }
+    },
+    {
       "rank": 29,
-      "model_id": "bedrock/anthropic.claude-3-5-sonnet-20241022-v2:0:18k",
-      "provider": "bedrock",
-      "name": "Claude 3.5 Sonnet v2",
-      "score": 0.873,
-      "tiebreaker": 0.0,
-      "composite_score": 0.3196,
-      "benchmark_count": 9,
-      "intelligence_tier": "S",
-      "benchmarks": {
-        "gpqa_diamond": 0.54,
-        "mmlu": 0.873,
-        "math_level_5": 0.517,
-        "otis_mock_aime_2024_2025": 0.085,
-        "frontiermath": 0.021,
-        "aider_polyglot": 51.6,
-        "simplebench": 0.275,
-        "frontiermath_tier_4": 0.0,
-        "swe_bench_verified": 0.406
-      }
-    },
-    {
-      "rank": 30,
-      "model_id": "bedrock/anthropic.claude-3-5-sonnet-20241022-v2:0:51k",
-      "provider": "bedrock",
-      "name": "Claude 3.5 Sonnet v2",
-      "score": 0.873,
-      "tiebreaker": 0.0,
-      "composite_score": 0.3196,
-      "benchmark_count": 9,
-      "intelligence_tier": "S",
-      "benchmarks": {
-        "gpqa_diamond": 0.54,
-        "mmlu": 0.873,
-        "math_level_5": 0.517,
-        "otis_mock_aime_2024_2025": 0.085,
-        "frontiermath": 0.021,
-        "aider_polyglot": 51.6,
-        "simplebench": 0.275,
-        "frontiermath_tier_4": 0.0,
-        "swe_bench_verified": 0.406
-      }
-    },
-    {
-      "rank": 31,
-      "model_id": "bedrock/anthropic.claude-3-5-sonnet-20241022-v2:0:200k",
-      "provider": "bedrock",
-      "name": "Claude 3.5 Sonnet v2",
-      "score": 0.873,
-      "tiebreaker": 0.0,
-      "composite_score": 0.3196,
-      "benchmark_count": 9,
-      "intelligence_tier": "S",
-      "benchmarks": {
-        "gpqa_diamond": 0.54,
-        "mmlu": 0.873,
-        "math_level_5": 0.517,
-        "otis_mock_aime_2024_2025": 0.085,
-        "frontiermath": 0.021,
-        "aider_polyglot": 51.6,
-        "simplebench": 0.275,
-        "frontiermath_tier_4": 0.0,
-        "swe_bench_verified": 0.406
-      }
-    },
-    {
-      "rank": 32,
-      "model_id": "bedrock/anthropic.claude-3-5-sonnet-20241022-v2:0",
-      "provider": "bedrock",
-      "name": "Claude 3.5 Sonnet v2",
-      "score": 0.873,
-      "tiebreaker": 0.0,
-      "composite_score": 0.3196,
-      "benchmark_count": 9,
-      "intelligence_tier": "S",
-      "benchmarks": {
-        "gpqa_diamond": 0.54,
-        "mmlu": 0.873,
-        "math_level_5": 0.517,
-        "otis_mock_aime_2024_2025": 0.085,
-        "frontiermath": 0.021,
-        "aider_polyglot": 51.6,
-        "simplebench": 0.275,
-        "frontiermath_tier_4": 0.0,
-        "swe_bench_verified": 0.406
-      }
-    },
-    {
-      "rank": 33,
       "model_id": "openai/gpt-4o",
       "provider": "openai",
       "name": "gpt-4o",
@@ -702,7 +616,7 @@
       }
     },
     {
-      "rank": 34,
+      "rank": 30,
       "model_id": "openai/chatgpt-4o-latest",
       "provider": "openai",
       "name": "chatgpt-4o-latest",
@@ -725,15 +639,15 @@
       }
     },
     {
-      "rank": 35,
-      "model_id": "bedrock/deepseek.v3-v1:0",
-      "provider": "bedrock",
-      "name": "DeepSeek-V3.1",
+      "rank": 31,
+      "model_id": "fireworks/deepseek-v3",
+      "provider": "fireworks",
+      "name": "DeepSeek V3",
       "score": 0.871,
       "tiebreaker": 0.0,
       "composite_score": 0.3802,
       "benchmark_count": 10,
-      "intelligence_tier": "S",
+      "intelligence_tier": "F",
       "benchmarks": {
         "gpqa_diamond": 0.565,
         "mmlu": 0.871,
@@ -748,7 +662,7 @@
       }
     },
     {
-      "rank": 36,
+      "rank": 32,
       "model_id": "fireworks/deepseek-v3-0324",
       "provider": "fireworks",
       "name": "Deepseek V3 03-24",
@@ -771,7 +685,7 @@
       }
     },
     {
-      "rank": 37,
+      "rank": 33,
       "model_id": "ollama/deepseek-v2",
       "provider": "ollama",
       "name": "deepseek-v2",
@@ -794,7 +708,7 @@
       }
     },
     {
-      "rank": 38,
+      "rank": 34,
       "model_id": "ollama/deepseek-v3.1",
       "provider": "ollama",
       "name": "deepseek-v3.1",
@@ -817,7 +731,7 @@
       }
     },
     {
-      "rank": 39,
+      "rank": 35,
       "model_id": "ollama/deepseek-v2.5",
       "provider": "ollama",
       "name": "deepseek-v2.5",
@@ -840,7 +754,7 @@
       }
     },
     {
-      "rank": 40,
+      "rank": 36,
       "model_id": "xinference/deepseek",
       "provider": "xinference",
       "name": "deepseek",
@@ -863,7 +777,7 @@
       }
     },
     {
-      "rank": 41,
+      "rank": 37,
       "model_id": "xinference/DeepSeek-V3.2",
       "provider": "xinference",
       "name": "DeepSeek-V3.2",
@@ -886,7 +800,7 @@
       }
     },
     {
-      "rank": 42,
+      "rank": 38,
       "model_id": "openai/gpt-4-turbo-preview",
       "provider": "openai",
       "name": "gpt-4-turbo-preview",
@@ -906,7 +820,7 @@
       }
     },
     {
-      "rank": 43,
+      "rank": 39,
       "model_id": "openai/gpt-4",
       "provider": "openai",
       "name": "gpt-4",
@@ -926,43 +840,7 @@
       }
     },
     {
-      "rank": 44,
-      "model_id": "bedrock/meta.llama3-3-70b-instruct-v1:0:128k",
-      "provider": "bedrock",
-      "name": "Llama 3.3 70B Instruct",
-      "score": 0.863,
-      "tiebreaker": 0.0,
-      "composite_score": 0.3469,
-      "benchmark_count": 5,
-      "intelligence_tier": "S",
-      "benchmarks": {
-        "gpqa_diamond": 0.474,
-        "mmlu": 0.863,
-        "math_level_5": 0.416,
-        "otis_mock_aime_2024_2025": 0.051,
-        "simplebench": 0.199
-      }
-    },
-    {
-      "rank": 45,
-      "model_id": "bedrock/meta.llama3-3-70b-instruct-v1:0",
-      "provider": "bedrock",
-      "name": "Llama 3.3 70B Instruct",
-      "score": 0.863,
-      "tiebreaker": 0.0,
-      "composite_score": 0.3469,
-      "benchmark_count": 5,
-      "intelligence_tier": "S",
-      "benchmarks": {
-        "gpqa_diamond": 0.474,
-        "mmlu": 0.863,
-        "math_level_5": 0.416,
-        "otis_mock_aime_2024_2025": 0.051,
-        "simplebench": 0.199
-      }
-    },
-    {
-      "rank": 46,
+      "rank": 40,
       "model_id": "cerebras/Llama 3.3 70B",
       "provider": "cerebras",
       "name": "Llama 3.3 70B",
@@ -980,7 +858,7 @@
       }
     },
     {
-      "rank": 47,
+      "rank": 41,
       "model_id": "featherless/mlx-community/Llama-3.3-70B-Instruct-bf16",
       "provider": "featherless",
       "name": "mlx-community/Llama-3.3-70B-Instruct-bf16",
@@ -998,7 +876,7 @@
       }
     },
     {
-      "rank": 48,
+      "rank": 42,
       "model_id": "openai/o3-mini-2025-01-31",
       "provider": "openai",
       "name": "o3-mini-2025-01-31",
@@ -1020,7 +898,7 @@
       }
     },
     {
-      "rank": 49,
+      "rank": 43,
       "model_id": "azure/eu/o1-mini",
       "provider": "azure_openai",
       "name": "eu/o1-mini",
@@ -1036,7 +914,7 @@
       }
     },
     {
-      "rank": 50,
+      "rank": 44,
       "model_id": "vertex/publishers/microsoft/models/phi4",
       "provider": "vertex",
       "name": "publishers/microsoft/models/phi4",
@@ -1050,6 +928,116 @@
         "mmlu": 0.848,
         "math_level_5": 0.649,
         "otis_mock_aime_2024_2025": 0.138
+      }
+    },
+    {
+      "rank": 45,
+      "model_id": "deepinfra/microsoft/phi-4",
+      "provider": "deepinfra",
+      "name": "microsoft/phi-4",
+      "score": 0.848,
+      "tiebreaker": 0.0,
+      "composite_score": 0.5131,
+      "benchmark_count": 4,
+      "intelligence_tier": "S",
+      "benchmarks": {
+        "gpqa_diamond": 0.561,
+        "mmlu": 0.848,
+        "math_level_5": 0.649,
+        "otis_mock_aime_2024_2025": 0.138
+      }
+    },
+    {
+      "rank": 46,
+      "model_id": "nvidia_nim/meta/llama-3.1-405b-instruct",
+      "provider": "nvidia_nim",
+      "name": "meta/llama-3.1-405b-instruct",
+      "score": 0.844,
+      "tiebreaker": 0.0,
+      "composite_score": 0.4232,
+      "benchmark_count": 6,
+      "intelligence_tier": "S",
+      "benchmarks": {
+        "gpqa_diamond": 0.509,
+        "mmlu": 0.844,
+        "math_level_5": 0.498,
+        "otis_mock_aime_2024_2025": 0.097,
+        "simplebench": 0.23,
+        "trivia_qa": 0.827
+      }
+    },
+    {
+      "rank": 47,
+      "model_id": "snowflake/llama3.1-405b",
+      "provider": "snowflake",
+      "name": "llama3.1-405b",
+      "score": 0.844,
+      "tiebreaker": 0.0,
+      "composite_score": 0.4232,
+      "benchmark_count": 6,
+      "intelligence_tier": "S",
+      "benchmarks": {
+        "gpqa_diamond": 0.509,
+        "mmlu": 0.844,
+        "math_level_5": 0.498,
+        "otis_mock_aime_2024_2025": 0.097,
+        "simplebench": 0.23,
+        "trivia_qa": 0.827
+      }
+    },
+    {
+      "rank": 48,
+      "model_id": "qwen/qwen2.5-72b-instruct",
+      "provider": "qwen",
+      "name": "qwen/qwen2.5-72b-instruct",
+      "score": 0.834,
+      "tiebreaker": 0.0,
+      "composite_score": 0.4962,
+      "benchmark_count": 6,
+      "intelligence_tier": "S",
+      "benchmarks": {
+        "gpqa_diamond": 0.491,
+        "mmlu": 0.834,
+        "math_level_5": 0.632,
+        "otis_mock_aime_2024_2025": 0.081,
+        "trivia_qa": 0.719,
+        "arena_elo": 1302.0
+      }
+    },
+    {
+      "rank": 49,
+      "model_id": "novita/qwen/qwen-2.5-72b-instruct",
+      "provider": "novita",
+      "name": "Qwen 2.5 72B Instruct",
+      "score": 0.834,
+      "tiebreaker": 0.0,
+      "composite_score": 0.4962,
+      "benchmark_count": 6,
+      "intelligence_tier": "S",
+      "benchmarks": {
+        "gpqa_diamond": 0.491,
+        "mmlu": 0.834,
+        "math_level_5": 0.632,
+        "otis_mock_aime_2024_2025": 0.081,
+        "trivia_qa": 0.719,
+        "arena_elo": 1302.0
+      }
+    },
+    {
+      "rank": 50,
+      "model_id": "fireworks/qwen2-72b-instruct",
+      "provider": "fireworks",
+      "name": "Qwen2 72B Instruct",
+      "score": 0.824,
+      "tiebreaker": 0.0,
+      "composite_score": 0.4629,
+      "benchmark_count": 4,
+      "intelligence_tier": "F",
+      "benchmarks": {
+        "gpqa_diamond": 0.408,
+        "mmlu": 0.824,
+        "math_level_5": 0.391,
+        "arena_elo": 1262.0
       }
     }
   ]
