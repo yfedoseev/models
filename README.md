@@ -42,8 +42,8 @@ Combined with pricing from official API pages, this enables both performance ran
 |----------|-----|-----|-----|
 | **Arena ELO** | Gemini 3 Pro | Gemini 3 Flash | Claude Opus 4.5 |
 | **Coding (SWE-bench)** | Claude Opus 4.5 | Claude Sonnet 4.5 | gpt-5 |
-| **Reasoning** | o3 | o4-mini | o3-mini |
-| **Hard/Frontier** | o3-mini | o3 | Gemini 3 Pro |
+| **Reasoning** | Gemini 3 Pro | o3 | o3-mini |
+| **Hard/Frontier** | Gemini 3 Pro | Gemini 3 Flash | o3-mini |
 | **ROI: Coding** | gpt-5-nano | DeepSeek V3 | gpt-5-mini |
 
 *Full rankings: [docs/rankings.md](docs/rankings.md)*
