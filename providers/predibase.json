@@ -1,0 +1,76 @@
+{
+  "provider": "predibase",
+  "model_count": 6,
+  "models": [
+    {
+      "id": "predibase/llama-3-8b",
+      "name": "Llama 3 8B",
+      "provider": "predibase",
+      "model_id": "llama-3-8b",
+      "context_window": 8192,
+      "benchmarks": {
+        "gpqa_diamond": 2.125,
+        "ifeval": 24.013,
+        "bbh": 18.388,
+        "musr": 19.937
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "predibase/llama-3-70b",
+      "name": "Llama 3 70B",
+      "provider": "predibase",
+      "model_id": "llama-3-70b",
+      "context_window": 8192,
+      "model_type": "chat"
+    },
+    {
+      "id": "predibase/llama-3.1-8b",
+      "name": "Llama 3.1 8B",
+      "provider": "predibase",
+      "model_id": "llama-3.1-8b",
+      "context_window": 131072,
+      "benchmarks": {
+        "gpqa_diamond": 0.259,
+        "mmlu": 0.561,
+        "math_level_5": 0.229,
+        "gsm8k": 0.824,
+        "otis_mock_aime_2024_2025": 0.025
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "predibase/llama-3.1-70b",
+      "name": "Llama 3.1 70B",
+      "provider": "predibase",
+      "model_id": "llama-3.1-70b",
+      "context_window": 131072,
+      "benchmarks": {
+        "gpqa_diamond": 0.442,
+        "mmlu": 0.801,
+        "math_level_5": 0.367,
+        "otis_mock_aime_2024_2025": 0.036
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "predibase/mistral-7b",
+      "name": "Mistral 7B",
+      "provider": "predibase",
+      "model_id": "mistral-7b",
+      "context_window": 32768,
+      "benchmarks": {
+        "arena_elo": 1111.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "predibase/phi-3-mini",
+      "name": "Phi-3 Mini",
+      "provider": "predibase",
+      "model_id": "phi-3-mini",
+      "context_window": 128000,
+      "model_type": "chat"
+    }
+  ]
+}

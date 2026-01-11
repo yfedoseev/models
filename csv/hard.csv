@@ -1,0 +1,44 @@
+rank,name,provider,score
+1,o3-mini-2025-01-31,openai,0.4456
+2,o3-2025-04-16,openai,0.4456
+3,o4-mini-2025-04-16,openai,0.4299
+4,gemini-3-pro-preview,google,0.3475
+5,gemini-3-flash-preview,google,0.199
+6,Claude Opus 4.5,anthropic,0.1842
+7,moonshotai/Kimi-K2-Thinking,featherless,0.151
+8,Deepseek v3.2,fireworks,0.121
+9,deepseek-v2-chat,xinference,0.121
+10,grok-4-0709,xai,0.109
+11,google/gemini-2.5-pro,deepinfra,0.0915
+12,Claude Opus 4.1,anthropic,0.059
+13,Claude Sonnet 4.5,anthropic,0.057
+14,eu/gpt-4.1-mini,azure_openai,0.045
+15,google/gemini-2.5-flash,deepinfra,0.045
+16,Qwen/Qwen3-235B-A22B-Thinking-2507,deepinfra,0.0425
+17,Claude Haiku 4.5,anthropic,0.041
+18,Claude 3.7 Sonnet,bedrock,0.031
+19,zai-org/GLM-4.6,featherless,0.0295
+20,eu/gpt-4.1,azure_openai,0.0275
+21,Claude Opus 4,anthropic,0.0225
+22,Claude Sonnet 4,anthropic,0.0205
+23,deepseek-ai/DeepSeek-V3,deepinfra,0.017
+24,Deepseek V3 03-24,fireworks,0.017
+25,deepseek-v3.1,ollama,0.017
+26,deepseek-v2.5,ollama,0.017
+27,qwen/qwen-plus,qwen,0.017
+28,qwen/qwen-plus-latest,qwen,0.017
+29,publishers/google/models/gemini-2.0-flash-001,vertex,0.017
+30,deepseek,xinference,0.017
+31,Claude 3.5 Sonnet v2,bedrock,0.0105
+32,eu/gpt-4.1-nano,azure_openai,0.01
+33,qwen/qwen-max,qwen,0.01
+34,qwen/qwen-max-latest,qwen,0.01
+35,meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8,deepinfra,0.007
+36,Llama 4 Maverick 17B 128E meta-llama/llama-4-maverick-17b-128e-instruct,groq,0.007
+37,eu/gpt-4o,azure_openai,0.003
+38,Claude 3.5 Haiku,bedrock,0.003
+39,Mistral Large (24.02),bedrock,0.003
+40,mistral-large,crusoe,0.003
+41,mistral-large-latest,mistral,0.003
+42,mistral-medium-latest,mistral,0.003
+43,chatgpt-4o-latest,openai,0.003

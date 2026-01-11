@@ -1,0 +1,91 @@
+{
+  "provider": "yi",
+  "model_count": 8,
+  "models": [
+    {
+      "id": "yi/yi-lightning",
+      "name": "yi-lightning",
+      "provider": "yi",
+      "model_id": "yi-lightning",
+      "context_window": 16000,
+      "input_price_per_million": 0.99,
+      "output_price_per_million": 0.99,
+      "benchmarks": {
+        "aider_polyglot": 12.9,
+        "arena_elo": 1328.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "yi/yi-lightning-lite",
+      "name": "yi-lightning-lite",
+      "provider": "yi",
+      "model_id": "yi-lightning-lite",
+      "context_window": 16000,
+      "model_type": "chat"
+    },
+    {
+      "id": "yi/yi-large",
+      "name": "yi-large",
+      "provider": "yi",
+      "model_id": "yi-large",
+      "context_window": 32000,
+      "input_price_per_million": 3.0,
+      "output_price_per_million": 3.0,
+      "benchmarks": {
+        "mmlu": 0.793
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "yi/yi-large-turbo",
+      "name": "yi-large-turbo",
+      "provider": "yi",
+      "model_id": "yi-large-turbo",
+      "context_window": 16000,
+      "input_price_per_million": 1.0,
+      "output_price_per_million": 1.0,
+      "model_type": "chat"
+    },
+    {
+      "id": "yi/yi-medium",
+      "name": "yi-medium",
+      "provider": "yi",
+      "model_id": "yi-medium",
+      "context_window": 16000,
+      "input_price_per_million": 0.25,
+      "output_price_per_million": 0.25,
+      "model_type": "chat"
+    },
+    {
+      "id": "yi/yi-medium-200k",
+      "name": "yi-medium-200k",
+      "provider": "yi",
+      "model_id": "yi-medium-200k",
+      "context_window": 200000,
+      "input_price_per_million": 1.0,
+      "output_price_per_million": 1.0,
+      "model_type": "chat"
+    },
+    {
+      "id": "yi/yi-vision",
+      "name": "yi-vision",
+      "provider": "yi",
+      "model_id": "yi-vision",
+      "context_window": 4000,
+      "input_price_per_million": 0.5,
+      "output_price_per_million": 0.5,
+      "model_type": "vision"
+    },
+    {
+      "id": "yi/yi-coder",
+      "name": "yi-coder",
+      "provider": "yi",
+      "model_id": "yi-coder",
+      "context_window": 128000,
+      "input_price_per_million": 0.5,
+      "output_price_per_million": 0.5,
+      "model_type": "code"
+    }
+  ]
+}

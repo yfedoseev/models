@@ -1,0 +1,46 @@
+{
+  "provider": "databricks",
+  "model_count": 5,
+  "models": [
+    {
+      "id": "databricks/databricks-dbrx-instruct",
+      "name": "databricks-dbrx-instruct",
+      "provider": "databricks",
+      "model_id": "databricks-dbrx-instruct",
+      "context_window": 32768,
+      "model_type": "chat"
+    },
+    {
+      "id": "databricks/databricks-meta-llama-3-1-405b-instruct",
+      "name": "databricks-meta-llama-3-1-405b-instruct",
+      "provider": "databricks",
+      "model_id": "databricks-meta-llama-3-1-405b-instruct",
+      "context_window": 131072,
+      "model_type": "chat"
+    },
+    {
+      "id": "databricks/databricks-meta-llama-3-1-70b-instruct",
+      "name": "databricks-meta-llama-3-1-70b-instruct",
+      "provider": "databricks",
+      "model_id": "databricks-meta-llama-3-1-70b-instruct",
+      "context_window": 131072,
+      "model_type": "chat"
+    },
+    {
+      "id": "databricks/databricks-mixtral-8x7b-instruct",
+      "name": "databricks-mixtral-8x7b-instruct",
+      "provider": "databricks",
+      "model_id": "databricks-mixtral-8x7b-instruct",
+      "context_window": 32768,
+      "model_type": "chat"
+    },
+    {
+      "id": "databricks/databricks-bge-large-en",
+      "name": "databricks-bge-large-en",
+      "provider": "databricks",
+      "model_id": "databricks-bge-large-en",
+      "context_window": 512,
+      "model_type": "embedding"
+    }
+  ]
+}

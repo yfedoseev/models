@@ -1,0 +1,50 @@
+{
+  "provider": "cerebrium",
+  "model_count": 4,
+  "models": [
+    {
+      "id": "cerebrium/llama-3.1-70b",
+      "name": "llama-3.1-70b",
+      "provider": "cerebrium",
+      "model_id": "llama-3.1-70b",
+      "context_window": 131072,
+      "benchmarks": {
+        "gpqa_diamond": 0.442,
+        "mmlu": 0.801,
+        "math_level_5": 0.367,
+        "otis_mock_aime_2024_2025": 0.036
+      }
+    },
+    {
+      "id": "cerebrium/llama-3.1-8b",
+      "name": "llama-3.1-8b",
+      "provider": "cerebrium",
+      "model_id": "llama-3.1-8b",
+      "context_window": 131072,
+      "benchmarks": {
+        "gpqa_diamond": 0.259,
+        "mmlu": 0.561,
+        "math_level_5": 0.229,
+        "gsm8k": 0.824,
+        "otis_mock_aime_2024_2025": 0.025
+      }
+    },
+    {
+      "id": "cerebrium/mistral-7b",
+      "name": "mistral-7b",
+      "provider": "cerebrium",
+      "model_id": "mistral-7b",
+      "context_window": 32768,
+      "benchmarks": {
+        "arena_elo": 1111.0
+      }
+    },
+    {
+      "id": "cerebrium/mixtral-8x7b",
+      "name": "mixtral-8x7b",
+      "provider": "cerebrium",
+      "model_id": "mixtral-8x7b",
+      "context_window": 32768
+    }
+  ]
+}

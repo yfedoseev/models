@@ -1,0 +1,114 @@
+{
+  "provider": "cerebras",
+  "model_count": 7,
+  "models": [
+    {
+      "id": "cerebras/ZAI GLM 4.7*",
+      "name": "ZAI GLM 4.7*",
+      "provider": "cerebras",
+      "model_id": "ZAI GLM 4.7*",
+      "input_price_per_million": 1000.0,
+      "output_price_per_million": 2.25,
+      "model_type": "unknown"
+    },
+    {
+      "id": "cerebras/ZAI GLM 4.6**",
+      "name": "ZAI GLM 4.6**",
+      "provider": "cerebras",
+      "model_id": "ZAI GLM 4.6**",
+      "input_price_per_million": 1000.0,
+      "output_price_per_million": 2.25,
+      "model_type": "unknown"
+    },
+    {
+      "id": "cerebras/GPT OSS 120B",
+      "name": "GPT OSS 120B",
+      "provider": "cerebras",
+      "model_id": "GPT OSS 120B",
+      "input_price_per_million": 3000.0,
+      "output_price_per_million": 0.35,
+      "benchmarks": {
+        "simplebench": 0.221,
+        "arena_elo": 1353.0,
+        "livebench_global": 48.66,
+        "livebench_reasoning": 39.21,
+        "livebench_coding": 60.21,
+        "livebench_agentic_coding": 16.67,
+        "livebench_math": 68.87,
+        "livebench_data_analysis": 56.77,
+        "livebench_language": 48.59,
+        "livebench_ifeval": 50.29
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "cerebras/Llama 3.1 8B",
+      "name": "Llama 3.1 8B",
+      "provider": "cerebras",
+      "model_id": "Llama 3.1 8B",
+      "input_price_per_million": 2200.0,
+      "output_price_per_million": 0.1,
+      "benchmarks": {
+        "gpqa_diamond": 0.259,
+        "mmlu": 0.561,
+        "math_level_5": 0.229,
+        "gsm8k": 0.824,
+        "otis_mock_aime_2024_2025": 0.025
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "cerebras/Llama 3.3 70B",
+      "name": "Llama 3.3 70B",
+      "provider": "cerebras",
+      "model_id": "Llama 3.3 70B",
+      "input_price_per_million": 2100.0,
+      "output_price_per_million": 0.85,
+      "benchmarks": {
+        "gpqa_diamond": 0.474,
+        "mmlu": 0.863,
+        "math_level_5": 0.416,
+        "otis_mock_aime_2024_2025": 0.051,
+        "simplebench": 0.199
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "cerebras/Qwen 3 32B",
+      "name": "Qwen 3 32B",
+      "provider": "cerebras",
+      "model_id": "Qwen 3 32B",
+      "input_price_per_million": 2600.0,
+      "output_price_per_million": 0.4,
+      "benchmarks": {
+        "aider_polyglot": 40.0,
+        "arena_elo": 1345.0,
+        "livebench_global": 46.67,
+        "livebench_reasoning": 48.25,
+        "livebench_coding": 66.03,
+        "livebench_agentic_coding": 3.33,
+        "livebench_math": 67.44,
+        "livebench_data_analysis": 68.29,
+        "livebench_language": 55.54,
+        "livebench_ifeval": 17.77
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "cerebras/Qwen 3 235B Instruct*",
+      "name": "Qwen 3 235B Instruct*",
+      "provider": "cerebras",
+      "model_id": "Qwen 3 235B Instruct*",
+      "input_price_per_million": 1400.0,
+      "output_price_per_million": 0.6,
+      "benchmarks": {
+        "gpqa_diamond": 0.707,
+        "math_level_5": 0.689,
+        "aider_polyglot": 59.6,
+        "simplebench": 0.31,
+        "arena_elo": 1374.0
+      },
+      "model_type": "chat"
+    }
+  ]
+}

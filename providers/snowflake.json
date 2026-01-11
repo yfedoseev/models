@@ -1,0 +1,180 @@
+{
+  "provider": "snowflake",
+  "model_count": 12,
+  "models": [
+    {
+      "id": "snowflake/claude-4-opus",
+      "name": "claude-4-opus",
+      "provider": "snowflake",
+      "model_id": "claude-4-opus",
+      "context_window": 200000,
+      "benchmarks": {
+        "gpqa_diamond": 0.692,
+        "math_level_5": 0.85,
+        "otis_mock_aime_2024_2025": 0.422,
+        "frontiermath": 0.045,
+        "aider_polyglot": 70.7,
+        "frontiermath_tier_4": 0.0,
+        "swe_bench_verified": 0.622,
+        "deep_research_bench": 0.563,
+        "terminal_bench": 0.453,
+        "swe_bench": 0.622
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "snowflake/claude-4-sonnet",
+      "name": "claude-4-sonnet",
+      "provider": "snowflake",
+      "model_id": "claude-4-sonnet",
+      "context_window": 200000,
+      "benchmarks": {
+        "gpqa_diamond": 0.667,
+        "math_level_5": 0.844,
+        "otis_mock_aime_2024_2025": 0.289,
+        "frontiermath": 0.041,
+        "aider_polyglot": 56.4,
+        "frontiermath_tier_4": 0.0,
+        "swe_bench_verified": 0.606,
+        "terminal_bench": 0.548,
+        "swe_bench": 0.606,
+        "livebench_global": 53.93,
+        "livebench_reasoning": 39.67,
+        "livebench_coding": 80.74,
+        "livebench_agentic_coding": 38.33,
+        "livebench_math": 60.36,
+        "livebench_data_analysis": 64.68,
+        "livebench_language": 71.01,
+        "livebench_ifeval": 22.68
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "snowflake/claude-3-5-sonnet",
+      "name": "claude-3-5-sonnet",
+      "provider": "snowflake",
+      "model_id": "claude-3-5-sonnet",
+      "context_window": 200000,
+      "benchmarks": {
+        "gpqa_diamond": 0.54,
+        "mmlu": 0.873,
+        "math_level_5": 0.517,
+        "otis_mock_aime_2024_2025": 0.085,
+        "frontiermath": 0.021,
+        "aider_polyglot": 51.6,
+        "simplebench": 0.275,
+        "frontiermath_tier_4": 0.0,
+        "swe_bench_verified": 0.406
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "snowflake/mistral-large2",
+      "name": "mistral-large2",
+      "provider": "snowflake",
+      "model_id": "mistral-large2",
+      "context_window": 131072,
+      "model_type": "chat"
+    },
+    {
+      "id": "snowflake/mistral-large",
+      "name": "mistral-large",
+      "provider": "snowflake",
+      "model_id": "mistral-large",
+      "context_window": 32768,
+      "benchmarks": {
+        "gpqa_diamond": 0.49,
+        "mmlu": 0.8,
+        "math_level_5": 0.245,
+        "otis_mock_aime_2024_2025": 0.085,
+        "frontiermath": 0.003,
+        "simplebench": 0.225,
+        "arena_elo": 1242.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "snowflake/mixtral-8x7b",
+      "name": "mixtral-8x7b",
+      "provider": "snowflake",
+      "model_id": "mixtral-8x7b",
+      "context_window": 32768,
+      "model_type": "chat"
+    },
+    {
+      "id": "snowflake/llama3.1-405b",
+      "name": "llama3.1-405b",
+      "provider": "snowflake",
+      "model_id": "llama3.1-405b",
+      "context_window": 131072,
+      "benchmarks": {
+        "gpqa_diamond": 0.509,
+        "mmlu": 0.844,
+        "math_level_5": 0.498,
+        "otis_mock_aime_2024_2025": 0.097,
+        "simplebench": 0.23,
+        "trivia_qa": 0.827
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "snowflake/llama3.1-70b",
+      "name": "llama3.1-70b",
+      "provider": "snowflake",
+      "model_id": "llama3.1-70b",
+      "context_window": 131072,
+      "benchmarks": {
+        "gpqa_diamond": 0.442,
+        "mmlu": 0.801,
+        "math_level_5": 0.367,
+        "otis_mock_aime_2024_2025": 0.036
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "snowflake/llama3.1-8b",
+      "name": "llama3.1-8b",
+      "provider": "snowflake",
+      "model_id": "llama3.1-8b",
+      "context_window": 131072,
+      "benchmarks": {
+        "gpqa_diamond": 0.259,
+        "mmlu": 0.561,
+        "math_level_5": 0.229,
+        "gsm8k": 0.824,
+        "otis_mock_aime_2024_2025": 0.025
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "snowflake/snowflake-arctic",
+      "name": "snowflake-arctic",
+      "provider": "snowflake",
+      "model_id": "snowflake-arctic",
+      "context_window": 4096,
+      "model_type": "chat"
+    },
+    {
+      "id": "snowflake/reka-core",
+      "name": "reka-core",
+      "provider": "snowflake",
+      "model_id": "reka-core",
+      "context_window": 131072,
+      "benchmarks": {
+        "arena_elo": 1287.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "snowflake/jamba-1.5-large",
+      "name": "jamba-1.5-large",
+      "provider": "snowflake",
+      "model_id": "jamba-1.5-large",
+      "context_window": 256000,
+      "benchmarks": {
+        "arena_elo": 1289.0
+      },
+      "model_type": "chat"
+    }
+  ]
+}

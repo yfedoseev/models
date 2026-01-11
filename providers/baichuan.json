@@ -1,0 +1,56 @@
+{
+  "provider": "baichuan",
+  "model_count": 5,
+  "models": [
+    {
+      "id": "baichuan/Baichuan4",
+      "name": "Baichuan4",
+      "provider": "baichuan",
+      "model_id": "Baichuan4",
+      "context_window": 32000,
+      "input_price_per_million": 1.4,
+      "output_price_per_million": 1.4,
+      "model_type": "chat"
+    },
+    {
+      "id": "baichuan/Baichuan4-Turbo",
+      "name": "Baichuan4-Turbo",
+      "provider": "baichuan",
+      "model_id": "Baichuan4-Turbo",
+      "context_window": 32000,
+      "input_price_per_million": 0.7,
+      "output_price_per_million": 0.7,
+      "model_type": "chat"
+    },
+    {
+      "id": "baichuan/Baichuan4-Air",
+      "name": "Baichuan4-Air",
+      "provider": "baichuan",
+      "model_id": "Baichuan4-Air",
+      "context_window": 32000,
+      "input_price_per_million": 0.14,
+      "output_price_per_million": 0.14,
+      "model_type": "chat"
+    },
+    {
+      "id": "baichuan/Baichuan3-Turbo",
+      "name": "Baichuan3-Turbo",
+      "provider": "baichuan",
+      "model_id": "Baichuan3-Turbo",
+      "context_window": 32000,
+      "input_price_per_million": 0.17,
+      "output_price_per_million": 0.17,
+      "model_type": "chat"
+    },
+    {
+      "id": "baichuan/Baichuan3-Turbo-128K",
+      "name": "Baichuan3-Turbo-128K",
+      "provider": "baichuan",
+      "model_id": "Baichuan3-Turbo-128K",
+      "context_window": 128000,
+      "input_price_per_million": 0.7,
+      "output_price_per_million": 0.7,
+      "model_type": "chat"
+    }
+  ]
+}

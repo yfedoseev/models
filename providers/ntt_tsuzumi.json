@@ -1,0 +1,30 @@
+{
+  "provider": "ntt_tsuzumi",
+  "model_count": 3,
+  "models": [
+    {
+      "id": "ntt_tsuzumi/tsuzumi-600m",
+      "name": "tsuzumi-600m",
+      "provider": "ntt_tsuzumi",
+      "model_id": "tsuzumi-600m",
+      "context_window": 4096,
+      "model_type": "chat"
+    },
+    {
+      "id": "ntt_tsuzumi/tsuzumi-7b",
+      "name": "tsuzumi-7b",
+      "provider": "ntt_tsuzumi",
+      "model_id": "tsuzumi-7b",
+      "context_window": 8192,
+      "model_type": "chat"
+    },
+    {
+      "id": "ntt_tsuzumi/tsuzumi-2",
+      "name": "tsuzumi-2",
+      "provider": "ntt_tsuzumi",
+      "model_id": "tsuzumi-2",
+      "context_window": 8192,
+      "model_type": "chat"
+    }
+  ]
+}

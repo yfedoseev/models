@@ -1,0 +1,181 @@
+{
+  "provider": "localai",
+  "model_count": 29,
+  "models": [
+    {
+      "id": "localai/qwen3-vl-reranker-8b",
+      "name": "qwen3-vl-reranker-8b",
+      "provider": "localai",
+      "model_id": "qwen3-vl-reranker-8b"
+    },
+    {
+      "id": "localai/liquidai.lfm2-2.6b-transcript",
+      "name": "liquidai.lfm2-2.6b-transcript",
+      "provider": "localai",
+      "model_id": "liquidai.lfm2-2.6b-transcript"
+    },
+    {
+      "id": "localai/lfm2.5-1.2b-nova-function-calling",
+      "name": "lfm2.5-1.2b-nova-function-calling",
+      "provider": "localai",
+      "model_id": "lfm2.5-1.2b-nova-function-calling"
+    },
+    {
+      "id": "localai/mistral-nemo-instruct-2407-12b-thinking-m-claude-opus-high-reasoning-i1",
+      "name": "mistral-nemo-instruct-2407-12b-thinking-m-claude-opus-high-reasoning-i1",
+      "provider": "localai",
+      "model_id": "mistral-nemo-instruct-2407-12b-thinking-m-claude-opus-high-reasoning-i1",
+      "context_window": 32768
+    },
+    {
+      "id": "localai/rwkv7-g1c-13.3b",
+      "name": "rwkv7-g1c-13.3b",
+      "provider": "localai",
+      "model_id": "rwkv7-g1c-13.3b"
+    },
+    {
+      "id": "localai/iquest-coder-v1-40b-instruct-i1",
+      "name": "iquest-coder-v1-40b-instruct-i1",
+      "provider": "localai",
+      "model_id": "iquest-coder-v1-40b-instruct-i1"
+    },
+    {
+      "id": "localai/onerec-8b",
+      "name": "onerec-8b",
+      "provider": "localai",
+      "model_id": "onerec-8b"
+    },
+    {
+      "id": "localai/minimax-m2.1-i1",
+      "name": "minimax-m2.1-i1",
+      "provider": "localai",
+      "model_id": "minimax-m2.1-i1"
+    },
+    {
+      "id": "localai/tildeopen-30b-instruct-lv-i1",
+      "name": "tildeopen-30b-instruct-lv-i1",
+      "provider": "localai",
+      "model_id": "tildeopen-30b-instruct-lv-i1"
+    },
+    {
+      "id": "localai/allenai_olmo-3.1-32b-think",
+      "name": "allenai_olmo-3.1-32b-think",
+      "provider": "localai",
+      "model_id": "allenai_olmo-3.1-32b-think"
+    },
+    {
+      "id": "localai/huihui-glm-4.6v-flash-abliterated",
+      "name": "huihui-glm-4.6v-flash-abliterated",
+      "provider": "localai",
+      "model_id": "huihui-glm-4.6v-flash-abliterated"
+    },
+    {
+      "id": "localai/qwen3-coder-30b-a3b-instruct-rtpurbo-i1",
+      "name": "qwen3-coder-30b-a3b-instruct-rtpurbo-i1",
+      "provider": "localai",
+      "model_id": "qwen3-coder-30b-a3b-instruct-rtpurbo-i1"
+    },
+    {
+      "id": "localai/glm-4.5v-i1",
+      "name": "glm-4.5v-i1",
+      "provider": "localai",
+      "model_id": "glm-4.5v-i1"
+    },
+    {
+      "id": "localai/kokoro",
+      "name": "kokoro",
+      "provider": "localai",
+      "model_id": "kokoro"
+    },
+    {
+      "id": "localai/kitten-tts",
+      "name": "kitten-tts",
+      "provider": "localai",
+      "model_id": "kitten-tts"
+    },
+    {
+      "id": "localai/chatterbox",
+      "name": "chatterbox",
+      "provider": "localai",
+      "model_id": "chatterbox"
+    },
+    {
+      "id": "localai/dia",
+      "name": "dia",
+      "provider": "localai",
+      "model_id": "dia"
+    },
+    {
+      "id": "localai/outetts",
+      "name": "outetts",
+      "provider": "localai",
+      "model_id": "outetts"
+    },
+    {
+      "id": "localai/dream-org_dream-v0-instruct-7b",
+      "name": "dream-org_dream-v0-instruct-7b",
+      "provider": "localai",
+      "model_id": "dream-org_dream-v0-instruct-7b"
+    },
+    {
+      "id": "localai/jina-reranker-v1-tiny-en",
+      "name": "jina-reranker-v1-tiny-en",
+      "provider": "localai",
+      "model_id": "jina-reranker-v1-tiny-en"
+    },
+    {
+      "id": "localai/granite-embedding-107m-multilingual",
+      "name": "granite-embedding-107m-multilingual",
+      "provider": "localai",
+      "model_id": "granite-embedding-107m-multilingual"
+    },
+    {
+      "id": "localai/granite-embedding-125m-english",
+      "name": "granite-embedding-125m-english",
+      "provider": "localai",
+      "model_id": "granite-embedding-125m-english"
+    },
+    {
+      "id": "localai/moe-girl-1ba-7bt-i1",
+      "name": "moe-girl-1ba-7bt-i1",
+      "provider": "localai",
+      "model_id": "moe-girl-1ba-7bt-i1"
+    },
+    {
+      "id": "localai/salamandra-7b-instruct",
+      "name": "salamandra-7b-instruct",
+      "provider": "localai",
+      "model_id": "salamandra-7b-instruct"
+    },
+    {
+      "id": "localai/archangel_sft_pythia2-8b",
+      "name": "archangel_sft_pythia2-8b",
+      "provider": "localai",
+      "model_id": "archangel_sft_pythia2-8b"
+    },
+    {
+      "id": "localai/einstein-v4-7b",
+      "name": "einstein-v4-7b",
+      "provider": "localai",
+      "model_id": "einstein-v4-7b"
+    },
+    {
+      "id": "localai/internlm2_5-7b-chat-1m",
+      "name": "internlm2_5-7b-chat-1m",
+      "provider": "localai",
+      "model_id": "internlm2_5-7b-chat-1m"
+    },
+    {
+      "id": "localai/internlm3-8b-instruct",
+      "name": "internlm3-8b-instruct",
+      "provider": "localai",
+      "model_id": "internlm3-8b-instruct"
+    },
+    {
+      "id": "localai/nomic-embed-text-v1.5",
+      "name": "nomic-embed-text-v1.5",
+      "provider": "localai",
+      "model_id": "nomic-embed-text-v1.5"
+    }
+  ]
+}

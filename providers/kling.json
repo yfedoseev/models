@@ -1,0 +1,48 @@
+{
+  "provider": "kling",
+  "model_count": 6,
+  "models": [
+    {
+      "id": "kling/kling-2.6",
+      "name": "Kling 2.6",
+      "provider": "kling",
+      "model_id": "kling-2.6",
+      "model_type": "video_gen"
+    },
+    {
+      "id": "kling/kling-2.1",
+      "name": "Kling 2.1",
+      "provider": "kling",
+      "model_id": "kling-2.1",
+      "model_type": "video_gen"
+    },
+    {
+      "id": "kling/kling-2.0",
+      "name": "Kling 2.0",
+      "provider": "kling",
+      "model_id": "kling-2.0",
+      "model_type": "video_gen"
+    },
+    {
+      "id": "kling/kling-1.6",
+      "name": "Kling 1.6",
+      "provider": "kling",
+      "model_id": "kling-1.6",
+      "model_type": "video_gen"
+    },
+    {
+      "id": "kling/kling-video-o1",
+      "name": "Kling Video O1",
+      "provider": "kling",
+      "model_id": "kling-video-o1",
+      "model_type": "video_gen"
+    },
+    {
+      "id": "kling/kling-image-o1",
+      "name": "Kling Image O1",
+      "provider": "kling",
+      "model_id": "kling-image-o1",
+      "model_type": "image_gen"
+    }
+  ]
+}

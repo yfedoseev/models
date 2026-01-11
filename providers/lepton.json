@@ -1,0 +1,99 @@
+{
+  "provider": "lepton",
+  "model_count": 7,
+  "models": [
+    {
+      "id": "lepton/llama-3.3-70b",
+      "name": "llama-3.3-70b",
+      "provider": "lepton",
+      "model_id": "llama-3.3-70b",
+      "context_window": 131072,
+      "benchmarks": {
+        "gpqa_diamond": 0.474,
+        "mmlu": 0.863,
+        "math_level_5": 0.416,
+        "otis_mock_aime_2024_2025": 0.051,
+        "simplebench": 0.199
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "lepton/llama-3.1-405b",
+      "name": "llama-3.1-405b",
+      "provider": "lepton",
+      "model_id": "llama-3.1-405b",
+      "context_window": 131072,
+      "benchmarks": {
+        "gpqa_diamond": 0.509,
+        "mmlu": 0.844,
+        "math_level_5": 0.498,
+        "otis_mock_aime_2024_2025": 0.097,
+        "simplebench": 0.23,
+        "trivia_qa": 0.827
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "lepton/llama-3.1-70b",
+      "name": "llama-3.1-70b",
+      "provider": "lepton",
+      "model_id": "llama-3.1-70b",
+      "context_window": 131072,
+      "benchmarks": {
+        "gpqa_diamond": 0.442,
+        "mmlu": 0.801,
+        "math_level_5": 0.367,
+        "otis_mock_aime_2024_2025": 0.036
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "lepton/llama-3.1-8b",
+      "name": "llama-3.1-8b",
+      "provider": "lepton",
+      "model_id": "llama-3.1-8b",
+      "context_window": 131072,
+      "benchmarks": {
+        "gpqa_diamond": 0.259,
+        "mmlu": 0.561,
+        "math_level_5": 0.229,
+        "gsm8k": 0.824,
+        "otis_mock_aime_2024_2025": 0.025
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "lepton/mixtral-8x7b",
+      "name": "mixtral-8x7b",
+      "provider": "lepton",
+      "model_id": "mixtral-8x7b",
+      "context_window": 32768,
+      "model_type": "chat"
+    },
+    {
+      "id": "lepton/mistral-7b",
+      "name": "mistral-7b",
+      "provider": "lepton",
+      "model_id": "mistral-7b",
+      "context_window": 32768,
+      "benchmarks": {
+        "arena_elo": 1111.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "lepton/qwen2-72b",
+      "name": "qwen2-72b",
+      "provider": "lepton",
+      "model_id": "qwen2-72b",
+      "context_window": 131072,
+      "benchmarks": {
+        "gpqa_diamond": 0.408,
+        "mmlu": 0.824,
+        "math_level_5": 0.391,
+        "arena_elo": 1262.0
+      },
+      "model_type": "chat"
+    }
+  ]
+}

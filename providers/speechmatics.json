@@ -1,0 +1,29 @@
+{
+  "provider": "speechmatics",
+  "model_count": 3,
+  "models": [
+    {
+      "id": "speechmatics/stt-batch",
+      "name": "stt-batch",
+      "provider": "speechmatics",
+      "model_id": "stt-batch",
+      "input_price_per_million": 600.0,
+      "model_type": "audio"
+    },
+    {
+      "id": "speechmatics/stt-realtime",
+      "name": "stt-realtime",
+      "provider": "speechmatics",
+      "model_id": "stt-realtime",
+      "input_price_per_million": 720.0,
+      "model_type": "audio"
+    },
+    {
+      "id": "speechmatics/tts",
+      "name": "tts",
+      "provider": "speechmatics",
+      "model_id": "tts",
+      "model_type": "audio"
+    }
+  ]
+}

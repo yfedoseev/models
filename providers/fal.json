@@ -1,0 +1,62 @@
+{
+  "provider": "fal",
+  "model_count": 8,
+  "models": [
+    {
+      "id": "fal/Wan 2.5",
+      "name": "Wan 2.5",
+      "provider": "fal",
+      "model_id": null,
+      "model_type": "unknown"
+    },
+    {
+      "id": "fal/Kling 2.5 Turbo Pro",
+      "name": "Kling 2.5 Turbo Pro",
+      "provider": "fal",
+      "model_id": null,
+      "model_type": "unknown"
+    },
+    {
+      "id": "fal/Veo 3",
+      "name": "Veo 3",
+      "provider": "fal",
+      "model_id": null,
+      "model_type": "unknown"
+    },
+    {
+      "id": "fal/Ovi",
+      "name": "Ovi",
+      "provider": "fal",
+      "model_id": null,
+      "model_type": "unknown"
+    },
+    {
+      "id": "fal/Seedream V4",
+      "name": "Seedream V4",
+      "provider": "fal",
+      "model_id": null,
+      "model_type": "unknown"
+    },
+    {
+      "id": "fal/Flux Kontext Pro",
+      "name": "Flux Kontext Pro",
+      "provider": "fal",
+      "model_id": null,
+      "model_type": "unknown"
+    },
+    {
+      "id": "fal/Nanobanana",
+      "name": "Nanobanana",
+      "provider": "fal",
+      "model_id": null,
+      "model_type": "unknown"
+    },
+    {
+      "id": "fal/Qwen",
+      "name": "Qwen",
+      "provider": "fal",
+      "model_id": null,
+      "model_type": "unknown"
+    }
+  ]
+}

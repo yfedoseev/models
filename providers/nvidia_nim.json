@@ -1,0 +1,1450 @@
+{
+  "provider": "nvidia_nim",
+  "model_count": 180,
+  "models": [
+    {
+      "id": "nvidia_nim/01-ai/yi-large",
+      "name": "01-ai/yi-large",
+      "provider": "nvidia_nim",
+      "model_id": "01-ai/yi-large",
+      "benchmarks": {
+        "mmlu": 0.793
+      }
+    },
+    {
+      "id": "nvidia_nim/abacusai/dracarys-llama-3.1-70b-instruct",
+      "name": "abacusai/dracarys-llama-3.1-70b-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "abacusai/dracarys-llama-3.1-70b-instruct"
+    },
+    {
+      "id": "nvidia_nim/adept/fuyu-8b",
+      "name": "adept/fuyu-8b",
+      "provider": "nvidia_nim",
+      "model_id": "adept/fuyu-8b"
+    },
+    {
+      "id": "nvidia_nim/ai21labs/jamba-1.5-large-instruct",
+      "name": "ai21labs/jamba-1.5-large-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "ai21labs/jamba-1.5-large-instruct",
+      "benchmarks": {
+        "arena_elo": 1289.0
+      }
+    },
+    {
+      "id": "nvidia_nim/ai21labs/jamba-1.5-mini-instruct",
+      "name": "ai21labs/jamba-1.5-mini-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "ai21labs/jamba-1.5-mini-instruct",
+      "benchmarks": {
+        "arena_elo": 1239.0
+      }
+    },
+    {
+      "id": "nvidia_nim/aisingapore/sea-lion-7b-instruct",
+      "name": "aisingapore/sea-lion-7b-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "aisingapore/sea-lion-7b-instruct"
+    },
+    {
+      "id": "nvidia_nim/baai/bge-m3",
+      "name": "baai/bge-m3",
+      "provider": "nvidia_nim",
+      "model_id": "baai/bge-m3"
+    },
+    {
+      "id": "nvidia_nim/baichuan-inc/baichuan2-13b-chat",
+      "name": "baichuan-inc/baichuan2-13b-chat",
+      "provider": "nvidia_nim",
+      "model_id": "baichuan-inc/baichuan2-13b-chat",
+      "benchmarks": {
+        "mmlu": 0.501,
+        "gsm8k": 0.233
+      }
+    },
+    {
+      "id": "nvidia_nim/bigcode/starcoder2-15b",
+      "name": "bigcode/starcoder2-15b",
+      "provider": "nvidia_nim",
+      "model_id": "bigcode/starcoder2-15b",
+      "benchmarks": {
+        "mmlu": 0.641,
+        "gsm8k": 0.577
+      }
+    },
+    {
+      "id": "nvidia_nim/bigcode/starcoder2-7b",
+      "name": "bigcode/starcoder2-7b",
+      "provider": "nvidia_nim",
+      "model_id": "bigcode/starcoder2-7b",
+      "benchmarks": {
+        "mmlu": 0.388,
+        "gsm8k": 0.327
+      }
+    },
+    {
+      "id": "nvidia_nim/bytedance/seed-oss-36b-instruct",
+      "name": "bytedance/seed-oss-36b-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "bytedance/seed-oss-36b-instruct"
+    },
+    {
+      "id": "nvidia_nim/databricks/dbrx-instruct",
+      "name": "databricks/dbrx-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "databricks/dbrx-instruct",
+      "benchmarks": {
+        "gpqa_diamond": 0.329,
+        "math_level_5": 0.117,
+        "arena_elo": 1196.0
+      }
+    },
+    {
+      "id": "nvidia_nim/deepseek-ai/deepseek-coder-6.7b-instruct",
+      "name": "deepseek-ai/deepseek-coder-6.7b-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "deepseek-ai/deepseek-coder-6.7b-instruct"
+    },
+    {
+      "id": "nvidia_nim/deepseek-ai/deepseek-r1",
+      "name": "deepseek-ai/deepseek-r1",
+      "provider": "nvidia_nim",
+      "model_id": "deepseek-ai/deepseek-r1",
+      "benchmarks": {
+        "gpqa_diamond": 0.692,
+        "math_level_5": 0.931,
+        "otis_mock_aime_2024_2025": 0.533,
+        "aider_polyglot": 56.9,
+        "simplebench": 0.309,
+        "simpleqa_verified": 0.274,
+        "swe_bench_verified": 0.333,
+        "arena_elo": 1396.0
+      }
+    },
+    {
+      "id": "nvidia_nim/deepseek-ai/deepseek-r1-0528",
+      "name": "deepseek-ai/deepseek-r1-0528",
+      "provider": "nvidia_nim",
+      "model_id": "deepseek-ai/deepseek-r1-0528",
+      "benchmarks": {
+        "gpqa_diamond": 0.692,
+        "math_level_5": 0.931,
+        "otis_mock_aime_2024_2025": 0.533,
+        "aider_polyglot": 56.9,
+        "simplebench": 0.309,
+        "simpleqa_verified": 0.274,
+        "swe_bench_verified": 0.333,
+        "arena_elo": 1396.0
+      }
+    },
+    {
+      "id": "nvidia_nim/deepseek-ai/deepseek-r1-distill-llama-8b",
+      "name": "deepseek-ai/deepseek-r1-distill-llama-8b",
+      "provider": "nvidia_nim",
+      "model_id": "deepseek-ai/deepseek-r1-distill-llama-8b"
+    },
+    {
+      "id": "nvidia_nim/deepseek-ai/deepseek-r1-distill-qwen-14b",
+      "name": "deepseek-ai/deepseek-r1-distill-qwen-14b",
+      "provider": "nvidia_nim",
+      "model_id": "deepseek-ai/deepseek-r1-distill-qwen-14b",
+      "benchmarks": {
+        "gpqa_diamond": 0.447,
+        "math_level_5": 0.871
+      }
+    },
+    {
+      "id": "nvidia_nim/deepseek-ai/deepseek-r1-distill-qwen-32b",
+      "name": "deepseek-ai/deepseek-r1-distill-qwen-32b",
+      "provider": "nvidia_nim",
+      "model_id": "deepseek-ai/deepseek-r1-distill-qwen-32b"
+    },
+    {
+      "id": "nvidia_nim/deepseek-ai/deepseek-r1-distill-qwen-7b",
+      "name": "deepseek-ai/deepseek-r1-distill-qwen-7b",
+      "provider": "nvidia_nim",
+      "model_id": "deepseek-ai/deepseek-r1-distill-qwen-7b"
+    },
+    {
+      "id": "nvidia_nim/deepseek-ai/deepseek-v3.1",
+      "name": "deepseek-ai/deepseek-v3.1",
+      "provider": "nvidia_nim",
+      "model_id": "deepseek-ai/deepseek-v3.1"
+    },
+    {
+      "id": "nvidia_nim/deepseek-ai/deepseek-v3.1-terminus",
+      "name": "deepseek-ai/deepseek-v3.1-terminus",
+      "provider": "nvidia_nim",
+      "model_id": "deepseek-ai/deepseek-v3.1-terminus",
+      "benchmarks": {
+        "arena_elo": 1415.0
+      }
+    },
+    {
+      "id": "nvidia_nim/deepseek-ai/deepseek-v3.2",
+      "name": "deepseek-ai/deepseek-v3.2",
+      "provider": "nvidia_nim",
+      "model_id": "deepseek-ai/deepseek-v3.2",
+      "benchmarks": {
+        "aider_polyglot": 70.2,
+        "arena_elo": 1423.0,
+        "livebench_global": 52.82,
+        "livebench_reasoning": 45.5,
+        "livebench_coding": 73.19,
+        "livebench_agentic_coding": 36.67,
+        "livebench_math": 64.38,
+        "livebench_data_analysis": 65.09,
+        "livebench_language": 65.6,
+        "livebench_ifeval": 19.33
+      }
+    },
+    {
+      "id": "nvidia_nim/google/codegemma-1.1-7b",
+      "name": "google/codegemma-1.1-7b",
+      "provider": "nvidia_nim",
+      "model_id": "google/codegemma-1.1-7b"
+    },
+    {
+      "id": "nvidia_nim/google/codegemma-7b",
+      "name": "google/codegemma-7b",
+      "provider": "nvidia_nim",
+      "model_id": "google/codegemma-7b"
+    },
+    {
+      "id": "nvidia_nim/google/deplot",
+      "name": "google/deplot",
+      "provider": "nvidia_nim",
+      "model_id": "google/deplot"
+    },
+    {
+      "id": "nvidia_nim/google/gemma-2-27b-it",
+      "name": "google/gemma-2-27b-it",
+      "provider": "nvidia_nim",
+      "model_id": "google/gemma-2-27b-it",
+      "benchmarks": {
+        "gpqa_diamond": 0.365,
+        "mmlu": 0.757,
+        "math_level_5": 0.279,
+        "otis_mock_aime_2024_2025": 0.014,
+        "arena_elo": 1288.0
+      }
+    },
+    {
+      "id": "nvidia_nim/google/gemma-2-2b-it",
+      "name": "google/gemma-2-2b-it",
+      "provider": "nvidia_nim",
+      "model_id": "google/gemma-2-2b-it",
+      "benchmarks": {
+        "arena_elo": 1199.0
+      }
+    },
+    {
+      "id": "nvidia_nim/google/gemma-2-9b-it",
+      "name": "google/gemma-2-9b-it",
+      "provider": "nvidia_nim",
+      "model_id": "google/gemma-2-9b-it",
+      "benchmarks": {
+        "gpqa_diamond": 0.275,
+        "mmlu": 0.721,
+        "math_level_5": 0.21,
+        "otis_mock_aime_2024_2025": 0.006,
+        "arena_elo": 1265.0
+      }
+    },
+    {
+      "id": "nvidia_nim/google/gemma-2b",
+      "name": "google/gemma-2b",
+      "provider": "nvidia_nim",
+      "model_id": "google/gemma-2b",
+      "benchmarks": {
+        "mmlu": 0.423,
+        "gsm8k": 0.177,
+        "trivia_qa": 0.532
+      }
+    },
+    {
+      "id": "nvidia_nim/google/gemma-3-12b-it",
+      "name": "google/gemma-3-12b-it",
+      "provider": "nvidia_nim",
+      "model_id": "google/gemma-3-12b-it",
+      "benchmarks": {
+        "arena_elo": 1341.0
+      }
+    },
+    {
+      "id": "nvidia_nim/google/gemma-3-1b-it",
+      "name": "google/gemma-3-1b-it",
+      "provider": "nvidia_nim",
+      "model_id": "google/gemma-3-1b-it"
+    },
+    {
+      "id": "nvidia_nim/google/gemma-3-27b-it",
+      "name": "google/gemma-3-27b-it",
+      "provider": "nvidia_nim",
+      "model_id": "google/gemma-3-27b-it",
+      "benchmarks": {
+        "gpqa_diamond": 0.489,
+        "math_level_5": 0.74,
+        "otis_mock_aime_2024_2025": 0.197,
+        "aider_polyglot": 4.9,
+        "arena_elo": 1365.0
+      }
+    },
+    {
+      "id": "nvidia_nim/google/gemma-3-4b-it",
+      "name": "google/gemma-3-4b-it",
+      "provider": "nvidia_nim",
+      "model_id": "google/gemma-3-4b-it",
+      "benchmarks": {
+        "arena_elo": 1303.0
+      }
+    },
+    {
+      "id": "nvidia_nim/google/gemma-3n-e2b-it",
+      "name": "google/gemma-3n-e2b-it",
+      "provider": "nvidia_nim",
+      "model_id": "google/gemma-3n-e2b-it"
+    },
+    {
+      "id": "nvidia_nim/google/gemma-3n-e4b-it",
+      "name": "google/gemma-3n-e4b-it",
+      "provider": "nvidia_nim",
+      "model_id": "google/gemma-3n-e4b-it",
+      "benchmarks": {
+        "arena_elo": 1319.0
+      }
+    },
+    {
+      "id": "nvidia_nim/google/gemma-7b",
+      "name": "google/gemma-7b",
+      "provider": "nvidia_nim",
+      "model_id": "google/gemma-7b",
+      "benchmarks": {
+        "mmlu": 0.636,
+        "gsm8k": 0.464,
+        "trivia_qa": 0.723
+      }
+    },
+    {
+      "id": "nvidia_nim/google/paligemma",
+      "name": "google/paligemma",
+      "provider": "nvidia_nim",
+      "model_id": "google/paligemma"
+    },
+    {
+      "id": "nvidia_nim/google/recurrentgemma-2b",
+      "name": "google/recurrentgemma-2b",
+      "provider": "nvidia_nim",
+      "model_id": "google/recurrentgemma-2b"
+    },
+    {
+      "id": "nvidia_nim/google/shieldgemma-9b",
+      "name": "google/shieldgemma-9b",
+      "provider": "nvidia_nim",
+      "model_id": "google/shieldgemma-9b"
+    },
+    {
+      "id": "nvidia_nim/gotocompany/gemma-2-9b-cpt-sahabatai-instruct",
+      "name": "gotocompany/gemma-2-9b-cpt-sahabatai-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "gotocompany/gemma-2-9b-cpt-sahabatai-instruct"
+    },
+    {
+      "id": "nvidia_nim/ibm/granite-3.0-3b-a800m-instruct",
+      "name": "ibm/granite-3.0-3b-a800m-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "ibm/granite-3.0-3b-a800m-instruct"
+    },
+    {
+      "id": "nvidia_nim/ibm/granite-3.0-8b-instruct",
+      "name": "ibm/granite-3.0-8b-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "ibm/granite-3.0-8b-instruct",
+      "benchmarks": {
+        "arena_elo": 1184.0
+      }
+    },
+    {
+      "id": "nvidia_nim/ibm/granite-3.3-8b-instruct",
+      "name": "ibm/granite-3.3-8b-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "ibm/granite-3.3-8b-instruct"
+    },
+    {
+      "id": "nvidia_nim/ibm/granite-34b-code-instruct",
+      "name": "ibm/granite-34b-code-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "ibm/granite-34b-code-instruct"
+    },
+    {
+      "id": "nvidia_nim/ibm/granite-8b-code-instruct",
+      "name": "ibm/granite-8b-code-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "ibm/granite-8b-code-instruct"
+    },
+    {
+      "id": "nvidia_nim/ibm/granite-guardian-3.0-8b",
+      "name": "ibm/granite-guardian-3.0-8b",
+      "provider": "nvidia_nim",
+      "model_id": "ibm/granite-guardian-3.0-8b"
+    },
+    {
+      "id": "nvidia_nim/igenius/colosseum_355b_instruct_16k",
+      "name": "igenius/colosseum_355b_instruct_16k",
+      "provider": "nvidia_nim",
+      "model_id": "igenius/colosseum_355b_instruct_16k"
+    },
+    {
+      "id": "nvidia_nim/igenius/italia_10b_instruct_16k",
+      "name": "igenius/italia_10b_instruct_16k",
+      "provider": "nvidia_nim",
+      "model_id": "igenius/italia_10b_instruct_16k"
+    },
+    {
+      "id": "nvidia_nim/institute-of-science-tokyo/llama-3.1-swallow-70b-instruct-v0.1",
+      "name": "institute-of-science-tokyo/llama-3.1-swallow-70b-instruct-v0.1",
+      "provider": "nvidia_nim",
+      "model_id": "institute-of-science-tokyo/llama-3.1-swallow-70b-instruct-v0.1"
+    },
+    {
+      "id": "nvidia_nim/institute-of-science-tokyo/llama-3.1-swallow-8b-instruct-v0.1",
+      "name": "institute-of-science-tokyo/llama-3.1-swallow-8b-instruct-v0.1",
+      "provider": "nvidia_nim",
+      "model_id": "institute-of-science-tokyo/llama-3.1-swallow-8b-instruct-v0.1"
+    },
+    {
+      "id": "nvidia_nim/marin/marin-8b-instruct",
+      "name": "marin/marin-8b-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "marin/marin-8b-instruct"
+    },
+    {
+      "id": "nvidia_nim/mediatek/breeze-7b-instruct",
+      "name": "mediatek/breeze-7b-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "mediatek/breeze-7b-instruct"
+    },
+    {
+      "id": "nvidia_nim/meta/codellama-70b",
+      "name": "meta/codellama-70b",
+      "provider": "nvidia_nim",
+      "model_id": "meta/codellama-70b"
+    },
+    {
+      "id": "nvidia_nim/meta/llama-3.1-405b-instruct",
+      "name": "meta/llama-3.1-405b-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "meta/llama-3.1-405b-instruct",
+      "benchmarks": {
+        "gpqa_diamond": 0.509,
+        "mmlu": 0.844,
+        "math_level_5": 0.498,
+        "otis_mock_aime_2024_2025": 0.097,
+        "simplebench": 0.23,
+        "trivia_qa": 0.827
+      }
+    },
+    {
+      "id": "nvidia_nim/meta/llama-3.1-70b-instruct",
+      "name": "meta/llama-3.1-70b-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "meta/llama-3.1-70b-instruct",
+      "benchmarks": {
+        "gpqa_diamond": 0.442,
+        "mmlu": 0.801,
+        "math_level_5": 0.367,
+        "otis_mock_aime_2024_2025": 0.036
+      }
+    },
+    {
+      "id": "nvidia_nim/meta/llama-3.1-8b-instruct",
+      "name": "meta/llama-3.1-8b-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "meta/llama-3.1-8b-instruct",
+      "benchmarks": {
+        "gpqa_diamond": 0.259,
+        "mmlu": 0.561,
+        "math_level_5": 0.229,
+        "gsm8k": 0.824,
+        "otis_mock_aime_2024_2025": 0.025
+      }
+    },
+    {
+      "id": "nvidia_nim/meta/llama-3.2-11b-vision-instruct",
+      "name": "meta/llama-3.2-11b-vision-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "meta/llama-3.2-11b-vision-instruct",
+      "benchmarks": {
+        "mmlu": 0.565
+      }
+    },
+    {
+      "id": "nvidia_nim/meta/llama-3.2-1b-instruct",
+      "name": "meta/llama-3.2-1b-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "meta/llama-3.2-1b-instruct"
+    },
+    {
+      "id": "nvidia_nim/meta/llama-3.2-3b-instruct",
+      "name": "meta/llama-3.2-3b-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "meta/llama-3.2-3b-instruct"
+    },
+    {
+      "id": "nvidia_nim/meta/llama-3.2-90b-vision-instruct",
+      "name": "meta/llama-3.2-90b-vision-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "meta/llama-3.2-90b-vision-instruct",
+      "benchmarks": {
+        "gpqa_diamond": 0.41,
+        "mmlu": 0.803,
+        "math_level_5": 0.394,
+        "otis_mock_aime_2024_2025": 0.026
+      }
+    },
+    {
+      "id": "nvidia_nim/meta/llama-3.3-70b-instruct",
+      "name": "meta/llama-3.3-70b-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "meta/llama-3.3-70b-instruct",
+      "benchmarks": {
+        "gpqa_diamond": 0.474,
+        "mmlu": 0.863,
+        "math_level_5": 0.416,
+        "otis_mock_aime_2024_2025": 0.051,
+        "simplebench": 0.199
+      }
+    },
+    {
+      "id": "nvidia_nim/meta/llama-4-maverick-17b-128e-instruct",
+      "name": "meta/llama-4-maverick-17b-128e-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "meta/llama-4-maverick-17b-128e-instruct",
+      "benchmarks": {
+        "gpqa_diamond": 0.67,
+        "math_level_5": 0.73,
+        "otis_mock_aime_2024_2025": 0.206,
+        "frontiermath": 0.007,
+        "aider_polyglot": 15.6,
+        "simplebench": 0.277
+      }
+    },
+    {
+      "id": "nvidia_nim/meta/llama-4-scout-17b-16e-instruct",
+      "name": "meta/llama-4-scout-17b-16e-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "meta/llama-4-scout-17b-16e-instruct",
+      "benchmarks": {
+        "gpqa_diamond": 0.518,
+        "math_level_5": 0.623,
+        "otis_mock_aime_2024_2025": 0.078,
+        "frontiermath": 0.0
+      }
+    },
+    {
+      "id": "nvidia_nim/meta/llama-guard-4-12b",
+      "name": "meta/llama-guard-4-12b",
+      "provider": "nvidia_nim",
+      "model_id": "meta/llama-guard-4-12b"
+    },
+    {
+      "id": "nvidia_nim/meta/llama2-70b",
+      "name": "meta/llama2-70b",
+      "provider": "nvidia_nim",
+      "model_id": "meta/llama2-70b",
+      "benchmarks": {
+        "gpqa_diamond": 0.263,
+        "mmlu": 0.599,
+        "math_level_5": 0.033,
+        "gsm8k": 0.587,
+        "otis_mock_aime_2024_2025": 0.0,
+        "trivia_qa": 0.875
+      }
+    },
+    {
+      "id": "nvidia_nim/meta/llama3-70b-instruct",
+      "name": "meta/llama3-70b-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "meta/llama3-70b-instruct"
+    },
+    {
+      "id": "nvidia_nim/meta/llama3-8b-instruct",
+      "name": "meta/llama3-8b-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "meta/llama3-8b-instruct",
+      "benchmarks": {
+        "gpqa_diamond": 2.125,
+        "ifeval": 24.013,
+        "bbh": 18.388,
+        "musr": 19.937
+      }
+    },
+    {
+      "id": "nvidia_nim/microsoft/kosmos-2",
+      "name": "microsoft/kosmos-2",
+      "provider": "nvidia_nim",
+      "model_id": "microsoft/kosmos-2"
+    },
+    {
+      "id": "nvidia_nim/microsoft/phi-3-medium-128k-instruct",
+      "name": "microsoft/phi-3-medium-128k-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "microsoft/phi-3-medium-128k-instruct",
+      "benchmarks": {
+        "gpqa_diamond": 0.276,
+        "mmlu": 0.78,
+        "math_level_5": 0.176,
+        "trivia_qa": 0.739
+      }
+    },
+    {
+      "id": "nvidia_nim/microsoft/phi-3-medium-4k-instruct",
+      "name": "microsoft/phi-3-medium-4k-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "microsoft/phi-3-medium-4k-instruct"
+    },
+    {
+      "id": "nvidia_nim/microsoft/phi-3-mini-128k-instruct",
+      "name": "microsoft/phi-3-mini-128k-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "microsoft/phi-3-mini-128k-instruct"
+    },
+    {
+      "id": "nvidia_nim/microsoft/phi-3-mini-4k-instruct",
+      "name": "microsoft/phi-3-mini-4k-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "microsoft/phi-3-mini-4k-instruct",
+      "benchmarks": {
+        "mmlu": 0.688,
+        "trivia_qa": 0.64
+      }
+    },
+    {
+      "id": "nvidia_nim/microsoft/phi-3-small-128k-instruct",
+      "name": "microsoft/phi-3-small-128k-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "microsoft/phi-3-small-128k-instruct"
+    },
+    {
+      "id": "nvidia_nim/microsoft/phi-3-small-8k-instruct",
+      "name": "microsoft/phi-3-small-8k-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "microsoft/phi-3-small-8k-instruct",
+      "benchmarks": {
+        "mmlu": 0.757,
+        "trivia_qa": 0.581
+      }
+    },
+    {
+      "id": "nvidia_nim/microsoft/phi-3-vision-128k-instruct",
+      "name": "microsoft/phi-3-vision-128k-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "microsoft/phi-3-vision-128k-instruct"
+    },
+    {
+      "id": "nvidia_nim/microsoft/phi-3.5-mini-instruct",
+      "name": "microsoft/phi-3.5-mini-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "microsoft/phi-3.5-mini-instruct",
+      "benchmarks": {
+        "gsm8k": 0.862
+      }
+    },
+    {
+      "id": "nvidia_nim/microsoft/phi-3.5-moe-instruct",
+      "name": "microsoft/phi-3.5-moe-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "microsoft/phi-3.5-moe-instruct",
+      "benchmarks": {
+        "gsm8k": 0.887
+      }
+    },
+    {
+      "id": "nvidia_nim/microsoft/phi-3.5-vision-instruct",
+      "name": "microsoft/phi-3.5-vision-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "microsoft/phi-3.5-vision-instruct"
+    },
+    {
+      "id": "nvidia_nim/microsoft/phi-4-mini-flash-reasoning",
+      "name": "microsoft/phi-4-mini-flash-reasoning",
+      "provider": "nvidia_nim",
+      "model_id": "microsoft/phi-4-mini-flash-reasoning"
+    },
+    {
+      "id": "nvidia_nim/microsoft/phi-4-mini-instruct",
+      "name": "microsoft/phi-4-mini-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "microsoft/phi-4-mini-instruct"
+    },
+    {
+      "id": "nvidia_nim/microsoft/phi-4-multimodal-instruct",
+      "name": "microsoft/phi-4-multimodal-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "microsoft/phi-4-multimodal-instruct"
+    },
+    {
+      "id": "nvidia_nim/minimaxai/minimax-m2",
+      "name": "minimaxai/minimax-m2",
+      "provider": "nvidia_nim",
+      "model_id": "minimaxai/minimax-m2"
+    },
+    {
+      "id": "nvidia_nim/minimaxai/minimax-m2.1",
+      "name": "minimaxai/minimax-m2.1",
+      "provider": "nvidia_nim",
+      "model_id": "minimaxai/minimax-m2.1"
+    },
+    {
+      "id": "nvidia_nim/mistralai/codestral-22b-instruct-v0.1",
+      "name": "mistralai/codestral-22b-instruct-v0.1",
+      "provider": "nvidia_nim",
+      "model_id": "mistralai/codestral-22b-instruct-v0.1"
+    },
+    {
+      "id": "nvidia_nim/mistralai/devstral-2-123b-instruct-2512",
+      "name": "mistralai/devstral-2-123b-instruct-2512",
+      "provider": "nvidia_nim",
+      "model_id": "mistralai/devstral-2-123b-instruct-2512"
+    },
+    {
+      "id": "nvidia_nim/mistralai/magistral-small-2506",
+      "name": "mistralai/magistral-small-2506",
+      "provider": "nvidia_nim",
+      "model_id": "mistralai/magistral-small-2506",
+      "benchmarks": {
+        "gpqa_diamond": 0.484,
+        "otis_mock_aime_2024_2025": 0.3
+      }
+    },
+    {
+      "id": "nvidia_nim/mistralai/mamba-codestral-7b-v0.1",
+      "name": "mistralai/mamba-codestral-7b-v0.1",
+      "provider": "nvidia_nim",
+      "model_id": "mistralai/mamba-codestral-7b-v0.1"
+    },
+    {
+      "id": "nvidia_nim/mistralai/mathstral-7b-v0.1",
+      "name": "mistralai/mathstral-7b-v0.1",
+      "provider": "nvidia_nim",
+      "model_id": "mistralai/mathstral-7b-v0.1"
+    },
+    {
+      "id": "nvidia_nim/mistralai/ministral-14b-instruct-2512",
+      "name": "mistralai/ministral-14b-instruct-2512",
+      "provider": "nvidia_nim",
+      "model_id": "mistralai/ministral-14b-instruct-2512"
+    },
+    {
+      "id": "nvidia_nim/mistralai/mistral-7b-instruct-v0.2",
+      "name": "mistralai/mistral-7b-instruct-v0.2",
+      "provider": "nvidia_nim",
+      "model_id": "mistralai/mistral-7b-instruct-v0.2",
+      "benchmarks": {
+        "mmlu": 0.625,
+        "gsm8k": 0.354,
+        "arena_elo": 1151.0
+      }
+    },
+    {
+      "id": "nvidia_nim/mistralai/mistral-7b-instruct-v0.3",
+      "name": "mistralai/mistral-7b-instruct-v0.3",
+      "provider": "nvidia_nim",
+      "model_id": "mistralai/mistral-7b-instruct-v0.3",
+      "benchmarks": {
+        "gpqa_diamond": 0.152,
+        "mmlu": 0.599,
+        "math_level_5": 0.036
+      }
+    },
+    {
+      "id": "nvidia_nim/mistralai/mistral-large",
+      "name": "mistralai/mistral-large",
+      "provider": "nvidia_nim",
+      "model_id": "mistralai/mistral-large",
+      "benchmarks": {
+        "gpqa_diamond": 0.49,
+        "mmlu": 0.8,
+        "math_level_5": 0.245,
+        "otis_mock_aime_2024_2025": 0.085,
+        "frontiermath": 0.003,
+        "simplebench": 0.225,
+        "arena_elo": 1242.0
+      }
+    },
+    {
+      "id": "nvidia_nim/mistralai/mistral-large-2-instruct",
+      "name": "mistralai/mistral-large-2-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "mistralai/mistral-large-2-instruct"
+    },
+    {
+      "id": "nvidia_nim/mistralai/mistral-large-3-675b-instruct-2512",
+      "name": "mistralai/mistral-large-3-675b-instruct-2512",
+      "provider": "nvidia_nim",
+      "model_id": "mistralai/mistral-large-3-675b-instruct-2512"
+    },
+    {
+      "id": "nvidia_nim/mistralai/mistral-medium-3-instruct",
+      "name": "mistralai/mistral-medium-3-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "mistralai/mistral-medium-3-instruct"
+    },
+    {
+      "id": "nvidia_nim/mistralai/mistral-nemotron",
+      "name": "mistralai/mistral-nemotron",
+      "provider": "nvidia_nim",
+      "model_id": "mistralai/mistral-nemotron"
+    },
+    {
+      "id": "nvidia_nim/mistralai/mistral-small-24b-instruct",
+      "name": "mistralai/mistral-small-24b-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "mistralai/mistral-small-24b-instruct",
+      "benchmarks": {
+        "arena_elo": 1274.0
+      }
+    },
+    {
+      "id": "nvidia_nim/mistralai/mistral-small-3.1-24b-instruct-2503",
+      "name": "mistralai/mistral-small-3.1-24b-instruct-2503",
+      "provider": "nvidia_nim",
+      "model_id": "mistralai/mistral-small-3.1-24b-instruct-2503",
+      "benchmarks": {
+        "arena_elo": 1304.0
+      }
+    },
+    {
+      "id": "nvidia_nim/mistralai/mixtral-8x22b-instruct-v0.1",
+      "name": "mistralai/mixtral-8x22b-instruct-v0.1",
+      "provider": "nvidia_nim",
+      "model_id": "mistralai/mixtral-8x22b-instruct-v0.1",
+      "benchmarks": {
+        "gpqa_diamond": 0.306,
+        "mmlu": 0.705,
+        "math_level_5": 0.093,
+        "gsm8k": 0.744,
+        "trivia_qa": 0.822,
+        "arena_elo": 1198.0
+      }
+    },
+    {
+      "id": "nvidia_nim/mistralai/mixtral-8x22b-v0.1",
+      "name": "mistralai/mixtral-8x22b-v0.1",
+      "provider": "nvidia_nim",
+      "model_id": "mistralai/mixtral-8x22b-v0.1",
+      "benchmarks": {
+        "gpqa_diamond": 0.306,
+        "mmlu": 0.705,
+        "math_level_5": 0.093,
+        "gsm8k": 0.744,
+        "trivia_qa": 0.822,
+        "arena_elo": 1198.0
+      }
+    },
+    {
+      "id": "nvidia_nim/mistralai/mixtral-8x7b-instruct-v0.1",
+      "name": "mistralai/mixtral-8x7b-instruct-v0.1",
+      "provider": "nvidia_nim",
+      "model_id": "mistralai/mixtral-8x7b-instruct-v0.1",
+      "benchmarks": {
+        "gpqa_diamond": 0.306,
+        "mmlu": 0.705,
+        "math_level_5": 0.093,
+        "gsm8k": 0.744,
+        "trivia_qa": 0.822,
+        "arena_elo": 1198.0
+      }
+    },
+    {
+      "id": "nvidia_nim/moonshotai/kimi-k2-instruct",
+      "name": "moonshotai/kimi-k2-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "moonshotai/kimi-k2-instruct",
+      "benchmarks": {
+        "aider_polyglot": 59.1,
+        "simplebench": 0.263,
+        "livebench_global": 50.97,
+        "livebench_reasoning": 42.23,
+        "livebench_coding": 74.28,
+        "livebench_agentic_coding": 31.67,
+        "livebench_math": 58.15,
+        "livebench_data_analysis": 63.41,
+        "livebench_language": 66.69,
+        "livebench_ifeval": 20.36
+      }
+    },
+    {
+      "id": "nvidia_nim/moonshotai/kimi-k2-instruct-0905",
+      "name": "moonshotai/kimi-k2-instruct-0905",
+      "provider": "nvidia_nim",
+      "model_id": "moonshotai/kimi-k2-instruct-0905",
+      "benchmarks": {
+        "aider_polyglot": 59.1,
+        "simplebench": 0.263,
+        "livebench_global": 50.97,
+        "livebench_reasoning": 42.23,
+        "livebench_coding": 74.28,
+        "livebench_agentic_coding": 31.67,
+        "livebench_math": 58.15,
+        "livebench_data_analysis": 63.41,
+        "livebench_language": 66.69,
+        "livebench_ifeval": 20.36
+      }
+    },
+    {
+      "id": "nvidia_nim/moonshotai/kimi-k2-thinking",
+      "name": "moonshotai/kimi-k2-thinking",
+      "provider": "nvidia_nim",
+      "model_id": "moonshotai/kimi-k2-thinking",
+      "benchmarks": {
+        "frontiermath": 0.214,
+        "frontiermath_tier_4": 0.0,
+        "humanitys_last_exam": 0.239,
+        "livebench_global": 64.2,
+        "livebench_reasoning": 63.49,
+        "livebench_coding": 67.44,
+        "livebench_agentic_coding": 38.33,
+        "livebench_math": 81.1,
+        "livebench_data_analysis": 70.57,
+        "livebench_language": 66.45,
+        "livebench_ifeval": 62.03
+      }
+    },
+    {
+      "id": "nvidia_nim/nv-mistralai/mistral-nemo-12b-instruct",
+      "name": "nv-mistralai/mistral-nemo-12b-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "nv-mistralai/mistral-nemo-12b-instruct"
+    },
+    {
+      "id": "nvidia_nim/nvidia/cosmos-reason2-8b",
+      "name": "nvidia/cosmos-reason2-8b",
+      "provider": "nvidia_nim",
+      "model_id": "nvidia/cosmos-reason2-8b"
+    },
+    {
+      "id": "nvidia_nim/nvidia/embed-qa-4",
+      "name": "nvidia/embed-qa-4",
+      "provider": "nvidia_nim",
+      "model_id": "nvidia/embed-qa-4"
+    },
+    {
+      "id": "nvidia_nim/nvidia/llama-3.1-nemoguard-8b-content-safety",
+      "name": "nvidia/llama-3.1-nemoguard-8b-content-safety",
+      "provider": "nvidia_nim",
+      "model_id": "nvidia/llama-3.1-nemoguard-8b-content-safety"
+    },
+    {
+      "id": "nvidia_nim/nvidia/llama-3.1-nemoguard-8b-topic-control",
+      "name": "nvidia/llama-3.1-nemoguard-8b-topic-control",
+      "provider": "nvidia_nim",
+      "model_id": "nvidia/llama-3.1-nemoguard-8b-topic-control"
+    },
+    {
+      "id": "nvidia_nim/nvidia/llama-3.1-nemotron-51b-instruct",
+      "name": "nvidia/llama-3.1-nemotron-51b-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "nvidia/llama-3.1-nemotron-51b-instruct"
+    },
+    {
+      "id": "nvidia_nim/nvidia/llama-3.1-nemotron-70b-instruct",
+      "name": "nvidia/llama-3.1-nemotron-70b-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "nvidia/llama-3.1-nemotron-70b-instruct"
+    },
+    {
+      "id": "nvidia_nim/nvidia/llama-3.1-nemotron-70b-reward",
+      "name": "nvidia/llama-3.1-nemotron-70b-reward",
+      "provider": "nvidia_nim",
+      "model_id": "nvidia/llama-3.1-nemotron-70b-reward"
+    },
+    {
+      "id": "nvidia_nim/nvidia/llama-3.1-nemotron-nano-4b-v1.1",
+      "name": "nvidia/llama-3.1-nemotron-nano-4b-v1.1",
+      "provider": "nvidia_nim",
+      "model_id": "nvidia/llama-3.1-nemotron-nano-4b-v1.1"
+    },
+    {
+      "id": "nvidia_nim/nvidia/llama-3.1-nemotron-nano-8b-v1",
+      "name": "nvidia/llama-3.1-nemotron-nano-8b-v1",
+      "provider": "nvidia_nim",
+      "model_id": "nvidia/llama-3.1-nemotron-nano-8b-v1"
+    },
+    {
+      "id": "nvidia_nim/nvidia/llama-3.1-nemotron-nano-vl-8b-v1",
+      "name": "nvidia/llama-3.1-nemotron-nano-vl-8b-v1",
+      "provider": "nvidia_nim",
+      "model_id": "nvidia/llama-3.1-nemotron-nano-vl-8b-v1"
+    },
+    {
+      "id": "nvidia_nim/nvidia/llama-3.1-nemotron-safety-guard-8b-v3",
+      "name": "nvidia/llama-3.1-nemotron-safety-guard-8b-v3",
+      "provider": "nvidia_nim",
+      "model_id": "nvidia/llama-3.1-nemotron-safety-guard-8b-v3"
+    },
+    {
+      "id": "nvidia_nim/nvidia/llama-3.1-nemotron-ultra-253b-v1",
+      "name": "nvidia/llama-3.1-nemotron-ultra-253b-v1",
+      "provider": "nvidia_nim",
+      "model_id": "nvidia/llama-3.1-nemotron-ultra-253b-v1"
+    },
+    {
+      "id": "nvidia_nim/nvidia/llama-3.2-nemoretriever-1b-vlm-embed-v1",
+      "name": "nvidia/llama-3.2-nemoretriever-1b-vlm-embed-v1",
+      "provider": "nvidia_nim",
+      "model_id": "nvidia/llama-3.2-nemoretriever-1b-vlm-embed-v1"
+    },
+    {
+      "id": "nvidia_nim/nvidia/llama-3.2-nemoretriever-300m-embed-v1",
+      "name": "nvidia/llama-3.2-nemoretriever-300m-embed-v1",
+      "provider": "nvidia_nim",
+      "model_id": "nvidia/llama-3.2-nemoretriever-300m-embed-v1"
+    },
+    {
+      "id": "nvidia_nim/nvidia/llama-3.2-nemoretriever-300m-embed-v2",
+      "name": "nvidia/llama-3.2-nemoretriever-300m-embed-v2",
+      "provider": "nvidia_nim",
+      "model_id": "nvidia/llama-3.2-nemoretriever-300m-embed-v2"
+    },
+    {
+      "id": "nvidia_nim/nvidia/llama-3.2-nv-embedqa-1b-v1",
+      "name": "nvidia/llama-3.2-nv-embedqa-1b-v1",
+      "provider": "nvidia_nim",
+      "model_id": "nvidia/llama-3.2-nv-embedqa-1b-v1"
+    },
+    {
+      "id": "nvidia_nim/nvidia/llama-3.2-nv-embedqa-1b-v2",
+      "name": "nvidia/llama-3.2-nv-embedqa-1b-v2",
+      "provider": "nvidia_nim",
+      "model_id": "nvidia/llama-3.2-nv-embedqa-1b-v2"
+    },
+    {
+      "id": "nvidia_nim/nvidia/llama-3.3-nemotron-super-49b-v1",
+      "name": "nvidia/llama-3.3-nemotron-super-49b-v1",
+      "provider": "nvidia_nim",
+      "model_id": "nvidia/llama-3.3-nemotron-super-49b-v1"
+    },
+    {
+      "id": "nvidia_nim/nvidia/llama-3.3-nemotron-super-49b-v1.5",
+      "name": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
+      "provider": "nvidia_nim",
+      "model_id": "nvidia/llama-3.3-nemotron-super-49b-v1.5"
+    },
+    {
+      "id": "nvidia_nim/nvidia/llama3-chatqa-1.5-70b",
+      "name": "nvidia/llama3-chatqa-1.5-70b",
+      "provider": "nvidia_nim",
+      "model_id": "nvidia/llama3-chatqa-1.5-70b"
+    },
+    {
+      "id": "nvidia_nim/nvidia/llama3-chatqa-1.5-8b",
+      "name": "nvidia/llama3-chatqa-1.5-8b",
+      "provider": "nvidia_nim",
+      "model_id": "nvidia/llama3-chatqa-1.5-8b"
+    },
+    {
+      "id": "nvidia_nim/nvidia/mistral-nemo-minitron-8b-8k-instruct",
+      "name": "nvidia/mistral-nemo-minitron-8b-8k-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "nvidia/mistral-nemo-minitron-8b-8k-instruct"
+    },
+    {
+      "id": "nvidia_nim/nvidia/mistral-nemo-minitron-8b-base",
+      "name": "nvidia/mistral-nemo-minitron-8b-base",
+      "provider": "nvidia_nim",
+      "model_id": "nvidia/mistral-nemo-minitron-8b-base"
+    },
+    {
+      "id": "nvidia_nim/nvidia/nemoretriever-parse",
+      "name": "nvidia/nemoretriever-parse",
+      "provider": "nvidia_nim",
+      "model_id": "nvidia/nemoretriever-parse"
+    },
+    {
+      "id": "nvidia_nim/nvidia/nemotron-3-nano-30b-a3b",
+      "name": "nvidia/nemotron-3-nano-30b-a3b",
+      "provider": "nvidia_nim",
+      "model_id": "nvidia/nemotron-3-nano-30b-a3b"
+    },
+    {
+      "id": "nvidia_nim/nvidia/nemotron-4-340b-instruct",
+      "name": "nvidia/nemotron-4-340b-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "nvidia/nemotron-4-340b-instruct"
+    },
+    {
+      "id": "nvidia_nim/nvidia/nemotron-4-340b-reward",
+      "name": "nvidia/nemotron-4-340b-reward",
+      "provider": "nvidia_nim",
+      "model_id": "nvidia/nemotron-4-340b-reward"
+    },
+    {
+      "id": "nvidia_nim/nvidia/nemotron-4-mini-hindi-4b-instruct",
+      "name": "nvidia/nemotron-4-mini-hindi-4b-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "nvidia/nemotron-4-mini-hindi-4b-instruct"
+    },
+    {
+      "id": "nvidia_nim/nvidia/nemotron-mini-4b-instruct",
+      "name": "nvidia/nemotron-mini-4b-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "nvidia/nemotron-mini-4b-instruct"
+    },
+    {
+      "id": "nvidia_nim/nvidia/nemotron-nano-12b-v2-vl",
+      "name": "nvidia/nemotron-nano-12b-v2-vl",
+      "provider": "nvidia_nim",
+      "model_id": "nvidia/nemotron-nano-12b-v2-vl"
+    },
+    {
+      "id": "nvidia_nim/nvidia/nemotron-nano-3-30b-a3b",
+      "name": "nvidia/nemotron-nano-3-30b-a3b",
+      "provider": "nvidia_nim",
+      "model_id": "nvidia/nemotron-nano-3-30b-a3b"
+    },
+    {
+      "id": "nvidia_nim/nvidia/nemotron-parse",
+      "name": "nvidia/nemotron-parse",
+      "provider": "nvidia_nim",
+      "model_id": "nvidia/nemotron-parse"
+    },
+    {
+      "id": "nvidia_nim/nvidia/neva-22b",
+      "name": "nvidia/neva-22b",
+      "provider": "nvidia_nim",
+      "model_id": "nvidia/neva-22b"
+    },
+    {
+      "id": "nvidia_nim/nvidia/nv-embed-v1",
+      "name": "nvidia/nv-embed-v1",
+      "provider": "nvidia_nim",
+      "model_id": "nvidia/nv-embed-v1"
+    },
+    {
+      "id": "nvidia_nim/nvidia/nv-embedcode-7b-v1",
+      "name": "nvidia/nv-embedcode-7b-v1",
+      "provider": "nvidia_nim",
+      "model_id": "nvidia/nv-embedcode-7b-v1"
+    },
+    {
+      "id": "nvidia_nim/nvidia/nv-embedqa-e5-v5",
+      "name": "nvidia/nv-embedqa-e5-v5",
+      "provider": "nvidia_nim",
+      "model_id": "nvidia/nv-embedqa-e5-v5"
+    },
+    {
+      "id": "nvidia_nim/nvidia/nv-embedqa-mistral-7b-v2",
+      "name": "nvidia/nv-embedqa-mistral-7b-v2",
+      "provider": "nvidia_nim",
+      "model_id": "nvidia/nv-embedqa-mistral-7b-v2"
+    },
+    {
+      "id": "nvidia_nim/nvidia/nvclip",
+      "name": "nvidia/nvclip",
+      "provider": "nvidia_nim",
+      "model_id": "nvidia/nvclip"
+    },
+    {
+      "id": "nvidia_nim/nvidia/nvidia-nemotron-nano-9b-v2",
+      "name": "nvidia/nvidia-nemotron-nano-9b-v2",
+      "provider": "nvidia_nim",
+      "model_id": "nvidia/nvidia-nemotron-nano-9b-v2"
+    },
+    {
+      "id": "nvidia_nim/nvidia/riva-translate-4b-instruct",
+      "name": "nvidia/riva-translate-4b-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "nvidia/riva-translate-4b-instruct"
+    },
+    {
+      "id": "nvidia_nim/nvidia/riva-translate-4b-instruct-v1.1",
+      "name": "nvidia/riva-translate-4b-instruct-v1.1",
+      "provider": "nvidia_nim",
+      "model_id": "nvidia/riva-translate-4b-instruct-v1.1"
+    },
+    {
+      "id": "nvidia_nim/nvidia/streampetr",
+      "name": "nvidia/streampetr",
+      "provider": "nvidia_nim",
+      "model_id": "nvidia/streampetr"
+    },
+    {
+      "id": "nvidia_nim/nvidia/usdcode-llama-3.1-70b-instruct",
+      "name": "nvidia/usdcode-llama-3.1-70b-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "nvidia/usdcode-llama-3.1-70b-instruct"
+    },
+    {
+      "id": "nvidia_nim/nvidia/vila",
+      "name": "nvidia/vila",
+      "provider": "nvidia_nim",
+      "model_id": "nvidia/vila"
+    },
+    {
+      "id": "nvidia_nim/openai/gpt-oss-120b",
+      "name": "openai/gpt-oss-120b",
+      "provider": "nvidia_nim",
+      "model_id": "openai/gpt-oss-120b",
+      "benchmarks": {
+        "simplebench": 0.221,
+        "arena_elo": 1353.0,
+        "livebench_global": 48.66,
+        "livebench_reasoning": 39.21,
+        "livebench_coding": 60.21,
+        "livebench_agentic_coding": 16.67,
+        "livebench_math": 68.87,
+        "livebench_data_analysis": 56.77,
+        "livebench_language": 48.59,
+        "livebench_ifeval": 50.29
+      }
+    },
+    {
+      "id": "nvidia_nim/openai/gpt-oss-20b",
+      "name": "openai/gpt-oss-20b",
+      "provider": "nvidia_nim",
+      "model_id": "openai/gpt-oss-20b",
+      "benchmarks": {
+        "arena_elo": 1318.0
+      }
+    },
+    {
+      "id": "nvidia_nim/opengpt-x/teuken-7b-instruct-commercial-v0.4",
+      "name": "opengpt-x/teuken-7b-instruct-commercial-v0.4",
+      "provider": "nvidia_nim",
+      "model_id": "opengpt-x/teuken-7b-instruct-commercial-v0.4"
+    },
+    {
+      "id": "nvidia_nim/qwen/qwen2-7b-instruct",
+      "name": "qwen/qwen2-7b-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "qwen/qwen2-7b-instruct"
+    },
+    {
+      "id": "nvidia_nim/qwen/qwen2.5-7b-instruct",
+      "name": "qwen/qwen2.5-7b-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "qwen/qwen2.5-7b-instruct",
+      "benchmarks": {
+        "mmlu": 0.729
+      }
+    },
+    {
+      "id": "nvidia_nim/qwen/qwen2.5-coder-32b-instruct",
+      "name": "qwen/qwen2.5-coder-32b-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "qwen/qwen2.5-coder-32b-instruct",
+      "benchmarks": {
+        "mmlu": 0.791,
+        "gsm8k": 0.911,
+        "aider_polyglot": 8.0,
+        "arena_elo": 1270.0
+      }
+    },
+    {
+      "id": "nvidia_nim/qwen/qwen2.5-coder-7b-instruct",
+      "name": "qwen/qwen2.5-coder-7b-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "qwen/qwen2.5-coder-7b-instruct",
+      "benchmarks": {
+        "mmlu": 0.68,
+        "gsm8k": 0.839
+      }
+    },
+    {
+      "id": "nvidia_nim/qwen/qwen3-235b-a22b",
+      "name": "qwen/qwen3-235b-a22b",
+      "provider": "nvidia_nim",
+      "model_id": "qwen/qwen3-235b-a22b",
+      "benchmarks": {
+        "gpqa_diamond": 0.707,
+        "math_level_5": 0.689,
+        "aider_polyglot": 59.6,
+        "simplebench": 0.31,
+        "arena_elo": 1374.0
+      }
+    },
+    {
+      "id": "nvidia_nim/qwen/qwen3-coder-480b-a35b-instruct",
+      "name": "qwen/qwen3-coder-480b-a35b-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "qwen/qwen3-coder-480b-a35b-instruct",
+      "benchmarks": {
+        "arena_elo": 1387.0
+      }
+    },
+    {
+      "id": "nvidia_nim/qwen/qwen3-next-80b-a3b-instruct",
+      "name": "qwen/qwen3-next-80b-a3b-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "qwen/qwen3-next-80b-a3b-instruct",
+      "benchmarks": {
+        "arena_elo": 1401.0,
+        "livebench_global": 51.04,
+        "livebench_reasoning": 54.75,
+        "livebench_coding": 68.2,
+        "livebench_agentic_coding": 10.0,
+        "livebench_math": 70.18,
+        "livebench_data_analysis": 68.63,
+        "livebench_language": 66.34,
+        "livebench_ifeval": 19.19
+      }
+    },
+    {
+      "id": "nvidia_nim/qwen/qwen3-next-80b-a3b-thinking",
+      "name": "qwen/qwen3-next-80b-a3b-thinking",
+      "provider": "nvidia_nim",
+      "model_id": "qwen/qwen3-next-80b-a3b-thinking",
+      "benchmarks": {
+        "arena_elo": 1368.0,
+        "livebench_global": 53.2,
+        "livebench_reasoning": 58.16,
+        "livebench_coding": 60.66,
+        "livebench_agentic_coding": 8.33,
+        "livebench_math": 74.26,
+        "livebench_data_analysis": 73.16,
+        "livebench_language": 56.31,
+        "livebench_ifeval": 41.54
+      }
+    },
+    {
+      "id": "nvidia_nim/qwen/qwq-32b",
+      "name": "qwen/qwq-32b",
+      "provider": "nvidia_nim",
+      "model_id": "qwen/qwq-32b",
+      "benchmarks": {
+        "aider_polyglot": 20.9,
+        "arena_elo": 1159.0
+      }
+    },
+    {
+      "id": "nvidia_nim/rakuten/rakutenai-7b-chat",
+      "name": "rakuten/rakutenai-7b-chat",
+      "provider": "nvidia_nim",
+      "model_id": "rakuten/rakutenai-7b-chat"
+    },
+    {
+      "id": "nvidia_nim/rakuten/rakutenai-7b-instruct",
+      "name": "rakuten/rakutenai-7b-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "rakuten/rakutenai-7b-instruct"
+    },
+    {
+      "id": "nvidia_nim/sarvamai/sarvam-m",
+      "name": "sarvamai/sarvam-m",
+      "provider": "nvidia_nim",
+      "model_id": "sarvamai/sarvam-m"
+    },
+    {
+      "id": "nvidia_nim/snowflake/arctic-embed-l",
+      "name": "snowflake/arctic-embed-l",
+      "provider": "nvidia_nim",
+      "model_id": "snowflake/arctic-embed-l"
+    },
+    {
+      "id": "nvidia_nim/speakleash/bielik-11b-v2.3-instruct",
+      "name": "speakleash/bielik-11b-v2.3-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "speakleash/bielik-11b-v2.3-instruct"
+    },
+    {
+      "id": "nvidia_nim/speakleash/bielik-11b-v2.6-instruct",
+      "name": "speakleash/bielik-11b-v2.6-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "speakleash/bielik-11b-v2.6-instruct"
+    },
+    {
+      "id": "nvidia_nim/stockmark/stockmark-2-100b-instruct",
+      "name": "stockmark/stockmark-2-100b-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "stockmark/stockmark-2-100b-instruct"
+    },
+    {
+      "id": "nvidia_nim/thudm/chatglm3-6b",
+      "name": "thudm/chatglm3-6b",
+      "provider": "nvidia_nim",
+      "model_id": "thudm/chatglm3-6b",
+      "benchmarks": {
+        "arena_elo": 1057.0
+      }
+    },
+    {
+      "id": "nvidia_nim/tiiuae/falcon3-7b-instruct",
+      "name": "tiiuae/falcon3-7b-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "tiiuae/falcon3-7b-instruct"
+    },
+    {
+      "id": "nvidia_nim/tokyotech-llm/llama-3-swallow-70b-instruct-v0.1",
+      "name": "tokyotech-llm/llama-3-swallow-70b-instruct-v0.1",
+      "provider": "nvidia_nim",
+      "model_id": "tokyotech-llm/llama-3-swallow-70b-instruct-v0.1"
+    },
+    {
+      "id": "nvidia_nim/upstage/solar-10.7b-instruct",
+      "name": "upstage/solar-10.7b-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "upstage/solar-10.7b-instruct"
+    },
+    {
+      "id": "nvidia_nim/utter-project/eurollm-9b-instruct",
+      "name": "utter-project/eurollm-9b-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "utter-project/eurollm-9b-instruct"
+    },
+    {
+      "id": "nvidia_nim/writer/palmyra-creative-122b",
+      "name": "writer/palmyra-creative-122b",
+      "provider": "nvidia_nim",
+      "model_id": "writer/palmyra-creative-122b"
+    },
+    {
+      "id": "nvidia_nim/writer/palmyra-fin-70b-32k",
+      "name": "writer/palmyra-fin-70b-32k",
+      "provider": "nvidia_nim",
+      "model_id": "writer/palmyra-fin-70b-32k"
+    },
+    {
+      "id": "nvidia_nim/writer/palmyra-med-70b",
+      "name": "writer/palmyra-med-70b",
+      "provider": "nvidia_nim",
+      "model_id": "writer/palmyra-med-70b"
+    },
+    {
+      "id": "nvidia_nim/writer/palmyra-med-70b-32k",
+      "name": "writer/palmyra-med-70b-32k",
+      "provider": "nvidia_nim",
+      "model_id": "writer/palmyra-med-70b-32k"
+    },
+    {
+      "id": "nvidia_nim/yentinglin/llama-3-taiwan-70b-instruct",
+      "name": "yentinglin/llama-3-taiwan-70b-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "yentinglin/llama-3-taiwan-70b-instruct"
+    },
+    {
+      "id": "nvidia_nim/z-ai/glm4.7",
+      "name": "z-ai/glm4.7",
+      "provider": "nvidia_nim",
+      "model_id": "z-ai/glm4.7",
+      "benchmarks": {
+        "simplebench": 0.477,
+        "livebench_global": 60.73,
+        "livebench_reasoning": 59.73,
+        "livebench_coding": 73.13,
+        "livebench_agentic_coding": 41.67,
+        "livebench_math": 76.02,
+        "livebench_data_analysis": 73.68,
+        "livebench_language": 65.23,
+        "livebench_ifeval": 35.66
+      }
+    },
+    {
+      "id": "nvidia_nim/zyphra/zamba2-7b-instruct",
+      "name": "zyphra/zamba2-7b-instruct",
+      "provider": "nvidia_nim",
+      "model_id": "zyphra/zamba2-7b-instruct"
+    }
+  ]
+}

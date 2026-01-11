@@ -1,0 +1,69 @@
+{
+  "provider": "hunyuan",
+  "model_count": 7,
+  "models": [
+    {
+      "id": "hunyuan/hunyuan-2.0-think",
+      "name": "Hunyuan-2.0-Think",
+      "provider": "hunyuan",
+      "model_id": "hunyuan-2.0-think",
+      "input_price_per_million": 0.7,
+      "output_price_per_million": 2.8,
+      "model_type": "reasoning"
+    },
+    {
+      "id": "hunyuan/hunyuan-2.0-instruct",
+      "name": "Hunyuan-2.0-Instruct",
+      "provider": "hunyuan",
+      "model_id": "hunyuan-2.0-instruct",
+      "input_price_per_million": 0.56,
+      "output_price_per_million": 2.24,
+      "model_type": "chat"
+    },
+    {
+      "id": "hunyuan/hunyuan-t1",
+      "name": "Hunyuan-T1",
+      "provider": "hunyuan",
+      "model_id": "hunyuan-t1",
+      "input_price_per_million": 0.7,
+      "output_price_per_million": 2.8,
+      "model_type": "reasoning"
+    },
+    {
+      "id": "hunyuan/hunyuan-turbo-s",
+      "name": "Hunyuan-Turbo-S",
+      "provider": "hunyuan",
+      "model_id": "hunyuan-turbo-s",
+      "input_price_per_million": 0.56,
+      "output_price_per_million": 2.24,
+      "model_type": "chat"
+    },
+    {
+      "id": "hunyuan/hunyuan-a13b",
+      "name": "Hunyuan-A13B",
+      "provider": "hunyuan",
+      "model_id": "hunyuan-a13b",
+      "input_price_per_million": 0.14,
+      "output_price_per_million": 0.56,
+      "model_type": "chat"
+    },
+    {
+      "id": "hunyuan/hunyuan-pro",
+      "name": "Hunyuan-Pro",
+      "provider": "hunyuan",
+      "model_id": "hunyuan-pro",
+      "input_price_per_million": 4.2,
+      "output_price_per_million": 16.8,
+      "model_type": "chat"
+    },
+    {
+      "id": "hunyuan/hunyuan-large",
+      "name": "Hunyuan-Large",
+      "provider": "hunyuan",
+      "model_id": "hunyuan-large",
+      "input_price_per_million": 0.56,
+      "output_price_per_million": 2.24,
+      "model_type": "chat"
+    }
+  ]
+}

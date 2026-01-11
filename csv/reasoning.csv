@@ -1,0 +1,51 @@
+rank,name,provider,score
+1,DeepSeek Coder V2 Instruct,fireworks,0.945
+2,o3-2025-04-16,openai,0.9027
+3,eu/o4-mini,azure_openai,0.9
+4,microsoft/phi-3.5-moe-instruct,nvidia_nim,0.887
+5,o3-mini-2025-01-31,openai,0.8853
+6,gpt-5-2025-08-07,openai,0.8825
+7,gpt-5-mini-2025-08-07,openai,0.8825
+8,gpt-5-nano-2025-08-07,openai,0.8825
+9,gpt-5-codex,openai,0.8825
+10,gpt-5-search-api,openai,0.8825
+11,gpt-5.1-chat-latest,openai,0.8825
+12,gpt-5.1-codex,openai,0.8825
+13,gpt-5.1-codex-mini,openai,0.8825
+14,gpt-5.1-codex-max,openai,0.8825
+15,gpt-5.2-2025-12-11,openai,0.8825
+16,gpt-5.2-pro-2025-12-11,openai,0.8825
+17,DeepSeek Coder V2 Lite Instruct,fireworks,0.876
+18,gemini-3-pro-preview,ollama,0.868
+19,microsoft/Phi-3.5-mini-instruct,featherless,0.862
+20,mlx-community/Phi-3.5-mini-instruct-bf16,featherless,0.862
+21,deepseek-reasoner,deepseek,0.856
+22,gemini-2.5-pro-preview-tts,google,0.853
+23,eu/o1-mini,azure_openai,0.852
+24,@cf/qwen/qwen2.5-coder-32b-instruct,cloudflare,0.851
+25,google/gemma-2-9b,featherless,0.849
+26,google/gemini-2.5-pro,deepinfra,0.8475
+27,unsloth/Mistral-Nemo-Base-2407,featherless,0.842
+28,o1-pro-2025-03-19,openai,0.8407
+29,Qwen/Qwen3-235B-A22B-Thinking-2507,deepinfra,0.834
+30,Nova Pro,bedrock,0.82
+31,Qwen/Qwen2.5-Coder-14B-Instruct,featherless,0.8195
+32,Qwen3 Max,novita,0.81
+33,Qwen/Qwen2.5-14B-Instruct,featherless,0.799
+34,gpt-5-pro-2025-10-06,openai,0.7937
+35,Yi-Large,fireworks,0.793
+36,gemini-3-flash-preview,google,0.7903
+37,grok-4-0709,xai,0.7717
+38,Nova Lite,bedrock,0.77
+39,Qwen/Qwen2.5-Coder-7B-Instruct,featherless,0.7595
+40,Qwen/Qwen2.5-Coder-3B-Instruct,featherless,0.757
+41,microsoft/phi-3-small-8k-instruct,nvidia_nim,0.757
+42,Qwen/Qwen2.5-7B,featherless,0.729
+43,qwen/qwen2-57b-a14b-instruct,qwen,0.729
+44,eu/gpt-4.1-mini,azure_openai,0.7133
+45,gemini-2.5-flash-preview-09-2025,google,0.712
+46,gemini-2.5-flash-lite,google,0.712
+47,gemini-2.5-flash-preview-tts,google,0.712
+48,Nova Micro,bedrock,0.708
+49,Claude Sonnet 4.5,anthropic,0.69
+50,microsoft/Phi-3-mini-4k-instruct,featherless,0.688

@@ -1,0 +1,1373 @@
+{
+  "provider": "azure_openai",
+  "model_count": 141,
+  "models": [
+    {
+      "id": "azure/eu/dall-e-3",
+      "name": "eu/dall-e-3",
+      "provider": "azure_openai",
+      "model_id": "dall-e-3",
+      "model_type": "image_gen"
+    },
+    {
+      "id": "azure/eu/tts",
+      "name": "eu/tts",
+      "provider": "azure_openai",
+      "model_id": "tts",
+      "model_type": "audio"
+    },
+    {
+      "id": "azure/eu/tts-hd",
+      "name": "eu/tts-hd",
+      "provider": "azure_openai",
+      "model_id": "tts-hd",
+      "model_type": "audio"
+    },
+    {
+      "id": "azure/eu/whisper",
+      "name": "eu/whisper",
+      "provider": "azure_openai",
+      "model_id": "whisper",
+      "model_type": "audio"
+    },
+    {
+      "id": "azure/eu/gpt-4",
+      "name": "eu/gpt-4",
+      "provider": "azure_openai",
+      "model_id": "gpt-4",
+      "context_window": 8192,
+      "benchmarks": {
+        "gpqa_diamond": 0.307,
+        "mmlu": 0.864,
+        "math_level_5": 0.23,
+        "gsm8k": 0.92,
+        "otis_mock_aime_2024_2025": 0.006,
+        "trivia_qa": 0.848,
+        "arena_elo": 1275.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "azure/eu/gpt-4-32k",
+      "name": "eu/gpt-4-32k",
+      "provider": "azure_openai",
+      "model_id": "gpt-4-32k",
+      "context_window": 32768,
+      "model_type": "chat"
+    },
+    {
+      "id": "azure/eu/gpt-4o",
+      "name": "eu/gpt-4o",
+      "provider": "azure_openai",
+      "model_id": "gpt-4o",
+      "context_window": 128000,
+      "benchmarks": {
+        "gpqa_diamond": 0.489,
+        "mmlu": 87.2,
+        "math_level_5": 0.533,
+        "otis_mock_aime_2024_2025": 0.062,
+        "frontiermath": 0.003,
+        "aider_polyglot": 18.2,
+        "simplebench": 0.178,
+        "swe_bench_verified": 0.254,
+        "humaneval": 91.0,
+        "arena_elo": 1335.0
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "azure/eu/gpt-4o-mini",
+      "name": "eu/gpt-4o-mini",
+      "provider": "azure_openai",
+      "model_id": "gpt-4o-mini",
+      "context_window": 128000,
+      "benchmarks": {
+        "gpqa_diamond": 0.377,
+        "mmlu": 82.0,
+        "math_level_5": 0.526,
+        "gsm8k": 0.913,
+        "otis_mock_aime_2024_2025": 0.069,
+        "aider_polyglot": 3.6,
+        "simplebench": 0.107,
+        "humaneval": 87.2,
+        "arena_elo": 1317.0
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "azure/eu/gpt-4o-mini-realtime-preview",
+      "name": "eu/gpt-4o-mini-realtime-preview",
+      "provider": "azure_openai",
+      "model_id": "gpt-4o-mini-realtime-preview",
+      "context_window": 128000,
+      "model_type": "vision"
+    },
+    {
+      "id": "azure/eu/gpt-4o-realtime-preview",
+      "name": "eu/gpt-4o-realtime-preview",
+      "provider": "azure_openai",
+      "model_id": "gpt-4o-realtime-preview",
+      "context_window": 128000,
+      "model_type": "vision"
+    },
+    {
+      "id": "azure/eu/gpt-4o-audio-preview",
+      "name": "eu/gpt-4o-audio-preview",
+      "provider": "azure_openai",
+      "model_id": "gpt-4o-audio-preview",
+      "context_window": 128000,
+      "model_type": "vision"
+    },
+    {
+      "id": "azure/eu/gpt-4o-transcribe",
+      "name": "eu/gpt-4o-transcribe",
+      "provider": "azure_openai",
+      "model_id": "gpt-4o-transcribe",
+      "context_window": 128000,
+      "model_type": "vision"
+    },
+    {
+      "id": "azure/eu/gpt-4o-mini-transcribe",
+      "name": "eu/gpt-4o-mini-transcribe",
+      "provider": "azure_openai",
+      "model_id": "gpt-4o-mini-transcribe",
+      "context_window": 128000,
+      "model_type": "vision"
+    },
+    {
+      "id": "azure/eu/gpt-35-turbo",
+      "name": "eu/gpt-35-turbo",
+      "provider": "azure_openai",
+      "model_id": "gpt-35-turbo",
+      "context_window": 16385,
+      "benchmarks": {
+        "gpqa_diamond": 0.272,
+        "mmlu": 0.714,
+        "math_level_5": 0.159,
+        "gsm8k": 0.578,
+        "trivia_qa": 0.858,
+        "arena_elo": 1202.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "azure/eu/gpt-35-turbo-instruct",
+      "name": "eu/gpt-35-turbo-instruct",
+      "provider": "azure_openai",
+      "model_id": "gpt-35-turbo-instruct",
+      "context_window": 16385,
+      "benchmarks": {
+        "gpqa_diamond": 0.272,
+        "mmlu": 0.714,
+        "math_level_5": 0.159,
+        "gsm8k": 0.578,
+        "trivia_qa": 0.858,
+        "arena_elo": 1202.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "azure/eu/gpt-35-turbo-16k",
+      "name": "eu/gpt-35-turbo-16k",
+      "provider": "azure_openai",
+      "model_id": "gpt-35-turbo-16k",
+      "context_window": 16385,
+      "model_type": "chat"
+    },
+    {
+      "id": "azure/eu/babbage",
+      "name": "eu/babbage",
+      "provider": "azure_openai",
+      "model_id": "babbage",
+      "benchmarks": {
+        "gsm8k": 0.007
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/eu/babbage-002",
+      "name": "eu/babbage-002",
+      "provider": "azure_openai",
+      "model_id": "babbage-002",
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/eu/curie",
+      "name": "eu/curie",
+      "provider": "azure_openai",
+      "model_id": "curie",
+      "benchmarks": {
+        "gsm8k": 0.016
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/eu/davinci",
+      "name": "eu/davinci",
+      "provider": "azure_openai",
+      "model_id": "davinci",
+      "benchmarks": {
+        "gsm8k": 0.09
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/eu/davinci-002",
+      "name": "eu/davinci-002",
+      "provider": "azure_openai",
+      "model_id": "davinci-002",
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/eu/ada",
+      "name": "eu/ada",
+      "provider": "azure_openai",
+      "model_id": "ada",
+      "benchmarks": {
+        "gsm8k": 0.006
+      },
+      "model_type": "embedding"
+    },
+    {
+      "id": "azure/eu/text-embedding-ada-002",
+      "name": "eu/text-embedding-ada-002",
+      "provider": "azure_openai",
+      "model_id": "text-embedding-ada-002",
+      "context_window": 8191,
+      "model_type": "embedding"
+    },
+    {
+      "id": "azure/eu/text-embedding-3-small",
+      "name": "eu/text-embedding-3-small",
+      "provider": "azure_openai",
+      "model_id": "text-embedding-3-small",
+      "context_window": 8191,
+      "model_type": "embedding"
+    },
+    {
+      "id": "azure/eu/text-embedding-3-large",
+      "name": "eu/text-embedding-3-large",
+      "provider": "azure_openai",
+      "model_id": "text-embedding-3-large",
+      "context_window": 8191,
+      "model_type": "embedding"
+    },
+    {
+      "id": "azure/eu/o1-mini",
+      "name": "eu/o1-mini",
+      "provider": "azure_openai",
+      "model_id": "o1-mini",
+      "context_window": 200000,
+      "benchmarks": {
+        "mmlu": 85.2,
+        "humaneval": 92.4,
+        "arena_elo": 1336.0
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "azure/eu/o1",
+      "name": "eu/o1",
+      "provider": "azure_openai",
+      "model_id": "o1",
+      "context_window": 200000,
+      "benchmarks": {
+        "gpqa_diamond": 0.503,
+        "mmlu": 90.8,
+        "math_level_5": 0.816,
+        "otis_mock_aime_2024_2025": 0.311,
+        "simplebench": 0.417,
+        "humaneval": 92.4,
+        "arena_elo": 1388.0
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "azure/eu/o3-mini",
+      "name": "eu/o3-mini",
+      "provider": "azure_openai",
+      "model_id": "o3-mini",
+      "context_window": 200000,
+      "benchmarks": {
+        "mmlu": 85.9,
+        "humaneval": 96.3,
+        "arena_elo": 1348.0
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "azure/eu/model-router",
+      "name": "eu/model-router",
+      "provider": "azure_openai",
+      "model_id": "model-router",
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/eu/codex-mini",
+      "name": "eu/codex-mini",
+      "provider": "azure_openai",
+      "model_id": "codex-mini",
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/eu/sora",
+      "name": "eu/sora",
+      "provider": "azure_openai",
+      "model_id": "sora",
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/eu/o4-mini",
+      "name": "eu/o4-mini",
+      "provider": "azure_openai",
+      "model_id": "o4-mini",
+      "context_window": 200000,
+      "benchmarks": {
+        "mmlu": 90.0,
+        "humaneval": 97.3,
+        "arena_elo": 1391.0
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "azure/eu/gpt-4.1",
+      "name": "eu/gpt-4.1",
+      "provider": "azure_openai",
+      "model_id": "gpt-4.1",
+      "context_window": 1047576,
+      "benchmarks": {
+        "gpqa_diamond": 0.669,
+        "mmlu": 90.2,
+        "math_level_5": 0.83,
+        "otis_mock_aime_2024_2025": 0.383,
+        "frontiermath": 0.055,
+        "aider_polyglot": 52.4,
+        "simplebench": 0.27,
+        "frontiermath_tier_4": 0.0,
+        "swe_bench_verified": 0.41,
+        "humaneval": 94.5,
+        "arena_elo": 1412.0
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "azure/eu/gpt-4.1-mini",
+      "name": "eu/gpt-4.1-mini",
+      "provider": "azure_openai",
+      "model_id": "gpt-4.1-mini",
+      "context_window": 1047576,
+      "benchmarks": {
+        "gpqa_diamond": 0.658,
+        "mmlu": 87.5,
+        "math_level_5": 0.873,
+        "otis_mock_aime_2024_2025": 0.447,
+        "frontiermath": 0.045,
+        "aider_polyglot": 32.4,
+        "swe_bench_verified": 0.328,
+        "humaneval": 93.8,
+        "arena_elo": 1381.0
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "azure/eu/gpt-4.1-nano",
+      "name": "eu/gpt-4.1-nano",
+      "provider": "azure_openai",
+      "model_id": "gpt-4.1-nano",
+      "context_window": 1047576,
+      "benchmarks": {
+        "gpqa_diamond": 0.489,
+        "mmlu": 80.1,
+        "math_level_5": 0.7,
+        "otis_mock_aime_2024_2025": 0.289,
+        "frontiermath": 0.01,
+        "aider_polyglot": 8.9,
+        "humaneval": 87.0,
+        "arena_elo": 1321.0
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "azure/eu/gpt-5-nano",
+      "name": "eu/gpt-5-nano",
+      "provider": "azure_openai",
+      "model_id": "gpt-5-nano",
+      "context_window": 1047576,
+      "benchmarks": {
+        "livebench_global": 51.61,
+        "livebench_reasoning": 35.45,
+        "livebench_coding": 67.38,
+        "livebench_agentic_coding": 28.33,
+        "livebench_math": 64.7,
+        "livebench_data_analysis": 65.73,
+        "livebench_language": 47.73,
+        "livebench_ifeval": 51.98
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "azure/eu/gpt-5-mini",
+      "name": "eu/gpt-5-mini",
+      "provider": "azure_openai",
+      "model_id": "gpt-5-mini",
+      "context_window": 1047576,
+      "model_type": "vision"
+    },
+    {
+      "id": "azure/eu/gpt-5-chat",
+      "name": "eu/gpt-5-chat",
+      "provider": "azure_openai",
+      "model_id": "gpt-5-chat",
+      "benchmarks": {
+        "arena_elo": 1425.0
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "azure/eu/gpt-audio",
+      "name": "eu/gpt-audio",
+      "provider": "azure_openai",
+      "model_id": "gpt-audio",
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/eu/gpt-realtime",
+      "name": "eu/gpt-realtime",
+      "provider": "azure_openai",
+      "model_id": "gpt-realtime",
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/eu/gpt-audio-mini",
+      "name": "eu/gpt-audio-mini",
+      "provider": "azure_openai",
+      "model_id": "gpt-audio-mini",
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/eu/gpt-realtime-mini",
+      "name": "eu/gpt-realtime-mini",
+      "provider": "azure_openai",
+      "model_id": "gpt-realtime-mini",
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/eu/gpt-4o-transcribe-diarize",
+      "name": "eu/gpt-4o-transcribe-diarize",
+      "provider": "azure_openai",
+      "model_id": "gpt-4o-transcribe-diarize",
+      "context_window": 128000,
+      "model_type": "vision"
+    },
+    {
+      "id": "azure/eu/gpt-5.1-chat",
+      "name": "eu/gpt-5.1-chat",
+      "provider": "azure_openai",
+      "model_id": "gpt-5.1-chat",
+      "benchmarks": {
+        "arena_elo": 1435.0
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "azure/eu/gpt-5.1-codex-mini",
+      "name": "eu/gpt-5.1-codex-mini",
+      "provider": "azure_openai",
+      "model_id": "gpt-5.1-codex-mini",
+      "benchmarks": {
+        "livebench_global": 63.32,
+        "livebench_reasoning": 64.71,
+        "livebench_coding": 69.93,
+        "livebench_agentic_coding": 40.0,
+        "livebench_math": 76.26,
+        "livebench_data_analysis": 70.29,
+        "livebench_language": 63.01,
+        "livebench_ifeval": 59.02
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "azure/eu/gpt-5.2-chat",
+      "name": "eu/gpt-5.2-chat",
+      "provider": "azure_openai",
+      "model_id": "gpt-5.2-chat",
+      "benchmarks": {
+        "arena_elo": 1440.0
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "azure/us/code-cushman-001",
+      "name": "us/code-cushman-001",
+      "provider": "azure_openai",
+      "model_id": "code-cushman-001",
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/us/code-cushman-fine-tune-002",
+      "name": "us/code-cushman-fine-tune-002",
+      "provider": "azure_openai",
+      "model_id": "code-cushman-fine-tune-002",
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/us/whisper",
+      "name": "us/whisper",
+      "provider": "azure_openai",
+      "model_id": "whisper",
+      "model_type": "audio"
+    },
+    {
+      "id": "azure/us/gpt-35-turbo",
+      "name": "us/gpt-35-turbo",
+      "provider": "azure_openai",
+      "model_id": "gpt-35-turbo",
+      "context_window": 16385,
+      "benchmarks": {
+        "gpqa_diamond": 0.272,
+        "mmlu": 0.714,
+        "math_level_5": 0.159,
+        "gsm8k": 0.578,
+        "trivia_qa": 0.858,
+        "arena_elo": 1202.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "azure/us/gpt-4",
+      "name": "us/gpt-4",
+      "provider": "azure_openai",
+      "model_id": "gpt-4",
+      "context_window": 8192,
+      "benchmarks": {
+        "gpqa_diamond": 0.307,
+        "mmlu": 0.864,
+        "math_level_5": 0.23,
+        "gsm8k": 0.92,
+        "otis_mock_aime_2024_2025": 0.006,
+        "trivia_qa": 0.848,
+        "arena_elo": 1275.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "azure/us/gpt-4-32k",
+      "name": "us/gpt-4-32k",
+      "provider": "azure_openai",
+      "model_id": "gpt-4-32k",
+      "context_window": 32768,
+      "model_type": "chat"
+    },
+    {
+      "id": "azure/us/gpt-4o",
+      "name": "us/gpt-4o",
+      "provider": "azure_openai",
+      "model_id": "gpt-4o",
+      "context_window": 128000,
+      "benchmarks": {
+        "gpqa_diamond": 0.489,
+        "mmlu": 87.2,
+        "math_level_5": 0.533,
+        "otis_mock_aime_2024_2025": 0.062,
+        "frontiermath": 0.003,
+        "aider_polyglot": 18.2,
+        "simplebench": 0.178,
+        "swe_bench_verified": 0.254,
+        "humaneval": 91.0,
+        "arena_elo": 1335.0
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "azure/us/gpt-4o-mini",
+      "name": "us/gpt-4o-mini",
+      "provider": "azure_openai",
+      "model_id": "gpt-4o-mini",
+      "context_window": 128000,
+      "benchmarks": {
+        "gpqa_diamond": 0.377,
+        "mmlu": 82.0,
+        "math_level_5": 0.526,
+        "gsm8k": 0.913,
+        "otis_mock_aime_2024_2025": 0.069,
+        "aider_polyglot": 3.6,
+        "simplebench": 0.107,
+        "humaneval": 87.2,
+        "arena_elo": 1317.0
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "azure/us/gpt-4o-audio-preview",
+      "name": "us/gpt-4o-audio-preview",
+      "provider": "azure_openai",
+      "model_id": "gpt-4o-audio-preview",
+      "context_window": 128000,
+      "model_type": "vision"
+    },
+    {
+      "id": "azure/us/davinci",
+      "name": "us/davinci",
+      "provider": "azure_openai",
+      "model_id": "davinci",
+      "benchmarks": {
+        "gsm8k": 0.09
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/us/text-davinci-001",
+      "name": "us/text-davinci-001",
+      "provider": "azure_openai",
+      "model_id": "text-davinci-001",
+      "benchmarks": {
+        "mmlu": 0.439,
+        "trivia_qa": 0.712
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/us/text-davinci-002",
+      "name": "us/text-davinci-002",
+      "provider": "azure_openai",
+      "model_id": "text-davinci-002",
+      "benchmarks": {
+        "mmlu": 0.7,
+        "gsm8k": 0.415
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/us/text-davinci-003",
+      "name": "us/text-davinci-003",
+      "provider": "azure_openai",
+      "model_id": "text-davinci-003",
+      "benchmarks": {
+        "gsm8k": 0.571
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/us/text-davinci-fine-tune-002",
+      "name": "us/text-davinci-fine-tune-002",
+      "provider": "azure_openai",
+      "model_id": "text-davinci-fine-tune-002",
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/us/code-davinci-fine-tune-002",
+      "name": "us/code-davinci-fine-tune-002",
+      "provider": "azure_openai",
+      "model_id": "code-davinci-fine-tune-002",
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/us/text-similarity-davinci-001",
+      "name": "us/text-similarity-davinci-001",
+      "provider": "azure_openai",
+      "model_id": "text-similarity-davinci-001",
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/us/text-search-davinci-doc-001",
+      "name": "us/text-search-davinci-doc-001",
+      "provider": "azure_openai",
+      "model_id": "text-search-davinci-doc-001",
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/us/text-search-davinci-query-001",
+      "name": "us/text-search-davinci-query-001",
+      "provider": "azure_openai",
+      "model_id": "text-search-davinci-query-001",
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/us/curie",
+      "name": "us/curie",
+      "provider": "azure_openai",
+      "model_id": "curie",
+      "benchmarks": {
+        "gsm8k": 0.016
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/us/text-curie-001",
+      "name": "us/text-curie-001",
+      "provider": "azure_openai",
+      "model_id": "text-curie-001",
+      "benchmarks": {
+        "gsm8k": 0.006
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/us/text-similarity-curie-001",
+      "name": "us/text-similarity-curie-001",
+      "provider": "azure_openai",
+      "model_id": "text-similarity-curie-001",
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/us/text-search-curie-doc-001",
+      "name": "us/text-search-curie-doc-001",
+      "provider": "azure_openai",
+      "model_id": "text-search-curie-doc-001",
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/us/text-search-curie-query-001",
+      "name": "us/text-search-curie-query-001",
+      "provider": "azure_openai",
+      "model_id": "text-search-curie-query-001",
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/us/ada",
+      "name": "us/ada",
+      "provider": "azure_openai",
+      "model_id": "ada",
+      "benchmarks": {
+        "gsm8k": 0.006
+      },
+      "model_type": "embedding"
+    },
+    {
+      "id": "azure/us/text-ada-001",
+      "name": "us/text-ada-001",
+      "provider": "azure_openai",
+      "model_id": "text-ada-001",
+      "benchmarks": {
+        "gsm8k": 0.004
+      },
+      "model_type": "embedding"
+    },
+    {
+      "id": "azure/us/text-similarity-ada-001",
+      "name": "us/text-similarity-ada-001",
+      "provider": "azure_openai",
+      "model_id": "text-similarity-ada-001",
+      "model_type": "embedding"
+    },
+    {
+      "id": "azure/us/text-search-ada-doc-001",
+      "name": "us/text-search-ada-doc-001",
+      "provider": "azure_openai",
+      "model_id": "text-search-ada-doc-001",
+      "model_type": "embedding"
+    },
+    {
+      "id": "azure/us/text-search-ada-query-001",
+      "name": "us/text-search-ada-query-001",
+      "provider": "azure_openai",
+      "model_id": "text-search-ada-query-001",
+      "model_type": "embedding"
+    },
+    {
+      "id": "azure/us/code-search-ada-code-001",
+      "name": "us/code-search-ada-code-001",
+      "provider": "azure_openai",
+      "model_id": "code-search-ada-code-001",
+      "model_type": "embedding"
+    },
+    {
+      "id": "azure/us/code-search-ada-text-001",
+      "name": "us/code-search-ada-text-001",
+      "provider": "azure_openai",
+      "model_id": "code-search-ada-text-001",
+      "model_type": "embedding"
+    },
+    {
+      "id": "azure/us/text-embedding-ada-002",
+      "name": "us/text-embedding-ada-002",
+      "provider": "azure_openai",
+      "model_id": "text-embedding-ada-002",
+      "context_window": 8191,
+      "model_type": "embedding"
+    },
+    {
+      "id": "azure/us/babbage",
+      "name": "us/babbage",
+      "provider": "azure_openai",
+      "model_id": "babbage",
+      "benchmarks": {
+        "gsm8k": 0.007
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/us/text-babbage-001",
+      "name": "us/text-babbage-001",
+      "provider": "azure_openai",
+      "model_id": "text-babbage-001",
+      "benchmarks": {
+        "gsm8k": 0.0
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/us/text-similarity-babbage-001",
+      "name": "us/text-similarity-babbage-001",
+      "provider": "azure_openai",
+      "model_id": "text-similarity-babbage-001",
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/us/text-search-babbage-doc-001",
+      "name": "us/text-search-babbage-doc-001",
+      "provider": "azure_openai",
+      "model_id": "text-search-babbage-doc-001",
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/us/text-search-babbage-query-001",
+      "name": "us/text-search-babbage-query-001",
+      "provider": "azure_openai",
+      "model_id": "text-search-babbage-query-001",
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/us/code-search-babbage-code-001",
+      "name": "us/code-search-babbage-code-001",
+      "provider": "azure_openai",
+      "model_id": "code-search-babbage-code-001",
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/us/code-search-babbage-text-001",
+      "name": "us/code-search-babbage-text-001",
+      "provider": "azure_openai",
+      "model_id": "code-search-babbage-text-001",
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/us/text-embedding-3-small",
+      "name": "us/text-embedding-3-small",
+      "provider": "azure_openai",
+      "model_id": "text-embedding-3-small",
+      "context_window": 8191,
+      "model_type": "embedding"
+    },
+    {
+      "id": "azure/us/text-embedding-3-large",
+      "name": "us/text-embedding-3-large",
+      "provider": "azure_openai",
+      "model_id": "text-embedding-3-large",
+      "context_window": 8191,
+      "model_type": "embedding"
+    },
+    {
+      "id": "azure/us/o1-mini",
+      "name": "us/o1-mini",
+      "provider": "azure_openai",
+      "model_id": "o1-mini",
+      "context_window": 200000,
+      "benchmarks": {
+        "mmlu": 85.2,
+        "humaneval": 92.4,
+        "arena_elo": 1336.0
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "azure/us/o1",
+      "name": "us/o1",
+      "provider": "azure_openai",
+      "model_id": "o1",
+      "context_window": 200000,
+      "benchmarks": {
+        "gpqa_diamond": 0.503,
+        "mmlu": 90.8,
+        "math_level_5": 0.816,
+        "otis_mock_aime_2024_2025": 0.311,
+        "simplebench": 0.417,
+        "humaneval": 92.4,
+        "arena_elo": 1388.0
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "azure/us/o3-mini",
+      "name": "us/o3-mini",
+      "provider": "azure_openai",
+      "model_id": "o3-mini",
+      "context_window": 200000,
+      "benchmarks": {
+        "mmlu": 85.9,
+        "humaneval": 96.3,
+        "arena_elo": 1348.0
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "azure/us/o4-mini",
+      "name": "us/o4-mini",
+      "provider": "azure_openai",
+      "model_id": "o4-mini",
+      "context_window": 200000,
+      "benchmarks": {
+        "mmlu": 90.0,
+        "humaneval": 97.3,
+        "arena_elo": 1391.0
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "azure/us/gpt-4.1",
+      "name": "us/gpt-4.1",
+      "provider": "azure_openai",
+      "model_id": "gpt-4.1",
+      "context_window": 1047576,
+      "benchmarks": {
+        "gpqa_diamond": 0.669,
+        "mmlu": 90.2,
+        "math_level_5": 0.83,
+        "otis_mock_aime_2024_2025": 0.383,
+        "frontiermath": 0.055,
+        "aider_polyglot": 52.4,
+        "simplebench": 0.27,
+        "frontiermath_tier_4": 0.0,
+        "swe_bench_verified": 0.41,
+        "humaneval": 94.5,
+        "arena_elo": 1412.0
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "azure/us/gpt-4.1-mini",
+      "name": "us/gpt-4.1-mini",
+      "provider": "azure_openai",
+      "model_id": "gpt-4.1-mini",
+      "context_window": 1047576,
+      "benchmarks": {
+        "gpqa_diamond": 0.658,
+        "mmlu": 87.5,
+        "math_level_5": 0.873,
+        "otis_mock_aime_2024_2025": 0.447,
+        "frontiermath": 0.045,
+        "aider_polyglot": 32.4,
+        "swe_bench_verified": 0.328,
+        "humaneval": 93.8,
+        "arena_elo": 1381.0
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "azure/us/gpt-4.1-nano",
+      "name": "us/gpt-4.1-nano",
+      "provider": "azure_openai",
+      "model_id": "gpt-4.1-nano",
+      "context_window": 1047576,
+      "benchmarks": {
+        "gpqa_diamond": 0.489,
+        "mmlu": 80.1,
+        "math_level_5": 0.7,
+        "otis_mock_aime_2024_2025": 0.289,
+        "frontiermath": 0.01,
+        "aider_polyglot": 8.9,
+        "humaneval": 87.0,
+        "arena_elo": 1321.0
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "azure/us/gpt-5-mini",
+      "name": "us/gpt-5-mini",
+      "provider": "azure_openai",
+      "model_id": "gpt-5-mini",
+      "context_window": 1047576,
+      "model_type": "vision"
+    },
+    {
+      "id": "azure/us/gpt-5-nano",
+      "name": "us/gpt-5-nano",
+      "provider": "azure_openai",
+      "model_id": "gpt-5-nano",
+      "context_window": 1047576,
+      "benchmarks": {
+        "livebench_global": 51.61,
+        "livebench_reasoning": 35.45,
+        "livebench_coding": 67.38,
+        "livebench_agentic_coding": 28.33,
+        "livebench_math": 64.7,
+        "livebench_data_analysis": 65.73,
+        "livebench_language": 47.73,
+        "livebench_ifeval": 51.98
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "azure/us/gpt-35-turbo-16k",
+      "name": "us/gpt-35-turbo-16k",
+      "provider": "azure_openai",
+      "model_id": "gpt-35-turbo-16k",
+      "context_window": 16385,
+      "model_type": "chat"
+    },
+    {
+      "id": "azure/us/gpt-4o-mini-realtime-preview",
+      "name": "us/gpt-4o-mini-realtime-preview",
+      "provider": "azure_openai",
+      "model_id": "gpt-4o-mini-realtime-preview",
+      "context_window": 128000,
+      "model_type": "vision"
+    },
+    {
+      "id": "azure/us/gpt-4o-realtime-preview",
+      "name": "us/gpt-4o-realtime-preview",
+      "provider": "azure_openai",
+      "model_id": "gpt-4o-realtime-preview",
+      "context_window": 128000,
+      "model_type": "vision"
+    },
+    {
+      "id": "azure/us/gpt-4o-mini-audio-preview",
+      "name": "us/gpt-4o-mini-audio-preview",
+      "provider": "azure_openai",
+      "model_id": "gpt-4o-mini-audio-preview",
+      "context_window": 128000,
+      "model_type": "vision"
+    },
+    {
+      "id": "azure/us/gpt-4o-transcribe",
+      "name": "us/gpt-4o-transcribe",
+      "provider": "azure_openai",
+      "model_id": "gpt-4o-transcribe",
+      "context_window": 128000,
+      "model_type": "vision"
+    },
+    {
+      "id": "azure/us/gpt-4o-mini-transcribe",
+      "name": "us/gpt-4o-mini-transcribe",
+      "provider": "azure_openai",
+      "model_id": "gpt-4o-mini-transcribe",
+      "context_window": 128000,
+      "model_type": "vision"
+    },
+    {
+      "id": "azure/us/gpt-4o-mini-tts",
+      "name": "us/gpt-4o-mini-tts",
+      "provider": "azure_openai",
+      "model_id": "gpt-4o-mini-tts",
+      "context_window": 128000,
+      "model_type": "audio"
+    },
+    {
+      "id": "azure/us/model-router",
+      "name": "us/model-router",
+      "provider": "azure_openai",
+      "model_id": "model-router",
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/us/codex-mini",
+      "name": "us/codex-mini",
+      "provider": "azure_openai",
+      "model_id": "codex-mini",
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/us/sora",
+      "name": "us/sora",
+      "provider": "azure_openai",
+      "model_id": "sora",
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/us/gpt-5-chat",
+      "name": "us/gpt-5-chat",
+      "provider": "azure_openai",
+      "model_id": "gpt-5-chat",
+      "benchmarks": {
+        "arena_elo": 1425.0
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "azure/us/gpt-audio",
+      "name": "us/gpt-audio",
+      "provider": "azure_openai",
+      "model_id": "gpt-audio",
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/us/gpt-realtime",
+      "name": "us/gpt-realtime",
+      "provider": "azure_openai",
+      "model_id": "gpt-realtime",
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/us/gpt-audio-mini",
+      "name": "us/gpt-audio-mini",
+      "provider": "azure_openai",
+      "model_id": "gpt-audio-mini",
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/us/gpt-realtime-mini",
+      "name": "us/gpt-realtime-mini",
+      "provider": "azure_openai",
+      "model_id": "gpt-realtime-mini",
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/us/gpt-4o-transcribe-diarize",
+      "name": "us/gpt-4o-transcribe-diarize",
+      "provider": "azure_openai",
+      "model_id": "gpt-4o-transcribe-diarize",
+      "context_window": 128000,
+      "model_type": "vision"
+    },
+    {
+      "id": "azure/us/gpt-5.1-chat",
+      "name": "us/gpt-5.1-chat",
+      "provider": "azure_openai",
+      "model_id": "gpt-5.1-chat",
+      "benchmarks": {
+        "arena_elo": 1435.0
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "azure/us/gpt-5.1-codex-mini",
+      "name": "us/gpt-5.1-codex-mini",
+      "provider": "azure_openai",
+      "model_id": "gpt-5.1-codex-mini",
+      "benchmarks": {
+        "livebench_global": 63.32,
+        "livebench_reasoning": 64.71,
+        "livebench_coding": 69.93,
+        "livebench_agentic_coding": 40.0,
+        "livebench_math": 76.26,
+        "livebench_data_analysis": 70.29,
+        "livebench_language": 63.01,
+        "livebench_ifeval": 59.02
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "azure/us/gpt-5.2-chat",
+      "name": "us/gpt-5.2-chat",
+      "provider": "azure_openai",
+      "model_id": "gpt-5.2-chat",
+      "benchmarks": {
+        "arena_elo": 1440.0
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "azure/eu/code-cushman-001",
+      "name": "eu/code-cushman-001",
+      "provider": "azure_openai",
+      "model_id": "code-cushman-001",
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/eu/code-cushman-fine-tune-002",
+      "name": "eu/code-cushman-fine-tune-002",
+      "provider": "azure_openai",
+      "model_id": "code-cushman-fine-tune-002",
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/eu/text-ada-001",
+      "name": "eu/text-ada-001",
+      "provider": "azure_openai",
+      "model_id": "text-ada-001",
+      "benchmarks": {
+        "gsm8k": 0.004
+      },
+      "model_type": "embedding"
+    },
+    {
+      "id": "azure/eu/text-similarity-ada-001",
+      "name": "eu/text-similarity-ada-001",
+      "provider": "azure_openai",
+      "model_id": "text-similarity-ada-001",
+      "model_type": "embedding"
+    },
+    {
+      "id": "azure/eu/text-search-ada-doc-001",
+      "name": "eu/text-search-ada-doc-001",
+      "provider": "azure_openai",
+      "model_id": "text-search-ada-doc-001",
+      "model_type": "embedding"
+    },
+    {
+      "id": "azure/eu/text-search-ada-query-001",
+      "name": "eu/text-search-ada-query-001",
+      "provider": "azure_openai",
+      "model_id": "text-search-ada-query-001",
+      "model_type": "embedding"
+    },
+    {
+      "id": "azure/eu/code-search-ada-code-001",
+      "name": "eu/code-search-ada-code-001",
+      "provider": "azure_openai",
+      "model_id": "code-search-ada-code-001",
+      "model_type": "embedding"
+    },
+    {
+      "id": "azure/eu/code-search-ada-text-001",
+      "name": "eu/code-search-ada-text-001",
+      "provider": "azure_openai",
+      "model_id": "code-search-ada-text-001",
+      "model_type": "embedding"
+    },
+    {
+      "id": "azure/eu/text-davinci-001",
+      "name": "eu/text-davinci-001",
+      "provider": "azure_openai",
+      "model_id": "text-davinci-001",
+      "benchmarks": {
+        "mmlu": 0.439,
+        "trivia_qa": 0.712
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/eu/text-davinci-002",
+      "name": "eu/text-davinci-002",
+      "provider": "azure_openai",
+      "model_id": "text-davinci-002",
+      "benchmarks": {
+        "mmlu": 0.7,
+        "gsm8k": 0.415
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/eu/text-davinci-003",
+      "name": "eu/text-davinci-003",
+      "provider": "azure_openai",
+      "model_id": "text-davinci-003",
+      "benchmarks": {
+        "gsm8k": 0.571
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/eu/text-davinci-fine-tune-002",
+      "name": "eu/text-davinci-fine-tune-002",
+      "provider": "azure_openai",
+      "model_id": "text-davinci-fine-tune-002",
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/eu/code-davinci-002",
+      "name": "eu/code-davinci-002",
+      "provider": "azure_openai",
+      "model_id": "code-davinci-002",
+      "benchmarks": {
+        "gsm8k": 0.568
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/eu/code-davinci-fine-tune-002",
+      "name": "eu/code-davinci-fine-tune-002",
+      "provider": "azure_openai",
+      "model_id": "code-davinci-fine-tune-002",
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/eu/text-similarity-davinci-001",
+      "name": "eu/text-similarity-davinci-001",
+      "provider": "azure_openai",
+      "model_id": "text-similarity-davinci-001",
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/eu/text-search-davinci-doc-001",
+      "name": "eu/text-search-davinci-doc-001",
+      "provider": "azure_openai",
+      "model_id": "text-search-davinci-doc-001",
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/eu/text-search-davinci-query-001",
+      "name": "eu/text-search-davinci-query-001",
+      "provider": "azure_openai",
+      "model_id": "text-search-davinci-query-001",
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/eu/text-babbage-001",
+      "name": "eu/text-babbage-001",
+      "provider": "azure_openai",
+      "model_id": "text-babbage-001",
+      "benchmarks": {
+        "gsm8k": 0.0
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/eu/text-similarity-babbage-001",
+      "name": "eu/text-similarity-babbage-001",
+      "provider": "azure_openai",
+      "model_id": "text-similarity-babbage-001",
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/eu/text-search-babbage-doc-001",
+      "name": "eu/text-search-babbage-doc-001",
+      "provider": "azure_openai",
+      "model_id": "text-search-babbage-doc-001",
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/eu/text-search-babbage-query-001",
+      "name": "eu/text-search-babbage-query-001",
+      "provider": "azure_openai",
+      "model_id": "text-search-babbage-query-001",
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/eu/code-search-babbage-code-001",
+      "name": "eu/code-search-babbage-code-001",
+      "provider": "azure_openai",
+      "model_id": "code-search-babbage-code-001",
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/eu/code-search-babbage-text-001",
+      "name": "eu/code-search-babbage-text-001",
+      "provider": "azure_openai",
+      "model_id": "code-search-babbage-text-001",
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/eu/text-curie-001",
+      "name": "eu/text-curie-001",
+      "provider": "azure_openai",
+      "model_id": "text-curie-001",
+      "benchmarks": {
+        "gsm8k": 0.006
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/eu/text-similarity-curie-001",
+      "name": "eu/text-similarity-curie-001",
+      "provider": "azure_openai",
+      "model_id": "text-similarity-curie-001",
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/eu/text-search-curie-doc-001",
+      "name": "eu/text-search-curie-doc-001",
+      "provider": "azure_openai",
+      "model_id": "text-search-curie-doc-001",
+      "model_type": "unknown"
+    },
+    {
+      "id": "azure/eu/text-search-curie-query-001",
+      "name": "eu/text-search-curie-query-001",
+      "provider": "azure_openai",
+      "model_id": "text-search-curie-query-001",
+      "model_type": "unknown"
+    }
+  ]
+}

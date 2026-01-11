@@ -1,0 +1,178 @@
+{
+  "provider": "sambanova",
+  "model_count": 13,
+  "models": [
+    {
+      "id": "sambanova/DeepSeek-R1-0528",
+      "name": "DeepSeek-R1-0528",
+      "provider": "sambanova",
+      "model_id": "DeepSeek-R1-0528",
+      "context_window": 65536,
+      "benchmarks": {
+        "gpqa_diamond": 0.692,
+        "math_level_5": 0.931,
+        "otis_mock_aime_2024_2025": 0.533,
+        "aider_polyglot": 56.9,
+        "simplebench": 0.309,
+        "simpleqa_verified": 0.274,
+        "swe_bench_verified": 0.333,
+        "arena_elo": 1396.0
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "sambanova/DeepSeek-V3-0324",
+      "name": "DeepSeek-V3-0324",
+      "provider": "sambanova",
+      "model_id": "DeepSeek-V3-0324",
+      "benchmarks": {
+        "gpqa_diamond": 0.565,
+        "mmlu": 0.871,
+        "math_level_5": 0.649,
+        "otis_mock_aime_2024_2025": 0.158,
+        "frontiermath": 0.017,
+        "aider_polyglot": 17.8,
+        "simplebench": 0.189,
+        "trivia_qa": 0.829,
+        "swe_bench_verified": 0.521,
+        "arena_elo": 1306.0
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "sambanova/DeepSeek-V3.1",
+      "name": "DeepSeek-V3.1",
+      "provider": "sambanova",
+      "model_id": "DeepSeek-V3.1",
+      "benchmarks": {
+        "gpqa_diamond": 0.565,
+        "mmlu": 0.871,
+        "math_level_5": 0.649,
+        "otis_mock_aime_2024_2025": 0.158,
+        "frontiermath": 0.017,
+        "aider_polyglot": 17.8,
+        "simplebench": 0.189,
+        "trivia_qa": 0.829,
+        "swe_bench_verified": 0.521,
+        "arena_elo": 1306.0
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "sambanova/DeepSeek-R1-Distill-Llama-70B",
+      "name": "DeepSeek-R1-Distill-Llama-70B",
+      "provider": "sambanova",
+      "model_id": "DeepSeek-R1-Distill-Llama-70B",
+      "context_window": 65536,
+      "benchmarks": {
+        "gpqa_diamond": 0.557,
+        "math_level_5": 0.899,
+        "otis_mock_aime_2024_2025": 0.514
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "sambanova/Meta-Llama-3.3-70B-Instruct",
+      "name": "Meta-Llama-3.3-70B-Instruct",
+      "provider": "sambanova",
+      "model_id": "Meta-Llama-3.3-70B-Instruct",
+      "context_window": 65536,
+      "benchmarks": {
+        "arena_elo": 1319.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "sambanova/Meta-Llama-3.1-8B-Instruct",
+      "name": "Meta-Llama-3.1-8B-Instruct",
+      "provider": "sambanova",
+      "model_id": "Meta-Llama-3.1-8B-Instruct",
+      "context_window": 8192,
+      "benchmarks": {
+        "arena_elo": 1211.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "sambanova/Llama-4-Maverick-17B-128E-Instruct",
+      "name": "Llama-4-Maverick-17B-128E-Instruct",
+      "provider": "sambanova",
+      "model_id": "Llama-4-Maverick-17B-128E-Instruct",
+      "benchmarks": {
+        "gpqa_diamond": 0.67,
+        "math_level_5": 0.73,
+        "otis_mock_aime_2024_2025": 0.206,
+        "frontiermath": 0.007,
+        "aider_polyglot": 15.6,
+        "simplebench": 0.277
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "sambanova/gpt-oss-120b",
+      "name": "gpt-oss-120b",
+      "provider": "sambanova",
+      "model_id": "gpt-oss-120b",
+      "benchmarks": {
+        "simplebench": 0.221,
+        "arena_elo": 1353.0,
+        "livebench_global": 48.66,
+        "livebench_reasoning": 39.21,
+        "livebench_coding": 60.21,
+        "livebench_agentic_coding": 16.67,
+        "livebench_math": 68.87,
+        "livebench_data_analysis": 56.77,
+        "livebench_language": 48.59,
+        "livebench_ifeval": 50.29
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "sambanova/Whisper-Large-v3",
+      "name": "Whisper-Large-v3",
+      "provider": "sambanova",
+      "model_id": "Whisper-Large-v3",
+      "model_type": "unknown"
+    },
+    {
+      "id": "sambanova/Qwen3-32B",
+      "name": "Qwen3-32B",
+      "provider": "sambanova",
+      "model_id": "Qwen3-32B",
+      "benchmarks": {
+        "aider_polyglot": 40.0,
+        "arena_elo": 1345.0,
+        "livebench_global": 46.67,
+        "livebench_reasoning": 48.25,
+        "livebench_coding": 66.03,
+        "livebench_agentic_coding": 3.33,
+        "livebench_math": 67.44,
+        "livebench_data_analysis": 68.29,
+        "livebench_language": 55.54,
+        "livebench_ifeval": 17.77
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "sambanova/Tokyotech-llm",
+      "name": "Tokyotech-llm",
+      "provider": "sambanova",
+      "model_id": "Tokyotech-llm",
+      "model_type": "unknown"
+    },
+    {
+      "id": "sambanova/Llama-3.3-Swallow-70B-Instruct-v0.4",
+      "name": "Llama-3.3-Swallow-70B-Instruct-v0.4",
+      "provider": "sambanova",
+      "model_id": "Llama-3.3-Swallow-70B-Instruct-v0.4",
+      "model_type": "chat"
+    },
+    {
+      "id": "sambanova/E5-Mistral-7B-Instruct",
+      "name": "E5-Mistral-7B-Instruct",
+      "provider": "sambanova",
+      "model_id": "E5-Mistral-7B-Instruct",
+      "model_type": "unknown"
+    }
+  ]
+}

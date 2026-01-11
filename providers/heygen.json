@@ -1,0 +1,34 @@
+{
+  "provider": "heygen",
+  "model_count": 4,
+  "models": [
+    {
+      "id": "heygen/photo_avatar_v2",
+      "name": "Photo Avatar V2",
+      "provider": "heygen",
+      "model_id": "photo_avatar_v2",
+      "model_type": "video_gen"
+    },
+    {
+      "id": "heygen/video_avatar",
+      "name": "Video Avatar",
+      "provider": "heygen",
+      "model_id": "video_avatar",
+      "model_type": "video_gen"
+    },
+    {
+      "id": "heygen/avatar_iv",
+      "name": "Avatar IV",
+      "provider": "heygen",
+      "model_id": "avatar_iv",
+      "model_type": "video_gen"
+    },
+    {
+      "id": "heygen/streaming_avatar",
+      "name": "Streaming Avatar",
+      "provider": "heygen",
+      "model_id": "streaming_avatar",
+      "model_type": "video_gen"
+    }
+  ]
+}

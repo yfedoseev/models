@@ -1,0 +1,34 @@
+{
+  "provider": "revai",
+  "model_count": 4,
+  "models": [
+    {
+      "id": "revai/reverb",
+      "name": "reverb",
+      "provider": "revai",
+      "model_id": "reverb",
+      "model_type": "audio"
+    },
+    {
+      "id": "revai/reverb-turbo",
+      "name": "reverb-turbo",
+      "provider": "revai",
+      "model_id": "reverb-turbo",
+      "model_type": "audio"
+    },
+    {
+      "id": "revai/whisper",
+      "name": "whisper",
+      "provider": "revai",
+      "model_id": "whisper",
+      "model_type": "audio"
+    },
+    {
+      "id": "revai/foreign-language",
+      "name": "foreign-language",
+      "provider": "revai",
+      "model_id": "foreign-language",
+      "model_type": "audio"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "provider": "watsonx",
+  "model_count": 6,
+  "models": [
+    {
+      "id": "watsonx/ibm/granite-3-8b-instruct",
+      "name": null,
+      "provider": "watsonx",
+      "model_id": "ibm/granite-3-8b-instruct",
+      "context_window": 8192,
+      "model_type": "chat"
+    },
+    {
+      "id": "watsonx/ibm/granite-3-2b-instruct",
+      "name": null,
+      "provider": "watsonx",
+      "model_id": "ibm/granite-3-2b-instruct",
+      "context_window": 8192,
+      "model_type": "chat"
+    },
+    {
+      "id": "watsonx/ibm/granite-34b-code-instruct",
+      "name": null,
+      "provider": "watsonx",
+      "model_id": "ibm/granite-34b-code-instruct",
+      "context_window": 8192,
+      "model_type": "code"
+    },
+    {
+      "id": "watsonx/meta-llama/llama-3-1-70b-instruct",
+      "name": null,
+      "provider": "watsonx",
+      "model_id": "meta-llama/llama-3-1-70b-instruct",
+      "context_window": 131072,
+      "benchmarks": {
+        "gpqa_diamond": 0.442,
+        "mmlu": 0.801,
+        "math_level_5": 0.367,
+        "otis_mock_aime_2024_2025": 0.036
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "watsonx/meta-llama/llama-3-1-8b-instruct",
+      "name": null,
+      "provider": "watsonx",
+      "model_id": "meta-llama/llama-3-1-8b-instruct",
+      "context_window": 131072,
+      "benchmarks": {
+        "gpqa_diamond": 0.259,
+        "mmlu": 0.561,
+        "math_level_5": 0.229,
+        "gsm8k": 0.824,
+        "otis_mock_aime_2024_2025": 0.025
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "watsonx/mistralai/mixtral-8x7b-instruct-v01",
+      "name": null,
+      "provider": "watsonx",
+      "model_id": "mistralai/mixtral-8x7b-instruct-v01",
+      "context_window": 32768,
+      "benchmarks": {
+        "gpqa_diamond": 0.306,
+        "mmlu": 0.705,
+        "math_level_5": 0.093,
+        "gsm8k": 0.744,
+        "trivia_qa": 0.822,
+        "arena_elo": 1198.0
+      },
+      "model_type": "chat"
+    }
+  ]
+}

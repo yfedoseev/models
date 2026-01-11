@@ -1,0 +1,174 @@
+{
+  "provider": "stability",
+  "model_count": 24,
+  "models": [
+    {
+      "id": "stability/Stable Image Ultra",
+      "name": "Stable Image Ultra",
+      "provider": "stability",
+      "model_id": null,
+      "model_type": "unknown"
+    },
+    {
+      "id": "stability/Stable Diffusion 3.5 Large",
+      "name": "Stable Diffusion 3.5 Large",
+      "provider": "stability",
+      "model_id": null,
+      "model_type": "unknown"
+    },
+    {
+      "id": "stability/Stable Diffusion 3.5 Large Turbo",
+      "name": "Stable Diffusion 3.5 Large Turbo",
+      "provider": "stability",
+      "model_id": null,
+      "model_type": "unknown"
+    },
+    {
+      "id": "stability/Stable Diffusion 3.5 Medium",
+      "name": "Stable Diffusion 3.5 Medium",
+      "provider": "stability",
+      "model_id": null,
+      "model_type": "unknown"
+    },
+    {
+      "id": "stability/Stable Diffusion 3.5 Flash",
+      "name": "Stable Diffusion 3.5 Flash",
+      "provider": "stability",
+      "model_id": null,
+      "model_type": "unknown"
+    },
+    {
+      "id": "stability/Stable Image Core",
+      "name": "Stable Image Core",
+      "provider": "stability",
+      "model_id": null,
+      "model_type": "unknown"
+    },
+    {
+      "id": "stability/SDXL 1.0",
+      "name": "SDXL 1.0",
+      "provider": "stability",
+      "model_id": null,
+      "model_type": "unknown"
+    },
+    {
+      "id": "stability/Creative Upscaler",
+      "name": "Creative Upscaler",
+      "provider": "stability",
+      "model_id": null,
+      "model_type": "unknown"
+    },
+    {
+      "id": "stability/Conservative Upscaler",
+      "name": "Conservative Upscaler",
+      "provider": "stability",
+      "model_id": null,
+      "model_type": "unknown"
+    },
+    {
+      "id": "stability/Fast Upscaler",
+      "name": "Fast Upscaler",
+      "provider": "stability",
+      "model_id": null,
+      "model_type": "unknown"
+    },
+    {
+      "id": "stability/Erase Object",
+      "name": "Erase Object",
+      "provider": "stability",
+      "model_id": null,
+      "model_type": "unknown"
+    },
+    {
+      "id": "stability/Inpaint",
+      "name": "Inpaint",
+      "provider": "stability",
+      "model_id": null,
+      "model_type": "unknown"
+    },
+    {
+      "id": "stability/Outpaint",
+      "name": "Outpaint",
+      "provider": "stability",
+      "model_id": null,
+      "model_type": "unknown"
+    },
+    {
+      "id": "stability/Remove Background",
+      "name": "Remove Background",
+      "provider": "stability",
+      "model_id": null,
+      "model_type": "unknown"
+    },
+    {
+      "id": "stability/Search and Recolor",
+      "name": "Search and Recolor",
+      "provider": "stability",
+      "model_id": null,
+      "model_type": "unknown"
+    },
+    {
+      "id": "stability/Search and Replace",
+      "name": "Search and Replace",
+      "provider": "stability",
+      "model_id": null,
+      "model_type": "unknown"
+    },
+    {
+      "id": "stability/Replace Background &amp; Relight",
+      "name": "Replace Background &amp; Relight",
+      "provider": "stability",
+      "model_id": null,
+      "model_type": "unknown"
+    },
+    {
+      "id": "stability/Structure",
+      "name": "Structure",
+      "provider": "stability",
+      "model_id": null,
+      "model_type": "unknown"
+    },
+    {
+      "id": "stability/Sketch",
+      "name": "Sketch",
+      "provider": "stability",
+      "model_id": null,
+      "model_type": "unknown"
+    },
+    {
+      "id": "stability/Style Guide",
+      "name": "Style Guide",
+      "provider": "stability",
+      "model_id": null,
+      "model_type": "unknown"
+    },
+    {
+      "id": "stability/Style Transfer",
+      "name": "Style Transfer",
+      "provider": "stability",
+      "model_id": null,
+      "model_type": "unknown"
+    },
+    {
+      "id": "stability/Stable Fast 3D",
+      "name": "Stable Fast 3D",
+      "provider": "stability",
+      "model_id": null,
+      "model_type": "unknown"
+    },
+    {
+      "id": "stability/Stable Point Aware 3D",
+      "name": "Stable Point Aware 3D",
+      "provider": "stability",
+      "model_id": null,
+      "model_type": "unknown"
+    },
+    {
+      "id": "stability/Stable Audio 2",
+      "name": "Stable Audio 2",
+      "provider": "stability",
+      "model_id": null,
+      "model_type": "unknown"
+    }
+  ]
+}

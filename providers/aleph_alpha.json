@@ -1,0 +1,62 @@
+{
+  "provider": "aleph_alpha",
+  "model_count": 7,
+  "models": [
+    {
+      "id": "aleph-alpha/luminous-base",
+      "name": "luminous-base",
+      "provider": "aleph_alpha",
+      "model_id": "luminous-base",
+      "context_window": 2048,
+      "model_type": "base"
+    },
+    {
+      "id": "aleph-alpha/luminous-extended",
+      "name": "luminous-extended",
+      "provider": "aleph_alpha",
+      "model_id": "luminous-extended",
+      "context_window": 2048,
+      "model_type": "extended"
+    },
+    {
+      "id": "aleph-alpha/luminous-supreme",
+      "name": "luminous-supreme",
+      "provider": "aleph_alpha",
+      "model_id": "luminous-supreme",
+      "context_window": 2048,
+      "model_type": "flagship"
+    },
+    {
+      "id": "aleph-alpha/luminous-base-control",
+      "name": "luminous-base-control",
+      "provider": "aleph_alpha",
+      "model_id": "luminous-base-control",
+      "context_window": 2048,
+      "model_type": "base"
+    },
+    {
+      "id": "aleph-alpha/luminous-extended-control",
+      "name": "luminous-extended-control",
+      "provider": "aleph_alpha",
+      "model_id": "luminous-extended-control",
+      "context_window": 2048,
+      "model_type": "extended"
+    },
+    {
+      "id": "aleph-alpha/luminous-supreme-control",
+      "name": "luminous-supreme-control",
+      "provider": "aleph_alpha",
+      "model_id": "luminous-supreme-control",
+      "context_window": 2048,
+      "model_type": "flagship"
+    },
+    {
+      "id": "aleph-alpha/pharia-1-llm-7b-control",
+      "name": "pharia-1-llm-7b-control",
+      "provider": "aleph_alpha",
+      "model_id": "pharia-1-llm-7b-control",
+      "context_window": 8192,
+      "model_type": "instruction"
+    }
+  ]
+}

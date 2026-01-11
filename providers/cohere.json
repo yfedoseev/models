@@ -1,0 +1,60 @@
+{
+  "provider": "cohere",
+  "model_count": 5,
+  "models": [
+    {
+      "id": "Command",
+      "name": null,
+      "provider": "cohere",
+      "model_id": "Command",
+      "input_price_per_million": "1.00",
+      "output_price_per_million": "2.00",
+      "model_type": "chat"
+    },
+    {
+      "id": "Command-light",
+      "name": null,
+      "provider": "cohere",
+      "model_id": "Command-light",
+      "input_price_per_million": "0.30",
+      "output_price_per_million": "0.60",
+      "model_type": "chat"
+    },
+    {
+      "id": "command-r-03-2024",
+      "name": null,
+      "provider": "cohere",
+      "model_id": "command-r-03-2024",
+      "input_price_per_million": "0.50",
+      "output_price_per_million": "1.50",
+      "benchmarks": {
+        "arena_elo": 1184
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "command-r-plus-04-2024",
+      "name": null,
+      "provider": "cohere",
+      "model_id": "command-r-plus-04-2024",
+      "input_price_per_million": "3.00",
+      "output_price_per_million": "15.00",
+      "benchmarks": {
+        "arena_elo": 1263
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "command-r-plus-08-2024",
+      "name": null,
+      "provider": "cohere",
+      "model_id": "command-r-plus-08-2024",
+      "input_price_per_million": "2.50",
+      "output_price_per_million": "10.00",
+      "benchmarks": {
+        "arena_elo": 1263
+      },
+      "model_type": "chat"
+    }
+  ]
+}

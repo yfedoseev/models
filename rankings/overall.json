@@ -1,0 +1,507 @@
+{
+  "generated_at": "2026-01-11T03:41:26.175415",
+  "ranking_type": "overall",
+  "count": 50,
+  "models": [
+    {
+      "rank": 1,
+      "model_id": "openai/gpt-5-mini-2025-08-07",
+      "provider": "openai",
+      "name": "gpt-5-mini-2025-08-07",
+      "score": 0.8427,
+      "composite_score": 0.8427,
+      "benchmark_count": 3,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 2,
+      "model_id": "openai/gpt-5-codex",
+      "provider": "openai",
+      "name": "gpt-5-codex",
+      "score": 0.8427,
+      "composite_score": 0.8427,
+      "benchmark_count": 3,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 3,
+      "model_id": "openai/gpt-5-search-api",
+      "provider": "openai",
+      "name": "gpt-5-search-api",
+      "score": 0.8427,
+      "composite_score": 0.8427,
+      "benchmark_count": 3,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 4,
+      "model_id": "openai/gpt-5.1-codex-max",
+      "provider": "openai",
+      "name": "gpt-5.1-codex-max",
+      "score": 0.8427,
+      "composite_score": 0.8427,
+      "benchmark_count": 3,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 5,
+      "model_id": "openai/gpt-5.2-pro-2025-12-11",
+      "provider": "openai",
+      "name": "gpt-5.2-pro-2025-12-11",
+      "score": 0.8427,
+      "composite_score": 0.8427,
+      "benchmark_count": 3,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 6,
+      "model_id": "azure/eu/o4-mini",
+      "provider": "azure_openai",
+      "name": "eu/o4-mini",
+      "score": 0.8416,
+      "composite_score": 0.8416,
+      "benchmark_count": 3,
+      "intelligence_tier": "F"
+    },
+    {
+      "rank": 7,
+      "model_id": "openai/o1-pro-2025-03-19",
+      "provider": "openai",
+      "name": "o1-pro-2025-03-19",
+      "score": 0.8229,
+      "composite_score": 0.8229,
+      "benchmark_count": 5,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 8,
+      "model_id": "openai/gpt-5.2-2025-12-11",
+      "provider": "openai",
+      "name": "gpt-5.2-2025-12-11",
+      "score": 0.8153,
+      "composite_score": 0.8153,
+      "benchmark_count": 4,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 9,
+      "model_id": "openai/gpt-5.1-chat-latest",
+      "provider": "openai",
+      "name": "gpt-5.1-chat-latest",
+      "score": 0.8133,
+      "composite_score": 0.8133,
+      "benchmark_count": 4,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 10,
+      "model_id": "openai/gpt-5-2025-08-07",
+      "provider": "openai",
+      "name": "gpt-5-2025-08-07",
+      "score": 0.8091,
+      "composite_score": 0.8091,
+      "benchmark_count": 4,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 11,
+      "model_id": "openai/gpt-5.1-codex",
+      "provider": "openai",
+      "name": "gpt-5.1-codex",
+      "score": 0.8064,
+      "composite_score": 0.8064,
+      "benchmark_count": 4,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 12,
+      "model_id": "azure/eu/o3-mini",
+      "provider": "azure_openai",
+      "name": "eu/o3-mini",
+      "score": 0.8007,
+      "composite_score": 0.8007,
+      "benchmark_count": 3,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 13,
+      "model_id": "openai/gpt-5.1-codex-mini",
+      "provider": "openai",
+      "name": "gpt-5.1-codex-mini",
+      "score": 0.7903,
+      "composite_score": 0.7903,
+      "benchmark_count": 4,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 14,
+      "model_id": "azure/eu/o1-mini",
+      "provider": "azure_openai",
+      "name": "eu/o1-mini",
+      "score": 0.7787,
+      "composite_score": 0.7787,
+      "benchmark_count": 3,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 15,
+      "model_id": "openai/o3-2025-04-16",
+      "provider": "openai",
+      "name": "o3-2025-04-16",
+      "score": 0.778,
+      "composite_score": 0.778,
+      "benchmark_count": 8,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 16,
+      "model_id": "openai/gpt-5-pro-2025-10-06",
+      "provider": "openai",
+      "name": "gpt-5-pro-2025-10-06",
+      "score": 0.7741,
+      "composite_score": 0.7741,
+      "benchmark_count": 5,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 17,
+      "model_id": "novita/qwen/qwen3-max",
+      "provider": "novita",
+      "name": "Qwen3 Max",
+      "score": 0.7623,
+      "composite_score": 0.7623,
+      "benchmark_count": 5,
+      "intelligence_tier": "S"
+    },
+    {
+      "rank": 18,
+      "model_id": "openai/gpt-5-nano-2025-08-07",
+      "provider": "openai",
+      "name": "gpt-5-nano-2025-08-07",
+      "score": 0.761,
+      "composite_score": 0.761,
+      "benchmark_count": 4,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 19,
+      "model_id": "google/gemini-2.5-pro-preview-tts",
+      "provider": "google",
+      "name": "gemini-2.5-pro-preview-tts",
+      "score": 0.7458,
+      "composite_score": 0.7458,
+      "benchmark_count": 4,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 20,
+      "model_id": "openai/o1-2024-12-17",
+      "provider": "openai",
+      "name": "o1-2024-12-17",
+      "score": 0.7073,
+      "composite_score": 0.7073,
+      "benchmark_count": 8,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 21,
+      "model_id": "ollama/gemini-3-pro-preview",
+      "provider": "ollama",
+      "name": "gemini-3-pro-preview",
+      "score": 0.7001,
+      "composite_score": 0.7001,
+      "benchmark_count": 7,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 22,
+      "model_id": "ollama/gemini-3-flash-preview",
+      "provider": "ollama",
+      "name": "gemini-3-flash-preview",
+      "score": 0.6977,
+      "composite_score": 0.6977,
+      "benchmark_count": 6,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 23,
+      "model_id": "deepseek-reasoner",
+      "provider": "deepseek",
+      "name": "deepseek-reasoner",
+      "score": 0.6618,
+      "composite_score": 0.6618,
+      "benchmark_count": 4,
+      "intelligence_tier": "S"
+    },
+    {
+      "rank": 24,
+      "model_id": "deepinfra/deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+      "provider": "deepinfra",
+      "name": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+      "score": 0.6567,
+      "composite_score": 0.6567,
+      "benchmark_count": 3,
+      "intelligence_tier": "S"
+    },
+    {
+      "rank": 25,
+      "model_id": "google/gemini-2.5-pro",
+      "provider": "google",
+      "name": "gemini-2.5-pro",
+      "score": 0.6466,
+      "composite_score": 0.6466,
+      "benchmark_count": 7,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 26,
+      "model_id": "huggingface_inference/deepseek-ai/DeepSeek-V3.2",
+      "provider": "huggingface_inference",
+      "name": "deepseek-ai/DeepSeek-V3.2",
+      "score": 0.6451,
+      "composite_score": 0.6451,
+      "benchmark_count": 3,
+      "intelligence_tier": "S"
+    },
+    {
+      "rank": 27,
+      "model_id": "grok-4-0709",
+      "provider": "xai",
+      "name": "grok-4-0709",
+      "score": 0.6372,
+      "composite_score": 0.6372,
+      "benchmark_count": 8,
+      "intelligence_tier": "S"
+    },
+    {
+      "rank": 28,
+      "model_id": "cerebras/Qwen 3 235B Instruct*",
+      "provider": "cerebras",
+      "name": "Qwen 3 235B Instruct*",
+      "score": 0.5851,
+      "composite_score": 0.5851,
+      "benchmark_count": 5,
+      "intelligence_tier": "S"
+    },
+    {
+      "rank": 29,
+      "model_id": "deepinfra/Qwen/Qwen3-235B-A22B-Instruct-2507",
+      "provider": "deepinfra",
+      "name": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+      "score": 0.5851,
+      "composite_score": 0.5851,
+      "benchmark_count": 5,
+      "intelligence_tier": "S"
+    },
+    {
+      "rank": 30,
+      "model_id": "azure/eu/gpt-4.1-mini",
+      "provider": "azure_openai",
+      "name": "eu/gpt-4.1-mini",
+      "score": 0.5692,
+      "composite_score": 0.5692,
+      "benchmark_count": 9,
+      "intelligence_tier": "S"
+    },
+    {
+      "rank": 31,
+      "model_id": "azure/eu/gpt-4.1",
+      "provider": "azure_openai",
+      "name": "eu/gpt-4.1",
+      "score": 0.5675,
+      "composite_score": 0.5675,
+      "benchmark_count": 10,
+      "intelligence_tier": "S"
+    },
+    {
+      "rank": 32,
+      "model_id": "anthropic/claude-sonnet-4-5-20250929",
+      "provider": "anthropic",
+      "name": "Claude Sonnet 4.5",
+      "score": 0.5614,
+      "composite_score": 0.5614,
+      "benchmark_count": 11,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 33,
+      "model_id": "anthropic/claude-opus-4-5-20251101",
+      "provider": "anthropic",
+      "name": "Claude Opus 4.5",
+      "score": 0.5593,
+      "composite_score": 0.5593,
+      "benchmark_count": 10,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 34,
+      "model_id": "cloudflare/qwen/qwen2.5-coder-32b-instruct",
+      "provider": "cloudflare",
+      "name": "@cf/qwen/qwen2.5-coder-32b-instruct",
+      "score": 0.558,
+      "composite_score": 0.558,
+      "benchmark_count": 4,
+      "intelligence_tier": "S"
+    },
+    {
+      "rank": 35,
+      "model_id": "anthropic/claude-opus-4-20250514",
+      "provider": "anthropic",
+      "name": "Claude Opus 4",
+      "score": 0.5527,
+      "composite_score": 0.5527,
+      "benchmark_count": 9,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 36,
+      "model_id": "deepinfra/microsoft/phi-4",
+      "provider": "deepinfra",
+      "name": "microsoft/phi-4",
+      "score": 0.549,
+      "composite_score": 0.549,
+      "benchmark_count": 4,
+      "intelligence_tier": "S"
+    },
+    {
+      "rank": 37,
+      "model_id": "ollama/phi4",
+      "provider": "ollama",
+      "name": "phi4",
+      "score": 0.549,
+      "composite_score": 0.549,
+      "benchmark_count": 4,
+      "intelligence_tier": "S"
+    },
+    {
+      "rank": 38,
+      "model_id": "anthropic/claude-opus-4-1-20250805",
+      "provider": "anthropic",
+      "name": "Claude Opus 4.1",
+      "score": 0.5446,
+      "composite_score": 0.5446,
+      "benchmark_count": 9,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 39,
+      "model_id": "crusoe/deepseek-r1",
+      "provider": "crusoe",
+      "name": "deepseek-r1",
+      "score": 0.5376,
+      "composite_score": 0.5376,
+      "benchmark_count": 8,
+      "intelligence_tier": "S"
+    },
+    {
+      "rank": 40,
+      "model_id": "fireworks/deepseek-r1",
+      "provider": "fireworks",
+      "name": "DeepSeek R1 (Fast)",
+      "score": 0.5376,
+      "composite_score": 0.5376,
+      "benchmark_count": 8,
+      "intelligence_tier": "S"
+    },
+    {
+      "rank": 41,
+      "model_id": "anthropic/claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "name": "Claude Sonnet 4",
+      "score": 0.5358,
+      "composite_score": 0.5358,
+      "benchmark_count": 10,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 42,
+      "model_id": "anthropic/claude-haiku-4-5-20251001",
+      "provider": "anthropic",
+      "name": "Claude Haiku 4.5",
+      "score": 0.53,
+      "composite_score": 0.53,
+      "benchmark_count": 8,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 43,
+      "model_id": "featherless/Qwen/Qwen2-72B-Instruct",
+      "provider": "featherless",
+      "name": "Qwen/Qwen2-72B-Instruct",
+      "score": 0.5149,
+      "composite_score": 0.5149,
+      "benchmark_count": 4,
+      "intelligence_tier": "S"
+    },
+    {
+      "rank": 44,
+      "model_id": "deepinfra/Qwen/Qwen2.5-72B-Instruct",
+      "provider": "deepinfra",
+      "name": "Qwen/Qwen2.5-72B-Instruct",
+      "score": 0.5083,
+      "composite_score": 0.5083,
+      "benchmark_count": 5,
+      "intelligence_tier": "S"
+    },
+    {
+      "rank": 45,
+      "model_id": "novita/qwen/qwen-2.5-72b-instruct",
+      "provider": "novita",
+      "name": "Qwen 2.5 72B Instruct",
+      "score": 0.5083,
+      "composite_score": 0.5083,
+      "benchmark_count": 5,
+      "intelligence_tier": "S"
+    },
+    {
+      "rank": 46,
+      "model_id": "openai/gpt-4-turbo-preview",
+      "provider": "openai",
+      "name": "gpt-4-turbo-preview",
+      "score": 0.5057,
+      "composite_score": 0.5057,
+      "benchmark_count": 7,
+      "intelligence_tier": "S"
+    },
+    {
+      "rank": 47,
+      "model_id": "ai71/tiiuae/falcon-180B",
+      "provider": "ai71",
+      "name": "tiiuae/falcon-180B",
+      "score": 0.4989,
+      "composite_score": 0.4989,
+      "benchmark_count": 3,
+      "intelligence_tier": "S"
+    },
+    {
+      "rank": 48,
+      "model_id": "ai71/tiiuae/falcon-180B-chat",
+      "provider": "ai71",
+      "name": "tiiuae/falcon-180B-chat",
+      "score": 0.4989,
+      "composite_score": 0.4989,
+      "benchmark_count": 3,
+      "intelligence_tier": "S"
+    },
+    {
+      "rank": 49,
+      "model_id": "google/gemini-2.0-flash",
+      "provider": "google",
+      "name": "gemini-2.0-flash",
+      "score": 0.4842,
+      "composite_score": 0.4842,
+      "benchmark_count": 5,
+      "intelligence_tier": "S"
+    },
+    {
+      "rank": 50,
+      "model_id": "cerebras/Qwen 3 32B",
+      "provider": "cerebras",
+      "name": "Qwen 3 32B",
+      "score": 0.4806,
+      "composite_score": 0.4806,
+      "benchmark_count": 3,
+      "intelligence_tier": "S"
+    }
+  ]
+}

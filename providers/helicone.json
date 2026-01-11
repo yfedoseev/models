@@ -1,0 +1,1426 @@
+{
+  "provider": "helicone",
+  "model_count": 100,
+  "models": [
+    {
+      "id": "claude-opus-4-1",
+      "name": "claude-opus-4-1",
+      "provider": "helicone",
+      "model_id": "claude-opus-4-1",
+      "context_window": 200000,
+      "benchmarks": {
+        "gpqa_diamond": 0.732,
+        "otis_mock_aime_2024_2025": 0.4,
+        "frontiermath": 0.059,
+        "simplebench": 0.6,
+        "swe_bench_verified": 0.632,
+        "deep_research_bench": 0.564,
+        "terminal_bench": 0.588,
+        "swe_bench": 0.632,
+        "livebench_global": 57.54,
+        "livebench_reasoning": 40.89,
+        "livebench_coding": 76.07,
+        "livebench_agentic_coding": 53.33,
+        "livebench_math": 62.83,
+        "livebench_data_analysis": 66.95,
+        "livebench_language": 76.75,
+        "livebench_ifeval": 25.92
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "claude-opus-4",
+      "name": "claude-opus-4",
+      "provider": "helicone",
+      "model_id": "claude-opus-4",
+      "context_window": 200000,
+      "benchmarks": {
+        "gpqa_diamond": 0.692,
+        "math_level_5": 0.85,
+        "otis_mock_aime_2024_2025": 0.422,
+        "frontiermath": 0.045,
+        "aider_polyglot": 70.7,
+        "frontiermath_tier_4": 0.0,
+        "swe_bench_verified": 0.622,
+        "deep_research_bench": 0.563,
+        "terminal_bench": 0.453,
+        "swe_bench": 0.622
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "claude-sonnet-4",
+      "name": "claude-sonnet-4",
+      "provider": "helicone",
+      "model_id": "claude-sonnet-4",
+      "context_window": 200000,
+      "benchmarks": {
+        "gpqa_diamond": 0.667,
+        "math_level_5": 0.844,
+        "otis_mock_aime_2024_2025": 0.289,
+        "frontiermath": 0.041,
+        "aider_polyglot": 56.4,
+        "frontiermath_tier_4": 0.0,
+        "swe_bench_verified": 0.606,
+        "terminal_bench": 0.548,
+        "swe_bench": 0.606,
+        "livebench_global": 53.93,
+        "livebench_reasoning": 39.67,
+        "livebench_coding": 80.74,
+        "livebench_agentic_coding": 38.33,
+        "livebench_math": 60.36,
+        "livebench_data_analysis": 64.68,
+        "livebench_language": 71.01,
+        "livebench_ifeval": 22.68
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "claude-3.7-sonnet",
+      "name": "claude-3.7-sonnet",
+      "provider": "helicone",
+      "model_id": "claude-3.7-sonnet",
+      "context_window": 200000,
+      "benchmarks": {
+        "gpqa_diamond": 0.66,
+        "math_level_5": 0.682,
+        "otis_mock_aime_2024_2025": 0.219,
+        "frontiermath": 0.031,
+        "aider_polyglot": 60.4,
+        "simplebench": 0.449,
+        "swe_bench_verified": 0.522
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "claude-3.5-sonnet-v2",
+      "name": "claude-3.5-sonnet-v2",
+      "provider": "helicone",
+      "model_id": "claude-3.5-sonnet-v2",
+      "context_window": 200000,
+      "model_type": "vision"
+    },
+    {
+      "id": "claude-3.5-haiku",
+      "name": "claude-3.5-haiku",
+      "provider": "helicone",
+      "model_id": "claude-3.5-haiku",
+      "context_window": 200000,
+      "benchmarks": {
+        "gpqa_diamond": 0.381,
+        "mmlu": 0.743,
+        "math_level_5": 0.464,
+        "otis_mock_aime_2024_2025": 0.043,
+        "frontiermath": 0.003,
+        "aider_polyglot": 28.0,
+        "simpleqa_verified": 0.067
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "claude-3-haiku-20240307",
+      "name": "claude-3-haiku-20240307",
+      "provider": "helicone",
+      "model_id": "claude-3-haiku-20240307",
+      "context_window": 200000,
+      "benchmarks": {
+        "gpqa_diamond": 0.363,
+        "mmlu": 0.738,
+        "math_level_5": 0.149,
+        "otis_mock_aime_2024_2025": 0.018
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "claude-4.5-sonnet",
+      "name": "claude-4.5-sonnet",
+      "provider": "helicone",
+      "model_id": "claude-4.5-sonnet",
+      "context_window": 200000,
+      "benchmarks": {
+        "gpqa_diamond": 0.737,
+        "math_level_5": 0.977,
+        "otis_mock_aime_2024_2025": 0.356,
+        "frontiermath": 0.093,
+        "frontiermath_tier_4": 0.021,
+        "simpleqa_verified": 0.13,
+        "swe_bench_verified": 0.648,
+        "deep_research_bench": 0.577,
+        "swe_bench": 0.648,
+        "livebench_global": 56.6,
+        "livebench_reasoning": 42.29,
+        "livebench_coding": 76.07,
+        "livebench_agentic_coding": 48.33,
+        "livebench_math": 62.62,
+        "livebench_data_analysis": 67.34,
+        "livebench_language": 76.0,
+        "livebench_ifeval": 23.52
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "claude-4.5-haiku",
+      "name": "claude-4.5-haiku",
+      "provider": "helicone",
+      "model_id": "claude-4.5-haiku",
+      "context_window": 200000,
+      "benchmarks": {
+        "gpqa_diamond": 0.605,
+        "math_level_5": 0.869,
+        "otis_mock_aime_2024_2025": 0.358,
+        "frontiermath": 0.041,
+        "swe_bench_verified": 0.606,
+        "swe_bench": 0.606,
+        "livebench_global": 48.34,
+        "livebench_reasoning": 33.94,
+        "livebench_coding": 72.17,
+        "livebench_agentic_coding": 33.33,
+        "livebench_math": 57.97,
+        "livebench_data_analysis": 66.19,
+        "livebench_language": 57.05,
+        "livebench_ifeval": 17.75
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "claude-sonnet-4-5-20250929",
+      "name": "claude-sonnet-4-5-20250929",
+      "provider": "helicone",
+      "model_id": "claude-sonnet-4-5-20250929",
+      "context_window": 200000,
+      "benchmarks": {
+        "gpqa_diamond": 0.737,
+        "math_level_5": 0.977,
+        "otis_mock_aime_2024_2025": 0.356,
+        "frontiermath": 0.093,
+        "frontiermath_tier_4": 0.021,
+        "simpleqa_verified": 0.13,
+        "swe_bench_verified": 0.648,
+        "deep_research_bench": 0.577,
+        "swe_bench": 0.648,
+        "livebench_global": 56.6,
+        "livebench_reasoning": 42.29,
+        "livebench_coding": 76.07,
+        "livebench_agentic_coding": 48.33,
+        "livebench_math": 62.62,
+        "livebench_data_analysis": 67.34,
+        "livebench_language": 76.0,
+        "livebench_ifeval": 23.52
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "claude-haiku-4-5-20251001",
+      "name": "claude-haiku-4-5-20251001",
+      "provider": "helicone",
+      "model_id": "claude-haiku-4-5-20251001",
+      "context_window": 200000,
+      "benchmarks": {
+        "gpqa_diamond": 0.605,
+        "math_level_5": 0.869,
+        "otis_mock_aime_2024_2025": 0.358,
+        "frontiermath": 0.041,
+        "swe_bench_verified": 0.606,
+        "swe_bench": 0.606,
+        "livebench_global": 48.34,
+        "livebench_reasoning": 33.94,
+        "livebench_coding": 72.17,
+        "livebench_agentic_coding": 33.33,
+        "livebench_math": 57.97,
+        "livebench_data_analysis": 66.19,
+        "livebench_language": 57.05,
+        "livebench_ifeval": 17.75
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "claude-opus-4-1-20250805",
+      "name": "claude-opus-4-1-20250805",
+      "provider": "helicone",
+      "model_id": "claude-opus-4-1-20250805",
+      "context_window": 200000,
+      "benchmarks": {
+        "gpqa_diamond": 0.732,
+        "otis_mock_aime_2024_2025": 0.4,
+        "frontiermath": 0.059,
+        "simplebench": 0.6,
+        "swe_bench_verified": 0.632,
+        "deep_research_bench": 0.564,
+        "terminal_bench": 0.588,
+        "swe_bench": 0.632,
+        "livebench_global": 57.54,
+        "livebench_reasoning": 40.89,
+        "livebench_coding": 76.07,
+        "livebench_agentic_coding": 53.33,
+        "livebench_math": 62.83,
+        "livebench_data_analysis": 66.95,
+        "livebench_language": 76.75,
+        "livebench_ifeval": 25.92
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "claude-4.5-opus",
+      "name": "claude-4.5-opus",
+      "provider": "helicone",
+      "model_id": "claude-4.5-opus",
+      "context_window": 200000,
+      "benchmarks": {
+        "gpqa_diamond": 0.807,
+        "otis_mock_aime_2024_2025": 0.481,
+        "frontiermath": 0.207,
+        "simplebench": 0.62,
+        "frontiermath_tier_4": 0.042
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "gpt-4o",
+      "name": "gpt-4o",
+      "provider": "helicone",
+      "model_id": "gpt-4o",
+      "context_window": 128000,
+      "benchmarks": {
+        "gpqa_diamond": 0.489,
+        "mmlu": 87.2,
+        "math_level_5": 0.533,
+        "otis_mock_aime_2024_2025": 0.062,
+        "frontiermath": 0.003,
+        "aider_polyglot": 18.2,
+        "simplebench": 0.178,
+        "swe_bench_verified": 0.254,
+        "humaneval": 91.0,
+        "arena_elo": 1335.0
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "gpt-4o-mini",
+      "name": "gpt-4o-mini",
+      "provider": "helicone",
+      "model_id": "gpt-4o-mini",
+      "context_window": 128000,
+      "benchmarks": {
+        "gpqa_diamond": 0.377,
+        "mmlu": 82.0,
+        "math_level_5": 0.526,
+        "gsm8k": 0.913,
+        "otis_mock_aime_2024_2025": 0.069,
+        "aider_polyglot": 3.6,
+        "simplebench": 0.107,
+        "humaneval": 87.2,
+        "arena_elo": 1317.0
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "chatgpt-4o-latest",
+      "name": "chatgpt-4o-latest",
+      "provider": "helicone",
+      "model_id": "chatgpt-4o-latest",
+      "context_window": 128000,
+      "benchmarks": {
+        "gpqa_diamond": 0.489,
+        "mmlu": 87.2,
+        "math_level_5": 0.533,
+        "otis_mock_aime_2024_2025": 0.062,
+        "frontiermath": 0.003,
+        "aider_polyglot": 18.2,
+        "simplebench": 0.178,
+        "swe_bench_verified": 0.254,
+        "humaneval": 91.0,
+        "arena_elo": 1335.0
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "o1",
+      "name": "o1",
+      "provider": "helicone",
+      "model_id": "o1",
+      "context_window": 200000,
+      "benchmarks": {
+        "gpqa_diamond": 0.503,
+        "mmlu": 90.8,
+        "math_level_5": 0.816,
+        "otis_mock_aime_2024_2025": 0.311,
+        "simplebench": 0.417,
+        "humaneval": 92.4,
+        "arena_elo": 1388.0
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "o1-mini",
+      "name": "o1-mini",
+      "provider": "helicone",
+      "model_id": "o1-mini",
+      "context_window": 128000,
+      "benchmarks": {
+        "mmlu": 85.2,
+        "humaneval": 92.4,
+        "arena_elo": 1336.0
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "o3",
+      "name": "o3",
+      "provider": "helicone",
+      "model_id": "o3",
+      "context_window": 200000,
+      "benchmarks": {
+        "mmlu": 92.9,
+        "humaneval": 87.4,
+        "arena_elo": 1433.0
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "o3-pro",
+      "name": "o3-pro",
+      "provider": "helicone",
+      "model_id": "o3-pro",
+      "context_window": 200000,
+      "benchmarks": {
+        "aider_polyglot": 0.849
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "o3-mini",
+      "name": "o3-mini",
+      "provider": "helicone",
+      "model_id": "o3-mini",
+      "context_window": 200000,
+      "benchmarks": {
+        "mmlu": 85.9,
+        "humaneval": 96.3,
+        "arena_elo": 1348.0
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "o4-mini",
+      "name": "o4-mini",
+      "provider": "helicone",
+      "model_id": "o4-mini",
+      "context_window": 200000,
+      "benchmarks": {
+        "mmlu": 90.0,
+        "humaneval": 97.3,
+        "arena_elo": 1391.0
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "gpt-4.1",
+      "name": "gpt-4.1",
+      "provider": "helicone",
+      "model_id": "gpt-4.1",
+      "context_window": 1047576,
+      "benchmarks": {
+        "gpqa_diamond": 0.669,
+        "mmlu": 90.2,
+        "math_level_5": 0.83,
+        "otis_mock_aime_2024_2025": 0.383,
+        "frontiermath": 0.055,
+        "aider_polyglot": 52.4,
+        "simplebench": 0.27,
+        "frontiermath_tier_4": 0.0,
+        "swe_bench_verified": 0.41,
+        "humaneval": 94.5,
+        "arena_elo": 1412.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "gpt-4.1-mini",
+      "name": "gpt-4.1-mini",
+      "provider": "helicone",
+      "model_id": "gpt-4.1-mini",
+      "context_window": 1047576,
+      "benchmarks": {
+        "gpqa_diamond": 0.658,
+        "mmlu": 87.5,
+        "math_level_5": 0.873,
+        "otis_mock_aime_2024_2025": 0.447,
+        "frontiermath": 0.045,
+        "aider_polyglot": 32.4,
+        "swe_bench_verified": 0.328,
+        "humaneval": 93.8,
+        "arena_elo": 1381.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "gpt-4.1-nano",
+      "name": "gpt-4.1-nano",
+      "provider": "helicone",
+      "model_id": "gpt-4.1-nano",
+      "context_window": 1047576,
+      "benchmarks": {
+        "gpqa_diamond": 0.489,
+        "mmlu": 80.1,
+        "math_level_5": 0.7,
+        "otis_mock_aime_2024_2025": 0.289,
+        "frontiermath": 0.01,
+        "aider_polyglot": 8.9,
+        "humaneval": 87.0,
+        "arena_elo": 1321.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "gpt-5",
+      "name": "gpt-5",
+      "provider": "helicone",
+      "model_id": "gpt-5",
+      "context_window": 400000,
+      "benchmarks": {
+        "arena_elo": 1425.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "gpt-5-mini",
+      "name": "gpt-5-mini",
+      "provider": "helicone",
+      "model_id": "gpt-5-mini",
+      "context_window": 400000,
+      "model_type": "chat"
+    },
+    {
+      "id": "gpt-5-nano",
+      "name": "gpt-5-nano",
+      "provider": "helicone",
+      "model_id": "gpt-5-nano",
+      "context_window": 400000,
+      "benchmarks": {
+        "livebench_global": 51.61,
+        "livebench_reasoning": 35.45,
+        "livebench_coding": 67.38,
+        "livebench_agentic_coding": 28.33,
+        "livebench_math": 64.7,
+        "livebench_data_analysis": 65.73,
+        "livebench_language": 47.73,
+        "livebench_ifeval": 51.98
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "gpt-5-chat-latest",
+      "name": "gpt-5-chat-latest",
+      "provider": "helicone",
+      "model_id": "gpt-5-chat-latest",
+      "context_window": 128000,
+      "benchmarks": {
+        "arena_elo": 1425.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "gpt-5-pro",
+      "name": "gpt-5-pro",
+      "provider": "helicone",
+      "model_id": "gpt-5-pro",
+      "context_window": 128000,
+      "benchmarks": {
+        "simplebench": 0.616,
+        "livebench_global": 72.67,
+        "livebench_reasoning": 81.69,
+        "livebench_coding": 72.11,
+        "livebench_agentic_coding": 51.67,
+        "livebench_math": 86.17,
+        "livebench_data_analysis": 72.42,
+        "livebench_language": 80.69,
+        "livebench_ifeval": 63.96
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "gpt-5-codex",
+      "name": "gpt-5-codex",
+      "provider": "helicone",
+      "model_id": "gpt-5-codex",
+      "context_window": 400000,
+      "model_type": "chat"
+    },
+    {
+      "id": "gpt-5-2025-08-07",
+      "name": "gpt-5-2025-08-07",
+      "provider": "helicone",
+      "model_id": "gpt-5-2025-08-07",
+      "context_window": 400000,
+      "benchmarks": {
+        "arena_elo": 1425.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "gpt-5-mini-2025-08-07",
+      "name": "gpt-5-mini-2025-08-07",
+      "provider": "helicone",
+      "model_id": "gpt-5-mini-2025-08-07",
+      "context_window": 400000,
+      "model_type": "chat"
+    },
+    {
+      "id": "gpt-5-nano-2025-08-07",
+      "name": "gpt-5-nano-2025-08-07",
+      "provider": "helicone",
+      "model_id": "gpt-5-nano-2025-08-07",
+      "context_window": 400000,
+      "benchmarks": {
+        "livebench_global": 51.61,
+        "livebench_reasoning": 35.45,
+        "livebench_coding": 67.38,
+        "livebench_agentic_coding": 28.33,
+        "livebench_math": 64.7,
+        "livebench_data_analysis": 65.73,
+        "livebench_language": 47.73,
+        "livebench_ifeval": 51.98
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "gpt-5-pro-2025-10-01",
+      "name": "gpt-5-pro-2025-10-01",
+      "provider": "helicone",
+      "model_id": "gpt-5-pro-2025-10-01",
+      "context_window": 128000,
+      "benchmarks": {
+        "simplebench": 0.616,
+        "livebench_global": 72.67,
+        "livebench_reasoning": 81.69,
+        "livebench_coding": 72.11,
+        "livebench_agentic_coding": 51.67,
+        "livebench_math": 86.17,
+        "livebench_data_analysis": 72.42,
+        "livebench_language": 80.69,
+        "livebench_ifeval": 63.96
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "gpt-5.1",
+      "name": "gpt-5.1",
+      "provider": "helicone",
+      "model_id": "gpt-5.1",
+      "context_window": 400000,
+      "benchmarks": {
+        "arena_elo": 1435.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "gpt-5.1-codex",
+      "name": "gpt-5.1-codex",
+      "provider": "helicone",
+      "model_id": "gpt-5.1-codex",
+      "context_window": 400000,
+      "benchmarks": {
+        "livebench_global": 69.76,
+        "livebench_reasoning": 81.98,
+        "livebench_coding": 71.78,
+        "livebench_agentic_coding": 53.33,
+        "livebench_math": 79.58,
+        "livebench_data_analysis": 68.8,
+        "livebench_language": 69.48,
+        "livebench_ifeval": 63.39
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "gpt-5.1-codex-mini",
+      "name": "gpt-5.1-codex-mini",
+      "provider": "helicone",
+      "model_id": "gpt-5.1-codex-mini",
+      "context_window": 400000,
+      "benchmarks": {
+        "livebench_global": 63.32,
+        "livebench_reasoning": 64.71,
+        "livebench_coding": 69.93,
+        "livebench_agentic_coding": 40.0,
+        "livebench_math": 76.26,
+        "livebench_data_analysis": 70.29,
+        "livebench_language": 63.01,
+        "livebench_ifeval": 59.02
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "gpt-5.1-chat-latest",
+      "name": "gpt-5.1-chat-latest",
+      "provider": "helicone",
+      "model_id": "gpt-5.1-chat-latest",
+      "context_window": 128000,
+      "benchmarks": {
+        "arena_elo": 1435.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "codex-mini-latest",
+      "name": "codex-mini-latest",
+      "provider": "helicone",
+      "model_id": "codex-mini-latest",
+      "context_window": 200000,
+      "model_type": "unknown"
+    },
+    {
+      "id": "gpt-5.1-2025-11-13",
+      "name": "gpt-5.1-2025-11-13",
+      "provider": "helicone",
+      "model_id": "gpt-5.1-2025-11-13",
+      "context_window": 400000,
+      "benchmarks": {
+        "arena_elo": 1435.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "gpt-5.2",
+      "name": "gpt-5.2",
+      "provider": "helicone",
+      "model_id": "gpt-5.2",
+      "context_window": 400000,
+      "benchmarks": {
+        "arena_elo": 1440.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "gpt-5.2-pro",
+      "name": "gpt-5.2-pro",
+      "provider": "helicone",
+      "model_id": "gpt-5.2-pro",
+      "context_window": 400000,
+      "model_type": "chat"
+    },
+    {
+      "id": "gpt-5.2-chat-latest",
+      "name": "gpt-5.2-chat-latest",
+      "provider": "helicone",
+      "model_id": "gpt-5.2-chat-latest",
+      "context_window": 128000,
+      "benchmarks": {
+        "arena_elo": 1440.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "gpt-oss-120b",
+      "name": "gpt-oss-120b",
+      "provider": "helicone",
+      "model_id": "gpt-oss-120b",
+      "context_window": 131072,
+      "benchmarks": {
+        "simplebench": 0.221,
+        "arena_elo": 1353.0,
+        "livebench_global": 48.66,
+        "livebench_reasoning": 39.21,
+        "livebench_coding": 60.21,
+        "livebench_agentic_coding": 16.67,
+        "livebench_math": 68.87,
+        "livebench_data_analysis": 56.77,
+        "livebench_language": 48.59,
+        "livebench_ifeval": 50.29
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "gpt-oss-20b",
+      "name": "gpt-oss-20b",
+      "provider": "helicone",
+      "model_id": "gpt-oss-20b",
+      "context_window": 131072,
+      "benchmarks": {
+        "arena_elo": 1318.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "gemini-2.5-pro",
+      "name": "gemini-2.5-pro",
+      "provider": "helicone",
+      "model_id": "gemini-2.5-pro",
+      "context_window": 1048576,
+      "benchmarks": {
+        "gpqa_diamond": 0.853,
+        "otis_mock_aime_2024_2025": 0.842,
+        "frontiermath": 0.141,
+        "frontiermath_tier_4": 0.042,
+        "simpleqa_verified": 0.56,
+        "chess_puzzles": 0.2,
+        "arena_elo": 1450.0
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "gemini-2.5-flash",
+      "name": "gemini-2.5-flash",
+      "provider": "helicone",
+      "model_id": "gemini-2.5-flash",
+      "context_window": 1048576,
+      "benchmarks": {
+        "frontiermath": 0.048,
+        "simplebench": 0.412,
+        "frontiermath_tier_4": 0.042,
+        "arena_elo": 1408.0
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "gemini-2.5-flash-lite",
+      "name": "gemini-2.5-flash-lite",
+      "provider": "helicone",
+      "model_id": "gemini-2.5-flash-lite",
+      "context_window": 1048576,
+      "model_type": "vision"
+    },
+    {
+      "id": "gemini-3-pro-preview",
+      "name": "gemini-3-pro-preview",
+      "provider": "helicone",
+      "model_id": "gemini-3-pro-preview",
+      "context_window": 1048576,
+      "benchmarks": {
+        "gpqa_diamond": 0.926,
+        "otis_mock_aime_2024_2025": 0.914,
+        "frontiermath": 0.376,
+        "simplebench": 0.764,
+        "frontiermath_tier_4": 0.188,
+        "simpleqa_verified": 0.729,
+        "chess_puzzles": 0.31,
+        "humanitys_last_exam": 0.375,
+        "frontier_math": 0.376,
+        "arena_elo": 1490.0
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "gemini-3-flash-preview",
+      "name": "gemini-3-flash-preview",
+      "provider": "helicone",
+      "model_id": "gemini-3-flash-preview",
+      "context_window": 1048576,
+      "benchmarks": {
+        "gpqa_diamond": 0.832,
+        "otis_mock_aime_2024_2025": 0.928,
+        "frontiermath": 0.356,
+        "simplebench": 0.611,
+        "frontiermath_tier_4": 0.042,
+        "simpleqa_verified": 0.674,
+        "chess_puzzles": 0.38,
+        "arena_elo": 1471.0
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "gemini-3-pro-image-preview",
+      "name": "gemini-3-pro-image-preview",
+      "provider": "helicone",
+      "model_id": "gemini-3-pro-image-preview",
+      "context_window": 65536,
+      "model_type": "vision"
+    },
+    {
+      "id": "gemma2-9b-it",
+      "name": "gemma2-9b-it",
+      "provider": "helicone",
+      "model_id": "gemma2-9b-it",
+      "context_window": 8192,
+      "benchmarks": {
+        "gpqa_diamond": 0.275,
+        "mmlu": 0.721,
+        "math_level_5": 0.21,
+        "otis_mock_aime_2024_2025": 0.006,
+        "arena_elo": 1265.0
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "gemma-3-12b-it",
+      "name": "gemma-3-12b-it",
+      "provider": "helicone",
+      "model_id": "gemma-3-12b-it",
+      "context_window": 131072,
+      "benchmarks": {
+        "arena_elo": 1341.0
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "grok-code-fast-1",
+      "name": "grok-code-fast-1",
+      "provider": "helicone",
+      "model_id": "grok-code-fast-1",
+      "context_window": 256000,
+      "model_type": "unknown"
+    },
+    {
+      "id": "grok-4",
+      "name": "grok-4",
+      "provider": "helicone",
+      "model_id": "grok-4",
+      "context_window": 256000,
+      "benchmarks": {
+        "gpqa_diamond": 0.87,
+        "otis_mock_aime_2024_2025": 0.84,
+        "frontiermath": 0.197,
+        "aider_polyglot": 79.6,
+        "simplebench": 0.605,
+        "frontiermath_tier_4": 0.021,
+        "simpleqa_verified": 0.479,
+        "chess_puzzles": 0.351,
+        "arena_elo": 1409.0,
+        "livebench_global": 62.9,
+        "livebench_reasoning": 79.13,
+        "livebench_coding": 73.13,
+        "livebench_agentic_coding": 30.0,
+        "livebench_math": 83.02,
+        "livebench_data_analysis": 69.53,
+        "livebench_language": 76.39,
+        "livebench_ifeval": 29.07
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "grok-4-fast-reasoning",
+      "name": "grok-4-fast-reasoning",
+      "provider": "helicone",
+      "model_id": "grok-4-fast-reasoning",
+      "context_window": 2000000,
+      "benchmarks": {
+        "arena_elo": 1402.0
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "grok-4-fast-non-reasoning",
+      "name": "grok-4-fast-non-reasoning",
+      "provider": "helicone",
+      "model_id": "grok-4-fast-non-reasoning",
+      "context_window": 2000000,
+      "model_type": "unknown"
+    },
+    {
+      "id": "grok-4-1-fast-non-reasoning",
+      "name": "grok-4-1-fast-non-reasoning",
+      "provider": "helicone",
+      "model_id": "grok-4-1-fast-non-reasoning",
+      "context_window": 2000000,
+      "benchmarks": {
+        "simplebench": 0.56,
+        "livebench_global": 35.97,
+        "livebench_reasoning": 23.35,
+        "livebench_coding": 54.26,
+        "livebench_agentic_coding": 10.0,
+        "livebench_math": 38.92,
+        "livebench_data_analysis": 58.26,
+        "livebench_language": 50.01,
+        "livebench_ifeval": 16.98
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "grok-4-1-fast-reasoning",
+      "name": "grok-4-1-fast-reasoning",
+      "provider": "helicone",
+      "model_id": "grok-4-1-fast-reasoning",
+      "context_window": 2000000,
+      "benchmarks": {
+        "arena_elo": 1431.0
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "grok-3",
+      "name": "grok-3",
+      "provider": "helicone",
+      "model_id": "grok-3",
+      "context_window": 131072,
+      "benchmarks": {
+        "simplebench": 0.361
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "grok-3-mini",
+      "name": "grok-3-mini",
+      "provider": "helicone",
+      "model_id": "grok-3-mini",
+      "context_window": 131072,
+      "model_type": "unknown"
+    },
+    {
+      "id": "llama-4-scout",
+      "name": "llama-4-scout",
+      "provider": "helicone",
+      "model_id": "llama-4-scout",
+      "context_window": 131072,
+      "model_type": "chat"
+    },
+    {
+      "id": "llama-4-maverick",
+      "name": "llama-4-maverick",
+      "provider": "helicone",
+      "model_id": "llama-4-maverick",
+      "context_window": 131072,
+      "model_type": "chat"
+    },
+    {
+      "id": "llama-guard-4",
+      "name": "llama-guard-4",
+      "provider": "helicone",
+      "model_id": "llama-guard-4",
+      "context_window": 131072,
+      "model_type": "chat"
+    },
+    {
+      "id": "llama-3.3-70b-versatile",
+      "name": "llama-3.3-70b-versatile",
+      "provider": "helicone",
+      "model_id": "llama-3.3-70b-versatile",
+      "context_window": 131072,
+      "model_type": "chat"
+    },
+    {
+      "id": "llama-3.3-70b-instruct",
+      "name": "llama-3.3-70b-instruct",
+      "provider": "helicone",
+      "model_id": "llama-3.3-70b-instruct",
+      "context_window": 128000,
+      "benchmarks": {
+        "gpqa_diamond": 0.474,
+        "mmlu": 0.863,
+        "math_level_5": 0.416,
+        "otis_mock_aime_2024_2025": 0.051,
+        "simplebench": 0.199
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "llama-3.1-8b-instant",
+      "name": "llama-3.1-8b-instant",
+      "provider": "helicone",
+      "model_id": "llama-3.1-8b-instant",
+      "context_window": 131072,
+      "model_type": "chat"
+    },
+    {
+      "id": "llama-prompt-guard-2-86m",
+      "name": "llama-prompt-guard-2-86m",
+      "provider": "helicone",
+      "model_id": "llama-prompt-guard-2-86m",
+      "context_window": 512,
+      "model_type": "chat"
+    },
+    {
+      "id": "llama-prompt-guard-2-22m",
+      "name": "llama-prompt-guard-2-22m",
+      "provider": "helicone",
+      "model_id": "llama-prompt-guard-2-22m",
+      "context_window": 512,
+      "model_type": "chat"
+    },
+    {
+      "id": "llama-3.1-8b-instruct",
+      "name": "llama-3.1-8b-instruct",
+      "provider": "helicone",
+      "model_id": "llama-3.1-8b-instruct",
+      "context_window": 16384,
+      "benchmarks": {
+        "gpqa_diamond": 0.259,
+        "mmlu": 0.561,
+        "math_level_5": 0.229,
+        "gsm8k": 0.824,
+        "otis_mock_aime_2024_2025": 0.025
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "llama-3.1-8b-instruct-turbo",
+      "name": "llama-3.1-8b-instruct-turbo",
+      "provider": "helicone",
+      "model_id": "llama-3.1-8b-instruct-turbo",
+      "context_window": 128000,
+      "model_type": "chat"
+    },
+    {
+      "id": "hermes-2-pro-llama-3-8b",
+      "name": "hermes-2-pro-llama-3-8b",
+      "provider": "helicone",
+      "model_id": "hermes-2-pro-llama-3-8b",
+      "context_window": 131072,
+      "model_type": "chat"
+    },
+    {
+      "id": "kimi-k2-0711",
+      "name": "kimi-k2-0711",
+      "provider": "helicone",
+      "model_id": "kimi-k2-0711",
+      "context_window": 131072,
+      "benchmarks": {
+        "aider_polyglot": 59.1,
+        "simplebench": 0.263,
+        "livebench_global": 50.97,
+        "livebench_reasoning": 42.23,
+        "livebench_coding": 74.28,
+        "livebench_agentic_coding": 31.67,
+        "livebench_math": 58.15,
+        "livebench_data_analysis": 63.41,
+        "livebench_language": 66.69,
+        "livebench_ifeval": 20.36
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "kimi-k2-0905",
+      "name": "kimi-k2-0905",
+      "provider": "helicone",
+      "model_id": "kimi-k2-0905",
+      "context_window": 262144,
+      "benchmarks": {
+        "aider_polyglot": 59.1,
+        "simplebench": 0.263,
+        "livebench_global": 50.97,
+        "livebench_reasoning": 42.23,
+        "livebench_coding": 74.28,
+        "livebench_agentic_coding": 31.67,
+        "livebench_math": 58.15,
+        "livebench_data_analysis": 63.41,
+        "livebench_language": 66.69,
+        "livebench_ifeval": 20.36
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "kimi-k2-thinking",
+      "name": "kimi-k2-thinking",
+      "provider": "helicone",
+      "model_id": "kimi-k2-thinking",
+      "context_window": 256000,
+      "benchmarks": {
+        "frontiermath": 0.214,
+        "frontiermath_tier_4": 0.0,
+        "humanitys_last_exam": 0.239,
+        "livebench_global": 64.2,
+        "livebench_reasoning": 63.49,
+        "livebench_coding": 67.44,
+        "livebench_agentic_coding": 38.33,
+        "livebench_math": 81.1,
+        "livebench_data_analysis": 70.57,
+        "livebench_language": 66.45,
+        "livebench_ifeval": 62.03
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "qwen2.5-coder-7b-fast",
+      "name": "qwen2.5-coder-7b-fast",
+      "provider": "helicone",
+      "model_id": "qwen2.5-coder-7b-fast",
+      "context_window": 32000,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen3-32b",
+      "name": "qwen3-32b",
+      "provider": "helicone",
+      "model_id": "qwen3-32b",
+      "context_window": 131072,
+      "benchmarks": {
+        "aider_polyglot": 40.0,
+        "arena_elo": 1345.0,
+        "livebench_global": 46.67,
+        "livebench_reasoning": 48.25,
+        "livebench_coding": 66.03,
+        "livebench_agentic_coding": 3.33,
+        "livebench_math": 67.44,
+        "livebench_data_analysis": 68.29,
+        "livebench_language": 55.54,
+        "livebench_ifeval": 17.77
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen3-30b-a3b",
+      "name": "qwen3-30b-a3b",
+      "provider": "helicone",
+      "model_id": "qwen3-30b-a3b",
+      "context_window": 41000,
+      "benchmarks": {
+        "arena_elo": 1326.0,
+        "livebench_global": 42.11,
+        "livebench_reasoning": 36.68,
+        "livebench_coding": 48.88,
+        "livebench_agentic_coding": 1.67,
+        "livebench_math": 65.35,
+        "livebench_data_analysis": 66.6,
+        "livebench_language": 54.47,
+        "livebench_ifeval": 21.11
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen3-coder",
+      "name": "qwen3-coder",
+      "provider": "helicone",
+      "model_id": "qwen3-coder",
+      "context_window": 262144,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen3-next-80b-a3b-instruct",
+      "name": "qwen3-next-80b-a3b-instruct",
+      "provider": "helicone",
+      "model_id": "qwen3-next-80b-a3b-instruct",
+      "context_window": 262000,
+      "benchmarks": {
+        "arena_elo": 1401.0,
+        "livebench_global": 51.04,
+        "livebench_reasoning": 54.75,
+        "livebench_coding": 68.2,
+        "livebench_agentic_coding": 10.0,
+        "livebench_math": 70.18,
+        "livebench_data_analysis": 68.63,
+        "livebench_language": 66.34,
+        "livebench_ifeval": 19.19
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen3-235b-a22b-thinking",
+      "name": "qwen3-235b-a22b-thinking",
+      "provider": "helicone",
+      "model_id": "qwen3-235b-a22b-thinking",
+      "context_window": 262144,
+      "benchmarks": {
+        "gpqa_diamond": 0.801,
+        "otis_mock_aime_2024_2025": 0.867,
+        "frontiermath": 0.085,
+        "frontiermath_tier_4": 0.0,
+        "simpleqa_verified": 0.501,
+        "chess_puzzles": 0.122,
+        "arena_elo": 1398.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen3-vl-235b-a22b-instruct",
+      "name": "qwen3-vl-235b-a22b-instruct",
+      "provider": "helicone",
+      "model_id": "qwen3-vl-235b-a22b-instruct",
+      "context_window": 256000,
+      "benchmarks": {
+        "arena_elo": 1414.0
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "qwen3-coder-30b-a3b-instruct",
+      "name": "qwen3-coder-30b-a3b-instruct",
+      "provider": "helicone",
+      "model_id": "qwen3-coder-30b-a3b-instruct",
+      "context_window": 262144,
+      "model_type": "chat"
+    },
+    {
+      "id": "deepseek-r1-distill-llama-70b",
+      "name": "deepseek-r1-distill-llama-70b",
+      "provider": "helicone",
+      "model_id": "deepseek-r1-distill-llama-70b",
+      "context_window": 128000,
+      "benchmarks": {
+        "gpqa_diamond": 0.557,
+        "math_level_5": 0.899,
+        "otis_mock_aime_2024_2025": 0.514
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "deepseek-v3",
+      "name": "deepseek-v3",
+      "provider": "helicone",
+      "model_id": "deepseek-v3",
+      "context_window": 128000,
+      "benchmarks": {
+        "gpqa_diamond": 0.565,
+        "mmlu": 0.871,
+        "math_level_5": 0.649,
+        "otis_mock_aime_2024_2025": 0.158,
+        "frontiermath": 0.017,
+        "aider_polyglot": 17.8,
+        "simplebench": 0.189,
+        "trivia_qa": 0.829,
+        "swe_bench_verified": 0.521,
+        "arena_elo": 1306.0
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "deepseek-v3.1-terminus",
+      "name": "deepseek-v3.1-terminus",
+      "provider": "helicone",
+      "model_id": "deepseek-v3.1-terminus",
+      "context_window": 128000,
+      "benchmarks": {
+        "arena_elo": 1415.0
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "deepseek-v3.2",
+      "name": "deepseek-v3.2",
+      "provider": "helicone",
+      "model_id": "deepseek-v3.2",
+      "context_window": 163840,
+      "benchmarks": {
+        "gpqa_diamond": 0.565,
+        "mmlu": 0.871,
+        "math_level_5": 0.649,
+        "otis_mock_aime_2024_2025": 0.158,
+        "frontiermath": 0.017,
+        "aider_polyglot": 17.8,
+        "simplebench": 0.189,
+        "trivia_qa": 0.829,
+        "swe_bench_verified": 0.521,
+        "arena_elo": 1306.0
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "deepseek-reasoner",
+      "name": "deepseek-reasoner",
+      "provider": "helicone",
+      "model_id": "deepseek-reasoner",
+      "context_window": 128000,
+      "benchmarks": {
+        "gpqa_diamond": 0.834,
+        "otis_mock_aime_2024_2025": 0.878,
+        "simpleqa_verified": 0.275,
+        "chess_puzzles": 0.14
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "deepseek-tng-r1t2-chimera",
+      "name": "deepseek-tng-r1t2-chimera",
+      "provider": "helicone",
+      "model_id": "deepseek-tng-r1t2-chimera",
+      "context_window": 130000,
+      "model_type": "reasoning"
+    },
+    {
+      "id": "mistral-nemo",
+      "name": "mistral-nemo",
+      "provider": "helicone",
+      "model_id": "mistral-nemo",
+      "context_window": 128000,
+      "model_type": "chat"
+    },
+    {
+      "id": "mistral-small",
+      "name": "mistral-small",
+      "provider": "helicone",
+      "model_id": "mistral-small",
+      "context_window": 128000,
+      "benchmarks": {
+        "gpqa_diamond": 0.453,
+        "mmlu": 0.687,
+        "math_level_5": 0.448,
+        "otis_mock_aime_2024_2025": 0.058,
+        "arena_elo": 1355.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "mistral-large-2411",
+      "name": "mistral-large-2411",
+      "provider": "helicone",
+      "model_id": "mistral-large-2411",
+      "context_window": 128000,
+      "benchmarks": {
+        "gpqa_diamond": 0.49,
+        "mmlu": 0.8,
+        "math_level_5": 0.245,
+        "otis_mock_aime_2024_2025": 0.085,
+        "frontiermath": 0.003,
+        "simplebench": 0.225,
+        "arena_elo": 1242.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "glm-4.6",
+      "name": "glm-4.6",
+      "provider": "helicone",
+      "model_id": "glm-4.6",
+      "context_window": 204800,
+      "benchmarks": {
+        "frontiermath": 0.038,
+        "frontiermath_tier_4": 0.021,
+        "arena_elo": 1424.0,
+        "livebench_global": 58.02,
+        "livebench_reasoning": 62.06,
+        "livebench_coding": 71.02,
+        "livebench_agentic_coding": 35.0,
+        "livebench_math": 81.13,
+        "livebench_data_analysis": 71.74,
+        "livebench_language": 58.99,
+        "livebench_ifeval": 26.19
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "ernie-4.5-21b-a3b-thinking",
+      "name": "ernie-4.5-21b-a3b-thinking",
+      "provider": "helicone",
+      "model_id": "ernie-4.5-21b-a3b-thinking",
+      "context_window": 128000,
+      "model_type": "unknown"
+    },
+    {
+      "id": "sonar",
+      "name": "sonar",
+      "provider": "helicone",
+      "model_id": "sonar",
+      "context_window": 127000,
+      "model_type": "unknown"
+    },
+    {
+      "id": "sonar-pro",
+      "name": "sonar-pro",
+      "provider": "helicone",
+      "model_id": "sonar-pro",
+      "context_window": 200000,
+      "model_type": "unknown"
+    },
+    {
+      "id": "sonar-reasoning",
+      "name": "sonar-reasoning",
+      "provider": "helicone",
+      "model_id": "sonar-reasoning",
+      "context_window": 127000,
+      "model_type": "unknown"
+    },
+    {
+      "id": "sonar-reasoning-pro",
+      "name": "sonar-reasoning-pro",
+      "provider": "helicone",
+      "model_id": "sonar-reasoning-pro",
+      "context_window": 127000,
+      "model_type": "unknown"
+    },
+    {
+      "id": "sonar-deep-research",
+      "name": "sonar-deep-research",
+      "provider": "helicone",
+      "model_id": "sonar-deep-research",
+      "context_window": 127000,
+      "model_type": "unknown"
+    }
+  ]
+}

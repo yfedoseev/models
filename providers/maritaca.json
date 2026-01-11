@@ -1,0 +1,27 @@
+{
+  "provider": "maritaca",
+  "model_count": 3,
+  "models": [
+    {
+      "id": "maritaca/sabia-3",
+      "name": "sabia-3",
+      "provider": "maritaca",
+      "model_id": "sabia-3",
+      "context_window": 32768
+    },
+    {
+      "id": "maritaca/sabia-2-medium",
+      "name": "sabia-2-medium",
+      "provider": "maritaca",
+      "model_id": "sabia-2-medium",
+      "context_window": 8192
+    },
+    {
+      "id": "maritaca/sabia-2-small",
+      "name": "sabia-2-small",
+      "provider": "maritaca",
+      "model_id": "sabia-2-small",
+      "context_window": 8192
+    }
+  ]
+}

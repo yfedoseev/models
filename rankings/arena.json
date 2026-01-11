@@ -1,0 +1,507 @@
+{
+  "generated_at": "2026-01-11T03:41:26.179820",
+  "ranking_type": "arena",
+  "count": 50,
+  "models": [
+    {
+      "rank": 1,
+      "model_id": "google/gemini-3-pro-preview",
+      "provider": "google",
+      "name": "gemini-3-pro-preview",
+      "score": 0.835,
+      "composite_score": 0.6694,
+      "benchmark_count": 8,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 2,
+      "model_id": "ollama/gemini-3-flash-preview",
+      "provider": "ollama",
+      "name": "gemini-3-flash-preview",
+      "score": 0.785,
+      "composite_score": 0.6977,
+      "benchmark_count": 6,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 3,
+      "model_id": "anthropic/claude-opus-4-5-20251101",
+      "provider": "anthropic",
+      "name": "Claude Opus 4.5",
+      "score": 0.775,
+      "composite_score": 0.5593,
+      "benchmark_count": 10,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 4,
+      "model_id": "deepinfra/google/gemini-2.5-pro",
+      "provider": "deepinfra",
+      "name": "google/gemini-2.5-pro",
+      "score": 0.75,
+      "composite_score": 0.6292,
+      "benchmark_count": 5,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 5,
+      "model_id": "anthropic/claude-sonnet-4-5-20250929",
+      "provider": "anthropic",
+      "name": "Claude Sonnet 4.5",
+      "score": 0.7467,
+      "composite_score": 0.5614,
+      "benchmark_count": 11,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 6,
+      "model_id": "azure/eu/gpt-5.2-chat",
+      "provider": "azure_openai",
+      "name": "eu/gpt-5.2-chat",
+      "score": 0.7333,
+      "composite_score": 0.7333,
+      "benchmark_count": 1,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 7,
+      "model_id": "openai/gpt-5.2-2025-12-11",
+      "provider": "openai",
+      "name": "gpt-5.2-2025-12-11",
+      "score": 0.7333,
+      "composite_score": 0.8153,
+      "benchmark_count": 4,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 8,
+      "model_id": "google/gemini-2.5-pro-preview-tts",
+      "provider": "google",
+      "name": "gemini-2.5-pro-preview-tts",
+      "score": 0.73,
+      "composite_score": 0.7458,
+      "benchmark_count": 4,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 9,
+      "model_id": "azure/eu/gpt-5.1-chat",
+      "provider": "azure_openai",
+      "name": "eu/gpt-5.1-chat",
+      "score": 0.725,
+      "composite_score": 0.725,
+      "benchmark_count": 1,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 10,
+      "model_id": "openai/gpt-5.1-chat-latest",
+      "provider": "openai",
+      "name": "gpt-5.1-chat-latest",
+      "score": 0.725,
+      "composite_score": 0.8133,
+      "benchmark_count": 4,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 11,
+      "model_id": "openai/o3-mini-2025-01-31",
+      "provider": "openai",
+      "name": "o3-mini-2025-01-31",
+      "score": 0.7217,
+      "composite_score": 0.7803,
+      "benchmark_count": 8,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 12,
+      "model_id": "openai/o3-2025-04-16",
+      "provider": "openai",
+      "name": "o3-2025-04-16",
+      "score": 0.7217,
+      "composite_score": 0.778,
+      "benchmark_count": 8,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 13,
+      "model_id": "grok-4-1-fast-reasoning",
+      "provider": "xai",
+      "name": "grok-4-1-fast-reasoning",
+      "score": 0.7183,
+      "composite_score": 0.7183,
+      "benchmark_count": 1,
+      "intelligence_tier": "S"
+    },
+    {
+      "rank": 14,
+      "model_id": "azure/eu/gpt-5-chat",
+      "provider": "azure_openai",
+      "name": "eu/gpt-5-chat",
+      "score": 0.7083,
+      "composite_score": 0.7083,
+      "benchmark_count": 1,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 15,
+      "model_id": "openai/gpt-5-chat-latest",
+      "provider": "openai",
+      "name": "gpt-5-chat-latest",
+      "score": 0.7083,
+      "composite_score": 0.7083,
+      "benchmark_count": 1,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 16,
+      "model_id": "featherless/zai-org/GLM-4.6",
+      "provider": "featherless",
+      "name": "zai-org/GLM-4.6",
+      "score": 0.7067,
+      "composite_score": 0.4416,
+      "benchmark_count": 3,
+      "intelligence_tier": "S"
+    },
+    {
+      "rank": 17,
+      "model_id": "novita/qwen/qwen3-max",
+      "provider": "novita",
+      "name": "Qwen3 Max",
+      "score": 0.7067,
+      "composite_score": 0.7623,
+      "benchmark_count": 5,
+      "intelligence_tier": "S"
+    },
+    {
+      "rank": 18,
+      "model_id": "huggingface_inference/deepseek-ai/DeepSeek-V3.2",
+      "provider": "huggingface_inference",
+      "name": "deepseek-ai/DeepSeek-V3.2",
+      "score": 0.705,
+      "composite_score": 0.6451,
+      "benchmark_count": 3,
+      "intelligence_tier": "S"
+    },
+    {
+      "rank": 19,
+      "model_id": "novita/deepseek/deepseek-v3.1-terminus",
+      "provider": "novita",
+      "name": "Deepseek V3.1 Terminus",
+      "score": 0.6917,
+      "composite_score": 0.6917,
+      "benchmark_count": 1,
+      "intelligence_tier": "S"
+    },
+    {
+      "rank": 20,
+      "model_id": "fireworks/qwen3-vl-235b-a22b-instruct",
+      "provider": "fireworks",
+      "name": "Qwen3 VL 235B A22B Instruct",
+      "score": 0.69,
+      "composite_score": 0.69,
+      "benchmark_count": 1,
+      "intelligence_tier": "F"
+    },
+    {
+      "rank": 21,
+      "model_id": "fireworks/mistral-large-3-fp8",
+      "provider": "fireworks",
+      "name": "Mistral Large 3 675B Instruct 2512",
+      "score": 0.6883,
+      "composite_score": 0.6883,
+      "benchmark_count": 1,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 22,
+      "model_id": "vertex/publishers/mistralai/models/mistral-large-3",
+      "provider": "vertex",
+      "name": "publishers/mistralai/models/mistral-large-3",
+      "score": 0.6883,
+      "composite_score": 0.6883,
+      "benchmark_count": 1,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 23,
+      "model_id": "azure/eu/gpt-4.1",
+      "provider": "azure_openai",
+      "name": "eu/gpt-4.1",
+      "score": 0.6867,
+      "composite_score": 0.5675,
+      "benchmark_count": 10,
+      "intelligence_tier": "S"
+    },
+    {
+      "rank": 24,
+      "model_id": "sap_ai_core/anthropic--claude-4-opus",
+      "provider": "sap_ai_core",
+      "name": "anthropic--claude-4-opus",
+      "score": 0.6867,
+      "composite_score": 0.6867,
+      "benchmark_count": 1,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 25,
+      "model_id": "anthropic/claude-opus-4-1-20250805",
+      "provider": "anthropic",
+      "name": "Claude Opus 4.1",
+      "score": 0.6833,
+      "composite_score": 0.5446,
+      "benchmark_count": 9,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 26,
+      "model_id": "nebius/zai-org/GLM-4.5",
+      "provider": "nebius",
+      "name": "zai-org/GLM-4.5",
+      "score": 0.6817,
+      "composite_score": 0.6817,
+      "benchmark_count": 1,
+      "intelligence_tier": "S"
+    },
+    {
+      "rank": 27,
+      "model_id": "deepinfra/google/gemini-2.5-flash",
+      "provider": "deepinfra",
+      "name": "google/gemini-2.5-flash",
+      "score": 0.68,
+      "composite_score": 0.38,
+      "benchmark_count": 3,
+      "intelligence_tier": "S"
+    },
+    {
+      "rank": 28,
+      "model_id": "vertex/publishers/google/models/gemini-2.5-flash-preview-09-2025",
+      "provider": "vertex",
+      "name": "publishers/google/models/gemini-2.5-flash-preview-09-2025",
+      "score": 0.675,
+      "composite_score": 0.675,
+      "benchmark_count": 1,
+      "intelligence_tier": "S"
+    },
+    {
+      "rank": 29,
+      "model_id": "anthropic/claude-haiku-4-5-20251001",
+      "provider": "anthropic",
+      "name": "Claude Haiku 4.5",
+      "score": 0.6717,
+      "composite_score": 0.53,
+      "benchmark_count": 8,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 30,
+      "model_id": "deepinfra/Qwen/Qwen3-Next-80B-A3B-Instruct",
+      "provider": "deepinfra",
+      "name": "Qwen/Qwen3-Next-80B-A3B-Instruct",
+      "score": 0.6683,
+      "composite_score": 0.5894,
+      "benchmark_count": 2,
+      "intelligence_tier": "S"
+    },
+    {
+      "rank": 31,
+      "model_id": "hyperbolic/Qwen 3 Next 80B A3b Instruct",
+      "provider": "hyperbolic",
+      "name": "Qwen 3 Next 80B A3b Instruct",
+      "score": 0.6683,
+      "composite_score": 0.5894,
+      "benchmark_count": 2,
+      "intelligence_tier": "S"
+    },
+    {
+      "rank": 32,
+      "model_id": "openai/o1-2024-12-17",
+      "provider": "openai",
+      "name": "o1-2024-12-17",
+      "score": 0.6683,
+      "composite_score": 0.7073,
+      "benchmark_count": 8,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 33,
+      "model_id": "openai/o1-pro-2025-03-19",
+      "provider": "openai",
+      "name": "o1-pro-2025-03-19",
+      "score": 0.6683,
+      "composite_score": 0.8229,
+      "benchmark_count": 5,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 34,
+      "model_id": "deepinfra/Qwen/Qwen3-235B-A22B-Thinking-2507",
+      "provider": "deepinfra",
+      "name": "Qwen/Qwen3-235B-A22B-Thinking-2507",
+      "score": 0.6633,
+      "composite_score": 0.5835,
+      "benchmark_count": 5,
+      "intelligence_tier": "S"
+    },
+    {
+      "rank": 35,
+      "model_id": "crusoe/deepseek-r1",
+      "provider": "crusoe",
+      "name": "deepseek-r1",
+      "score": 0.66,
+      "composite_score": 0.5376,
+      "benchmark_count": 8,
+      "intelligence_tier": "S"
+    },
+    {
+      "rank": 36,
+      "model_id": "deepseek-reasoner",
+      "provider": "deepseek",
+      "name": "deepseek-reasoner",
+      "score": 0.66,
+      "composite_score": 0.6618,
+      "benchmark_count": 4,
+      "intelligence_tier": "S"
+    },
+    {
+      "rank": 37,
+      "model_id": "fireworks/deepseek-r1",
+      "provider": "fireworks",
+      "name": "DeepSeek R1 (Fast)",
+      "score": 0.66,
+      "composite_score": 0.5376,
+      "benchmark_count": 8,
+      "intelligence_tier": "S"
+    },
+    {
+      "rank": 38,
+      "model_id": "fireworks/qwen3-vl-235b-a22b-thinking",
+      "provider": "fireworks",
+      "name": "Qwen3 VL 235B A22B Thinking",
+      "score": 0.6567,
+      "composite_score": 0.6567,
+      "benchmark_count": 1,
+      "intelligence_tier": "F"
+    },
+    {
+      "rank": 39,
+      "model_id": "deepseek-chat",
+      "provider": "deepseek",
+      "name": "deepseek-chat",
+      "score": 0.655,
+      "composite_score": 0.655,
+      "benchmark_count": 1,
+      "intelligence_tier": "S"
+    },
+    {
+      "rank": 40,
+      "model_id": "azure/eu/o4-mini",
+      "provider": "azure_openai",
+      "name": "eu/o4-mini",
+      "score": 0.6517,
+      "composite_score": 0.8416,
+      "benchmark_count": 3,
+      "intelligence_tier": "F"
+    },
+    {
+      "rank": 41,
+      "model_id": "anthropic/claude-opus-4-20250514",
+      "provider": "anthropic",
+      "name": "Claude Opus 4",
+      "score": 0.65,
+      "composite_score": 0.5527,
+      "benchmark_count": 9,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 42,
+      "model_id": "sap_ai_core/anthropic--claude-sonnet-4",
+      "provider": "sap_ai_core",
+      "name": "anthropic--claude-sonnet-4",
+      "score": 0.6483,
+      "composite_score": 0.6483,
+      "benchmark_count": 1,
+      "intelligence_tier": "S"
+    },
+    {
+      "rank": 43,
+      "model_id": "deepinfra/Qwen/Qwen3-Coder-480B-A35B-Instruct",
+      "provider": "deepinfra",
+      "name": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
+      "score": 0.645,
+      "composite_score": 0.645,
+      "benchmark_count": 1,
+      "intelligence_tier": "S"
+    },
+    {
+      "rank": 44,
+      "model_id": "fireworks/qwen3-coder-480b-instruct-bf16",
+      "provider": "fireworks",
+      "name": "Qwen3 Coder 480B Instruct BF16",
+      "score": 0.645,
+      "composite_score": 0.645,
+      "benchmark_count": 1,
+      "intelligence_tier": "S"
+    },
+    {
+      "rank": 45,
+      "model_id": "huggingface_inference/Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8",
+      "provider": "huggingface_inference",
+      "name": "Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8",
+      "score": 0.645,
+      "composite_score": 0.645,
+      "benchmark_count": 1,
+      "intelligence_tier": "S"
+    },
+    {
+      "rank": 46,
+      "model_id": "azure/eu/gpt-4.1-mini",
+      "provider": "azure_openai",
+      "name": "eu/gpt-4.1-mini",
+      "score": 0.635,
+      "composite_score": 0.5692,
+      "benchmark_count": 9,
+      "intelligence_tier": "S"
+    },
+    {
+      "rank": 47,
+      "model_id": "anthropic/claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "name": "Claude Sonnet 4",
+      "score": 0.6333,
+      "composite_score": 0.5358,
+      "benchmark_count": 10,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 48,
+      "model_id": "cerebras/Qwen 3 235B Instruct*",
+      "provider": "cerebras",
+      "name": "Qwen 3 235B Instruct*",
+      "score": 0.6233,
+      "composite_score": 0.5851,
+      "benchmark_count": 5,
+      "intelligence_tier": "S"
+    },
+    {
+      "rank": 49,
+      "model_id": "huggingface_inference/zai-org/GLM-4.5-Air",
+      "provider": "huggingface_inference",
+      "name": "zai-org/GLM-4.5-Air",
+      "score": 0.6183,
+      "composite_score": 0.6183,
+      "benchmark_count": 1,
+      "intelligence_tier": "S"
+    },
+    {
+      "rank": 50,
+      "model_id": "google/gemini-2.5-flash-lite",
+      "provider": "google",
+      "name": "gemini-2.5-flash-lite",
+      "score": 0.6133,
+      "composite_score": 0.6627,
+      "benchmark_count": 2,
+      "intelligence_tier": "P"
+    }
+  ]
+}

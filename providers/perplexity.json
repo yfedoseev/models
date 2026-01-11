@@ -1,0 +1,46 @@
+{
+  "provider": "perplexity",
+  "model_count": 4,
+  "models": [
+    {
+      "id": "sonar",
+      "name": null,
+      "provider": "perplexity",
+      "model_id": "sonar",
+      "context_window": 127072,
+      "input_price_per_million": "1",
+      "output_price_per_million": "1",
+      "model_type": "online"
+    },
+    {
+      "id": "sonar-pro",
+      "name": null,
+      "provider": "perplexity",
+      "model_id": "sonar-pro",
+      "context_window": 200000,
+      "input_price_per_million": "3",
+      "output_price_per_million": "15",
+      "model_type": "online"
+    },
+    {
+      "id": "sonar-reasoning-pro",
+      "name": null,
+      "provider": "perplexity",
+      "model_id": "sonar-reasoning-pro",
+      "context_window": 127072,
+      "input_price_per_million": "2",
+      "output_price_per_million": "8",
+      "model_type": "reasoning"
+    },
+    {
+      "id": "sonar-deep-research",
+      "name": null,
+      "provider": "perplexity",
+      "model_id": "sonar-deep-research",
+      "context_window": 127072,
+      "input_price_per_million": "2",
+      "output_price_per_million": "8",
+      "model_type": "online"
+    }
+  ]
+}

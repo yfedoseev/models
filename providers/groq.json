@@ -1,0 +1,213 @@
+{
+  "provider": "groq",
+  "model_count": 16,
+  "models": [
+    {
+      "id": "groq/Llama 3.1 8B llama-3.1-8b-instant",
+      "name": "Llama 3.1 8B llama-3.1-8b-instant",
+      "provider": "groq",
+      "model_id": "Llama 3.1 8B llama-3.1-8b-instant",
+      "context_window": 560.0,
+      "input_price_per_million": 0.05,
+      "output_price_per_million": 250.0,
+      "model_type": "chat"
+    },
+    {
+      "id": "groq/Llama 3.3 70B llama-3.3-70b-versatile",
+      "name": "Llama 3.3 70B llama-3.3-70b-versatile",
+      "provider": "groq",
+      "model_id": "Llama 3.3 70B llama-3.3-70b-versatile",
+      "context_window": 280.0,
+      "input_price_per_million": 0.59,
+      "output_price_per_million": 300.0,
+      "model_type": "chat"
+    },
+    {
+      "id": "groq/Llama Guard 4 12B meta-llama/llama-guard-4-12b",
+      "name": "Llama Guard 4 12B meta-llama/llama-guard-4-12b",
+      "provider": "groq",
+      "model_id": "Llama Guard 4 12B meta-llama/llama-guard-4-12b",
+      "context_window": 1200.0,
+      "input_price_per_million": 0.2,
+      "output_price_per_million": 30.0,
+      "model_type": "chat"
+    },
+    {
+      "id": "groq/GPT OSS 120B openai/gpt-oss-120b",
+      "name": "GPT OSS 120B openai/gpt-oss-120b",
+      "provider": "groq",
+      "model_id": "GPT OSS 120B openai/gpt-oss-120b",
+      "context_window": 500.0,
+      "input_price_per_million": 0.15,
+      "output_price_per_million": 250.0,
+      "benchmarks": {
+        "simplebench": 0.221,
+        "arena_elo": 1353.0,
+        "livebench_global": 48.66,
+        "livebench_reasoning": 39.21,
+        "livebench_coding": 60.21,
+        "livebench_agentic_coding": 16.67,
+        "livebench_math": 68.87,
+        "livebench_data_analysis": 56.77,
+        "livebench_language": 48.59,
+        "livebench_ifeval": 50.29
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "groq/GPT OSS 20B openai/gpt-oss-20b",
+      "name": "GPT OSS 20B openai/gpt-oss-20b",
+      "provider": "groq",
+      "model_id": "GPT OSS 20B openai/gpt-oss-20b",
+      "context_window": 1000.0,
+      "input_price_per_million": 0.075,
+      "output_price_per_million": 250.0,
+      "benchmarks": {
+        "arena_elo": 1318.0
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "groq/Compound groq/compound",
+      "name": "Compound groq/compound",
+      "provider": "groq",
+      "model_id": "Compound groq/compound",
+      "context_window": 450.0,
+      "output_price_per_million": 200.0,
+      "model_type": "unknown"
+    },
+    {
+      "id": "groq/Compound Mini groq/compound-mini",
+      "name": "Compound Mini groq/compound-mini",
+      "provider": "groq",
+      "model_id": "Compound Mini groq/compound-mini",
+      "context_window": 450.0,
+      "output_price_per_million": 200.0,
+      "model_type": "unknown"
+    },
+    {
+      "id": "groq/Canopy Labs Orpheus Arabic Saudi canopylabs/orpheus-arabic-saudi",
+      "name": "Canopy Labs Orpheus Arabic Saudi canopylabs/orpheus-arabic-saudi",
+      "provider": "groq",
+      "model_id": "Canopy Labs Orpheus Arabic Saudi canopylabs/orpheus-arabic-saudi",
+      "input_price_per_million": 40.0,
+      "output_price_per_million": 50.0,
+      "model_type": "unknown"
+    },
+    {
+      "id": "groq/Canopy Labs Orpheus V1 English canopylabs/orpheus-v1-english",
+      "name": "Canopy Labs Orpheus V1 English canopylabs/orpheus-v1-english",
+      "provider": "groq",
+      "model_id": "Canopy Labs Orpheus V1 English canopylabs/orpheus-v1-english",
+      "input_price_per_million": 22.0,
+      "output_price_per_million": 50.0,
+      "model_type": "unknown"
+    },
+    {
+      "id": "groq/Llama 4 Maverick 17B 128E meta-llama/llama-4-maverick-17b-128e-instruct",
+      "name": "Llama 4 Maverick 17B 128E meta-llama/llama-4-maverick-17b-128e-instruct",
+      "provider": "groq",
+      "model_id": "Llama 4 Maverick 17B 128E meta-llama/llama-4-maverick-17b-128e-instruct",
+      "context_window": 600.0,
+      "input_price_per_million": 0.2,
+      "output_price_per_million": 300.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.67,
+        "math_level_5": 0.73,
+        "otis_mock_aime_2024_2025": 0.206,
+        "frontiermath": 0.007,
+        "aider_polyglot": 15.6,
+        "simplebench": 0.277
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "groq/Llama 4 Scout 17B 16E meta-llama/llama-4-scout-17b-16e-instruct",
+      "name": "Llama 4 Scout 17B 16E meta-llama/llama-4-scout-17b-16e-instruct",
+      "provider": "groq",
+      "model_id": "Llama 4 Scout 17B 16E meta-llama/llama-4-scout-17b-16e-instruct",
+      "context_window": 750.0,
+      "input_price_per_million": 0.11,
+      "output_price_per_million": 300.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.518,
+        "math_level_5": 0.623,
+        "otis_mock_aime_2024_2025": 0.078,
+        "frontiermath": 0.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "groq/Llama Prompt Guard 2 22M meta-llama/llama-prompt-guard-2-22m",
+      "name": "Llama Prompt Guard 2 22M meta-llama/llama-prompt-guard-2-22m",
+      "provider": "groq",
+      "model_id": "Llama Prompt Guard 2 22M meta-llama/llama-prompt-guard-2-22m",
+      "input_price_per_million": 0.03,
+      "output_price_per_million": 30.0,
+      "model_type": "chat"
+    },
+    {
+      "id": "groq/Prompt Guard 2 86M meta-llama/llama-prompt-guard-2-86m",
+      "name": "Prompt Guard 2 86M meta-llama/llama-prompt-guard-2-86m",
+      "provider": "groq",
+      "model_id": "Prompt Guard 2 86M meta-llama/llama-prompt-guard-2-86m",
+      "input_price_per_million": 0.04,
+      "output_price_per_million": 30.0,
+      "model_type": "chat"
+    },
+    {
+      "id": "groq/Kimi K2 0905 moonshotai/kimi-k2-instruct-0905",
+      "name": "Kimi K2 0905 moonshotai/kimi-k2-instruct-0905",
+      "provider": "groq",
+      "model_id": "Kimi K2 0905 moonshotai/kimi-k2-instruct-0905",
+      "context_window": 200.0,
+      "input_price_per_million": 1.0,
+      "output_price_per_million": 250.0,
+      "benchmarks": {
+        "aider_polyglot": 59.1,
+        "simplebench": 0.263,
+        "livebench_global": 50.97,
+        "livebench_reasoning": 42.23,
+        "livebench_coding": 74.28,
+        "livebench_agentic_coding": 31.67,
+        "livebench_math": 58.15,
+        "livebench_data_analysis": 63.41,
+        "livebench_language": 66.69,
+        "livebench_ifeval": 20.36
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "groq/Safety GPT OSS 20B openai/gpt-oss-safeguard-20b",
+      "name": "Safety GPT OSS 20B openai/gpt-oss-safeguard-20b",
+      "provider": "groq",
+      "model_id": "Safety GPT OSS 20B openai/gpt-oss-safeguard-20b",
+      "context_window": 1000.0,
+      "input_price_per_million": 0.075,
+      "output_price_per_million": 150.0,
+      "model_type": "unknown"
+    },
+    {
+      "id": "groq/Qwen3-32B qwen/qwen3-32b",
+      "name": "Qwen3-32B qwen/qwen3-32b",
+      "provider": "groq",
+      "model_id": "Qwen3-32B qwen/qwen3-32b",
+      "context_window": 400.0,
+      "input_price_per_million": 0.29,
+      "output_price_per_million": 300.0,
+      "benchmarks": {
+        "aider_polyglot": 40.0,
+        "arena_elo": 1345.0,
+        "livebench_global": 46.67,
+        "livebench_reasoning": 48.25,
+        "livebench_coding": 66.03,
+        "livebench_agentic_coding": 3.33,
+        "livebench_math": 67.44,
+        "livebench_data_analysis": 68.29,
+        "livebench_language": 55.54,
+        "livebench_ifeval": 17.77
+      },
+      "model_type": "chat"
+    }
+  ]
+}

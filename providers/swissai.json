@@ -1,0 +1,29 @@
+{
+  "provider": "swissai",
+  "model_count": 3,
+  "models": [
+    {
+      "id": "swissai/swiss-llm-7b",
+      "name": "swiss-llm-7b",
+      "provider": "swissai",
+      "model_id": "swiss-llm-7b",
+      "context_window": 8192,
+      "model_type": "chat"
+    },
+    {
+      "id": "swissai/swiss-llm-13b",
+      "name": "swiss-llm-13b",
+      "provider": "swissai",
+      "model_id": "swiss-llm-13b",
+      "context_window": 8192,
+      "model_type": "chat"
+    },
+    {
+      "id": "swissai/swiss-embed",
+      "name": "swiss-embed",
+      "provider": "swissai",
+      "model_id": "swiss-embed",
+      "model_type": "embedding"
+    }
+  ]
+}

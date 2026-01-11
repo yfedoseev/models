@@ -1,0 +1,1613 @@
+{
+  "provider": "openai",
+  "model_count": 111,
+  "models": [
+    {
+      "id": "openai/gpt-4-0613",
+      "name": "gpt-4-0613",
+      "provider": "openai",
+      "model_id": "gpt-4-0613",
+      "context_window": 8192,
+      "input_price_per_million": 15.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.307,
+        "mmlu": 0.864,
+        "math_level_5": 0.23,
+        "gsm8k": 0.92,
+        "otis_mock_aime_2024_2025": 0.006,
+        "trivia_qa": 0.848,
+        "arena_elo": 1275.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "openai/gpt-4",
+      "name": "gpt-4",
+      "provider": "openai",
+      "model_id": "gpt-4",
+      "context_window": 8192,
+      "input_price_per_million": 15.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.307,
+        "mmlu": 0.864,
+        "math_level_5": 0.23,
+        "gsm8k": 0.92,
+        "otis_mock_aime_2024_2025": 0.006,
+        "trivia_qa": 0.848,
+        "arena_elo": 1275.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "openai/gpt-3.5-turbo",
+      "name": "gpt-3.5-turbo",
+      "provider": "openai",
+      "model_id": "gpt-3.5-turbo",
+      "context_window": 16385,
+      "input_price_per_million": 0.5,
+      "output_price_per_million": 1.5,
+      "benchmarks": {
+        "gpqa_diamond": 0.272,
+        "mmlu": 0.714,
+        "math_level_5": 0.159,
+        "gsm8k": 0.578,
+        "trivia_qa": 0.858,
+        "arena_elo": 1202.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "openai/chatgpt-image-latest",
+      "name": "chatgpt-image-latest",
+      "provider": "openai",
+      "model_id": "chatgpt-image-latest",
+      "model_type": "image_gen"
+    },
+    {
+      "id": "openai/gpt-4o-mini-tts-2025-03-20",
+      "name": "gpt-4o-mini-tts-2025-03-20",
+      "provider": "openai",
+      "model_id": "gpt-4o-mini-tts-2025-03-20",
+      "context_window": 128000,
+      "input_price_per_million": 0.6,
+      "output_price_per_million": 0.015,
+      "benchmarks": {
+        "arena_elo": 1345
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "openai/gpt-4o-mini-tts-2025-12-15",
+      "name": "gpt-4o-mini-tts-2025-12-15",
+      "provider": "openai",
+      "model_id": "gpt-4o-mini-tts-2025-12-15",
+      "context_window": 128000,
+      "input_price_per_million": 0.6,
+      "output_price_per_million": 0.015,
+      "benchmarks": {
+        "arena_elo": 1345
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "openai/gpt-realtime-mini-2025-12-15",
+      "name": "gpt-realtime-mini-2025-12-15",
+      "provider": "openai",
+      "model_id": "gpt-realtime-mini-2025-12-15",
+      "context_window": 128000,
+      "input_price_per_million": 0.6,
+      "output_price_per_million": 2.4,
+      "model_type": "audio_realtime"
+    },
+    {
+      "id": "openai/gpt-audio-mini-2025-12-15",
+      "name": "gpt-audio-mini-2025-12-15",
+      "provider": "openai",
+      "model_id": "gpt-audio-mini-2025-12-15",
+      "context_window": 128000,
+      "input_price_per_million": 0.6,
+      "output_price_per_million": 2.4,
+      "model_type": "audio"
+    },
+    {
+      "id": "openai/davinci-002",
+      "name": "davinci-002",
+      "provider": "openai",
+      "model_id": "davinci-002",
+      "input_price_per_million": 6.0,
+      "model_type": "legacy"
+    },
+    {
+      "id": "openai/babbage-002",
+      "name": "babbage-002",
+      "provider": "openai",
+      "model_id": "babbage-002",
+      "input_price_per_million": 0.4,
+      "model_type": "legacy"
+    },
+    {
+      "id": "openai/gpt-3.5-turbo-instruct",
+      "name": "gpt-3.5-turbo-instruct",
+      "provider": "openai",
+      "model_id": "gpt-3.5-turbo-instruct",
+      "context_window": 16385,
+      "input_price_per_million": 1.5,
+      "output_price_per_million": 2.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.272,
+        "mmlu": 0.714,
+        "math_level_5": 0.159,
+        "gsm8k": 0.578,
+        "trivia_qa": 0.858,
+        "arena_elo": 1202.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "openai/gpt-3.5-turbo-instruct-0914",
+      "name": "gpt-3.5-turbo-instruct-0914",
+      "provider": "openai",
+      "model_id": "gpt-3.5-turbo-instruct-0914",
+      "context_window": 16385,
+      "input_price_per_million": 1.5,
+      "output_price_per_million": 2.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.272,
+        "mmlu": 0.714,
+        "math_level_5": 0.159,
+        "gsm8k": 0.578,
+        "trivia_qa": 0.858,
+        "arena_elo": 1202.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "openai/dall-e-3",
+      "name": "dall-e-3",
+      "provider": "openai",
+      "model_id": "dall-e-3",
+      "model_type": "image_gen"
+    },
+    {
+      "id": "openai/dall-e-2",
+      "name": "dall-e-2",
+      "provider": "openai",
+      "model_id": "dall-e-2",
+      "model_type": "image_gen"
+    },
+    {
+      "id": "openai/gpt-4-1106-preview",
+      "name": "gpt-4-1106-preview",
+      "provider": "openai",
+      "model_id": "gpt-4-1106-preview",
+      "context_window": 8192,
+      "input_price_per_million": 10.0,
+      "output_price_per_million": 30.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.424,
+        "mmlu": 84.7,
+        "math_level_5": 0.4,
+        "humaneval": 83.7,
+        "arena_elo": 1313.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "openai/gpt-3.5-turbo-1106",
+      "name": "gpt-3.5-turbo-1106",
+      "provider": "openai",
+      "model_id": "gpt-3.5-turbo-1106",
+      "context_window": 16385,
+      "input_price_per_million": 0.5,
+      "output_price_per_million": 1.5,
+      "benchmarks": {
+        "gpqa_diamond": 0.272,
+        "mmlu": 0.714,
+        "math_level_5": 0.159,
+        "gsm8k": 0.578,
+        "trivia_qa": 0.858,
+        "arena_elo": 1202.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "openai/tts-1-hd",
+      "name": "tts-1-hd",
+      "provider": "openai",
+      "model_id": "tts-1-hd",
+      "model_type": "audio_tts"
+    },
+    {
+      "id": "openai/tts-1-1106",
+      "name": "tts-1-1106",
+      "provider": "openai",
+      "model_id": "tts-1-1106",
+      "model_type": "audio_tts"
+    },
+    {
+      "id": "openai/tts-1-hd-1106",
+      "name": "tts-1-hd-1106",
+      "provider": "openai",
+      "model_id": "tts-1-hd-1106",
+      "model_type": "audio_tts"
+    },
+    {
+      "id": "openai/text-embedding-3-small",
+      "name": "text-embedding-3-small",
+      "provider": "openai",
+      "model_id": "text-embedding-3-small",
+      "context_window": 8191,
+      "input_price_per_million": 0.02,
+      "model_type": "embedding"
+    },
+    {
+      "id": "openai/text-embedding-3-large",
+      "name": "text-embedding-3-large",
+      "provider": "openai",
+      "model_id": "text-embedding-3-large",
+      "context_window": 8191,
+      "input_price_per_million": 0.13,
+      "model_type": "embedding"
+    },
+    {
+      "id": "openai/gpt-4-0125-preview",
+      "name": "gpt-4-0125-preview",
+      "provider": "openai",
+      "model_id": "gpt-4-0125-preview",
+      "context_window": 8192,
+      "input_price_per_million": 10.0,
+      "output_price_per_million": 30.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.423,
+        "mmlu": 85.4,
+        "math_level_5": 0.354,
+        "humaneval": 86.6,
+        "arena_elo": 1313.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "openai/gpt-4-turbo-preview",
+      "name": "gpt-4-turbo-preview",
+      "provider": "openai",
+      "model_id": "gpt-4-turbo-preview",
+      "context_window": 128000,
+      "benchmarks": {
+        "gpqa_diamond": 0.466,
+        "mmlu": 86.7,
+        "math_level_5": 0.467,
+        "otis_mock_aime_2024_2025": 0.067,
+        "simplebench": 0.251,
+        "humaneval": 88.2,
+        "arena_elo": 1324
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "openai/gpt-3.5-turbo-0125",
+      "name": "gpt-3.5-turbo-0125",
+      "provider": "openai",
+      "model_id": "gpt-3.5-turbo-0125",
+      "context_window": 16385,
+      "input_price_per_million": 0.5,
+      "output_price_per_million": 1.5,
+      "benchmarks": {
+        "gpqa_diamond": 0.272,
+        "mmlu": 0.714,
+        "math_level_5": 0.159,
+        "gsm8k": 0.578,
+        "trivia_qa": 0.858,
+        "arena_elo": 1202.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "openai/gpt-4-turbo",
+      "name": "gpt-4-turbo",
+      "provider": "openai",
+      "model_id": "gpt-4-turbo",
+      "context_window": 128000,
+      "input_price_per_million": 10.0,
+      "output_price_per_million": 30.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.466,
+        "mmlu": 86.7,
+        "math_level_5": 0.467,
+        "otis_mock_aime_2024_2025": 0.067,
+        "simplebench": 0.251,
+        "humaneval": 88.2,
+        "arena_elo": 1324
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "openai/gpt-4-turbo-2024-04-09",
+      "name": "gpt-4-turbo-2024-04-09",
+      "provider": "openai",
+      "model_id": "gpt-4-turbo-2024-04-09",
+      "context_window": 128000,
+      "input_price_per_million": 10.0,
+      "output_price_per_million": 30.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.466,
+        "mmlu": 86.7,
+        "math_level_5": 0.467,
+        "otis_mock_aime_2024_2025": 0.067,
+        "simplebench": 0.251,
+        "humaneval": 88.2,
+        "arena_elo": 1324
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "openai/gpt-4o",
+      "name": "gpt-4o",
+      "provider": "openai",
+      "model_id": "gpt-4o",
+      "context_window": 128000,
+      "input_price_per_million": 1.25,
+      "output_price_per_million": 5.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.489,
+        "mmlu": 87.2,
+        "math_level_5": 0.533,
+        "otis_mock_aime_2024_2025": 0.062,
+        "frontiermath": 0.003,
+        "aider_polyglot": 18.2,
+        "simplebench": 0.178,
+        "swe_bench_verified": 0.254,
+        "humaneval": 91.0,
+        "arena_elo": 1345
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "openai/gpt-4o-2024-05-13",
+      "name": "gpt-4o-2024-05-13",
+      "provider": "openai",
+      "model_id": "gpt-4o-2024-05-13",
+      "context_window": 128000,
+      "input_price_per_million": 1.25,
+      "output_price_per_million": 5.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.489,
+        "mmlu": 87.2,
+        "math_level_5": 0.533,
+        "otis_mock_aime_2024_2025": 0.062,
+        "frontiermath": 0.003,
+        "aider_polyglot": 18.2,
+        "simplebench": 0.178,
+        "swe_bench_verified": 0.254,
+        "humaneval": 91.0,
+        "arena_elo": 1345
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "openai/gpt-4o-mini-2024-07-18",
+      "name": "gpt-4o-mini-2024-07-18",
+      "provider": "openai",
+      "model_id": "gpt-4o-mini-2024-07-18",
+      "context_window": 128000,
+      "input_price_per_million": 0.075,
+      "output_price_per_million": 0.3,
+      "benchmarks": {
+        "gpqa_diamond": 0.377,
+        "mmlu": 82.0,
+        "math_level_5": 0.526,
+        "gsm8k": 0.913,
+        "otis_mock_aime_2024_2025": 0.069,
+        "aider_polyglot": 3.6,
+        "simplebench": 0.107,
+        "humaneval": 87.2,
+        "arena_elo": 1345
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "openai/gpt-4o-mini",
+      "name": "gpt-4o-mini",
+      "provider": "openai",
+      "model_id": "gpt-4o-mini",
+      "context_window": 128000,
+      "input_price_per_million": 0.075,
+      "output_price_per_million": 0.3,
+      "benchmarks": {
+        "gpqa_diamond": 0.377,
+        "mmlu": 82.0,
+        "math_level_5": 0.526,
+        "gsm8k": 0.913,
+        "otis_mock_aime_2024_2025": 0.069,
+        "aider_polyglot": 3.6,
+        "simplebench": 0.107,
+        "humaneval": 87.2,
+        "arena_elo": 1317
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "openai/gpt-4o-2024-08-06",
+      "name": "gpt-4o-2024-08-06",
+      "provider": "openai",
+      "model_id": "gpt-4o-2024-08-06",
+      "context_window": 128000,
+      "input_price_per_million": 1.25,
+      "output_price_per_million": 5.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.489,
+        "mmlu": 87.2,
+        "math_level_5": 0.533,
+        "otis_mock_aime_2024_2025": 0.062,
+        "frontiermath": 0.003,
+        "aider_polyglot": 18.2,
+        "simplebench": 0.178,
+        "swe_bench_verified": 0.254,
+        "humaneval": 91.0,
+        "arena_elo": 1345
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "openai/chatgpt-4o-latest",
+      "name": "chatgpt-4o-latest",
+      "provider": "openai",
+      "model_id": "chatgpt-4o-latest",
+      "context_window": 128000,
+      "input_price_per_million": 5.0,
+      "output_price_per_million": 15.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.489,
+        "mmlu": 87.2,
+        "math_level_5": 0.533,
+        "otis_mock_aime_2024_2025": 0.062,
+        "frontiermath": 0.003,
+        "aider_polyglot": 18.2,
+        "simplebench": 0.178,
+        "swe_bench_verified": 0.254,
+        "humaneval": 91.0,
+        "arena_elo": 1335.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "openai/gpt-4o-audio-preview",
+      "name": "gpt-4o-audio-preview",
+      "provider": "openai",
+      "model_id": "gpt-4o-audio-preview",
+      "context_window": 128000,
+      "input_price_per_million": 2.5,
+      "output_price_per_million": 10.0,
+      "benchmarks": {
+        "arena_elo": 1345
+      },
+      "model_type": "audio"
+    },
+    {
+      "id": "openai/gpt-4o-realtime-preview",
+      "name": "gpt-4o-realtime-preview",
+      "provider": "openai",
+      "model_id": "gpt-4o-realtime-preview",
+      "context_window": 128000,
+      "input_price_per_million": 5.0,
+      "output_price_per_million": 20.0,
+      "benchmarks": {
+        "arena_elo": 1345
+      },
+      "model_type": "audio_realtime"
+    },
+    {
+      "id": "openai/omni-moderation-latest",
+      "name": "omni-moderation-latest",
+      "provider": "openai",
+      "model_id": "omni-moderation-latest",
+      "model_type": "moderation"
+    },
+    {
+      "id": "openai/omni-moderation-2024-09-26",
+      "name": "omni-moderation-2024-09-26",
+      "provider": "openai",
+      "model_id": "omni-moderation-2024-09-26",
+      "model_type": "moderation"
+    },
+    {
+      "id": "openai/gpt-4o-realtime-preview-2024-12-17",
+      "name": "gpt-4o-realtime-preview-2024-12-17",
+      "provider": "openai",
+      "model_id": "gpt-4o-realtime-preview-2024-12-17",
+      "context_window": 128000,
+      "input_price_per_million": 5.0,
+      "output_price_per_million": 20.0,
+      "benchmarks": {
+        "arena_elo": 1345
+      },
+      "model_type": "audio_realtime"
+    },
+    {
+      "id": "openai/gpt-4o-audio-preview-2024-12-17",
+      "name": "gpt-4o-audio-preview-2024-12-17",
+      "provider": "openai",
+      "model_id": "gpt-4o-audio-preview-2024-12-17",
+      "context_window": 128000,
+      "input_price_per_million": 2.5,
+      "output_price_per_million": 10.0,
+      "benchmarks": {
+        "arena_elo": 1345
+      },
+      "model_type": "audio"
+    },
+    {
+      "id": "openai/gpt-4o-mini-realtime-preview-2024-12-17",
+      "name": "gpt-4o-mini-realtime-preview-2024-12-17",
+      "provider": "openai",
+      "model_id": "gpt-4o-mini-realtime-preview-2024-12-17",
+      "context_window": 128000,
+      "input_price_per_million": 0.6,
+      "output_price_per_million": 2.4,
+      "benchmarks": {
+        "arena_elo": 1345
+      },
+      "model_type": "audio_realtime"
+    },
+    {
+      "id": "openai/gpt-4o-mini-audio-preview-2024-12-17",
+      "name": "gpt-4o-mini-audio-preview-2024-12-17",
+      "provider": "openai",
+      "model_id": "gpt-4o-mini-audio-preview-2024-12-17",
+      "context_window": 128000,
+      "input_price_per_million": 0.15,
+      "output_price_per_million": 0.6,
+      "benchmarks": {
+        "arena_elo": 1345
+      },
+      "model_type": "audio"
+    },
+    {
+      "id": "openai/o1-2024-12-17",
+      "name": "o1-2024-12-17",
+      "provider": "openai",
+      "model_id": "o1-2024-12-17",
+      "context_window": 200000,
+      "input_price_per_million": 7.5,
+      "output_price_per_million": 30.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.781,
+        "mmlu": 0.908,
+        "math_level_5": 0.816,
+        "otis_mock_aime_2024_2025": 0.311,
+        "simplebench": 0.417,
+        "humaneval": 0.924,
+        "arena_elo": 1401,
+        "aime_2024": 0.833
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "openai/o1",
+      "name": "o1",
+      "provider": "openai",
+      "model_id": "o1",
+      "context_window": 200000,
+      "input_price_per_million": 7.5,
+      "output_price_per_million": 30.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.781,
+        "mmlu": 0.908,
+        "math_level_5": 0.816,
+        "otis_mock_aime_2024_2025": 0.311,
+        "simplebench": 0.417,
+        "humaneval": 0.924,
+        "arena_elo": 1401,
+        "aime_2024": 0.833
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "openai/gpt-4o-mini-realtime-preview",
+      "name": "gpt-4o-mini-realtime-preview",
+      "provider": "openai",
+      "model_id": "gpt-4o-mini-realtime-preview",
+      "context_window": 128000,
+      "input_price_per_million": 0.6,
+      "output_price_per_million": 2.4,
+      "benchmarks": {
+        "arena_elo": 1345
+      },
+      "model_type": "audio_realtime"
+    },
+    {
+      "id": "openai/gpt-4o-mini-audio-preview",
+      "name": "gpt-4o-mini-audio-preview",
+      "provider": "openai",
+      "model_id": "gpt-4o-mini-audio-preview",
+      "context_window": 128000,
+      "input_price_per_million": 0.15,
+      "output_price_per_million": 0.6,
+      "benchmarks": {
+        "arena_elo": 1345
+      },
+      "model_type": "audio"
+    },
+    {
+      "id": "openai/o3-mini",
+      "name": "o3-mini",
+      "provider": "openai",
+      "model_id": "o3-mini",
+      "context_window": 200000,
+      "input_price_per_million": 0.55,
+      "output_price_per_million": 2.2,
+      "benchmarks": {
+        "mmlu": 0.859,
+        "humaneval": 0.963,
+        "arena_elo": 1348,
+        "swe_bench_verified": 0.493,
+        "gpqa_diamond": 0.767,
+        "aime_2024": 0.876
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "openai/o3-mini-2025-01-31",
+      "name": "o3-mini-2025-01-31",
+      "provider": "openai",
+      "model_id": "o3-mini-2025-01-31",
+      "context_window": 200000,
+      "input_price_per_million": 0.55,
+      "output_price_per_million": 2.2,
+      "benchmarks": {
+        "mmlu": 85.9,
+        "humaneval": 96.3,
+        "arena_elo": 1433,
+        "swe_bench_verified": 0.691,
+        "gpqa_diamond": 0.877,
+        "aime_2024": 0.916,
+        "aime_2025": 0.889,
+        "arc_agi_2": 0.326,
+        "scale_multichallenge": 0.5651
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "openai/gpt-4o-2024-11-20",
+      "name": "gpt-4o-2024-11-20",
+      "provider": "openai",
+      "model_id": "gpt-4o-2024-11-20",
+      "context_window": 128000,
+      "input_price_per_million": 1.25,
+      "output_price_per_million": 5.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.489,
+        "mmlu": 87.2,
+        "math_level_5": 0.533,
+        "otis_mock_aime_2024_2025": 0.062,
+        "frontiermath": 0.003,
+        "aider_polyglot": 18.2,
+        "simplebench": 0.178,
+        "swe_bench_verified": 0.254,
+        "humaneval": 91.0,
+        "arena_elo": 1345
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "openai/gpt-4o-search-preview-2025-03-11",
+      "name": "gpt-4o-search-preview-2025-03-11",
+      "provider": "openai",
+      "model_id": "gpt-4o-search-preview-2025-03-11",
+      "context_window": 128000,
+      "input_price_per_million": 2.5,
+      "output_price_per_million": 10.0,
+      "benchmarks": {
+        "arena_elo": 1345
+      },
+      "model_type": "search"
+    },
+    {
+      "id": "openai/gpt-4o-search-preview",
+      "name": "gpt-4o-search-preview",
+      "provider": "openai",
+      "model_id": "gpt-4o-search-preview",
+      "context_window": 128000,
+      "input_price_per_million": 2.5,
+      "output_price_per_million": 10.0,
+      "benchmarks": {
+        "arena_elo": 1345
+      },
+      "model_type": "search"
+    },
+    {
+      "id": "openai/gpt-4o-mini-search-preview-2025-03-11",
+      "name": "gpt-4o-mini-search-preview-2025-03-11",
+      "provider": "openai",
+      "model_id": "gpt-4o-mini-search-preview-2025-03-11",
+      "context_window": 128000,
+      "input_price_per_million": 0.15,
+      "output_price_per_million": 0.6,
+      "benchmarks": {
+        "arena_elo": 1345
+      },
+      "model_type": "search"
+    },
+    {
+      "id": "openai/gpt-4o-mini-search-preview",
+      "name": "gpt-4o-mini-search-preview",
+      "provider": "openai",
+      "model_id": "gpt-4o-mini-search-preview",
+      "context_window": 128000,
+      "input_price_per_million": 0.15,
+      "output_price_per_million": 0.6,
+      "benchmarks": {
+        "arena_elo": 1345
+      },
+      "model_type": "search"
+    },
+    {
+      "id": "openai/gpt-4o-transcribe",
+      "name": "gpt-4o-transcribe",
+      "provider": "openai",
+      "model_id": "gpt-4o-transcribe",
+      "context_window": 128000,
+      "benchmarks": {
+        "arena_elo": 1345
+      },
+      "model_type": "audio_stt"
+    },
+    {
+      "id": "openai/gpt-4o-mini-transcribe",
+      "name": "gpt-4o-mini-transcribe",
+      "provider": "openai",
+      "model_id": "gpt-4o-mini-transcribe",
+      "context_window": 128000,
+      "benchmarks": {
+        "arena_elo": 1345
+      },
+      "model_type": "audio_stt"
+    },
+    {
+      "id": "openai/o1-pro-2025-03-19",
+      "name": "o1-pro-2025-03-19",
+      "provider": "openai",
+      "model_id": "o1-pro-2025-03-19",
+      "context_window": 200000,
+      "input_price_per_million": 75.0,
+      "output_price_per_million": 300.0,
+      "benchmarks": {
+        "arena_elo": 1401,
+        "gpqa_diamond": 0.781,
+        "aime_2024": 0.833,
+        "humaneval": 0.924,
+        "mmlu": 0.908
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "openai/o1-pro",
+      "name": "o1-pro",
+      "provider": "openai",
+      "model_id": "o1-pro",
+      "context_window": 200000,
+      "input_price_per_million": 75.0,
+      "output_price_per_million": 300.0,
+      "model_type": "reasoning"
+    },
+    {
+      "id": "openai/gpt-4o-mini-tts",
+      "name": "gpt-4o-mini-tts",
+      "provider": "openai",
+      "model_id": "gpt-4o-mini-tts",
+      "context_window": 128000,
+      "input_price_per_million": 0.6,
+      "output_price_per_million": 0.015,
+      "benchmarks": {
+        "arena_elo": 1345
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "openai/o3-2025-04-16",
+      "name": "o3-2025-04-16",
+      "provider": "openai",
+      "model_id": "o3-2025-04-16",
+      "context_window": 200000,
+      "input_price_per_million": 1.0,
+      "output_price_per_million": 4.0,
+      "benchmarks": {
+        "mmlu": 92.9,
+        "humaneval": 87.4,
+        "arena_elo": 1433,
+        "swe_bench_verified": 0.691,
+        "gpqa_diamond": 0.877,
+        "aime_2024": 0.916,
+        "aime_2025": 0.889,
+        "arc_agi_2": 0.326,
+        "scale_multichallenge": 0.5651
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "openai/o4-mini-2025-04-16",
+      "name": "o4-mini-2025-04-16",
+      "provider": "openai",
+      "model_id": "o4-mini-2025-04-16",
+      "context_window": 200000,
+      "input_price_per_million": 0.55,
+      "output_price_per_million": 2.2,
+      "benchmarks": {
+        "mmlu": 0.9,
+        "humaneval": 0.973,
+        "arena_elo": 1391,
+        "swe_bench_verified": 0.681,
+        "gpqa_diamond": 0.811,
+        "aime_2024": 0.934,
+        "aime_2025": 0.927,
+        "scale_multichallenge": 0.4299
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "openai/o3",
+      "name": "o3",
+      "provider": "openai",
+      "model_id": "o3",
+      "context_window": 200000,
+      "input_price_per_million": 1.0,
+      "output_price_per_million": 4.0,
+      "benchmarks": {
+        "mmlu": 92.9,
+        "humaneval": 87.4,
+        "arena_elo": 1433,
+        "swe_bench_verified": 0.691,
+        "gpqa_diamond": 0.877,
+        "aime_2024": 0.916,
+        "aime_2025": 0.889,
+        "arc_agi_2": 0.326,
+        "scale_multichallenge": 0.5651
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "openai/o4-mini",
+      "name": "o4-mini",
+      "provider": "openai",
+      "model_id": "o4-mini",
+      "context_window": 200000,
+      "input_price_per_million": 0.55,
+      "output_price_per_million": 2.2,
+      "benchmarks": {
+        "mmlu": 0.9,
+        "humaneval": 0.973,
+        "arena_elo": 1391,
+        "swe_bench_verified": 0.681,
+        "gpqa_diamond": 0.811,
+        "aime_2024": 0.934,
+        "aime_2025": 0.927,
+        "scale_multichallenge": 0.4299
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "openai/gpt-4.1-2025-04-14",
+      "name": "gpt-4.1-2025-04-14",
+      "provider": "openai",
+      "model_id": "gpt-4.1-2025-04-14",
+      "context_window": 8192,
+      "input_price_per_million": 1.0,
+      "output_price_per_million": 4.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.669,
+        "mmlu": 90.2,
+        "math_level_5": 0.83,
+        "otis_mock_aime_2024_2025": 0.383,
+        "frontiermath": 0.055,
+        "aider_polyglot": 52.4,
+        "simplebench": 0.27,
+        "frontiermath_tier_4": 0.0,
+        "swe_bench_verified": 0.41,
+        "humaneval": 94.5,
+        "arena_elo": 1412.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "openai/gpt-4.1",
+      "name": "gpt-4.1",
+      "provider": "openai",
+      "model_id": "gpt-4.1",
+      "context_window": 1047576,
+      "input_price_per_million": 1.0,
+      "output_price_per_million": 4.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.669,
+        "mmlu": 90.2,
+        "math_level_5": 0.83,
+        "otis_mock_aime_2024_2025": 0.383,
+        "frontiermath": 0.055,
+        "aider_polyglot": 52.4,
+        "simplebench": 0.27,
+        "frontiermath_tier_4": 0.0,
+        "swe_bench_verified": 0.41,
+        "humaneval": 94.5,
+        "arena_elo": 1412.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "openai/gpt-4.1-mini-2025-04-14",
+      "name": "gpt-4.1-mini-2025-04-14",
+      "provider": "openai",
+      "model_id": "gpt-4.1-mini-2025-04-14",
+      "context_window": 8192,
+      "input_price_per_million": 0.2,
+      "output_price_per_million": 0.8,
+      "benchmarks": {
+        "gpqa_diamond": 0.658,
+        "mmlu": 87.5,
+        "math_level_5": 0.873,
+        "otis_mock_aime_2024_2025": 0.447,
+        "frontiermath": 0.045,
+        "aider_polyglot": 32.4,
+        "swe_bench_verified": 0.328,
+        "humaneval": 93.8,
+        "arena_elo": 1381.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "openai/gpt-4.1-mini",
+      "name": "gpt-4.1-mini",
+      "provider": "openai",
+      "model_id": "gpt-4.1-mini",
+      "context_window": 1047576,
+      "input_price_per_million": 0.2,
+      "output_price_per_million": 0.8,
+      "benchmarks": {
+        "gpqa_diamond": 0.658,
+        "mmlu": 87.5,
+        "math_level_5": 0.873,
+        "otis_mock_aime_2024_2025": 0.447,
+        "frontiermath": 0.045,
+        "aider_polyglot": 32.4,
+        "swe_bench_verified": 0.328,
+        "humaneval": 93.8,
+        "arena_elo": 1381.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "openai/gpt-4.1-nano-2025-04-14",
+      "name": "gpt-4.1-nano-2025-04-14",
+      "provider": "openai",
+      "model_id": "gpt-4.1-nano-2025-04-14",
+      "context_window": 8192,
+      "input_price_per_million": 0.05,
+      "output_price_per_million": 0.2,
+      "benchmarks": {
+        "gpqa_diamond": 0.489,
+        "mmlu": 80.1,
+        "math_level_5": 0.7,
+        "otis_mock_aime_2024_2025": 0.289,
+        "frontiermath": 0.01,
+        "aider_polyglot": 8.9,
+        "humaneval": 87.0,
+        "arena_elo": 1321.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "openai/gpt-4.1-nano",
+      "name": "gpt-4.1-nano",
+      "provider": "openai",
+      "model_id": "gpt-4.1-nano",
+      "context_window": 1047576,
+      "input_price_per_million": 0.05,
+      "output_price_per_million": 0.2,
+      "benchmarks": {
+        "gpqa_diamond": 0.489,
+        "mmlu": 80.1,
+        "math_level_5": 0.7,
+        "otis_mock_aime_2024_2025": 0.289,
+        "frontiermath": 0.01,
+        "aider_polyglot": 8.9,
+        "humaneval": 87.0,
+        "arena_elo": 1321.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "openai/gpt-image-1",
+      "name": "gpt-image-1",
+      "provider": "openai",
+      "model_id": "gpt-image-1",
+      "model_type": "image_gen"
+    },
+    {
+      "id": "openai/gpt-4o-realtime-preview-2025-06-03",
+      "name": "gpt-4o-realtime-preview-2025-06-03",
+      "provider": "openai",
+      "model_id": "gpt-4o-realtime-preview-2025-06-03",
+      "context_window": 128000,
+      "input_price_per_million": 5.0,
+      "output_price_per_million": 20.0,
+      "benchmarks": {
+        "arena_elo": 1345
+      },
+      "model_type": "audio_realtime"
+    },
+    {
+      "id": "openai/gpt-4o-audio-preview-2025-06-03",
+      "name": "gpt-4o-audio-preview-2025-06-03",
+      "provider": "openai",
+      "model_id": "gpt-4o-audio-preview-2025-06-03",
+      "context_window": 128000,
+      "input_price_per_million": 2.5,
+      "output_price_per_million": 10.0,
+      "benchmarks": {
+        "arena_elo": 1345
+      },
+      "model_type": "audio"
+    },
+    {
+      "id": "openai/gpt-4o-transcribe-diarize",
+      "name": "gpt-4o-transcribe-diarize",
+      "provider": "openai",
+      "model_id": "gpt-4o-transcribe-diarize",
+      "context_window": 128000,
+      "benchmarks": {
+        "arena_elo": 1345
+      },
+      "model_type": "audio_stt"
+    },
+    {
+      "id": "openai/gpt-5-chat-latest",
+      "name": "gpt-5-chat-latest",
+      "provider": "openai",
+      "model_id": "gpt-5-chat-latest",
+      "context_window": 256000,
+      "input_price_per_million": 0.625,
+      "output_price_per_million": 5.0,
+      "benchmarks": {
+        "arena_elo": 1425.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "openai/gpt-5-2025-08-07",
+      "name": "gpt-5-2025-08-07",
+      "provider": "openai",
+      "model_id": "gpt-5-2025-08-07",
+      "context_window": 256000,
+      "input_price_per_million": 0.625,
+      "output_price_per_million": 5.0,
+      "benchmarks": {
+        "arena_elo": 1425.0,
+        "swe_bench_verified": 0.763,
+        "gpqa_diamond": 0.842,
+        "mmlu": 0.923
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "openai/gpt-5",
+      "name": "gpt-5",
+      "provider": "openai",
+      "model_id": "gpt-5",
+      "context_window": 256000,
+      "input_price_per_million": 0.625,
+      "output_price_per_million": 5.0,
+      "benchmarks": {
+        "arena_elo": 1425.0,
+        "swe_bench_verified": 0.763,
+        "gpqa_diamond": 0.842,
+        "mmlu": 0.923
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "openai/gpt-5-mini-2025-08-07",
+      "name": "gpt-5-mini-2025-08-07",
+      "provider": "openai",
+      "model_id": "gpt-5-mini-2025-08-07",
+      "context_window": 256000,
+      "input_price_per_million": 0.125,
+      "output_price_per_million": 1.0,
+      "benchmarks": {
+        "swe_bench_verified": 0.763,
+        "gpqa_diamond": 0.842,
+        "mmlu": 0.923
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "openai/gpt-5-mini",
+      "name": "gpt-5-mini",
+      "provider": "openai",
+      "model_id": "gpt-5-mini",
+      "context_window": 256000,
+      "input_price_per_million": 0.125,
+      "output_price_per_million": 1.0,
+      "model_type": "chat"
+    },
+    {
+      "id": "openai/gpt-5-nano-2025-08-07",
+      "name": "gpt-5-nano-2025-08-07",
+      "provider": "openai",
+      "model_id": "gpt-5-nano-2025-08-07",
+      "context_window": 256000,
+      "input_price_per_million": 0.025,
+      "output_price_per_million": 0.2,
+      "benchmarks": {
+        "livebench_global": 51.61,
+        "livebench_reasoning": 35.45,
+        "livebench_coding": 67.38,
+        "livebench_agentic_coding": 28.33,
+        "livebench_math": 64.7,
+        "livebench_data_analysis": 65.73,
+        "livebench_language": 47.73,
+        "livebench_ifeval": 51.98,
+        "swe_bench_verified": 0.763,
+        "gpqa_diamond": 0.842,
+        "mmlu": 0.923
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "openai/gpt-5-nano",
+      "name": "gpt-5-nano",
+      "provider": "openai",
+      "model_id": "gpt-5-nano",
+      "context_window": 256000,
+      "input_price_per_million": 0.025,
+      "output_price_per_million": 0.2,
+      "benchmarks": {
+        "livebench_global": 51.61,
+        "livebench_reasoning": 35.45,
+        "livebench_coding": 67.38,
+        "livebench_agentic_coding": 28.33,
+        "livebench_math": 64.7,
+        "livebench_data_analysis": 65.73,
+        "livebench_language": 47.73,
+        "livebench_ifeval": 51.98,
+        "swe_bench_verified": 0.763,
+        "gpqa_diamond": 0.842,
+        "mmlu": 0.923
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "openai/gpt-audio-2025-08-28",
+      "name": "gpt-audio-2025-08-28",
+      "provider": "openai",
+      "model_id": "gpt-audio-2025-08-28",
+      "input_price_per_million": 2.5,
+      "output_price_per_million": 10.0,
+      "model_type": "audio"
+    },
+    {
+      "id": "openai/gpt-realtime",
+      "name": "gpt-realtime",
+      "provider": "openai",
+      "model_id": "gpt-realtime",
+      "input_price_per_million": 4.0,
+      "output_price_per_million": 16.0,
+      "model_type": "audio_realtime"
+    },
+    {
+      "id": "openai/gpt-realtime-2025-08-28",
+      "name": "gpt-realtime-2025-08-28",
+      "provider": "openai",
+      "model_id": "gpt-realtime-2025-08-28",
+      "input_price_per_million": 4.0,
+      "output_price_per_million": 16.0,
+      "model_type": "audio_realtime"
+    },
+    {
+      "id": "openai/gpt-audio",
+      "name": "gpt-audio",
+      "provider": "openai",
+      "model_id": "gpt-audio",
+      "input_price_per_million": 2.5,
+      "output_price_per_million": 10.0,
+      "model_type": "audio"
+    },
+    {
+      "id": "openai/gpt-5-codex",
+      "name": "gpt-5-codex",
+      "provider": "openai",
+      "model_id": "gpt-5-codex",
+      "context_window": 256000,
+      "input_price_per_million": 1.25,
+      "output_price_per_million": 10.0,
+      "benchmarks": {
+        "swe_bench_verified": 0.763,
+        "gpqa_diamond": 0.842,
+        "mmlu": 0.923
+      },
+      "model_type": "codex"
+    },
+    {
+      "id": "openai/gpt-image-1-mini",
+      "name": "gpt-image-1-mini",
+      "provider": "openai",
+      "model_id": "gpt-image-1-mini",
+      "model_type": "image_gen"
+    },
+    {
+      "id": "openai/gpt-5-pro-2025-10-06",
+      "name": "gpt-5-pro-2025-10-06",
+      "provider": "openai",
+      "model_id": "gpt-5-pro-2025-10-06",
+      "context_window": 256000,
+      "input_price_per_million": 7.5,
+      "output_price_per_million": 60.0,
+      "benchmarks": {
+        "simplebench": 0.616,
+        "livebench_global": 72.67,
+        "livebench_reasoning": 81.69,
+        "livebench_coding": 72.11,
+        "livebench_agentic_coding": 51.67,
+        "livebench_math": 86.17,
+        "livebench_data_analysis": 72.42,
+        "livebench_language": 80.69,
+        "livebench_ifeval": 63.96,
+        "swe_bench_verified": 0.763,
+        "gpqa_diamond": 0.842,
+        "mmlu": 0.923
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "openai/gpt-5-pro",
+      "name": "gpt-5-pro",
+      "provider": "openai",
+      "model_id": "gpt-5-pro",
+      "context_window": 256000,
+      "input_price_per_million": 7.5,
+      "output_price_per_million": 60.0,
+      "benchmarks": {
+        "simplebench": 0.616,
+        "livebench_global": 72.67,
+        "livebench_reasoning": 81.69,
+        "livebench_coding": 72.11,
+        "livebench_agentic_coding": 51.67,
+        "livebench_math": 86.17,
+        "livebench_data_analysis": 72.42,
+        "livebench_language": 80.69,
+        "livebench_ifeval": 63.96,
+        "swe_bench_verified": 0.763,
+        "gpqa_diamond": 0.842,
+        "mmlu": 0.923
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "openai/gpt-audio-mini",
+      "name": "gpt-audio-mini",
+      "provider": "openai",
+      "model_id": "gpt-audio-mini",
+      "context_window": 128000,
+      "input_price_per_million": 0.6,
+      "output_price_per_million": 2.4,
+      "model_type": "audio"
+    },
+    {
+      "id": "openai/gpt-audio-mini-2025-10-06",
+      "name": "gpt-audio-mini-2025-10-06",
+      "provider": "openai",
+      "model_id": "gpt-audio-mini-2025-10-06",
+      "context_window": 128000,
+      "input_price_per_million": 0.6,
+      "output_price_per_million": 2.4,
+      "model_type": "audio"
+    },
+    {
+      "id": "openai/gpt-5-search-api",
+      "name": "gpt-5-search-api",
+      "provider": "openai",
+      "model_id": "gpt-5-search-api",
+      "context_window": 256000,
+      "input_price_per_million": 1.25,
+      "output_price_per_million": 10.0,
+      "benchmarks": {
+        "swe_bench_verified": 0.763,
+        "gpqa_diamond": 0.842,
+        "mmlu": 0.923
+      },
+      "model_type": "search"
+    },
+    {
+      "id": "openai/gpt-realtime-mini",
+      "name": "gpt-realtime-mini",
+      "provider": "openai",
+      "model_id": "gpt-realtime-mini",
+      "context_window": 128000,
+      "input_price_per_million": 0.6,
+      "output_price_per_million": 2.4,
+      "model_type": "audio_realtime"
+    },
+    {
+      "id": "openai/gpt-realtime-mini-2025-10-06",
+      "name": "gpt-realtime-mini-2025-10-06",
+      "provider": "openai",
+      "model_id": "gpt-realtime-mini-2025-10-06",
+      "context_window": 128000,
+      "input_price_per_million": 0.6,
+      "output_price_per_million": 2.4,
+      "model_type": "audio_realtime"
+    },
+    {
+      "id": "openai/sora-2",
+      "name": "sora-2",
+      "provider": "openai",
+      "model_id": "sora-2",
+      "model_type": "video_gen"
+    },
+    {
+      "id": "openai/sora-2-pro",
+      "name": "sora-2-pro",
+      "provider": "openai",
+      "model_id": "sora-2-pro",
+      "model_type": "video_gen"
+    },
+    {
+      "id": "openai/gpt-5-search-api-2025-10-14",
+      "name": "gpt-5-search-api-2025-10-14",
+      "provider": "openai",
+      "model_id": "gpt-5-search-api-2025-10-14",
+      "context_window": 256000,
+      "input_price_per_million": 1.25,
+      "output_price_per_million": 10.0,
+      "benchmarks": {
+        "swe_bench_verified": 0.763,
+        "gpqa_diamond": 0.842,
+        "mmlu": 0.923
+      },
+      "model_type": "search"
+    },
+    {
+      "id": "openai/gpt-5.1-chat-latest",
+      "name": "gpt-5.1-chat-latest",
+      "provider": "openai",
+      "model_id": "gpt-5.1-chat-latest",
+      "context_window": 256000,
+      "input_price_per_million": 0.625,
+      "output_price_per_million": 5.0,
+      "benchmarks": {
+        "arena_elo": 1435.0,
+        "swe_bench_verified": 0.763,
+        "gpqa_diamond": 0.842,
+        "mmlu": 0.923
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "openai/gpt-5.1-2025-11-13",
+      "name": "gpt-5.1-2025-11-13",
+      "provider": "openai",
+      "model_id": "gpt-5.1-2025-11-13",
+      "context_window": 256000,
+      "input_price_per_million": 0.625,
+      "output_price_per_million": 5.0,
+      "benchmarks": {
+        "arena_elo": 1435.0,
+        "swe_bench_verified": 0.763,
+        "gpqa_diamond": 0.842,
+        "mmlu": 0.923
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "openai/gpt-5.1",
+      "name": "gpt-5.1",
+      "provider": "openai",
+      "model_id": "gpt-5.1",
+      "context_window": 256000,
+      "input_price_per_million": 0.625,
+      "output_price_per_million": 5.0,
+      "benchmarks": {
+        "arena_elo": 1435.0,
+        "swe_bench_verified": 0.763,
+        "gpqa_diamond": 0.842,
+        "mmlu": 0.923
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "openai/gpt-5.1-codex",
+      "name": "gpt-5.1-codex",
+      "provider": "openai",
+      "model_id": "gpt-5.1-codex",
+      "context_window": 256000,
+      "input_price_per_million": 1.25,
+      "output_price_per_million": 10.0,
+      "benchmarks": {
+        "livebench_global": 69.76,
+        "livebench_reasoning": 81.98,
+        "livebench_coding": 71.78,
+        "livebench_agentic_coding": 53.33,
+        "livebench_math": 79.58,
+        "livebench_data_analysis": 68.8,
+        "livebench_language": 69.48,
+        "livebench_ifeval": 63.39,
+        "swe_bench_verified": 0.763,
+        "gpqa_diamond": 0.842,
+        "mmlu": 0.923
+      },
+      "model_type": "codex"
+    },
+    {
+      "id": "openai/gpt-5.1-codex-mini",
+      "name": "gpt-5.1-codex-mini",
+      "provider": "openai",
+      "model_id": "gpt-5.1-codex-mini",
+      "context_window": 256000,
+      "input_price_per_million": 0.25,
+      "output_price_per_million": 2.0,
+      "benchmarks": {
+        "livebench_global": 63.32,
+        "livebench_reasoning": 64.71,
+        "livebench_coding": 69.93,
+        "livebench_agentic_coding": 40.0,
+        "livebench_math": 76.26,
+        "livebench_data_analysis": 70.29,
+        "livebench_language": 63.01,
+        "livebench_ifeval": 59.02,
+        "swe_bench_verified": 0.763,
+        "gpqa_diamond": 0.842,
+        "mmlu": 0.923
+      },
+      "model_type": "codex"
+    },
+    {
+      "id": "openai/gpt-5.1-codex-max",
+      "name": "gpt-5.1-codex-max",
+      "provider": "openai",
+      "model_id": "gpt-5.1-codex-max",
+      "context_window": 256000,
+      "input_price_per_million": 1.25,
+      "output_price_per_million": 10.0,
+      "benchmarks": {
+        "swe_bench_verified": 0.763,
+        "gpqa_diamond": 0.842,
+        "mmlu": 0.923
+      },
+      "model_type": "codex"
+    },
+    {
+      "id": "openai/gpt-image-1.5",
+      "name": "gpt-image-1.5",
+      "provider": "openai",
+      "model_id": "gpt-image-1.5",
+      "model_type": "image_gen"
+    },
+    {
+      "id": "openai/gpt-5.2-2025-12-11",
+      "name": "gpt-5.2-2025-12-11",
+      "provider": "openai",
+      "model_id": "gpt-5.2-2025-12-11",
+      "context_window": 256000,
+      "input_price_per_million": 0.875,
+      "output_price_per_million": 7.0,
+      "benchmarks": {
+        "arena_elo": 1440.0,
+        "swe_bench_verified": 0.763,
+        "gpqa_diamond": 0.842,
+        "mmlu": 0.923
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "openai/gpt-5.2",
+      "name": "gpt-5.2",
+      "provider": "openai",
+      "model_id": "gpt-5.2",
+      "context_window": 256000,
+      "input_price_per_million": 0.875,
+      "output_price_per_million": 7.0,
+      "benchmarks": {
+        "arena_elo": 1440.0,
+        "swe_bench_verified": 0.763,
+        "gpqa_diamond": 0.842,
+        "mmlu": 0.923
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "openai/gpt-5.2-pro-2025-12-11",
+      "name": "gpt-5.2-pro-2025-12-11",
+      "provider": "openai",
+      "model_id": "gpt-5.2-pro-2025-12-11",
+      "context_window": 256000,
+      "input_price_per_million": 10.5,
+      "output_price_per_million": 84.0,
+      "benchmarks": {
+        "swe_bench_verified": 0.763,
+        "gpqa_diamond": 0.842,
+        "mmlu": 0.923
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "openai/gpt-5.2-pro",
+      "name": "gpt-5.2-pro",
+      "provider": "openai",
+      "model_id": "gpt-5.2-pro",
+      "context_window": 256000,
+      "input_price_per_million": 10.5,
+      "output_price_per_million": 84.0,
+      "benchmarks": {
+        "swe_bench_verified": 0.763,
+        "gpqa_diamond": 0.842,
+        "mmlu": 0.923
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "openai/gpt-5.2-chat-latest",
+      "name": "gpt-5.2-chat-latest",
+      "provider": "openai",
+      "model_id": "gpt-5.2-chat-latest",
+      "context_window": 256000,
+      "input_price_per_million": 0.875,
+      "output_price_per_million": 7.0,
+      "benchmarks": {
+        "arena_elo": 1440.0,
+        "swe_bench_verified": 0.763,
+        "gpqa_diamond": 0.842,
+        "mmlu": 0.923
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "openai/gpt-4o-mini-transcribe-2025-12-15",
+      "name": "gpt-4o-mini-transcribe-2025-12-15",
+      "provider": "openai",
+      "model_id": "gpt-4o-mini-transcribe-2025-12-15",
+      "context_window": 128000,
+      "benchmarks": {
+        "arena_elo": 1345
+      },
+      "model_type": "audio_stt"
+    },
+    {
+      "id": "openai/gpt-4o-mini-transcribe-2025-03-20",
+      "name": "gpt-4o-mini-transcribe-2025-03-20",
+      "provider": "openai",
+      "model_id": "gpt-4o-mini-transcribe-2025-03-20",
+      "context_window": 128000,
+      "benchmarks": {
+        "arena_elo": 1345
+      },
+      "model_type": "audio_stt"
+    },
+    {
+      "id": "openai/gpt-3.5-turbo-16k",
+      "name": "gpt-3.5-turbo-16k",
+      "provider": "openai",
+      "model_id": "gpt-3.5-turbo-16k",
+      "context_window": 16385,
+      "model_type": "chat"
+    },
+    {
+      "id": "openai/tts-1",
+      "name": "tts-1",
+      "provider": "openai",
+      "model_id": "tts-1",
+      "model_type": "audio_tts"
+    },
+    {
+      "id": "openai/whisper-1",
+      "name": "whisper-1",
+      "provider": "openai",
+      "model_id": "whisper-1",
+      "model_type": "audio_stt"
+    },
+    {
+      "id": "openai/text-embedding-ada-002",
+      "name": "text-embedding-ada-002",
+      "provider": "openai",
+      "model_id": "text-embedding-ada-002",
+      "context_window": 8191,
+      "input_price_per_million": 0.1,
+      "model_type": "embedding"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "provider": "ai21",
+  "model_count": 2,
+  "models": [
+    {
+      "id": "jamba-1.5-mini",
+      "name": null,
+      "provider": "ai21",
+      "model_id": "jamba-1.5-mini",
+      "context_window": 262144,
+      "input_price_per_million": "0.2",
+      "output_price_per_million": "0.4",
+      "benchmarks": {
+        "arena_elo": 1239.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "jamba-1.5-large",
+      "name": null,
+      "provider": "ai21",
+      "model_id": "jamba-1.5-large",
+      "context_window": 262144,
+      "input_price_per_million": "2",
+      "output_price_per_million": "8",
+      "benchmarks": {
+        "arena_elo": 1289.0
+      },
+      "model_type": "chat"
+    }
+  ]
+}

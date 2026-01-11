@@ -1,0 +1,1419 @@
+{
+  "provider": "ollama",
+  "model_count": 200,
+  "models": [
+    {
+      "id": "ollama/nemotron-3-nano",
+      "name": "nemotron-3-nano",
+      "provider": "ollama",
+      "model_id": "nemotron-3-nano"
+    },
+    {
+      "id": "ollama/functiongemma",
+      "name": "functiongemma",
+      "provider": "ollama",
+      "model_id": "functiongemma"
+    },
+    {
+      "id": "ollama/olmo-3",
+      "name": "olmo-3",
+      "provider": "ollama",
+      "model_id": "olmo-3"
+    },
+    {
+      "id": "ollama/gemini-3-flash-preview",
+      "name": "gemini-3-flash-preview",
+      "provider": "ollama",
+      "model_id": "gemini-3-flash-preview",
+      "benchmarks": {
+        "gpqa_diamond": 0.832,
+        "otis_mock_aime_2024_2025": 0.928,
+        "frontiermath": 0.356,
+        "simplebench": 0.611,
+        "frontiermath_tier_4": 0.042,
+        "simpleqa_verified": 0.674,
+        "chess_puzzles": 0.38,
+        "arena_elo": 1471.0
+      }
+    },
+    {
+      "id": "ollama/devstral-small-2",
+      "name": "devstral-small-2",
+      "provider": "ollama",
+      "model_id": "devstral-small-2"
+    },
+    {
+      "id": "ollama/devstral-2",
+      "name": "devstral-2",
+      "provider": "ollama",
+      "model_id": "devstral-2",
+      "benchmarks": {
+        "livebench_global": 43.79,
+        "livebench_reasoning": 27.74,
+        "livebench_coding": 66.79,
+        "livebench_agentic_coding": 43.33,
+        "livebench_math": 52.52,
+        "livebench_data_analysis": 56.95,
+        "livebench_language": 45.67,
+        "livebench_ifeval": 13.5
+      }
+    },
+    {
+      "id": "ollama/ministral-3",
+      "name": "ministral-3",
+      "provider": "ollama",
+      "model_id": "ministral-3"
+    },
+    {
+      "id": "ollama/qwen3-vl",
+      "name": "qwen3-vl",
+      "provider": "ollama",
+      "model_id": "qwen3-vl"
+    },
+    {
+      "id": "ollama/gpt-oss",
+      "name": "gpt-oss",
+      "provider": "ollama",
+      "model_id": "gpt-oss"
+    },
+    {
+      "id": "ollama/deepseek-r1",
+      "name": "deepseek-r1",
+      "provider": "ollama",
+      "model_id": "deepseek-r1",
+      "benchmarks": {
+        "gpqa_diamond": 0.692,
+        "math_level_5": 0.931,
+        "otis_mock_aime_2024_2025": 0.533,
+        "aider_polyglot": 56.9,
+        "simplebench": 0.309,
+        "simpleqa_verified": 0.274,
+        "swe_bench_verified": 0.333,
+        "arena_elo": 1396.0
+      }
+    },
+    {
+      "id": "ollama/qwen3-coder",
+      "name": "qwen3-coder",
+      "provider": "ollama",
+      "model_id": "qwen3-coder"
+    },
+    {
+      "id": "ollama/gemma3",
+      "name": "gemma3",
+      "provider": "ollama",
+      "model_id": "gemma3"
+    },
+    {
+      "id": "ollama/llama3.1",
+      "name": "llama3.1",
+      "provider": "ollama",
+      "model_id": "llama3.1",
+      "context_window": 131072
+    },
+    {
+      "id": "ollama/llama3.2",
+      "name": "llama3.2",
+      "provider": "ollama",
+      "model_id": "llama3.2",
+      "context_window": 131072
+    },
+    {
+      "id": "ollama/nomic-embed-text",
+      "name": "nomic-embed-text",
+      "provider": "ollama",
+      "model_id": "nomic-embed-text"
+    },
+    {
+      "id": "ollama/mistral",
+      "name": "mistral",
+      "provider": "ollama",
+      "model_id": "mistral",
+      "context_window": 32768
+    },
+    {
+      "id": "ollama/qwen2.5",
+      "name": "qwen2.5",
+      "provider": "ollama",
+      "model_id": "qwen2.5",
+      "context_window": 131072
+    },
+    {
+      "id": "ollama/qwen3",
+      "name": "qwen3",
+      "provider": "ollama",
+      "model_id": "qwen3"
+    },
+    {
+      "id": "ollama/phi3",
+      "name": "phi3",
+      "provider": "ollama",
+      "model_id": "phi3",
+      "context_window": 131072
+    },
+    {
+      "id": "ollama/llama3",
+      "name": "llama3",
+      "provider": "ollama",
+      "model_id": "llama3",
+      "context_window": 8192
+    },
+    {
+      "id": "ollama/gemma2",
+      "name": "gemma2",
+      "provider": "ollama",
+      "model_id": "gemma2",
+      "context_window": 8192
+    },
+    {
+      "id": "ollama/llava",
+      "name": "llava",
+      "provider": "ollama",
+      "model_id": "llava"
+    },
+    {
+      "id": "ollama/qwen2.5-coder",
+      "name": "qwen2.5-coder",
+      "provider": "ollama",
+      "model_id": "qwen2.5-coder",
+      "context_window": 131072
+    },
+    {
+      "id": "ollama/phi4",
+      "name": "phi4",
+      "provider": "ollama",
+      "model_id": "phi4",
+      "benchmarks": {
+        "gpqa_diamond": 0.561,
+        "mmlu": 0.848,
+        "math_level_5": 0.649,
+        "otis_mock_aime_2024_2025": 0.138
+      }
+    },
+    {
+      "id": "ollama/mxbai-embed-large",
+      "name": "mxbai-embed-large",
+      "provider": "ollama",
+      "model_id": "mxbai-embed-large"
+    },
+    {
+      "id": "ollama/gemma",
+      "name": "gemma",
+      "provider": "ollama",
+      "model_id": "gemma"
+    },
+    {
+      "id": "ollama/qwen",
+      "name": "qwen",
+      "provider": "ollama",
+      "model_id": "qwen"
+    },
+    {
+      "id": "ollama/llama2",
+      "name": "llama2",
+      "provider": "ollama",
+      "model_id": "llama2",
+      "context_window": 4096
+    },
+    {
+      "id": "ollama/qwen2",
+      "name": "qwen2",
+      "provider": "ollama",
+      "model_id": "qwen2",
+      "context_window": 131072
+    },
+    {
+      "id": "ollama/minicpm-v",
+      "name": "minicpm-v",
+      "provider": "ollama",
+      "model_id": "minicpm-v"
+    },
+    {
+      "id": "ollama/codellama",
+      "name": "codellama",
+      "provider": "ollama",
+      "model_id": "codellama",
+      "context_window": 16384
+    },
+    {
+      "id": "ollama/llama3.2-vision",
+      "name": "llama3.2-vision",
+      "provider": "ollama",
+      "model_id": "llama3.2-vision",
+      "context_window": 131072
+    },
+    {
+      "id": "ollama/dolphin3",
+      "name": "dolphin3",
+      "provider": "ollama",
+      "model_id": "dolphin3"
+    },
+    {
+      "id": "ollama/olmo2",
+      "name": "olmo2",
+      "provider": "ollama",
+      "model_id": "olmo2"
+    },
+    {
+      "id": "ollama/tinyllama",
+      "name": "tinyllama",
+      "provider": "ollama",
+      "model_id": "tinyllama"
+    },
+    {
+      "id": "ollama/mistral-nemo",
+      "name": "mistral-nemo",
+      "provider": "ollama",
+      "model_id": "mistral-nemo",
+      "context_window": 32768
+    },
+    {
+      "id": "ollama/deepseek-v3",
+      "name": "deepseek-v3",
+      "provider": "ollama",
+      "model_id": "deepseek-v3",
+      "benchmarks": {
+        "gpqa_diamond": 0.565,
+        "mmlu": 0.871,
+        "math_level_5": 0.649,
+        "otis_mock_aime_2024_2025": 0.158,
+        "frontiermath": 0.017,
+        "aider_polyglot": 17.8,
+        "simplebench": 0.189,
+        "trivia_qa": 0.829,
+        "swe_bench_verified": 0.521,
+        "arena_elo": 1306.0
+      }
+    },
+    {
+      "id": "ollama/bge-m3",
+      "name": "bge-m3",
+      "provider": "ollama",
+      "model_id": "bge-m3"
+    },
+    {
+      "id": "ollama/llama3.3",
+      "name": "llama3.3",
+      "provider": "ollama",
+      "model_id": "llama3.3",
+      "context_window": 131072
+    },
+    {
+      "id": "ollama/deepseek-coder",
+      "name": "deepseek-coder",
+      "provider": "ollama",
+      "model_id": "deepseek-coder",
+      "context_window": 16384
+    },
+    {
+      "id": "ollama/smollm2",
+      "name": "smollm2",
+      "provider": "ollama",
+      "model_id": "smollm2"
+    },
+    {
+      "id": "ollama/mistral-small",
+      "name": "mistral-small",
+      "provider": "ollama",
+      "model_id": "mistral-small",
+      "context_window": 32768,
+      "benchmarks": {
+        "gpqa_diamond": 0.453,
+        "mmlu": 0.687,
+        "math_level_5": 0.448,
+        "otis_mock_aime_2024_2025": 0.058,
+        "arena_elo": 1355.0
+      }
+    },
+    {
+      "id": "ollama/all-minilm",
+      "name": "all-minilm",
+      "provider": "ollama",
+      "model_id": "all-minilm"
+    },
+    {
+      "id": "ollama/llava-llama3",
+      "name": "llava-llama3",
+      "provider": "ollama",
+      "model_id": "llava-llama3"
+    },
+    {
+      "id": "ollama/qwq",
+      "name": "qwq",
+      "provider": "ollama",
+      "model_id": "qwq"
+    },
+    {
+      "id": "ollama/codegemma",
+      "name": "codegemma",
+      "provider": "ollama",
+      "model_id": "codegemma"
+    },
+    {
+      "id": "ollama/falcon3",
+      "name": "falcon3",
+      "provider": "ollama",
+      "model_id": "falcon3"
+    },
+    {
+      "id": "ollama/granite3.1-moe",
+      "name": "granite3.1-moe",
+      "provider": "ollama",
+      "model_id": "granite3.1-moe"
+    },
+    {
+      "id": "ollama/starcoder2",
+      "name": "starcoder2",
+      "provider": "ollama",
+      "model_id": "starcoder2"
+    },
+    {
+      "id": "ollama/mixtral",
+      "name": "mixtral",
+      "provider": "ollama",
+      "model_id": "mixtral",
+      "context_window": 32768
+    },
+    {
+      "id": "ollama/snowflake-arctic-embed",
+      "name": "snowflake-arctic-embed",
+      "provider": "ollama",
+      "model_id": "snowflake-arctic-embed"
+    },
+    {
+      "id": "ollama/orca-mini",
+      "name": "orca-mini",
+      "provider": "ollama",
+      "model_id": "orca-mini"
+    },
+    {
+      "id": "ollama/llama2-uncensored",
+      "name": "llama2-uncensored",
+      "provider": "ollama",
+      "model_id": "llama2-uncensored",
+      "context_window": 4096
+    },
+    {
+      "id": "ollama/deepseek-coder-v2",
+      "name": "deepseek-coder-v2",
+      "provider": "ollama",
+      "model_id": "deepseek-coder-v2",
+      "context_window": 16384,
+      "benchmarks": {
+        "gsm8k": 0.945,
+        "arena_elo": 1264.0
+      }
+    },
+    {
+      "id": "ollama/qwen2.5vl",
+      "name": "qwen2.5vl",
+      "provider": "ollama",
+      "model_id": "qwen2.5vl",
+      "context_window": 131072
+    },
+    {
+      "id": "ollama/cogito",
+      "name": "cogito",
+      "provider": "ollama",
+      "model_id": "cogito"
+    },
+    {
+      "id": "ollama/mistral-small3.2",
+      "name": "mistral-small3.2",
+      "provider": "ollama",
+      "model_id": "mistral-small3.2",
+      "context_window": 32768
+    },
+    {
+      "id": "ollama/gemma3n",
+      "name": "gemma3n",
+      "provider": "ollama",
+      "model_id": "gemma3n"
+    },
+    {
+      "id": "ollama/dolphin-phi",
+      "name": "dolphin-phi",
+      "provider": "ollama",
+      "model_id": "dolphin-phi"
+    },
+    {
+      "id": "ollama/deepscaler",
+      "name": "deepscaler",
+      "provider": "ollama",
+      "model_id": "deepscaler"
+    },
+    {
+      "id": "ollama/llama4",
+      "name": "llama4",
+      "provider": "ollama",
+      "model_id": "llama4"
+    },
+    {
+      "id": "ollama/phi4-reasoning",
+      "name": "phi4-reasoning",
+      "provider": "ollama",
+      "model_id": "phi4-reasoning"
+    },
+    {
+      "id": "ollama/magistral",
+      "name": "magistral",
+      "provider": "ollama",
+      "model_id": "magistral"
+    },
+    {
+      "id": "ollama/phi",
+      "name": "phi",
+      "provider": "ollama",
+      "model_id": "phi"
+    },
+    {
+      "id": "ollama/dolphin-mixtral",
+      "name": "dolphin-mixtral",
+      "provider": "ollama",
+      "model_id": "dolphin-mixtral"
+    },
+    {
+      "id": "ollama/granite3.3",
+      "name": "granite3.3",
+      "provider": "ollama",
+      "model_id": "granite3.3"
+    },
+    {
+      "id": "ollama/dolphin-llama3",
+      "name": "dolphin-llama3",
+      "provider": "ollama",
+      "model_id": "dolphin-llama3"
+    },
+    {
+      "id": "ollama/phi4-mini",
+      "name": "phi4-mini",
+      "provider": "ollama",
+      "model_id": "phi4-mini"
+    },
+    {
+      "id": "ollama/openthinker",
+      "name": "openthinker",
+      "provider": "ollama",
+      "model_id": "openthinker"
+    },
+    {
+      "id": "ollama/smollm",
+      "name": "smollm",
+      "provider": "ollama",
+      "model_id": "smollm"
+    },
+    {
+      "id": "ollama/codestral",
+      "name": "codestral",
+      "provider": "ollama",
+      "model_id": "codestral",
+      "benchmarks": {
+        "aider_polyglot": 11.1
+      }
+    },
+    {
+      "id": "ollama/granite3.2-vision",
+      "name": "granite3.2-vision",
+      "provider": "ollama",
+      "model_id": "granite3.2-vision"
+    },
+    {
+      "id": "ollama/devstral",
+      "name": "devstral",
+      "provider": "ollama",
+      "model_id": "devstral"
+    },
+    {
+      "id": "ollama/dolphin-mistral",
+      "name": "dolphin-mistral",
+      "provider": "ollama",
+      "model_id": "dolphin-mistral"
+    },
+    {
+      "id": "ollama/wizardlm2",
+      "name": "wizardlm2",
+      "provider": "ollama",
+      "model_id": "wizardlm2",
+      "benchmarks": {
+        "gpqa_diamond": 0.434,
+        "math_level_5": 0.257
+      }
+    },
+    {
+      "id": "ollama/deepcoder",
+      "name": "deepcoder",
+      "provider": "ollama",
+      "model_id": "deepcoder"
+    },
+    {
+      "id": "ollama/moondream",
+      "name": "moondream",
+      "provider": "ollama",
+      "model_id": "moondream"
+    },
+    {
+      "id": "ollama/command-r",
+      "name": "command-r",
+      "provider": "ollama",
+      "model_id": "command-r",
+      "context_window": 131072
+    },
+    {
+      "id": "ollama/mistral-small3.1",
+      "name": "mistral-small3.1",
+      "provider": "ollama",
+      "model_id": "mistral-small3.1",
+      "context_window": 32768
+    },
+    {
+      "id": "ollama/granite-code",
+      "name": "granite-code",
+      "provider": "ollama",
+      "model_id": "granite-code"
+    },
+    {
+      "id": "ollama/granite4",
+      "name": "granite4",
+      "provider": "ollama",
+      "model_id": "granite4"
+    },
+    {
+      "id": "ollama/hermes3",
+      "name": "hermes3",
+      "provider": "ollama",
+      "model_id": "hermes3"
+    },
+    {
+      "id": "ollama/phi3.5",
+      "name": "phi3.5",
+      "provider": "ollama",
+      "model_id": "phi3.5",
+      "context_window": 131072
+    },
+    {
+      "id": "ollama/bakllava",
+      "name": "bakllava",
+      "provider": "ollama",
+      "model_id": "bakllava"
+    },
+    {
+      "id": "ollama/yi",
+      "name": "yi",
+      "provider": "ollama",
+      "model_id": "yi"
+    },
+    {
+      "id": "ollama/zephyr",
+      "name": "zephyr",
+      "provider": "ollama",
+      "model_id": "zephyr"
+    },
+    {
+      "id": "ollama/exaone-deep",
+      "name": "exaone-deep",
+      "provider": "ollama",
+      "model_id": "exaone-deep"
+    },
+    {
+      "id": "ollama/mistral-large",
+      "name": "mistral-large",
+      "provider": "ollama",
+      "model_id": "mistral-large",
+      "context_window": 32768,
+      "benchmarks": {
+        "gpqa_diamond": 0.49,
+        "mmlu": 0.8,
+        "math_level_5": 0.245,
+        "otis_mock_aime_2024_2025": 0.085,
+        "frontiermath": 0.003,
+        "simplebench": 0.225,
+        "arena_elo": 1242.0
+      }
+    },
+    {
+      "id": "ollama/embeddinggemma",
+      "name": "embeddinggemma",
+      "provider": "ollama",
+      "model_id": "embeddinggemma"
+    },
+    {
+      "id": "ollama/wizard-vicuna-uncensored",
+      "name": "wizard-vicuna-uncensored",
+      "provider": "ollama",
+      "model_id": "wizard-vicuna-uncensored"
+    },
+    {
+      "id": "ollama/opencoder",
+      "name": "opencoder",
+      "provider": "ollama",
+      "model_id": "opencoder"
+    },
+    {
+      "id": "ollama/starcoder",
+      "name": "starcoder",
+      "provider": "ollama",
+      "model_id": "starcoder"
+    },
+    {
+      "id": "ollama/nous-hermes",
+      "name": "nous-hermes",
+      "provider": "ollama",
+      "model_id": "nous-hermes"
+    },
+    {
+      "id": "ollama/deepseek-llm",
+      "name": "deepseek-llm",
+      "provider": "ollama",
+      "model_id": "deepseek-llm"
+    },
+    {
+      "id": "ollama/falcon",
+      "name": "falcon",
+      "provider": "ollama",
+      "model_id": "falcon"
+    },
+    {
+      "id": "ollama/openchat",
+      "name": "openchat",
+      "provider": "ollama",
+      "model_id": "openchat"
+    },
+    {
+      "id": "ollama/vicuna",
+      "name": "vicuna",
+      "provider": "ollama",
+      "model_id": "vicuna"
+    },
+    {
+      "id": "ollama/deepseek-v2",
+      "name": "deepseek-v2",
+      "provider": "ollama",
+      "model_id": "deepseek-v2",
+      "benchmarks": {
+        "gpqa_diamond": 0.565,
+        "mmlu": 0.871,
+        "math_level_5": 0.649,
+        "otis_mock_aime_2024_2025": 0.158,
+        "frontiermath": 0.017,
+        "aider_polyglot": 17.8,
+        "simplebench": 0.189,
+        "trivia_qa": 0.829,
+        "swe_bench_verified": 0.521,
+        "arena_elo": 1306.0
+      }
+    },
+    {
+      "id": "ollama/paraphrase-multilingual",
+      "name": "paraphrase-multilingual",
+      "provider": "ollama",
+      "model_id": "paraphrase-multilingual"
+    },
+    {
+      "id": "ollama/openhermes",
+      "name": "openhermes",
+      "provider": "ollama",
+      "model_id": "openhermes"
+    },
+    {
+      "id": "ollama/codeqwen",
+      "name": "codeqwen",
+      "provider": "ollama",
+      "model_id": "codeqwen"
+    },
+    {
+      "id": "ollama/qwen2-math",
+      "name": "qwen2-math",
+      "provider": "ollama",
+      "model_id": "qwen2-math",
+      "context_window": 131072
+    },
+    {
+      "id": "ollama/qwen3-embedding",
+      "name": "qwen3-embedding",
+      "provider": "ollama",
+      "model_id": "qwen3-embedding"
+    },
+    {
+      "id": "ollama/glm4",
+      "name": "glm4",
+      "provider": "ollama",
+      "model_id": "glm4",
+      "benchmarks": {
+        "arena_elo": 1273.0
+      }
+    },
+    {
+      "id": "ollama/aya",
+      "name": "aya",
+      "provider": "ollama",
+      "model_id": "aya"
+    },
+    {
+      "id": "ollama/llama2-chinese",
+      "name": "llama2-chinese",
+      "provider": "ollama",
+      "model_id": "llama2-chinese",
+      "context_window": 4096
+    },
+    {
+      "id": "ollama/command-r-plus",
+      "name": "command-r-plus",
+      "provider": "ollama",
+      "model_id": "command-r-plus",
+      "context_window": 131072
+    },
+    {
+      "id": "ollama/deepseek-v3.1",
+      "name": "deepseek-v3.1",
+      "provider": "ollama",
+      "model_id": "deepseek-v3.1",
+      "benchmarks": {
+        "gpqa_diamond": 0.565,
+        "mmlu": 0.871,
+        "math_level_5": 0.649,
+        "otis_mock_aime_2024_2025": 0.158,
+        "frontiermath": 0.017,
+        "aider_polyglot": 17.8,
+        "simplebench": 0.189,
+        "trivia_qa": 0.829,
+        "swe_bench_verified": 0.521,
+        "arena_elo": 1306.0
+      }
+    },
+    {
+      "id": "ollama/codegeex4",
+      "name": "codegeex4",
+      "provider": "ollama",
+      "model_id": "codegeex4"
+    },
+    {
+      "id": "ollama/mistral-openorca",
+      "name": "mistral-openorca",
+      "provider": "ollama",
+      "model_id": "mistral-openorca",
+      "context_window": 32768
+    },
+    {
+      "id": "ollama/stable-code",
+      "name": "stable-code",
+      "provider": "ollama",
+      "model_id": "stable-code"
+    },
+    {
+      "id": "ollama/qwen3-next",
+      "name": "qwen3-next",
+      "provider": "ollama",
+      "model_id": "qwen3-next"
+    },
+    {
+      "id": "ollama/neural-chat",
+      "name": "neural-chat",
+      "provider": "ollama",
+      "model_id": "neural-chat"
+    },
+    {
+      "id": "ollama/nous-hermes2",
+      "name": "nous-hermes2",
+      "provider": "ollama",
+      "model_id": "nous-hermes2"
+    },
+    {
+      "id": "ollama/tinydolphin",
+      "name": "tinydolphin",
+      "provider": "ollama",
+      "model_id": "tinydolphin"
+    },
+    {
+      "id": "ollama/wizardcoder",
+      "name": "wizardcoder",
+      "provider": "ollama",
+      "model_id": "wizardcoder"
+    },
+    {
+      "id": "ollama/sqlcoder",
+      "name": "sqlcoder",
+      "provider": "ollama",
+      "model_id": "sqlcoder"
+    },
+    {
+      "id": "ollama/stablelm2",
+      "name": "stablelm2",
+      "provider": "ollama",
+      "model_id": "stablelm2"
+    },
+    {
+      "id": "ollama/snowflake-arctic-embed2",
+      "name": "snowflake-arctic-embed2",
+      "provider": "ollama",
+      "model_id": "snowflake-arctic-embed2"
+    },
+    {
+      "id": "ollama/yi-coder",
+      "name": "yi-coder",
+      "provider": "ollama",
+      "model_id": "yi-coder"
+    },
+    {
+      "id": "ollama/llama3-chatqa",
+      "name": "llama3-chatqa",
+      "provider": "ollama",
+      "model_id": "llama3-chatqa",
+      "context_window": 8192
+    },
+    {
+      "id": "ollama/granite3-dense",
+      "name": "granite3-dense",
+      "provider": "ollama",
+      "model_id": "granite3-dense"
+    },
+    {
+      "id": "ollama/granite3.1-dense",
+      "name": "granite3.1-dense",
+      "provider": "ollama",
+      "model_id": "granite3.1-dense"
+    },
+    {
+      "id": "ollama/granite3.2",
+      "name": "granite3.2",
+      "provider": "ollama",
+      "model_id": "granite3.2"
+    },
+    {
+      "id": "ollama/wizard-math",
+      "name": "wizard-math",
+      "provider": "ollama",
+      "model_id": "wizard-math"
+    },
+    {
+      "id": "ollama/dolphincoder",
+      "name": "dolphincoder",
+      "provider": "ollama",
+      "model_id": "dolphincoder"
+    },
+    {
+      "id": "ollama/llama3-gradient",
+      "name": "llama3-gradient",
+      "provider": "ollama",
+      "model_id": "llama3-gradient",
+      "context_window": 8192
+    },
+    {
+      "id": "ollama/samantha-mistral",
+      "name": "samantha-mistral",
+      "provider": "ollama",
+      "model_id": "samantha-mistral"
+    },
+    {
+      "id": "ollama/internlm2",
+      "name": "internlm2",
+      "provider": "ollama",
+      "model_id": "internlm2"
+    },
+    {
+      "id": "ollama/llama3-groq-tool-use",
+      "name": "llama3-groq-tool-use",
+      "provider": "ollama",
+      "model_id": "llama3-groq-tool-use",
+      "context_window": 8192
+    },
+    {
+      "id": "ollama/starling-lm",
+      "name": "starling-lm",
+      "provider": "ollama",
+      "model_id": "starling-lm"
+    },
+    {
+      "id": "ollama/phind-codellama",
+      "name": "phind-codellama",
+      "provider": "ollama",
+      "model_id": "phind-codellama"
+    },
+    {
+      "id": "ollama/solar",
+      "name": "solar",
+      "provider": "ollama",
+      "model_id": "solar"
+    },
+    {
+      "id": "ollama/xwinlm",
+      "name": "xwinlm",
+      "provider": "ollama",
+      "model_id": "xwinlm"
+    },
+    {
+      "id": "ollama/llama-guard3",
+      "name": "llama-guard3",
+      "provider": "ollama",
+      "model_id": "llama-guard3"
+    },
+    {
+      "id": "ollama/r1-1776",
+      "name": "r1-1776",
+      "provider": "ollama",
+      "model_id": "r1-1776"
+    },
+    {
+      "id": "ollama/reflection",
+      "name": "reflection",
+      "provider": "ollama",
+      "model_id": "reflection"
+    },
+    {
+      "id": "ollama/aya-expanse",
+      "name": "aya-expanse",
+      "provider": "ollama",
+      "model_id": "aya-expanse"
+    },
+    {
+      "id": "ollama/yarn-llama2",
+      "name": "yarn-llama2",
+      "provider": "ollama",
+      "model_id": "yarn-llama2"
+    },
+    {
+      "id": "ollama/exaone3.5",
+      "name": "exaone3.5",
+      "provider": "ollama",
+      "model_id": "exaone3.5"
+    },
+    {
+      "id": "ollama/granite3-moe",
+      "name": "granite3-moe",
+      "provider": "ollama",
+      "model_id": "granite3-moe"
+    },
+    {
+      "id": "ollama/bge-large",
+      "name": "bge-large",
+      "provider": "ollama",
+      "model_id": "bge-large"
+    },
+    {
+      "id": "ollama/nemotron-mini",
+      "name": "nemotron-mini",
+      "provider": "ollama",
+      "model_id": "nemotron-mini"
+    },
+    {
+      "id": "ollama/llava-phi3",
+      "name": "llava-phi3",
+      "provider": "ollama",
+      "model_id": "llava-phi3"
+    },
+    {
+      "id": "ollama/meditron",
+      "name": "meditron",
+      "provider": "ollama",
+      "model_id": "meditron"
+    },
+    {
+      "id": "ollama/orca2",
+      "name": "orca2",
+      "provider": "ollama",
+      "model_id": "orca2"
+    },
+    {
+      "id": "ollama/athene-v2",
+      "name": "athene-v2",
+      "provider": "ollama",
+      "model_id": "athene-v2",
+      "benchmarks": {
+        "arena_elo": 1313.0
+      }
+    },
+    {
+      "id": "ollama/granite-embedding",
+      "name": "granite-embedding",
+      "provider": "ollama",
+      "model_id": "granite-embedding"
+    },
+    {
+      "id": "ollama/nemotron",
+      "name": "nemotron",
+      "provider": "ollama",
+      "model_id": "nemotron"
+    },
+    {
+      "id": "ollama/stable-beluga",
+      "name": "stable-beluga",
+      "provider": "ollama",
+      "model_id": "stable-beluga"
+    },
+    {
+      "id": "ollama/wizardlm-uncensored",
+      "name": "wizardlm-uncensored",
+      "provider": "ollama",
+      "model_id": "wizardlm-uncensored"
+    },
+    {
+      "id": "ollama/reader-lm",
+      "name": "reader-lm",
+      "provider": "ollama",
+      "model_id": "reader-lm"
+    },
+    {
+      "id": "ollama/tulu3",
+      "name": "tulu3",
+      "provider": "ollama",
+      "model_id": "tulu3"
+    },
+    {
+      "id": "ollama/dbrx",
+      "name": "dbrx",
+      "provider": "ollama",
+      "model_id": "dbrx",
+      "benchmarks": {
+        "gpqa_diamond": 0.329,
+        "math_level_5": 0.117,
+        "arena_elo": 1196.0
+      }
+    },
+    {
+      "id": "ollama/shieldgemma",
+      "name": "shieldgemma",
+      "provider": "ollama",
+      "model_id": "shieldgemma"
+    },
+    {
+      "id": "ollama/llama-pro",
+      "name": "llama-pro",
+      "provider": "ollama",
+      "model_id": "llama-pro"
+    },
+    {
+      "id": "ollama/yarn-mistral",
+      "name": "yarn-mistral",
+      "provider": "ollama",
+      "model_id": "yarn-mistral"
+    },
+    {
+      "id": "ollama/wizardlm",
+      "name": "wizardlm",
+      "provider": "ollama",
+      "model_id": "wizardlm"
+    },
+    {
+      "id": "ollama/nexusraven",
+      "name": "nexusraven",
+      "provider": "ollama",
+      "model_id": "nexusraven"
+    },
+    {
+      "id": "ollama/medllama2",
+      "name": "medllama2",
+      "provider": "ollama",
+      "model_id": "medllama2"
+    },
+    {
+      "id": "ollama/nous-hermes2-mixtral",
+      "name": "nous-hermes2-mixtral",
+      "provider": "ollama",
+      "model_id": "nous-hermes2-mixtral"
+    },
+    {
+      "id": "ollama/smallthinker",
+      "name": "smallthinker",
+      "provider": "ollama",
+      "model_id": "smallthinker"
+    },
+    {
+      "id": "ollama/mathstral",
+      "name": "mathstral",
+      "provider": "ollama",
+      "model_id": "mathstral"
+    },
+    {
+      "id": "ollama/codeup",
+      "name": "codeup",
+      "provider": "ollama",
+      "model_id": "codeup"
+    },
+    {
+      "id": "ollama/everythinglm",
+      "name": "everythinglm",
+      "provider": "ollama",
+      "model_id": "everythinglm"
+    },
+    {
+      "id": "ollama/phi4-mini-reasoning",
+      "name": "phi4-mini-reasoning",
+      "provider": "ollama",
+      "model_id": "phi4-mini-reasoning"
+    },
+    {
+      "id": "ollama/command-r7b",
+      "name": "command-r7b",
+      "provider": "ollama",
+      "model_id": "command-r7b",
+      "context_window": 131072
+    },
+    {
+      "id": "ollama/stablelm-zephyr",
+      "name": "stablelm-zephyr",
+      "provider": "ollama",
+      "model_id": "stablelm-zephyr"
+    },
+    {
+      "id": "ollama/solar-pro",
+      "name": "solar-pro",
+      "provider": "ollama",
+      "model_id": "solar-pro"
+    },
+    {
+      "id": "ollama/falcon2",
+      "name": "falcon2",
+      "provider": "ollama",
+      "model_id": "falcon2"
+    },
+    {
+      "id": "ollama/deepseek-v2.5",
+      "name": "deepseek-v2.5",
+      "provider": "ollama",
+      "model_id": "deepseek-v2.5",
+      "benchmarks": {
+        "gpqa_diamond": 0.565,
+        "mmlu": 0.871,
+        "math_level_5": 0.649,
+        "otis_mock_aime_2024_2025": 0.158,
+        "frontiermath": 0.017,
+        "aider_polyglot": 17.8,
+        "simplebench": 0.189,
+        "trivia_qa": 0.829,
+        "swe_bench_verified": 0.521,
+        "arena_elo": 1306.0
+      }
+    },
+    {
+      "id": "ollama/duckdb-nsql",
+      "name": "duckdb-nsql",
+      "provider": "ollama",
+      "model_id": "duckdb-nsql"
+    },
+    {
+      "id": "ollama/magicoder",
+      "name": "magicoder",
+      "provider": "ollama",
+      "model_id": "magicoder"
+    },
+    {
+      "id": "ollama/mistrallite",
+      "name": "mistrallite",
+      "provider": "ollama",
+      "model_id": "mistrallite",
+      "context_window": 32768
+    },
+    {
+      "id": "ollama/bespoke-minicheck",
+      "name": "bespoke-minicheck",
+      "provider": "ollama",
+      "model_id": "bespoke-minicheck"
+    },
+    {
+      "id": "ollama/nuextract",
+      "name": "nuextract",
+      "provider": "ollama",
+      "model_id": "nuextract"
+    },
+    {
+      "id": "ollama/codebooga",
+      "name": "codebooga",
+      "provider": "ollama",
+      "model_id": "codebooga"
+    },
+    {
+      "id": "ollama/wizard-vicuna",
+      "name": "wizard-vicuna",
+      "provider": "ollama",
+      "model_id": "wizard-vicuna"
+    },
+    {
+      "id": "ollama/megadolphin",
+      "name": "megadolphin",
+      "provider": "ollama",
+      "model_id": "megadolphin"
+    },
+    {
+      "id": "ollama/command-a",
+      "name": "command-a",
+      "provider": "ollama",
+      "model_id": "command-a"
+    },
+    {
+      "id": "ollama/notux",
+      "name": "notux",
+      "provider": "ollama",
+      "model_id": "notux"
+    },
+    {
+      "id": "ollama/firefunction-v2",
+      "name": "firefunction-v2",
+      "provider": "ollama",
+      "model_id": "firefunction-v2"
+    },
+    {
+      "id": "ollama/deepseek-ocr",
+      "name": "deepseek-ocr",
+      "provider": "ollama",
+      "model_id": "deepseek-ocr"
+    },
+    {
+      "id": "ollama/notus",
+      "name": "notus",
+      "provider": "ollama",
+      "model_id": "notus"
+    },
+    {
+      "id": "ollama/open-orca-platypus2",
+      "name": "open-orca-platypus2",
+      "provider": "ollama",
+      "model_id": "open-orca-platypus2"
+    },
+    {
+      "id": "ollama/goliath",
+      "name": "goliath",
+      "provider": "ollama",
+      "model_id": "goliath"
+    },
+    {
+      "id": "ollama/marco-o1",
+      "name": "marco-o1",
+      "provider": "ollama",
+      "model_id": "marco-o1",
+      "benchmarks": {
+        "gpqa_diamond": 1.23,
+        "ifeval": 47.708,
+        "bbh": 34.843,
+        "musr": 9.964
+      }
+    },
+    {
+      "id": "ollama/sailor2",
+      "name": "sailor2",
+      "provider": "ollama",
+      "model_id": "sailor2"
+    },
+    {
+      "id": "ollama/granite3-guardian",
+      "name": "granite3-guardian",
+      "provider": "ollama",
+      "model_id": "granite3-guardian"
+    },
+    {
+      "id": "ollama/gemini-3-pro-preview",
+      "name": "gemini-3-pro-preview",
+      "provider": "ollama",
+      "model_id": "gemini-3-pro-preview",
+      "benchmarks": {
+        "gpqa_diamond": 0.926,
+        "otis_mock_aime_2024_2025": 0.914,
+        "frontiermath": 0.376,
+        "simplebench": 0.764,
+        "frontiermath_tier_4": 0.188,
+        "simpleqa_verified": 0.729,
+        "chess_puzzles": 0.31,
+        "humanitys_last_exam": 0.375,
+        "frontier_math": 0.376,
+        "arena_elo": 1490.0
+      }
+    },
+    {
+      "id": "ollama/alfred",
+      "name": "alfred",
+      "provider": "ollama",
+      "model_id": "alfred"
+    },
+    {
+      "id": "ollama/command-r7b-arabic",
+      "name": "command-r7b-arabic",
+      "provider": "ollama",
+      "model_id": "command-r7b-arabic",
+      "context_window": 131072
+    },
+    {
+      "id": "ollama/glm-4.6",
+      "name": "glm-4.6",
+      "provider": "ollama",
+      "model_id": "glm-4.6",
+      "benchmarks": {
+        "frontiermath": 0.038,
+        "frontiermath_tier_4": 0.021,
+        "arena_elo": 1424.0,
+        "livebench_global": 58.02,
+        "livebench_reasoning": 62.06,
+        "livebench_coding": 71.02,
+        "livebench_agentic_coding": 35.0,
+        "livebench_math": 81.13,
+        "livebench_data_analysis": 71.74,
+        "livebench_language": 58.99,
+        "livebench_ifeval": 26.19
+      }
+    },
+    {
+      "id": "ollama/gpt-oss-safeguard",
+      "name": "gpt-oss-safeguard",
+      "provider": "ollama",
+      "model_id": "gpt-oss-safeguard"
+    },
+    {
+      "id": "ollama/minimax-m2",
+      "name": "minimax-m2",
+      "provider": "ollama",
+      "model_id": "minimax-m2"
+    },
+    {
+      "id": "ollama/cogito-2.1",
+      "name": "cogito-2.1",
+      "provider": "ollama",
+      "model_id": "cogito-2.1"
+    },
+    {
+      "id": "ollama/olmo-3.1",
+      "name": "olmo-3.1",
+      "provider": "ollama",
+      "model_id": "olmo-3.1"
+    },
+    {
+      "id": "ollama/rnj-1",
+      "name": "rnj-1",
+      "provider": "ollama",
+      "model_id": "rnj-1"
+    },
+    {
+      "id": "ollama/kimi-k2",
+      "name": "kimi-k2",
+      "provider": "ollama",
+      "model_id": "kimi-k2",
+      "benchmarks": {
+        "aider_polyglot": 59.1,
+        "simplebench": 0.263,
+        "livebench_global": 50.97,
+        "livebench_reasoning": 42.23,
+        "livebench_coding": 74.28,
+        "livebench_agentic_coding": 31.67,
+        "livebench_math": 58.15,
+        "livebench_data_analysis": 63.41,
+        "livebench_language": 66.69,
+        "livebench_ifeval": 20.36
+      }
+    },
+    {
+      "id": "ollama/kimi-k2-thinking",
+      "name": "kimi-k2-thinking",
+      "provider": "ollama",
+      "model_id": "kimi-k2-thinking",
+      "benchmarks": {
+        "frontiermath": 0.214,
+        "frontiermath_tier_4": 0.0,
+        "humanitys_last_exam": 0.239,
+        "livebench_global": 64.2,
+        "livebench_reasoning": 63.49,
+        "livebench_coding": 67.44,
+        "livebench_agentic_coding": 38.33,
+        "livebench_math": 81.1,
+        "livebench_data_analysis": 70.57,
+        "livebench_language": 66.45,
+        "livebench_ifeval": 62.03
+      }
+    }
+  ]
+}

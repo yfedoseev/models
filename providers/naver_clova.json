@@ -1,0 +1,37 @@
+{
+  "provider": "naver_clova",
+  "model_count": 4,
+  "models": [
+    {
+      "id": "naver_clova/HCX-005",
+      "name": "HCX-005",
+      "provider": "naver_clova",
+      "model_id": "HCX-005",
+      "context_window": 4096,
+      "model_type": "chat"
+    },
+    {
+      "id": "naver_clova/HCX-007",
+      "name": "HCX-007",
+      "provider": "naver_clova",
+      "model_id": "HCX-007",
+      "context_window": 8192,
+      "model_type": "chat"
+    },
+    {
+      "id": "naver_clova/HCX-DASH-002",
+      "name": "HCX-DASH-002",
+      "provider": "naver_clova",
+      "model_id": "HCX-DASH-002",
+      "context_window": 4096,
+      "model_type": "chat"
+    },
+    {
+      "id": "naver_clova/clir-emb-dolphin",
+      "name": "clir-emb-dolphin",
+      "provider": "naver_clova",
+      "model_id": "clir-emb-dolphin",
+      "model_type": "embedding"
+    }
+  ]
+}

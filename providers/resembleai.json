@@ -1,0 +1,24 @@
+{
+  "provider": "resembleai",
+  "model_count": 3,
+  "models": [
+    {
+      "id": "resembleai/resemble-tts",
+      "name": "resemble-tts",
+      "provider": "resembleai",
+      "model_id": "resemble-tts"
+    },
+    {
+      "id": "resembleai/resemble-clone",
+      "name": "resemble-clone",
+      "provider": "resembleai",
+      "model_id": "resemble-clone"
+    },
+    {
+      "id": "resembleai/resemble-realtime",
+      "name": "resemble-realtime",
+      "provider": "resembleai",
+      "model_id": "resemble-realtime"
+    }
+  ]
+}

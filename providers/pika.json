@@ -1,0 +1,41 @@
+{
+  "provider": "pika",
+  "model_count": 5,
+  "models": [
+    {
+      "id": "pika/pika-v2.2-text-to-video",
+      "name": "Pika 2.2 Text-to-Video",
+      "provider": "pika",
+      "model_id": "pika-v2.2-text-to-video",
+      "model_type": "video_gen"
+    },
+    {
+      "id": "pika/pika-v2.2-image-to-video",
+      "name": "Pika 2.2 Image-to-Video",
+      "provider": "pika",
+      "model_id": "pika-v2.2-image-to-video",
+      "model_type": "video_gen"
+    },
+    {
+      "id": "pika/pika-v2.2-pikascenes",
+      "name": "Pika 2.2 Pikascenes",
+      "provider": "pika",
+      "model_id": "pika-v2.2-pikascenes",
+      "model_type": "video_gen"
+    },
+    {
+      "id": "pika/pika-v2.2-pikaframes",
+      "name": "Pika 2.2 Pikaframes",
+      "provider": "pika",
+      "model_id": "pika-v2.2-pikaframes",
+      "model_type": "video_gen"
+    },
+    {
+      "id": "pika/pika-v2-turbo-image-to-video",
+      "name": "Pika 2 Turbo Image-to-Video",
+      "provider": "pika",
+      "model_id": "pika-v2-turbo-image-to-video",
+      "model_type": "video_gen"
+    }
+  ]
+}

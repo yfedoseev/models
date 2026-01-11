@@ -1,0 +1,60 @@
+{
+  "provider": "scaleway",
+  "model_count": 5,
+  "models": [
+    {
+      "id": "scaleway/mistral-small-3.2-24b-instruct-2506",
+      "name": "mistral-small-3.2-24b-instruct-2506",
+      "provider": "scaleway",
+      "model_id": "mistral-small-3.2-24b-instruct-2506",
+      "context_window": 128000,
+      "model_type": "chat"
+    },
+    {
+      "id": "scaleway/llama-3.3-70b-instruct",
+      "name": "llama-3.3-70b-instruct",
+      "provider": "scaleway",
+      "model_id": "llama-3.3-70b-instruct",
+      "context_window": 100000,
+      "benchmarks": {
+        "gpqa_diamond": 0.474,
+        "mmlu": 0.863,
+        "math_level_5": 0.416,
+        "otis_mock_aime_2024_2025": 0.051,
+        "simplebench": 0.199
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "scaleway/qwen3-235b-a22b-instruct-2507",
+      "name": "qwen3-235b-a22b-instruct-2507",
+      "provider": "scaleway",
+      "model_id": "qwen3-235b-a22b-instruct-2507",
+      "context_window": 250000,
+      "benchmarks": {
+        "gpqa_diamond": 0.707,
+        "math_level_5": 0.689,
+        "aider_polyglot": 59.6,
+        "simplebench": 0.31,
+        "arena_elo": 1374.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "scaleway/qwen3-coder-30b-a3b-instruct",
+      "name": "qwen3-coder-30b-a3b-instruct",
+      "provider": "scaleway",
+      "model_id": "qwen3-coder-30b-a3b-instruct",
+      "context_window": 128000,
+      "model_type": "code"
+    },
+    {
+      "id": "scaleway/pixtral-12b-2409",
+      "name": "pixtral-12b-2409",
+      "provider": "scaleway",
+      "model_id": "pixtral-12b-2409",
+      "context_window": 128000,
+      "model_type": "vision"
+    }
+  ]
+}

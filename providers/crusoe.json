@@ -1,0 +1,68 @@
+{
+  "provider": "crusoe",
+  "model_count": 4,
+  "models": [
+    {
+      "id": "crusoe/deepseek-r1",
+      "name": "deepseek-r1",
+      "provider": "crusoe",
+      "model_id": "deepseek-r1",
+      "context_window": 131072,
+      "benchmarks": {
+        "gpqa_diamond": 0.692,
+        "math_level_5": 0.931,
+        "otis_mock_aime_2024_2025": 0.533,
+        "aider_polyglot": 56.9,
+        "simplebench": 0.309,
+        "simpleqa_verified": 0.274,
+        "swe_bench_verified": 0.333,
+        "arena_elo": 1396.0
+      }
+    },
+    {
+      "id": "crusoe/llama-3.3-70b",
+      "name": "llama-3.3-70b",
+      "provider": "crusoe",
+      "model_id": "llama-3.3-70b",
+      "context_window": 131072,
+      "benchmarks": {
+        "gpqa_diamond": 0.474,
+        "mmlu": 0.863,
+        "math_level_5": 0.416,
+        "otis_mock_aime_2024_2025": 0.051,
+        "simplebench": 0.199
+      }
+    },
+    {
+      "id": "crusoe/llama-3.1-405b",
+      "name": "llama-3.1-405b",
+      "provider": "crusoe",
+      "model_id": "llama-3.1-405b",
+      "context_window": 131072,
+      "benchmarks": {
+        "gpqa_diamond": 0.509,
+        "mmlu": 0.844,
+        "math_level_5": 0.498,
+        "otis_mock_aime_2024_2025": 0.097,
+        "simplebench": 0.23,
+        "trivia_qa": 0.827
+      }
+    },
+    {
+      "id": "crusoe/mistral-large",
+      "name": "mistral-large",
+      "provider": "crusoe",
+      "model_id": "mistral-large",
+      "context_window": 32768,
+      "benchmarks": {
+        "gpqa_diamond": 0.49,
+        "mmlu": 0.8,
+        "math_level_5": 0.245,
+        "otis_mock_aime_2024_2025": 0.085,
+        "frontiermath": 0.003,
+        "simplebench": 0.225,
+        "arena_elo": 1242.0
+      }
+    }
+  ]
+}

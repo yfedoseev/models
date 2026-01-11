@@ -1,0 +1,2610 @@
+{
+  "provider": "qwen",
+  "model_count": 256,
+  "models": [
+    {
+      "id": "qwen/qwen3-max",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-max",
+      "context_window": 262144,
+      "input_price_per_million": 1.2,
+      "output_price_per_million": 6.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.726,
+        "math_level_5": 0.971,
+        "otis_mock_aime_2024_2025": 0.733,
+        "simpleqa_verified": 0.675,
+        "chess_puzzles": 0.04,
+        "arena_elo": 1424.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen3-max-2025-09-23",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-max-2025-09-23",
+      "context_window": 262144,
+      "input_price_per_million": 1.2,
+      "output_price_per_million": 6.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.726,
+        "math_level_5": 0.971,
+        "otis_mock_aime_2024_2025": 0.733,
+        "simpleqa_verified": 0.675,
+        "chess_puzzles": 0.04,
+        "arena_elo": 1424.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen3-max-preview",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-max-preview",
+      "context_window": 81920,
+      "input_price_per_million": 1.2,
+      "output_price_per_million": 6.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.726,
+        "math_level_5": 0.971,
+        "otis_mock_aime_2024_2025": 0.733,
+        "simpleqa_verified": 0.675,
+        "chess_puzzles": 0.04,
+        "arena_elo": 1424.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-max",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-max",
+      "context_window": 30720,
+      "input_price_per_million": 1.6,
+      "output_price_per_million": 6.4,
+      "benchmarks": {
+        "gpqa_diamond": 0.561,
+        "math_level_5": 0.672,
+        "otis_mock_aime_2024_2025": 0.161,
+        "frontiermath": 0.01,
+        "aider_polyglot": 21.8,
+        "arena_elo": 1317.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-max-latest",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-max-latest",
+      "context_window": 129024,
+      "input_price_per_million": 1.6,
+      "output_price_per_million": 6.4,
+      "benchmarks": {
+        "gpqa_diamond": 0.561,
+        "math_level_5": 0.672,
+        "otis_mock_aime_2024_2025": 0.161,
+        "frontiermath": 0.01,
+        "aider_polyglot": 21.8,
+        "arena_elo": 1317.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-max-2025-01-25",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-max-2025-01-25",
+      "context_window": 30720,
+      "input_price_per_million": 1.6,
+      "output_price_per_million": 6.4,
+      "benchmarks": {
+        "gpqa_diamond": 0.561,
+        "math_level_5": 0.672,
+        "otis_mock_aime_2024_2025": 0.161,
+        "frontiermath": 0.01,
+        "aider_polyglot": 21.8,
+        "arena_elo": 1317.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-max-2024-09-19",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-max-2024-09-19",
+      "context_window": 30720,
+      "input_price_per_million": 2.868,
+      "output_price_per_million": 8.602,
+      "benchmarks": {
+        "gpqa_diamond": 0.561,
+        "math_level_5": 0.672,
+        "otis_mock_aime_2024_2025": 0.161,
+        "frontiermath": 0.01,
+        "aider_polyglot": 21.8,
+        "arena_elo": 1317.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-plus",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-plus",
+      "context_window": 129024,
+      "input_price_per_million": 1.2,
+      "output_price_per_million": 4.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.481,
+        "math_level_5": 0.653,
+        "otis_mock_aime_2024_2025": 0.178,
+        "frontiermath": 0.017,
+        "swe_bench_verified": 0.28,
+        "arena_elo": 1345.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-plus-2025-12-01",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-plus-2025-12-01",
+      "context_window": 131072,
+      "input_price_per_million": 1.2,
+      "output_price_per_million": 4.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.481,
+        "math_level_5": 0.653,
+        "otis_mock_aime_2024_2025": 0.178,
+        "frontiermath": 0.017,
+        "swe_bench_verified": 0.28,
+        "arena_elo": 1345.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-plus-2025-09-11",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-plus-2025-09-11",
+      "context_window": 131072,
+      "input_price_per_million": 1.2,
+      "output_price_per_million": 4.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.481,
+        "math_level_5": 0.653,
+        "otis_mock_aime_2024_2025": 0.178,
+        "frontiermath": 0.017,
+        "swe_bench_verified": 0.28,
+        "arena_elo": 1345.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-plus-2025-07-28",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-plus-2025-07-28",
+      "context_window": 131072,
+      "input_price_per_million": 1.2,
+      "output_price_per_million": 4.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.481,
+        "math_level_5": 0.653,
+        "otis_mock_aime_2024_2025": 0.178,
+        "frontiermath": 0.017,
+        "swe_bench_verified": 0.28,
+        "arena_elo": 1345.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-plus-latest",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-plus-latest",
+      "context_window": 131072,
+      "input_price_per_million": 1.2,
+      "output_price_per_million": 4.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.481,
+        "math_level_5": 0.653,
+        "otis_mock_aime_2024_2025": 0.178,
+        "frontiermath": 0.017,
+        "swe_bench_verified": 0.28,
+        "arena_elo": 1345.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-plus-2025-07-14",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-plus-2025-07-14",
+      "context_window": 131072,
+      "input_price_per_million": 1.2,
+      "output_price_per_million": 4.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.481,
+        "math_level_5": 0.653,
+        "otis_mock_aime_2024_2025": 0.178,
+        "frontiermath": 0.017,
+        "swe_bench_verified": 0.28,
+        "arena_elo": 1345.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-plus-2025-04-28",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-plus-2025-04-28",
+      "context_window": 131072,
+      "input_price_per_million": 1.2,
+      "output_price_per_million": 4.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.481,
+        "math_level_5": 0.653,
+        "otis_mock_aime_2024_2025": 0.178,
+        "frontiermath": 0.017,
+        "swe_bench_verified": 0.28,
+        "arena_elo": 1345.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-plus-2025-01-25",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-plus-2025-01-25",
+      "context_window": 129024,
+      "input_price_per_million": 1.2,
+      "output_price_per_million": 4.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.481,
+        "math_level_5": 0.653,
+        "otis_mock_aime_2024_2025": 0.178,
+        "frontiermath": 0.017,
+        "swe_bench_verified": 0.28,
+        "arena_elo": 1345.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-plus-us",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-plus-us",
+      "context_window": 131072,
+      "input_price_per_million": 1.2,
+      "output_price_per_million": 4.0,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-plus-2025-12-01-us",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-plus-2025-12-01-us",
+      "context_window": 131072,
+      "input_price_per_million": 1.2,
+      "output_price_per_million": 4.0,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-plus-2025-01-12",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-plus-2025-01-12",
+      "context_window": 131072,
+      "input_price_per_million": 0.287,
+      "output_price_per_million": 4.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.481,
+        "math_level_5": 0.653,
+        "otis_mock_aime_2024_2025": 0.178,
+        "frontiermath": 0.017,
+        "swe_bench_verified": 0.28,
+        "arena_elo": 1345.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-plus-2024-12-20",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-plus-2024-12-20",
+      "context_window": 131072,
+      "input_price_per_million": 0.287,
+      "output_price_per_million": 4.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.481,
+        "math_level_5": 0.653,
+        "otis_mock_aime_2024_2025": 0.178,
+        "frontiermath": 0.017,
+        "swe_bench_verified": 0.28,
+        "arena_elo": 1345.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-plus-2024-11-27",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-plus-2024-11-27",
+      "context_window": 131072,
+      "input_price_per_million": 0.287,
+      "output_price_per_million": 4.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.481,
+        "math_level_5": 0.653,
+        "otis_mock_aime_2024_2025": 0.178,
+        "frontiermath": 0.017,
+        "swe_bench_verified": 0.28,
+        "arena_elo": 1345.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-plus-2024-11-25",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-plus-2024-11-25",
+      "context_window": 131072,
+      "input_price_per_million": 0.287,
+      "output_price_per_million": 4.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.481,
+        "math_level_5": 0.653,
+        "otis_mock_aime_2024_2025": 0.178,
+        "frontiermath": 0.017,
+        "swe_bench_verified": 0.28,
+        "arena_elo": 1345.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-plus-2024-09-19",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-plus-2024-09-19",
+      "context_window": 131072,
+      "input_price_per_million": 0.287,
+      "output_price_per_million": 4.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.481,
+        "math_level_5": 0.653,
+        "otis_mock_aime_2024_2025": 0.178,
+        "frontiermath": 0.017,
+        "swe_bench_verified": 0.28,
+        "arena_elo": 1345.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-plus-2024-08-06",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-plus-2024-08-06",
+      "context_window": 131072,
+      "input_price_per_million": 1.721,
+      "output_price_per_million": 4.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.481,
+        "math_level_5": 0.653,
+        "otis_mock_aime_2024_2025": 0.178,
+        "frontiermath": 0.017,
+        "swe_bench_verified": 0.28,
+        "arena_elo": 1345.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-flash",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-flash",
+      "context_window": 1000000,
+      "input_price_per_million": 0.4,
+      "output_price_per_million": 1.0,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-flash-2025-07-28",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-flash-2025-07-28",
+      "context_window": 995904,
+      "input_price_per_million": 0.4,
+      "output_price_per_million": 1.0,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-flash-us",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-flash-us",
+      "context_window": 1000000,
+      "input_price_per_million": 0.4,
+      "output_price_per_million": 1.0,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-flash-2025-07-28-us",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-flash-2025-07-28-us",
+      "context_window": 995904,
+      "input_price_per_million": 0.4,
+      "output_price_per_million": 1.0,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-turbo",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-turbo",
+      "context_window": 8192,
+      "input_price_per_million": 0.5,
+      "output_price_per_million": 1.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.418,
+        "math_level_5": 0.562,
+        "otis_mock_aime_2024_2025": 0.061
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-turbo-latest",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-turbo-latest",
+      "context_window": 131072,
+      "input_price_per_million": 0.5,
+      "output_price_per_million": 1.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.418,
+        "math_level_5": 0.562,
+        "otis_mock_aime_2024_2025": 0.061
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-turbo-2025-04-28",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-turbo-2025-04-28",
+      "context_window": 131072,
+      "input_price_per_million": 0.5,
+      "output_price_per_million": 1.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.418,
+        "math_level_5": 0.562,
+        "otis_mock_aime_2024_2025": 0.061
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-turbo-2024-11-01",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-turbo-2024-11-01",
+      "context_window": 8192,
+      "input_price_per_million": 1.0,
+      "output_price_per_million": 1.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.418,
+        "math_level_5": 0.562,
+        "otis_mock_aime_2024_2025": 0.061
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-turbo-2025-07-15",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-turbo-2025-07-15",
+      "context_window": 131072,
+      "input_price_per_million": 0.431,
+      "output_price_per_million": 1.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.418,
+        "math_level_5": 0.562,
+        "otis_mock_aime_2024_2025": 0.061
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwq-plus",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwq-plus",
+      "context_window": 98304,
+      "input_price_per_million": 1.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.654
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "qwen/qwq-plus-latest",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwq-plus-latest",
+      "context_window": 98304,
+      "input_price_per_million": 1.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.654
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "qwen/qwq-plus-2025-03-05",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwq-plus-2025-03-05",
+      "context_window": 98304,
+      "input_price_per_million": 1.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.654
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "qwen/qwen-long-latest",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-long-latest",
+      "context_window": 10000000,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-long-2025-01-25",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-long-2025-01-25",
+      "context_window": 10000000,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen3-omni-flash",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-omni-flash",
+      "context_window": 65536,
+      "input_price_per_million": 3.81,
+      "output_price_per_million": 0.78,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen3-omni-flash-2025-12-01",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-omni-flash-2025-12-01",
+      "context_window": 65536,
+      "input_price_per_million": 3.81,
+      "output_price_per_million": 0.78,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen3-omni-flash-2025-09-15",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-omni-flash-2025-09-15",
+      "context_window": 65536,
+      "input_price_per_million": 3.81,
+      "output_price_per_million": 0.78,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-omni-turbo",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-omni-turbo",
+      "context_window": 30720,
+      "input_price_per_million": 0.21,
+      "output_price_per_million": 0.27,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-omni-turbo-latest",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-omni-turbo-latest",
+      "context_window": 30720,
+      "input_price_per_million": 0.21,
+      "output_price_per_million": 0.27,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-omni-turbo-2025-03-26",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-omni-turbo-2025-03-26",
+      "context_window": 30720,
+      "input_price_per_million": 0.21,
+      "output_price_per_million": 0.27,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-omni-turbo-2025-01-19",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-omni-turbo-2025-01-19",
+      "context_window": 30720,
+      "input_price_per_million": 0.216,
+      "output_price_per_million": 0.23,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen3-omni-flash-realtime",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-omni-flash-realtime",
+      "context_window": 49152,
+      "input_price_per_million": 0.94,
+      "output_price_per_million": 1.99,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-omni-turbo-realtime",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-omni-turbo-realtime",
+      "context_window": 30720,
+      "input_price_per_million": 0.84,
+      "output_price_per_million": 1.07,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-omni-turbo-realtime-latest",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-omni-turbo-realtime-latest",
+      "context_window": 30720,
+      "input_price_per_million": 0.84,
+      "output_price_per_million": 1.07,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-omni-turbo-realtime-2025-05-08",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-omni-turbo-realtime-2025-05-08",
+      "context_window": 30720,
+      "input_price_per_million": 0.84,
+      "output_price_per_million": 1.07,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen3-omni-flash-realtime-2025-12-01",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-omni-flash-realtime-2025-12-01",
+      "context_window": 49152,
+      "input_price_per_million": 0.94,
+      "output_price_per_million": 1.99,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen3-omni-flash-realtime-2025-09-15",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-omni-flash-realtime-2025-09-15",
+      "context_window": 49152,
+      "input_price_per_million": 0.559,
+      "output_price_per_million": 1.19,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen3-vl-plus",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-vl-plus",
+      "context_window": 262144,
+      "input_price_per_million": 0.2,
+      "output_price_per_million": 1.6,
+      "model_type": "vision"
+    },
+    {
+      "id": "qwen/qwen3-vl-plus-2025-09-23",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-vl-plus-2025-09-23",
+      "context_window": 262144,
+      "input_price_per_million": 0.2,
+      "output_price_per_million": 1.6,
+      "model_type": "vision"
+    },
+    {
+      "id": "qwen/qwen3-vl-flash",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-vl-flash",
+      "input_price_per_million": 0.05,
+      "output_price_per_million": 0.4,
+      "model_type": "vision"
+    },
+    {
+      "id": "qwen/qwen3-vl-flash-2025-10-15",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-vl-flash-2025-10-15",
+      "input_price_per_million": 0.05,
+      "output_price_per_million": 0.4,
+      "model_type": "vision"
+    },
+    {
+      "id": "qwen/qwen3-vl-plus-2025-12-19",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-vl-plus-2025-12-19",
+      "context_window": 262144,
+      "input_price_per_million": 0.2,
+      "output_price_per_million": 1.6,
+      "model_type": "vision"
+    },
+    {
+      "id": "qwen/qwen-vl-max",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-vl-max",
+      "context_window": 2048,
+      "input_price_per_million": 3.2,
+      "output_price_per_million": 1.0,
+      "model_type": "vision"
+    },
+    {
+      "id": "qwen/qwen-vl-max-latest",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-vl-max-latest",
+      "context_window": 32768,
+      "input_price_per_million": 3.2,
+      "output_price_per_million": 1.0,
+      "model_type": "vision"
+    },
+    {
+      "id": "qwen/qwen-vl-max-2025-08-13",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-vl-max-2025-08-13",
+      "context_window": 32768,
+      "input_price_per_million": 3.2,
+      "output_price_per_million": 1.0,
+      "model_type": "vision"
+    },
+    {
+      "id": "qwen/qwen-vl-max-2025-04-08",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-vl-max-2025-04-08",
+      "context_window": 32768,
+      "input_price_per_million": 3.2,
+      "output_price_per_million": 1.0,
+      "model_type": "vision"
+    },
+    {
+      "id": "qwen/qwen-vl-plus",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-vl-plus",
+      "context_window": 2048,
+      "input_price_per_million": 0.63,
+      "model_type": "vision"
+    },
+    {
+      "id": "qwen/qwen-vl-plus-latest",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-vl-plus-latest",
+      "context_window": 32768,
+      "input_price_per_million": 0.63,
+      "model_type": "vision"
+    },
+    {
+      "id": "qwen/qwen-vl-plus-2025-08-15",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-vl-plus-2025-08-15",
+      "context_window": 32768,
+      "input_price_per_million": 0.63,
+      "model_type": "vision"
+    },
+    {
+      "id": "qwen/qwen-vl-plus-2025-05-07",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-vl-plus-2025-05-07",
+      "context_window": 32768,
+      "input_price_per_million": 0.63,
+      "model_type": "vision"
+    },
+    {
+      "id": "qwen/qwen-vl-plus-2025-01-25",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-vl-plus-2025-01-25",
+      "context_window": 32768,
+      "input_price_per_million": 0.63,
+      "model_type": "vision"
+    },
+    {
+      "id": "qwen/qwen3-vl-flash-us",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-vl-flash-us",
+      "input_price_per_million": 0.05,
+      "output_price_per_million": 0.4,
+      "model_type": "vision"
+    },
+    {
+      "id": "qwen/qwen3-vl-flash-2025-10-15-us",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-vl-flash-2025-10-15-us",
+      "input_price_per_million": 0.05,
+      "output_price_per_million": 0.4,
+      "model_type": "vision"
+    },
+    {
+      "id": "qwen/qwen-vl-max-2025-04-02",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-vl-max-2025-04-02",
+      "context_window": 32768,
+      "input_price_per_million": 1.291,
+      "output_price_per_million": 1.0,
+      "model_type": "vision"
+    },
+    {
+      "id": "qwen/qwen-vl-max-2025-01-25",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-vl-max-2025-01-25",
+      "context_window": 32768,
+      "input_price_per_million": 1.291,
+      "output_price_per_million": 1.0,
+      "model_type": "vision"
+    },
+    {
+      "id": "qwen/qwen-vl-max-2024-12-30",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-vl-max-2024-12-30",
+      "context_window": 2048,
+      "input_price_per_million": 1.291,
+      "output_price_per_million": 1.0,
+      "model_type": "vision"
+    },
+    {
+      "id": "qwen/qwen-vl-max-2024-11-19",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-vl-max-2024-11-19",
+      "context_window": 32768,
+      "input_price_per_million": 1.291,
+      "output_price_per_million": 1.0,
+      "model_type": "vision"
+    },
+    {
+      "id": "qwen/qwen-vl-max-2024-10-30",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-vl-max-2024-10-30",
+      "context_window": 32768,
+      "input_price_per_million": 2.868,
+      "output_price_per_million": 1.0,
+      "model_type": "vision"
+    },
+    {
+      "id": "qwen/qwen-vl-max-2024-08-09",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-vl-max-2024-08-09",
+      "context_window": 32768,
+      "input_price_per_million": 2.868,
+      "output_price_per_million": 1.0,
+      "model_type": "vision"
+    },
+    {
+      "id": "qwen/qwen-vl-plus-2025-07-10",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-vl-plus-2025-07-10",
+      "context_window": 32768,
+      "input_price_per_million": 0.216,
+      "model_type": "vision"
+    },
+    {
+      "id": "qwen/qwen-vl-plus-2025-01-02",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-vl-plus-2025-01-02",
+      "context_window": 2048,
+      "input_price_per_million": 0.646,
+      "model_type": "vision"
+    },
+    {
+      "id": "qwen/qwen-vl-plus-2024-08-09",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-vl-plus-2024-08-09",
+      "context_window": 32768,
+      "input_price_per_million": 0.646,
+      "model_type": "vision"
+    },
+    {
+      "id": "qwen/qwen-vl-ocr",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-vl-ocr",
+      "context_window": 8192,
+      "input_price_per_million": 1.0,
+      "model_type": "vision"
+    },
+    {
+      "id": "qwen/qwen-vl-ocr-2025-11-20",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-vl-ocr-2025-11-20",
+      "context_window": 8192,
+      "input_price_per_million": 1.0,
+      "model_type": "vision"
+    },
+    {
+      "id": "qwen/qwen-vl-ocr-latest",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-vl-ocr-latest",
+      "context_window": 8192,
+      "input_price_per_million": 1.0,
+      "model_type": "vision"
+    },
+    {
+      "id": "qwen/qwen-vl-ocr-2025-08-28",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-vl-ocr-2025-08-28",
+      "input_price_per_million": 1.0,
+      "model_type": "vision"
+    },
+    {
+      "id": "qwen/qwen-vl-ocr-2025-04-13",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-vl-ocr-2025-04-13",
+      "input_price_per_million": 1.0,
+      "model_type": "vision"
+    },
+    {
+      "id": "qwen/qwen-vl-ocr-2024-10-28",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-vl-ocr-2024-10-28",
+      "input_price_per_million": 1.0,
+      "model_type": "vision"
+    },
+    {
+      "id": "qwen/qwen-math-plus",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-math-plus",
+      "context_window": 3072,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-math-plus-latest",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-math-plus-latest",
+      "context_window": 3072,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-math-plus-2024-09-19",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-math-plus-2024-09-19",
+      "context_window": 3072,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-math-plus-2024-08-16",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-math-plus-2024-08-16",
+      "context_window": 3072,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-math-turbo",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-math-turbo",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-math-turbo-latest",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-math-turbo-latest",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-math-turbo-2024-09-19",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-math-turbo-2024-09-19",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen3-coder-plus",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-coder-plus",
+      "context_window": 997952,
+      "input_price_per_million": 5.0,
+      "output_price_per_million": 1.0,
+      "model_type": "code"
+    },
+    {
+      "id": "qwen/qwen3-coder-plus-2025-09-23",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-coder-plus-2025-09-23",
+      "context_window": 997952,
+      "input_price_per_million": 5.0,
+      "output_price_per_million": 1.0,
+      "model_type": "code"
+    },
+    {
+      "id": "qwen/qwen3-coder-plus-2025-07-22",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-coder-plus-2025-07-22",
+      "context_window": 997952,
+      "input_price_per_million": 5.0,
+      "output_price_per_million": 1.0,
+      "model_type": "code"
+    },
+    {
+      "id": "qwen/qwen3-coder-flash",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-coder-flash",
+      "input_price_per_million": 1.5,
+      "model_type": "code"
+    },
+    {
+      "id": "qwen/qwen3-coder-flash-2025-07-28",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-coder-flash-2025-07-28",
+      "input_price_per_million": 1.5,
+      "model_type": "code"
+    },
+    {
+      "id": "qwen/qwen-coder-plus",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-coder-plus",
+      "context_window": 129024,
+      "input_price_per_million": 1.004,
+      "model_type": "code"
+    },
+    {
+      "id": "qwen/qwen-coder-plus-latest",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-coder-plus-latest",
+      "context_window": 129024,
+      "input_price_per_million": 1.004,
+      "model_type": "code"
+    },
+    {
+      "id": "qwen/qwen-coder-plus-2024-11-06",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-coder-plus-2024-11-06",
+      "context_window": 129024,
+      "input_price_per_million": 1.004,
+      "model_type": "code"
+    },
+    {
+      "id": "qwen/qwen-coder-turbo",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-coder-turbo",
+      "context_window": 129024,
+      "input_price_per_million": 0.861,
+      "model_type": "code"
+    },
+    {
+      "id": "qwen/qwen-coder-turbo-latest",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-coder-turbo-latest",
+      "context_window": 129024,
+      "input_price_per_million": 0.861,
+      "model_type": "code"
+    },
+    {
+      "id": "qwen/qwen-coder-turbo-2024-09-19",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-coder-turbo-2024-09-19",
+      "context_window": 129024,
+      "input_price_per_million": 0.861,
+      "model_type": "code"
+    },
+    {
+      "id": "qwen/qwen-mt-plus",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-mt-plus",
+      "context_window": 8192,
+      "input_price_per_million": 1.0,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-mt-flash",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-mt-flash",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-mt-lite",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-mt-lite",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-mt-turbo",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-mt-turbo",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-doc-turbo",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-doc-turbo",
+      "context_window": 32768,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-deep-research",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-deep-research",
+      "context_window": 32768,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen3-next-80b-a3b-thinking",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-next-80b-a3b-thinking",
+      "context_window": 126976,
+      "output_price_per_million": 1.2,
+      "benchmarks": {
+        "arena_elo": 1368.0,
+        "livebench_global": 53.2,
+        "livebench_reasoning": 58.16,
+        "livebench_coding": 60.66,
+        "livebench_agentic_coding": 8.33,
+        "livebench_math": 74.26,
+        "livebench_data_analysis": 73.16,
+        "livebench_language": 56.31,
+        "livebench_ifeval": 41.54
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "qwen/qwen3-next-80b-a3b-instruct",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-next-80b-a3b-instruct",
+      "context_window": 131072,
+      "input_price_per_million": 1.2,
+      "benchmarks": {
+        "arena_elo": 1401.0,
+        "livebench_global": 51.04,
+        "livebench_reasoning": 54.75,
+        "livebench_coding": 68.2,
+        "livebench_agentic_coding": 10.0,
+        "livebench_math": 70.18,
+        "livebench_data_analysis": 68.63,
+        "livebench_language": 66.34,
+        "livebench_ifeval": 19.19
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen3-235b-a22b-thinking-2507",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-235b-a22b-thinking-2507",
+      "context_window": 81920,
+      "output_price_per_million": 2.3,
+      "benchmarks": {
+        "gpqa_diamond": 0.801,
+        "otis_mock_aime_2024_2025": 0.867,
+        "frontiermath": 0.085,
+        "frontiermath_tier_4": 0.0,
+        "simpleqa_verified": 0.501,
+        "chess_puzzles": 0.122,
+        "arena_elo": 1398.0
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "qwen/qwen3-235b-a22b-instruct-2507",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-235b-a22b-instruct-2507",
+      "context_window": 131072,
+      "input_price_per_million": 0.92,
+      "benchmarks": {
+        "gpqa_diamond": 0.707,
+        "math_level_5": 0.689,
+        "aider_polyglot": 59.6,
+        "simplebench": 0.31,
+        "arena_elo": 1374.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen3-30b-a3b-thinking-2507",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+      "context_window": 81920,
+      "output_price_per_million": 2.4,
+      "model_type": "reasoning"
+    },
+    {
+      "id": "qwen/qwen3-30b-a3b-instruct-2507",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+      "context_window": 131072,
+      "input_price_per_million": 0.8,
+      "benchmarks": {
+        "arena_elo": 1326.0,
+        "livebench_global": 42.11,
+        "livebench_reasoning": 36.68,
+        "livebench_coding": 48.88,
+        "livebench_agentic_coding": 1.67,
+        "livebench_math": 65.35,
+        "livebench_data_analysis": 66.6,
+        "livebench_language": 54.47,
+        "livebench_ifeval": 21.11
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen3-235b-a22b",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-235b-a22b",
+      "context_window": 131072,
+      "input_price_per_million": 2.8,
+      "output_price_per_million": 8.4,
+      "benchmarks": {
+        "gpqa_diamond": 0.707,
+        "math_level_5": 0.689,
+        "aider_polyglot": 59.6,
+        "simplebench": 0.31,
+        "arena_elo": 1374.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen3-32b",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-32b",
+      "context_window": 131072,
+      "input_price_per_million": 0.64,
+      "output_price_per_million": 0.64,
+      "benchmarks": {
+        "aider_polyglot": 40.0,
+        "arena_elo": 1345.0,
+        "livebench_global": 46.67,
+        "livebench_reasoning": 48.25,
+        "livebench_coding": 66.03,
+        "livebench_agentic_coding": 3.33,
+        "livebench_math": 67.44,
+        "livebench_data_analysis": 68.29,
+        "livebench_language": 55.54,
+        "livebench_ifeval": 17.77
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen3-30b-a3b",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-30b-a3b",
+      "context_window": 131072,
+      "input_price_per_million": 0.8,
+      "output_price_per_million": 2.4,
+      "benchmarks": {
+        "arena_elo": 1326.0,
+        "livebench_global": 42.11,
+        "livebench_reasoning": 36.68,
+        "livebench_coding": 48.88,
+        "livebench_agentic_coding": 1.67,
+        "livebench_math": 65.35,
+        "livebench_data_analysis": 66.6,
+        "livebench_language": 54.47,
+        "livebench_ifeval": 21.11
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen3-14b",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-14b",
+      "context_window": 131072,
+      "input_price_per_million": 1.4,
+      "output_price_per_million": 4.2,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen3-8b",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-8b",
+      "context_window": 131072,
+      "input_price_per_million": 0.7,
+      "output_price_per_million": 2.1,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen3-4b",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-4b",
+      "input_price_per_million": 0.42,
+      "output_price_per_million": 1.26,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen3-1.7b",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-1.7b",
+      "context_window": 30720,
+      "input_price_per_million": 0.42,
+      "output_price_per_million": 1.26,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen3-0.6b",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-0.6b",
+      "input_price_per_million": 0.42,
+      "output_price_per_million": 1.26,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwq-32b",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwq-32b",
+      "context_window": 32768,
+      "benchmarks": {
+        "aider_polyglot": 20.9,
+        "arena_elo": 1159.0
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "qwen/qwq-32b-preview",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwq-32b-preview",
+      "context_window": 16384,
+      "benchmarks": {
+        "aider_polyglot": 20.9,
+        "arena_elo": 1159.0
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "qwen/qwen2.5-14b-instruct-1m",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen2.5-14b-instruct-1m",
+      "context_window": 8192,
+      "input_price_per_million": 1.0,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen2.5-7b-instruct-1m",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen2.5-7b-instruct-1m",
+      "context_window": 131072,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen2.5-72b-instruct",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen2.5-72b-instruct",
+      "context_window": 131072,
+      "benchmarks": {
+        "gpqa_diamond": 0.491,
+        "mmlu": 0.834,
+        "math_level_5": 0.632,
+        "otis_mock_aime_2024_2025": 0.081,
+        "trivia_qa": 0.719,
+        "arena_elo": 1302.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen2.5-32b-instruct",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen2.5-32b-instruct",
+      "context_window": 131072,
+      "benchmarks": {
+        "gpqa_diamond": 0.461,
+        "math_level_5": 0.561,
+        "otis_mock_aime_2024_2025": 0.074
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen2.5-14b-instruct",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen2.5-14b-instruct",
+      "context_window": 131072,
+      "benchmarks": {
+        "mmlu": 0.799
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen2.5-7b-instruct",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen2.5-7b-instruct",
+      "context_window": 131072,
+      "benchmarks": {
+        "mmlu": 0.729
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen2.5-3b-instruct",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen2.5-3b-instruct",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen2.5-1.5b-instruct",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen2.5-1.5b-instruct",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen2.5-0.5b-instruct",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen2.5-0.5b-instruct",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen2.5-omni-7b",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen2.5-omni-7b",
+      "context_window": 2048,
+      "input_price_per_million": 0.28,
+      "output_price_per_million": 0.4,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen3-omni-30b-a3b-captioner",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-omni-30b-a3b-captioner",
+      "context_window": 32768,
+      "input_price_per_million": 1.0,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen3-vl-235b-a22b-thinking",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-vl-235b-a22b-thinking",
+      "context_window": 126976,
+      "input_price_per_million": 2.867,
+      "output_price_per_million": 1.0,
+      "benchmarks": {
+        "arena_elo": 1394.0
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "qwen/qwen3-vl-235b-a22b-instruct",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-vl-235b-a22b-instruct",
+      "context_window": 32768,
+      "input_price_per_million": 1.147,
+      "benchmarks": {
+        "arena_elo": 1414.0
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "qwen/qwen3-vl-32b-thinking",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-vl-32b-thinking",
+      "context_window": 126976,
+      "input_price_per_million": 2.867,
+      "model_type": "reasoning"
+    },
+    {
+      "id": "qwen/qwen3-vl-32b-instruct",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-vl-32b-instruct",
+      "input_price_per_million": 1.147,
+      "model_type": "vision"
+    },
+    {
+      "id": "qwen/qwen3-vl-30b-a3b-thinking",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-vl-30b-a3b-thinking",
+      "context_window": 81920,
+      "input_price_per_million": 1.075,
+      "model_type": "reasoning"
+    },
+    {
+      "id": "qwen/qwen3-vl-30b-a3b-instruct",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-vl-30b-a3b-instruct",
+      "input_price_per_million": 0.43,
+      "model_type": "vision"
+    },
+    {
+      "id": "qwen/qwen3-vl-8b-thinking",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-vl-8b-thinking",
+      "context_window": 81920,
+      "input_price_per_million": 0.717,
+      "model_type": "reasoning"
+    },
+    {
+      "id": "qwen/qwen3-vl-8b-instruct",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-vl-8b-instruct",
+      "input_price_per_million": 0.287,
+      "model_type": "vision"
+    },
+    {
+      "id": "qwen/qwen2.5-vl-72b-instruct",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen2.5-vl-72b-instruct",
+      "context_window": 8192,
+      "input_price_per_million": 1.0,
+      "model_type": "vision"
+    },
+    {
+      "id": "qwen/qwen2.5-vl-32b-instruct",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen2.5-vl-32b-instruct",
+      "model_type": "vision"
+    },
+    {
+      "id": "qwen/qwen2.5-vl-7b-instruct",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen2.5-vl-7b-instruct",
+      "model_type": "vision"
+    },
+    {
+      "id": "qwen/qwen2.5-vl-3b-instruct",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen2.5-vl-3b-instruct",
+      "model_type": "vision"
+    },
+    {
+      "id": "qwen/qwen2-vl-72b-instruct",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen2-vl-72b-instruct",
+      "context_window": 2048,
+      "model_type": "vision"
+    },
+    {
+      "id": "qwen/qwen2.5-math-72b-instruct",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen2.5-math-72b-instruct",
+      "context_window": 3072,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen2.5-math-7b-instruct",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen2.5-math-7b-instruct",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen2.5-math-1.5b-instruct",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen2.5-math-1.5b-instruct",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen3-coder-480b-a35b-instruct",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-coder-480b-a35b-instruct",
+      "context_window": 65536,
+      "input_price_per_million": 7.5,
+      "output_price_per_million": 1.0,
+      "benchmarks": {
+        "arena_elo": 1387.0
+      },
+      "model_type": "code"
+    },
+    {
+      "id": "qwen/qwen3-coder-30b-a3b-instruct",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-coder-30b-a3b-instruct",
+      "input_price_per_million": 2.25,
+      "model_type": "code"
+    },
+    {
+      "id": "qwen/qwen2.5-coder-32b-instruct",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen2.5-coder-32b-instruct",
+      "context_window": 8192,
+      "input_price_per_million": 0.861,
+      "benchmarks": {
+        "mmlu": 0.791,
+        "gsm8k": 0.911,
+        "aider_polyglot": 8.0,
+        "arena_elo": 1270.0
+      },
+      "model_type": "code"
+    },
+    {
+      "id": "qwen/qwen2.5-coder-14b-instruct",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen2.5-coder-14b-instruct",
+      "context_window": 131072,
+      "input_price_per_million": 0.861,
+      "benchmarks": {
+        "mmlu": 0.752,
+        "gsm8k": 0.887
+      },
+      "model_type": "code"
+    },
+    {
+      "id": "qwen/qwen2.5-coder-7b-instruct",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen2.5-coder-7b-instruct",
+      "input_price_per_million": 0.287,
+      "benchmarks": {
+        "mmlu": 0.68,
+        "gsm8k": 0.839
+      },
+      "model_type": "code"
+    },
+    {
+      "id": "qwen/qwen2.5-coder-3b-instruct",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen2.5-coder-3b-instruct",
+      "benchmarks": {
+        "gsm8k": 0.757
+      },
+      "model_type": "code"
+    },
+    {
+      "id": "qwen/qwen2.5-coder-1.5b-instruct",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen2.5-coder-1.5b-instruct",
+      "benchmarks": {
+        "mmlu": 0.536,
+        "gsm8k": 0.658
+      },
+      "model_type": "code"
+    },
+    {
+      "id": "qwen/qwen2.5-coder-0.5b-instruct",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen2.5-coder-0.5b-instruct",
+      "benchmarks": {
+        "mmlu": 0.42,
+        "gsm8k": 0.345
+      },
+      "model_type": "code"
+    },
+    {
+      "id": "qwen/deepseek-v3.2",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/deepseek-v3.2",
+      "context_window": 32768,
+      "benchmarks": {
+        "aider_polyglot": 70.2,
+        "arena_elo": 1423.0,
+        "livebench_global": 52.82,
+        "livebench_reasoning": 45.5,
+        "livebench_coding": 73.19,
+        "livebench_agentic_coding": 36.67,
+        "livebench_math": 64.38,
+        "livebench_data_analysis": 65.09,
+        "livebench_language": 65.6,
+        "livebench_ifeval": 19.33
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/deepseek-v3.2-exp",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/deepseek-v3.2-exp",
+      "benchmarks": {
+        "aider_polyglot": 70.2,
+        "arena_elo": 1423.0,
+        "livebench_global": 52.82,
+        "livebench_reasoning": 45.5,
+        "livebench_coding": 73.19,
+        "livebench_agentic_coding": 36.67,
+        "livebench_math": 64.38,
+        "livebench_data_analysis": 65.09,
+        "livebench_language": 65.6,
+        "livebench_ifeval": 19.33
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/deepseek-v3.1",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/deepseek-v3.1",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/deepseek-r1",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/deepseek-r1",
+      "benchmarks": {
+        "gpqa_diamond": 0.692,
+        "math_level_5": 0.931,
+        "otis_mock_aime_2024_2025": 0.533,
+        "aider_polyglot": 56.9,
+        "simplebench": 0.309,
+        "simpleqa_verified": 0.274,
+        "swe_bench_verified": 0.333,
+        "arena_elo": 1396.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/deepseek-r1-0528",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/deepseek-r1-0528",
+      "benchmarks": {
+        "gpqa_diamond": 0.692,
+        "math_level_5": 0.931,
+        "otis_mock_aime_2024_2025": 0.533,
+        "aider_polyglot": 56.9,
+        "simplebench": 0.309,
+        "simpleqa_verified": 0.274,
+        "swe_bench_verified": 0.333,
+        "arena_elo": 1396.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/deepseek-v3",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/deepseek-v3",
+      "benchmarks": {
+        "gpqa_diamond": 0.565,
+        "mmlu": 0.871,
+        "math_level_5": 0.649,
+        "otis_mock_aime_2024_2025": 0.158,
+        "frontiermath": 0.017,
+        "aider_polyglot": 17.8,
+        "simplebench": 0.189,
+        "trivia_qa": 0.829,
+        "swe_bench_verified": 0.521,
+        "arena_elo": 1306.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/deepseek-r1-distill-qwen-1.5b",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/deepseek-r1-distill-qwen-1.5b",
+      "context_window": 16384,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/deepseek-r1-distill-qwen-7b",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/deepseek-r1-distill-qwen-7b",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/deepseek-r1-distill-qwen-14b",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/deepseek-r1-distill-qwen-14b",
+      "benchmarks": {
+        "gpqa_diamond": 0.447,
+        "math_level_5": 0.871
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/deepseek-r1-distill-qwen-32b",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/deepseek-r1-distill-qwen-32b",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/deepseek-r1-distill-llama-8b",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/deepseek-r1-distill-llama-8b",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/deepseek-r1-distill-llama-70b",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/deepseek-r1-distill-llama-70b",
+      "benchmarks": {
+        "gpqa_diamond": 0.557,
+        "math_level_5": 0.899,
+        "otis_mock_aime_2024_2025": 0.514
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/kimi-k2-thinking",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/kimi-k2-thinking",
+      "context_window": 32768,
+      "benchmarks": {
+        "frontiermath": 0.214,
+        "frontiermath_tier_4": 0.0,
+        "humanitys_last_exam": 0.239,
+        "livebench_global": 64.2,
+        "livebench_reasoning": 63.49,
+        "livebench_coding": 67.44,
+        "livebench_agentic_coding": 38.33,
+        "livebench_math": 81.1,
+        "livebench_data_analysis": 70.57,
+        "livebench_language": 66.45,
+        "livebench_ifeval": 62.03
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "qwen/moonshot-kimi-k2-instruct",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/moonshot-kimi-k2-instruct",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-image-max",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-image-max",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-image-max-2025-12-30",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-image-max-2025-12-30",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-image-plus",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-image-plus",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-image",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-image",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-image-edit-plus",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-image-edit-plus",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-image-edit-plus-2025-12-15",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-image-edit-plus-2025-12-15",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-image-edit-plus-2025-10-30",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-image-edit-plus-2025-10-30",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-image-edit",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-image-edit",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-mt-image",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-mt-image",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/wan2.6-t2i",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/wan2.6-t2i",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/wan2.5-t2i-preview",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/wan2.5-t2i-preview",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/wan2.2-t2i-plus",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/wan2.2-t2i-plus",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/wan2.2-t2i-flash",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/wan2.2-t2i-flash",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/wan2.1-t2i-plus",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/wan2.1-t2i-plus",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/wan2.1-t2i-turbo",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/wan2.1-t2i-turbo",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/wanx2.1-t2i-plus",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/wanx2.1-t2i-plus",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/wanx2.1-t2i-turbo",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/wanx2.1-t2i-turbo",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/wanx2.0-t2i-turbo",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/wanx2.0-t2i-turbo",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/wan2.6-image",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/wan2.6-image",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/wan2.5-i2i-preview",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/wan2.5-i2i-preview",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/wanx2.1-imageedit",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/wanx2.1-imageedit",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/wan2.6-t2v",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/wan2.6-t2v",
+      "input_price_per_million": 50.0,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/wan2.5-t2v-preview",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/wan2.5-t2v-preview",
+      "input_price_per_million": 50.0,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/wan2.2-t2v-plus",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/wan2.2-t2v-plus",
+      "input_price_per_million": 50.0,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/wan2.1-t2v-turbo",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/wan2.1-t2v-turbo",
+      "input_price_per_million": 200.0,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/wan2.1-t2v-plus",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/wan2.1-t2v-plus",
+      "input_price_per_million": 200.0,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/wan2.6-t2v-us",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/wan2.6-t2v-us",
+      "input_price_per_million": 50.0,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/wanx2.1-t2v-turbo",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/wanx2.1-t2v-turbo",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/wanx2.1-t2v-plus",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/wanx2.1-t2v-plus",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/wan2.6-i2v",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/wan2.6-i2v",
+      "input_price_per_million": 50.0,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/wan2.5-i2v-preview",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/wan2.5-i2v-preview",
+      "input_price_per_million": 50.0,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/wan2.2-i2v-flash",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/wan2.2-i2v-flash",
+      "input_price_per_million": 50.0,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/wan2.2-i2v-plus",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/wan2.2-i2v-plus",
+      "input_price_per_million": 50.0,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/wan2.1-i2v-turbo",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/wan2.1-i2v-turbo",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/wan2.1-i2v-plus",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/wan2.1-i2v-plus",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/wan2.6-i2v-us",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/wan2.6-i2v-us",
+      "input_price_per_million": 50.0,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/wanx2.1-i2v-turbo",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/wanx2.1-i2v-turbo",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/wanx2.1-i2v-plus",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/wanx2.1-i2v-plus",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/wan2.2-kf2v-flash",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/wan2.2-kf2v-flash",
+      "input_price_per_million": 50.0,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/wan2.1-kf2v-plus",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/wan2.1-kf2v-plus",
+      "input_price_per_million": 200.0,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/wanx2.1-kf2v-plus",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/wanx2.1-kf2v-plus",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/wan2.6-r2v",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/wan2.6-r2v",
+      "input_price_per_million": 0.1,
+      "output_price_per_million": 50.0,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/wan2.1-vace-plus",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/wan2.1-vace-plus",
+      "input_price_per_million": 50.0,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/wanx2.1-vace-plus",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/wanx2.1-vace-plus",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/wan2.2-s2v-detect",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/wan2.2-s2v-detect",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/wan2.2-s2v",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/wan2.2-s2v",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/wan2.2-animate-move",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/wan2.2-animate-move",
+      "input_price_per_million": 50.0,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/wan2.2-animate-mix",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/wan2.2-animate-mix",
+      "input_price_per_million": 50.0,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen3-tts-flash",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-tts-flash",
+      "context_window": 600,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen3-tts-flash-2025-11-27",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-tts-flash-2025-11-27",
+      "context_window": 600,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen3-tts-flash-2025-09-18",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-tts-flash-2025-09-18",
+      "context_window": 600,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-tts",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-tts",
+      "context_window": 512,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-tts-latest",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-tts-latest",
+      "context_window": 512,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-tts-2025-05-22",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-tts-2025-05-22",
+      "context_window": 512,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-tts-2025-04-10",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-tts-2025-04-10",
+      "context_window": 512,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen3-tts-vd-realtime-2025-12-16",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-tts-vd-realtime-2025-12-16",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen3-tts-vc-realtime-2025-11-27",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-tts-vc-realtime-2025-11-27",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen3-tts-flash-realtime",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-tts-flash-realtime",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen3-tts-flash-realtime-2025-11-27",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-tts-flash-realtime-2025-11-27",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen3-tts-flash-realtime-2025-09-18",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-tts-flash-realtime-2025-09-18",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-tts-realtime",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-tts-realtime",
+      "context_window": 512,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-tts-realtime-latest",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-tts-realtime-latest",
+      "context_window": 512,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-tts-realtime-2025-07-15",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-tts-realtime-2025-07-15",
+      "context_window": 512,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-voice-enrollment",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-voice-enrollment",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-voice-design",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-voice-design",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen3-livetranslate-flash-realtime",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-livetranslate-flash-realtime",
+      "context_window": 49152,
+      "input_price_per_million": 10.0,
+      "output_price_per_million": 38.0,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen3-livetranslate-flash-realtime-2025-09-22",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-livetranslate-flash-realtime-2025-09-22",
+      "context_window": 49152,
+      "input_price_per_million": 10.0,
+      "output_price_per_million": 38.0,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen3-asr-flash-filetrans",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-asr-flash-filetrans",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen3-asr-flash-filetrans-2025-11-17",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-asr-flash-filetrans-2025-11-17",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen3-asr-flash",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-asr-flash",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen3-asr-flash-2025-09-08",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-asr-flash-2025-09-08",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen3-asr-flash-us",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-asr-flash-us",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen3-asr-flash-2025-09-08-us",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-asr-flash-2025-09-08-us",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen3-asr-flash-realtime",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-asr-flash-realtime",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen3-asr-flash-realtime-2025-10-27",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-asr-flash-realtime-2025-10-27",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen3-rerank",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen3-rerank",
+      "context_window": 30000,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-plus-character-ja",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-plus-character-ja",
+      "context_window": 512,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen-plus-character",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen-plus-character",
+      "context_window": 4096,
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen2-72b-instruct",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen2-72b-instruct",
+      "context_window": 6144,
+      "benchmarks": {
+        "gpqa_diamond": 0.408,
+        "mmlu": 0.824,
+        "math_level_5": 0.391,
+        "arena_elo": 1262.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen2-57b-a14b-instruct",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen2-57b-a14b-instruct",
+      "benchmarks": {
+        "mmlu": 0.729
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen2-7b-instruct",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen2-7b-instruct",
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen1.5-110b-chat",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen1.5-110b-chat",
+      "context_window": 2000,
+      "benchmarks": {
+        "arena_elo": 1234.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen1.5-72b-chat",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen1.5-72b-chat",
+      "benchmarks": {
+        "gpqa_diamond": 0.288,
+        "arena_elo": 1234.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen1.5-32b-chat",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen1.5-32b-chat",
+      "benchmarks": {
+        "gpqa_diamond": 0.307,
+        "mmlu": 0.744,
+        "arena_elo": 1205.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen1.5-14b-chat",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen1.5-14b-chat",
+      "benchmarks": {
+        "mmlu": 0.686,
+        "arena_elo": 1193.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "qwen/qwen1.5-7b-chat",
+      "name": null,
+      "provider": "qwen",
+      "model_id": "qwen/qwen1.5-7b-chat",
+      "benchmarks": {
+        "mmlu": 0.626,
+        "arena_elo": 1144.0
+      },
+      "model_type": "chat"
+    }
+  ]
+}

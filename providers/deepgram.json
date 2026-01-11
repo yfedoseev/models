@@ -1,0 +1,55 @@
+{
+  "provider": "deepgram",
+  "model_count": 7,
+  "models": [
+    {
+      "id": "deepgram/nova-3",
+      "name": "Nova 3",
+      "provider": "deepgram",
+      "model_id": "nova-3",
+      "model_type": "audio_stt"
+    },
+    {
+      "id": "deepgram/nova-2",
+      "name": "Nova 2",
+      "provider": "deepgram",
+      "model_id": "nova-2",
+      "model_type": "audio_stt"
+    },
+    {
+      "id": "deepgram/enhanced",
+      "name": "Enhanced",
+      "provider": "deepgram",
+      "model_id": "enhanced",
+      "model_type": "audio_stt"
+    },
+    {
+      "id": "deepgram/base",
+      "name": "Base",
+      "provider": "deepgram",
+      "model_id": "base",
+      "model_type": "audio_stt"
+    },
+    {
+      "id": "deepgram/whisper",
+      "name": "Whisper",
+      "provider": "deepgram",
+      "model_id": "whisper",
+      "model_type": "audio_stt"
+    },
+    {
+      "id": "deepgram/aura-2",
+      "name": "Aura 2",
+      "provider": "deepgram",
+      "model_id": "aura-2",
+      "model_type": "audio_tts"
+    },
+    {
+      "id": "deepgram/aura-1",
+      "name": "Aura 1",
+      "provider": "deepgram",
+      "model_id": "aura-1",
+      "model_type": "audio_tts"
+    }
+  ]
+}

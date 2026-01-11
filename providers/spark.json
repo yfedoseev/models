@@ -1,0 +1,67 @@
+{
+  "provider": "spark",
+  "model_count": 7,
+  "models": [
+    {
+      "id": "spark/spark-lite",
+      "name": "Spark Lite",
+      "provider": "spark",
+      "model_id": "spark-lite",
+      "model_type": "chat"
+    },
+    {
+      "id": "spark/spark-v2",
+      "name": "Spark V2.0",
+      "provider": "spark",
+      "model_id": "spark-v2",
+      "input_price_per_million": 0.5,
+      "output_price_per_million": 0.5,
+      "model_type": "chat"
+    },
+    {
+      "id": "spark/spark-pro",
+      "name": "Spark Pro",
+      "provider": "spark",
+      "model_id": "spark-pro",
+      "input_price_per_million": 0.5,
+      "output_price_per_million": 0.5,
+      "model_type": "chat"
+    },
+    {
+      "id": "spark/spark-pro-128k",
+      "name": "Spark Pro-128K",
+      "provider": "spark",
+      "model_id": "spark-pro-128k",
+      "input_price_per_million": 1.0,
+      "output_price_per_million": 1.0,
+      "model_type": "chat"
+    },
+    {
+      "id": "spark/spark-max",
+      "name": "Spark Max",
+      "provider": "spark",
+      "model_id": "spark-max",
+      "input_price_per_million": 1.0,
+      "output_price_per_million": 1.0,
+      "model_type": "chat"
+    },
+    {
+      "id": "spark/spark-4-ultra",
+      "name": "Spark 4.0 Ultra",
+      "provider": "spark",
+      "model_id": "spark-4-ultra",
+      "input_price_per_million": 2.0,
+      "output_price_per_million": 2.0,
+      "model_type": "reasoning"
+    },
+    {
+      "id": "spark/spark-4-turbo",
+      "name": "Spark 4.0 Turbo",
+      "provider": "spark",
+      "model_id": "spark-4-turbo",
+      "input_price_per_million": 1.5,
+      "output_price_per_million": 1.5,
+      "model_type": "reasoning"
+    }
+  ]
+}

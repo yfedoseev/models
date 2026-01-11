@@ -1,0 +1,97 @@
+{
+  "provider": "bfl",
+  "model_count": 13,
+  "models": [
+    {
+      "id": "bfl//v1/flux-2-flex",
+      "name": "FLUX.2 [max]",
+      "provider": "bfl",
+      "model_id": null,
+      "model_type": "unknown"
+    },
+    {
+      "id": "bfl//v1/flux-kontext-max",
+      "name": "FLUX.1 Kontext [max]",
+      "provider": "bfl",
+      "model_id": null,
+      "model_type": "unknown"
+    },
+    {
+      "id": "bfl//v1/flux-kontext-pro",
+      "name": "FLUX.1 Kontext [pro]",
+      "provider": "bfl",
+      "model_id": null,
+      "model_type": "unknown"
+    },
+    {
+      "id": "bfl//v1/flux-pro-1.1-ultra",
+      "name": "FLUX 1.1 [pro] Ultra",
+      "provider": "bfl",
+      "model_id": null,
+      "model_type": "unknown"
+    },
+    {
+      "id": "bfl//v1/flux-pro-1.1",
+      "name": "FLUX 1.1 [pro]",
+      "provider": "bfl",
+      "model_id": null,
+      "model_type": "unknown"
+    },
+    {
+      "id": "bfl//v1/flux-pro",
+      "name": "FLUX.1 [pro]",
+      "provider": "bfl",
+      "model_id": null,
+      "model_type": "unknown"
+    },
+    {
+      "id": "bfl//v1/flux-dev",
+      "name": "FLUX.1 [dev]",
+      "provider": "bfl",
+      "model_id": null,
+      "model_type": "unknown"
+    },
+    {
+      "id": "bfl//v1/flux-pro-1.0-fill",
+      "name": "FLUX.1 Fill [pro]",
+      "provider": "bfl",
+      "model_id": null,
+      "model_type": "unknown"
+    },
+    {
+      "id": "bfl//v1/flux-pro-1.1-ultra-finetuned",
+      "name": "FLUX 1.1 [pro] ultra Finetune",
+      "provider": "bfl",
+      "model_id": null,
+      "model_type": "unknown"
+    },
+    {
+      "id": "bfl//v1/flux-pro-1.0-finetuned",
+      "name": "FLUX.1 [pro] Finetune",
+      "provider": "bfl",
+      "model_id": null,
+      "model_type": "unknown"
+    },
+    {
+      "id": "bfl//v1/flux-pro-1.0-depth-finetuned",
+      "name": "FLUX.1 [pro] depth Finetune",
+      "provider": "bfl",
+      "model_id": null,
+      "model_type": "unknown"
+    },
+    {
+      "id": "bfl//v1/flux-pro-1.0-canny-finetuned",
+      "name": "FLUX.1 [pro] canny Finetune",
+      "provider": "bfl",
+      "model_id": null,
+      "model_type": "unknown"
+    },
+    {
+      "id": "bfl//v1/flux-pro-1.0-fill-finetuned",
+      "name": "FLUX.1 [pro] fill Finetune",
+      "provider": "bfl",
+      "model_id": null,
+      "model_type": "unknown"
+    }
+  ]
+}

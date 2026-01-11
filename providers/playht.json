@@ -1,0 +1,24 @@
+{
+  "provider": "playht",
+  "model_count": 3,
+  "models": [
+    {
+      "id": "playht/play-dialog",
+      "name": "play-dialog",
+      "provider": "playht",
+      "model_id": "play-dialog"
+    },
+    {
+      "id": "playht/play3.0-mini",
+      "name": "play3.0-mini",
+      "provider": "playht",
+      "model_id": "play3.0-mini"
+    },
+    {
+      "id": "playht/playht-2.0-turbo",
+      "name": "playht-2.0-turbo",
+      "provider": "playht",
+      "model_id": "playht-2.0-turbo"
+    }
+  ]
+}

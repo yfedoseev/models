@@ -1,0 +1,694 @@
+{
+  "provider": "ai71",
+  "model_count": 109,
+  "models": [
+    {
+      "id": "ai71/tiiuae/Falcon-H1R-7B",
+      "name": "tiiuae/Falcon-H1R-7B",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon-H1R-7B"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon-H1R-7B-GGUF",
+      "name": "tiiuae/Falcon-H1R-7B-GGUF",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon-H1R-7B-GGUF"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon-H1-7B-Base",
+      "name": "tiiuae/Falcon-H1-7B-Base",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon-H1-7B-Base"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon-H1-0.5B-Instruct",
+      "name": "tiiuae/Falcon-H1-0.5B-Instruct",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon-H1-0.5B-Instruct"
+    },
+    {
+      "id": "ai71/tiiuae/falcon-mamba-7b",
+      "name": "tiiuae/falcon-mamba-7b",
+      "provider": "ai71",
+      "model_id": "tiiuae/falcon-mamba-7b"
+    },
+    {
+      "id": "ai71/tiiuae/falcon-mamba-tiny-dev",
+      "name": "tiiuae/falcon-mamba-tiny-dev",
+      "provider": "ai71",
+      "model_id": "tiiuae/falcon-mamba-tiny-dev"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon3-1B-Base",
+      "name": "tiiuae/Falcon3-1B-Base",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon3-1B-Base"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon-H1-1.5B-Instruct",
+      "name": "tiiuae/Falcon-H1-1.5B-Instruct",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon-H1-1.5B-Instruct"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon-H1-3B-Instruct",
+      "name": "tiiuae/Falcon-H1-3B-Instruct",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon-H1-3B-Instruct"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon-H1-7B-Instruct",
+      "name": "tiiuae/Falcon-H1-7B-Instruct",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon-H1-7B-Instruct"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon-H1-34B-Instruct",
+      "name": "tiiuae/Falcon-H1-34B-Instruct",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon-H1-34B-Instruct"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon-H1-1.5B-Instruct-GGUF",
+      "name": "tiiuae/Falcon-H1-1.5B-Instruct-GGUF",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon-H1-1.5B-Instruct-GGUF"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon-H1-3B-Instruct-GGUF",
+      "name": "tiiuae/Falcon-H1-3B-Instruct-GGUF",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon-H1-3B-Instruct-GGUF"
+    },
+    {
+      "id": "ai71/tiiuae/falcon-7b",
+      "name": "tiiuae/falcon-7b",
+      "provider": "ai71",
+      "model_id": "tiiuae/falcon-7b",
+      "benchmarks": {
+        "mmlu": 0.239,
+        "gsm8k": 0.046,
+        "trivia_qa": 0.611
+      }
+    },
+    {
+      "id": "ai71/tiiuae/falcon-7b-instruct",
+      "name": "tiiuae/falcon-7b-instruct",
+      "provider": "ai71",
+      "model_id": "tiiuae/falcon-7b-instruct",
+      "benchmarks": {
+        "mmlu": 0.239,
+        "gsm8k": 0.046,
+        "trivia_qa": 0.611
+      }
+    },
+    {
+      "id": "ai71/tiiuae/falcon-rw-1b",
+      "name": "tiiuae/falcon-rw-1b",
+      "provider": "ai71",
+      "model_id": "tiiuae/falcon-rw-1b"
+    },
+    {
+      "id": "ai71/tiiuae/falcon-rw-7b",
+      "name": "tiiuae/falcon-rw-7b",
+      "provider": "ai71",
+      "model_id": "tiiuae/falcon-rw-7b"
+    },
+    {
+      "id": "ai71/tiiuae/falcon-40b",
+      "name": "tiiuae/falcon-40b",
+      "provider": "ai71",
+      "model_id": "tiiuae/falcon-40b",
+      "benchmarks": {
+        "mmlu": 0.554,
+        "gsm8k": 0.215,
+        "trivia_qa": 0.796
+      }
+    },
+    {
+      "id": "ai71/tiiuae/falcon-40b-instruct",
+      "name": "tiiuae/falcon-40b-instruct",
+      "provider": "ai71",
+      "model_id": "tiiuae/falcon-40b-instruct",
+      "benchmarks": {
+        "mmlu": 0.554,
+        "gsm8k": 0.215,
+        "trivia_qa": 0.796
+      }
+    },
+    {
+      "id": "ai71/tiiuae/falcon-180B",
+      "name": "tiiuae/falcon-180B",
+      "provider": "ai71",
+      "model_id": "tiiuae/falcon-180B",
+      "benchmarks": {
+        "mmlu": 0.706,
+        "gsm8k": 0.544,
+        "arena_elo": 1148.0
+      }
+    },
+    {
+      "id": "ai71/tiiuae/falcon-180B-chat",
+      "name": "tiiuae/falcon-180B-chat",
+      "provider": "ai71",
+      "model_id": "tiiuae/falcon-180B-chat",
+      "benchmarks": {
+        "mmlu": 0.706,
+        "gsm8k": 0.544,
+        "arena_elo": 1148.0
+      }
+    },
+    {
+      "id": "ai71/tiiuae/falcon-11B",
+      "name": "tiiuae/falcon-11B",
+      "provider": "ai71",
+      "model_id": "tiiuae/falcon-11B",
+      "benchmarks": {
+        "mmlu": 0.584,
+        "gsm8k": 0.538
+      }
+    },
+    {
+      "id": "ai71/tiiuae/falcon-11B-vlm",
+      "name": "tiiuae/falcon-11B-vlm",
+      "provider": "ai71",
+      "model_id": "tiiuae/falcon-11B-vlm"
+    },
+    {
+      "id": "ai71/tiiuae/visper",
+      "name": "tiiuae/visper",
+      "provider": "ai71",
+      "model_id": "tiiuae/visper"
+    },
+    {
+      "id": "ai71/tiiuae/viscon-contextual-captioner",
+      "name": "tiiuae/viscon-contextual-captioner",
+      "provider": "ai71",
+      "model_id": "tiiuae/viscon-contextual-captioner"
+    },
+    {
+      "id": "ai71/tiiuae/falcon-mamba-7b-4bit",
+      "name": "tiiuae/falcon-mamba-7b-4bit",
+      "provider": "ai71",
+      "model_id": "tiiuae/falcon-mamba-7b-4bit"
+    },
+    {
+      "id": "ai71/tiiuae/falcon-mamba-7b-instruct",
+      "name": "tiiuae/falcon-mamba-7b-instruct",
+      "provider": "ai71",
+      "model_id": "tiiuae/falcon-mamba-7b-instruct"
+    },
+    {
+      "id": "ai71/tiiuae/falcon-mamba-7b-instruct-4bit",
+      "name": "tiiuae/falcon-mamba-7b-instruct-4bit",
+      "provider": "ai71",
+      "model_id": "tiiuae/falcon-mamba-7b-instruct-4bit"
+    },
+    {
+      "id": "ai71/tiiuae/falcon-mamba-7b-instruct-Q8_0-GGUF",
+      "name": "tiiuae/falcon-mamba-7b-instruct-Q8_0-GGUF",
+      "provider": "ai71",
+      "model_id": "tiiuae/falcon-mamba-7b-instruct-Q8_0-GGUF"
+    },
+    {
+      "id": "ai71/tiiuae/falcon-mamba-7b-Q8_0-GGUF",
+      "name": "tiiuae/falcon-mamba-7b-Q8_0-GGUF",
+      "provider": "ai71",
+      "model_id": "tiiuae/falcon-mamba-7b-Q8_0-GGUF"
+    },
+    {
+      "id": "ai71/tiiuae/falcon-mamba-7b-F16-GGUF",
+      "name": "tiiuae/falcon-mamba-7b-F16-GGUF",
+      "provider": "ai71",
+      "model_id": "tiiuae/falcon-mamba-7b-F16-GGUF"
+    },
+    {
+      "id": "ai71/tiiuae/falcon-mamba-7b-BF16-GGUF",
+      "name": "tiiuae/falcon-mamba-7b-BF16-GGUF",
+      "provider": "ai71",
+      "model_id": "tiiuae/falcon-mamba-7b-BF16-GGUF"
+    },
+    {
+      "id": "ai71/tiiuae/falcon-mamba-7b-instruct-F16-GGUF",
+      "name": "tiiuae/falcon-mamba-7b-instruct-F16-GGUF",
+      "provider": "ai71",
+      "model_id": "tiiuae/falcon-mamba-7b-instruct-F16-GGUF"
+    },
+    {
+      "id": "ai71/tiiuae/falcon-mamba-7b-instruct-BF16-GGUF",
+      "name": "tiiuae/falcon-mamba-7b-instruct-BF16-GGUF",
+      "provider": "ai71",
+      "model_id": "tiiuae/falcon-mamba-7b-instruct-BF16-GGUF"
+    },
+    {
+      "id": "ai71/tiiuae/falcon-mamba-7b-Q4_K_M-GGUF",
+      "name": "tiiuae/falcon-mamba-7b-Q4_K_M-GGUF",
+      "provider": "ai71",
+      "model_id": "tiiuae/falcon-mamba-7b-Q4_K_M-GGUF"
+    },
+    {
+      "id": "ai71/tiiuae/falcon-mamba-7b-instruct-Q4_K_M-GGUF",
+      "name": "tiiuae/falcon-mamba-7b-instruct-Q4_K_M-GGUF",
+      "provider": "ai71",
+      "model_id": "tiiuae/falcon-mamba-7b-instruct-Q4_K_M-GGUF"
+    },
+    {
+      "id": "ai71/tiiuae/falcon-mamba-7b-pre-decay",
+      "name": "tiiuae/falcon-mamba-7b-pre-decay",
+      "provider": "ai71",
+      "model_id": "tiiuae/falcon-mamba-7b-pre-decay"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon3-7B-Base-1.58bit",
+      "name": "tiiuae/Falcon3-7B-Base-1.58bit",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon3-7B-Base-1.58bit"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon3-7B-Base",
+      "name": "tiiuae/Falcon3-7B-Base",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon3-7B-Base"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon3-3B-Base-1.58bit",
+      "name": "tiiuae/Falcon3-3B-Base-1.58bit",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon3-3B-Base-1.58bit"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon3-7B-Instruct-1.58bit",
+      "name": "tiiuae/Falcon3-7B-Instruct-1.58bit",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon3-7B-Instruct-1.58bit"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon3-3B-Instruct-1.58bit",
+      "name": "tiiuae/Falcon3-3B-Instruct-1.58bit",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon3-3B-Instruct-1.58bit"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon3-7B-Instruct",
+      "name": "tiiuae/Falcon3-7B-Instruct",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon3-7B-Instruct"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon3-10B-Base",
+      "name": "tiiuae/Falcon3-10B-Base",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon3-10B-Base"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon3-Mamba-7B-Base",
+      "name": "tiiuae/Falcon3-Mamba-7B-Base",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon3-Mamba-7B-Base"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon3-3B-Base",
+      "name": "tiiuae/Falcon3-3B-Base",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon3-3B-Base"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon3-Mamba-7B-Instruct",
+      "name": "tiiuae/Falcon3-Mamba-7B-Instruct",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon3-Mamba-7B-Instruct"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon3-10B-Instruct",
+      "name": "tiiuae/Falcon3-10B-Instruct",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon3-10B-Instruct"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon3-1B-Instruct",
+      "name": "tiiuae/Falcon3-1B-Instruct",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon3-1B-Instruct"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon3-3B-Instruct",
+      "name": "tiiuae/Falcon3-3B-Instruct",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon3-3B-Instruct"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon3-7B-Instruct-GPTQ-Int8",
+      "name": "tiiuae/Falcon3-7B-Instruct-GPTQ-Int8",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon3-7B-Instruct-GPTQ-Int8"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon3-7B-Instruct-GPTQ-Int4",
+      "name": "tiiuae/Falcon3-7B-Instruct-GPTQ-Int4",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon3-7B-Instruct-GPTQ-Int4"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon3-10B-Instruct-GPTQ-Int8",
+      "name": "tiiuae/Falcon3-10B-Instruct-GPTQ-Int8",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon3-10B-Instruct-GPTQ-Int8"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon3-10B-Instruct-GPTQ-Int4",
+      "name": "tiiuae/Falcon3-10B-Instruct-GPTQ-Int4",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon3-10B-Instruct-GPTQ-Int4"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon3-10B-Instruct-AWQ",
+      "name": "tiiuae/Falcon3-10B-Instruct-AWQ",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon3-10B-Instruct-AWQ"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon3-7B-Instruct-AWQ",
+      "name": "tiiuae/Falcon3-7B-Instruct-AWQ",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon3-7B-Instruct-AWQ"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon3-1B-Instruct-AWQ",
+      "name": "tiiuae/Falcon3-1B-Instruct-AWQ",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon3-1B-Instruct-AWQ"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon3-3B-Instruct-AWQ",
+      "name": "tiiuae/Falcon3-3B-Instruct-AWQ",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon3-3B-Instruct-AWQ"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon3-3B-Instruct-GPTQ-Int8",
+      "name": "tiiuae/Falcon3-3B-Instruct-GPTQ-Int8",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon3-3B-Instruct-GPTQ-Int8"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon3-3B-Instruct-GPTQ-Int4",
+      "name": "tiiuae/Falcon3-3B-Instruct-GPTQ-Int4",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon3-3B-Instruct-GPTQ-Int4"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon3-1B-Instruct-GPTQ-Int4",
+      "name": "tiiuae/Falcon3-1B-Instruct-GPTQ-Int4",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon3-1B-Instruct-GPTQ-Int4"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon3-1B-Instruct-GPTQ-Int8",
+      "name": "tiiuae/Falcon3-1B-Instruct-GPTQ-Int8",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon3-1B-Instruct-GPTQ-Int8"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon3-7B-Instruct-GGUF",
+      "name": "tiiuae/Falcon3-7B-Instruct-GGUF",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon3-7B-Instruct-GGUF"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon3-10B-Instruct-GGUF",
+      "name": "tiiuae/Falcon3-10B-Instruct-GGUF",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon3-10B-Instruct-GGUF"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon3-1B-Instruct-GGUF",
+      "name": "tiiuae/Falcon3-1B-Instruct-GGUF",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon3-1B-Instruct-GGUF"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon3-3B-Instruct-GGUF",
+      "name": "tiiuae/Falcon3-3B-Instruct-GGUF",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon3-3B-Instruct-GGUF"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon3-Mamba-7B-Base-GGUF",
+      "name": "tiiuae/Falcon3-Mamba-7B-Base-GGUF",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon3-Mamba-7B-Base-GGUF"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon3-Mamba-7B-Instruct-GGUF",
+      "name": "tiiuae/Falcon3-Mamba-7B-Instruct-GGUF",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon3-Mamba-7B-Instruct-GGUF"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon3-10B-Instruct-1.58bit",
+      "name": "tiiuae/Falcon3-10B-Instruct-1.58bit",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon3-10B-Instruct-1.58bit"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon3-1B-Instruct-1.58bit",
+      "name": "tiiuae/Falcon3-1B-Instruct-1.58bit",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon3-1B-Instruct-1.58bit"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon3-10B-Base-1.58bit",
+      "name": "tiiuae/Falcon3-10B-Base-1.58bit",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon3-10B-Base-1.58bit"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon3-7B-Instruct-1.58bit-GGUF",
+      "name": "tiiuae/Falcon3-7B-Instruct-1.58bit-GGUF",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon3-7B-Instruct-1.58bit-GGUF"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon3-10B-Instruct-1.58bit-GGUF",
+      "name": "tiiuae/Falcon3-10B-Instruct-1.58bit-GGUF",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon3-10B-Instruct-1.58bit-GGUF"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon3-1B-Instruct-1.58bit-GGUF",
+      "name": "tiiuae/Falcon3-1B-Instruct-1.58bit-GGUF",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon3-1B-Instruct-1.58bit-GGUF"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon3-3B-Instruct-1.58bit-GGUF",
+      "name": "tiiuae/Falcon3-3B-Instruct-1.58bit-GGUF",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon3-3B-Instruct-1.58bit-GGUF"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon-E-1B-Base",
+      "name": "tiiuae/Falcon-E-1B-Base",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon-E-1B-Base"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon-E-3B-Base",
+      "name": "tiiuae/Falcon-E-3B-Base",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon-E-3B-Base"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon-E-1B-Instruct",
+      "name": "tiiuae/Falcon-E-1B-Instruct",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon-E-1B-Instruct"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon-E-3B-Instruct",
+      "name": "tiiuae/Falcon-E-3B-Instruct",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon-E-3B-Instruct"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon-E-3B-Instruct-GGUF",
+      "name": "tiiuae/Falcon-E-3B-Instruct-GGUF",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon-E-3B-Instruct-GGUF"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon-E-1B-Instruct-GGUF",
+      "name": "tiiuae/Falcon-E-1B-Instruct-GGUF",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon-E-1B-Instruct-GGUF"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon-H1-0.5B-Base",
+      "name": "tiiuae/Falcon-H1-0.5B-Base",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon-H1-0.5B-Base"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon-H1-1.5B-Base",
+      "name": "tiiuae/Falcon-H1-1.5B-Base",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon-H1-1.5B-Base"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon-H1-1.5B-Deep-Base",
+      "name": "tiiuae/Falcon-H1-1.5B-Deep-Base",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon-H1-1.5B-Deep-Base"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon-H1-3B-Base",
+      "name": "tiiuae/Falcon-H1-3B-Base",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon-H1-3B-Base"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon-H1-34B-Base",
+      "name": "tiiuae/Falcon-H1-34B-Base",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon-H1-34B-Base"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon-H1-1.5B-Deep-Instruct",
+      "name": "tiiuae/Falcon-H1-1.5B-Deep-Instruct",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon-H1-1.5B-Deep-Instruct"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon-H1-0.5B-Instruct-GPTQ-Int4",
+      "name": "tiiuae/Falcon-H1-0.5B-Instruct-GPTQ-Int4",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon-H1-0.5B-Instruct-GPTQ-Int4"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon-H1-0.5B-Instruct-GPTQ-Int8",
+      "name": "tiiuae/Falcon-H1-0.5B-Instruct-GPTQ-Int8",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon-H1-0.5B-Instruct-GPTQ-Int8"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon-H1-1.5B-Instruct-GPTQ-Int4",
+      "name": "tiiuae/Falcon-H1-1.5B-Instruct-GPTQ-Int4",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon-H1-1.5B-Instruct-GPTQ-Int4"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon-H1-1.5B-Instruct-GPTQ-Int8",
+      "name": "tiiuae/Falcon-H1-1.5B-Instruct-GPTQ-Int8",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon-H1-1.5B-Instruct-GPTQ-Int8"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon-H1-1.5B-Deep-Instruct-GPTQ-Int4",
+      "name": "tiiuae/Falcon-H1-1.5B-Deep-Instruct-GPTQ-Int4",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon-H1-1.5B-Deep-Instruct-GPTQ-Int4"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon-H1-1.5B-Deep-Instruct-GPTQ-Int8",
+      "name": "tiiuae/Falcon-H1-1.5B-Deep-Instruct-GPTQ-Int8",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon-H1-1.5B-Deep-Instruct-GPTQ-Int8"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon-H1-3B-Instruct-GPTQ-Int4",
+      "name": "tiiuae/Falcon-H1-3B-Instruct-GPTQ-Int4",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon-H1-3B-Instruct-GPTQ-Int4"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon-H1-3B-Instruct-GPTQ-Int8",
+      "name": "tiiuae/Falcon-H1-3B-Instruct-GPTQ-Int8",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon-H1-3B-Instruct-GPTQ-Int8"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon-H1-7B-Instruct-GPTQ-Int4",
+      "name": "tiiuae/Falcon-H1-7B-Instruct-GPTQ-Int4",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon-H1-7B-Instruct-GPTQ-Int4"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon-H1-7B-Instruct-GPTQ-Int8",
+      "name": "tiiuae/Falcon-H1-7B-Instruct-GPTQ-Int8",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon-H1-7B-Instruct-GPTQ-Int8"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon-H1-34B-Instruct-GPTQ-Int4",
+      "name": "tiiuae/Falcon-H1-34B-Instruct-GPTQ-Int4",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon-H1-34B-Instruct-GPTQ-Int4"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon-H1-34B-Instruct-GPTQ-Int8",
+      "name": "tiiuae/Falcon-H1-34B-Instruct-GPTQ-Int8",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon-H1-34B-Instruct-GPTQ-Int8"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon-H1-0.5B-Instruct-GGUF",
+      "name": "tiiuae/Falcon-H1-0.5B-Instruct-GGUF",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon-H1-0.5B-Instruct-GGUF"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon-H1-1.5B-Deep-Instruct-GGUF",
+      "name": "tiiuae/Falcon-H1-1.5B-Deep-Instruct-GGUF",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon-H1-1.5B-Deep-Instruct-GGUF"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon-H1-7B-Instruct-GGUF",
+      "name": "tiiuae/Falcon-H1-7B-Instruct-GGUF",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon-H1-7B-Instruct-GGUF"
+    },
+    {
+      "id": "ai71/tiiuae/Falcon-H1-34B-Instruct-GGUF",
+      "name": "tiiuae/Falcon-H1-34B-Instruct-GGUF",
+      "provider": "ai71",
+      "model_id": "tiiuae/Falcon-H1-34B-Instruct-GGUF"
+    },
+    {
+      "id": "ai71/tiiuae/dense-1b-arch1",
+      "name": "tiiuae/dense-1b-arch1",
+      "provider": "ai71",
+      "model_id": "tiiuae/dense-1b-arch1"
+    },
+    {
+      "id": "ai71/tiiuae/dense-3b-arch1",
+      "name": "tiiuae/dense-3b-arch1",
+      "provider": "ai71",
+      "model_id": "tiiuae/dense-3b-arch1"
+    },
+    {
+      "id": "ai71/tiiuae/dense-500m-arch1",
+      "name": "tiiuae/dense-500m-arch1",
+      "provider": "ai71",
+      "model_id": "tiiuae/dense-500m-arch1"
+    },
+    {
+      "id": "ai71/tiiuae/dense-1b-arch2",
+      "name": "tiiuae/dense-1b-arch2",
+      "provider": "ai71",
+      "model_id": "tiiuae/dense-1b-arch2"
+    },
+    {
+      "id": "ai71/tiiuae/dense-3b-arch2",
+      "name": "tiiuae/dense-3b-arch2",
+      "provider": "ai71",
+      "model_id": "tiiuae/dense-3b-arch2"
+    },
+    {
+      "id": "ai71/tiiuae/dense-500m-arch2",
+      "name": "tiiuae/dense-500m-arch2",
+      "provider": "ai71",
+      "model_id": "tiiuae/dense-500m-arch2"
+    }
+  ]
+}

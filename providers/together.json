@@ -1,0 +1,1234 @@
+{
+  "provider": "together",
+  "model_count": 140,
+  "models": [
+    {
+      "id": "together/Llama 4 Maverick Llama",
+      "name": null,
+      "provider": "together",
+      "model_id": "Llama 4 Maverick Llama",
+      "input_price_per_million": 0.27,
+      "output_price_per_million": 0.85,
+      "model_type": "chat"
+    },
+    {
+      "id": "together/Llama 4 Scout Llama",
+      "name": null,
+      "provider": "together",
+      "model_id": "Llama 4 Scout Llama",
+      "input_price_per_million": 0.18,
+      "output_price_per_million": 0.59,
+      "model_type": "chat"
+    },
+    {
+      "id": "together/Llama 3.3 70B Instruct-Turbo Llama",
+      "name": null,
+      "provider": "together",
+      "model_id": "Llama 3.3 70B Instruct-Turbo Llama",
+      "input_price_per_million": 0.88,
+      "output_price_per_million": 0.88,
+      "model_type": "chat"
+    },
+    {
+      "id": "together/Llama 3.2 3B Instruct Turbo Llama",
+      "name": null,
+      "provider": "together",
+      "model_id": "Llama 3.2 3B Instruct Turbo Llama",
+      "input_price_per_million": 0.06,
+      "output_price_per_million": 0.06,
+      "model_type": "chat"
+    },
+    {
+      "id": "together/Llama 3.1 405B Instruct Turbo Llama",
+      "name": null,
+      "provider": "together",
+      "model_id": "Llama 3.1 405B Instruct Turbo Llama",
+      "input_price_per_million": 3.5,
+      "output_price_per_million": 3.5,
+      "model_type": "chat"
+    },
+    {
+      "id": "together/Llama 3.1 70B Instruct Turbo Llama",
+      "name": null,
+      "provider": "together",
+      "model_id": "Llama 3.1 70B Instruct Turbo Llama",
+      "input_price_per_million": 0.88,
+      "output_price_per_million": 0.88,
+      "model_type": "chat"
+    },
+    {
+      "id": "together/Llama 3.1 8B Instruct Turbo Llama",
+      "name": null,
+      "provider": "together",
+      "model_id": "Llama 3.1 8B Instruct Turbo Llama",
+      "input_price_per_million": 0.18,
+      "output_price_per_million": 0.18,
+      "model_type": "chat"
+    },
+    {
+      "id": "together/Llama 3 8B Instruct Lite Llama",
+      "name": null,
+      "provider": "together",
+      "model_id": "Llama 3 8B Instruct Lite Llama",
+      "input_price_per_million": 0.1,
+      "output_price_per_million": 0.1,
+      "model_type": "chat"
+    },
+    {
+      "id": "together/Llama 3 70B Instruct Reference Llama",
+      "name": null,
+      "provider": "together",
+      "model_id": "Llama 3 70B Instruct Reference Llama",
+      "input_price_per_million": 0.88,
+      "output_price_per_million": 0.88,
+      "model_type": "chat"
+    },
+    {
+      "id": "together/Llama 3 70B Instruct Turbo Llama",
+      "name": null,
+      "provider": "together",
+      "model_id": "Llama 3 70B Instruct Turbo Llama",
+      "input_price_per_million": 0.88,
+      "output_price_per_million": 0.88,
+      "model_type": "chat"
+    },
+    {
+      "id": "together/LLaMA-2 Llama",
+      "name": null,
+      "provider": "together",
+      "model_id": "LLaMA-2 Llama",
+      "input_price_per_million": 0.9,
+      "output_price_per_million": 0.9,
+      "model_type": "chat"
+    },
+    {
+      "id": "together/DeepSeek-R1 DeepSeek",
+      "name": null,
+      "provider": "together",
+      "model_id": "DeepSeek-R1 DeepSeek",
+      "input_price_per_million": 3.0,
+      "output_price_per_million": 7.0,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/DeepSeek R1 Distilled Qwen 14B DeepSeek",
+      "name": null,
+      "provider": "together",
+      "model_id": "DeepSeek R1 Distilled Qwen 14B DeepSeek",
+      "input_price_per_million": 0.18,
+      "output_price_per_million": 0.18,
+      "model_type": "chat"
+    },
+    {
+      "id": "together/DeepSeek R1 Distilled Llama 70B DeepSeek",
+      "name": null,
+      "provider": "together",
+      "model_id": "DeepSeek R1 Distilled Llama 70B DeepSeek",
+      "input_price_per_million": 2.0,
+      "output_price_per_million": 2.0,
+      "model_type": "chat"
+    },
+    {
+      "id": "together/DeepSeek R1-0528-tput DeepSeek",
+      "name": null,
+      "provider": "together",
+      "model_id": "DeepSeek R1-0528-tput DeepSeek",
+      "input_price_per_million": 0.55,
+      "output_price_per_million": 2.19,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/DeepSeek-V3-1 DeepSeek",
+      "name": null,
+      "provider": "together",
+      "model_id": "DeepSeek-V3-1 DeepSeek",
+      "input_price_per_million": 0.6,
+      "output_price_per_million": 1.7,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/DeepSeek-V3 DeepSeek",
+      "name": null,
+      "provider": "together",
+      "model_id": "DeepSeek-V3 DeepSeek",
+      "input_price_per_million": 1.25,
+      "output_price_per_million": 1.25,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/gpt-oss-120B OpenAI",
+      "name": null,
+      "provider": "together",
+      "model_id": "gpt-oss-120B OpenAI",
+      "input_price_per_million": 0.15,
+      "output_price_per_million": 0.6,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/gpt-oss-20B OpenAI",
+      "name": null,
+      "provider": "together",
+      "model_id": "gpt-oss-20B OpenAI",
+      "input_price_per_million": 0.05,
+      "output_price_per_million": 0.2,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Qwen3 Next 80B A3B Instruct Qwen",
+      "name": null,
+      "provider": "together",
+      "model_id": "Qwen3 Next 80B A3B Instruct Qwen",
+      "input_price_per_million": 0.15,
+      "output_price_per_million": 1.5,
+      "model_type": "chat"
+    },
+    {
+      "id": "together/Qwen3 Next 80B A3B Thinking Qwen",
+      "name": null,
+      "provider": "together",
+      "model_id": "Qwen3 Next 80B A3B Thinking Qwen",
+      "input_price_per_million": 0.15,
+      "output_price_per_million": 1.5,
+      "model_type": "chat"
+    },
+    {
+      "id": "together/Qwen3-VL 32B Instruct Qwen",
+      "name": null,
+      "provider": "together",
+      "model_id": "Qwen3-VL 32B Instruct Qwen",
+      "input_price_per_million": 0.5,
+      "output_price_per_million": 1.5,
+      "model_type": "vision"
+    },
+    {
+      "id": "together/Qwen3-Coder 480B A35B Instruct Qwen",
+      "name": null,
+      "provider": "together",
+      "model_id": "Qwen3-Coder 480B A35B Instruct Qwen",
+      "input_price_per_million": 2.0,
+      "output_price_per_million": 2.0,
+      "model_type": "code"
+    },
+    {
+      "id": "together/Qwen3 235B A22B Instruct 2507 FP8 Qwen",
+      "name": null,
+      "provider": "together",
+      "model_id": "Qwen3 235B A22B Instruct 2507 FP8 Qwen",
+      "input_price_per_million": 0.2,
+      "output_price_per_million": 0.6,
+      "model_type": "chat"
+    },
+    {
+      "id": "together/Qwen3 235B A22B Thinking 2507 FP8 Qwen",
+      "name": null,
+      "provider": "together",
+      "model_id": "Qwen3 235B A22B Thinking 2507 FP8 Qwen",
+      "input_price_per_million": 0.65,
+      "output_price_per_million": 3.0,
+      "model_type": "chat"
+    },
+    {
+      "id": "together/Qwen3 235B A22B FP8 Throughput Qwen",
+      "name": null,
+      "provider": "together",
+      "model_id": "Qwen3 235B A22B FP8 Throughput Qwen",
+      "input_price_per_million": 0.2,
+      "output_price_per_million": 0.6,
+      "model_type": "chat"
+    },
+    {
+      "id": "together/Qwen 2.5 72B Qwen",
+      "name": null,
+      "provider": "together",
+      "model_id": "Qwen 2.5 72B Qwen",
+      "input_price_per_million": 1.2,
+      "output_price_per_million": 1.2,
+      "model_type": "chat"
+    },
+    {
+      "id": "together/Qwen2.5-VL 72B Instruct Qwen",
+      "name": null,
+      "provider": "together",
+      "model_id": "Qwen2.5-VL 72B Instruct Qwen",
+      "input_price_per_million": 1.95,
+      "output_price_per_million": 8.0,
+      "model_type": "vision"
+    },
+    {
+      "id": "together/Qwen2.5 Coder 32B Instruct Qwen",
+      "name": null,
+      "provider": "together",
+      "model_id": "Qwen2.5 Coder 32B Instruct Qwen",
+      "input_price_per_million": 0.8,
+      "output_price_per_million": 0.8,
+      "model_type": "code"
+    },
+    {
+      "id": "together/Qwen2.5 7B Instruct Turbo Qwen",
+      "name": null,
+      "provider": "together",
+      "model_id": "Qwen2.5 7B Instruct Turbo Qwen",
+      "input_price_per_million": 0.3,
+      "output_price_per_million": 0.3,
+      "model_type": "chat"
+    },
+    {
+      "id": "together/Qwen QwQ-32B Qwen",
+      "name": null,
+      "provider": "together",
+      "model_id": "Qwen QwQ-32B Qwen",
+      "input_price_per_million": 1.2,
+      "output_price_per_million": 1.2,
+      "model_type": "chat"
+    },
+    {
+      "id": "together/GLM-4.6 GLM",
+      "name": null,
+      "provider": "together",
+      "model_id": "GLM-4.6 GLM",
+      "input_price_per_million": 0.6,
+      "output_price_per_million": 2.2,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/GLM-4.5-Air GLM",
+      "name": null,
+      "provider": "together",
+      "model_id": "GLM-4.5-Air GLM",
+      "input_price_per_million": 0.2,
+      "output_price_per_million": 1.1,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Kimi K2 Instruct Kimi",
+      "name": null,
+      "provider": "together",
+      "model_id": "Kimi K2 Instruct Kimi",
+      "input_price_per_million": 1.0,
+      "output_price_per_million": 3.0,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Kimi K2 Thinking Kimi",
+      "name": null,
+      "provider": "together",
+      "model_id": "Kimi K2 Thinking Kimi",
+      "input_price_per_million": 1.2,
+      "output_price_per_million": 4.0,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Kimi K2 0905 Kimi",
+      "name": null,
+      "provider": "together",
+      "model_id": "Kimi K2 0905 Kimi",
+      "input_price_per_million": 1.0,
+      "output_price_per_million": 3.0,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Mistral (7B) Instruct v0.2 Mistral",
+      "name": null,
+      "provider": "together",
+      "model_id": "Mistral (7B) Instruct v0.2 Mistral",
+      "input_price_per_million": 0.2,
+      "output_price_per_million": 0.2,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Mistral Instruct Mistral",
+      "name": null,
+      "provider": "together",
+      "model_id": "Mistral Instruct Mistral",
+      "input_price_per_million": 0.2,
+      "output_price_per_million": 0.2,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Mistral Small 3 Mistral",
+      "name": null,
+      "provider": "together",
+      "model_id": "Mistral Small 3 Mistral",
+      "input_price_per_million": 0.8,
+      "output_price_per_million": 0.8,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Mixtral 8x7B Instruct v0.1 Mistral",
+      "name": null,
+      "provider": "together",
+      "model_id": "Mixtral 8x7B Instruct v0.1 Mistral",
+      "input_price_per_million": 0.6,
+      "output_price_per_million": 0.6,
+      "model_type": "chat"
+    },
+    {
+      "id": "together/Marin 8B Instruct Other",
+      "name": null,
+      "provider": "together",
+      "model_id": "Marin 8B Instruct Other",
+      "input_price_per_million": 0.18,
+      "output_price_per_million": 0.18,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Arcee AI AFM-4.5B Other",
+      "name": null,
+      "provider": "together",
+      "model_id": "Arcee AI AFM-4.5B Other",
+      "input_price_per_million": 0.1,
+      "output_price_per_million": 0.4,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Arcee AI Coder-Large Other",
+      "name": null,
+      "provider": "together",
+      "model_id": "Arcee AI Coder-Large Other",
+      "input_price_per_million": 0.5,
+      "output_price_per_million": 0.8,
+      "model_type": "code"
+    },
+    {
+      "id": "together/Arcee AI Maestro Other",
+      "name": null,
+      "provider": "together",
+      "model_id": "Arcee AI Maestro Other",
+      "input_price_per_million": 0.9,
+      "output_price_per_million": 3.3,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Arcee AI Virtuoso-Large Other",
+      "name": null,
+      "provider": "together",
+      "model_id": "Arcee AI Virtuoso-Large Other",
+      "input_price_per_million": 0.75,
+      "output_price_per_million": 1.2,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Cogito v2 preview - 109B MoE Other",
+      "name": null,
+      "provider": "together",
+      "model_id": "Cogito v2 preview - 109B MoE Other",
+      "input_price_per_million": 0.18,
+      "output_price_per_million": 0.59,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Cogito v2 preview - 405B Other",
+      "name": null,
+      "provider": "together",
+      "model_id": "Cogito v2 preview - 405B Other",
+      "input_price_per_million": 3.5,
+      "output_price_per_million": 3.5,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Cogito v2 preview - 671B MoE Other",
+      "name": null,
+      "provider": "together",
+      "model_id": "Cogito v2 preview - 671B MoE Other",
+      "input_price_per_million": 1.25,
+      "output_price_per_million": 1.25,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Cogito v2 preview - 70B Other",
+      "name": null,
+      "provider": "together",
+      "model_id": "Cogito v2 preview - 70B Other",
+      "input_price_per_million": 0.88,
+      "output_price_per_million": 0.88,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Refuel LLM-2 Other",
+      "name": null,
+      "provider": "together",
+      "model_id": "Refuel LLM-2 Other",
+      "input_price_per_million": 0.6,
+      "output_price_per_million": 0.6,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Refuel LLM-2 Small Other",
+      "name": null,
+      "provider": "together",
+      "model_id": "Refuel LLM-2 Small Other",
+      "input_price_per_million": 0.2,
+      "output_price_per_million": 0.2,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Typhoon 2 70B Instruct Other",
+      "name": null,
+      "provider": "together",
+      "model_id": "Typhoon 2 70B Instruct Other",
+      "input_price_per_million": 0.88,
+      "output_price_per_million": 0.88,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/gemma-3n-E4B-it Other",
+      "name": null,
+      "provider": "together",
+      "model_id": "gemma-3n-E4B-it Other",
+      "input_price_per_million": 0.02,
+      "output_price_per_million": 0.04,
+      "model_type": "chat"
+    },
+    {
+      "id": "together/FLUX.1 Krea [dev]",
+      "name": null,
+      "provider": "together",
+      "model_id": "FLUX.1 Krea [dev]",
+      "input_price_per_million": 0.025,
+      "output_price_per_million": 40.0,
+      "model_type": "image_gen"
+    },
+    {
+      "id": "together/FLUX.1 Kontext [dev]",
+      "name": null,
+      "provider": "together",
+      "model_id": "FLUX.1 Kontext [dev]",
+      "input_price_per_million": 0.025,
+      "output_price_per_million": 40.0,
+      "model_type": "image_gen"
+    },
+    {
+      "id": "together/FLUX.1 Kontext [pro]",
+      "name": null,
+      "provider": "together",
+      "model_id": "FLUX.1 Kontext [pro]",
+      "input_price_per_million": 0.04,
+      "output_price_per_million": 25.0,
+      "model_type": "image_gen"
+    },
+    {
+      "id": "together/FLUX.1 Kontext [max]",
+      "name": null,
+      "provider": "together",
+      "model_id": "FLUX.1 Kontext [max]",
+      "input_price_per_million": 0.08,
+      "output_price_per_million": 12.5,
+      "model_type": "image_gen"
+    },
+    {
+      "id": "together/FLUX1.1 [pro]",
+      "name": null,
+      "provider": "together",
+      "model_id": "FLUX1.1 [pro]",
+      "input_price_per_million": 0.04,
+      "output_price_per_million": 25.0,
+      "model_type": "image_gen"
+    },
+    {
+      "id": "together/FLUX.1 [dev]",
+      "name": null,
+      "provider": "together",
+      "model_id": "FLUX.1 [dev]",
+      "input_price_per_million": 0.025,
+      "output_price_per_million": 40.0,
+      "model_type": "image_gen"
+    },
+    {
+      "id": "together/FLUX.1 [pro]",
+      "name": null,
+      "provider": "together",
+      "model_id": "FLUX.1 [pro]",
+      "input_price_per_million": 0.05,
+      "output_price_per_million": 20.0,
+      "model_type": "image_gen"
+    },
+    {
+      "id": "together/FLUX.1 [schnell]",
+      "name": null,
+      "provider": "together",
+      "model_id": "FLUX.1 [schnell]",
+      "input_price_per_million": 0.0027,
+      "output_price_per_million": 370.0,
+      "model_type": "image_gen"
+    },
+    {
+      "id": "together/FLUX.1 Canny [pro]",
+      "name": null,
+      "provider": "together",
+      "model_id": "FLUX.1 Canny [pro]",
+      "input_price_per_million": 0.05,
+      "output_price_per_million": 20.0,
+      "model_type": "image_gen"
+    },
+    {
+      "id": "together/Google Imagen 4.0 Preview",
+      "name": null,
+      "provider": "together",
+      "model_id": "Google Imagen 4.0 Preview",
+      "input_price_per_million": 0.04,
+      "output_price_per_million": 25.0,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Google Imagen 4.0 Fast",
+      "name": null,
+      "provider": "together",
+      "model_id": "Google Imagen 4.0 Fast",
+      "input_price_per_million": 0.02,
+      "output_price_per_million": 50.0,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Google Imagen 4.0 Ultra",
+      "name": null,
+      "provider": "together",
+      "model_id": "Google Imagen 4.0 Ultra",
+      "input_price_per_million": 0.06,
+      "output_price_per_million": 16.6,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Gemini Flash Image 2.5 (Nano Banana)",
+      "name": null,
+      "provider": "together",
+      "model_id": "Gemini Flash Image 2.5 (Nano Banana)",
+      "input_price_per_million": 0.039,
+      "output_price_per_million": 25.6,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/ByteDance Seedream 3.0",
+      "name": null,
+      "provider": "together",
+      "model_id": "ByteDance Seedream 3.0",
+      "input_price_per_million": 0.018,
+      "output_price_per_million": 55.5,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/ByteDance Seedream 4.0",
+      "name": null,
+      "provider": "together",
+      "model_id": "ByteDance Seedream 4.0",
+      "input_price_per_million": 0.03,
+      "output_price_per_million": 33.3,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/ByteDance SeedEdit",
+      "name": null,
+      "provider": "together",
+      "model_id": "ByteDance SeedEdit",
+      "input_price_per_million": 0.03,
+      "output_price_per_million": 33.3,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Qwen Image Edit",
+      "name": null,
+      "provider": "together",
+      "model_id": "Qwen Image Edit",
+      "input_price_per_million": 0.0032,
+      "output_price_per_million": 312.5,
+      "model_type": "chat"
+    },
+    {
+      "id": "together/Qwen Image",
+      "name": null,
+      "provider": "together",
+      "model_id": "Qwen Image",
+      "input_price_per_million": 0.0058,
+      "output_price_per_million": 172.4,
+      "model_type": "chat"
+    },
+    {
+      "id": "together/Juggernaut Pro Flux by RunDiffusion",
+      "name": null,
+      "provider": "together",
+      "model_id": "Juggernaut Pro Flux by RunDiffusion",
+      "input_price_per_million": 0.0049,
+      "output_price_per_million": 204.0,
+      "model_type": "image_gen"
+    },
+    {
+      "id": "together/Juggernaut Lightning Flux by RunDiffusion",
+      "name": null,
+      "provider": "together",
+      "model_id": "Juggernaut Lightning Flux by RunDiffusion",
+      "input_price_per_million": 0.0017,
+      "output_price_per_million": 588.2,
+      "model_type": "image_gen"
+    },
+    {
+      "id": "together/HiDream-I1-Full",
+      "name": null,
+      "provider": "together",
+      "model_id": "HiDream-I1-Full",
+      "input_price_per_million": 0.009,
+      "output_price_per_million": 111.1,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/HiDream-I1-Dev",
+      "name": null,
+      "provider": "together",
+      "model_id": "HiDream-I1-Dev",
+      "input_price_per_million": 0.0045,
+      "output_price_per_million": 222.2,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/HiDream-I1-Fast",
+      "name": null,
+      "provider": "together",
+      "model_id": "HiDream-I1-Fast",
+      "input_price_per_million": 0.0032,
+      "output_price_per_million": 312.5,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Ideogram 3.0",
+      "name": null,
+      "provider": "together",
+      "model_id": "Ideogram 3.0",
+      "input_price_per_million": 0.06,
+      "output_price_per_million": 16.6,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Dreamshaper",
+      "name": null,
+      "provider": "together",
+      "model_id": "Dreamshaper",
+      "input_price_per_million": 0.0006,
+      "output_price_per_million": 1.0,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/SD XL",
+      "name": null,
+      "provider": "together",
+      "model_id": "SD XL",
+      "input_price_per_million": 0.0019,
+      "output_price_per_million": 526.3,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Stable Diffusion 3",
+      "name": null,
+      "provider": "together",
+      "model_id": "Stable Diffusion 3",
+      "input_price_per_million": 0.0019,
+      "output_price_per_million": 526.3,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Cartesia Sonic-2",
+      "name": null,
+      "provider": "together",
+      "model_id": "Cartesia Sonic-2",
+      "input_price_per_million": 65.0,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/MiniMax 01 Director (720p/5s)",
+      "name": null,
+      "provider": "together",
+      "model_id": "MiniMax 01 Director (720p/5s)",
+      "input_price_per_million": 0.28,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/MiniMax Hailuo 02 (768p/10s)",
+      "name": null,
+      "provider": "together",
+      "model_id": "MiniMax Hailuo 02 (768p/10s)",
+      "input_price_per_million": 0.56,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/MiniMax Hailuo 02 (1080p/6s)",
+      "name": null,
+      "provider": "together",
+      "model_id": "MiniMax Hailuo 02 (1080p/6s)",
+      "input_price_per_million": 0.49,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Google Veo 2.0 (720p/5s)",
+      "name": null,
+      "provider": "together",
+      "model_id": "Google Veo 2.0 (720p/5s)",
+      "input_price_per_million": 2.5,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Google Veo 3.0 (720p/8s)",
+      "name": null,
+      "provider": "together",
+      "model_id": "Google Veo 3.0 (720p/8s)",
+      "input_price_per_million": 1.6,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Google Veo 3.0 + Audio (720p/8s with audio)",
+      "name": null,
+      "provider": "together",
+      "model_id": "Google Veo 3.0 + Audio (720p/8s with audio)",
+      "input_price_per_million": 3.2,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Google Veo 3.0 Fast (1080p/8s)",
+      "name": null,
+      "provider": "together",
+      "model_id": "Google Veo 3.0 Fast (1080p/8s)",
+      "input_price_per_million": 0.8,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Google Veo 3.0 Fast + Audio (1080p/8s with audio)",
+      "name": null,
+      "provider": "together",
+      "model_id": "Google Veo 3.0 Fast + Audio (1080p/8s with audio)",
+      "input_price_per_million": 1.2,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/ByteDance Seedance 1.0 Lite (720p/5s)",
+      "name": null,
+      "provider": "together",
+      "model_id": "ByteDance Seedance 1.0 Lite (720p/5s)",
+      "input_price_per_million": 0.14,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/ByteDance Seedance 1.0 Pro (1080p/5s)",
+      "name": null,
+      "provider": "together",
+      "model_id": "ByteDance Seedance 1.0 Pro (1080p/5s)",
+      "input_price_per_million": 0.57,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/PixVerse v5 (1080p/5s)",
+      "name": null,
+      "provider": "together",
+      "model_id": "PixVerse v5 (1080p/5s)",
+      "input_price_per_million": 0.3,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Kling 2.1 Master (1080p/5s)",
+      "name": null,
+      "provider": "together",
+      "model_id": "Kling 2.1 Master (1080p/5s)",
+      "input_price_per_million": 0.92,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Kling 2.1 Standard (720p/5s)",
+      "name": null,
+      "provider": "together",
+      "model_id": "Kling 2.1 Standard (720p/5s)",
+      "input_price_per_million": 0.18,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Kling 2.1 Pro (1080p/5s)",
+      "name": null,
+      "provider": "together",
+      "model_id": "Kling 2.1 Pro (1080p/5s)",
+      "input_price_per_million": 0.32,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Kling 2.0 Master (1080p/5s)",
+      "name": null,
+      "provider": "together",
+      "model_id": "Kling 2.0 Master (1080p/5s)",
+      "input_price_per_million": 0.92,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Kling 1.6 Standard (720p/5s)",
+      "name": null,
+      "provider": "together",
+      "model_id": "Kling 1.6 Standard (720p/5s)",
+      "input_price_per_million": 0.19,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Kling 1.6 Pro (1080p/5s)",
+      "name": null,
+      "provider": "together",
+      "model_id": "Kling 1.6 Pro (1080p/5s)",
+      "input_price_per_million": 0.32,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Wan 2.2 I2V (720p/5s)",
+      "name": null,
+      "provider": "together",
+      "model_id": "Wan 2.2 I2V (720p/5s)",
+      "input_price_per_million": 0.31,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Wan 2.2 T2V (720p/8s)",
+      "name": null,
+      "provider": "together",
+      "model_id": "Wan 2.2 T2V (720p/8s)",
+      "input_price_per_million": 0.66,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Vidu 2.0 (720p/8s)",
+      "name": null,
+      "provider": "together",
+      "model_id": "Vidu 2.0 (720p/8s)",
+      "input_price_per_million": 0.28,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Vidu Q1 (1080p/5s)",
+      "name": null,
+      "provider": "together",
+      "model_id": "Vidu Q1 (1080p/5s)",
+      "input_price_per_million": 0.22,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Sora 2 (720p/8s)",
+      "name": null,
+      "provider": "together",
+      "model_id": "Sora 2 (720p/8s)",
+      "input_price_per_million": 0.8,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Sora 2 Pro (720p/8s)",
+      "name": null,
+      "provider": "together",
+      "model_id": "Sora 2 Pro (720p/8s)",
+      "input_price_per_million": 2.4,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Sora 2 Pro (1080p/8s)",
+      "name": null,
+      "provider": "together",
+      "model_id": "Sora 2 Pro (1080p/8s)",
+      "input_price_per_million": 4.0,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Whisper Large v3",
+      "name": null,
+      "provider": "together",
+      "model_id": "Whisper Large v3",
+      "input_price_per_million": 0.0015,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/BGE-Base-EN v1.5",
+      "name": null,
+      "provider": "together",
+      "model_id": "BGE-Base-EN v1.5",
+      "input_price_per_million": 0.01,
+      "model_type": "embedding"
+    },
+    {
+      "id": "together/BGE-Large-EN v1.5",
+      "name": null,
+      "provider": "together",
+      "model_id": "BGE-Large-EN v1.5",
+      "input_price_per_million": 0.02,
+      "model_type": "embedding"
+    },
+    {
+      "id": "together/GTE ModernBERT base",
+      "name": null,
+      "provider": "together",
+      "model_id": "GTE ModernBERT base",
+      "input_price_per_million": 0.08,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Multilingual e5 large instruct",
+      "name": null,
+      "provider": "together",
+      "model_id": "Multilingual e5 large instruct",
+      "input_price_per_million": 0.02,
+      "model_type": "embedding"
+    },
+    {
+      "id": "together/M2-BERT 80M 32K Retrieval",
+      "name": null,
+      "provider": "together",
+      "model_id": "M2-BERT 80M 32K Retrieval",
+      "input_price_per_million": 0.01,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Mxbai Rerank Large V2",
+      "name": null,
+      "provider": "together",
+      "model_id": "Mxbai Rerank Large V2",
+      "input_price_per_million": 0.1,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Salesforce Llama Rank V1 (8B)",
+      "name": null,
+      "provider": "together",
+      "model_id": "Salesforce Llama Rank V1 (8B)",
+      "input_price_per_million": 0.1,
+      "model_type": "chat"
+    },
+    {
+      "id": "together/VirtueGuard Text Lite",
+      "name": null,
+      "provider": "together",
+      "model_id": "VirtueGuard Text Lite",
+      "input_price_per_million": 0.2,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Llama Guard 4 12B",
+      "name": null,
+      "provider": "together",
+      "model_id": "Llama Guard 4 12B",
+      "input_price_per_million": 0.2,
+      "model_type": "chat"
+    },
+    {
+      "id": "together/Llama Guard 3 11B Vision Turbo",
+      "name": null,
+      "provider": "together",
+      "model_id": "Llama Guard 3 11B Vision Turbo",
+      "input_price_per_million": 0.18,
+      "model_type": "vision"
+    },
+    {
+      "id": "together/Llama Guard 3 8B",
+      "name": null,
+      "provider": "together",
+      "model_id": "Llama Guard 3 8B",
+      "input_price_per_million": 0.2,
+      "model_type": "chat"
+    },
+    {
+      "id": "together/Llama Guard 2 8B",
+      "name": null,
+      "provider": "together",
+      "model_id": "Llama Guard 2 8B",
+      "input_price_per_million": 0.2,
+      "model_type": "chat"
+    },
+    {
+      "id": "together/1x H200 141GB",
+      "name": null,
+      "provider": "together",
+      "model_id": "1x H200 141GB",
+      "input_price_per_million": 4.99,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/1x H100 80GB",
+      "name": null,
+      "provider": "together",
+      "model_id": "1x H100 80GB",
+      "input_price_per_million": 3.36,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/1x A100 SXM 80GB",
+      "name": null,
+      "provider": "together",
+      "model_id": "1x A100 SXM 80GB",
+      "input_price_per_million": 2.56,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/1x A100 SXM 40GB",
+      "name": null,
+      "provider": "together",
+      "model_id": "1x A100 SXM 40GB",
+      "input_price_per_million": 2.4,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/1x A100 PCIe 80GB",
+      "name": null,
+      "provider": "together",
+      "model_id": "1x A100 PCIe 80GB",
+      "input_price_per_million": 2.4,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/1x L40S 48GB",
+      "name": null,
+      "provider": "together",
+      "model_id": "1x L40S 48GB",
+      "input_price_per_million": 2.1,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Up to 16B",
+      "name": null,
+      "provider": "together",
+      "model_id": "Up to 16B",
+      "input_price_per_million": 0.48,
+      "output_price_per_million": 0.54,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/17B-69B",
+      "name": null,
+      "provider": "together",
+      "model_id": "17B-69B",
+      "input_price_per_million": 1.5,
+      "output_price_per_million": 1.65,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/70-100B",
+      "name": null,
+      "provider": "together",
+      "model_id": "70-100B",
+      "input_price_per_million": 2.9,
+      "output_price_per_million": 3.2,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/gpt-oss-120B",
+      "name": null,
+      "provider": "together",
+      "model_id": "gpt-oss-120B",
+      "input_price_per_million": 5.0,
+      "output_price_per_million": 12.5,
+      "benchmarks": {
+        "simplebench": 0.221,
+        "arena_elo": 1353.0,
+        "livebench_global": 48.66,
+        "livebench_reasoning": 39.21,
+        "livebench_coding": 60.21,
+        "livebench_agentic_coding": 16.67,
+        "livebench_math": 68.87,
+        "livebench_data_analysis": 56.77,
+        "livebench_language": 48.59,
+        "livebench_ifeval": 50.29
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Llama 4 Scout Llama 4 Scout Instruct",
+      "name": null,
+      "provider": "together",
+      "model_id": "Llama 4 Scout Llama 4 Scout Instruct",
+      "input_price_per_million": 3.0,
+      "output_price_per_million": 7.5,
+      "model_type": "chat"
+    },
+    {
+      "id": "together/Llama 4 Maverick Llama 4 Maverick Instruct",
+      "name": null,
+      "provider": "together",
+      "model_id": "Llama 4 Maverick Llama 4 Maverick Instruct",
+      "input_price_per_million": 8.0,
+      "output_price_per_million": 20.0,
+      "model_type": "chat"
+    },
+    {
+      "id": "together/DeepSeek-R1 DeepSeek-R1-0528 DeepSeek-V3 DeepSeek-V3-0324 DeepSeek-V3.1 DeepSeek-V3.1-Base",
+      "name": null,
+      "provider": "together",
+      "model_id": "DeepSeek-R1 DeepSeek-R1-0528 DeepSeek-V3 DeepSeek-V3-0324 DeepSeek-V3.1 DeepSeek-V3.1-Base",
+      "input_price_per_million": 10.0,
+      "output_price_per_million": 25.0,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Qwen3-Coder-480B-A35B-Instruct",
+      "name": null,
+      "provider": "together",
+      "model_id": "Qwen3-Coder-480B-A35B-Instruct",
+      "input_price_per_million": 9.0,
+      "output_price_per_million": 22.5,
+      "benchmarks": {
+        "arena_elo": 1387.0
+      },
+      "model_type": "code"
+    },
+    {
+      "id": "together/Qwen3-235B-A22B Qwen3-235B-A22B-Instruct-2507",
+      "name": null,
+      "provider": "together",
+      "model_id": "Qwen3-235B-A22B Qwen3-235B-A22B-Instruct-2507",
+      "input_price_per_million": 6.0,
+      "output_price_per_million": 15.0,
+      "model_type": "chat"
+    },
+    {
+      "id": "together/Per vCPU",
+      "name": null,
+      "provider": "together",
+      "model_id": "Per vCPU",
+      "input_price_per_million": 0.0446,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Per GiB RAM",
+      "name": null,
+      "provider": "together",
+      "model_id": "Per GiB RAM",
+      "input_price_per_million": 0.0149,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Session (60 minutes)",
+      "name": null,
+      "provider": "together",
+      "model_id": "Session (60 minutes)",
+      "input_price_per_million": 0.03,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/NVIDIA HGX H100 SXM",
+      "name": null,
+      "provider": "together",
+      "model_id": "NVIDIA HGX H100 SXM",
+      "input_price_per_million": 2.2,
+      "output_price_per_million": 2.5,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/NVIDIA HGX H200",
+      "name": null,
+      "provider": "together",
+      "model_id": "NVIDIA HGX H200",
+      "input_price_per_million": 3.15,
+      "output_price_per_million": 3.45,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/NVIDIA HGX B200",
+      "name": null,
+      "provider": "together",
+      "model_id": "NVIDIA HGX B200",
+      "input_price_per_million": 4.5,
+      "output_price_per_million": 4.9,
+      "model_type": "unknown"
+    },
+    {
+      "id": "together/Shared Filesystem",
+      "name": null,
+      "provider": "together",
+      "model_id": "Shared Filesystem",
+      "input_price_per_million": 0.16,
+      "output_price_per_million": "GiB/month",
+      "model_type": "unknown"
+    }
+  ]
+}

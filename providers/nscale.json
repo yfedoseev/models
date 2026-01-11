@@ -1,0 +1,102 @@
+{
+  "provider": "nscale",
+  "model_count": 7,
+  "models": [
+    {
+      "id": "nscale/Qwen/Qwen3-235B-A22B",
+      "name": "Qwen/Qwen3-235B-A22B",
+      "provider": "nscale",
+      "model_id": "Qwen/Qwen3-235B-A22B",
+      "context_window": 131072,
+      "benchmarks": {
+        "gpqa_diamond": 0.707,
+        "math_level_5": 0.689,
+        "aider_polyglot": 59.6,
+        "simplebench": 0.31,
+        "arena_elo": 1374.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "nscale/meta-llama/Llama-3.3-70B-Instruct",
+      "name": "meta-llama/Llama-3.3-70B-Instruct",
+      "provider": "nscale",
+      "model_id": "meta-llama/Llama-3.3-70B-Instruct",
+      "context_window": 128000,
+      "benchmarks": {
+        "gpqa_diamond": 0.474,
+        "mmlu": 0.863,
+        "math_level_5": 0.416,
+        "otis_mock_aime_2024_2025": 0.051,
+        "simplebench": 0.199
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "nscale/deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+      "name": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+      "provider": "nscale",
+      "model_id": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+      "context_window": 128000,
+      "benchmarks": {
+        "gpqa_diamond": 0.557,
+        "math_level_5": 0.899,
+        "otis_mock_aime_2024_2025": 0.514
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "nscale/mistralai/Mixtral-8x22B-Instruct-v0.1",
+      "name": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+      "provider": "nscale",
+      "model_id": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+      "context_window": 65536,
+      "benchmarks": {
+        "gpqa_diamond": 0.306,
+        "mmlu": 0.705,
+        "math_level_5": 0.093,
+        "gsm8k": 0.744,
+        "trivia_qa": 0.822,
+        "arena_elo": 1198.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "nscale/meta-llama/Llama-4-Scout-17B-16E-Instruct",
+      "name": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+      "provider": "nscale",
+      "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+      "context_window": 128000,
+      "benchmarks": {
+        "gpqa_diamond": 0.518,
+        "math_level_5": 0.623,
+        "otis_mock_aime_2024_2025": 0.078,
+        "frontiermath": 0.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "nscale/meta-llama/Llama-3.1-8B-Instruct",
+      "name": "meta-llama/Llama-3.1-8B-Instruct",
+      "provider": "nscale",
+      "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+      "context_window": 128000,
+      "benchmarks": {
+        "gpqa_diamond": 0.259,
+        "mmlu": 0.561,
+        "math_level_5": 0.229,
+        "gsm8k": 0.824,
+        "otis_mock_aime_2024_2025": 0.025
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "nscale/Qwen/Qwen3-4B",
+      "name": "Qwen/Qwen3-4B",
+      "provider": "nscale",
+      "model_id": "Qwen/Qwen3-4B",
+      "context_window": 32000,
+      "model_type": "chat"
+    }
+  ]
+}

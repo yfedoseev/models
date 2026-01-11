@@ -1,0 +1,22 @@
+{
+  "provider": "softbank_sarashina",
+  "model_count": 2,
+  "models": [
+    {
+      "id": "softbank_sarashina/sarashina",
+      "name": "sarashina",
+      "provider": "softbank_sarashina",
+      "model_id": "sarashina",
+      "context_window": 32768,
+      "model_type": "chat"
+    },
+    {
+      "id": "softbank_sarashina/sarashina-mini",
+      "name": "sarashina-mini",
+      "provider": "softbank_sarashina",
+      "model_id": "sarashina-mini",
+      "context_window": 16384,
+      "model_type": "chat"
+    }
+  ]
+}

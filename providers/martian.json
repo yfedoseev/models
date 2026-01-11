@@ -1,0 +1,13 @@
+{
+  "provider": "martian",
+  "model_count": 1,
+  "models": [
+    {
+      "id": "openaigpt-4-1-nano",
+      "name": "openaigpt-4-1-nano",
+      "provider": "martian",
+      "model_id": "openaigpt-4-1-nano",
+      "model_type": "chat"
+    }
+  ]
+}

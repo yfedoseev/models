@@ -1,0 +1,34 @@
+{
+  "provider": "assemblyai",
+  "model_count": 4,
+  "models": [
+    {
+      "id": "assemblyai/universal-1",
+      "name": null,
+      "provider": "assemblyai",
+      "model_id": "universal-1",
+      "model_type": "audio_stt"
+    },
+    {
+      "id": "assemblyai/nano",
+      "name": null,
+      "provider": "assemblyai",
+      "model_id": "nano",
+      "model_type": "audio_stt"
+    },
+    {
+      "id": "assemblyai/universal-streaming-english",
+      "name": null,
+      "provider": "assemblyai",
+      "model_id": "universal-streaming-english",
+      "model_type": "audio_stt"
+    },
+    {
+      "id": "assemblyai/universal-streaming-multilingual",
+      "name": null,
+      "provider": "assemblyai",
+      "model_id": "universal-streaming-multilingual",
+      "model_type": "audio_stt"
+    }
+  ]
+}

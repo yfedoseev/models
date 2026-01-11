@@ -1,0 +1,699 @@
+{
+  "provider": "cloudflare_ai",
+  "model_count": 90,
+  "models": [
+    {
+      "id": "cloudflare_ai/gpt-oss-120b",
+      "name": "gpt-oss-120b",
+      "provider": "cloudflare_ai",
+      "model_id": "gpt-oss-120b",
+      "benchmarks": {
+        "simplebench": 0.221,
+        "arena_elo": 1353.0,
+        "livebench_global": 48.66,
+        "livebench_reasoning": 39.21,
+        "livebench_coding": 60.21,
+        "livebench_agentic_coding": 16.67,
+        "livebench_math": 68.87,
+        "livebench_data_analysis": 56.77,
+        "livebench_language": 48.59,
+        "livebench_ifeval": 50.29
+      }
+    },
+    {
+      "id": "cloudflare_ai/gpt-oss-20b",
+      "name": "gpt-oss-20b",
+      "provider": "cloudflare_ai",
+      "model_id": "gpt-oss-20b",
+      "benchmarks": {
+        "arena_elo": 1318.0
+      }
+    },
+    {
+      "id": "cloudflare_ai/llama-4-scout-17b-16e-instruct",
+      "name": "llama-4-scout-17b-16e-instruct",
+      "provider": "cloudflare_ai",
+      "model_id": "llama-4-scout-17b-16e-instruct",
+      "benchmarks": {
+        "gpqa_diamond": 0.518,
+        "math_level_5": 0.623,
+        "otis_mock_aime_2024_2025": 0.078,
+        "frontiermath": 0.0
+      }
+    },
+    {
+      "id": "cloudflare_ai/llama-3.3-70b-instruct-fp8-fast",
+      "name": "llama-3.3-70b-instruct-fp8-fast",
+      "provider": "cloudflare_ai",
+      "model_id": "llama-3.3-70b-instruct-fp8-fast"
+    },
+    {
+      "id": "cloudflare_ai/llama-3.1-8b-instruct-fast",
+      "name": "llama-3.1-8b-instruct-fast",
+      "provider": "cloudflare_ai",
+      "model_id": "llama-3.1-8b-instruct-fast"
+    },
+    {
+      "id": "cloudflare_ai/flux-2-dev",
+      "name": "flux-2-dev",
+      "provider": "cloudflare_ai",
+      "model_id": "flux-2-dev"
+    },
+    {
+      "id": "cloudflare_ai/aura-2-es",
+      "name": "aura-2-es",
+      "provider": "cloudflare_ai",
+      "model_id": "aura-2-es"
+    },
+    {
+      "id": "cloudflare_ai/aura-2-en",
+      "name": "aura-2-en",
+      "provider": "cloudflare_ai",
+      "model_id": "aura-2-en"
+    },
+    {
+      "id": "cloudflare_ai/granite-4.0-h-micro",
+      "name": "granite-4.0-h-micro",
+      "provider": "cloudflare_ai",
+      "model_id": "granite-4.0-h-micro"
+    },
+    {
+      "id": "cloudflare_ai/flux",
+      "name": "flux",
+      "provider": "cloudflare_ai",
+      "model_id": "flux"
+    },
+    {
+      "id": "cloudflare_ai/plamo-embedding-1b",
+      "name": "plamo-embedding-1b",
+      "provider": "cloudflare_ai",
+      "model_id": "plamo-embedding-1b"
+    },
+    {
+      "id": "cloudflare_ai/gemma-sea-lion-v4-27b-it",
+      "name": "gemma-sea-lion-v4-27b-it",
+      "provider": "cloudflare_ai",
+      "model_id": "gemma-sea-lion-v4-27b-it"
+    },
+    {
+      "id": "cloudflare_ai/indictrans2-en-indic-1B",
+      "name": "indictrans2-en-indic-1B",
+      "provider": "cloudflare_ai",
+      "model_id": "indictrans2-en-indic-1B"
+    },
+    {
+      "id": "cloudflare_ai/embeddinggemma-300m",
+      "name": "embeddinggemma-300m",
+      "provider": "cloudflare_ai",
+      "model_id": "embeddinggemma-300m"
+    },
+    {
+      "id": "cloudflare_ai/aura-1",
+      "name": "aura-1",
+      "provider": "cloudflare_ai",
+      "model_id": "aura-1"
+    },
+    {
+      "id": "cloudflare_ai/lucid-origin",
+      "name": "lucid-origin",
+      "provider": "cloudflare_ai",
+      "model_id": "lucid-origin"
+    },
+    {
+      "id": "cloudflare_ai/phoenix-1.0",
+      "name": "phoenix-1.0",
+      "provider": "cloudflare_ai",
+      "model_id": "phoenix-1.0"
+    },
+    {
+      "id": "cloudflare_ai/smart-turn-v2",
+      "name": "smart-turn-v2",
+      "provider": "cloudflare_ai",
+      "model_id": "smart-turn-v2"
+    },
+    {
+      "id": "cloudflare_ai/qwen3-embedding-0.6b",
+      "name": "qwen3-embedding-0.6b",
+      "provider": "cloudflare_ai",
+      "model_id": "qwen3-embedding-0.6b"
+    },
+    {
+      "id": "cloudflare_ai/nova-3",
+      "name": "nova-3",
+      "provider": "cloudflare_ai",
+      "model_id": "nova-3"
+    },
+    {
+      "id": "cloudflare_ai/qwen3-30b-a3b-fp8",
+      "name": "qwen3-30b-a3b-fp8",
+      "provider": "cloudflare_ai",
+      "model_id": "qwen3-30b-a3b-fp8",
+      "benchmarks": {
+        "arena_elo": 1326.0,
+        "livebench_global": 42.11,
+        "livebench_reasoning": 36.68,
+        "livebench_coding": 48.88,
+        "livebench_agentic_coding": 1.67,
+        "livebench_math": 65.35,
+        "livebench_data_analysis": 66.6,
+        "livebench_language": 54.47,
+        "livebench_ifeval": 21.11
+      }
+    },
+    {
+      "id": "cloudflare_ai/gemma-3-12b-it",
+      "name": "gemma-3-12b-it",
+      "provider": "cloudflare_ai",
+      "model_id": "gemma-3-12b-it",
+      "benchmarks": {
+        "arena_elo": 1341.0
+      }
+    },
+    {
+      "id": "cloudflare_ai/mistral-small-3.1-24b-instruct",
+      "name": "mistral-small-3.1-24b-instruct",
+      "provider": "cloudflare_ai",
+      "model_id": "mistral-small-3.1-24b-instruct",
+      "benchmarks": {
+        "arena_elo": 1304.0
+      }
+    },
+    {
+      "id": "cloudflare_ai/qwq-32b",
+      "name": "qwq-32b",
+      "provider": "cloudflare_ai",
+      "model_id": "qwq-32b",
+      "benchmarks": {
+        "aider_polyglot": 20.9,
+        "arena_elo": 1159.0
+      }
+    },
+    {
+      "id": "cloudflare_ai/qwen2.5-coder-32b-instruct",
+      "name": "qwen2.5-coder-32b-instruct",
+      "provider": "cloudflare_ai",
+      "model_id": "qwen2.5-coder-32b-instruct",
+      "benchmarks": {
+        "mmlu": 0.791,
+        "gsm8k": 0.911,
+        "aider_polyglot": 8.0,
+        "arena_elo": 1270.0
+      }
+    },
+    {
+      "id": "cloudflare_ai/bge-reranker-base",
+      "name": "bge-reranker-base",
+      "provider": "cloudflare_ai",
+      "model_id": "bge-reranker-base"
+    },
+    {
+      "id": "cloudflare_ai/llama-guard-3-8b",
+      "name": "llama-guard-3-8b",
+      "provider": "cloudflare_ai",
+      "model_id": "llama-guard-3-8b"
+    },
+    {
+      "id": "cloudflare_ai/deepseek-r1-distill-qwen-32b",
+      "name": "deepseek-r1-distill-qwen-32b",
+      "provider": "cloudflare_ai",
+      "model_id": "deepseek-r1-distill-qwen-32b"
+    },
+    {
+      "id": "cloudflare_ai/llama-3.2-1b-instruct",
+      "name": "llama-3.2-1b-instruct",
+      "provider": "cloudflare_ai",
+      "model_id": "llama-3.2-1b-instruct"
+    },
+    {
+      "id": "cloudflare_ai/llama-3.2-3b-instruct",
+      "name": "llama-3.2-3b-instruct",
+      "provider": "cloudflare_ai",
+      "model_id": "llama-3.2-3b-instruct"
+    },
+    {
+      "id": "cloudflare_ai/llama-3.2-11b-vision-instruct",
+      "name": "llama-3.2-11b-vision-instruct",
+      "provider": "cloudflare_ai",
+      "model_id": "llama-3.2-11b-vision-instruct",
+      "benchmarks": {
+        "mmlu": 0.565
+      }
+    },
+    {
+      "id": "cloudflare_ai/flux-1-schnell",
+      "name": "flux-1-schnell",
+      "provider": "cloudflare_ai",
+      "model_id": "flux-1-schnell"
+    },
+    {
+      "id": "cloudflare_ai/llama-3.1-8b-instruct-awq",
+      "name": "llama-3.1-8b-instruct-awq",
+      "provider": "cloudflare_ai",
+      "model_id": "llama-3.1-8b-instruct-awq",
+      "benchmarks": {
+        "gpqa_diamond": 0.259,
+        "mmlu": 0.561,
+        "math_level_5": 0.229,
+        "gsm8k": 0.824,
+        "otis_mock_aime_2024_2025": 0.025
+      }
+    },
+    {
+      "id": "cloudflare_ai/llama-3.1-8b-instruct-fp8",
+      "name": "llama-3.1-8b-instruct-fp8",
+      "provider": "cloudflare_ai",
+      "model_id": "llama-3.1-8b-instruct-fp8",
+      "benchmarks": {
+        "gpqa_diamond": 0.259,
+        "mmlu": 0.561,
+        "math_level_5": 0.229,
+        "gsm8k": 0.824,
+        "otis_mock_aime_2024_2025": 0.025
+      }
+    },
+    {
+      "id": "cloudflare_ai/melotts",
+      "name": "melotts",
+      "provider": "cloudflare_ai",
+      "model_id": "melotts"
+    },
+    {
+      "id": "cloudflare_ai/llama-3.1-8b-instruct",
+      "name": "llama-3.1-8b-instruct",
+      "provider": "cloudflare_ai",
+      "model_id": "llama-3.1-8b-instruct",
+      "benchmarks": {
+        "gpqa_diamond": 0.259,
+        "mmlu": 0.561,
+        "math_level_5": 0.229,
+        "gsm8k": 0.824,
+        "otis_mock_aime_2024_2025": 0.025
+      }
+    },
+    {
+      "id": "cloudflare_ai/bge-m3",
+      "name": "bge-m3",
+      "provider": "cloudflare_ai",
+      "model_id": "bge-m3"
+    },
+    {
+      "id": "cloudflare_ai/meta-llama-3-8b-instruct",
+      "name": "meta-llama-3-8b-instruct",
+      "provider": "cloudflare_ai",
+      "model_id": "meta-llama-3-8b-instruct",
+      "benchmarks": {
+        "gpqa_diamond": 0.261,
+        "mmlu": 0.665,
+        "math_level_5": 0.061,
+        "otis_mock_aime_2024_2025": 0.008,
+        "trivia_qa": 0.677,
+        "arena_elo": 1223.0
+      }
+    },
+    {
+      "id": "cloudflare_ai/whisper-large-v3-turbo",
+      "name": "whisper-large-v3-turbo",
+      "provider": "cloudflare_ai",
+      "model_id": "whisper-large-v3-turbo"
+    },
+    {
+      "id": "cloudflare_ai/llama-3-8b-instruct-awq",
+      "name": "llama-3-8b-instruct-awq",
+      "provider": "cloudflare_ai",
+      "model_id": "llama-3-8b-instruct-awq",
+      "benchmarks": {
+        "gpqa_diamond": 2.125,
+        "ifeval": 24.013,
+        "bbh": 18.388,
+        "musr": 19.937
+      }
+    },
+    {
+      "id": "cloudflare_ai/llava-1.5-7b-hf",
+      "name": "llava-1.5-7b-hf",
+      "provider": "cloudflare_ai",
+      "model_id": "llava-1.5-7b-hf"
+    },
+    {
+      "id": "cloudflare_ai/una-cybertron-7b-v2-bf16",
+      "name": "una-cybertron-7b-v2-bf16",
+      "provider": "cloudflare_ai",
+      "model_id": "una-cybertron-7b-v2-bf16"
+    },
+    {
+      "id": "cloudflare_ai/whisper-tiny-en",
+      "name": "whisper-tiny-en",
+      "provider": "cloudflare_ai",
+      "model_id": "whisper-tiny-en"
+    },
+    {
+      "id": "cloudflare_ai/llama-3-8b-instruct",
+      "name": "llama-3-8b-instruct",
+      "provider": "cloudflare_ai",
+      "model_id": "llama-3-8b-instruct",
+      "benchmarks": {
+        "gpqa_diamond": 2.125,
+        "ifeval": 24.013,
+        "bbh": 18.388,
+        "musr": 19.937
+      }
+    },
+    {
+      "id": "cloudflare_ai/mistral-7b-instruct-v0.2",
+      "name": "mistral-7b-instruct-v0.2",
+      "provider": "cloudflare_ai",
+      "model_id": "mistral-7b-instruct-v0.2",
+      "benchmarks": {
+        "mmlu": 0.625,
+        "gsm8k": 0.354,
+        "arena_elo": 1151.0
+      }
+    },
+    {
+      "id": "cloudflare_ai/gemma-7b-it-lora",
+      "name": "gemma-7b-it-lora",
+      "provider": "cloudflare_ai",
+      "model_id": "gemma-7b-it-lora"
+    },
+    {
+      "id": "cloudflare_ai/gemma-2b-it-lora",
+      "name": "gemma-2b-it-lora",
+      "provider": "cloudflare_ai",
+      "model_id": "gemma-2b-it-lora"
+    },
+    {
+      "id": "cloudflare_ai/llama-2-7b-chat-hf-lora",
+      "name": "llama-2-7b-chat-hf-lora",
+      "provider": "cloudflare_ai",
+      "model_id": "llama-2-7b-chat-hf-lora"
+    },
+    {
+      "id": "cloudflare_ai/gemma-7b-it",
+      "name": "gemma-7b-it",
+      "provider": "cloudflare_ai",
+      "model_id": "gemma-7b-it",
+      "benchmarks": {
+        "arena_elo": 1136.0
+      }
+    },
+    {
+      "id": "cloudflare_ai/starling-lm-7b-beta",
+      "name": "starling-lm-7b-beta",
+      "provider": "cloudflare_ai",
+      "model_id": "starling-lm-7b-beta",
+      "benchmarks": {
+        "arena_elo": 1173.0
+      }
+    },
+    {
+      "id": "cloudflare_ai/hermes-2-pro-mistral-7b",
+      "name": "hermes-2-pro-mistral-7b",
+      "provider": "cloudflare_ai",
+      "model_id": "hermes-2-pro-mistral-7b"
+    },
+    {
+      "id": "cloudflare_ai/mistral-7b-instruct-v0.2-lora",
+      "name": "mistral-7b-instruct-v0.2-lora",
+      "provider": "cloudflare_ai",
+      "model_id": "mistral-7b-instruct-v0.2-lora"
+    },
+    {
+      "id": "cloudflare_ai/qwen1.5-1.8b-chat",
+      "name": "qwen1.5-1.8b-chat",
+      "provider": "cloudflare_ai",
+      "model_id": "qwen1.5-1.8b-chat"
+    },
+    {
+      "id": "cloudflare_ai/uform-gen2-qwen-500m",
+      "name": "uform-gen2-qwen-500m",
+      "provider": "cloudflare_ai",
+      "model_id": "uform-gen2-qwen-500m"
+    },
+    {
+      "id": "cloudflare_ai/bart-large-cnn",
+      "name": "bart-large-cnn",
+      "provider": "cloudflare_ai",
+      "model_id": "bart-large-cnn"
+    },
+    {
+      "id": "cloudflare_ai/phi-2",
+      "name": "phi-2",
+      "provider": "cloudflare_ai",
+      "model_id": "phi-2",
+      "benchmarks": {
+        "mmlu": 0.563,
+        "trivia_qa": 0.452
+      }
+    },
+    {
+      "id": "cloudflare_ai/tinyllama-1.1b-chat-v1.0",
+      "name": "tinyllama-1.1b-chat-v1.0",
+      "provider": "cloudflare_ai",
+      "model_id": "tinyllama-1.1b-chat-v1.0"
+    },
+    {
+      "id": "cloudflare_ai/qwen1.5-14b-chat-awq",
+      "name": "qwen1.5-14b-chat-awq",
+      "provider": "cloudflare_ai",
+      "model_id": "qwen1.5-14b-chat-awq",
+      "benchmarks": {
+        "mmlu": 0.686,
+        "arena_elo": 1193.0
+      }
+    },
+    {
+      "id": "cloudflare_ai/qwen1.5-7b-chat-awq",
+      "name": "qwen1.5-7b-chat-awq",
+      "provider": "cloudflare_ai",
+      "model_id": "qwen1.5-7b-chat-awq",
+      "benchmarks": {
+        "mmlu": 0.626,
+        "arena_elo": 1144.0
+      }
+    },
+    {
+      "id": "cloudflare_ai/qwen1.5-0.5b-chat",
+      "name": "qwen1.5-0.5b-chat",
+      "provider": "cloudflare_ai",
+      "model_id": "qwen1.5-0.5b-chat"
+    },
+    {
+      "id": "cloudflare_ai/discolm-german-7b-v1-awq",
+      "name": "discolm-german-7b-v1-awq",
+      "provider": "cloudflare_ai",
+      "model_id": "discolm-german-7b-v1-awq"
+    },
+    {
+      "id": "cloudflare_ai/falcon-7b-instruct",
+      "name": "falcon-7b-instruct",
+      "provider": "cloudflare_ai",
+      "model_id": "falcon-7b-instruct",
+      "benchmarks": {
+        "mmlu": 0.239,
+        "gsm8k": 0.046,
+        "trivia_qa": 0.611
+      }
+    },
+    {
+      "id": "cloudflare_ai/openchat-3.5-0106",
+      "name": "openchat-3.5-0106",
+      "provider": "cloudflare_ai",
+      "model_id": "openchat-3.5-0106"
+    },
+    {
+      "id": "cloudflare_ai/sqlcoder-7b-2",
+      "name": "sqlcoder-7b-2",
+      "provider": "cloudflare_ai",
+      "model_id": "sqlcoder-7b-2"
+    },
+    {
+      "id": "cloudflare_ai/deepseek-math-7b-instruct",
+      "name": "deepseek-math-7b-instruct",
+      "provider": "cloudflare_ai",
+      "model_id": "deepseek-math-7b-instruct"
+    },
+    {
+      "id": "cloudflare_ai/detr-resnet-50",
+      "name": "detr-resnet-50",
+      "provider": "cloudflare_ai",
+      "model_id": "detr-resnet-50"
+    },
+    {
+      "id": "cloudflare_ai/stable-diffusion-xl-lightning",
+      "name": "stable-diffusion-xl-lightning",
+      "provider": "cloudflare_ai",
+      "model_id": "stable-diffusion-xl-lightning"
+    },
+    {
+      "id": "cloudflare_ai/dreamshaper-8-lcm",
+      "name": "dreamshaper-8-lcm",
+      "provider": "cloudflare_ai",
+      "model_id": "dreamshaper-8-lcm"
+    },
+    {
+      "id": "cloudflare_ai/stable-diffusion-v1-5-img2img",
+      "name": "stable-diffusion-v1-5-img2img",
+      "provider": "cloudflare_ai",
+      "model_id": "stable-diffusion-v1-5-img2img"
+    },
+    {
+      "id": "cloudflare_ai/stable-diffusion-v1-5-inpainting",
+      "name": "stable-diffusion-v1-5-inpainting",
+      "provider": "cloudflare_ai",
+      "model_id": "stable-diffusion-v1-5-inpainting"
+    },
+    {
+      "id": "cloudflare_ai/deepseek-coder-6.7b-instruct-awq",
+      "name": "deepseek-coder-6.7b-instruct-awq",
+      "provider": "cloudflare_ai",
+      "model_id": "deepseek-coder-6.7b-instruct-awq"
+    },
+    {
+      "id": "cloudflare_ai/deepseek-coder-6.7b-base-awq",
+      "name": "deepseek-coder-6.7b-base-awq",
+      "provider": "cloudflare_ai",
+      "model_id": "deepseek-coder-6.7b-base-awq",
+      "benchmarks": {
+        "mmlu": 0.364,
+        "gsm8k": 0.213
+      }
+    },
+    {
+      "id": "cloudflare_ai/llamaguard-7b-awq",
+      "name": "llamaguard-7b-awq",
+      "provider": "cloudflare_ai",
+      "model_id": "llamaguard-7b-awq"
+    },
+    {
+      "id": "cloudflare_ai/neural-chat-7b-v3-1-awq",
+      "name": "neural-chat-7b-v3-1-awq",
+      "provider": "cloudflare_ai",
+      "model_id": "neural-chat-7b-v3-1-awq"
+    },
+    {
+      "id": "cloudflare_ai/openhermes-2.5-mistral-7b-awq",
+      "name": "openhermes-2.5-mistral-7b-awq",
+      "provider": "cloudflare_ai",
+      "model_id": "openhermes-2.5-mistral-7b-awq",
+      "benchmarks": {
+        "arena_elo": 1176.0
+      }
+    },
+    {
+      "id": "cloudflare_ai/llama-2-13b-chat-awq",
+      "name": "llama-2-13b-chat-awq",
+      "provider": "cloudflare_ai",
+      "model_id": "llama-2-13b-chat-awq",
+      "benchmarks": {
+        "mmlu": 0.473,
+        "gsm8k": 0.027,
+        "trivia_qa": 0.794
+      }
+    },
+    {
+      "id": "cloudflare_ai/mistral-7b-instruct-v0.1-awq",
+      "name": "mistral-7b-instruct-v0.1-awq",
+      "provider": "cloudflare_ai",
+      "model_id": "mistral-7b-instruct-v0.1-awq",
+      "benchmarks": {
+        "mmlu": 0.566,
+        "gsm8k": 0.5,
+        "trivia_qa": 0.752
+      }
+    },
+    {
+      "id": "cloudflare_ai/zephyr-7b-beta-awq",
+      "name": "zephyr-7b-beta-awq",
+      "provider": "cloudflare_ai",
+      "model_id": "zephyr-7b-beta-awq"
+    },
+    {
+      "id": "cloudflare_ai/stable-diffusion-xl-base-1.0",
+      "name": "stable-diffusion-xl-base-1.0",
+      "provider": "cloudflare_ai",
+      "model_id": "stable-diffusion-xl-base-1.0"
+    },
+    {
+      "id": "cloudflare_ai/bge-large-en-v1.5",
+      "name": "bge-large-en-v1.5",
+      "provider": "cloudflare_ai",
+      "model_id": "bge-large-en-v1.5"
+    },
+    {
+      "id": "cloudflare_ai/bge-small-en-v1.5",
+      "name": "bge-small-en-v1.5",
+      "provider": "cloudflare_ai",
+      "model_id": "bge-small-en-v1.5"
+    },
+    {
+      "id": "cloudflare_ai/llama-2-7b-chat-fp16",
+      "name": "llama-2-7b-chat-fp16",
+      "provider": "cloudflare_ai",
+      "model_id": "llama-2-7b-chat-fp16",
+      "benchmarks": {
+        "mmlu": 0.453,
+        "gsm8k": 0.146,
+        "trivia_qa": 0.737
+      }
+    },
+    {
+      "id": "cloudflare_ai/mistral-7b-instruct-v0.1",
+      "name": "mistral-7b-instruct-v0.1",
+      "provider": "cloudflare_ai",
+      "model_id": "mistral-7b-instruct-v0.1",
+      "benchmarks": {
+        "mmlu": 0.566,
+        "gsm8k": 0.5,
+        "trivia_qa": 0.752
+      }
+    },
+    {
+      "id": "cloudflare_ai/bge-base-en-v1.5",
+      "name": "bge-base-en-v1.5",
+      "provider": "cloudflare_ai",
+      "model_id": "bge-base-en-v1.5"
+    },
+    {
+      "id": "cloudflare_ai/distilbert-sst-2-int8",
+      "name": "distilbert-sst-2-int8",
+      "provider": "cloudflare_ai",
+      "model_id": "distilbert-sst-2-int8"
+    },
+    {
+      "id": "cloudflare_ai/llama-2-7b-chat-int8",
+      "name": "llama-2-7b-chat-int8",
+      "provider": "cloudflare_ai",
+      "model_id": "llama-2-7b-chat-int8"
+    },
+    {
+      "id": "cloudflare_ai/m2m100-1.2b",
+      "name": "m2m100-1.2b",
+      "provider": "cloudflare_ai",
+      "model_id": "m2m100-1.2b"
+    },
+    {
+      "id": "cloudflare_ai/resnet-50",
+      "name": "resnet-50",
+      "provider": "cloudflare_ai",
+      "model_id": "resnet-50"
+    },
+    {
+      "id": "cloudflare_ai/whisper",
+      "name": "whisper",
+      "provider": "cloudflare_ai",
+      "model_id": "whisper"
+    },
+    {
+      "id": "cloudflare_ai/llama-3.1-70b-instruct",
+      "name": "llama-3.1-70b-instruct",
+      "provider": "cloudflare_ai",
+      "model_id": "llama-3.1-70b-instruct",
+      "benchmarks": {
+        "gpqa_diamond": 0.442,
+        "mmlu": 0.801,
+        "math_level_5": 0.367,
+        "otis_mock_aime_2024_2025": 0.036
+      }
+    }
+  ]
+}

@@ -1,0 +1,1996 @@
+{
+  "provider": "vertex",
+  "model_count": 239,
+  "models": [
+    {
+      "id": "vertex/publishers/google/models/imageclassification-efficientnet",
+      "name": "publishers/google/models/imageclassification-efficientnet",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/imageclassification-efficientnet",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/occupancy-analytics",
+      "name": "publishers/google/models/occupancy-analytics",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/occupancy-analytics",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/multimodalembedding",
+      "name": "publishers/google/models/multimodalembedding",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/multimodalembedding",
+      "context_window": 32768,
+      "model_type": "embedding"
+    },
+    {
+      "id": "vertex/publishers/google/models/pt-test",
+      "name": "publishers/google/models/pt-test",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/pt-test",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/imageclassification-vit",
+      "name": "publishers/google/models/imageclassification-vit",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/imageclassification-vit",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/bert-base",
+      "name": "publishers/google/models/bert-base",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/bert-base",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/vehicle-detector",
+      "name": "publishers/google/models/vehicle-detector",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/vehicle-detector",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/language-v1-classify-text-v1",
+      "name": "publishers/google/models/language-v1-classify-text-v1",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/language-v1-classify-text-v1",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/language-v1-analyze-sentiment",
+      "name": "publishers/google/models/language-v1-analyze-sentiment",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/language-v1-analyze-sentiment",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/language-v1-analyze-entity-sentiment",
+      "name": "publishers/google/models/language-v1-analyze-entity-sentiment",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/language-v1-analyze-entity-sentiment",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/language-v1-analyze-syntax",
+      "name": "publishers/google/models/language-v1-analyze-syntax",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/language-v1-analyze-syntax",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/resnet50",
+      "name": "publishers/google/models/resnet50",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/resnet50",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/imagesegmentation-deeplabv3",
+      "name": "publishers/google/models/imagesegmentation-deeplabv3",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/imagesegmentation-deeplabv3",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/imageobjectdetection-yolo",
+      "name": "publishers/google/models/imageobjectdetection-yolo",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/imageobjectdetection-yolo",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/salesforce/models/blip-image-captioning-base",
+      "name": "publishers/salesforce/models/blip-image-captioning-base",
+      "provider": "vertex",
+      "model_id": "publishers/salesforce/models/blip-image-captioning-base",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/salesforce/models/blip-vqa-base",
+      "name": "publishers/salesforce/models/blip-vqa-base",
+      "provider": "vertex",
+      "model_id": "publishers/salesforce/models/blip-vqa-base",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/openai/models/clip-vit-base-patch32",
+      "name": "publishers/openai/models/clip-vit-base-patch32",
+      "provider": "vertex",
+      "model_id": "publishers/openai/models/clip-vit-base-patch32",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/owlvit-base-patch32",
+      "name": "publishers/google/models/owlvit-base-patch32",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/owlvit-base-patch32",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/dandelin/models/vilt-b32-finetuned-vqa",
+      "name": "publishers/dandelin/models/vilt-b32-finetuned-vqa",
+      "provider": "vertex",
+      "model_id": "publishers/dandelin/models/vilt-b32-finetuned-vqa",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/impira/models/layoutlm-document-qa",
+      "name": "publishers/impira/models/layoutlm-document-qa",
+      "provider": "vertex",
+      "model_id": "publishers/impira/models/layoutlm-document-qa",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/object-detector",
+      "name": "publishers/google/models/object-detector",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/object-detector",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/ppe-detector",
+      "name": "publishers/google/models/ppe-detector",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/ppe-detector",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/people-blur",
+      "name": "publishers/google/models/people-blur",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/people-blur",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/product-recognizer",
+      "name": "publishers/google/models/product-recognizer",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/product-recognizer",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/tag-recognizer",
+      "name": "publishers/google/models/tag-recognizer",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/tag-recognizer",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/meta/models/faster-r-cnn",
+      "name": "publishers/meta/models/faster-r-cnn",
+      "provider": "vertex",
+      "model_id": "publishers/meta/models/faster-r-cnn",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/lllyasviel/models/control-net",
+      "name": "publishers/lllyasviel/models/control-net",
+      "provider": "vertex",
+      "model_id": "publishers/lllyasviel/models/control-net",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/meta/models/retinanet",
+      "name": "publishers/meta/models/retinanet",
+      "provider": "vertex",
+      "model_id": "publishers/meta/models/retinanet",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/meta/models/mask-r-cnn",
+      "name": "publishers/meta/models/mask-r-cnn",
+      "provider": "vertex",
+      "model_id": "publishers/meta/models/mask-r-cnn",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/runwayml/models/stable-diffusion-inpainting",
+      "name": "publishers/runwayml/models/stable-diffusion-inpainting",
+      "provider": "vertex",
+      "model_id": "publishers/runwayml/models/stable-diffusion-inpainting",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/timbrooks/models/instruct-pix2pix",
+      "name": "publishers/timbrooks/models/instruct-pix2pix",
+      "provider": "vertex",
+      "model_id": "publishers/timbrooks/models/instruct-pix2pix",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/salesforce/models/blip2-opt-2.7-b",
+      "name": "publishers/salesforce/models/blip2-opt-2.7-b",
+      "provider": "vertex",
+      "model_id": "publishers/salesforce/models/blip2-opt-2.7-b",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/imageclassification-proprietary-vit",
+      "name": "publishers/google/models/imageclassification-proprietary-vit",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/imageclassification-proprietary-vit",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/imageobjectdetection-proprietary-spinenet",
+      "name": "publishers/google/models/imageobjectdetection-proprietary-spinenet",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/imageobjectdetection-proprietary-spinenet",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/imageclassification-proprietary-efficientnet",
+      "name": "publishers/google/models/imageclassification-proprietary-efficientnet",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/imageclassification-proprietary-efficientnet",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/t5-flan",
+      "name": "publishers/google/models/t5-flan",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/t5-flan",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/t5-1.1",
+      "name": "publishers/google/models/t5-1.1",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/t5-1.1",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/textembedding-gecko",
+      "name": "publishers/google/models/textembedding-gecko",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/textembedding-gecko",
+      "context_window": 3072,
+      "model_type": "embedding"
+    },
+    {
+      "id": "vertex/publishers/google/models/imagegeneration",
+      "name": "publishers/google/models/imagegeneration",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/imagegeneration",
+      "model_type": "image_gen"
+    },
+    {
+      "id": "vertex/publishers/google/models/automl-e2e",
+      "name": "publishers/google/models/automl-e2e",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/automl-e2e",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/content-moderation",
+      "name": "publishers/google/models/content-moderation",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/content-moderation",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/pretrained-ocr",
+      "name": "publishers/google/models/pretrained-ocr",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/pretrained-ocr",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/face-detector",
+      "name": "publishers/google/models/face-detector",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/face-detector",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/pretrained-form-parser",
+      "name": "publishers/google/models/pretrained-form-parser",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/pretrained-form-parser",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/label-detector-pali-001",
+      "name": "publishers/google/models/label-detector-pali-001",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/label-detector-pali-001",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/tab-net",
+      "name": "publishers/google/models/tab-net",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/tab-net",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/text-detector",
+      "name": "publishers/google/models/text-detector",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/text-detector",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/imagewatermarkdetector",
+      "name": "publishers/google/models/imagewatermarkdetector",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/imagewatermarkdetector",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/imagetext",
+      "name": "publishers/google/models/imagetext",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/imagetext",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/language-v1-moderate-text",
+      "name": "publishers/google/models/language-v1-moderate-text",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/language-v1-moderate-text",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/text-translation",
+      "name": "publishers/google/models/text-translation",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/text-translation",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/bart-large-cnn",
+      "name": "publishers/google/models/bart-large-cnn",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/bart-large-cnn",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/vit-jax",
+      "name": "publishers/google/models/vit-jax",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/vit-jax",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/meta/models/segment-anything",
+      "name": "publishers/meta/models/segment-anything",
+      "provider": "vertex",
+      "model_id": "publishers/meta/models/segment-anything",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/stability-ai/models/stable-diffusion-4x-upscaler",
+      "name": "publishers/stability-ai/models/stable-diffusion-4x-upscaler",
+      "provider": "vertex",
+      "model_id": "publishers/stability-ai/models/stable-diffusion-4x-upscaler",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/pic2word",
+      "name": "publishers/google/models/pic2word",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/pic2word",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/imageobjectdetection-proprietary-yolo",
+      "name": "publishers/google/models/imageobjectdetection-proprietary-yolo",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/imageobjectdetection-proprietary-yolo",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/imageclassification-proprietary-maxvit",
+      "name": "publishers/google/models/imageclassification-proprietary-maxvit",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/imageclassification-proprietary-maxvit",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/meta/models/xlm-roberta-large",
+      "name": "publishers/meta/models/xlm-roberta-large",
+      "provider": "vertex",
+      "model_id": "publishers/meta/models/xlm-roberta-large",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/meta/models/roberta-large",
+      "name": "publishers/meta/models/roberta-large",
+      "provider": "vertex",
+      "model_id": "publishers/meta/models/roberta-large",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/openlm-research/models/openllama",
+      "name": "publishers/openlm-research/models/openllama",
+      "provider": "vertex",
+      "model_id": "publishers/openlm-research/models/openllama",
+      "context_window": 2048,
+      "model_type": "chat"
+    },
+    {
+      "id": "vertex/publishers/tiiuae/models/falcon-instruct-7b-peft",
+      "name": "publishers/tiiuae/models/falcon-instruct-7b-peft",
+      "provider": "vertex",
+      "model_id": "publishers/tiiuae/models/falcon-instruct-7b-peft",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/bert-base-uncased",
+      "name": "publishers/google/models/bert-base-uncased",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/bert-base-uncased",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/stability-ai/models/stable-diffusion-2-1",
+      "name": "publishers/stability-ai/models/stable-diffusion-2-1",
+      "provider": "vertex",
+      "model_id": "publishers/stability-ai/models/stable-diffusion-2-1",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/tfvision-yolov7",
+      "name": "publishers/google/models/tfvision-yolov7",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/tfvision-yolov7",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/tfvision-movinet-vcn",
+      "name": "publishers/google/models/tfvision-movinet-vcn",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/tfvision-movinet-vcn",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/chirp-2",
+      "name": "publishers/google/models/chirp-2",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/chirp-2",
+      "model_type": "audio"
+    },
+    {
+      "id": "vertex/publishers/google/models/f-vlm-jax",
+      "name": "publishers/google/models/f-vlm-jax",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/f-vlm-jax",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/keras-yolov8",
+      "name": "publishers/google/models/keras-yolov8",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/keras-yolov8",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/openai/models/openclip",
+      "name": "publishers/openai/models/openclip",
+      "provider": "vertex",
+      "model_id": "publishers/openai/models/openclip",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/stability-ai/models/stable-diffusion-xl-base",
+      "name": "publishers/stability-ai/models/stable-diffusion-xl-base",
+      "provider": "vertex",
+      "model_id": "publishers/stability-ai/models/stable-diffusion-xl-base",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/automl-vision-image-classification",
+      "name": "publishers/google/models/automl-vision-image-classification",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/automl-vision-image-classification",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/automl-vision-image-object-detection",
+      "name": "publishers/google/models/automl-vision-image-object-detection",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/automl-vision-image-object-detection",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/ifzhang/models/bytetrack-multi-object-tracking",
+      "name": "publishers/ifzhang/models/bytetrack-multi-object-tracking",
+      "provider": "vertex",
+      "model_id": "publishers/ifzhang/models/bytetrack-multi-object-tracking",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/cxr-foundation",
+      "name": "publishers/google/models/cxr-foundation",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/cxr-foundation",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/tfvision-movinet-var",
+      "name": "publishers/google/models/tfvision-movinet-var",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/tfvision-movinet-var",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/meta/models/codellama-7b-hf",
+      "name": "publishers/meta/models/codellama-7b-hf",
+      "provider": "vertex",
+      "model_id": "publishers/meta/models/codellama-7b-hf",
+      "context_window": 16384,
+      "model_type": "code"
+    },
+    {
+      "id": "vertex/publishers/meta/models/llama2",
+      "name": "publishers/meta/models/llama2",
+      "provider": "vertex",
+      "model_id": "publishers/meta/models/llama2",
+      "context_window": 4096,
+      "model_type": "chat"
+    },
+    {
+      "id": "vertex/publishers/meta/models/nllb",
+      "name": "publishers/meta/models/nllb",
+      "provider": "vertex",
+      "model_id": "publishers/meta/models/nllb",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/meta/models/imagebind",
+      "name": "publishers/meta/models/imagebind",
+      "provider": "vertex",
+      "model_id": "publishers/meta/models/imagebind",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/mistral-ai/models/mistral",
+      "name": "publishers/mistral-ai/models/mistral",
+      "provider": "vertex",
+      "model_id": "publishers/mistral-ai/models/mistral",
+      "context_window": 32768,
+      "model_type": "chat"
+    },
+    {
+      "id": "vertex/publishers/microsoft/models/microsoft-biomedclip",
+      "name": "publishers/microsoft/models/microsoft-biomedclip",
+      "provider": "vertex",
+      "model_id": "publishers/microsoft/models/microsoft-biomedclip",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/dito",
+      "name": "publishers/google/models/dito",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/dito",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/jax-owl-vit-v2",
+      "name": "publishers/google/models/jax-owl-vit-v2",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/jax-owl-vit-v2",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/microsoft/models/bio-gpt",
+      "name": "publishers/microsoft/models/bio-gpt",
+      "provider": "vertex",
+      "model_id": "publishers/microsoft/models/bio-gpt",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/lmsys/models/lmsys-vicuna-7b",
+      "name": "publishers/lmsys/models/lmsys-vicuna-7b",
+      "provider": "vertex",
+      "model_id": "publishers/lmsys/models/lmsys-vicuna-7b",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/mistral-ai/models/mixtral",
+      "name": "publishers/mistral-ai/models/mixtral",
+      "provider": "vertex",
+      "model_id": "publishers/mistral-ai/models/mixtral",
+      "context_window": 32768,
+      "model_type": "chat"
+    },
+    {
+      "id": "vertex/publishers/google/models/cloudnerf-pytorch-zipnerf",
+      "name": "publishers/google/models/cloudnerf-pytorch-zipnerf",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/cloudnerf-pytorch-zipnerf",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/stability-ai/models/stable-diffusion-xl-lcm",
+      "name": "publishers/stability-ai/models/stable-diffusion-xl-lcm",
+      "provider": "vertex",
+      "model_id": "publishers/stability-ai/models/stable-diffusion-xl-lcm",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/meta/models/llama-2-quantized",
+      "name": "publishers/meta/models/llama-2-quantized",
+      "provider": "vertex",
+      "model_id": "publishers/meta/models/llama-2-quantized",
+      "context_window": 4096,
+      "model_type": "chat"
+    },
+    {
+      "id": "vertex/publishers/advimman/models/lama",
+      "name": "publishers/advimman/models/lama",
+      "provider": "vertex",
+      "model_id": "publishers/advimman/models/lama",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/autogluon-ai/models/autogluon",
+      "name": "publishers/autogluon-ai/models/autogluon",
+      "provider": "vertex",
+      "model_id": "publishers/autogluon-ai/models/autogluon",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/meta/models/llama3",
+      "name": "publishers/meta/models/llama3",
+      "provider": "vertex",
+      "model_id": "publishers/meta/models/llama3",
+      "context_window": 8192,
+      "model_type": "chat"
+    },
+    {
+      "id": "vertex/publishers/meta/models/llama-guard",
+      "name": "publishers/meta/models/llama-guard",
+      "provider": "vertex",
+      "model_id": "publishers/meta/models/llama-guard",
+      "context_window": 8192,
+      "model_type": "chat"
+    },
+    {
+      "id": "vertex/publishers/google/models/functiongemma",
+      "name": "publishers/google/models/functiongemma",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/functiongemma",
+      "context_window": 8192,
+      "model_type": "chat"
+    },
+    {
+      "id": "vertex/publishers/google/models/gemma",
+      "name": "publishers/google/models/gemma",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/gemma",
+      "context_window": 8192,
+      "model_type": "chat"
+    },
+    {
+      "id": "vertex/publishers/liuhaotian/models/pytorch-llava",
+      "name": "publishers/liuhaotian/models/pytorch-llava",
+      "provider": "vertex",
+      "model_id": "publishers/liuhaotian/models/pytorch-llava",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/paligemma",
+      "name": "publishers/google/models/paligemma",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/paligemma",
+      "context_window": 8192,
+      "model_type": "vision"
+    },
+    {
+      "id": "vertex/publishers/google/models/codegemma",
+      "name": "publishers/google/models/codegemma",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/codegemma",
+      "context_window": 8192,
+      "model_type": "code"
+    },
+    {
+      "id": "vertex/publishers/intfloat/models/e5",
+      "name": "publishers/intfloat/models/e5",
+      "provider": "vertex",
+      "model_id": "publishers/intfloat/models/e5",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/mammut",
+      "name": "publishers/google/models/mammut",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/mammut",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/deepseek-ai/models/deepseek-r1",
+      "name": "publishers/deepseek-ai/models/deepseek-r1",
+      "provider": "vertex",
+      "model_id": "publishers/deepseek-ai/models/deepseek-r1",
+      "context_window": 131072,
+      "benchmarks": {
+        "gpqa_diamond": 0.692,
+        "math_level_5": 0.931,
+        "otis_mock_aime_2024_2025": 0.533,
+        "aider_polyglot": 56.9,
+        "simplebench": 0.309,
+        "simpleqa_verified": 0.274,
+        "swe_bench_verified": 0.333,
+        "arena_elo": 1396.0
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "vertex/publishers/deepseek-ai/models/deepseek-v3",
+      "name": "publishers/deepseek-ai/models/deepseek-v3",
+      "provider": "vertex",
+      "model_id": "publishers/deepseek-ai/models/deepseek-v3",
+      "context_window": 131072,
+      "benchmarks": {
+        "gpqa_diamond": 0.565,
+        "mmlu": 0.871,
+        "math_level_5": 0.649,
+        "otis_mock_aime_2024_2025": 0.158,
+        "frontiermath": 0.017,
+        "aider_polyglot": 17.8,
+        "simplebench": 0.189,
+        "trivia_qa": 0.829,
+        "swe_bench_verified": 0.521,
+        "arena_elo": 1306.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "vertex/publishers/qwen/models/qwq",
+      "name": "publishers/qwen/models/qwq",
+      "provider": "vertex",
+      "model_id": "publishers/qwen/models/qwq",
+      "context_window": 131072,
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/qwen/models/qwen3",
+      "name": "publishers/qwen/models/qwen3",
+      "provider": "vertex",
+      "model_id": "publishers/qwen/models/qwen3",
+      "context_window": 131072,
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/qwen/models/qwen3-embedding",
+      "name": "publishers/qwen/models/qwen3-embedding",
+      "provider": "vertex",
+      "model_id": "publishers/qwen/models/qwen3-embedding",
+      "context_window": 32768,
+      "model_type": "embedding"
+    },
+    {
+      "id": "vertex/publishers/microsoft/models/phi4",
+      "name": "publishers/microsoft/models/phi4",
+      "provider": "vertex",
+      "model_id": "publishers/microsoft/models/phi4",
+      "context_window": 16384,
+      "benchmarks": {
+        "gpqa_diamond": 0.561,
+        "mmlu": 0.848,
+        "math_level_5": 0.649,
+        "otis_mock_aime_2024_2025": 0.138
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/meta/models/llama4",
+      "name": "publishers/meta/models/llama4",
+      "provider": "vertex",
+      "model_id": "publishers/meta/models/llama4",
+      "context_window": 131072,
+      "model_type": "chat"
+    },
+    {
+      "id": "vertex/publishers/google/models/gemma3n",
+      "name": "publishers/google/models/gemma3n",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/gemma3n",
+      "context_window": 32768,
+      "model_type": "chat"
+    },
+    {
+      "id": "vertex/publishers/thudm/models/cogvideox",
+      "name": "publishers/thudm/models/cogvideox",
+      "provider": "vertex",
+      "model_id": "publishers/thudm/models/cogvideox",
+      "model_type": "video_gen"
+    },
+    {
+      "id": "vertex/publishers/wan-ai/models/wan2-1",
+      "name": "publishers/wan-ai/models/wan2-1",
+      "provider": "vertex",
+      "model_id": "publishers/wan-ai/models/wan2-1",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/wan-ai/models/wan2-2",
+      "name": "publishers/wan-ai/models/wan2-2",
+      "provider": "vertex",
+      "model_id": "publishers/wan-ai/models/wan2-2",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/chirp-3",
+      "name": "publishers/google/models/chirp-3",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/chirp-3",
+      "model_type": "audio"
+    },
+    {
+      "id": "vertex/publishers/google/models/imagen-3.0-generate-002",
+      "name": "publishers/google/models/imagen-3.0-generate-002",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/imagen-3.0-generate-002",
+      "model_type": "image_gen"
+    },
+    {
+      "id": "vertex/publishers/google/models/imagen-4.0-fast-generate-preview-06-06",
+      "name": "publishers/google/models/imagen-4.0-fast-generate-preview-06-06",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/imagen-4.0-fast-generate-preview-06-06",
+      "model_type": "image_gen"
+    },
+    {
+      "id": "vertex/publishers/google/models/imagen-4.0-generate-preview-06-06",
+      "name": "publishers/google/models/imagen-4.0-generate-preview-06-06",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/imagen-4.0-generate-preview-06-06",
+      "model_type": "image_gen"
+    },
+    {
+      "id": "vertex/publishers/google/models/imagen-4.0-ultra-generate-preview-06-06",
+      "name": "publishers/google/models/imagen-4.0-ultra-generate-preview-06-06",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/imagen-4.0-ultra-generate-preview-06-06",
+      "model_type": "image_gen"
+    },
+    {
+      "id": "vertex/publishers/google/models/imagen-4.0-generate-001",
+      "name": "publishers/google/models/imagen-4.0-generate-001",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/imagen-4.0-generate-001",
+      "model_type": "image_gen"
+    },
+    {
+      "id": "vertex/publishers/google/models/imagen-4.0-fast-generate-001",
+      "name": "publishers/google/models/imagen-4.0-fast-generate-001",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/imagen-4.0-fast-generate-001",
+      "model_type": "image_gen"
+    },
+    {
+      "id": "vertex/publishers/google/models/imagen-4.0-ultra-generate-001",
+      "name": "publishers/google/models/imagen-4.0-ultra-generate-001",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/imagen-4.0-ultra-generate-001",
+      "model_type": "image_gen"
+    },
+    {
+      "id": "vertex/publishers/google/models/imagen-3.0-capability-001",
+      "name": "publishers/google/models/imagen-3.0-capability-001",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/imagen-3.0-capability-001",
+      "model_type": "image_gen"
+    },
+    {
+      "id": "vertex/publishers/google/models/imagen-3.0-capability-002",
+      "name": "publishers/google/models/imagen-3.0-capability-002",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/imagen-3.0-capability-002",
+      "model_type": "image_gen"
+    },
+    {
+      "id": "vertex/publishers/anthropic/models/claude-3-haiku",
+      "name": "publishers/anthropic/models/claude-3-haiku",
+      "provider": "vertex",
+      "model_id": "publishers/anthropic/models/claude-3-haiku",
+      "context_window": 200000,
+      "benchmarks": {
+        "gpqa_diamond": 0.363,
+        "mmlu": 0.738,
+        "math_level_5": 0.149,
+        "otis_mock_aime_2024_2025": 0.018
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "vertex/publishers/instantx/models/instant-id",
+      "name": "publishers/instantx/models/instant-id",
+      "provider": "vertex",
+      "model_id": "publishers/instantx/models/instant-id",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/bytedance/models/stable-diffusion-xl-lightning",
+      "name": "publishers/bytedance/models/stable-diffusion-xl-lightning",
+      "provider": "vertex",
+      "model_id": "publishers/bytedance/models/stable-diffusion-xl-lightning",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/timesfm",
+      "name": "publishers/google/models/timesfm",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/timesfm",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/gemma2",
+      "name": "publishers/google/models/gemma2",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/gemma2",
+      "context_window": 8192,
+      "model_type": "chat"
+    },
+    {
+      "id": "vertex/publishers/google/models/translate-llm",
+      "name": "publishers/google/models/translate-llm",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/translate-llm",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/model-optimizer-exp-04-09",
+      "name": "publishers/google/models/model-optimizer-exp-04-09",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/model-optimizer-exp-04-09",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/microsoft/models/phi3",
+      "name": "publishers/microsoft/models/phi3",
+      "provider": "vertex",
+      "model_id": "publishers/microsoft/models/phi3",
+      "context_window": 131072,
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/meta/models/llama3_1",
+      "name": "publishers/meta/models/llama3_1",
+      "provider": "vertex",
+      "model_id": "publishers/meta/models/llama3_1",
+      "context_window": 8192,
+      "model_type": "chat"
+    },
+    {
+      "id": "vertex/publishers/qwen/models/qwen2",
+      "name": "publishers/qwen/models/qwen2",
+      "provider": "vertex",
+      "model_id": "publishers/qwen/models/qwen2",
+      "context_window": 131072,
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/video-text-detection",
+      "name": "publishers/google/models/video-text-detection",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/video-text-detection",
+      "model_type": "video_gen"
+    },
+    {
+      "id": "vertex/publishers/google/models/video-speech-transcription",
+      "name": "publishers/google/models/video-speech-transcription",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/video-speech-transcription",
+      "model_type": "video_gen"
+    },
+    {
+      "id": "vertex/publishers/meta/models/prompt-guard",
+      "name": "publishers/meta/models/prompt-guard",
+      "provider": "vertex",
+      "model_id": "publishers/meta/models/prompt-guard",
+      "context_window": 512,
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/meta/models/llama-3.2-90b-vision-instruct-maas",
+      "name": "publishers/meta/models/llama-3.2-90b-vision-instruct-maas",
+      "provider": "vertex",
+      "model_id": "publishers/meta/models/llama-3.2-90b-vision-instruct-maas",
+      "context_window": 131072,
+      "model_type": "chat"
+    },
+    {
+      "id": "vertex/publishers/meta/models/llama3-2",
+      "name": "publishers/meta/models/llama3-2",
+      "provider": "vertex",
+      "model_id": "publishers/meta/models/llama3-2",
+      "context_window": 8192,
+      "model_type": "chat"
+    },
+    {
+      "id": "vertex/publishers/meta/models/llama-3.1-405b-instruct-maas",
+      "name": "publishers/meta/models/llama-3.1-405b-instruct-maas",
+      "provider": "vertex",
+      "model_id": "publishers/meta/models/llama-3.1-405b-instruct-maas",
+      "context_window": 131072,
+      "model_type": "chat"
+    },
+    {
+      "id": "vertex/publishers/google/models/path-foundation",
+      "name": "publishers/google/models/path-foundation",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/path-foundation",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/derm-foundation",
+      "name": "publishers/google/models/derm-foundation",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/derm-foundation",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/meta/models/llama3-3",
+      "name": "publishers/meta/models/llama3-3",
+      "provider": "vertex",
+      "model_id": "publishers/meta/models/llama3-3",
+      "context_window": 8192,
+      "model_type": "chat"
+    },
+    {
+      "id": "vertex/publishers/meta/models/llama-3.3-70b-instruct-maas",
+      "name": "publishers/meta/models/llama-3.3-70b-instruct-maas",
+      "provider": "vertex",
+      "model_id": "publishers/meta/models/llama-3.3-70b-instruct-maas",
+      "context_window": 131072,
+      "model_type": "chat"
+    },
+    {
+      "id": "vertex/publishers/google/models/txgemma",
+      "name": "publishers/google/models/txgemma",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/txgemma",
+      "context_window": 8192,
+      "model_type": "chat"
+    },
+    {
+      "id": "vertex/publishers/google/models/hear",
+      "name": "publishers/google/models/hear",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/hear",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/mistralai/models/mistral-small-2503",
+      "name": "publishers/mistralai/models/mistral-small-2503",
+      "provider": "vertex",
+      "model_id": "publishers/mistralai/models/mistral-small-2503",
+      "context_window": 32768,
+      "benchmarks": {
+        "gpqa_diamond": 0.453,
+        "mmlu": 0.687,
+        "math_level_5": 0.448,
+        "otis_mock_aime_2024_2025": 0.058,
+        "arena_elo": 1355.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "vertex/publishers/ai21/models/jamba-large-1.6",
+      "name": "publishers/ai21/models/jamba-large-1.6",
+      "provider": "vertex",
+      "model_id": "publishers/ai21/models/jamba-large-1.6",
+      "context_window": 262144,
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/csm/models/cube",
+      "name": "publishers/csm/models/cube",
+      "provider": "vertex",
+      "model_id": "publishers/csm/models/cube",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/qodo/models/qodo-embed-1-7b-v1",
+      "name": "publishers/qodo/models/qodo-embed-1-7b-v1",
+      "provider": "vertex",
+      "model_id": "publishers/qodo/models/qodo-embed-1-7b-v1",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/mistralai/models/codestral-2501-self-deploy",
+      "name": "publishers/mistralai/models/codestral-2501-self-deploy",
+      "provider": "vertex",
+      "model_id": "publishers/mistralai/models/codestral-2501-self-deploy",
+      "context_window": 32768,
+      "model_type": "chat"
+    },
+    {
+      "id": "vertex/publishers/cambai/models/mars7",
+      "name": "publishers/cambai/models/mars7",
+      "provider": "vertex",
+      "model_id": "publishers/cambai/models/mars7",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/mistralai/models/mistral-ocr-2505",
+      "name": "publishers/mistralai/models/mistral-ocr-2505",
+      "provider": "vertex",
+      "model_id": "publishers/mistralai/models/mistral-ocr-2505",
+      "context_window": 8192,
+      "model_type": "chat"
+    },
+    {
+      "id": "vertex/publishers/google/models/medgemma",
+      "name": "publishers/google/models/medgemma",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/medgemma",
+      "context_window": 8192,
+      "model_type": "chat"
+    },
+    {
+      "id": "vertex/publishers/mistralai/models/mistral-medium-3",
+      "name": "publishers/mistralai/models/mistral-medium-3",
+      "provider": "vertex",
+      "model_id": "publishers/mistralai/models/mistral-medium-3",
+      "context_window": 32768,
+      "model_type": "chat"
+    },
+    {
+      "id": "vertex/publishers/meta/models/llama-4-maverick-17b-128e-instruct-maas",
+      "name": "publishers/meta/models/llama-4-maverick-17b-128e-instruct-maas",
+      "provider": "vertex",
+      "model_id": "publishers/meta/models/llama-4-maverick-17b-128e-instruct-maas",
+      "context_window": 131072,
+      "model_type": "chat"
+    },
+    {
+      "id": "vertex/publishers/anthropic/models/claude-opus-4",
+      "name": "publishers/anthropic/models/claude-opus-4",
+      "provider": "vertex",
+      "model_id": "publishers/anthropic/models/claude-opus-4",
+      "context_window": 200000,
+      "benchmarks": {
+        "gpqa_diamond": 0.692,
+        "math_level_5": 0.85,
+        "otis_mock_aime_2024_2025": 0.422,
+        "frontiermath": 0.045,
+        "aider_polyglot": 70.7,
+        "frontiermath_tier_4": 0.0,
+        "swe_bench_verified": 0.622,
+        "deep_research_bench": 0.563,
+        "terminal_bench": 0.453,
+        "swe_bench": 0.622
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "vertex/publishers/anthropic/models/claude-sonnet-4",
+      "name": "publishers/anthropic/models/claude-sonnet-4",
+      "provider": "vertex",
+      "model_id": "publishers/anthropic/models/claude-sonnet-4",
+      "context_window": 200000,
+      "benchmarks": {
+        "gpqa_diamond": 0.667,
+        "math_level_5": 0.844,
+        "otis_mock_aime_2024_2025": 0.289,
+        "frontiermath": 0.041,
+        "aider_polyglot": 56.4,
+        "frontiermath_tier_4": 0.0,
+        "swe_bench_verified": 0.606,
+        "terminal_bench": 0.548,
+        "swe_bench": 0.606,
+        "livebench_global": 53.93,
+        "livebench_reasoning": 39.67,
+        "livebench_coding": 80.74,
+        "livebench_agentic_coding": 38.33,
+        "livebench_math": 60.36,
+        "livebench_data_analysis": 64.68,
+        "livebench_language": 71.01,
+        "livebench_ifeval": 22.68
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "vertex/publishers/virtueai/models/virtueguard-text-lite",
+      "name": "publishers/virtueai/models/virtueguard-text-lite",
+      "provider": "vertex",
+      "model_id": "publishers/virtueai/models/virtueguard-text-lite",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/medsiglip",
+      "name": "publishers/google/models/medsiglip",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/medsiglip",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/contextualai/models/rerank-v2-instruct",
+      "name": "publishers/contextualai/models/rerank-v2-instruct",
+      "provider": "vertex",
+      "model_id": "publishers/contextualai/models/rerank-v2-instruct",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/anthropic/models/claude-opus-4-1",
+      "name": "publishers/anthropic/models/claude-opus-4-1",
+      "provider": "vertex",
+      "model_id": "publishers/anthropic/models/claude-opus-4-1",
+      "context_window": 200000,
+      "benchmarks": {
+        "gpqa_diamond": 0.732,
+        "otis_mock_aime_2024_2025": 0.4,
+        "frontiermath": 0.059,
+        "simplebench": 0.6,
+        "swe_bench_verified": 0.632,
+        "deep_research_bench": 0.564,
+        "terminal_bench": 0.588,
+        "swe_bench": 0.632,
+        "livebench_global": 57.54,
+        "livebench_reasoning": 40.89,
+        "livebench_coding": 76.07,
+        "livebench_agentic_coding": 53.33,
+        "livebench_math": 62.83,
+        "livebench_data_analysis": 66.95,
+        "livebench_language": 76.75,
+        "livebench_ifeval": 25.92
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "vertex/publishers/mongodb/models/voyage-3.5-lite",
+      "name": "publishers/mongodb/models/voyage-3.5-lite",
+      "provider": "vertex",
+      "model_id": "publishers/mongodb/models/voyage-3.5-lite",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/anthropic/models/claude-sonnet-4-5",
+      "name": "publishers/anthropic/models/claude-sonnet-4-5",
+      "provider": "vertex",
+      "model_id": "publishers/anthropic/models/claude-sonnet-4-5",
+      "context_window": 200000,
+      "benchmarks": {
+        "gpqa_diamond": 0.737,
+        "math_level_5": 0.977,
+        "otis_mock_aime_2024_2025": 0.356,
+        "frontiermath": 0.093,
+        "frontiermath_tier_4": 0.021,
+        "simpleqa_verified": 0.13,
+        "swe_bench_verified": 0.648,
+        "deep_research_bench": 0.577,
+        "swe_bench": 0.648,
+        "livebench_global": 56.6,
+        "livebench_reasoning": 42.29,
+        "livebench_coding": 76.07,
+        "livebench_agentic_coding": 48.33,
+        "livebench_math": 62.62,
+        "livebench_data_analysis": 67.34,
+        "livebench_language": 76.0,
+        "livebench_ifeval": 23.52
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "vertex/publishers/anthropic/models/claude-haiku-4-5",
+      "name": "publishers/anthropic/models/claude-haiku-4-5",
+      "provider": "vertex",
+      "model_id": "publishers/anthropic/models/claude-haiku-4-5",
+      "context_window": 200000,
+      "benchmarks": {
+        "gpqa_diamond": 0.605,
+        "math_level_5": 0.869,
+        "otis_mock_aime_2024_2025": 0.358,
+        "frontiermath": 0.041,
+        "swe_bench_verified": 0.606,
+        "swe_bench": 0.606,
+        "livebench_global": 48.34,
+        "livebench_reasoning": 33.94,
+        "livebench_coding": 72.17,
+        "livebench_agentic_coding": 33.33,
+        "livebench_math": 57.97,
+        "livebench_data_analysis": 66.19,
+        "livebench_language": 57.05,
+        "livebench_ifeval": 17.75
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "vertex/publishers/writer/models/palmyra-x4",
+      "name": "publishers/writer/models/palmyra-x4",
+      "provider": "vertex",
+      "model_id": "publishers/writer/models/palmyra-x4",
+      "context_window": 131072,
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/mistralai/models/codestral-2",
+      "name": "publishers/mistralai/models/codestral-2",
+      "provider": "vertex",
+      "model_id": "publishers/mistralai/models/codestral-2",
+      "context_window": 32768,
+      "model_type": "chat"
+    },
+    {
+      "id": "vertex/publishers/nvidia/models/nemotron-nano-12b-v2-vl",
+      "name": "publishers/nvidia/models/nemotron-nano-12b-v2-vl",
+      "provider": "vertex",
+      "model_id": "publishers/nvidia/models/nemotron-nano-12b-v2-vl",
+      "context_window": 131072,
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/anthropic/models/claude-opus-4-5",
+      "name": "publishers/anthropic/models/claude-opus-4-5",
+      "provider": "vertex",
+      "model_id": "publishers/anthropic/models/claude-opus-4-5",
+      "context_window": 200000,
+      "benchmarks": {
+        "gpqa_diamond": 0.807,
+        "otis_mock_aime_2024_2025": 0.481,
+        "frontiermath": 0.207,
+        "simplebench": 0.62,
+        "frontiermath_tier_4": 0.042
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "vertex/publishers/google/models/medasr",
+      "name": "publishers/google/models/medasr",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/medasr",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/black-forest-labs/models/flux1-schnell",
+      "name": "publishers/black-forest-labs/models/flux1-schnell",
+      "provider": "vertex",
+      "model_id": "publishers/black-forest-labs/models/flux1-schnell",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/image-segmentation-001",
+      "name": "publishers/google/models/image-segmentation-001",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/image-segmentation-001",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/gemma3",
+      "name": "publishers/google/models/gemma3",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/gemma3",
+      "context_window": 131072,
+      "model_type": "chat"
+    },
+    {
+      "id": "vertex/publishers/google/models/shieldgemma2",
+      "name": "publishers/google/models/shieldgemma2",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/shieldgemma2",
+      "context_window": 8192,
+      "model_type": "chat"
+    },
+    {
+      "id": "vertex/publishers/openai/models/whisper-large",
+      "name": "publishers/openai/models/whisper-large",
+      "provider": "vertex",
+      "model_id": "publishers/openai/models/whisper-large",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/veo-2.0-generate-001",
+      "name": "publishers/google/models/veo-2.0-generate-001",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/veo-2.0-generate-001",
+      "model_type": "video_gen"
+    },
+    {
+      "id": "vertex/publishers/google/models/gemini-2.0-flash-001",
+      "name": "publishers/google/models/gemini-2.0-flash-001",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/gemini-2.0-flash-001",
+      "context_window": 1048576,
+      "input_price_per_million": 0.15,
+      "output_price_per_million": 0.6,
+      "benchmarks": {
+        "gpqa_diamond": 0.641,
+        "math_level_5": 0.822,
+        "otis_mock_aime_2024_2025": 0.311,
+        "frontiermath": 0.017,
+        "swe_bench_verified": 0.22,
+        "arena_elo": 1360.0
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "vertex/publishers/google/models/text-embedding-large-exp-03-07",
+      "name": "publishers/google/models/text-embedding-large-exp-03-07",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/text-embedding-large-exp-03-07",
+      "model_type": "embedding"
+    },
+    {
+      "id": "vertex/publishers/google/models/gemini-embedding-001",
+      "name": "publishers/google/models/gemini-embedding-001",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/gemini-embedding-001",
+      "context_window": 8192,
+      "model_type": "embedding"
+    },
+    {
+      "id": "vertex/publishers/google/models/gemini-2.0-flash-lite-001",
+      "name": "publishers/google/models/gemini-2.0-flash-lite-001",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/gemini-2.0-flash-lite-001",
+      "context_window": 1048576,
+      "input_price_per_million": 0.075,
+      "output_price_per_million": 0.3,
+      "model_type": "vision"
+    },
+    {
+      "id": "vertex/publishers/nvidia/models/cosmos",
+      "name": "publishers/nvidia/models/cosmos",
+      "provider": "vertex",
+      "model_id": "publishers/nvidia/models/cosmos",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/weathernext",
+      "name": "publishers/google/models/weathernext",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/weathernext",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/sesame/models/csm",
+      "name": "publishers/sesame/models/csm",
+      "provider": "vertex",
+      "model_id": "publishers/sesame/models/csm",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/hidream-ai/models/hidream-i1",
+      "name": "publishers/hidream-ai/models/hidream-i1",
+      "provider": "vertex",
+      "model_id": "publishers/hidream-ai/models/hidream-i1",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/lyria-002",
+      "name": "publishers/google/models/lyria-002",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/lyria-002",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/veo-3.0-generate-preview",
+      "name": "publishers/google/models/veo-3.0-generate-preview",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/veo-3.0-generate-preview",
+      "model_type": "video_gen"
+    },
+    {
+      "id": "vertex/publishers/nari-labs/models/dia-1.6b",
+      "name": "publishers/nari-labs/models/dia-1.6b",
+      "provider": "vertex",
+      "model_id": "publishers/nari-labs/models/dia-1.6b",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/gemini-2.5-pro",
+      "name": "publishers/google/models/gemini-2.5-pro",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/gemini-2.5-pro",
+      "context_window": 1048576,
+      "input_price_per_million": 1.25,
+      "output_price_per_million": 10.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.853,
+        "otis_mock_aime_2024_2025": 0.842,
+        "frontiermath": 0.141,
+        "frontiermath_tier_4": 0.042,
+        "simpleqa_verified": 0.56,
+        "chess_puzzles": 0.2,
+        "arena_elo": 1450.0
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "vertex/publishers/google/models/gemini-2.5-flash",
+      "name": "publishers/google/models/gemini-2.5-flash",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/gemini-2.5-flash",
+      "context_window": 1048576,
+      "input_price_per_million": 0.3,
+      "output_price_per_million": 2.5,
+      "benchmarks": {
+        "frontiermath": 0.048,
+        "simplebench": 0.412,
+        "frontiermath_tier_4": 0.042,
+        "arena_elo": 1408.0
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "vertex/publishers/google/models/imagen-product-recontext-preview-06-30",
+      "name": "publishers/google/models/imagen-product-recontext-preview-06-30",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/imagen-product-recontext-preview-06-30",
+      "model_type": "image_gen"
+    },
+    {
+      "id": "vertex/publishers/deepseek-ai/models/deepseek-r1-0528-maas",
+      "name": "publishers/deepseek-ai/models/deepseek-r1-0528-maas",
+      "provider": "vertex",
+      "model_id": "publishers/deepseek-ai/models/deepseek-r1-0528-maas",
+      "context_window": 131072,
+      "model_type": "reasoning"
+    },
+    {
+      "id": "vertex/publishers/google/models/veo-3.0-fast-generate-preview",
+      "name": "publishers/google/models/veo-3.0-fast-generate-preview",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/veo-3.0-fast-generate-preview",
+      "model_type": "video_gen"
+    },
+    {
+      "id": "vertex/publishers/google/models/gemini-2.5-flash-lite",
+      "name": "publishers/google/models/gemini-2.5-flash-lite",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/gemini-2.5-flash-lite",
+      "context_window": 1048576,
+      "input_price_per_million": 0.1,
+      "output_price_per_million": 0.4,
+      "model_type": "vision"
+    },
+    {
+      "id": "vertex/publishers/baai/models/bge",
+      "name": "publishers/baai/models/bge",
+      "provider": "vertex",
+      "model_id": "publishers/baai/models/bge",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/t5gemma",
+      "name": "publishers/google/models/t5gemma",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/t5gemma",
+      "context_window": 8192,
+      "model_type": "chat"
+    },
+    {
+      "id": "vertex/publishers/google/models/veo-3.0-generate-001",
+      "name": "publishers/google/models/veo-3.0-generate-001",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/veo-3.0-generate-001",
+      "model_type": "video_gen"
+    },
+    {
+      "id": "vertex/publishers/google/models/veo-3.0-fast-generate-001",
+      "name": "publishers/google/models/veo-3.0-fast-generate-001",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/veo-3.0-fast-generate-001",
+      "model_type": "video_gen"
+    },
+    {
+      "id": "vertex/publishers/google/models/virtual-try-on-preview-08-04",
+      "name": "publishers/google/models/virtual-try-on-preview-08-04",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/virtual-try-on-preview-08-04",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/moonshotai/models/kimi-k2",
+      "name": "publishers/moonshotai/models/kimi-k2",
+      "provider": "vertex",
+      "model_id": "publishers/moonshotai/models/kimi-k2",
+      "context_window": 131072,
+      "benchmarks": {
+        "aider_polyglot": 59.1,
+        "simplebench": 0.263,
+        "livebench_global": 50.97,
+        "livebench_reasoning": 42.23,
+        "livebench_coding": 74.28,
+        "livebench_agentic_coding": 31.67,
+        "livebench_math": 58.15,
+        "livebench_data_analysis": 63.41,
+        "livebench_language": 66.69,
+        "livebench_ifeval": 20.36
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/qwen/models/qwen3-coder",
+      "name": "publishers/qwen/models/qwen3-coder",
+      "provider": "vertex",
+      "model_id": "publishers/qwen/models/qwen3-coder",
+      "context_window": 131072,
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/openai/models/gpt-oss",
+      "name": "publishers/openai/models/gpt-oss",
+      "provider": "vertex",
+      "model_id": "publishers/openai/models/gpt-oss",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/qwen/models/qwen3-235b-a22b-instruct-2507-maas",
+      "name": "publishers/qwen/models/qwen3-235b-a22b-instruct-2507-maas",
+      "provider": "vertex",
+      "model_id": "publishers/qwen/models/qwen3-235b-a22b-instruct-2507-maas",
+      "context_window": 131072,
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/qwen/models/qwen3-coder-480b-a35b-instruct-maas",
+      "name": "publishers/qwen/models/qwen3-coder-480b-a35b-instruct-maas",
+      "provider": "vertex",
+      "model_id": "publishers/qwen/models/qwen3-coder-480b-a35b-instruct-maas",
+      "context_window": 131072,
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/deepseek-ai/models/deepseek-v3-1",
+      "name": "publishers/deepseek-ai/models/deepseek-v3-1",
+      "provider": "vertex",
+      "model_id": "publishers/deepseek-ai/models/deepseek-v3-1",
+      "context_window": 131072,
+      "model_type": "chat"
+    },
+    {
+      "id": "vertex/publishers/google/models/gemini-2.5-flash-image-preview",
+      "name": "publishers/google/models/gemini-2.5-flash-image-preview",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/gemini-2.5-flash-image-preview",
+      "context_window": 32768,
+      "model_type": "vision"
+    },
+    {
+      "id": "vertex/publishers/openai/models/gpt-oss-120b-maas",
+      "name": "publishers/openai/models/gpt-oss-120b-maas",
+      "provider": "vertex",
+      "model_id": "publishers/openai/models/gpt-oss-120b-maas",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/qwen/models/qwen-image",
+      "name": "publishers/qwen/models/qwen-image",
+      "provider": "vertex",
+      "model_id": "publishers/qwen/models/qwen-image",
+      "context_window": 32768,
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/zai-org/models/glm-4.5",
+      "name": "publishers/zai-org/models/glm-4.5",
+      "provider": "vertex",
+      "model_id": "publishers/zai-org/models/glm-4.5",
+      "context_window": 131072,
+      "benchmarks": {
+        "arena_elo": 1409.0
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/deepseek-ai/models/deepseek-v3.1-maas",
+      "name": "publishers/deepseek-ai/models/deepseek-v3.1-maas",
+      "provider": "vertex",
+      "model_id": "publishers/deepseek-ai/models/deepseek-v3.1-maas",
+      "context_window": 131072,
+      "model_type": "chat"
+    },
+    {
+      "id": "vertex/publishers/intfloat/models/multilingual-e5-large-instruct-maas",
+      "name": "publishers/intfloat/models/multilingual-e5-large-instruct-maas",
+      "provider": "vertex",
+      "model_id": "publishers/intfloat/models/multilingual-e5-large-instruct-maas",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/aisingapore/models/gemma-sea-lion-v4",
+      "name": "publishers/aisingapore/models/gemma-sea-lion-v4",
+      "provider": "vertex",
+      "model_id": "publishers/aisingapore/models/gemma-sea-lion-v4",
+      "context_window": 8192,
+      "model_type": "chat"
+    },
+    {
+      "id": "vertex/publishers/google/models/gemini-2.5-computer-use-preview-10-2025",
+      "name": "publishers/google/models/gemini-2.5-computer-use-preview-10-2025",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/gemini-2.5-computer-use-preview-10-2025",
+      "context_window": 1048576,
+      "model_type": "vision"
+    },
+    {
+      "id": "vertex/publishers/google/models/embeddinggemma",
+      "name": "publishers/google/models/embeddinggemma",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/embeddinggemma",
+      "context_window": 8192,
+      "model_type": "embedding"
+    },
+    {
+      "id": "vertex/publishers/deepseek-ai/models/deepseek-v3-2",
+      "name": "publishers/deepseek-ai/models/deepseek-v3-2",
+      "provider": "vertex",
+      "model_id": "publishers/deepseek-ai/models/deepseek-v3-2",
+      "context_window": 131072,
+      "benchmarks": {
+        "aider_polyglot": 70.2,
+        "arena_elo": 1423.0,
+        "livebench_global": 52.82,
+        "livebench_reasoning": 45.5,
+        "livebench_coding": 73.19,
+        "livebench_agentic_coding": 36.67,
+        "livebench_math": 64.38,
+        "livebench_data_analysis": 65.09,
+        "livebench_language": 65.6,
+        "livebench_ifeval": 19.33
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "vertex/publishers/qwen/models/qwen3-next-80b-a3b-instruct-maas",
+      "name": "publishers/qwen/models/qwen3-next-80b-a3b-instruct-maas",
+      "provider": "vertex",
+      "model_id": "publishers/qwen/models/qwen3-next-80b-a3b-instruct-maas",
+      "context_window": 131072,
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/qwen/models/qwen3-next-80b-a3b-thinking-maas",
+      "name": "publishers/qwen/models/qwen3-next-80b-a3b-thinking-maas",
+      "provider": "vertex",
+      "model_id": "publishers/qwen/models/qwen3-next-80b-a3b-thinking-maas",
+      "context_window": 131072,
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/qwen/models/qwen3-next",
+      "name": "publishers/qwen/models/qwen3-next",
+      "provider": "vertex",
+      "model_id": "publishers/qwen/models/qwen3-next",
+      "context_window": 131072,
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/gemini-2.5-flash-preview-09-2025",
+      "name": "publishers/google/models/gemini-2.5-flash-preview-09-2025",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/gemini-2.5-flash-preview-09-2025",
+      "context_window": 1048576,
+      "benchmarks": {
+        "arena_elo": 1405.0
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "vertex/publishers/google/models/gemini-2.5-flash-lite-preview-09-2025",
+      "name": "publishers/google/models/gemini-2.5-flash-lite-preview-09-2025",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/gemini-2.5-flash-lite-preview-09-2025",
+      "context_window": 1048576,
+      "model_type": "vision"
+    },
+    {
+      "id": "vertex/publishers/google/models/gemini-2.5-flash-image",
+      "name": "publishers/google/models/gemini-2.5-flash-image",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/gemini-2.5-flash-image",
+      "context_window": 32768,
+      "model_type": "vision"
+    },
+    {
+      "id": "vertex/publishers/google/models/veo-3.1-generate-preview",
+      "name": "publishers/google/models/veo-3.1-generate-preview",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/veo-3.1-generate-preview",
+      "model_type": "video_gen"
+    },
+    {
+      "id": "vertex/publishers/google/models/veo-3.1-fast-generate-preview",
+      "name": "publishers/google/models/veo-3.1-fast-generate-preview",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/veo-3.1-fast-generate-preview",
+      "model_type": "video_gen"
+    },
+    {
+      "id": "vertex/publishers/deepseek-ai/models/deepseek-ocr",
+      "name": "publishers/deepseek-ai/models/deepseek-ocr",
+      "provider": "vertex",
+      "model_id": "publishers/deepseek-ai/models/deepseek-ocr",
+      "context_window": 8192,
+      "model_type": "chat"
+    },
+    {
+      "id": "vertex/publishers/qwen/models/qwen3-vl",
+      "name": "publishers/qwen/models/qwen3-vl",
+      "provider": "vertex",
+      "model_id": "publishers/qwen/models/qwen3-vl",
+      "context_window": 131072,
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/earth-ai-imagery-owlvit-eap-10-2025",
+      "name": "publishers/google/models/earth-ai-imagery-owlvit-eap-10-2025",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/earth-ai-imagery-owlvit-eap-10-2025",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/earth-ai-imagery-mammut-eap-10-2025",
+      "name": "publishers/google/models/earth-ai-imagery-mammut-eap-10-2025",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/earth-ai-imagery-mammut-eap-10-2025",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/gemini-3-pro-preview",
+      "name": "publishers/google/models/gemini-3-pro-preview",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/gemini-3-pro-preview",
+      "context_window": 1048576,
+      "input_price_per_million": 2.0,
+      "output_price_per_million": 12.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.926,
+        "otis_mock_aime_2024_2025": 0.914,
+        "frontiermath": 0.376,
+        "simplebench": 0.764,
+        "frontiermath_tier_4": 0.188,
+        "simpleqa_verified": 0.729,
+        "chess_puzzles": 0.31,
+        "humanitys_last_exam": 0.375,
+        "frontier_math": 0.376,
+        "arena_elo": 1490.0
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "vertex/publishers/google/models/gemini-3-pro-image-preview",
+      "name": "publishers/google/models/gemini-3-pro-image-preview",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/gemini-3-pro-image-preview",
+      "context_window": 65536,
+      "model_type": "vision"
+    },
+    {
+      "id": "vertex/publishers/deepseek-ai/models/deepseek-ocr-maas",
+      "name": "publishers/deepseek-ai/models/deepseek-ocr-maas",
+      "provider": "vertex",
+      "model_id": "publishers/deepseek-ai/models/deepseek-ocr-maas",
+      "context_window": 8192,
+      "model_type": "chat"
+    },
+    {
+      "id": "vertex/publishers/minimaxai/models/minimax-m2-maas",
+      "name": "publishers/minimaxai/models/minimax-m2-maas",
+      "provider": "vertex",
+      "model_id": "publishers/minimaxai/models/minimax-m2-maas",
+      "context_window": 131072,
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/veo-3.1-generate-001",
+      "name": "publishers/google/models/veo-3.1-generate-001",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/veo-3.1-generate-001",
+      "model_type": "video_gen"
+    },
+    {
+      "id": "vertex/publishers/google/models/veo-3.1-fast-generate-001",
+      "name": "publishers/google/models/veo-3.1-fast-generate-001",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/veo-3.1-fast-generate-001",
+      "model_type": "video_gen"
+    },
+    {
+      "id": "vertex/publishers/minimaxai/models/minimax-m2",
+      "name": "publishers/minimaxai/models/minimax-m2",
+      "provider": "vertex",
+      "model_id": "publishers/minimaxai/models/minimax-m2",
+      "context_window": 131072,
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/weather-next-v2",
+      "name": "publishers/google/models/weather-next-v2",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/weather-next-v2",
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/moonshotai/models/kimi-k2-thinking-maas",
+      "name": "publishers/moonshotai/models/kimi-k2-thinking-maas",
+      "provider": "vertex",
+      "model_id": "publishers/moonshotai/models/kimi-k2-thinking-maas",
+      "context_window": 131072,
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/google/models/gemini-3-flash-preview",
+      "name": "publishers/google/models/gemini-3-flash-preview",
+      "provider": "vertex",
+      "model_id": "publishers/google/models/gemini-3-flash-preview",
+      "context_window": 1048576,
+      "input_price_per_million": 0.5,
+      "output_price_per_million": 3.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.832,
+        "otis_mock_aime_2024_2025": 0.928,
+        "frontiermath": 0.356,
+        "simplebench": 0.611,
+        "frontiermath_tier_4": 0.042,
+        "simpleqa_verified": 0.674,
+        "chess_puzzles": 0.38,
+        "arena_elo": 1471.0
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "vertex/publishers/deepseek-ai/models/deepseek-v3.2-maas",
+      "name": "publishers/deepseek-ai/models/deepseek-v3.2-maas",
+      "provider": "vertex",
+      "model_id": "publishers/deepseek-ai/models/deepseek-v3.2-maas",
+      "context_window": 131072,
+      "model_type": "chat"
+    },
+    {
+      "id": "vertex/publishers/nvidia/models/nemotron-v3",
+      "name": "publishers/nvidia/models/nemotron-v3",
+      "provider": "vertex",
+      "model_id": "publishers/nvidia/models/nemotron-v3",
+      "context_window": 131072,
+      "model_type": "unknown"
+    },
+    {
+      "id": "vertex/publishers/mistralai/models/ministral-3",
+      "name": "publishers/mistralai/models/ministral-3",
+      "provider": "vertex",
+      "model_id": "publishers/mistralai/models/ministral-3",
+      "context_window": 131072,
+      "model_type": "chat"
+    },
+    {
+      "id": "vertex/publishers/mistralai/models/mistral-large-3",
+      "name": "publishers/mistralai/models/mistral-large-3",
+      "provider": "vertex",
+      "model_id": "publishers/mistralai/models/mistral-large-3",
+      "context_window": 131072,
+      "benchmarks": {
+        "arena_elo": 1413.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "vertex/publishers/zai-org/models/glm-4.7-maas",
+      "name": "publishers/zai-org/models/glm-4.7-maas",
+      "provider": "vertex",
+      "model_id": "publishers/zai-org/models/glm-4.7-maas",
+      "context_window": 131072,
+      "model_type": "unknown"
+    }
+  ]
+}

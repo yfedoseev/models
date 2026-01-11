@@ -1,0 +1,41 @@
+{
+  "provider": "elevenlabs",
+  "model_count": 5,
+  "models": [
+    {
+      "id": "elevenlabs/eleven_multilingual_v2",
+      "name": "Multilingual V2",
+      "provider": "elevenlabs",
+      "model_id": "eleven_multilingual_v2",
+      "model_type": "audio_tts"
+    },
+    {
+      "id": "elevenlabs/eleven_multilingual_v3",
+      "name": "Multilingual V3",
+      "provider": "elevenlabs",
+      "model_id": "eleven_multilingual_v3",
+      "model_type": "audio_tts"
+    },
+    {
+      "id": "elevenlabs/eleven_flash_v2_5",
+      "name": "Flash V2.5",
+      "provider": "elevenlabs",
+      "model_id": "eleven_flash_v2_5",
+      "model_type": "audio_tts"
+    },
+    {
+      "id": "elevenlabs/eleven_turbo_v2",
+      "name": "Turbo V2",
+      "provider": "elevenlabs",
+      "model_id": "eleven_turbo_v2",
+      "model_type": "audio_tts"
+    },
+    {
+      "id": "elevenlabs/eleven_monolingual_v1",
+      "name": "Monolingual V1",
+      "provider": "elevenlabs",
+      "model_id": "eleven_monolingual_v1",
+      "model_type": "audio_tts"
+    }
+  ]
+}

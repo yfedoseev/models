@@ -1,0 +1,44 @@
+{
+  "provider": "sarvam",
+  "model_count": 5,
+  "models": [
+    {
+      "id": "sarvam/sarvam-1",
+      "name": "sarvam-1",
+      "provider": "sarvam",
+      "model_id": "sarvam-1",
+      "context_window": 4096,
+      "model_type": "chat"
+    },
+    {
+      "id": "sarvam/sarvam-m",
+      "name": "sarvam-m",
+      "provider": "sarvam",
+      "model_id": "sarvam-m",
+      "context_window": 8192,
+      "model_type": "chat"
+    },
+    {
+      "id": "sarvam/sarvam-translate",
+      "name": "sarvam-translate",
+      "provider": "sarvam",
+      "model_id": "sarvam-translate",
+      "context_window": 4096,
+      "model_type": "translation"
+    },
+    {
+      "id": "sarvam/saaras-speech",
+      "name": "saaras-speech",
+      "provider": "sarvam",
+      "model_id": "saaras-speech",
+      "model_type": "audio"
+    },
+    {
+      "id": "sarvam/saaras-tts",
+      "name": "saaras-tts",
+      "provider": "sarvam",
+      "model_id": "saaras-tts",
+      "model_type": "audio"
+    }
+  ]
+}

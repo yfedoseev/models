@@ -1,0 +1,116 @@
+{
+  "provider": "stepfun",
+  "model_count": 11,
+  "models": [
+    {
+      "id": "stepfun/step-1-8k",
+      "name": "step-1-8k",
+      "provider": "stepfun",
+      "model_id": "step-1-8k",
+      "context_window": 8000,
+      "input_price_per_million": 0.17,
+      "output_price_per_million": 0.42,
+      "model_type": "chat"
+    },
+    {
+      "id": "stepfun/step-1-32k",
+      "name": "step-1-32k",
+      "provider": "stepfun",
+      "model_id": "step-1-32k",
+      "context_window": 32000,
+      "input_price_per_million": 0.25,
+      "output_price_per_million": 0.63,
+      "model_type": "chat"
+    },
+    {
+      "id": "stepfun/step-1-128k",
+      "name": "step-1-128k",
+      "provider": "stepfun",
+      "model_id": "step-1-128k",
+      "context_window": 128000,
+      "input_price_per_million": 0.56,
+      "output_price_per_million": 1.4,
+      "model_type": "chat"
+    },
+    {
+      "id": "stepfun/step-1-256k",
+      "name": "step-1-256k",
+      "provider": "stepfun",
+      "model_id": "step-1-256k",
+      "context_window": 256000,
+      "input_price_per_million": 0.56,
+      "output_price_per_million": 1.4,
+      "model_type": "chat"
+    },
+    {
+      "id": "stepfun/step-1v-8k",
+      "name": "step-1v-8k",
+      "provider": "stepfun",
+      "model_id": "step-1v-8k",
+      "context_window": 8000,
+      "input_price_per_million": 0.17,
+      "output_price_per_million": 0.42,
+      "model_type": "vision"
+    },
+    {
+      "id": "stepfun/step-1v-32k",
+      "name": "step-1v-32k",
+      "provider": "stepfun",
+      "model_id": "step-1v-32k",
+      "context_window": 32000,
+      "input_price_per_million": 0.25,
+      "output_price_per_million": 0.63,
+      "model_type": "vision"
+    },
+    {
+      "id": "stepfun/step-1.5v",
+      "name": "step-1.5v",
+      "provider": "stepfun",
+      "model_id": "step-1.5v",
+      "context_window": 16000,
+      "input_price_per_million": 0.25,
+      "output_price_per_million": 0.63,
+      "model_type": "vision"
+    },
+    {
+      "id": "stepfun/step-2-16k",
+      "name": "step-2-16k",
+      "provider": "stepfun",
+      "model_id": "step-2-16k",
+      "context_window": 16000,
+      "input_price_per_million": 0.56,
+      "output_price_per_million": 1.4,
+      "model_type": "chat"
+    },
+    {
+      "id": "stepfun/step-2-mini",
+      "name": "step-2-mini",
+      "provider": "stepfun",
+      "model_id": "step-2-mini",
+      "context_window": 32000,
+      "input_price_per_million": 0.14,
+      "output_price_per_million": 0.35,
+      "model_type": "chat"
+    },
+    {
+      "id": "stepfun/step3",
+      "name": "step3",
+      "provider": "stepfun",
+      "model_id": "step3",
+      "context_window": 66000,
+      "input_price_per_million": 0.84,
+      "output_price_per_million": 2.1,
+      "model_type": "vision"
+    },
+    {
+      "id": "stepfun/step-r1-v-mini",
+      "name": "step-r1-v-mini",
+      "provider": "stepfun",
+      "model_id": "step-r1-v-mini",
+      "context_window": 32000,
+      "input_price_per_million": 0.21,
+      "output_price_per_million": 0.84,
+      "model_type": "vision"
+    }
+  ]
+}

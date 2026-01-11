@@ -1,0 +1,62 @@
+{
+  "provider": "tilde",
+  "model_count": 8,
+  "models": [
+    {
+      "id": "tilde/en-lv",
+      "name": "en-lv",
+      "provider": "tilde",
+      "model_id": "en-lv",
+      "model_type": "translation"
+    },
+    {
+      "id": "tilde/lv-en",
+      "name": "lv-en",
+      "provider": "tilde",
+      "model_id": "lv-en",
+      "model_type": "translation"
+    },
+    {
+      "id": "tilde/en-lt",
+      "name": "en-lt",
+      "provider": "tilde",
+      "model_id": "en-lt",
+      "model_type": "translation"
+    },
+    {
+      "id": "tilde/lt-en",
+      "name": "lt-en",
+      "provider": "tilde",
+      "model_id": "lt-en",
+      "model_type": "translation"
+    },
+    {
+      "id": "tilde/en-et",
+      "name": "en-et",
+      "provider": "tilde",
+      "model_id": "en-et",
+      "model_type": "translation"
+    },
+    {
+      "id": "tilde/et-en",
+      "name": "et-en",
+      "provider": "tilde",
+      "model_id": "et-en",
+      "model_type": "translation"
+    },
+    {
+      "id": "tilde/de-lv",
+      "name": "de-lv",
+      "provider": "tilde",
+      "model_id": "de-lv",
+      "model_type": "translation"
+    },
+    {
+      "id": "tilde/lv-de",
+      "name": "lv-de",
+      "provider": "tilde",
+      "model_id": "lv-de",
+      "model_type": "translation"
+    }
+  ]
+}

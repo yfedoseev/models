@@ -1,0 +1,48 @@
+{
+  "provider": "runware",
+  "model_count": 6,
+  "models": [
+    {
+      "id": "runware/flux-schnell",
+      "name": "flux-schnell",
+      "provider": "runware",
+      "model_id": "flux-schnell",
+      "model_type": "image"
+    },
+    {
+      "id": "runware/flux-dev",
+      "name": "flux-dev",
+      "provider": "runware",
+      "model_id": "flux-dev",
+      "model_type": "image"
+    },
+    {
+      "id": "runware/flux-pro",
+      "name": "flux-pro",
+      "provider": "runware",
+      "model_id": "flux-pro",
+      "model_type": "image"
+    },
+    {
+      "id": "runware/sd-1.5",
+      "name": "sd-1.5",
+      "provider": "runware",
+      "model_id": "sd-1.5",
+      "model_type": "image"
+    },
+    {
+      "id": "runware/sdxl",
+      "name": "sdxl",
+      "provider": "runware",
+      "model_id": "sdxl",
+      "model_type": "image"
+    },
+    {
+      "id": "runware/sd-3",
+      "name": "sd-3",
+      "provider": "runware",
+      "model_id": "sd-3",
+      "model_type": "image"
+    }
+  ]
+}

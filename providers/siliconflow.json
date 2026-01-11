@@ -1,0 +1,125 @@
+{
+  "provider": "siliconflow",
+  "model_count": 7,
+  "models": [
+    {
+      "id": "siliconflow/deepseek-ai/DeepSeek-V3.2",
+      "name": "deepseek-ai/DeepSeek-V3.2",
+      "provider": "siliconflow",
+      "model_id": "deepseek-ai/DeepSeek-V3.2",
+      "context_window": 128000,
+      "input_price_per_million": 0.28,
+      "output_price_per_million": 0.42,
+      "benchmarks": {
+        "aider_polyglot": 70.2,
+        "arena_elo": 1423.0,
+        "livebench_global": 52.82,
+        "livebench_reasoning": 45.5,
+        "livebench_coding": 73.19,
+        "livebench_agentic_coding": 36.67,
+        "livebench_math": 64.38,
+        "livebench_data_analysis": 65.09,
+        "livebench_language": 65.6,
+        "livebench_ifeval": 19.33
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "siliconflow/deepseek-ai/DeepSeek-R1",
+      "name": "deepseek-ai/DeepSeek-R1",
+      "provider": "siliconflow",
+      "model_id": "deepseek-ai/DeepSeek-R1",
+      "context_window": 128000,
+      "input_price_per_million": 0.55,
+      "output_price_per_million": 2.19,
+      "benchmarks": {
+        "gpqa_diamond": 0.692,
+        "math_level_5": 0.931,
+        "otis_mock_aime_2024_2025": 0.533,
+        "aider_polyglot": 56.9,
+        "simplebench": 0.309,
+        "simpleqa_verified": 0.274,
+        "swe_bench_verified": 0.333,
+        "arena_elo": 1396.0
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "siliconflow/deepseek-ai/DeepSeek-V3",
+      "name": "deepseek-ai/DeepSeek-V3",
+      "provider": "siliconflow",
+      "model_id": "deepseek-ai/DeepSeek-V3",
+      "context_window": 128000,
+      "input_price_per_million": 0.28,
+      "output_price_per_million": 0.42,
+      "benchmarks": {
+        "gpqa_diamond": 0.565,
+        "mmlu": 0.871,
+        "math_level_5": 0.649,
+        "otis_mock_aime_2024_2025": 0.158,
+        "frontiermath": 0.017,
+        "aider_polyglot": 17.8,
+        "simplebench": 0.189,
+        "trivia_qa": 0.829,
+        "swe_bench_verified": 0.521,
+        "arena_elo": 1306.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "siliconflow/Qwen/Qwen3-8B",
+      "name": "Qwen/Qwen3-8B",
+      "provider": "siliconflow",
+      "model_id": "Qwen/Qwen3-8B",
+      "context_window": 32000,
+      "model_type": "chat"
+    },
+    {
+      "id": "siliconflow/Qwen/Qwen2.5-72B-Instruct",
+      "name": "Qwen/Qwen2.5-72B-Instruct",
+      "provider": "siliconflow",
+      "model_id": "Qwen/Qwen2.5-72B-Instruct",
+      "context_window": 131072,
+      "input_price_per_million": 0.55,
+      "output_price_per_million": 0.55,
+      "benchmarks": {
+        "gpqa_diamond": 0.491,
+        "mmlu": 0.834,
+        "math_level_5": 0.632,
+        "otis_mock_aime_2024_2025": 0.081,
+        "trivia_qa": 0.719,
+        "arena_elo": 1302.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "siliconflow/Qwen/QwQ-32B",
+      "name": "Qwen/QwQ-32B",
+      "provider": "siliconflow",
+      "model_id": "Qwen/QwQ-32B",
+      "input_price_per_million": 0.17,
+      "output_price_per_million": 0.17,
+      "benchmarks": {
+        "aider_polyglot": 20.9,
+        "arena_elo": 1159.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "siliconflow/meta-llama/Llama-3.3-70B-Instruct",
+      "name": "meta-llama/Llama-3.3-70B-Instruct",
+      "provider": "siliconflow",
+      "model_id": "meta-llama/Llama-3.3-70B-Instruct",
+      "input_price_per_million": 0.55,
+      "output_price_per_million": 0.55,
+      "benchmarks": {
+        "gpqa_diamond": 0.474,
+        "mmlu": 0.863,
+        "math_level_5": 0.416,
+        "otis_mock_aime_2024_2025": 0.051,
+        "simplebench": 0.199
+      },
+      "model_type": "chat"
+    }
+  ]
+}

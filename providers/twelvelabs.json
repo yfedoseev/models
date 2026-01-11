@@ -1,0 +1,27 @@
+{
+  "provider": "twelvelabs",
+  "model_count": 3,
+  "models": [
+    {
+      "id": "twelvelabs/marengo",
+      "name": "Marengo",
+      "provider": "twelvelabs",
+      "model_id": "marengo",
+      "model_type": "video_understanding"
+    },
+    {
+      "id": "twelvelabs/pegasus",
+      "name": "Pegasus",
+      "provider": "twelvelabs",
+      "model_id": "pegasus",
+      "model_type": "video_understanding"
+    },
+    {
+      "id": "twelvelabs/embed_api",
+      "name": "Embed API",
+      "provider": "twelvelabs",
+      "model_id": "embed_api",
+      "model_type": "embedding"
+    }
+  ]
+}

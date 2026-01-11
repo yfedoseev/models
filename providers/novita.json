@@ -1,0 +1,1126 @@
+{
+  "provider": "novita",
+  "model_count": 82,
+  "models": [
+    {
+      "id": "novita/deepseek/deepseek-v3.2",
+      "name": "Deepseek V3.2",
+      "provider": "novita",
+      "model_id": "deepseek/deepseek-v3.2",
+      "context_window": 163840,
+      "input_price_per_million": 2690,
+      "output_price_per_million": 4000,
+      "benchmarks": {
+        "aider_polyglot": 70.2,
+        "arena_elo": 1423.0,
+        "livebench_global": 52.82,
+        "livebench_reasoning": 45.5,
+        "livebench_coding": 73.19,
+        "livebench_agentic_coding": 36.67,
+        "livebench_math": 64.38,
+        "livebench_data_analysis": 65.09,
+        "livebench_language": 65.6,
+        "livebench_ifeval": 19.33
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "novita/minimax/minimax-m2.1",
+      "name": "Minimax M2.1",
+      "provider": "novita",
+      "model_id": "minimax/minimax-m2.1",
+      "context_window": 204800,
+      "input_price_per_million": 3000,
+      "output_price_per_million": 12000,
+      "model_type": "unknown"
+    },
+    {
+      "id": "novita/zai-org/glm-4.7",
+      "name": "GLM-4.7",
+      "provider": "novita",
+      "model_id": "zai-org/glm-4.7",
+      "context_window": 204800,
+      "input_price_per_million": 6000,
+      "output_price_per_million": 22000,
+      "benchmarks": {
+        "simplebench": 0.477,
+        "livebench_global": 60.73,
+        "livebench_reasoning": 59.73,
+        "livebench_coding": 73.13,
+        "livebench_agentic_coding": 41.67,
+        "livebench_math": 76.02,
+        "livebench_data_analysis": 73.68,
+        "livebench_language": 65.23,
+        "livebench_ifeval": 35.66
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "novita/xiaomimimo/mimo-v2-flash",
+      "name": "XiaomiMiMo/MiMo-V2-Flash",
+      "provider": "novita",
+      "model_id": "xiaomimimo/mimo-v2-flash",
+      "context_window": 262144,
+      "input_price_per_million": 1000,
+      "output_price_per_million": 3000,
+      "model_type": "unknown"
+    },
+    {
+      "id": "novita/zai-org/autoglm-phone-9b-multilingual",
+      "name": "AutoGLM-Phone-9B-Multilingual",
+      "provider": "novita",
+      "model_id": "zai-org/autoglm-phone-9b-multilingual",
+      "context_window": 65536,
+      "input_price_per_million": 350,
+      "output_price_per_million": 1380,
+      "model_type": "unknown"
+    },
+    {
+      "id": "novita/moonshotai/kimi-k2-thinking",
+      "name": "Kimi K2 Thinking",
+      "provider": "novita",
+      "model_id": "moonshotai/kimi-k2-thinking",
+      "context_window": 262144,
+      "input_price_per_million": 6000,
+      "output_price_per_million": 25000,
+      "benchmarks": {
+        "frontiermath": 0.214,
+        "frontiermath_tier_4": 0.0,
+        "humanitys_last_exam": 0.239,
+        "livebench_global": 64.2,
+        "livebench_reasoning": 63.49,
+        "livebench_coding": 67.44,
+        "livebench_agentic_coding": 38.33,
+        "livebench_math": 81.1,
+        "livebench_data_analysis": 70.57,
+        "livebench_language": 66.45,
+        "livebench_ifeval": 62.03
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "novita/minimax/minimax-m2",
+      "name": "MiniMax-M2",
+      "provider": "novita",
+      "model_id": "minimax/minimax-m2",
+      "context_window": 204800,
+      "input_price_per_million": 3000,
+      "output_price_per_million": 12000,
+      "model_type": "unknown"
+    },
+    {
+      "id": "novita/paddlepaddle/paddleocr-vl",
+      "name": "PaddleOCR-VL",
+      "provider": "novita",
+      "model_id": "paddlepaddle/paddleocr-vl",
+      "context_window": 16384,
+      "input_price_per_million": 200,
+      "output_price_per_million": 200,
+      "model_type": "vision"
+    },
+    {
+      "id": "novita/deepseek/deepseek-v3.2-exp",
+      "name": "Deepseek V3.2 Exp",
+      "provider": "novita",
+      "model_id": "deepseek/deepseek-v3.2-exp",
+      "context_window": 163840,
+      "input_price_per_million": 2700,
+      "output_price_per_million": 4100,
+      "benchmarks": {
+        "aider_polyglot": 70.2,
+        "arena_elo": 1423.0,
+        "livebench_global": 52.82,
+        "livebench_reasoning": 45.5,
+        "livebench_coding": 73.19,
+        "livebench_agentic_coding": 36.67,
+        "livebench_math": 64.38,
+        "livebench_data_analysis": 65.09,
+        "livebench_language": 65.6,
+        "livebench_ifeval": 19.33
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "novita/qwen/qwen3-vl-235b-a22b-thinking",
+      "name": "Qwen3 VL 235B A22B Thinking",
+      "provider": "novita",
+      "model_id": "qwen/qwen3-vl-235b-a22b-thinking",
+      "context_window": 131072,
+      "input_price_per_million": 9800,
+      "output_price_per_million": 39500,
+      "benchmarks": {
+        "arena_elo": 1394.0
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "novita/zai-org/glm-4.6v",
+      "name": "GLM 4.6V",
+      "provider": "novita",
+      "model_id": "zai-org/glm-4.6v",
+      "context_window": 131072,
+      "input_price_per_million": 3000,
+      "output_price_per_million": 9000,
+      "benchmarks": {
+        "arena_elo": 1353.0,
+        "livebench_global": 42.94,
+        "livebench_reasoning": 37.22,
+        "livebench_coding": 64.24,
+        "livebench_agentic_coding": 3.33,
+        "livebench_math": 62.5,
+        "livebench_data_analysis": 66.49,
+        "livebench_language": 49.74,
+        "livebench_ifeval": 17.06
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "novita/zai-org/glm-4.6",
+      "name": "GLM 4.6",
+      "provider": "novita",
+      "model_id": "zai-org/glm-4.6",
+      "context_window": 204800,
+      "input_price_per_million": 5500,
+      "output_price_per_million": 22000,
+      "benchmarks": {
+        "frontiermath": 0.038,
+        "frontiermath_tier_4": 0.021,
+        "arena_elo": 1424.0,
+        "livebench_global": 58.02,
+        "livebench_reasoning": 62.06,
+        "livebench_coding": 71.02,
+        "livebench_agentic_coding": 35.0,
+        "livebench_math": 81.13,
+        "livebench_data_analysis": 71.74,
+        "livebench_language": 58.99,
+        "livebench_ifeval": 26.19
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "novita/kwaipilot/kat-coder-pro",
+      "name": "Kat Coder Pro",
+      "provider": "novita",
+      "model_id": "kwaipilot/kat-coder-pro",
+      "context_window": 256000,
+      "input_price_per_million": 3000,
+      "output_price_per_million": 12000,
+      "model_type": "code"
+    },
+    {
+      "id": "novita/kat-coder",
+      "name": "KAT-Coder-Pro V1\uff08Free\uff09",
+      "provider": "novita",
+      "model_id": "kat-coder",
+      "context_window": 256000,
+      "model_type": "code"
+    },
+    {
+      "id": "novita/qwen/qwen3-next-80b-a3b-instruct",
+      "name": "Qwen3 Next 80B A3B Instruct",
+      "provider": "novita",
+      "model_id": "qwen/qwen3-next-80b-a3b-instruct",
+      "context_window": 131072,
+      "input_price_per_million": 1500,
+      "output_price_per_million": 15000,
+      "benchmarks": {
+        "arena_elo": 1401.0,
+        "livebench_global": 51.04,
+        "livebench_reasoning": 54.75,
+        "livebench_coding": 68.2,
+        "livebench_agentic_coding": 10.0,
+        "livebench_math": 70.18,
+        "livebench_data_analysis": 68.63,
+        "livebench_language": 66.34,
+        "livebench_ifeval": 19.19
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "novita/qwen/qwen3-next-80b-a3b-thinking",
+      "name": "Qwen3 Next 80B A3B Thinking",
+      "provider": "novita",
+      "model_id": "qwen/qwen3-next-80b-a3b-thinking",
+      "context_window": 131072,
+      "input_price_per_million": 1500,
+      "output_price_per_million": 15000,
+      "benchmarks": {
+        "arena_elo": 1368.0,
+        "livebench_global": 53.2,
+        "livebench_reasoning": 58.16,
+        "livebench_coding": 60.66,
+        "livebench_agentic_coding": 8.33,
+        "livebench_math": 74.26,
+        "livebench_data_analysis": 73.16,
+        "livebench_language": 56.31,
+        "livebench_ifeval": 41.54
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "novita/deepseek/deepseek-ocr",
+      "name": "DeepSeek-OCR",
+      "provider": "novita",
+      "model_id": "deepseek/deepseek-ocr",
+      "context_window": 8192,
+      "input_price_per_million": 300,
+      "output_price_per_million": 300,
+      "model_type": "unknown"
+    },
+    {
+      "id": "novita/deepseek/deepseek-v3.1-terminus",
+      "name": "Deepseek V3.1 Terminus",
+      "provider": "novita",
+      "model_id": "deepseek/deepseek-v3.1-terminus",
+      "context_window": 131072,
+      "input_price_per_million": 2700,
+      "output_price_per_million": 10000,
+      "benchmarks": {
+        "arena_elo": 1415.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "novita/qwen/qwen3-vl-235b-a22b-instruct",
+      "name": "Qwen3 VL 235B A22B Instruct",
+      "provider": "novita",
+      "model_id": "qwen/qwen3-vl-235b-a22b-instruct",
+      "context_window": 131072,
+      "input_price_per_million": 3000,
+      "output_price_per_million": 15000,
+      "benchmarks": {
+        "arena_elo": 1414.0
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "novita/qwen/qwen3-max",
+      "name": "Qwen3 Max",
+      "provider": "novita",
+      "model_id": "qwen/qwen3-max",
+      "context_window": 262144,
+      "input_price_per_million": 21100,
+      "output_price_per_million": 84500,
+      "benchmarks": {
+        "gpqa_diamond": 0.726,
+        "math_level_5": 0.971,
+        "otis_mock_aime_2024_2025": 0.733,
+        "simpleqa_verified": 0.675,
+        "chess_puzzles": 0.04,
+        "arena_elo": 1424.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "novita/skywork/r1v4-lite",
+      "name": "Skywork R1V4-Lite",
+      "provider": "novita",
+      "model_id": "skywork/r1v4-lite",
+      "context_window": 262144,
+      "input_price_per_million": 2000,
+      "output_price_per_million": 6000,
+      "model_type": "unknown"
+    },
+    {
+      "id": "novita/deepseek/deepseek-v3.1",
+      "name": "DeepSeek V3.1",
+      "provider": "novita",
+      "model_id": "deepseek/deepseek-v3.1",
+      "context_window": 131072,
+      "input_price_per_million": 2700,
+      "output_price_per_million": 10000,
+      "model_type": "chat"
+    },
+    {
+      "id": "novita/moonshotai/kimi-k2-0905",
+      "name": "Kimi K2 0905",
+      "provider": "novita",
+      "model_id": "moonshotai/kimi-k2-0905",
+      "context_window": 262144,
+      "input_price_per_million": 6000,
+      "output_price_per_million": 25000,
+      "benchmarks": {
+        "aider_polyglot": 59.1,
+        "simplebench": 0.263,
+        "livebench_global": 50.97,
+        "livebench_reasoning": 42.23,
+        "livebench_coding": 74.28,
+        "livebench_agentic_coding": 31.67,
+        "livebench_math": 58.15,
+        "livebench_data_analysis": 63.41,
+        "livebench_language": 66.69,
+        "livebench_ifeval": 20.36
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "novita/qwen/qwen3-coder-480b-a35b-instruct",
+      "name": "Qwen3 Coder 480B A35B Instruct",
+      "provider": "novita",
+      "model_id": "qwen/qwen3-coder-480b-a35b-instruct",
+      "context_window": 262144,
+      "input_price_per_million": 3000,
+      "output_price_per_million": 13000,
+      "benchmarks": {
+        "arena_elo": 1387.0
+      },
+      "model_type": "code"
+    },
+    {
+      "id": "novita/qwen/qwen3-coder-30b-a3b-instruct",
+      "name": "Qwen3 Coder 30b A3B Instruct",
+      "provider": "novita",
+      "model_id": "qwen/qwen3-coder-30b-a3b-instruct",
+      "context_window": 160000,
+      "input_price_per_million": 700,
+      "output_price_per_million": 2700,
+      "model_type": "code"
+    },
+    {
+      "id": "novita/openai/gpt-oss-120b",
+      "name": "OpenAI GPT OSS 120B",
+      "provider": "novita",
+      "model_id": "openai/gpt-oss-120b",
+      "context_window": 131072,
+      "input_price_per_million": 500,
+      "output_price_per_million": 2500,
+      "benchmarks": {
+        "simplebench": 0.221,
+        "arena_elo": 1353.0,
+        "livebench_global": 48.66,
+        "livebench_reasoning": 39.21,
+        "livebench_coding": 60.21,
+        "livebench_agentic_coding": 16.67,
+        "livebench_math": 68.87,
+        "livebench_data_analysis": 56.77,
+        "livebench_language": 48.59,
+        "livebench_ifeval": 50.29
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "novita/moonshotai/kimi-k2-instruct",
+      "name": "Kimi K2 Instruct",
+      "provider": "novita",
+      "model_id": "moonshotai/kimi-k2-instruct",
+      "context_window": 131072,
+      "input_price_per_million": 5700,
+      "output_price_per_million": 23000,
+      "benchmarks": {
+        "aider_polyglot": 59.1,
+        "simplebench": 0.263,
+        "livebench_global": 50.97,
+        "livebench_reasoning": 42.23,
+        "livebench_coding": 74.28,
+        "livebench_agentic_coding": 31.67,
+        "livebench_math": 58.15,
+        "livebench_data_analysis": 63.41,
+        "livebench_language": 66.69,
+        "livebench_ifeval": 20.36
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "novita/deepseek/deepseek-v3-0324",
+      "name": "DeepSeek V3 0324",
+      "provider": "novita",
+      "model_id": "deepseek/deepseek-v3-0324",
+      "context_window": 163840,
+      "input_price_per_million": 2700,
+      "output_price_per_million": 11200,
+      "benchmarks": {
+        "gpqa_diamond": 0.565,
+        "mmlu": 0.871,
+        "math_level_5": 0.649,
+        "otis_mock_aime_2024_2025": 0.158,
+        "frontiermath": 0.017,
+        "aider_polyglot": 17.8,
+        "simplebench": 0.189,
+        "trivia_qa": 0.829,
+        "swe_bench_verified": 0.521,
+        "arena_elo": 1306.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "novita/zai-org/glm-4.5",
+      "name": "GLM-4.5",
+      "provider": "novita",
+      "model_id": "zai-org/glm-4.5",
+      "context_window": 131072,
+      "input_price_per_million": 6000,
+      "output_price_per_million": 22000,
+      "benchmarks": {
+        "arena_elo": 1409.0
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "novita/qwen/qwen3-235b-a22b-thinking-2507",
+      "name": "Qwen3 235B A22b Thinking 2507",
+      "provider": "novita",
+      "model_id": "qwen/qwen3-235b-a22b-thinking-2507",
+      "context_window": 131072,
+      "input_price_per_million": 3000,
+      "output_price_per_million": 30000,
+      "benchmarks": {
+        "gpqa_diamond": 0.801,
+        "otis_mock_aime_2024_2025": 0.867,
+        "frontiermath": 0.085,
+        "frontiermath_tier_4": 0.0,
+        "simpleqa_verified": 0.501,
+        "chess_puzzles": 0.122,
+        "arena_elo": 1398.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "novita/meta-llama/llama-3.1-8b-instruct",
+      "name": "Llama 3.1 8B Instruct",
+      "provider": "novita",
+      "model_id": "meta-llama/llama-3.1-8b-instruct",
+      "context_window": 16384,
+      "input_price_per_million": 200,
+      "output_price_per_million": 500,
+      "benchmarks": {
+        "gpqa_diamond": 0.259,
+        "mmlu": 0.561,
+        "math_level_5": 0.229,
+        "gsm8k": 0.824,
+        "otis_mock_aime_2024_2025": 0.025
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "novita/google/gemma-3-12b-it",
+      "name": "Gemma3 12B",
+      "provider": "novita",
+      "model_id": "google/gemma-3-12b-it",
+      "context_window": 131072,
+      "input_price_per_million": 500,
+      "output_price_per_million": 1000,
+      "benchmarks": {
+        "arena_elo": 1341.0
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "novita/zai-org/glm-4.5v",
+      "name": "GLM 4.5V",
+      "provider": "novita",
+      "model_id": "zai-org/glm-4.5v",
+      "context_window": 65536,
+      "input_price_per_million": 6000,
+      "output_price_per_million": 18000,
+      "benchmarks": {
+        "arena_elo": 1353.0,
+        "livebench_global": 42.94,
+        "livebench_reasoning": 37.22,
+        "livebench_coding": 64.24,
+        "livebench_agentic_coding": 3.33,
+        "livebench_math": 62.5,
+        "livebench_data_analysis": 66.49,
+        "livebench_language": 49.74,
+        "livebench_ifeval": 17.06
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "novita/openai/gpt-oss-20b",
+      "name": "OpenAI: GPT OSS 20B",
+      "provider": "novita",
+      "model_id": "openai/gpt-oss-20b",
+      "context_window": 131072,
+      "input_price_per_million": 400,
+      "output_price_per_million": 1500,
+      "benchmarks": {
+        "arena_elo": 1318.0
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "novita/qwen/qwen3-235b-a22b-instruct-2507",
+      "name": "Qwen3 235B A22B Instruct 2507",
+      "provider": "novita",
+      "model_id": "qwen/qwen3-235b-a22b-instruct-2507",
+      "context_window": 131072,
+      "input_price_per_million": 900,
+      "output_price_per_million": 5800,
+      "benchmarks": {
+        "gpqa_diamond": 0.707,
+        "math_level_5": 0.689,
+        "aider_polyglot": 59.6,
+        "simplebench": 0.31,
+        "arena_elo": 1374.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "novita/deepseek/deepseek-r1-distill-qwen-14b",
+      "name": "DeepSeek R1 Distill Qwen 14B",
+      "provider": "novita",
+      "model_id": "deepseek/deepseek-r1-distill-qwen-14b",
+      "context_window": 32768,
+      "input_price_per_million": 1500,
+      "output_price_per_million": 1500,
+      "benchmarks": {
+        "gpqa_diamond": 0.447,
+        "math_level_5": 0.871
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "novita/meta-llama/llama-3.3-70b-instruct",
+      "name": "Llama 3.3 70B Instruct",
+      "provider": "novita",
+      "model_id": "meta-llama/llama-3.3-70b-instruct",
+      "context_window": 131072,
+      "input_price_per_million": 1350,
+      "output_price_per_million": 4000,
+      "benchmarks": {
+        "gpqa_diamond": 0.474,
+        "mmlu": 0.863,
+        "math_level_5": 0.416,
+        "otis_mock_aime_2024_2025": 0.051,
+        "simplebench": 0.199
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "novita/qwen/qwen-2.5-72b-instruct",
+      "name": "Qwen 2.5 72B Instruct",
+      "provider": "novita",
+      "model_id": "qwen/qwen-2.5-72b-instruct",
+      "context_window": 32000,
+      "input_price_per_million": 3800,
+      "output_price_per_million": 4000,
+      "benchmarks": {
+        "gpqa_diamond": 0.491,
+        "mmlu": 0.834,
+        "math_level_5": 0.632,
+        "otis_mock_aime_2024_2025": 0.081,
+        "trivia_qa": 0.719,
+        "arena_elo": 1302.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "novita/mistralai/mistral-nemo",
+      "name": "Mistral Nemo",
+      "provider": "novita",
+      "model_id": "mistralai/mistral-nemo",
+      "context_window": 60288,
+      "input_price_per_million": 400,
+      "output_price_per_million": 1700,
+      "model_type": "unknown"
+    },
+    {
+      "id": "novita/minimaxai/minimax-m1-80k",
+      "name": "MiniMax M1",
+      "provider": "novita",
+      "model_id": "minimaxai/minimax-m1-80k",
+      "context_window": 1000000,
+      "input_price_per_million": 5500,
+      "output_price_per_million": 22000,
+      "model_type": "unknown"
+    },
+    {
+      "id": "novita/deepseek/deepseek-r1-0528",
+      "name": "DeepSeek R1 0528",
+      "provider": "novita",
+      "model_id": "deepseek/deepseek-r1-0528",
+      "context_window": 163840,
+      "input_price_per_million": 7000,
+      "output_price_per_million": 25000,
+      "benchmarks": {
+        "gpqa_diamond": 0.692,
+        "math_level_5": 0.931,
+        "otis_mock_aime_2024_2025": 0.533,
+        "aider_polyglot": 56.9,
+        "simplebench": 0.309,
+        "simpleqa_verified": 0.274,
+        "swe_bench_verified": 0.333,
+        "arena_elo": 1396.0
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "novita/deepseek/deepseek-r1-distill-qwen-32b",
+      "name": "DeepSeek R1 Distill Qwen 32B",
+      "provider": "novita",
+      "model_id": "deepseek/deepseek-r1-distill-qwen-32b",
+      "context_window": 64000,
+      "input_price_per_million": 3000,
+      "output_price_per_million": 3000,
+      "model_type": "reasoning"
+    },
+    {
+      "id": "novita/meta-llama/llama-3-8b-instruct",
+      "name": "Llama 3 8B Instruct",
+      "provider": "novita",
+      "model_id": "meta-llama/llama-3-8b-instruct",
+      "context_window": 8192,
+      "input_price_per_million": 400,
+      "output_price_per_million": 400,
+      "benchmarks": {
+        "gpqa_diamond": 2.125,
+        "ifeval": 24.013,
+        "bbh": 18.388,
+        "musr": 19.937
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "novita/microsoft/wizardlm-2-8x22b",
+      "name": "Wizardlm 2 8x22B",
+      "provider": "novita",
+      "model_id": "microsoft/wizardlm-2-8x22b",
+      "context_window": 65535,
+      "input_price_per_million": 6200,
+      "output_price_per_million": 6200,
+      "benchmarks": {
+        "gpqa_diamond": 0.434,
+        "math_level_5": 0.257
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "novita/deepseek/deepseek-r1-0528-qwen3-8b",
+      "name": "DeepSeek R1 0528 Qwen3 8B",
+      "provider": "novita",
+      "model_id": "deepseek/deepseek-r1-0528-qwen3-8b",
+      "context_window": 128000,
+      "input_price_per_million": 600,
+      "output_price_per_million": 900,
+      "model_type": "reasoning"
+    },
+    {
+      "id": "novita/deepseek/deepseek-r1-distill-llama-70b",
+      "name": "DeepSeek R1 Distill LLama 70B",
+      "provider": "novita",
+      "model_id": "deepseek/deepseek-r1-distill-llama-70b",
+      "context_window": 8192,
+      "input_price_per_million": 8000,
+      "output_price_per_million": 8000,
+      "benchmarks": {
+        "gpqa_diamond": 0.557,
+        "math_level_5": 0.899,
+        "otis_mock_aime_2024_2025": 0.514
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "novita/meta-llama/llama-3-70b-instruct",
+      "name": "Llama3 70B Instruct",
+      "provider": "novita",
+      "model_id": "meta-llama/llama-3-70b-instruct",
+      "context_window": 8192,
+      "input_price_per_million": 5100,
+      "output_price_per_million": 7400,
+      "model_type": "chat"
+    },
+    {
+      "id": "novita/qwen/qwen3-235b-a22b-fp8",
+      "name": "Qwen3 235B A22B",
+      "provider": "novita",
+      "model_id": "qwen/qwen3-235b-a22b-fp8",
+      "context_window": 40960,
+      "input_price_per_million": 2000,
+      "output_price_per_million": 8000,
+      "benchmarks": {
+        "gpqa_diamond": 0.707,
+        "math_level_5": 0.689,
+        "aider_polyglot": 59.6,
+        "simplebench": 0.31,
+        "arena_elo": 1374.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "novita/meta-llama/llama-4-maverick-17b-128e-instruct-fp8",
+      "name": "Llama 4 Maverick Instruct",
+      "provider": "novita",
+      "model_id": "meta-llama/llama-4-maverick-17b-128e-instruct-fp8",
+      "context_window": 1048576,
+      "input_price_per_million": 2700,
+      "output_price_per_million": 8500,
+      "benchmarks": {
+        "gpqa_diamond": 0.67,
+        "math_level_5": 0.73,
+        "otis_mock_aime_2024_2025": 0.206,
+        "frontiermath": 0.007,
+        "aider_polyglot": 15.6,
+        "simplebench": 0.277
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "novita/meta-llama/llama-4-scout-17b-16e-instruct",
+      "name": "Llama 4 Scout Instruct",
+      "provider": "novita",
+      "model_id": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "context_window": 131072,
+      "input_price_per_million": 1800,
+      "output_price_per_million": 5900,
+      "benchmarks": {
+        "gpqa_diamond": 0.518,
+        "math_level_5": 0.623,
+        "otis_mock_aime_2024_2025": 0.078,
+        "frontiermath": 0.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "novita/nousresearch/hermes-2-pro-llama-3-8b",
+      "name": "Hermes 2 Pro Llama 3 8B",
+      "provider": "novita",
+      "model_id": "nousresearch/hermes-2-pro-llama-3-8b",
+      "context_window": 8192,
+      "input_price_per_million": 1400,
+      "output_price_per_million": 1400,
+      "model_type": "chat"
+    },
+    {
+      "id": "novita/qwen/qwen2.5-vl-72b-instruct",
+      "name": "Qwen2.5 VL 72B Instruct",
+      "provider": "novita",
+      "model_id": "qwen/qwen2.5-vl-72b-instruct",
+      "context_window": 32768,
+      "input_price_per_million": 8000,
+      "output_price_per_million": 8000,
+      "model_type": "vision"
+    },
+    {
+      "id": "novita/sao10k/l3-70b-euryale-v2.1",
+      "name": "L3 70B Euryale V2.1\t",
+      "provider": "novita",
+      "model_id": "sao10k/l3-70b-euryale-v2.1",
+      "context_window": 8192,
+      "input_price_per_million": 14800,
+      "output_price_per_million": 14800,
+      "model_type": "unknown"
+    },
+    {
+      "id": "novita/baidu/ernie-4.5-21B-a3b-thinking",
+      "name": "ERNIE-4.5-21B-A3B-Thinking",
+      "provider": "novita",
+      "model_id": "baidu/ernie-4.5-21B-a3b-thinking",
+      "context_window": 131072,
+      "input_price_per_million": 700,
+      "output_price_per_million": 2800,
+      "model_type": "unknown"
+    },
+    {
+      "id": "novita/sao10k/l3-8b-lunaris",
+      "name": "Sao10k L3 8B Lunaris\t",
+      "provider": "novita",
+      "model_id": "sao10k/l3-8b-lunaris",
+      "context_window": 8192,
+      "input_price_per_million": 500,
+      "output_price_per_million": 500,
+      "model_type": "unknown"
+    },
+    {
+      "id": "novita/baichuan/baichuan-m2-32b",
+      "name": "BaiChuan M2 32B",
+      "provider": "novita",
+      "model_id": "baichuan/baichuan-m2-32b",
+      "context_window": 131072,
+      "input_price_per_million": 700,
+      "output_price_per_million": 700,
+      "model_type": "unknown"
+    },
+    {
+      "id": "novita/thudm/glm-4.1v-9b-thinking",
+      "name": "GLM 4.1V 9B Thinking",
+      "provider": "novita",
+      "model_id": "thudm/glm-4.1v-9b-thinking",
+      "context_window": 65536,
+      "input_price_per_million": 350,
+      "output_price_per_million": 1380,
+      "model_type": "unknown"
+    },
+    {
+      "id": "novita/baidu/ernie-4.5-vl-424b-a47b",
+      "name": "ERNIE 4.5 VL 424B A47B",
+      "provider": "novita",
+      "model_id": "baidu/ernie-4.5-vl-424b-a47b",
+      "context_window": 123000,
+      "input_price_per_million": 4200,
+      "output_price_per_million": 12500,
+      "model_type": "vision"
+    },
+    {
+      "id": "novita/baidu/ernie-4.5-300b-a47b-paddle",
+      "name": "ERNIE 4.5 300B A47B",
+      "provider": "novita",
+      "model_id": "baidu/ernie-4.5-300b-a47b-paddle",
+      "context_window": 123000,
+      "input_price_per_million": 2800,
+      "output_price_per_million": 11000,
+      "model_type": "unknown"
+    },
+    {
+      "id": "novita/deepseek/deepseek-prover-v2-671b",
+      "name": "Deepseek Prover V2 671B",
+      "provider": "novita",
+      "model_id": "deepseek/deepseek-prover-v2-671b",
+      "context_window": 160000,
+      "input_price_per_million": 7000,
+      "output_price_per_million": 25000,
+      "model_type": "unknown"
+    },
+    {
+      "id": "novita/qwen/qwen3-32b-fp8",
+      "name": "Qwen3 32B",
+      "provider": "novita",
+      "model_id": "qwen/qwen3-32b-fp8",
+      "context_window": 40960,
+      "input_price_per_million": 1000,
+      "output_price_per_million": 4500,
+      "benchmarks": {
+        "aider_polyglot": 40.0,
+        "arena_elo": 1345.0,
+        "livebench_global": 46.67,
+        "livebench_reasoning": 48.25,
+        "livebench_coding": 66.03,
+        "livebench_agentic_coding": 3.33,
+        "livebench_math": 67.44,
+        "livebench_data_analysis": 68.29,
+        "livebench_language": 55.54,
+        "livebench_ifeval": 17.77
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "novita/qwen/qwen3-30b-a3b-fp8",
+      "name": "Qwen3 30B A3B",
+      "provider": "novita",
+      "model_id": "qwen/qwen3-30b-a3b-fp8",
+      "context_window": 40960,
+      "input_price_per_million": 900,
+      "output_price_per_million": 4500,
+      "benchmarks": {
+        "arena_elo": 1326.0,
+        "livebench_global": 42.11,
+        "livebench_reasoning": 36.68,
+        "livebench_coding": 48.88,
+        "livebench_agentic_coding": 1.67,
+        "livebench_math": 65.35,
+        "livebench_data_analysis": 66.6,
+        "livebench_language": 54.47,
+        "livebench_ifeval": 21.11
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "novita/google/gemma-3-27b-it",
+      "name": "Gemma 3 27B",
+      "provider": "novita",
+      "model_id": "google/gemma-3-27b-it",
+      "context_window": 98304,
+      "input_price_per_million": 1190,
+      "output_price_per_million": 2000,
+      "benchmarks": {
+        "gpqa_diamond": 0.489,
+        "math_level_5": 0.74,
+        "otis_mock_aime_2024_2025": 0.197,
+        "aider_polyglot": 4.9,
+        "arena_elo": 1365.0
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "novita/deepseek/deepseek-v3-turbo",
+      "name": "DeepSeek V3 (Turbo)\t",
+      "provider": "novita",
+      "model_id": "deepseek/deepseek-v3-turbo",
+      "context_window": 64000,
+      "input_price_per_million": 4000,
+      "output_price_per_million": 13000,
+      "model_type": "chat"
+    },
+    {
+      "id": "novita/deepseek/deepseek-r1-turbo",
+      "name": "DeepSeek R1 (Turbo)\t",
+      "provider": "novita",
+      "model_id": "deepseek/deepseek-r1-turbo",
+      "context_window": 64000,
+      "input_price_per_million": 7000,
+      "output_price_per_million": 25000,
+      "model_type": "reasoning"
+    },
+    {
+      "id": "novita/Sao10K/L3-8B-Stheno-v3.2",
+      "name": "L3 8B Stheno V3.2",
+      "provider": "novita",
+      "model_id": "Sao10K/L3-8B-Stheno-v3.2",
+      "context_window": 8192,
+      "input_price_per_million": 500,
+      "output_price_per_million": 500,
+      "model_type": "unknown"
+    },
+    {
+      "id": "novita/gryphe/mythomax-l2-13b",
+      "name": "Mythomax L2 13B",
+      "provider": "novita",
+      "model_id": "gryphe/mythomax-l2-13b",
+      "context_window": 4096,
+      "input_price_per_million": 900,
+      "output_price_per_million": 900,
+      "model_type": "unknown"
+    },
+    {
+      "id": "novita/baidu/ernie-4.5-vl-28b-a3b-thinking",
+      "name": "ERNIE-4.5-VL-28B-A3B-Thinking",
+      "provider": "novita",
+      "model_id": "baidu/ernie-4.5-vl-28b-a3b-thinking",
+      "context_window": 131072,
+      "input_price_per_million": 3900,
+      "output_price_per_million": 3900,
+      "model_type": "vision"
+    },
+    {
+      "id": "novita/qwen/qwen3-vl-8b-instruct",
+      "name": "qwen/qwen3-vl-8b-instruct",
+      "provider": "novita",
+      "model_id": "qwen/qwen3-vl-8b-instruct",
+      "context_window": 131072,
+      "input_price_per_million": 800,
+      "output_price_per_million": 5000,
+      "model_type": "vision"
+    },
+    {
+      "id": "novita/zai-org/glm-4.5-air",
+      "name": "zai-org/glm-4.5-air",
+      "provider": "novita",
+      "model_id": "zai-org/glm-4.5-air",
+      "context_window": 131072,
+      "input_price_per_million": 1300,
+      "output_price_per_million": 8500,
+      "benchmarks": {
+        "arena_elo": 1371.0
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "novita/qwen/qwen3-vl-30b-a3b-instruct",
+      "name": "qwen/qwen3-vl-30b-a3b-instruct",
+      "provider": "novita",
+      "model_id": "qwen/qwen3-vl-30b-a3b-instruct",
+      "context_window": 131072,
+      "input_price_per_million": 2000,
+      "output_price_per_million": 7000,
+      "model_type": "vision"
+    },
+    {
+      "id": "novita/qwen/qwen3-vl-30b-a3b-thinking",
+      "name": "qwen/qwen3-vl-30b-a3b-thinking",
+      "provider": "novita",
+      "model_id": "qwen/qwen3-vl-30b-a3b-thinking",
+      "context_window": 131072,
+      "input_price_per_million": 2000,
+      "output_price_per_million": 10000,
+      "model_type": "vision"
+    },
+    {
+      "id": "novita/qwen/qwen3-omni-30b-a3b-thinking",
+      "name": "Qwen3 Omni 30B A3B Thinking",
+      "provider": "novita",
+      "model_id": "qwen/qwen3-omni-30b-a3b-thinking",
+      "context_window": 65536,
+      "model_type": "chat"
+    },
+    {
+      "id": "novita/qwen/qwen3-omni-30b-a3b-instruct",
+      "name": "Qwen3 Omni 30B A3B Instruct",
+      "provider": "novita",
+      "model_id": "qwen/qwen3-omni-30b-a3b-instruct",
+      "context_window": 65536,
+      "model_type": "chat"
+    },
+    {
+      "id": "novita/qwen/qwen-mt-plus",
+      "name": "Qwen MT Plus",
+      "provider": "novita",
+      "model_id": "qwen/qwen-mt-plus",
+      "context_window": 16384,
+      "input_price_per_million": 2500,
+      "output_price_per_million": 7500,
+      "model_type": "chat"
+    },
+    {
+      "id": "novita/baidu/ernie-4.5-vl-28b-a3b",
+      "name": "ERNIE 4.5 VL 28B A3B",
+      "provider": "novita",
+      "model_id": "baidu/ernie-4.5-vl-28b-a3b",
+      "context_window": 30000,
+      "input_price_per_million": 1400,
+      "output_price_per_million": 5600,
+      "model_type": "vision"
+    },
+    {
+      "id": "novita/baidu/ernie-4.5-21B-a3b",
+      "name": "ERNIE 4.5 21B A3B",
+      "provider": "novita",
+      "model_id": "baidu/ernie-4.5-21B-a3b",
+      "context_window": 120000,
+      "input_price_per_million": 700,
+      "output_price_per_million": 2800,
+      "model_type": "unknown"
+    },
+    {
+      "id": "novita/qwen/qwen3-8b-fp8",
+      "name": "Qwen3 8B",
+      "provider": "novita",
+      "model_id": "qwen/qwen3-8b-fp8",
+      "context_window": 128000,
+      "input_price_per_million": 350,
+      "output_price_per_million": 1380,
+      "model_type": "chat"
+    },
+    {
+      "id": "novita/qwen/qwen3-4b-fp8",
+      "name": "Qwen3 4B",
+      "provider": "novita",
+      "model_id": "qwen/qwen3-4b-fp8",
+      "context_window": 128000,
+      "input_price_per_million": 300,
+      "output_price_per_million": 300,
+      "model_type": "chat"
+    },
+    {
+      "id": "novita/qwen/qwen2.5-7b-instruct",
+      "name": "Qwen2.5 7B Instruct",
+      "provider": "novita",
+      "model_id": "qwen/qwen2.5-7b-instruct",
+      "context_window": 32000,
+      "input_price_per_million": 700,
+      "output_price_per_million": 700,
+      "benchmarks": {
+        "mmlu": 0.729
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "novita/meta-llama/llama-3.2-3b-instruct",
+      "name": "Llama 3.2 3B Instruct",
+      "provider": "novita",
+      "model_id": "meta-llama/llama-3.2-3b-instruct",
+      "context_window": 32768,
+      "input_price_per_million": 300,
+      "output_price_per_million": 500,
+      "model_type": "chat"
+    },
+    {
+      "id": "novita/sao10k/l31-70b-euryale-v2.2",
+      "name": "L31 70B Euryale V2.2",
+      "provider": "novita",
+      "model_id": "sao10k/l31-70b-euryale-v2.2",
+      "context_window": 8192,
+      "input_price_per_million": 14800,
+      "output_price_per_million": 14800,
+      "model_type": "unknown"
+    }
+  ]
+}

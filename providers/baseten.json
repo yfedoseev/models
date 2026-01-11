@@ -1,0 +1,70 @@
+{
+  "provider": "baseten",
+  "model_count": 5,
+  "models": [
+    {
+      "id": "baseten/llama-3.1-405b",
+      "name": "Llama 3.1 405B",
+      "provider": "baseten",
+      "model_id": "llama-3.1-405b",
+      "context_window": 131072,
+      "benchmarks": {
+        "gpqa_diamond": 0.509,
+        "mmlu": 0.844,
+        "math_level_5": 0.498,
+        "otis_mock_aime_2024_2025": 0.097,
+        "simplebench": 0.23,
+        "trivia_qa": 0.827
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "baseten/llama-3.1-70b",
+      "name": "Llama 3.1 70B",
+      "provider": "baseten",
+      "model_id": "llama-3.1-70b",
+      "context_window": 131072,
+      "benchmarks": {
+        "gpqa_diamond": 0.442,
+        "mmlu": 0.801,
+        "math_level_5": 0.367,
+        "otis_mock_aime_2024_2025": 0.036
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "baseten/llama-3.1-8b",
+      "name": "Llama 3.1 8B",
+      "provider": "baseten",
+      "model_id": "llama-3.1-8b",
+      "context_window": 131072,
+      "benchmarks": {
+        "gpqa_diamond": 0.259,
+        "mmlu": 0.561,
+        "math_level_5": 0.229,
+        "gsm8k": 0.824,
+        "otis_mock_aime_2024_2025": 0.025
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "baseten/mistral-7b",
+      "name": "Mistral 7B",
+      "provider": "baseten",
+      "model_id": "mistral-7b",
+      "context_window": 32768,
+      "benchmarks": {
+        "arena_elo": 1111.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "baseten/mixtral-8x7b",
+      "name": "Mixtral 8x7B",
+      "provider": "baseten",
+      "model_id": "mixtral-8x7b",
+      "context_window": 32768,
+      "model_type": "chat"
+    }
+  ]
+}

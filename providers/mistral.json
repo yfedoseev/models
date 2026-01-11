@@ -1,0 +1,709 @@
+{
+  "provider": "mistral",
+  "model_count": 70,
+  "models": [
+    {
+      "id": "mistral-large-3-25-12",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "mistral-large-3-25-12",
+      "context_window": 131072,
+      "input_price_per_million": 0.5,
+      "output_price_per_million": 1.5,
+      "model_type": "chat"
+    },
+    {
+      "id": "devstral-2-25-12",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "devstral-2-25-12",
+      "context_window": 131072,
+      "model_type": "unknown"
+    },
+    {
+      "id": "mistral-medium-3-1-25-08",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "mistral-medium-3-1-25-08",
+      "context_window": 131072,
+      "input_price_per_million": 0.4,
+      "output_price_per_million": 2.0,
+      "model_type": "chat"
+    },
+    {
+      "id": "mistral-small-3-2-25-06",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "mistral-small-3-2-25-06",
+      "context_window": 131072,
+      "input_price_per_million": 0.1,
+      "output_price_per_million": 0.3,
+      "model_type": "chat"
+    },
+    {
+      "id": "ministral-3-14b-25-12",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "ministral-3-14b-25-12",
+      "context_window": 131072,
+      "model_type": "small"
+    },
+    {
+      "id": "ministral-3-8b-25-12",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "ministral-3-8b-25-12",
+      "context_window": 131072,
+      "model_type": "small"
+    },
+    {
+      "id": "ministral-3-3b-25-12",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "ministral-3-3b-25-12",
+      "context_window": 131072,
+      "model_type": "small"
+    },
+    {
+      "id": "magistral-medium-1-2-25-09",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "magistral-medium-1-2-25-09",
+      "context_window": 131072,
+      "input_price_per_million": 2.0,
+      "output_price_per_million": 5.0,
+      "model_type": "unknown"
+    },
+    {
+      "id": "magistral-small-1-2-25-09",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "magistral-small-1-2-25-09",
+      "context_window": 131072,
+      "input_price_per_million": 0.5,
+      "output_price_per_million": 1.5,
+      "model_type": "unknown"
+    },
+    {
+      "id": "ocr-3-25-12",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "ocr-3-25-12",
+      "context_window": 8192,
+      "model_type": "unknown"
+    },
+    {
+      "id": "voxtral-mini-transcribe-25-07",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "voxtral-mini-transcribe-25-07",
+      "context_window": 131072,
+      "input_price_per_million": 0.001,
+      "output_price_per_million": 0.04,
+      "model_type": "unknown"
+    },
+    {
+      "id": "codestral-embed-25-05",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "codestral-embed-25-05",
+      "context_window": 256000,
+      "model_type": "embedding"
+    },
+    {
+      "id": "voxtral-mini-25-07",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "voxtral-mini-25-07",
+      "context_window": 131072,
+      "input_price_per_million": 0.001,
+      "output_price_per_million": 0.04,
+      "model_type": "unknown"
+    },
+    {
+      "id": "voxtral-small-25-07",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "voxtral-small-25-07",
+      "context_window": 131072,
+      "input_price_per_million": 0.004,
+      "output_price_per_million": 0.3,
+      "model_type": "unknown"
+    },
+    {
+      "id": "mistral-moderation-24-11",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "mistral-moderation-24-11",
+      "context_window": 8192,
+      "input_price_per_million": 0.1,
+      "model_type": "chat"
+    },
+    {
+      "id": "mistral-small-creative-25-12",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "mistral-small-creative-25-12",
+      "context_window": 131072,
+      "input_price_per_million": 0.1,
+      "output_price_per_million": 0.3,
+      "model_type": "chat"
+    },
+    {
+      "id": "devstral-small-2-25-12",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "devstral-small-2-25-12",
+      "context_window": 131072,
+      "model_type": "unknown"
+    },
+    {
+      "id": "devstral-medium-1-0-25-07",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "devstral-medium-1-0-25-07",
+      "context_window": 131072,
+      "model_type": "unknown"
+    },
+    {
+      "id": "devstral-small-1-1-25-07",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "devstral-small-1-1-25-07",
+      "context_window": 131072,
+      "model_type": "unknown"
+    },
+    {
+      "id": "ocr-2-25-05",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "ocr-2-25-05",
+      "context_window": 8192,
+      "model_type": "unknown"
+    },
+    {
+      "id": "mistral-medium-3-25-05",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "mistral-medium-3-25-05",
+      "context_window": 131072,
+      "input_price_per_million": 0.4,
+      "output_price_per_million": 2.0,
+      "model_type": "chat"
+    },
+    {
+      "id": "mistral-large-2-1-24-11",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "mistral-large-2-1-24-11",
+      "context_window": 131072,
+      "input_price_per_million": 0.5,
+      "output_price_per_million": 1.5,
+      "model_type": "chat"
+    },
+    {
+      "id": "pixtral-large-24-11",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "pixtral-large-24-11",
+      "context_window": 131072,
+      "input_price_per_million": 2.0,
+      "output_price_per_million": 6.0,
+      "model_type": "vision"
+    },
+    {
+      "id": "mistral-nemo-12b-24-07",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "mistral-nemo-12b-24-07",
+      "context_window": 131072,
+      "model_type": "chat"
+    },
+    {
+      "id": "mistral-embed-23-12",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "mistral-embed-23-12",
+      "context_window": 8192,
+      "input_price_per_million": 0.1,
+      "model_type": "embedding"
+    },
+    {
+      "id": "magistral-medium-1-1-25-07",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "magistral-medium-1-1-25-07",
+      "context_window": 131072,
+      "input_price_per_million": 2.0,
+      "output_price_per_million": 5.0,
+      "model_type": "unknown"
+    },
+    {
+      "id": "magistral-small-1-1-25-07",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "magistral-small-1-1-25-07",
+      "context_window": 131072,
+      "input_price_per_million": 0.5,
+      "output_price_per_million": 1.5,
+      "model_type": "unknown"
+    },
+    {
+      "id": "magistral-medium-1-0-25-06",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "magistral-medium-1-0-25-06",
+      "context_window": 131072,
+      "input_price_per_million": 2.0,
+      "output_price_per_million": 5.0,
+      "model_type": "unknown"
+    },
+    {
+      "id": "magistral-small-1-0-25-06",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "magistral-small-1-0-25-06",
+      "context_window": 131072,
+      "input_price_per_million": 0.5,
+      "output_price_per_million": 1.5,
+      "model_type": "unknown"
+    },
+    {
+      "id": "devstral-small-1-0-25-05",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "devstral-small-1-0-25-05",
+      "context_window": 131072,
+      "model_type": "unknown"
+    },
+    {
+      "id": "mistral-small-3-1-25-03",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "mistral-small-3-1-25-03",
+      "context_window": 131072,
+      "input_price_per_million": 0.1,
+      "output_price_per_million": 0.3,
+      "model_type": "chat"
+    },
+    {
+      "id": "mistral-saba-25-02",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "mistral-saba-25-02",
+      "context_window": 32768,
+      "model_type": "chat"
+    },
+    {
+      "id": "mistral-small-3-0-25-01",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "mistral-small-3-0-25-01",
+      "context_window": 131072,
+      "input_price_per_million": 0.1,
+      "output_price_per_million": 0.3,
+      "model_type": "chat"
+    },
+    {
+      "id": "ministral-3b-24-1",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "ministral-3b-24-1",
+      "context_window": 131072,
+      "model_type": "small"
+    },
+    {
+      "id": "ministral-8b-24-1",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "ministral-8b-24-1",
+      "context_window": 131072,
+      "model_type": "small"
+    },
+    {
+      "id": "mistral-small-2-0-24-09",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "mistral-small-2-0-24-09",
+      "context_window": 131072,
+      "input_price_per_million": 0.1,
+      "output_price_per_million": 0.3,
+      "model_type": "chat"
+    },
+    {
+      "id": "pixtral-12b-24-09",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "pixtral-12b-24-09",
+      "context_window": 131072,
+      "model_type": "vision"
+    },
+    {
+      "id": "mistral-large-2-0-24-07",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "mistral-large-2-0-24-07",
+      "context_window": 131072,
+      "input_price_per_million": 0.5,
+      "output_price_per_million": 1.5,
+      "model_type": "chat"
+    },
+    {
+      "id": "codestral-mamba-7b-0-1",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "codestral-mamba-7b-0-1",
+      "context_window": 256000,
+      "model_type": "code"
+    },
+    {
+      "id": "mathstral-7b-0-1",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "mathstral-7b-0-1",
+      "context_window": 32768,
+      "model_type": "unknown"
+    },
+    {
+      "id": "mistral-7b-0-3",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "mistral-7b-0-3",
+      "context_window": 32768,
+      "model_type": "chat"
+    },
+    {
+      "id": "mixtral-8x22b-0-1-0-3",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "mixtral-8x22b-0-1-0-3",
+      "context_window": 32768,
+      "model_type": "chat"
+    },
+    {
+      "id": "mistral-small-1-0-24-02",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "mistral-small-1-0-24-02",
+      "context_window": 131072,
+      "input_price_per_million": 0.1,
+      "output_price_per_million": 0.3,
+      "model_type": "chat"
+    },
+    {
+      "id": "mistral-large-1-0-24-02",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "mistral-large-1-0-24-02",
+      "context_window": 131072,
+      "input_price_per_million": 0.5,
+      "output_price_per_million": 1.5,
+      "model_type": "chat"
+    },
+    {
+      "id": "mistral-medium-1-0-23-12",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "mistral-medium-1-0-23-12",
+      "context_window": 131072,
+      "input_price_per_million": 0.4,
+      "output_price_per_million": 2.0,
+      "model_type": "chat"
+    },
+    {
+      "id": "mixtral-8x7b-0-1",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "mixtral-8x7b-0-1",
+      "context_window": 32768,
+      "model_type": "chat"
+    },
+    {
+      "id": "mistral-7b-0-2",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "mistral-7b-0-2",
+      "context_window": 32768,
+      "model_type": "chat"
+    },
+    {
+      "id": "mistral-7b-0-1",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "mistral-7b-0-1",
+      "context_window": 32768,
+      "model_type": "chat"
+    },
+    {
+      "id": "mistral-large-latest",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "mistral-large-latest",
+      "context_window": 131072,
+      "input_price_per_million": 0.5,
+      "output_price_per_million": 1.5,
+      "benchmarks": {
+        "gpqa_diamond": 0.49,
+        "mmlu": 0.8,
+        "math_level_5": 0.245,
+        "otis_mock_aime_2024_2025": 0.085,
+        "frontiermath": 0.003,
+        "simplebench": 0.225,
+        "arena_elo": 1242.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "mistral-medium-latest",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "mistral-medium-latest",
+      "context_window": 131072,
+      "input_price_per_million": 0.4,
+      "output_price_per_million": 2.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.595,
+        "math_level_5": 0.816,
+        "otis_mock_aime_2024_2025": 0.322,
+        "frontiermath": 0.003,
+        "arena_elo": 1223.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "mistral-small-latest",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "mistral-small-latest",
+      "context_window": 131072,
+      "input_price_per_million": 0.1,
+      "output_price_per_million": 0.3,
+      "benchmarks": {
+        "gpqa_diamond": 0.453,
+        "mmlu": 0.687,
+        "math_level_5": 0.448,
+        "otis_mock_aime_2024_2025": 0.058,
+        "arena_elo": 1355.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "magistral-medium-latest",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "magistral-medium-latest",
+      "context_window": 131072,
+      "input_price_per_million": 2.0,
+      "output_price_per_million": 5.0,
+      "benchmarks": {
+        "arena_elo": 1305.0
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "magistral-small-latest",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "magistral-small-latest",
+      "context_window": 131072,
+      "input_price_per_million": 0.5,
+      "output_price_per_million": 1.5,
+      "benchmarks": {
+        "gpqa_diamond": 0.484,
+        "otis_mock_aime_2024_2025": 0.3
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "codestral-latest",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "codestral-latest",
+      "context_window": 32768,
+      "input_price_per_million": 0.3,
+      "output_price_per_million": 0.9,
+      "benchmarks": {
+        "aider_polyglot": 11.1
+      },
+      "model_type": "code"
+    },
+    {
+      "id": "pixtral-large-latest",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "pixtral-large-latest",
+      "context_window": 131072,
+      "input_price_per_million": 2.0,
+      "output_price_per_million": 6.0,
+      "model_type": "vision"
+    },
+    {
+      "id": "pixtral-12b",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "pixtral-12b",
+      "context_window": 131072,
+      "input_price_per_million": 0.15,
+      "output_price_per_million": 0.15,
+      "model_type": "vision"
+    },
+    {
+      "id": "ministral-8b-latest",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "ministral-8b-latest",
+      "context_window": 131072,
+      "input_price_per_million": 0.15,
+      "output_price_per_million": 0.15,
+      "benchmarks": {
+        "gpqa_diamond": 0.271,
+        "math_level_5": 0.149,
+        "arena_elo": 1237.0
+      },
+      "model_type": "small"
+    },
+    {
+      "id": "ministral-3b-latest",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "ministral-3b-latest",
+      "context_window": 131072,
+      "input_price_per_million": 0.1,
+      "output_price_per_million": 0.1,
+      "benchmarks": {
+        "gpqa_diamond": 0.253,
+        "math_level_5": 0.144
+      },
+      "model_type": "small"
+    },
+    {
+      "id": "ministral-14b-latest",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "ministral-14b-latest",
+      "context_window": 131072,
+      "input_price_per_million": 0.2,
+      "output_price_per_million": 0.2,
+      "model_type": "small"
+    },
+    {
+      "id": "devstral-medium-latest",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "devstral-medium-latest",
+      "context_window": 131072,
+      "model_type": "unknown"
+    },
+    {
+      "id": "devstral-small-latest",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "devstral-small-latest",
+      "context_window": 131072,
+      "model_type": "unknown"
+    },
+    {
+      "id": "voxtral-small-latest",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "voxtral-small-latest",
+      "context_window": 131072,
+      "input_price_per_million": 0.004,
+      "output_price_per_million": 0.3,
+      "model_type": "unknown"
+    },
+    {
+      "id": "voxtral-mini-latest",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "voxtral-mini-latest",
+      "context_window": 131072,
+      "input_price_per_million": 0.001,
+      "output_price_per_million": 0.04,
+      "model_type": "unknown"
+    },
+    {
+      "id": "mistral-embed",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "mistral-embed",
+      "context_window": 8192,
+      "input_price_per_million": 0.1,
+      "model_type": "embedding"
+    },
+    {
+      "id": "codestral-embed-2505",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "codestral-embed-2505",
+      "context_window": 32768,
+      "input_price_per_million": 0.15,
+      "model_type": "embedding"
+    },
+    {
+      "id": "open-mistral-nemo",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "open-mistral-nemo",
+      "context_window": 131072,
+      "input_price_per_million": 0.15,
+      "output_price_per_million": 0.15,
+      "benchmarks": {
+        "gpqa_diamond": 0.299,
+        "math_level_5": 0.108
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "open-mistral-7b",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "open-mistral-7b",
+      "context_window": 32768,
+      "input_price_per_million": 0.25,
+      "output_price_per_million": 0.25,
+      "benchmarks": {
+        "gpqa_diamond": 0.132,
+        "math_level_5": 0.037
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "open-mixtral-8x7b",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "open-mixtral-8x7b",
+      "context_window": 32768,
+      "input_price_per_million": 0.7,
+      "output_price_per_million": 0.7,
+      "benchmarks": {
+        "gpqa_diamond": 0.298,
+        "math_level_5": 0.242
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "open-mixtral-8x22b",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "open-mixtral-8x22b",
+      "context_window": 65536,
+      "input_price_per_million": 2.0,
+      "output_price_per_million": 6.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.298,
+        "math_level_5": 0.242
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "mistral-moderation-latest",
+      "name": null,
+      "provider": "mistral",
+      "model_id": "mistral-moderation-latest",
+      "context_window": 8192,
+      "input_price_per_million": 0.1,
+      "model_type": "chat"
+    }
+  ]
+}

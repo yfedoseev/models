@@ -1,0 +1,36 @@
+{
+  "provider": "deepseek",
+  "model_count": 2,
+  "models": [
+    {
+      "id": "deepseek-chat",
+      "name": null,
+      "provider": "deepseek",
+      "model_id": "deepseek-chat",
+      "context_window": 131072,
+      "input_price_per_million": 0.28,
+      "output_price_per_million": 0.42,
+      "benchmarks": {
+        "arena_elo": 1393
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "deepseek-reasoner",
+      "name": null,
+      "provider": "deepseek",
+      "model_id": "deepseek-reasoner",
+      "context_window": 131072,
+      "input_price_per_million": 0.28,
+      "output_price_per_million": 0.42,
+      "benchmarks": {
+        "gpqa_diamond": 0.834,
+        "otis_mock_aime_2024_2025": 0.878,
+        "simpleqa_verified": 0.275,
+        "chess_puzzles": 0.14,
+        "arena_elo": 1396
+      },
+      "model_type": "reasoning"
+    }
+  ]
+}

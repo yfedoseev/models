@@ -1,0 +1,62 @@
+{
+  "provider": "writer",
+  "model_count": 7,
+  "models": [
+    {
+      "id": "writer/palmyra-x5",
+      "name": "palmyra-x5",
+      "provider": "writer",
+      "model_id": "palmyra-x5",
+      "context_window": 1000000,
+      "model_type": "chat"
+    },
+    {
+      "id": "writer/palmyra-x4",
+      "name": "palmyra-x4",
+      "provider": "writer",
+      "model_id": "palmyra-x4",
+      "context_window": 131072,
+      "model_type": "chat"
+    },
+    {
+      "id": "writer/palmyra-x-003-instruct",
+      "name": "palmyra-x-003-instruct",
+      "provider": "writer",
+      "model_id": "palmyra-x-003-instruct",
+      "context_window": 32768,
+      "model_type": "chat"
+    },
+    {
+      "id": "writer/palmyra-med",
+      "name": "palmyra-med",
+      "provider": "writer",
+      "model_id": "palmyra-med",
+      "context_window": 32768,
+      "model_type": "chat"
+    },
+    {
+      "id": "writer/palmyra-fin",
+      "name": "palmyra-fin",
+      "provider": "writer",
+      "model_id": "palmyra-fin",
+      "context_window": 131072,
+      "model_type": "chat"
+    },
+    {
+      "id": "writer/palmyra-creative",
+      "name": "palmyra-creative",
+      "provider": "writer",
+      "model_id": "palmyra-creative",
+      "context_window": 32768,
+      "model_type": "chat"
+    },
+    {
+      "id": "writer/palmyra-vision",
+      "name": "palmyra-vision",
+      "provider": "writer",
+      "model_id": "palmyra-vision",
+      "context_window": 32768,
+      "model_type": "chat"
+    }
+  ]
+}

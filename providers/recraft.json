@@ -1,0 +1,34 @@
+{
+  "provider": "recraft",
+  "model_count": 4,
+  "models": [
+    {
+      "id": "recraft/Recraft V3 Raster",
+      "name": "Recraft V3 Raster",
+      "provider": "recraft",
+      "model_id": null,
+      "model_type": "unknown"
+    },
+    {
+      "id": "recraft/Recraft V3 Vector",
+      "name": "Recraft V3 Vector",
+      "provider": "recraft",
+      "model_id": null,
+      "model_type": "unknown"
+    },
+    {
+      "id": "recraft/Recraft V2 Raster",
+      "name": "Recraft V2 Raster",
+      "provider": "recraft",
+      "model_id": null,
+      "model_type": "unknown"
+    },
+    {
+      "id": "recraft/Recraft V2 Vector",
+      "name": "Recraft V2 Vector",
+      "provider": "recraft",
+      "model_id": null,
+      "model_type": "unknown"
+    }
+  ]
+}

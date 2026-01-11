@@ -1,0 +1,57 @@
+{
+  "provider": "yandex",
+  "model_count": 6,
+  "models": [
+    {
+      "id": "yandex/yandexgpt",
+      "name": "yandexgpt",
+      "provider": "yandex",
+      "model_id": "yandexgpt",
+      "context_window": 8192,
+      "input_price_per_million": 0.2,
+      "output_price_per_million": 0.2
+    },
+    {
+      "id": "yandex/yandexgpt-lite",
+      "name": "yandexgpt-lite",
+      "provider": "yandex",
+      "model_id": "yandexgpt-lite",
+      "context_window": 8192,
+      "input_price_per_million": 0.02,
+      "output_price_per_million": 0.02
+    },
+    {
+      "id": "yandex/yandexgpt-pro",
+      "name": "yandexgpt-pro",
+      "provider": "yandex",
+      "model_id": "yandexgpt-pro",
+      "context_window": 32768,
+      "input_price_per_million": 0.8,
+      "output_price_per_million": 0.8
+    },
+    {
+      "id": "yandex/yandexgpt-pro-32k",
+      "name": "yandexgpt-pro-32k",
+      "provider": "yandex",
+      "model_id": "yandexgpt-pro-32k",
+      "context_window": 32768,
+      "input_price_per_million": 0.8,
+      "output_price_per_million": 0.8
+    },
+    {
+      "id": "yandex/summarization",
+      "name": "summarization",
+      "provider": "yandex",
+      "model_id": "summarization",
+      "context_window": 32768,
+      "input_price_per_million": 0.5,
+      "output_price_per_million": 0.5
+    },
+    {
+      "id": "yandex/yandexart",
+      "name": "yandexart",
+      "provider": "yandex",
+      "model_id": "yandexart"
+    }
+  ]
+}

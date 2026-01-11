@@ -1,0 +1,42 @@
+{
+  "provider": "krutrim",
+  "model_count": 6,
+  "models": [
+    {
+      "id": "krutrim/krutrim-ai-labs/Vyakyarth",
+      "name": "krutrim-ai-labs/Vyakyarth",
+      "provider": "krutrim",
+      "model_id": "krutrim-ai-labs/Vyakyarth"
+    },
+    {
+      "id": "krutrim/krutrim-ai-labs/Chitrarth",
+      "name": "krutrim-ai-labs/Chitrarth",
+      "provider": "krutrim",
+      "model_id": "krutrim-ai-labs/Chitrarth"
+    },
+    {
+      "id": "krutrim/krutrim-ai-labs/Krutrim-2-instruct",
+      "name": "krutrim-ai-labs/Krutrim-2-instruct",
+      "provider": "krutrim",
+      "model_id": "krutrim-ai-labs/Krutrim-2-instruct"
+    },
+    {
+      "id": "krutrim/krutrim-ai-labs/Dhwani",
+      "name": "krutrim-ai-labs/Dhwani",
+      "provider": "krutrim",
+      "model_id": "krutrim-ai-labs/Dhwani"
+    },
+    {
+      "id": "krutrim/krutrim-ai-labs/Krutrim-1-instruct",
+      "name": "krutrim-ai-labs/Krutrim-1-instruct",
+      "provider": "krutrim",
+      "model_id": "krutrim-ai-labs/Krutrim-1-instruct"
+    },
+    {
+      "id": "krutrim/krutrim-ai-labs/Krutrim-Translate",
+      "name": "krutrim-ai-labs/Krutrim-Translate",
+      "provider": "krutrim",
+      "model_id": "krutrim-ai-labs/Krutrim-Translate"
+    }
+  ]
+}

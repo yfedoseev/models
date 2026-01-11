@@ -1,0 +1,219 @@
+{
+  "provider": "google",
+  "model_count": 14,
+  "models": [
+    {
+      "id": "google/gemini-3-pro-preview",
+      "name": null,
+      "provider": "google",
+      "model_id": "gemini-3-pro-preview",
+      "context_window": 1000000,
+      "input_price_per_million": "2.00",
+      "output_price_per_million": "12.00",
+      "benchmarks": {
+        "gpqa_diamond": 0.919,
+        "otis_mock_aime_2024_2025": 0.914,
+        "frontiermath": 0.376,
+        "simplebench": 0.764,
+        "frontiermath_tier_4": 0.188,
+        "simpleqa_verified": 0.721,
+        "chess_puzzles": 0.31,
+        "humanitys_last_exam": 0.375,
+        "frontier_math": 0.376,
+        "arena_elo": 1501,
+        "mmmu_pro": 0.81,
+        "video_mmmu": 0.876,
+        "arc_agi_2": 0.451
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "google/gemini-3-flash-preview",
+      "name": null,
+      "provider": "google",
+      "model_id": "gemini-3-flash-preview",
+      "context_window": 1000000,
+      "input_price_per_million": "0.50",
+      "output_price_per_million": "3.00",
+      "benchmarks": {
+        "gpqa_diamond": 0.832,
+        "otis_mock_aime_2024_2025": 0.928,
+        "frontiermath": 0.356,
+        "simplebench": 0.611,
+        "frontiermath_tier_4": 0.042,
+        "simpleqa_verified": 0.674,
+        "chess_puzzles": 0.38,
+        "arena_elo": 1450
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "google/gemini-3-pro-image-preview",
+      "name": null,
+      "provider": "google",
+      "model_id": "gemini-3-pro-image-preview",
+      "input_price_per_million": "2.00",
+      "output_price_per_million": "12.00",
+      "model_type": "reasoning"
+    },
+    {
+      "id": "google/gemini-2.5-pro",
+      "name": null,
+      "provider": "google",
+      "model_id": "gemini-2.5-pro",
+      "context_window": 1000000,
+      "input_price_per_million": "1.25",
+      "output_price_per_million": "10.00",
+      "benchmarks": {
+        "gpqa_diamond": 0.853,
+        "otis_mock_aime_2024_2025": 0.842,
+        "frontiermath": 0.141,
+        "frontiermath_tier_4": 0.042,
+        "simpleqa_verified": 0.56,
+        "chess_puzzles": 0.2,
+        "arena_elo": 1438,
+        "swe_bench_verified": 0.631,
+        "aider_polyglot": 0.769
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "google/gemini-2.5-flash",
+      "name": null,
+      "provider": "google",
+      "model_id": "gemini-2.5-flash",
+      "context_window": 1000000,
+      "input_price_per_million": "0.30",
+      "output_price_per_million": "2.50",
+      "benchmarks": {
+        "frontiermath": 0.048,
+        "simplebench": 0.412,
+        "frontiermath_tier_4": 0.042,
+        "arena_elo": 1368,
+        "gpqa_diamond": 0.712
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "google/gemini-2.5-flash-preview-09-2025",
+      "name": null,
+      "provider": "google",
+      "model_id": "gemini-2.5-flash-preview-09-2025",
+      "context_window": 1000000,
+      "input_price_per_million": "0.30",
+      "output_price_per_million": "2.50",
+      "benchmarks": {
+        "arena_elo": 1368,
+        "gpqa_diamond": 0.712
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "google/gemini-2.5-flash-lite",
+      "name": null,
+      "provider": "google",
+      "model_id": "gemini-2.5-flash-lite",
+      "context_window": 1000000,
+      "input_price_per_million": "0.50",
+      "output_price_per_million": "2.00",
+      "benchmarks": {
+        "gpqa_diamond": 0.712,
+        "arena_elo": 1368
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "google/gemini-2.5-flash-image",
+      "name": null,
+      "provider": "google",
+      "model_id": "gemini-2.5-flash-image",
+      "context_window": 1000000,
+      "input_price_per_million": "0.30",
+      "output_price_per_million": "0.039",
+      "benchmarks": {
+        "gpqa_diamond": 0.712,
+        "arena_elo": 1368
+      },
+      "model_type": "image_gen"
+    },
+    {
+      "id": "google/gemini-2.5-flash-preview-tts",
+      "name": null,
+      "provider": "google",
+      "model_id": "gemini-2.5-flash-preview-tts",
+      "context_window": 1000000,
+      "input_price_per_million": "0.50",
+      "output_price_per_million": "10.00",
+      "benchmarks": {
+        "gpqa_diamond": 0.712,
+        "arena_elo": 1368
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "google/gemini-2.5-pro-preview-tts",
+      "name": null,
+      "provider": "google",
+      "model_id": "gemini-2.5-pro-preview-tts",
+      "context_window": 1000000,
+      "input_price_per_million": "1.00",
+      "output_price_per_million": "20.00",
+      "benchmarks": {
+        "gpqa_diamond": 0.853,
+        "swe_bench_verified": 0.631,
+        "aider_polyglot": 0.769,
+        "arena_elo": 1438
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "google/gemini-2.0-flash",
+      "name": null,
+      "provider": "google",
+      "model_id": "gemini-2.0-flash",
+      "context_window": 1000000,
+      "input_price_per_million": "0.10",
+      "output_price_per_million": "0.40",
+      "benchmarks": {
+        "mmlu": 0.797,
+        "aider_polyglot": 22.2,
+        "simplebench": 0.189,
+        "gpqa_diamond": 0.623,
+        "arena_elo": 1354
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "google/gemini-2.0-flash-lite",
+      "name": null,
+      "provider": "google",
+      "model_id": "gemini-2.0-flash-lite",
+      "context_window": 1000000,
+      "input_price_per_million": "0.075",
+      "output_price_per_million": "0.30",
+      "benchmarks": {
+        "gpqa_diamond": 0.623,
+        "arena_elo": 1354
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "google/gemini-embedding-001",
+      "name": null,
+      "provider": "google",
+      "model_id": "gemini-embedding-001",
+      "input_price_per_million": "0.15",
+      "output_price_per_million": "2.50",
+      "model_type": "embedding"
+    },
+    {
+      "id": "google/gemini-2.5-computer-use-preview-10-2025",
+      "name": null,
+      "provider": "google",
+      "model_id": "gemini-2.5-computer-use-preview-10-2025",
+      "input_price_per_million": "1.25",
+      "output_price_per_million": "10.00",
+      "model_type": "chat"
+    }
+  ]
+}

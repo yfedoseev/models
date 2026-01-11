@@ -1,0 +1,729 @@
+{
+  "total_providers": 108,
+  "total_models": 11757,
+  "models_with_pricing": 1586,
+  "models_with_benchmarks": 1211,
+  "providers": [
+    {
+      "name": "featherless",
+      "display_name": "featherless",
+      "model_count": 7206,
+      "with_pricing": 26,
+      "with_benchmarks": 175
+    },
+    {
+      "name": "huggingface_inference",
+      "display_name": "huggingface_inference",
+      "model_count": 500,
+      "with_pricing": 24,
+      "with_benchmarks": 69
+    },
+    {
+      "name": "openrouter",
+      "display_name": "openrouter",
+      "model_count": 349,
+      "with_pricing": 349,
+      "with_benchmarks": 134
+    },
+    {
+      "name": "edenai",
+      "display_name": "edenai",
+      "model_count": 285,
+      "with_pricing": 0,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "qwen",
+      "display_name": "qwen",
+      "model_count": 256,
+      "with_pricing": 140,
+      "with_benchmarks": 67
+    },
+    {
+      "name": "vertex",
+      "display_name": "vertex",
+      "model_count": 239,
+      "with_pricing": 14,
+      "with_benchmarks": 21
+    },
+    {
+      "name": "fireworks",
+      "display_name": "fireworks",
+      "model_count": 238,
+      "with_pricing": 223,
+      "with_benchmarks": 46
+    },
+    {
+      "name": "bedrock",
+      "display_name": "bedrock",
+      "model_count": 231,
+      "with_pricing": 7,
+      "with_benchmarks": 29
+    },
+    {
+      "name": "ollama",
+      "display_name": "ollama",
+      "model_count": 200,
+      "with_pricing": 10,
+      "with_benchmarks": 21
+    },
+    {
+      "name": "nvidia_nim",
+      "display_name": "nvidia_nim",
+      "model_count": 180,
+      "with_pricing": 16,
+      "with_benchmarks": 61
+    },
+    {
+      "name": "azure_openai",
+      "display_name": "azure_openai",
+      "model_count": 141,
+      "with_pricing": 2,
+      "with_benchmarks": 54
+    },
+    {
+      "name": "together",
+      "display_name": "together",
+      "model_count": 140,
+      "with_pricing": 140,
+      "with_benchmarks": 2
+    },
+    {
+      "name": "xinference",
+      "display_name": "xinference",
+      "model_count": 140,
+      "with_pricing": 3,
+      "with_benchmarks": 24
+    },
+    {
+      "name": "vercel",
+      "display_name": "vercel",
+      "model_count": 117,
+      "with_pricing": 19,
+      "with_benchmarks": 65
+    },
+    {
+      "name": "openai",
+      "display_name": "openai",
+      "model_count": 111,
+      "with_pricing": 89,
+      "with_benchmarks": 78
+    },
+    {
+      "name": "ai71",
+      "display_name": "ai71",
+      "model_count": 109,
+      "with_pricing": 1,
+      "with_benchmarks": 7
+    },
+    {
+      "name": "helicone",
+      "display_name": "helicone",
+      "model_count": 100,
+      "with_pricing": 21,
+      "with_benchmarks": 69
+    },
+    {
+      "name": "cloudflare_ai",
+      "display_name": "cloudflare_ai",
+      "model_count": 90,
+      "with_pricing": 1,
+      "with_benchmarks": 29
+    },
+    {
+      "name": "siloai",
+      "display_name": "siloai",
+      "model_count": 90,
+      "with_pricing": 0,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "novita",
+      "display_name": "novita",
+      "model_count": 82,
+      "with_pricing": 82,
+      "with_benchmarks": 39
+    },
+    {
+      "name": "cloudflare",
+      "display_name": "cloudflare",
+      "model_count": 77,
+      "with_pricing": 1,
+      "with_benchmarks": 21
+    },
+    {
+      "name": "mistral",
+      "display_name": "mistral",
+      "model_count": 70,
+      "with_pricing": 51,
+      "with_benchmarks": 12
+    },
+    {
+      "name": "portkey",
+      "display_name": "portkey",
+      "model_count": 55,
+      "with_pricing": 0,
+      "with_benchmarks": 25
+    },
+    {
+      "name": "sealion",
+      "display_name": "sealion",
+      "model_count": 50,
+      "with_pricing": 0,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "deepinfra",
+      "display_name": "deepinfra",
+      "model_count": 43,
+      "with_pricing": 43,
+      "with_benchmarks": 26
+    },
+    {
+      "name": "nebius",
+      "display_name": "nebius",
+      "model_count": 42,
+      "with_pricing": 42,
+      "with_benchmarks": 19
+    },
+    {
+      "name": "lg_exaone",
+      "display_name": "lg_exaone",
+      "model_count": 41,
+      "with_pricing": 7,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "gpt4all",
+      "display_name": "gpt4all",
+      "model_count": 32,
+      "with_pricing": 0,
+      "with_benchmarks": 4
+    },
+    {
+      "name": "localai",
+      "display_name": "localai",
+      "model_count": 29,
+      "with_pricing": 0,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "hyperbolic",
+      "display_name": "hyperbolic",
+      "model_count": 28,
+      "with_pricing": 28,
+      "with_benchmarks": 3
+    },
+    {
+      "name": "plamo",
+      "display_name": "plamo",
+      "model_count": 26,
+      "with_pricing": 0,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "stability",
+      "display_name": "stability",
+      "model_count": 24,
+      "with_pricing": 24,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "groq",
+      "display_name": "groq",
+      "model_count": 16,
+      "with_pricing": 14,
+      "with_benchmarks": 6
+    },
+    {
+      "name": "nlpcloud",
+      "display_name": "nlpcloud",
+      "model_count": 15,
+      "with_pricing": 0,
+      "with_benchmarks": 1
+    },
+    {
+      "name": "google",
+      "display_name": "google",
+      "model_count": 14,
+      "with_pricing": 14,
+      "with_benchmarks": 11
+    },
+    {
+      "name": "bfl",
+      "display_name": "bfl",
+      "model_count": 13,
+      "with_pricing": 13,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "sambanova",
+      "display_name": "sambanova",
+      "model_count": 13,
+      "with_pricing": 1,
+      "with_benchmarks": 9
+    },
+    {
+      "name": "kakao",
+      "display_name": "kakao",
+      "model_count": 12,
+      "with_pricing": 0,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "snowflake",
+      "display_name": "snowflake",
+      "model_count": 12,
+      "with_pricing": 1,
+      "with_benchmarks": 9
+    },
+    {
+      "name": "stepfun",
+      "display_name": "stepfun",
+      "model_count": 11,
+      "with_pricing": 11,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "volcengine",
+      "display_name": "volcengine",
+      "model_count": 10,
+      "with_pricing": 10,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "xai",
+      "display_name": "xai",
+      "model_count": 10,
+      "with_pricing": 9,
+      "with_benchmarks": 5
+    },
+    {
+      "name": "baidu",
+      "display_name": "baidu",
+      "model_count": 9,
+      "with_pricing": 9,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "replicate",
+      "display_name": "replicate",
+      "model_count": 9,
+      "with_pricing": 9,
+      "with_benchmarks": 2
+    },
+    {
+      "name": "runway",
+      "display_name": "runway",
+      "model_count": 9,
+      "with_pricing": 9,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "fal",
+      "display_name": "fal",
+      "model_count": 8,
+      "with_pricing": 8,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "sap_ai_core",
+      "display_name": "sap_ai_core",
+      "model_count": 8,
+      "with_pricing": 0,
+      "with_benchmarks": 2
+    },
+    {
+      "name": "tilde",
+      "display_name": "tilde",
+      "model_count": 8,
+      "with_pricing": 0,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "yi",
+      "display_name": "yi",
+      "model_count": 8,
+      "with_pricing": 7,
+      "with_benchmarks": 2
+    },
+    {
+      "name": "aleph_alpha",
+      "display_name": "aleph_alpha",
+      "model_count": 7,
+      "with_pricing": 0,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "anthropic",
+      "display_name": "anthropic",
+      "model_count": 7,
+      "with_pricing": 7,
+      "with_benchmarks": 7
+    },
+    {
+      "name": "cerebras",
+      "display_name": "cerebras",
+      "model_count": 7,
+      "with_pricing": 7,
+      "with_benchmarks": 5
+    },
+    {
+      "name": "clarifai",
+      "display_name": "clarifai",
+      "model_count": 7,
+      "with_pricing": 0,
+      "with_benchmarks": 1
+    },
+    {
+      "name": "deepgram",
+      "display_name": "deepgram",
+      "model_count": 7,
+      "with_pricing": 0,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "hunyuan",
+      "display_name": "hunyuan",
+      "model_count": 7,
+      "with_pricing": 7,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "lepton",
+      "display_name": "lepton",
+      "model_count": 7,
+      "with_pricing": 2,
+      "with_benchmarks": 6
+    },
+    {
+      "name": "nscale",
+      "display_name": "nscale",
+      "model_count": 7,
+      "with_pricing": 2,
+      "with_benchmarks": 6
+    },
+    {
+      "name": "siliconflow",
+      "display_name": "siliconflow",
+      "model_count": 7,
+      "with_pricing": 6,
+      "with_benchmarks": 6
+    },
+    {
+      "name": "spark",
+      "display_name": "spark",
+      "model_count": 7,
+      "with_pricing": 6,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "writer",
+      "display_name": "writer",
+      "model_count": 7,
+      "with_pricing": 0,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "ideogram",
+      "display_name": "ideogram",
+      "model_count": 6,
+      "with_pricing": 6,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "kling",
+      "display_name": "kling",
+      "model_count": 6,
+      "with_pricing": 6,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "krutrim",
+      "display_name": "krutrim",
+      "model_count": 6,
+      "with_pricing": 0,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "predibase",
+      "display_name": "predibase",
+      "model_count": 6,
+      "with_pricing": 0,
+      "with_benchmarks": 4
+    },
+    {
+      "name": "runware",
+      "display_name": "runware",
+      "model_count": 6,
+      "with_pricing": 0,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "watsonx",
+      "display_name": "watsonx",
+      "model_count": 6,
+      "with_pricing": 0,
+      "with_benchmarks": 3
+    },
+    {
+      "name": "yandex",
+      "display_name": "yandex",
+      "model_count": 6,
+      "with_pricing": 5,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "baichuan",
+      "display_name": "baichuan",
+      "model_count": 5,
+      "with_pricing": 5,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "baseten",
+      "display_name": "baseten",
+      "model_count": 5,
+      "with_pricing": 1,
+      "with_benchmarks": 4
+    },
+    {
+      "name": "cohere",
+      "display_name": "cohere",
+      "model_count": 5,
+      "with_pricing": 5,
+      "with_benchmarks": 3
+    },
+    {
+      "name": "databricks",
+      "display_name": "databricks",
+      "model_count": 5,
+      "with_pricing": 0,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "elevenlabs",
+      "display_name": "elevenlabs",
+      "model_count": 5,
+      "with_pricing": 0,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "pika",
+      "display_name": "pika",
+      "model_count": 5,
+      "with_pricing": 5,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "sarvam",
+      "display_name": "sarvam",
+      "model_count": 5,
+      "with_pricing": 0,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "scaleway",
+      "display_name": "scaleway",
+      "model_count": 5,
+      "with_pricing": 2,
+      "with_benchmarks": 2
+    },
+    {
+      "name": "upstage",
+      "display_name": "upstage",
+      "model_count": 5,
+      "with_pricing": 0,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "assemblyai",
+      "display_name": "assemblyai",
+      "model_count": 4,
+      "with_pricing": 0,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "cerebrium",
+      "display_name": "cerebrium",
+      "model_count": 4,
+      "with_pricing": 0,
+      "with_benchmarks": 3
+    },
+    {
+      "name": "crusoe",
+      "display_name": "crusoe",
+      "model_count": 4,
+      "with_pricing": 2,
+      "with_benchmarks": 4
+    },
+    {
+      "name": "d_id",
+      "display_name": "d_id",
+      "model_count": 4,
+      "with_pricing": 4,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "gigachat",
+      "display_name": "gigachat",
+      "model_count": 4,
+      "with_pricing": 4,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "heygen",
+      "display_name": "heygen",
+      "model_count": 4,
+      "with_pricing": 4,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "luma",
+      "display_name": "luma",
+      "model_count": 4,
+      "with_pricing": 4,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "modal",
+      "display_name": "modal",
+      "model_count": 4,
+      "with_pricing": 0,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "naver_clova",
+      "display_name": "naver_clova",
+      "model_count": 4,
+      "with_pricing": 0,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "oracle",
+      "display_name": "oracle",
+      "model_count": 4,
+      "with_pricing": 0,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "perplexity",
+      "display_name": "perplexity",
+      "model_count": 4,
+      "with_pricing": 4,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "recraft",
+      "display_name": "recraft",
+      "model_count": 4,
+      "with_pricing": 4,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "revai",
+      "display_name": "revai",
+      "model_count": 4,
+      "with_pricing": 0,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "beam",
+      "display_name": "beam",
+      "model_count": 3,
+      "with_pricing": 0,
+      "with_benchmarks": 3
+    },
+    {
+      "name": "lightning",
+      "display_name": "lightning",
+      "model_count": 3,
+      "with_pricing": 0,
+      "with_benchmarks": 3
+    },
+    {
+      "name": "maritaca",
+      "display_name": "maritaca",
+      "model_count": 3,
+      "with_pricing": 0,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "ntt_tsuzumi",
+      "display_name": "ntt_tsuzumi",
+      "model_count": 3,
+      "with_pricing": 0,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "playht",
+      "display_name": "playht",
+      "model_count": 3,
+      "with_pricing": 0,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "resembleai",
+      "display_name": "resembleai",
+      "model_count": 3,
+      "with_pricing": 0,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "speechmatics",
+      "display_name": "speechmatics",
+      "model_count": 3,
+      "with_pricing": 2,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "swissai",
+      "display_name": "swissai",
+      "model_count": 3,
+      "with_pricing": 0,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "twelvelabs",
+      "display_name": "twelvelabs",
+      "model_count": 3,
+      "with_pricing": 3,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "ai21",
+      "display_name": "ai21",
+      "model_count": 2,
+      "with_pricing": 2,
+      "with_benchmarks": 2
+    },
+    {
+      "name": "deepseek",
+      "display_name": "deepseek",
+      "model_count": 2,
+      "with_pricing": 2,
+      "with_benchmarks": 2
+    },
+    {
+      "name": "softbank_sarashina",
+      "display_name": "softbank_sarashina",
+      "model_count": 2,
+      "with_pricing": 0,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "leonardo",
+      "display_name": "leonardo",
+      "model_count": 1,
+      "with_pricing": 1,
+      "with_benchmarks": 0
+    },
+    {
+      "name": "martian",
+      "display_name": "martian",
+      "model_count": 1,
+      "with_pricing": 0,
+      "with_benchmarks": 0
+    }
+  ]
+}

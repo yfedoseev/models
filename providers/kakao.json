@@ -1,0 +1,78 @@
+{
+  "provider": "kakao",
+  "model_count": 12,
+  "models": [
+    {
+      "id": "kakao/kakaobrain/kogpt",
+      "name": "kakaobrain/kogpt",
+      "provider": "kakao",
+      "model_id": "kakaobrain/kogpt"
+    },
+    {
+      "id": "kakao/kakaobrain/coyo-align-b7-base",
+      "name": "kakaobrain/coyo-align-b7-base",
+      "provider": "kakao",
+      "model_id": "kakaobrain/coyo-align-b7-base"
+    },
+    {
+      "id": "kakao/kakaobrain/vit-l16-coyo-labeled-300m-i1k384",
+      "name": "kakaobrain/vit-l16-coyo-labeled-300m-i1k384",
+      "provider": "kakao",
+      "model_id": "kakaobrain/vit-l16-coyo-labeled-300m-i1k384"
+    },
+    {
+      "id": "kakao/kakaobrain/vit-l16-coyo-labeled-300m-i1k512",
+      "name": "kakaobrain/vit-l16-coyo-labeled-300m-i1k512",
+      "provider": "kakao",
+      "model_id": "kakaobrain/vit-l16-coyo-labeled-300m-i1k512"
+    },
+    {
+      "id": "kakao/kakaobrain/vit-l16-coyo-labeled-300m",
+      "name": "kakaobrain/vit-l16-coyo-labeled-300m",
+      "provider": "kakao",
+      "model_id": "kakaobrain/vit-l16-coyo-labeled-300m"
+    },
+    {
+      "id": "kakao/kakaobrain/vit-large-patch16-384",
+      "name": "kakaobrain/vit-large-patch16-384",
+      "provider": "kakao",
+      "model_id": "kakaobrain/vit-large-patch16-384"
+    },
+    {
+      "id": "kakao/kakaobrain/vit-large-patch16-512",
+      "name": "kakaobrain/vit-large-patch16-512",
+      "provider": "kakao",
+      "model_id": "kakaobrain/vit-large-patch16-512"
+    },
+    {
+      "id": "kakao/kakaobrain/karlo-v1-alpha",
+      "name": "kakaobrain/karlo-v1-alpha",
+      "provider": "kakao",
+      "model_id": "kakaobrain/karlo-v1-alpha"
+    },
+    {
+      "id": "kakao/kakaobrain/karlo-v1-alpha-image-variations",
+      "name": "kakaobrain/karlo-v1-alpha-image-variations",
+      "provider": "kakao",
+      "model_id": "kakaobrain/karlo-v1-alpha-image-variations"
+    },
+    {
+      "id": "kakao/kakaobrain/align-base",
+      "name": "kakaobrain/align-base",
+      "provider": "kakao",
+      "model_id": "kakaobrain/align-base"
+    },
+    {
+      "id": "kakao/kakaobrain/llama2-mha-from-scratch-ckpt-125M",
+      "name": "kakaobrain/llama2-mha-from-scratch-ckpt-125M",
+      "provider": "kakao",
+      "model_id": "kakaobrain/llama2-mha-from-scratch-ckpt-125M"
+    },
+    {
+      "id": "kakao/kakaobrain/safety-v4-violance-crime",
+      "name": "kakaobrain/safety-v4-violance-crime",
+      "provider": "kakao",
+      "model_id": "kakaobrain/safety-v4-violance-crime"
+    }
+  ]
+}

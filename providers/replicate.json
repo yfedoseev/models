@@ -1,0 +1,79 @@
+{
+  "provider": "replicate",
+  "model_count": 9,
+  "models": [
+    {
+      "id": "replicate/anthropic/claude-3.7-sonnet",
+      "name": "anthropic/claude-3.7-sonnet",
+      "provider": "replicate",
+      "model_id": "anthropic/claude-3.7-sonnet",
+      "benchmarks": {
+        "gpqa_diamond": 0.66,
+        "math_level_5": 0.682,
+        "otis_mock_aime_2024_2025": 0.219,
+        "frontiermath": 0.031,
+        "aider_polyglot": 60.4,
+        "simplebench": 0.449,
+        "swe_bench_verified": 0.522
+      }
+    },
+    {
+      "id": "replicate/black-forest-labs/flux-1.1-pro",
+      "name": "black-forest-labs/flux-1.1-pro",
+      "provider": "replicate",
+      "model_id": "black-forest-labs/flux-1.1-pro"
+    },
+    {
+      "id": "replicate/black-forest-labs/flux-dev",
+      "name": "black-forest-labs/flux-dev",
+      "provider": "replicate",
+      "model_id": "black-forest-labs/flux-dev"
+    },
+    {
+      "id": "replicate/black-forest-labs/flux-schnell",
+      "name": "black-forest-labs/flux-schnell",
+      "provider": "replicate",
+      "model_id": "black-forest-labs/flux-schnell"
+    },
+    {
+      "id": "replicate/deepseek-ai/deepseek-r1",
+      "name": "deepseek-ai/deepseek-r1",
+      "provider": "replicate",
+      "model_id": "deepseek-ai/deepseek-r1",
+      "benchmarks": {
+        "gpqa_diamond": 0.692,
+        "math_level_5": 0.931,
+        "otis_mock_aime_2024_2025": 0.533,
+        "aider_polyglot": 56.9,
+        "simplebench": 0.309,
+        "simpleqa_verified": 0.274,
+        "swe_bench_verified": 0.333,
+        "arena_elo": 1396.0
+      }
+    },
+    {
+      "id": "replicate/ideogram-ai/ideogram-v3-quality",
+      "name": "ideogram-ai/ideogram-v3-quality",
+      "provider": "replicate",
+      "model_id": "ideogram-ai/ideogram-v3-quality"
+    },
+    {
+      "id": "replicate/recraft-ai/recraft-v3",
+      "name": "recraft-ai/recraft-v3",
+      "provider": "replicate",
+      "model_id": "recraft-ai/recraft-v3"
+    },
+    {
+      "id": "replicate/wavespeedai/wan-2.1-i2v-480p",
+      "name": "wavespeedai/wan-2.1-i2v-480p",
+      "provider": "replicate",
+      "model_id": "wavespeedai/wan-2.1-i2v-480p"
+    },
+    {
+      "id": "replicate/wavespeedai/wan-2.1-i2v-720p",
+      "name": "wavespeedai/wan-2.1-i2v-720p",
+      "provider": "replicate",
+      "model_id": "wavespeedai/wan-2.1-i2v-720p"
+    }
+  ]
+}

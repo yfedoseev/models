@@ -1,0 +1,46 @@
+{
+  "provider": "upstage",
+  "model_count": 5,
+  "models": [
+    {
+      "id": "upstage/solar-pro",
+      "name": "solar-pro",
+      "provider": "upstage",
+      "model_id": "solar-pro",
+      "context_window": 4096,
+      "model_type": "chat"
+    },
+    {
+      "id": "upstage/solar-mini",
+      "name": "solar-mini",
+      "provider": "upstage",
+      "model_id": "solar-mini",
+      "context_window": 32768,
+      "model_type": "chat"
+    },
+    {
+      "id": "upstage/solar-mini-ja",
+      "name": "solar-mini-ja",
+      "provider": "upstage",
+      "model_id": "solar-mini-ja",
+      "context_window": 32768,
+      "model_type": "chat"
+    },
+    {
+      "id": "upstage/solar-docvision",
+      "name": "solar-docvision",
+      "provider": "upstage",
+      "model_id": "solar-docvision",
+      "context_window": 8192,
+      "model_type": "document_ai"
+    },
+    {
+      "id": "upstage/solar-embedding-1-large",
+      "name": "solar-embedding-1-large",
+      "provider": "upstage",
+      "model_id": "solar-embedding-1-large",
+      "context_window": 4096,
+      "model_type": "embedding"
+    }
+  ]
+}

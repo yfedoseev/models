@@ -1,0 +1,546 @@
+{
+  "provider": "siloai",
+  "model_count": 90,
+  "models": [
+    {
+      "id": "siloai/LumiOpen/Poro-34B",
+      "name": "LumiOpen/Poro-34B",
+      "provider": "siloai",
+      "model_id": "LumiOpen/Poro-34B"
+    },
+    {
+      "id": "siloai/LumiOpen/Viking-7B",
+      "name": "LumiOpen/Viking-7B",
+      "provider": "siloai",
+      "model_id": "LumiOpen/Viking-7B"
+    },
+    {
+      "id": "siloai/LumiOpen/Viking-13B",
+      "name": "LumiOpen/Viking-13B",
+      "provider": "siloai",
+      "model_id": "LumiOpen/Viking-13B"
+    },
+    {
+      "id": "siloai/LumiOpen/Viking-33B",
+      "name": "LumiOpen/Viking-33B",
+      "provider": "siloai",
+      "model_id": "LumiOpen/Viking-33B"
+    },
+    {
+      "id": "siloai/LumiOpen/Poro-34B-chat",
+      "name": "LumiOpen/Poro-34B-chat",
+      "provider": "siloai",
+      "model_id": "LumiOpen/Poro-34B-chat"
+    },
+    {
+      "id": "siloai/LumiOpen/Poro-34B-chat-GGUF",
+      "name": "LumiOpen/Poro-34B-chat-GGUF",
+      "provider": "siloai",
+      "model_id": "LumiOpen/Poro-34B-chat-GGUF"
+    },
+    {
+      "id": "siloai/LumiOpen/Poro-34B-chat-OpenAssistant",
+      "name": "LumiOpen/Poro-34B-chat-OpenAssistant",
+      "provider": "siloai",
+      "model_id": "LumiOpen/Poro-34B-chat-OpenAssistant"
+    },
+    {
+      "id": "siloai/LumiOpen/Llama-Poro-2-8B-Instruct",
+      "name": "LumiOpen/Llama-Poro-2-8B-Instruct",
+      "provider": "siloai",
+      "model_id": "LumiOpen/Llama-Poro-2-8B-Instruct"
+    },
+    {
+      "id": "siloai/LumiOpen/Llama-Poro-2-70B-Instruct",
+      "name": "LumiOpen/Llama-Poro-2-70B-Instruct",
+      "provider": "siloai",
+      "model_id": "LumiOpen/Llama-Poro-2-70B-Instruct"
+    },
+    {
+      "id": "siloai/LumiOpen/Llama-Poro-2-8B-base",
+      "name": "LumiOpen/Llama-Poro-2-8B-base",
+      "provider": "siloai",
+      "model_id": "LumiOpen/Llama-Poro-2-8B-base"
+    },
+    {
+      "id": "siloai/LumiOpen/Llama-Poro-2-70B-base",
+      "name": "LumiOpen/Llama-Poro-2-70B-base",
+      "provider": "siloai",
+      "model_id": "LumiOpen/Llama-Poro-2-70B-base"
+    },
+    {
+      "id": "siloai/LumiOpen/Llama-Poro-2-8B-SFT",
+      "name": "LumiOpen/Llama-Poro-2-8B-SFT",
+      "provider": "siloai",
+      "model_id": "LumiOpen/Llama-Poro-2-8B-SFT"
+    },
+    {
+      "id": "siloai/LumiOpen/Llama-Poro-2-70B-SFT",
+      "name": "LumiOpen/Llama-Poro-2-70B-SFT",
+      "provider": "siloai",
+      "model_id": "LumiOpen/Llama-Poro-2-70B-SFT"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-afr-Latn",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-afr-Latn",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-afr-Latn"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-als-Latn",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-als-Latn",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-als-Latn"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-ara-Arab",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-ara-Arab",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-ara-Arab"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-azj-Latn",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-azj-Latn",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-azj-Latn"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-bel-Cyrl",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-bel-Cyrl",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-bel-Cyrl"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-ben-Beng",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-ben-Beng",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-ben-Beng"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-bos-Latn",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-bos-Latn",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-bos-Latn"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-bul-Cyrl",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-bul-Cyrl",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-bul-Cyrl"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-cat-Latn",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-cat-Latn",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-cat-Latn"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-ces-Latn",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-ces-Latn",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-ces-Latn"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-cym-Latn",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-cym-Latn",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-cym-Latn"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-dan-Latn",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-dan-Latn",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-dan-Latn"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-deu-Latn",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-deu-Latn",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-deu-Latn"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-ell-Grek",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-ell-Grek",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-ell-Grek"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-eng-Latn",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-eng-Latn",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-eng-Latn"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-epo-Latn",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-epo-Latn",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-epo-Latn"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-est-Latn",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-est-Latn",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-est-Latn"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-eus-Latn",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-eus-Latn",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-eus-Latn"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-fin-Latn",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-fin-Latn",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-fin-Latn"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-fra-Latn",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-fra-Latn",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-fra-Latn"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-glg-Latn",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-glg-Latn",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-glg-Latn"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-guj-Gujr",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-guj-Gujr",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-guj-Gujr"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-heb-Hebr",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-heb-Hebr",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-heb-Hebr"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-hin-Deva",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-hin-Deva",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-hin-Deva"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-hrv-Latn",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-hrv-Latn",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-hrv-Latn"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-hun-Latn",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-hun-Latn",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-hun-Latn"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-hye-Armn",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-hye-Armn",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-hye-Armn"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-ind-Latn",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-ind-Latn",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-ind-Latn"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-isl-Latn",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-isl-Latn",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-isl-Latn"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-ita-Latn",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-ita-Latn",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-ita-Latn"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-jpn-Jpan",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-jpn-Jpan",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-jpn-Jpan"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-kan-Knda",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-kan-Knda",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-kan-Knda"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-kat-Geor",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-kat-Geor",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-kat-Geor"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-kaz-Cyrl",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-kaz-Cyrl",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-kaz-Cyrl"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-khk-Cyrl",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-khk-Cyrl",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-khk-Cyrl"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-khm-Khmr",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-khm-Khmr",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-khm-Khmr"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-kir-Cyrl",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-kir-Cyrl",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-kir-Cyrl"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-kor-Hang",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-kor-Hang",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-kor-Hang"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-lit-Latn",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-lit-Latn",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-lit-Latn"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-lvs-Latn",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-lvs-Latn",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-lvs-Latn"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-mal-Mlym",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-mal-Mlym",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-mal-Mlym"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-mar-Deva",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-mar-Deva",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-mar-Deva"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-mkd-Cyrl",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-mkd-Cyrl",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-mkd-Cyrl"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-mya-Mymr",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-mya-Mymr",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-mya-Mymr"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-nld-Latn",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-nld-Latn",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-nld-Latn"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-nno-Latn",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-nno-Latn",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-nno-Latn"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-nob-Latn",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-nob-Latn",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-nob-Latn"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-npi-Deva",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-npi-Deva",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-npi-Deva"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-pan-Guru",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-pan-Guru",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-pan-Guru"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-pes-Arab",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-pes-Arab",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-pes-Arab"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-pol-Latn",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-pol-Latn",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-pol-Latn"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-por-Latn",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-por-Latn",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-por-Latn"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-prs-Arab",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-prs-Arab",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-prs-Arab"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-ron-Latn",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-ron-Latn",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-ron-Latn"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-rus-Cyrl",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-rus-Cyrl",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-rus-Cyrl"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-sin-Sinh",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-sin-Sinh",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-sin-Sinh"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-slk-Latn",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-slk-Latn",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-slk-Latn"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-slv-Latn",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-slv-Latn",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-slv-Latn"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-spa-Latn",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-spa-Latn",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-spa-Latn"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-srp-Cyrl",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-srp-Cyrl",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-srp-Cyrl"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-swe-Latn",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-swe-Latn",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-swe-Latn"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-swh-Latn",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-swh-Latn",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-swh-Latn"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-tam-Taml",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-tam-Taml",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-tam-Taml"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-tat-Cyrl",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-tat-Cyrl",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-tat-Cyrl"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-tel-Telu",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-tel-Telu",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-tel-Telu"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-tgk-Cyrl",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-tgk-Cyrl",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-tgk-Cyrl"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-tgl-Latn",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-tgl-Latn",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-tgl-Latn"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-tha-Thai",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-tha-Thai",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-tha-Thai"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-tur-Latn",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-tur-Latn",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-tur-Latn"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-ukr-Cyrl",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-ukr-Cyrl",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-ukr-Cyrl"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-urd-Arab",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-urd-Arab",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-urd-Arab"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-uzn-Latn",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-uzn-Latn",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-uzn-Latn"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-vie-Latn",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-vie-Latn",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-vie-Latn"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-zho-Hans",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-zho-Hans",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-zho-Hans"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-zho-Hant",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-zho-Hant",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-zho-Hant"
+    },
+    {
+      "id": "siloai/LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-zsm-Latn",
+      "name": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-zsm-Latn",
+      "provider": "siloai",
+      "model_id": "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-zsm-Latn"
+    },
+    {
+      "id": "siloai/LumiOpen/Tulu3-en-usable-64x-scored",
+      "name": "LumiOpen/Tulu3-en-usable-64x-scored",
+      "provider": "siloai",
+      "model_id": "LumiOpen/Tulu3-en-usable-64x-scored"
+    }
+  ]
+}

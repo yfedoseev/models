@@ -1,0 +1,2001 @@
+{
+  "provider": "edenai",
+  "model_count": 285,
+  "models": [
+    {
+      "id": "edenai/sentisight/background_removal",
+      "name": "SentiSight.ai - background_removal",
+      "provider": "edenai",
+      "model_id": "sentisight.image.background_removal",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/nyckel/automl_classification",
+      "name": "Nyckel - automl_classification",
+      "provider": "edenai",
+      "model_id": "nyckel.image.automl_classification",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/affinda/invoice_parser",
+      "name": "Affinda - invoice_parser",
+      "provider": "edenai",
+      "model_id": "affinda.ocr.invoice_parser",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/google/object_tracking_async",
+      "name": "Google - object_tracking_async",
+      "provider": "edenai",
+      "model_id": "google.video.object_tracking_async",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/openai/text_to_speech",
+      "name": "OpenAI - text_to_speech",
+      "provider": "edenai",
+      "model_id": "openai.audio.text_to_speech",
+      "model_type": "speech"
+    },
+    {
+      "id": "edenai/microsoft/automatic_translation",
+      "name": "Microsoft - automatic_translation",
+      "provider": "edenai",
+      "model_id": "microsoft.translation.automatic_translation",
+      "model_type": "translation"
+    },
+    {
+      "id": "edenai/microsoft/summarize",
+      "name": "Microsoft - summarize",
+      "provider": "edenai",
+      "model_id": "microsoft.text.summarize",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/minimax/chat",
+      "name": "MiniMax - chat",
+      "provider": "edenai",
+      "model_id": "minimax.llm.chat",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/together_ai/chat",
+      "name": "Together AI - chat",
+      "provider": "edenai",
+      "model_id": "together_ai.llm.chat",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/api4ai/anonymization",
+      "name": "api4ai - anonymization",
+      "provider": "edenai",
+      "model_id": "api4ai.image.anonymization",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/amazon/question_answer",
+      "name": "Amazon - question_answer",
+      "provider": "edenai",
+      "model_id": "amazon.video.question_answer",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/mindee/financial_parser",
+      "name": "Mindee - financial_parser",
+      "provider": "edenai",
+      "model_id": "mindee.ocr.financial_parser",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/amazon/text_detection_async",
+      "name": "Amazon - text_detection_async",
+      "provider": "edenai",
+      "model_id": "amazon.video.text_detection_async",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/amazon/explicit_content",
+      "name": "Amazon - explicit_content",
+      "provider": "edenai",
+      "model_id": "amazon.image.explicit_content",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/mistral/generation",
+      "name": "Mistral - generation",
+      "provider": "edenai",
+      "model_id": "mistral.text.generation",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/amazon/object_detection",
+      "name": "Amazon - object_detection",
+      "provider": "edenai",
+      "model_id": "amazon.image.object_detection",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/amazon/keyword_extraction",
+      "name": "Amazon - keyword_extraction",
+      "provider": "edenai",
+      "model_id": "amazon.text.keyword_extraction",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/gladia/speech_to_text_async",
+      "name": "Gladia - speech_to_text_async",
+      "provider": "edenai",
+      "model_id": "gladia.audio.speech_to_text_async",
+      "model_type": "speech"
+    },
+    {
+      "id": "edenai/amazon/text_to_speech_async",
+      "name": "Amazon - text_to_speech_async",
+      "provider": "edenai",
+      "model_id": "amazon.audio.text_to_speech_async",
+      "model_type": "speech"
+    },
+    {
+      "id": "edenai/senseloaf/resume_parser",
+      "name": "Senseloaf - resume_parser",
+      "provider": "edenai",
+      "model_id": "senseloaf.ocr.resume_parser",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/sapling/ai_detection",
+      "name": "Sapling - ai_detection",
+      "provider": "edenai",
+      "model_id": "sapling.text.ai_detection",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/winstonai/plagia_detection",
+      "name": "Winston AI - plagia_detection",
+      "provider": "edenai",
+      "model_id": "winstonai.text.plagia_detection",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/sapling/sentiment_analysis",
+      "name": "Sapling - sentiment_analysis",
+      "provider": "edenai",
+      "model_id": "sapling.text.sentiment_analysis",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/anthropic/chat",
+      "name": "Anthropic - chat",
+      "provider": "edenai",
+      "model_id": "anthropic.llm.chat",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/stabilityai/background_removal",
+      "name": "StabilityAI - background_removal",
+      "provider": "edenai",
+      "model_id": "stabilityai.image.background_removal",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/google/chat",
+      "name": "Google - chat",
+      "provider": "edenai",
+      "model_id": "google.multimodal.chat",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/api4ai/background_removal",
+      "name": "api4ai - background_removal",
+      "provider": "edenai",
+      "model_id": "api4ai.image.background_removal",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/mindee/invoice_splitter_async",
+      "name": "Mindee - invoice_splitter_async",
+      "provider": "edenai",
+      "model_id": "mindee.ocr.invoice_splitter_async",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/clipdrop/background_removal",
+      "name": "Clipdrop - background_removal",
+      "provider": "edenai",
+      "model_id": "clipdrop.image.background_removal",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/base64/anonymization_async",
+      "name": "Base64 - anonymization_async",
+      "provider": "edenai",
+      "model_id": "base64.ocr.anonymization_async",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/microsoft/background_removal",
+      "name": "Microsoft - background_removal",
+      "provider": "edenai",
+      "model_id": "microsoft.image.background_removal",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/veryfi/financial_parser",
+      "name": "Veryfi - financial_parser",
+      "provider": "edenai",
+      "model_id": "veryfi.ocr.financial_parser",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/klippa/financial_parser",
+      "name": "Klippa - financial_parser",
+      "provider": "edenai",
+      "model_id": "klippa.ocr.financial_parser",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/microsoft/financial_parser",
+      "name": "Microsoft - financial_parser",
+      "provider": "edenai",
+      "model_id": "microsoft.ocr.financial_parser",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/amazon/financial_parser",
+      "name": "Amazon - financial_parser",
+      "provider": "edenai",
+      "model_id": "amazon.ocr.financial_parser",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/base64/financial_parser",
+      "name": "Base64 - financial_parser",
+      "provider": "edenai",
+      "model_id": "base64.ocr.financial_parser",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/photoroom/background_removal",
+      "name": "PhotoRoom - background_removal",
+      "provider": "edenai",
+      "model_id": "photoroom.image.background_removal",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/affinda/financial_parser",
+      "name": "Affinda - financial_parser",
+      "provider": "edenai",
+      "model_id": "affinda.ocr.financial_parser",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/tabscanner/financial_parser",
+      "name": "TabScanner - financial_parser",
+      "provider": "edenai",
+      "model_id": "tabscanner.ocr.financial_parser",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/google/financial_parser",
+      "name": "Google - financial_parser",
+      "provider": "edenai",
+      "model_id": "google.ocr.financial_parser",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/deepgram/text_to_speech",
+      "name": "Deepgram - text_to_speech",
+      "provider": "edenai",
+      "model_id": "deepgram.audio.text_to_speech",
+      "model_type": "speech"
+    },
+    {
+      "id": "edenai/xai/chat",
+      "name": "xAI - chat",
+      "provider": "edenai",
+      "model_id": "xai.text.chat",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/microsoft/ocr_async",
+      "name": "Microsoft - ocr_async",
+      "provider": "edenai",
+      "model_id": "microsoft.ocr.ocr_async",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/xai/code_generation",
+      "name": "xAI - code_generation",
+      "provider": "edenai",
+      "model_id": "xai.text.code_generation",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/xai/anonymization",
+      "name": "xAI - anonymization",
+      "provider": "edenai",
+      "model_id": "xai.text.anonymization",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/bytedance/chat",
+      "name": "Bytedance - chat",
+      "provider": "edenai",
+      "model_id": "bytedance.llm.chat",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/amazon/named_entity_recognition",
+      "name": "Amazon - named_entity_recognition",
+      "provider": "edenai",
+      "model_id": "amazon.text.named_entity_recognition",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/amazon/label_detection_async",
+      "name": "Amazon - label_detection_async",
+      "provider": "edenai",
+      "model_id": "amazon.video.label_detection_async",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/google/landmark_detection",
+      "name": "Google - landmark_detection",
+      "provider": "edenai",
+      "model_id": "google.image.landmark_detection",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/google/logo_detection",
+      "name": "Google - logo_detection",
+      "provider": "edenai",
+      "model_id": "google.image.logo_detection",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/google/object_detection",
+      "name": "Google - object_detection",
+      "provider": "edenai",
+      "model_id": "google.image.object_detection",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/amazon/syntax_analysis",
+      "name": "Amazon - syntax_analysis",
+      "provider": "edenai",
+      "model_id": "amazon.text.syntax_analysis",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/microsoft/named_entity_recognition",
+      "name": "Microsoft - named_entity_recognition",
+      "provider": "edenai",
+      "model_id": "microsoft.text.named_entity_recognition",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/google/explicit_content",
+      "name": "Google - explicit_content",
+      "provider": "edenai",
+      "model_id": "google.image.explicit_content",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/google/face_detection",
+      "name": "Google - face_detection",
+      "provider": "edenai",
+      "model_id": "google.image.face_detection",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/microsoft/logo_detection",
+      "name": "Microsoft - logo_detection",
+      "provider": "edenai",
+      "model_id": "microsoft.image.logo_detection",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/xai/sentiment_analysis",
+      "name": "xAI - sentiment_analysis",
+      "provider": "edenai",
+      "model_id": "xai.text.sentiment_analysis",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/xai/automatic_translation",
+      "name": "xAI - automatic_translation",
+      "provider": "edenai",
+      "model_id": "xai.translation.automatic_translation",
+      "model_type": "translation"
+    },
+    {
+      "id": "edenai/google/explicit_content_detection_async",
+      "name": "Google - explicit_content_detection_async",
+      "provider": "edenai",
+      "model_id": "google.video.explicit_content_detection_async",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/microsoft/explicit_content",
+      "name": "Microsoft - explicit_content",
+      "provider": "edenai",
+      "model_id": "microsoft.image.explicit_content",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/privateai/anonymization",
+      "name": "Private AI - anonymization",
+      "provider": "edenai",
+      "model_id": "privateai.text.anonymization",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/openai/identity_parser",
+      "name": "OpenAI - identity_parser",
+      "provider": "edenai",
+      "model_id": "openai.ocr.identity_parser",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/amazon/language_detection",
+      "name": "Amazon - language_detection",
+      "provider": "edenai",
+      "model_id": "amazon.translation.language_detection",
+      "model_type": "translation"
+    },
+    {
+      "id": "edenai/cohere/generation",
+      "name": "Cohere - generation",
+      "provider": "edenai",
+      "model_id": "cohere.text.generation",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/tenstorrent/question_answer",
+      "name": "Tenstorrent - question_answer",
+      "provider": "edenai",
+      "model_id": "tenstorrent.text.question_answer",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/google/ocr",
+      "name": "Google - ocr",
+      "provider": "edenai",
+      "model_id": "google.ocr.ocr",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/openai/chat",
+      "name": "OpenAI - chat",
+      "provider": "edenai",
+      "model_id": "openai.multimodal.chat",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/openai/generation_async",
+      "name": "OpenAI - generation_async",
+      "provider": "edenai",
+      "model_id": "openai.video.generation_async",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/openai/question_answer",
+      "name": "OpenAI - question_answer",
+      "provider": "edenai",
+      "model_id": "openai.image.question_answer",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/openai/code_generation",
+      "name": "OpenAI - code_generation",
+      "provider": "edenai",
+      "model_id": "openai.text.code_generation",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/cohere/chat",
+      "name": "Cohere - chat",
+      "provider": "edenai",
+      "model_id": "cohere.llm.chat",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/openai/summarize",
+      "name": "OpenAI - summarize",
+      "provider": "edenai",
+      "model_id": "openai.text.summarize",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/openai/resume_parser",
+      "name": "OpenAI - resume_parser",
+      "provider": "edenai",
+      "model_id": "openai.ocr.resume_parser",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/microsoft/chat",
+      "name": "Microsoft - chat",
+      "provider": "edenai",
+      "model_id": "microsoft.text.chat",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/openai/chat",
+      "name": "OpenAI - chat",
+      "provider": "edenai",
+      "model_id": "openai.llm.chat",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/openai/financial_parser",
+      "name": "OpenAI - financial_parser",
+      "provider": "edenai",
+      "model_id": "openai.ocr.financial_parser",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/xai/spell_check",
+      "name": "xAI - spell_check",
+      "provider": "edenai",
+      "model_id": "xai.text.spell_check",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/xai/keyword_extraction",
+      "name": "xAI - keyword_extraction",
+      "provider": "edenai",
+      "model_id": "xai.text.keyword_extraction",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/xai/language_detection",
+      "name": "xAI - language_detection",
+      "provider": "edenai",
+      "model_id": "xai.translation.language_detection",
+      "model_type": "translation"
+    },
+    {
+      "id": "edenai/minimax/generation",
+      "name": "MiniMax - generation",
+      "provider": "edenai",
+      "model_id": "minimax.image.generation",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/xai/summarize",
+      "name": "xAI - summarize",
+      "provider": "edenai",
+      "model_id": "xai.text.summarize",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/google/question_answer_async",
+      "name": "Google - question_answer_async",
+      "provider": "edenai",
+      "model_id": "google.video.question_answer_async",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/minimax/generation_async",
+      "name": "MiniMax - generation_async",
+      "provider": "edenai",
+      "model_id": "minimax.video.generation_async",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/xai/named_entity_recognition",
+      "name": "xAI - named_entity_recognition",
+      "provider": "edenai",
+      "model_id": "xai.text.named_entity_recognition",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/xai/chat",
+      "name": "xAI - chat",
+      "provider": "edenai",
+      "model_id": "xai.llm.chat",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/xai/topic_extraction",
+      "name": "xAI - topic_extraction",
+      "provider": "edenai",
+      "model_id": "xai.text.topic_extraction",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/microsoft/chat",
+      "name": "Microsoft - chat",
+      "provider": "edenai",
+      "model_id": "microsoft.multimodal.chat",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/mistral/ocr",
+      "name": "Mistral - ocr",
+      "provider": "edenai",
+      "model_id": "mistral.ocr.ocr",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/amazon/face_detection",
+      "name": "Amazon - face_detection",
+      "provider": "edenai",
+      "model_id": "amazon.image.face_detection",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/api4ai/face_detection",
+      "name": "api4ai - face_detection",
+      "provider": "edenai",
+      "model_id": "api4ai.image.face_detection",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/facepp/face_recognition",
+      "name": "Face++ - face_recognition",
+      "provider": "edenai",
+      "model_id": "facepp.image.face_recognition",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/microsoft/sentiment_analysis",
+      "name": "Microsoft - sentiment_analysis",
+      "provider": "edenai",
+      "model_id": "microsoft.text.sentiment_analysis",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/amazon/identity_parser",
+      "name": "Amazon - identity_parser",
+      "provider": "edenai",
+      "model_id": "amazon.ocr.identity_parser",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/deepseek/chat",
+      "name": "DeepSeek - chat",
+      "provider": "edenai",
+      "model_id": "deepseek.text.chat",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/mistral/ocr_async",
+      "name": "Mistral - ocr_async",
+      "provider": "edenai",
+      "model_id": "mistral.ocr.ocr_async",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/amazon/person_tracking_async",
+      "name": "Amazon - person_tracking_async",
+      "provider": "edenai",
+      "model_id": "amazon.video.person_tracking_async",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/google/named_entity_recognition",
+      "name": "Google - named_entity_recognition",
+      "provider": "edenai",
+      "model_id": "google.text.named_entity_recognition",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/amazon/face_recognition",
+      "name": "Amazon - face_recognition",
+      "provider": "edenai",
+      "model_id": "amazon.image.face_recognition",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/microsoft/speech_to_text_async",
+      "name": "Microsoft - speech_to_text_async",
+      "provider": "edenai",
+      "model_id": "microsoft.audio.speech_to_text_async",
+      "model_type": "speech"
+    },
+    {
+      "id": "edenai/google/moderation",
+      "name": "Google - moderation",
+      "provider": "edenai",
+      "model_id": "google.text.moderation",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/extracta/financial_parser",
+      "name": "Extracta - financial_parser",
+      "provider": "edenai",
+      "model_id": "extracta.ocr.financial_parser",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/replicate/generation",
+      "name": "Replicate - generation",
+      "provider": "edenai",
+      "model_id": "replicate.image.generation",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/affinda/resume_parser",
+      "name": "Affinda - resume_parser",
+      "provider": "edenai",
+      "model_id": "affinda.ocr.resume_parser",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/google/shot_change_detection_async",
+      "name": "Google - shot_change_detection_async",
+      "provider": "edenai",
+      "model_id": "google.video.shot_change_detection_async",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/microsoft/receipt_parser",
+      "name": "Microsoft - receipt_parser",
+      "provider": "edenai",
+      "model_id": "microsoft.ocr.receipt_parser",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/openai/custom_classification",
+      "name": "OpenAI - custom_classification",
+      "provider": "edenai",
+      "model_id": "openai.text.custom_classification",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/perplexityai/chat",
+      "name": "Perplexity AI - chat",
+      "provider": "edenai",
+      "model_id": "perplexityai.text.chat",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/google/search",
+      "name": "Google - search",
+      "provider": "edenai",
+      "model_id": "google.text.search",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/bytedance/generation_async",
+      "name": "Bytedance - generation_async",
+      "provider": "edenai",
+      "model_id": "bytedance.video.generation_async",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/microsoft/identity_parser",
+      "name": "Microsoft - identity_parser",
+      "provider": "edenai",
+      "model_id": "microsoft.ocr.identity_parser",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/elevenlabs/text_to_speech",
+      "name": "ElevenLabs - text_to_speech",
+      "provider": "edenai",
+      "model_id": "elevenlabs.audio.text_to_speech",
+      "model_type": "speech"
+    },
+    {
+      "id": "edenai/openai/generation",
+      "name": "OpenAI - generation",
+      "provider": "edenai",
+      "model_id": "openai.image.generation",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/picsart/background_removal",
+      "name": "Picsart - background_removal",
+      "provider": "edenai",
+      "model_id": "picsart.image.background_removal",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/amazon/explicit_content_detection_async",
+      "name": "Amazon - explicit_content_detection_async",
+      "provider": "edenai",
+      "model_id": "amazon.video.explicit_content_detection_async",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/google/question_answer",
+      "name": "Google - question_answer",
+      "provider": "edenai",
+      "model_id": "google.video.question_answer",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/anthropic/chat",
+      "name": "Anthropic - chat",
+      "provider": "edenai",
+      "model_id": "anthropic.multimodal.chat",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/twelvelabs/logo_detection_async",
+      "name": "Twelvelabs - logo_detection_async",
+      "provider": "edenai",
+      "model_id": "twelvelabs.video.logo_detection_async",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/perplexityai/chat",
+      "name": "Perplexity AI - chat",
+      "provider": "edenai",
+      "model_id": "perplexityai.llm.chat",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/openai/automatic_translation",
+      "name": "OpenAI - automatic_translation",
+      "provider": "edenai",
+      "model_id": "openai.translation.automatic_translation",
+      "model_type": "translation"
+    },
+    {
+      "id": "edenai/bytedance/generation",
+      "name": "Bytedance - generation",
+      "provider": "edenai",
+      "model_id": "bytedance.image.generation",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/stabilityai/generation",
+      "name": "StabilityAI - generation",
+      "provider": "edenai",
+      "model_id": "stabilityai.image.generation",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/extracta/custom_document_parsing_async",
+      "name": "Extracta - custom_document_parsing_async",
+      "provider": "edenai",
+      "model_id": "extracta.ocr.custom_document_parsing_async",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/deepinfra/chat",
+      "name": "None - chat",
+      "provider": "edenai",
+      "model_id": "deepinfra.llm.chat",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/readyredact/anonymization_async",
+      "name": "ReadyRedact - anonymization_async",
+      "provider": "edenai",
+      "model_id": "readyredact.ocr.anonymization_async",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/extracta/resume_parser",
+      "name": "Extracta - resume_parser",
+      "provider": "edenai",
+      "model_id": "extracta.ocr.resume_parser",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/extracta/bank_check_parsing",
+      "name": "Extracta - bank_check_parsing",
+      "provider": "edenai",
+      "model_id": "extracta.ocr.bank_check_parsing",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/privateai/anonymization_async",
+      "name": "Private AI - anonymization_async",
+      "provider": "edenai",
+      "model_id": "privateai.ocr.anonymization_async",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/anthropic/chat",
+      "name": "Anthropic - chat",
+      "provider": "edenai",
+      "model_id": "anthropic.text.chat",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/google/generation_async",
+      "name": "Google - generation_async",
+      "provider": "edenai",
+      "model_id": "google.video.generation_async",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/twelvelabs/text_detection_async",
+      "name": "Twelvelabs - text_detection_async",
+      "provider": "edenai",
+      "model_id": "twelvelabs.video.text_detection_async",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/api4ai/object_detection",
+      "name": "api4ai - object_detection",
+      "provider": "edenai",
+      "model_id": "api4ai.image.object_detection",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/google/text_to_speech",
+      "name": "Google - text_to_speech",
+      "provider": "edenai",
+      "model_id": "google.audio.text_to_speech",
+      "model_type": "speech"
+    },
+    {
+      "id": "edenai/amazon/invoice_parser",
+      "name": "Amazon - invoice_parser",
+      "provider": "edenai",
+      "model_id": "amazon.ocr.invoice_parser",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/deepl/document_translation",
+      "name": "DeepL - document_translation",
+      "provider": "edenai",
+      "model_id": "deepl.translation.document_translation",
+      "model_type": "translation"
+    },
+    {
+      "id": "edenai/openai/chat",
+      "name": "OpenAI - chat",
+      "provider": "edenai",
+      "model_id": "openai.text.chat",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/microsoft/landmark_detection",
+      "name": "Microsoft - landmark_detection",
+      "provider": "edenai",
+      "model_id": "microsoft.image.landmark_detection",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/mindee/identity_parser",
+      "name": "Mindee - identity_parser",
+      "provider": "edenai",
+      "model_id": "mindee.ocr.identity_parser",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/amazon/anonymization",
+      "name": "Amazon - anonymization",
+      "provider": "edenai",
+      "model_id": "amazon.text.anonymization",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/google/document_translation",
+      "name": "Google - document_translation",
+      "provider": "edenai",
+      "model_id": "google.translation.document_translation",
+      "model_type": "translation"
+    },
+    {
+      "id": "edenai/ai21labs/generation",
+      "name": "A21Labs - generation",
+      "provider": "edenai",
+      "model_id": "ai21labs.text.generation",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/tenstorrent/sentiment_analysis",
+      "name": "Tenstorrent - sentiment_analysis",
+      "provider": "edenai",
+      "model_id": "tenstorrent.text.sentiment_analysis",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/clarifai/explicit_content",
+      "name": "Clarifai - explicit_content",
+      "provider": "edenai",
+      "model_id": "clarifai.image.explicit_content",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/amazon/custom_document_parsing_async",
+      "name": "Amazon - custom_document_parsing_async",
+      "provider": "edenai",
+      "model_id": "amazon.ocr.custom_document_parsing_async",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/tenstorrent/named_entity_recognition",
+      "name": "Tenstorrent - named_entity_recognition",
+      "provider": "edenai",
+      "model_id": "tenstorrent.text.named_entity_recognition",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/winstonai/ai_detection",
+      "name": "Winston AI - ai_detection",
+      "provider": "edenai",
+      "model_id": "winstonai.text.ai_detection",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/openai/language_detection",
+      "name": "OpenAI - language_detection",
+      "provider": "edenai",
+      "model_id": "openai.translation.language_detection",
+      "model_type": "translation"
+    },
+    {
+      "id": "edenai/openai/spell_check",
+      "name": "OpenAI - spell_check",
+      "provider": "edenai",
+      "model_id": "openai.text.spell_check",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/openai/generation",
+      "name": "OpenAI - generation",
+      "provider": "edenai",
+      "model_id": "openai.text.generation",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/google/automatic_translation",
+      "name": "Google - automatic_translation",
+      "provider": "edenai",
+      "model_id": "google.translation.automatic_translation",
+      "model_type": "translation"
+    },
+    {
+      "id": "edenai/modernmt/automatic_translation",
+      "name": "ModernMT - automatic_translation",
+      "provider": "edenai",
+      "model_id": "modernmt.translation.automatic_translation",
+      "model_type": "translation"
+    },
+    {
+      "id": "edenai/sentisight/explicit_content",
+      "name": "SentiSight.ai - explicit_content",
+      "provider": "edenai",
+      "model_id": "sentisight.image.explicit_content",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/dashscope/chat",
+      "name": "None - chat",
+      "provider": "edenai",
+      "model_id": "dashscope.llm.chat",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/clarifai/face_detection",
+      "name": "Clarifai - face_detection",
+      "provider": "edenai",
+      "model_id": "clarifai.image.face_detection",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/clarifai/ocr",
+      "name": "Clarifai - ocr",
+      "provider": "edenai",
+      "model_id": "clarifai.ocr.ocr",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/google/face_detection_async",
+      "name": "Google - face_detection_async",
+      "provider": "edenai",
+      "model_id": "google.video.face_detection_async",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/openai/named_entity_recognition",
+      "name": "OpenAI - named_entity_recognition",
+      "provider": "edenai",
+      "model_id": "openai.text.named_entity_recognition",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/clarifai/logo_detection",
+      "name": "Clarifai - logo_detection",
+      "provider": "edenai",
+      "model_id": "clarifai.image.logo_detection",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/google/chat",
+      "name": "Google - chat",
+      "provider": "edenai",
+      "model_id": "google.text.chat",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/veryfi/receipt_parser",
+      "name": "Veryfi - receipt_parser",
+      "provider": "edenai",
+      "model_id": "veryfi.ocr.receipt_parser",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/amazon/receipt_parser",
+      "name": "Amazon - receipt_parser",
+      "provider": "edenai",
+      "model_id": "amazon.ocr.receipt_parser",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/amazon/data_extraction",
+      "name": "Amazon - data_extraction",
+      "provider": "edenai",
+      "model_id": "amazon.ocr.data_extraction",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/base64/data_extraction",
+      "name": "Base64 - data_extraction",
+      "provider": "edenai",
+      "model_id": "base64.ocr.data_extraction",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/meta/generation",
+      "name": "Meta - generation",
+      "provider": "edenai",
+      "model_id": "meta.text.generation",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/meta/chat",
+      "name": "Meta - chat",
+      "provider": "edenai",
+      "model_id": "meta.text.chat",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/klippa/identity_parser",
+      "name": "Klippa - identity_parser",
+      "provider": "edenai",
+      "model_id": "klippa.ocr.identity_parser",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/veryfi/bank_check_parsing",
+      "name": "Veryfi - bank_check_parsing",
+      "provider": "edenai",
+      "model_id": "veryfi.ocr.bank_check_parsing",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/base64/invoice_parser",
+      "name": "Base64 - invoice_parser",
+      "provider": "edenai",
+      "model_id": "base64.ocr.invoice_parser",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/google/code_generation",
+      "name": "Google - code_generation",
+      "provider": "edenai",
+      "model_id": "google.text.code_generation",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/google/label_detection_async",
+      "name": "Google - label_detection_async",
+      "provider": "edenai",
+      "model_id": "google.video.label_detection_async",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/facepp/face_compare",
+      "name": "Face++ - face_compare",
+      "provider": "edenai",
+      "model_id": "facepp.image.face_compare",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/assembly/speech_to_text_async",
+      "name": "AssemblyAI - speech_to_text_async",
+      "provider": "edenai",
+      "model_id": "assembly.audio.speech_to_text_async",
+      "model_type": "speech"
+    },
+    {
+      "id": "edenai/sentisight/search",
+      "name": "SentiSight.ai - search",
+      "provider": "edenai",
+      "model_id": "sentisight.image.search",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/microsoft/ocr_tables_async",
+      "name": "Microsoft - ocr_tables_async",
+      "provider": "edenai",
+      "model_id": "microsoft.ocr.ocr_tables_async",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/tenstorrent/topic_extraction",
+      "name": "Tenstorrent - topic_extraction",
+      "provider": "edenai",
+      "model_id": "tenstorrent.text.topic_extraction",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/microsoft/language_detection",
+      "name": "Microsoft - language_detection",
+      "provider": "edenai",
+      "model_id": "microsoft.translation.language_detection",
+      "model_type": "translation"
+    },
+    {
+      "id": "edenai/mindee/receipt_parser",
+      "name": "Mindee - receipt_parser",
+      "provider": "edenai",
+      "model_id": "mindee.ocr.receipt_parser",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/meta/chat",
+      "name": "Meta - chat",
+      "provider": "edenai",
+      "model_id": "meta.llm.chat",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/vernai/emotion_detection",
+      "name": "Vern AI - emotion_detection",
+      "provider": "edenai",
+      "model_id": "vernai.text.emotion_detection",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/base64/receipt_parser",
+      "name": "Base64 - receipt_parser",
+      "provider": "edenai",
+      "model_id": "base64.ocr.receipt_parser",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/openai/custom_named_entity_recognition",
+      "name": "OpenAI - custom_named_entity_recognition",
+      "provider": "edenai",
+      "model_id": "openai.text.custom_named_entity_recognition",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/cohere/embeddings",
+      "name": "Cohere - embeddings",
+      "provider": "edenai",
+      "model_id": "cohere.text.embeddings",
+      "model_type": "embedding"
+    },
+    {
+      "id": "edenai/groq/chat",
+      "name": "Groq - chat",
+      "provider": "edenai",
+      "model_id": "groq.llm.chat",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/openai/moderation",
+      "name": "OpenAI - moderation",
+      "provider": "edenai",
+      "model_id": "openai.text.moderation",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/api4ai/logo_detection",
+      "name": "api4ai - logo_detection",
+      "provider": "edenai",
+      "model_id": "api4ai.image.logo_detection",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/cohere/chat",
+      "name": "Cohere - chat",
+      "provider": "edenai",
+      "model_id": "cohere.text.chat",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/xai/chat",
+      "name": "xAI - chat",
+      "provider": "edenai",
+      "model_id": "xai.multimodal.chat",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/amazon/chat",
+      "name": "Amazon - chat",
+      "provider": "edenai",
+      "model_id": "amazon.text.chat",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/amazon/generation",
+      "name": "Amazon - generation",
+      "provider": "edenai",
+      "model_id": "amazon.text.generation",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/clarifai/object_detection",
+      "name": "Clarifai - object_detection",
+      "provider": "edenai",
+      "model_id": "clarifai.image.object_detection",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/together_ai/chat",
+      "name": "Together AI - chat",
+      "provider": "edenai",
+      "model_id": "together_ai.text.chat",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/mistral/chat",
+      "name": "Mistral - chat",
+      "provider": "edenai",
+      "model_id": "mistral.multimodal.chat",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/amazon/chat",
+      "name": "Amazon - chat",
+      "provider": "edenai",
+      "model_id": "amazon.multimodal.chat",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/deepgram/speech_to_text_async",
+      "name": "Deepgram - speech_to_text_async",
+      "provider": "edenai",
+      "model_id": "deepgram.audio.speech_to_text_async",
+      "model_type": "speech"
+    },
+    {
+      "id": "edenai/google/chat",
+      "name": "Google - chat",
+      "provider": "edenai",
+      "model_id": "google.llm.chat",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/google/logo_detection_async",
+      "name": "Google - logo_detection_async",
+      "provider": "edenai",
+      "model_id": "google.video.logo_detection_async",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/base64/identity_parser",
+      "name": "Base64 - identity_parser",
+      "provider": "edenai",
+      "model_id": "base64.ocr.identity_parser",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/deepseek/chat",
+      "name": "DeepSeek - chat",
+      "provider": "edenai",
+      "model_id": "deepseek.llm.chat",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/groq/chat",
+      "name": "Groq - chat",
+      "provider": "edenai",
+      "model_id": "groq.text.chat",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/google/speech_to_text_async",
+      "name": "Google - speech_to_text_async",
+      "provider": "edenai",
+      "model_id": "google.audio.speech_to_text_async",
+      "model_type": "speech"
+    },
+    {
+      "id": "edenai/mistral/chat",
+      "name": "Mistral - chat",
+      "provider": "edenai",
+      "model_id": "mistral.text.chat",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/microsoft/spell_check",
+      "name": "Microsoft - spell_check",
+      "provider": "edenai",
+      "model_id": "microsoft.text.spell_check",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/veryfi/invoice_parser",
+      "name": "Veryfi - invoice_parser",
+      "provider": "edenai",
+      "model_id": "veryfi.ocr.invoice_parser",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/openai/prompt_optimization",
+      "name": "OpenAI - prompt_optimization",
+      "provider": "edenai",
+      "model_id": "openai.text.prompt_optimization",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/base64/bank_check_parsing",
+      "name": "Base64 - bank_check_parsing",
+      "provider": "edenai",
+      "model_id": "base64.ocr.bank_check_parsing",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/sightengine/deepfake_detection",
+      "name": "SightEngine - deepfake_detection",
+      "provider": "edenai",
+      "model_id": "sightengine.image.deepfake_detection",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/google/topic_extraction",
+      "name": "Google - topic_extraction",
+      "provider": "edenai",
+      "model_id": "google.text.topic_extraction",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/mistral/embeddings",
+      "name": "Mistral - embeddings",
+      "provider": "edenai",
+      "model_id": "mistral.text.embeddings",
+      "model_type": "embedding"
+    },
+    {
+      "id": "edenai/amazon/generation_async",
+      "name": "Amazon - generation_async",
+      "provider": "edenai",
+      "model_id": "amazon.video.generation_async",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/amazon/entity_sentiment",
+      "name": "Amazon - entity_sentiment",
+      "provider": "edenai",
+      "model_id": "amazon.text.entity_sentiment",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/ibm/syntax_analysis",
+      "name": "IBM - syntax_analysis",
+      "provider": "edenai",
+      "model_id": "ibm.text.syntax_analysis",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/microsoft/object_detection",
+      "name": "Microsoft - object_detection",
+      "provider": "edenai",
+      "model_id": "microsoft.image.object_detection",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/google/person_tracking_async",
+      "name": "Google - person_tracking_async",
+      "provider": "edenai",
+      "model_id": "google.video.person_tracking_async",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/google/text_detection_async",
+      "name": "Google - text_detection_async",
+      "provider": "edenai",
+      "model_id": "google.video.text_detection_async",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/jina/embeddings",
+      "name": "Jina - embeddings",
+      "provider": "edenai",
+      "model_id": "jina.text.embeddings",
+      "model_type": "embedding"
+    },
+    {
+      "id": "edenai/google/question_answer",
+      "name": "Google - question_answer",
+      "provider": "edenai",
+      "model_id": "google.image.question_answer",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/amazon/chat",
+      "name": "Amazon - chat",
+      "provider": "edenai",
+      "model_id": "amazon.llm.chat",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/cohere/spell_check",
+      "name": "Cohere - spell_check",
+      "provider": "edenai",
+      "model_id": "cohere.text.spell_check",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/microsoft/chat",
+      "name": "Microsoft - chat",
+      "provider": "edenai",
+      "model_id": "microsoft.llm.chat",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/mistral/chat",
+      "name": "Mistral - chat",
+      "provider": "edenai",
+      "model_id": "mistral.llm.chat",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/sentisight/ocr",
+      "name": "SentiSight.ai - ocr",
+      "provider": "edenai",
+      "model_id": "sentisight.ocr.ocr",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/sentisight/object_detection",
+      "name": "SentiSight.ai - object_detection",
+      "provider": "edenai",
+      "model_id": "sentisight.image.object_detection",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/openai/sentiment_analysis",
+      "name": "OpenAI - sentiment_analysis",
+      "provider": "edenai",
+      "model_id": "openai.text.sentiment_analysis",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/nyckel/search",
+      "name": "Nyckel - search",
+      "provider": "edenai",
+      "model_id": "nyckel.image.search",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/klippa/invoice_parser",
+      "name": "Klippa - invoice_parser",
+      "provider": "edenai",
+      "model_id": "klippa.ocr.invoice_parser",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/microsoft/text_to_speech",
+      "name": "Microsoft - text_to_speech",
+      "provider": "edenai",
+      "model_id": "microsoft.audio.text_to_speech",
+      "model_type": "speech"
+    },
+    {
+      "id": "edenai/lovoai/text_to_speech_async",
+      "name": "Lovo - text_to_speech_async",
+      "provider": "edenai",
+      "model_id": "lovoai.audio.text_to_speech_async",
+      "model_type": "speech"
+    },
+    {
+      "id": "edenai/cohere/search",
+      "name": "Cohere - search",
+      "provider": "edenai",
+      "model_id": "cohere.text.search",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/amazon/face_compare",
+      "name": "Amazon - face_compare",
+      "provider": "edenai",
+      "model_id": "amazon.image.face_compare",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/google/ocr_tables_async",
+      "name": "Google - ocr_tables_async",
+      "provider": "edenai",
+      "model_id": "google.ocr.ocr_tables_async",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/google/language_detection",
+      "name": "Google - language_detection",
+      "provider": "edenai",
+      "model_id": "google.translation.language_detection",
+      "model_type": "translation"
+    },
+    {
+      "id": "edenai/lovoai/text_to_speech",
+      "name": "Lovo - text_to_speech",
+      "provider": "edenai",
+      "model_id": "lovoai.audio.text_to_speech",
+      "model_type": "speech"
+    },
+    {
+      "id": "edenai/mindee/invoice_parser",
+      "name": "Mindee - invoice_parser",
+      "provider": "edenai",
+      "model_id": "mindee.ocr.invoice_parser",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/microsoft/invoice_parser",
+      "name": "Microsoft - invoice_parser",
+      "provider": "edenai",
+      "model_id": "microsoft.ocr.invoice_parser",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/google/receipt_parser",
+      "name": "Google - receipt_parser",
+      "provider": "edenai",
+      "model_id": "google.ocr.receipt_parser",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/klippa/resume_parser",
+      "name": "Klippa - resume_parser",
+      "provider": "edenai",
+      "model_id": "klippa.ocr.resume_parser",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/openai/explicit_content",
+      "name": "OpenAI - explicit_content",
+      "provider": "edenai",
+      "model_id": "openai.image.explicit_content",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/amazon/ocr_tables_async",
+      "name": "Amazon - ocr_tables_async",
+      "provider": "edenai",
+      "model_id": "amazon.ocr.ocr_tables_async",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/amazon/sentiment_analysis",
+      "name": "Amazon - sentiment_analysis",
+      "provider": "edenai",
+      "model_id": "amazon.text.sentiment_analysis",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/microsoft/ocr",
+      "name": "Microsoft - ocr",
+      "provider": "edenai",
+      "model_id": "microsoft.ocr.ocr",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/sapling/spell_check",
+      "name": "Sapling - spell_check",
+      "provider": "edenai",
+      "model_id": "sapling.text.spell_check",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/klippa/receipt_parser",
+      "name": "Klippa - receipt_parser",
+      "provider": "edenai",
+      "model_id": "klippa.ocr.receipt_parser",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/anthropic/logo_detection",
+      "name": "Anthropic - logo_detection",
+      "provider": "edenai",
+      "model_id": "anthropic.image.logo_detection",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/winstonai/ai_detection",
+      "name": "Winston AI - ai_detection",
+      "provider": "edenai",
+      "model_id": "winstonai.image.ai_detection",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/openai/embeddings",
+      "name": "OpenAI - embeddings",
+      "provider": "edenai",
+      "model_id": "openai.text.embeddings",
+      "model_type": "embedding"
+    },
+    {
+      "id": "edenai/eagledoc/receipt_parser",
+      "name": "Eagle Doc - receipt_parser",
+      "provider": "edenai",
+      "model_id": "eagledoc.ocr.receipt_parser",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/eagledoc/invoice_parser",
+      "name": "Eagle Doc - invoice_parser",
+      "provider": "edenai",
+      "model_id": "eagledoc.ocr.invoice_parser",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/eagledoc/financial_parser",
+      "name": "Eagle Doc - financial_parser",
+      "provider": "edenai",
+      "model_id": "eagledoc.ocr.financial_parser",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/openai/logo_detection",
+      "name": "OpenAI - logo_detection",
+      "provider": "edenai",
+      "model_id": "openai.image.logo_detection",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/google/embeddings",
+      "name": "Google - embeddings",
+      "provider": "edenai",
+      "model_id": "google.image.embeddings",
+      "model_type": "embedding"
+    },
+    {
+      "id": "edenai/amazon/embeddings",
+      "name": "Amazon - embeddings",
+      "provider": "edenai",
+      "model_id": "amazon.image.embeddings",
+      "model_type": "embedding"
+    },
+    {
+      "id": "edenai/google/entity_sentiment",
+      "name": "Google - entity_sentiment",
+      "provider": "edenai",
+      "model_id": "google.text.entity_sentiment",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/cohere/summarize",
+      "name": "Cohere - summarize",
+      "provider": "edenai",
+      "model_id": "cohere.text.summarize",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/openai/keyword_extraction",
+      "name": "OpenAI - keyword_extraction",
+      "provider": "edenai",
+      "model_id": "openai.text.keyword_extraction",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/openai/question_answer",
+      "name": "OpenAI - question_answer",
+      "provider": "edenai",
+      "model_id": "openai.text.question_answer",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/openai/anonymization",
+      "name": "OpenAI - anonymization",
+      "provider": "edenai",
+      "model_id": "openai.text.anonymization",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/cohere/custom_named_entity_recognition",
+      "name": "Cohere - custom_named_entity_recognition",
+      "provider": "edenai",
+      "model_id": "cohere.text.custom_named_entity_recognition",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/amazon/ocr_async",
+      "name": "Amazon - ocr_async",
+      "provider": "edenai",
+      "model_id": "amazon.ocr.ocr_async",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/amazon/speech_to_text_async",
+      "name": "Amazon - speech_to_text_async",
+      "provider": "edenai",
+      "model_id": "amazon.audio.speech_to_text_async",
+      "model_type": "speech"
+    },
+    {
+      "id": "edenai/openai/search",
+      "name": "OpenAI - search",
+      "provider": "edenai",
+      "model_id": "openai.text.search",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/microsoft/moderation",
+      "name": "Microsoft - moderation",
+      "provider": "edenai",
+      "model_id": "microsoft.text.moderation",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/google/generation",
+      "name": "Google - generation",
+      "provider": "edenai",
+      "model_id": "google.text.generation",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/tabscanner/receipt_parser",
+      "name": "TabScanner - receipt_parser",
+      "provider": "edenai",
+      "model_id": "tabscanner.ocr.receipt_parser",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/prowritingaid/spell_check",
+      "name": "Prowritingaid - spell_check",
+      "provider": "edenai",
+      "model_id": "prowritingaid.text.spell_check",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/amazon/automatic_translation",
+      "name": "Amazon - automatic_translation",
+      "provider": "edenai",
+      "model_id": "amazon.translation.automatic_translation",
+      "model_type": "translation"
+    },
+    {
+      "id": "edenai/leonardo/generation",
+      "name": "Leonardo - generation",
+      "provider": "edenai",
+      "model_id": "leonardo.image.generation",
+      "model_type": "chat"
+    },
+    {
+      "id": "edenai/microsoft/anonymization",
+      "name": "Microsoft - anonymization",
+      "provider": "edenai",
+      "model_id": "microsoft.text.anonymization",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/microsoft/keyword_extraction",
+      "name": "Microsoft - keyword_extraction",
+      "provider": "edenai",
+      "model_id": "microsoft.text.keyword_extraction",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/api4ai/ocr",
+      "name": "api4ai - ocr",
+      "provider": "edenai",
+      "model_id": "api4ai.ocr.ocr",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/amazon/text_to_speech",
+      "name": "Amazon - text_to_speech",
+      "provider": "edenai",
+      "model_id": "amazon.audio.text_to_speech",
+      "model_type": "speech"
+    },
+    {
+      "id": "edenai/affinda/identity_parser",
+      "name": "Affinda - identity_parser",
+      "provider": "edenai",
+      "model_id": "affinda.ocr.identity_parser",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/google/syntax_analysis",
+      "name": "Google - syntax_analysis",
+      "provider": "edenai",
+      "model_id": "google.text.syntax_analysis",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/google/sentiment_analysis",
+      "name": "Google - sentiment_analysis",
+      "provider": "edenai",
+      "model_id": "google.text.sentiment_analysis",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/openai/topic_extraction",
+      "name": "OpenAI - topic_extraction",
+      "provider": "edenai",
+      "model_id": "openai.text.topic_extraction",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/google/embeddings",
+      "name": "Google - embeddings",
+      "provider": "edenai",
+      "model_id": "google.text.embeddings",
+      "model_type": "embedding"
+    },
+    {
+      "id": "edenai/affinda/receipt_parser",
+      "name": "Affinda - receipt_parser",
+      "provider": "edenai",
+      "model_id": "affinda.ocr.receipt_parser",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/mindee/bank_check_parsing",
+      "name": "Mindee - bank_check_parsing",
+      "provider": "edenai",
+      "model_id": "mindee.ocr.bank_check_parsing",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/google/invoice_parser",
+      "name": "Google - invoice_parser",
+      "provider": "edenai",
+      "model_id": "google.ocr.invoice_parser",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/amazon/face_detection_async",
+      "name": "Amazon - face_detection_async",
+      "provider": "edenai",
+      "model_id": "amazon.video.face_detection_async",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/hireability/resume_parser",
+      "name": "HireAbility - resume_parser",
+      "provider": "edenai",
+      "model_id": "hireability.ocr.resume_parser",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/deepl/automatic_translation",
+      "name": "DeepL - automatic_translation",
+      "provider": "edenai",
+      "model_id": "deepl.translation.automatic_translation",
+      "model_type": "translation"
+    },
+    {
+      "id": "edenai/base64/face_compare",
+      "name": "Base64 - face_compare",
+      "provider": "edenai",
+      "model_id": "base64.image.face_compare",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/amazon/ocr",
+      "name": "Amazon - ocr",
+      "provider": "edenai",
+      "model_id": "amazon.ocr.ocr",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/openai/speech_to_text_async",
+      "name": "OpenAI - speech_to_text_async",
+      "provider": "edenai",
+      "model_id": "openai.audio.speech_to_text_async",
+      "model_type": "speech"
+    },
+    {
+      "id": "edenai/tenstorrent/keyword_extraction",
+      "name": "Tenstorrent - keyword_extraction",
+      "provider": "edenai",
+      "model_id": "tenstorrent.text.keyword_extraction",
+      "model_type": "unknown"
+    },
+    {
+      "id": "edenai/modernmt/language_detection",
+      "name": "ModernMT - language_detection",
+      "provider": "edenai",
+      "model_id": "modernmt.translation.language_detection",
+      "model_type": "translation"
+    }
+  ]
+}

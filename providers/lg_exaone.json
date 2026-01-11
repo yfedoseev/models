@@ -1,0 +1,252 @@
+{
+  "provider": "lg_exaone",
+  "model_count": 41,
+  "models": [
+    {
+      "id": "lg_exaone/LGAI-EXAONE/K-EXAONE-236B-A23B",
+      "name": "LGAI-EXAONE/K-EXAONE-236B-A23B",
+      "provider": "lg_exaone",
+      "model_id": "LGAI-EXAONE/K-EXAONE-236B-A23B"
+    },
+    {
+      "id": "lg_exaone/LGAI-EXAONE/K-EXAONE-236B-A23B-FP8",
+      "name": "LGAI-EXAONE/K-EXAONE-236B-A23B-FP8",
+      "provider": "lg_exaone",
+      "model_id": "LGAI-EXAONE/K-EXAONE-236B-A23B-FP8"
+    },
+    {
+      "id": "lg_exaone/LGAI-EXAONE/K-EXAONE-236B-A23B-GGUF",
+      "name": "LGAI-EXAONE/K-EXAONE-236B-A23B-GGUF",
+      "provider": "lg_exaone",
+      "model_id": "LGAI-EXAONE/K-EXAONE-236B-A23B-GGUF"
+    },
+    {
+      "id": "lg_exaone/LGAI-EXAONE/EXAONE-4.0-1.2B",
+      "name": "LGAI-EXAONE/EXAONE-4.0-1.2B",
+      "provider": "lg_exaone",
+      "model_id": "LGAI-EXAONE/EXAONE-4.0-1.2B"
+    },
+    {
+      "id": "lg_exaone/LGAI-EXAONE/EXAONE-3.0-7.8B-Instruct",
+      "name": "LGAI-EXAONE/EXAONE-3.0-7.8B-Instruct",
+      "provider": "lg_exaone",
+      "model_id": "LGAI-EXAONE/EXAONE-3.0-7.8B-Instruct"
+    },
+    {
+      "id": "lg_exaone/LGAI-EXAONE/EXAONEPath",
+      "name": "LGAI-EXAONE/EXAONEPath",
+      "provider": "lg_exaone",
+      "model_id": "LGAI-EXAONE/EXAONEPath"
+    },
+    {
+      "id": "lg_exaone/LGAI-EXAONE/EXAONE-3.0-7.8B-Instruct-AWQ",
+      "name": "LGAI-EXAONE/EXAONE-3.0-7.8B-Instruct-AWQ",
+      "provider": "lg_exaone",
+      "model_id": "LGAI-EXAONE/EXAONE-3.0-7.8B-Instruct-AWQ"
+    },
+    {
+      "id": "lg_exaone/LGAI-EXAONE/EXAONE-3.5-2.4B-Instruct",
+      "name": "LGAI-EXAONE/EXAONE-3.5-2.4B-Instruct",
+      "provider": "lg_exaone",
+      "model_id": "LGAI-EXAONE/EXAONE-3.5-2.4B-Instruct"
+    },
+    {
+      "id": "lg_exaone/LGAI-EXAONE/EXAONE-3.5-2.4B-Instruct-AWQ",
+      "name": "LGAI-EXAONE/EXAONE-3.5-2.4B-Instruct-AWQ",
+      "provider": "lg_exaone",
+      "model_id": "LGAI-EXAONE/EXAONE-3.5-2.4B-Instruct-AWQ"
+    },
+    {
+      "id": "lg_exaone/LGAI-EXAONE/EXAONE-3.5-2.4B-Instruct-GGUF",
+      "name": "LGAI-EXAONE/EXAONE-3.5-2.4B-Instruct-GGUF",
+      "provider": "lg_exaone",
+      "model_id": "LGAI-EXAONE/EXAONE-3.5-2.4B-Instruct-GGUF"
+    },
+    {
+      "id": "lg_exaone/LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct",
+      "name": "LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct",
+      "provider": "lg_exaone",
+      "model_id": "LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct"
+    },
+    {
+      "id": "lg_exaone/LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct-AWQ",
+      "name": "LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct-AWQ",
+      "provider": "lg_exaone",
+      "model_id": "LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct-AWQ"
+    },
+    {
+      "id": "lg_exaone/LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct-GGUF",
+      "name": "LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct-GGUF",
+      "provider": "lg_exaone",
+      "model_id": "LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct-GGUF"
+    },
+    {
+      "id": "lg_exaone/LGAI-EXAONE/EXAONE-3.5-32B-Instruct",
+      "name": "LGAI-EXAONE/EXAONE-3.5-32B-Instruct",
+      "provider": "lg_exaone",
+      "model_id": "LGAI-EXAONE/EXAONE-3.5-32B-Instruct"
+    },
+    {
+      "id": "lg_exaone/LGAI-EXAONE/EXAONE-3.5-32B-Instruct-AWQ",
+      "name": "LGAI-EXAONE/EXAONE-3.5-32B-Instruct-AWQ",
+      "provider": "lg_exaone",
+      "model_id": "LGAI-EXAONE/EXAONE-3.5-32B-Instruct-AWQ"
+    },
+    {
+      "id": "lg_exaone/LGAI-EXAONE/EXAONE-3.5-32B-Instruct-GGUF",
+      "name": "LGAI-EXAONE/EXAONE-3.5-32B-Instruct-GGUF",
+      "provider": "lg_exaone",
+      "model_id": "LGAI-EXAONE/EXAONE-3.5-32B-Instruct-GGUF"
+    },
+    {
+      "id": "lg_exaone/LGAI-EXAONE/EXAONEPath-CRC-MSI-Predictor",
+      "name": "LGAI-EXAONE/EXAONEPath-CRC-MSI-Predictor",
+      "provider": "lg_exaone",
+      "model_id": "LGAI-EXAONE/EXAONEPath-CRC-MSI-Predictor"
+    },
+    {
+      "id": "lg_exaone/LGAI-EXAONE/EXAONE-Deep-2.4B",
+      "name": "LGAI-EXAONE/EXAONE-Deep-2.4B",
+      "provider": "lg_exaone",
+      "model_id": "LGAI-EXAONE/EXAONE-Deep-2.4B"
+    },
+    {
+      "id": "lg_exaone/LGAI-EXAONE/EXAONE-Deep-2.4B-AWQ",
+      "name": "LGAI-EXAONE/EXAONE-Deep-2.4B-AWQ",
+      "provider": "lg_exaone",
+      "model_id": "LGAI-EXAONE/EXAONE-Deep-2.4B-AWQ"
+    },
+    {
+      "id": "lg_exaone/LGAI-EXAONE/EXAONE-Deep-2.4B-GGUF",
+      "name": "LGAI-EXAONE/EXAONE-Deep-2.4B-GGUF",
+      "provider": "lg_exaone",
+      "model_id": "LGAI-EXAONE/EXAONE-Deep-2.4B-GGUF"
+    },
+    {
+      "id": "lg_exaone/LGAI-EXAONE/EXAONE-Deep-7.8B",
+      "name": "LGAI-EXAONE/EXAONE-Deep-7.8B",
+      "provider": "lg_exaone",
+      "model_id": "LGAI-EXAONE/EXAONE-Deep-7.8B"
+    },
+    {
+      "id": "lg_exaone/LGAI-EXAONE/EXAONE-Deep-7.8B-AWQ",
+      "name": "LGAI-EXAONE/EXAONE-Deep-7.8B-AWQ",
+      "provider": "lg_exaone",
+      "model_id": "LGAI-EXAONE/EXAONE-Deep-7.8B-AWQ"
+    },
+    {
+      "id": "lg_exaone/LGAI-EXAONE/EXAONE-Deep-7.8B-GGUF",
+      "name": "LGAI-EXAONE/EXAONE-Deep-7.8B-GGUF",
+      "provider": "lg_exaone",
+      "model_id": "LGAI-EXAONE/EXAONE-Deep-7.8B-GGUF"
+    },
+    {
+      "id": "lg_exaone/LGAI-EXAONE/EXAONE-Deep-32B",
+      "name": "LGAI-EXAONE/EXAONE-Deep-32B",
+      "provider": "lg_exaone",
+      "model_id": "LGAI-EXAONE/EXAONE-Deep-32B"
+    },
+    {
+      "id": "lg_exaone/LGAI-EXAONE/EXAONE-Deep-32B-AWQ",
+      "name": "LGAI-EXAONE/EXAONE-Deep-32B-AWQ",
+      "provider": "lg_exaone",
+      "model_id": "LGAI-EXAONE/EXAONE-Deep-32B-AWQ"
+    },
+    {
+      "id": "lg_exaone/LGAI-EXAONE/EXAONE-Deep-32B-GGUF",
+      "name": "LGAI-EXAONE/EXAONE-Deep-32B-GGUF",
+      "provider": "lg_exaone",
+      "model_id": "LGAI-EXAONE/EXAONE-Deep-32B-GGUF"
+    },
+    {
+      "id": "lg_exaone/LGAI-EXAONE/EXAONE-Path-1.5",
+      "name": "LGAI-EXAONE/EXAONE-Path-1.5",
+      "provider": "lg_exaone",
+      "model_id": "LGAI-EXAONE/EXAONE-Path-1.5"
+    },
+    {
+      "id": "lg_exaone/LGAI-EXAONE/EXAONE-Path-MSI",
+      "name": "LGAI-EXAONE/EXAONE-Path-MSI",
+      "provider": "lg_exaone",
+      "model_id": "LGAI-EXAONE/EXAONE-Path-MSI"
+    },
+    {
+      "id": "lg_exaone/LGAI-EXAONE/EXAONE-Path-2.0",
+      "name": "LGAI-EXAONE/EXAONE-Path-2.0",
+      "provider": "lg_exaone",
+      "model_id": "LGAI-EXAONE/EXAONE-Path-2.0"
+    },
+    {
+      "id": "lg_exaone/LGAI-EXAONE/EXAONE-Path-EGFR",
+      "name": "LGAI-EXAONE/EXAONE-Path-EGFR",
+      "provider": "lg_exaone",
+      "model_id": "LGAI-EXAONE/EXAONE-Path-EGFR"
+    },
+    {
+      "id": "lg_exaone/LGAI-EXAONE/EXAONE-4.0-32B",
+      "name": "LGAI-EXAONE/EXAONE-4.0-32B",
+      "provider": "lg_exaone",
+      "model_id": "LGAI-EXAONE/EXAONE-4.0-32B"
+    },
+    {
+      "id": "lg_exaone/LGAI-EXAONE/EXAONE-4.0-32B-FP8",
+      "name": "LGAI-EXAONE/EXAONE-4.0-32B-FP8",
+      "provider": "lg_exaone",
+      "model_id": "LGAI-EXAONE/EXAONE-4.0-32B-FP8"
+    },
+    {
+      "id": "lg_exaone/LGAI-EXAONE/EXAONE-4.0-32B-GPTQ",
+      "name": "LGAI-EXAONE/EXAONE-4.0-32B-GPTQ",
+      "provider": "lg_exaone",
+      "model_id": "LGAI-EXAONE/EXAONE-4.0-32B-GPTQ"
+    },
+    {
+      "id": "lg_exaone/LGAI-EXAONE/EXAONE-4.0-32B-AWQ",
+      "name": "LGAI-EXAONE/EXAONE-4.0-32B-AWQ",
+      "provider": "lg_exaone",
+      "model_id": "LGAI-EXAONE/EXAONE-4.0-32B-AWQ"
+    },
+    {
+      "id": "lg_exaone/LGAI-EXAONE/EXAONE-4.0-32B-GGUF",
+      "name": "LGAI-EXAONE/EXAONE-4.0-32B-GGUF",
+      "provider": "lg_exaone",
+      "model_id": "LGAI-EXAONE/EXAONE-4.0-32B-GGUF"
+    },
+    {
+      "id": "lg_exaone/LGAI-EXAONE/EXAONE-4.0-1.2B-FP8",
+      "name": "LGAI-EXAONE/EXAONE-4.0-1.2B-FP8",
+      "provider": "lg_exaone",
+      "model_id": "LGAI-EXAONE/EXAONE-4.0-1.2B-FP8"
+    },
+    {
+      "id": "lg_exaone/LGAI-EXAONE/EXAONE-4.0-1.2B-GPTQ-Int8",
+      "name": "LGAI-EXAONE/EXAONE-4.0-1.2B-GPTQ-Int8",
+      "provider": "lg_exaone",
+      "model_id": "LGAI-EXAONE/EXAONE-4.0-1.2B-GPTQ-Int8"
+    },
+    {
+      "id": "lg_exaone/LGAI-EXAONE/EXAONE-4.0-1.2B-AWQ",
+      "name": "LGAI-EXAONE/EXAONE-4.0-1.2B-AWQ",
+      "provider": "lg_exaone",
+      "model_id": "LGAI-EXAONE/EXAONE-4.0-1.2B-AWQ"
+    },
+    {
+      "id": "lg_exaone/LGAI-EXAONE/EXAONE-4.0-1.2B-GGUF",
+      "name": "LGAI-EXAONE/EXAONE-4.0-1.2B-GGUF",
+      "provider": "lg_exaone",
+      "model_id": "LGAI-EXAONE/EXAONE-4.0-1.2B-GGUF"
+    },
+    {
+      "id": "lg_exaone/LGAI-EXAONE/EXAONE-4.0.1-32B",
+      "name": "LGAI-EXAONE/EXAONE-4.0.1-32B",
+      "provider": "lg_exaone",
+      "model_id": "LGAI-EXAONE/EXAONE-4.0.1-32B"
+    },
+    {
+      "id": "lg_exaone/LGAI-EXAONE/EXAONE-Path-2.5",
+      "name": "LGAI-EXAONE/EXAONE-Path-2.5",
+      "provider": "lg_exaone",
+      "model_id": "LGAI-EXAONE/EXAONE-Path-2.5"
+    }
+  ]
+}

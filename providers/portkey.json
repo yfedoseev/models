@@ -1,0 +1,592 @@
+{
+  "provider": "portkey",
+  "model_count": 55,
+  "models": [
+    {
+      "id": "gpt-4-turbo-preview",
+      "name": "gpt-4-turbo-preview",
+      "provider": "portkey",
+      "model_id": "gpt-4-turbo-preview",
+      "benchmarks": {
+        "gpqa_diamond": 0.466,
+        "mmlu": 86.7,
+        "math_level_5": 0.467,
+        "otis_mock_aime_2024_2025": 0.067,
+        "simplebench": 0.251,
+        "humaneval": 88.2,
+        "arena_elo": 1324.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "gpt-4-0125-preview",
+      "name": "gpt-4-0125-preview",
+      "provider": "portkey",
+      "model_id": "gpt-4-0125-preview",
+      "benchmarks": {
+        "gpqa_diamond": 0.423,
+        "mmlu": 85.4,
+        "math_level_5": 0.354,
+        "humaneval": 86.6,
+        "arena_elo": 1313.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "gpt-4-turbo-2024-04-09",
+      "name": "gpt-4-turbo-2024-04-09",
+      "provider": "portkey",
+      "model_id": "gpt-4-turbo-2024-04-09",
+      "benchmarks": {
+        "gpqa_diamond": 0.466,
+        "mmlu": 86.7,
+        "math_level_5": 0.467,
+        "otis_mock_aime_2024_2025": 0.067,
+        "simplebench": 0.251,
+        "humaneval": 88.2,
+        "arena_elo": 1324.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "gpt-4",
+      "name": "gpt-4",
+      "provider": "portkey",
+      "model_id": "gpt-4",
+      "benchmarks": {
+        "gpqa_diamond": 0.307,
+        "mmlu": 0.864,
+        "math_level_5": 0.23,
+        "gsm8k": 0.92,
+        "otis_mock_aime_2024_2025": 0.006,
+        "trivia_qa": 0.848,
+        "arena_elo": 1275.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "gpt-4-0613",
+      "name": "gpt-4-0613",
+      "provider": "portkey",
+      "model_id": "gpt-4-0613",
+      "benchmarks": {
+        "gpqa_diamond": 0.307,
+        "mmlu": 0.864,
+        "math_level_5": 0.23,
+        "gsm8k": 0.92,
+        "otis_mock_aime_2024_2025": 0.006,
+        "trivia_qa": 0.848,
+        "arena_elo": 1275.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "gpt-4-32k",
+      "name": "gpt-4-32k",
+      "provider": "portkey",
+      "model_id": "gpt-4-32k",
+      "model_type": "chat"
+    },
+    {
+      "id": "gpt-4-32k-0613",
+      "name": "gpt-4-32k-0613",
+      "provider": "portkey",
+      "model_id": "gpt-4-32k-0613",
+      "model_type": "chat"
+    },
+    {
+      "id": "gpt-4-vision-preview",
+      "name": "gpt-4-vision-preview",
+      "provider": "portkey",
+      "model_id": "gpt-4-vision-preview",
+      "model_type": "vision"
+    },
+    {
+      "id": "gpt-3.5-turbo",
+      "name": "gpt-3.5-turbo",
+      "provider": "portkey",
+      "model_id": "gpt-3.5-turbo",
+      "benchmarks": {
+        "gpqa_diamond": 0.272,
+        "mmlu": 0.714,
+        "math_level_5": 0.159,
+        "gsm8k": 0.578,
+        "trivia_qa": 0.858,
+        "arena_elo": 1202.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "gpt-3.5-turbo-1106",
+      "name": "gpt-3.5-turbo-1106",
+      "provider": "portkey",
+      "model_id": "gpt-3.5-turbo-1106",
+      "benchmarks": {
+        "gpqa_diamond": 0.272,
+        "mmlu": 0.714,
+        "math_level_5": 0.159,
+        "gsm8k": 0.578,
+        "trivia_qa": 0.858,
+        "arena_elo": 1202.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "gpt-3.5-turbo-0125",
+      "name": "gpt-3.5-turbo-0125",
+      "provider": "portkey",
+      "model_id": "gpt-3.5-turbo-0125",
+      "benchmarks": {
+        "gpqa_diamond": 0.272,
+        "mmlu": 0.714,
+        "math_level_5": 0.159,
+        "gsm8k": 0.578,
+        "trivia_qa": 0.858,
+        "arena_elo": 1202.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "gpt-3.5-turbo-16k",
+      "name": "gpt-3.5-turbo-16k",
+      "provider": "portkey",
+      "model_id": "gpt-3.5-turbo-16k",
+      "model_type": "chat"
+    },
+    {
+      "id": "gpt-3.5-turbo-instruct",
+      "name": "gpt-3.5-turbo-instruct",
+      "provider": "portkey",
+      "model_id": "gpt-3.5-turbo-instruct",
+      "benchmarks": {
+        "gpqa_diamond": 0.272,
+        "mmlu": 0.714,
+        "math_level_5": 0.159,
+        "gsm8k": 0.578,
+        "trivia_qa": 0.858,
+        "arena_elo": 1202.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "text-embedding-ada-002",
+      "name": "text-embedding-ada-002",
+      "provider": "portkey",
+      "model_id": "text-embedding-ada-002",
+      "model_type": "embedding"
+    },
+    {
+      "id": "text-embedding-3-small",
+      "name": "text-embedding-3-small",
+      "provider": "portkey",
+      "model_id": "text-embedding-3-small",
+      "model_type": "embedding"
+    },
+    {
+      "id": "text-embedding-3-large",
+      "name": "text-embedding-3-large",
+      "provider": "portkey",
+      "model_id": "text-embedding-3-large",
+      "model_type": "embedding"
+    },
+    {
+      "id": "dall-e-3",
+      "name": "dall-e-3",
+      "provider": "portkey",
+      "model_id": "dall-e-3",
+      "model_type": "image_gen"
+    },
+    {
+      "id": "dall-e-2",
+      "name": "dall-e-2",
+      "provider": "portkey",
+      "model_id": "dall-e-2",
+      "model_type": "image_gen"
+    },
+    {
+      "id": "tts-1",
+      "name": "tts-1",
+      "provider": "portkey",
+      "model_id": "tts-1",
+      "model_type": "unknown"
+    },
+    {
+      "id": "tts-1-hd",
+      "name": "tts-1-hd",
+      "provider": "portkey",
+      "model_id": "tts-1-hd",
+      "model_type": "unknown"
+    },
+    {
+      "id": "text-moderation-latest",
+      "name": "text-moderation-latest",
+      "provider": "portkey",
+      "model_id": "text-moderation-latest",
+      "model_type": "unknown"
+    },
+    {
+      "id": "text-moderation-stable",
+      "name": "text-moderation-stable",
+      "provider": "portkey",
+      "model_id": "text-moderation-stable",
+      "model_type": "unknown"
+    },
+    {
+      "id": "ft:gpt-3.5-turbo",
+      "name": "ft:gpt-3.5-turbo",
+      "provider": "portkey",
+      "model_id": "ft:gpt-3.5-turbo",
+      "model_type": "chat"
+    },
+    {
+      "id": "ft:gpt-3.5-turbo-0613",
+      "name": "ft:gpt-3.5-turbo-0613",
+      "provider": "portkey",
+      "model_id": "ft:gpt-3.5-turbo-0613",
+      "model_type": "chat"
+    },
+    {
+      "id": "ft:gpt-3.5-turbo-1106",
+      "name": "ft:gpt-3.5-turbo-1106",
+      "provider": "portkey",
+      "model_id": "ft:gpt-3.5-turbo-1106",
+      "model_type": "chat"
+    },
+    {
+      "id": "ft:gpt-3.5-turbo-0125",
+      "name": "ft:gpt-3.5-turbo-0125",
+      "provider": "portkey",
+      "model_id": "ft:gpt-3.5-turbo-0125",
+      "model_type": "chat"
+    },
+    {
+      "id": "gpt-4o",
+      "name": "gpt-4o",
+      "provider": "portkey",
+      "model_id": "gpt-4o",
+      "benchmarks": {
+        "gpqa_diamond": 0.489,
+        "mmlu": 87.2,
+        "math_level_5": 0.533,
+        "otis_mock_aime_2024_2025": 0.062,
+        "frontiermath": 0.003,
+        "aider_polyglot": 18.2,
+        "simplebench": 0.178,
+        "swe_bench_verified": 0.254,
+        "humaneval": 91.0,
+        "arena_elo": 1335.0
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "gpt-4o-2024-05-13",
+      "name": "gpt-4o-2024-05-13",
+      "provider": "portkey",
+      "model_id": "gpt-4o-2024-05-13",
+      "benchmarks": {
+        "gpqa_diamond": 0.489,
+        "mmlu": 87.2,
+        "math_level_5": 0.533,
+        "otis_mock_aime_2024_2025": 0.062,
+        "frontiermath": 0.003,
+        "aider_polyglot": 18.2,
+        "simplebench": 0.178,
+        "swe_bench_verified": 0.254,
+        "humaneval": 91.0,
+        "arena_elo": 1335.0
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "gpt-4o-2024-08-06",
+      "name": "gpt-4o-2024-08-06",
+      "provider": "portkey",
+      "model_id": "gpt-4o-2024-08-06",
+      "benchmarks": {
+        "gpqa_diamond": 0.489,
+        "mmlu": 87.2,
+        "math_level_5": 0.533,
+        "otis_mock_aime_2024_2025": 0.062,
+        "frontiermath": 0.003,
+        "aider_polyglot": 18.2,
+        "simplebench": 0.178,
+        "swe_bench_verified": 0.254,
+        "humaneval": 91.0,
+        "arena_elo": 1335.0
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "gpt-4o-mini",
+      "name": "gpt-4o-mini",
+      "provider": "portkey",
+      "model_id": "gpt-4o-mini",
+      "benchmarks": {
+        "gpqa_diamond": 0.377,
+        "mmlu": 82.0,
+        "math_level_5": 0.526,
+        "gsm8k": 0.913,
+        "otis_mock_aime_2024_2025": 0.069,
+        "aider_polyglot": 3.6,
+        "simplebench": 0.107,
+        "humaneval": 87.2,
+        "arena_elo": 1317.0
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "o1-preview",
+      "name": "o1-preview",
+      "provider": "portkey",
+      "model_id": "o1-preview",
+      "benchmarks": {
+        "gpqa_diamond": 0.503,
+        "mmlu": 90.8,
+        "math_level_5": 0.816,
+        "otis_mock_aime_2024_2025": 0.311,
+        "simplebench": 0.417,
+        "humaneval": 92.4,
+        "arena_elo": 1388.0
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "o1-preview-2024-09-12",
+      "name": "o1-preview-2024-09-12",
+      "provider": "portkey",
+      "model_id": "o1-preview-2024-09-12",
+      "benchmarks": {
+        "gpqa_diamond": 0.503,
+        "mmlu": 90.8,
+        "math_level_5": 0.816,
+        "otis_mock_aime_2024_2025": 0.311,
+        "simplebench": 0.417,
+        "humaneval": 92.4,
+        "arena_elo": 1388.0
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "o1-mini",
+      "name": "o1-mini",
+      "provider": "portkey",
+      "model_id": "o1-mini",
+      "benchmarks": {
+        "mmlu": 85.2,
+        "humaneval": 92.4,
+        "arena_elo": 1336.0
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "gpt-4o-realtime-preview-2024-10-01",
+      "name": "gpt-4o-realtime-preview-2024-10-01",
+      "provider": "portkey",
+      "model_id": "gpt-4o-realtime-preview-2024-10-01",
+      "model_type": "vision"
+    },
+    {
+      "id": "gpt-4o-realtime-preview",
+      "name": "gpt-4o-realtime-preview",
+      "provider": "portkey",
+      "model_id": "gpt-4o-realtime-preview",
+      "model_type": "vision"
+    },
+    {
+      "id": "claude-1",
+      "name": "claude-1",
+      "provider": "portkey",
+      "model_id": "claude-1",
+      "model_type": "chat"
+    },
+    {
+      "id": "claude-v1",
+      "name": "claude-v1",
+      "provider": "portkey",
+      "model_id": "claude-v1",
+      "model_type": "chat"
+    },
+    {
+      "id": "claude-1-100k",
+      "name": "claude-1-100k",
+      "provider": "portkey",
+      "model_id": "claude-1-100k",
+      "model_type": "chat"
+    },
+    {
+      "id": "claude-1.3",
+      "name": "claude-1.3",
+      "provider": "portkey",
+      "model_id": "claude-1.3",
+      "benchmarks": {
+        "mmlu": 0.77,
+        "trivia_qa": 0.867
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "claude-1.3-100k",
+      "name": "claude-1.3-100k",
+      "provider": "portkey",
+      "model_id": "claude-1.3-100k",
+      "model_type": "chat"
+    },
+    {
+      "id": "claude-1.2",
+      "name": "claude-1.2",
+      "provider": "portkey",
+      "model_id": "claude-1.2",
+      "model_type": "chat"
+    },
+    {
+      "id": "claude-1.0",
+      "name": "claude-1.0",
+      "provider": "portkey",
+      "model_id": "claude-1.0",
+      "model_type": "chat"
+    },
+    {
+      "id": "claude-2",
+      "name": "claude-2",
+      "provider": "portkey",
+      "model_id": "claude-2",
+      "model_type": "chat"
+    },
+    {
+      "id": "claude-2.0",
+      "name": "claude-2.0",
+      "provider": "portkey",
+      "model_id": "claude-2.0",
+      "benchmarks": {
+        "gpqa_diamond": 0.347,
+        "mmlu": 0.785,
+        "math_level_5": 0.117,
+        "otis_mock_aime_2024_2025": 0.025,
+        "trivia_qa": 0.875
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "claude-2.1",
+      "name": "claude-2.1",
+      "provider": "portkey",
+      "model_id": "claude-2.1",
+      "benchmarks": {
+        "gpqa_diamond": 0.33,
+        "mmlu": 0.735,
+        "otis_mock_aime_2024_2025": 0.019
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "claude-instant-1",
+      "name": "claude-instant-1",
+      "provider": "portkey",
+      "model_id": "claude-instant-1",
+      "model_type": "chat"
+    },
+    {
+      "id": "claude-instant-1-100k",
+      "name": "claude-instant-1-100k",
+      "provider": "portkey",
+      "model_id": "claude-instant-1-100k",
+      "model_type": "chat"
+    },
+    {
+      "id": "claude-instant-1.1",
+      "name": "claude-instant-1.1",
+      "provider": "portkey",
+      "model_id": "claude-instant-1.1",
+      "benchmarks": {
+        "mmlu": 0.734,
+        "gsm8k": 0.809,
+        "trivia_qa": 0.789
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "claude-instant-1.1-100k",
+      "name": "claude-instant-1.1-100k",
+      "provider": "portkey",
+      "model_id": "claude-instant-1.1-100k",
+      "model_type": "chat"
+    },
+    {
+      "id": "claude-instant-1.0",
+      "name": "claude-instant-1.0",
+      "provider": "portkey",
+      "model_id": "claude-instant-1.0",
+      "model_type": "chat"
+    },
+    {
+      "id": "claude-instant-1.2",
+      "name": "claude-instant-1.2",
+      "provider": "portkey",
+      "model_id": "claude-instant-1.2",
+      "benchmarks": {
+        "mmlu": 0.732,
+        "gsm8k": 0.867,
+        "trivia_qa": 0.787
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "claude-3-opus-20240229",
+      "name": "claude-3-opus-20240229",
+      "provider": "portkey",
+      "model_id": "claude-3-opus-20240229",
+      "benchmarks": {
+        "gpqa_diamond": 0.472,
+        "mmlu": 0.846,
+        "math_level_5": 0.375,
+        "otis_mock_aime_2024_2025": 0.047,
+        "simplebench": 0.235
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "claude-3-sonnet-20240229",
+      "name": "claude-3-sonnet-20240229",
+      "provider": "portkey",
+      "model_id": "claude-3-sonnet-20240229",
+      "benchmarks": {
+        "gpqa_diamond": 0.406,
+        "mmlu": 0.759,
+        "math_level_5": 0.182,
+        "otis_mock_aime_2024_2025": 0.025
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "claude-3-haiku-20240307",
+      "name": "claude-3-haiku-20240307",
+      "provider": "portkey",
+      "model_id": "claude-3-haiku-20240307",
+      "benchmarks": {
+        "gpqa_diamond": 0.363,
+        "mmlu": 0.738,
+        "math_level_5": 0.149,
+        "otis_mock_aime_2024_2025": 0.018
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "claude-3-5-sonnet-20240620",
+      "name": "claude-3-5-sonnet-20240620",
+      "provider": "portkey",
+      "model_id": "claude-3-5-sonnet-20240620",
+      "benchmarks": {
+        "gpqa_diamond": 0.54,
+        "mmlu": 0.873,
+        "math_level_5": 0.517,
+        "otis_mock_aime_2024_2025": 0.085,
+        "frontiermath": 0.021,
+        "aider_polyglot": 51.6,
+        "simplebench": 0.275,
+        "frontiermath_tier_4": 0.0,
+        "swe_bench_verified": 0.406
+      },
+      "model_type": "vision"
+    }
+  ]
+}

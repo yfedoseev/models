@@ -1,0 +1,116 @@
+{
+  "provider": "nlpcloud",
+  "model_count": 15,
+  "models": [
+    {
+      "id": "nlpcloud/gpt-j",
+      "name": "gpt-j",
+      "provider": "nlpcloud",
+      "model_id": "gpt-j",
+      "model_type": "generation"
+    },
+    {
+      "id": "nlpcloud/gpt-neo",
+      "name": "gpt-neo",
+      "provider": "nlpcloud",
+      "model_id": "gpt-neo",
+      "model_type": "generation"
+    },
+    {
+      "id": "nlpcloud/llama-3-1-405b-into-production-on-gcp-compute-engine",
+      "name": "llama-3-1-405b-into-production-on-gcp-compute-engine",
+      "provider": "nlpcloud",
+      "model_id": "llama-3-1-405b-into-production-on-gcp-compute-engine",
+      "model_type": "generation"
+    },
+    {
+      "id": "nlpcloud/llama-3-into-production",
+      "name": "llama-3-into-production",
+      "provider": "nlpcloud",
+      "model_id": "llama-3-into-production",
+      "model_type": "generation"
+    },
+    {
+      "id": "nlpcloud/llama-2-mistral-and-mixtral-on-aws-ec2-with-vllm",
+      "name": "llama-2-mistral-and-mixtral-on-aws-ec2-with-vllm",
+      "provider": "nlpcloud",
+      "model_id": "llama-2-mistral-and-mixtral-on-aws-ec2-with-vllm",
+      "model_type": "generation"
+    },
+    {
+      "id": "nlpcloud/llama-openllama-xgen-with-jax-on-tpu-gpu",
+      "name": "llama-openllama-xgen-with-jax-on-tpu-gpu",
+      "provider": "nlpcloud",
+      "model_id": "llama-openllama-xgen-with-jax-on-tpu-gpu",
+      "model_type": "generation"
+    },
+    {
+      "id": "nlpcloud/chatdolphin",
+      "name": "chatdolphin",
+      "provider": "nlpcloud",
+      "model_id": "chatdolphin",
+      "context_window": 4096,
+      "model_type": "generation"
+    },
+    {
+      "id": "nlpcloud/gpt-j-6b",
+      "name": "gpt-j-6b",
+      "provider": "nlpcloud",
+      "model_id": "gpt-j-6b",
+      "context_window": 2048,
+      "benchmarks": {
+        "mmlu": 0.257
+      },
+      "model_type": "generation"
+    },
+    {
+      "id": "nlpcloud/bart-large-mnli-yahoo-answers",
+      "name": "bart-large-mnli-yahoo-answers",
+      "provider": "nlpcloud",
+      "model_id": "bart-large-mnli-yahoo-answers",
+      "model_type": "summarization"
+    },
+    {
+      "id": "nlpcloud/roberta-base-squad2",
+      "name": "roberta-base-squad2",
+      "provider": "nlpcloud",
+      "model_id": "roberta-base-squad2",
+      "model_type": "classification"
+    },
+    {
+      "id": "nlpcloud/distilbert-finetuned-sst-2-english",
+      "name": "distilbert-finetuned-sst-2-english",
+      "provider": "nlpcloud",
+      "model_id": "distilbert-finetuned-sst-2-english",
+      "model_type": "classification"
+    },
+    {
+      "id": "nlpcloud/bart-large-cnn",
+      "name": "bart-large-cnn",
+      "provider": "nlpcloud",
+      "model_id": "bart-large-cnn",
+      "model_type": "summarization"
+    },
+    {
+      "id": "nlpcloud/Bart",
+      "name": "Bart",
+      "provider": "nlpcloud",
+      "model_id": "Bart",
+      "model_type": "summarization"
+    },
+    {
+      "id": "nlpcloud/Roberta",
+      "name": "Roberta",
+      "provider": "nlpcloud",
+      "model_id": "Roberta",
+      "model_type": "classification"
+    },
+    {
+      "id": "nlpcloud/DistilBERT",
+      "name": "DistilBERT",
+      "provider": "nlpcloud",
+      "model_id": "DistilBERT",
+      "model_type": "classification"
+    }
+  ]
+}

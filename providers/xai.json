@@ -1,0 +1,142 @@
+{
+  "provider": "xai",
+  "model_count": 10,
+  "models": [
+    {
+      "id": "grok-2-vision-1212",
+      "name": null,
+      "provider": "xai",
+      "model_id": "grok-2-vision-1212",
+      "context_window": 32768,
+      "input_price_per_million": 2.0,
+      "output_price_per_million": 10.0,
+      "model_type": "vision"
+    },
+    {
+      "id": "grok-3",
+      "name": null,
+      "provider": "xai",
+      "model_id": "grok-3",
+      "context_window": 131072,
+      "input_price_per_million": 3.0,
+      "output_price_per_million": 15.0,
+      "benchmarks": {
+        "simplebench": 0.361
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "grok-3-mini",
+      "name": null,
+      "provider": "xai",
+      "model_id": "grok-3-mini",
+      "context_window": 131072,
+      "input_price_per_million": 0.3,
+      "output_price_per_million": 0.5,
+      "model_type": "reasoning"
+    },
+    {
+      "id": "grok-4-0709",
+      "name": null,
+      "provider": "xai",
+      "model_id": "grok-4-0709",
+      "context_window": 256000,
+      "input_price_per_million": 3.0,
+      "output_price_per_million": 15.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.87,
+        "otis_mock_aime_2024_2025": 0.84,
+        "frontiermath": 0.197,
+        "aider_polyglot": 79.6,
+        "simplebench": 0.605,
+        "frontiermath_tier_4": 0.021,
+        "simpleqa_verified": 0.479,
+        "chess_puzzles": 0.351,
+        "arena_elo": 1409.0,
+        "livebench_global": 62.9,
+        "livebench_reasoning": 79.13,
+        "livebench_coding": 73.13,
+        "livebench_agentic_coding": 30.0,
+        "livebench_math": 83.02,
+        "livebench_data_analysis": 69.53,
+        "livebench_language": 76.39,
+        "livebench_ifeval": 29.07
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "grok-4-1-fast-non-reasoning",
+      "name": null,
+      "provider": "xai",
+      "model_id": "grok-4-1-fast-non-reasoning",
+      "context_window": 2000000,
+      "input_price_per_million": 0.2,
+      "output_price_per_million": 0.5,
+      "benchmarks": {
+        "simplebench": 0.56,
+        "livebench_global": 35.97,
+        "livebench_reasoning": 23.35,
+        "livebench_coding": 54.26,
+        "livebench_agentic_coding": 10.0,
+        "livebench_math": 38.92,
+        "livebench_data_analysis": 58.26,
+        "livebench_language": 50.01,
+        "livebench_ifeval": 16.98
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "grok-4-1-fast-reasoning",
+      "name": null,
+      "provider": "xai",
+      "model_id": "grok-4-1-fast-reasoning",
+      "context_window": 2000000,
+      "input_price_per_million": 0.2,
+      "output_price_per_million": 0.5,
+      "benchmarks": {
+        "arena_elo": 1431.0
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "grok-4-fast-non-reasoning",
+      "name": null,
+      "provider": "xai",
+      "model_id": "grok-4-fast-non-reasoning",
+      "context_window": 2000000,
+      "input_price_per_million": 0.2,
+      "output_price_per_million": 0.5,
+      "model_type": "reasoning"
+    },
+    {
+      "id": "grok-4-fast-reasoning",
+      "name": null,
+      "provider": "xai",
+      "model_id": "grok-4-fast-reasoning",
+      "context_window": 2000000,
+      "input_price_per_million": 0.2,
+      "output_price_per_million": 0.5,
+      "benchmarks": {
+        "arena_elo": 1402.0
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "grok-code-fast-1",
+      "name": null,
+      "provider": "xai",
+      "model_id": "grok-code-fast-1",
+      "context_window": 256000,
+      "input_price_per_million": 0.2,
+      "output_price_per_million": 1.5,
+      "model_type": "code"
+    },
+    {
+      "id": "grok-2-image-1212",
+      "name": null,
+      "provider": "xai",
+      "model_id": "grok-2-image-1212",
+      "model_type": "image_gen"
+    }
+  ]
+}

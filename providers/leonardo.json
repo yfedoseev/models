@@ -1,0 +1,13 @@
+{
+  "provider": "leonardo",
+  "model_count": 1,
+  "models": [
+    {
+      "id": "leonardo/7b592283-e8a7-4c5a-9ba6-d18c31f258b9",
+      "name": "Lucid Origin",
+      "provider": "leonardo",
+      "model_id": "7b592283-e8a7-4c5a-9ba6-d18c31f258b9",
+      "model_type": "image_gen"
+    }
+  ]
+}

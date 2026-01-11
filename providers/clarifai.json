@@ -1,0 +1,65 @@
+{
+  "provider": "clarifai",
+  "model_count": 7,
+  "models": [
+    {
+      "id": "clarifai/general-image-recognition",
+      "name": null,
+      "provider": "clarifai",
+      "model_id": "general-image-recognition",
+      "context_window": 1,
+      "model_type": "image_classification"
+    },
+    {
+      "id": "clarifai/face-detection",
+      "name": null,
+      "provider": "clarifai",
+      "model_id": "face-detection",
+      "model_type": "detection"
+    },
+    {
+      "id": "clarifai/food-recognition",
+      "name": null,
+      "provider": "clarifai",
+      "model_id": "food-recognition",
+      "model_type": "image_classification"
+    },
+    {
+      "id": "clarifai/gpt-4-vision",
+      "name": null,
+      "provider": "clarifai",
+      "model_id": "gpt-4-vision",
+      "context_window": 128000,
+      "model_type": "chat"
+    },
+    {
+      "id": "clarifai/claude-3-opus",
+      "name": null,
+      "provider": "clarifai",
+      "model_id": "claude-3-opus",
+      "context_window": 200000,
+      "benchmarks": {
+        "gpqa_diamond": 0.472,
+        "mmlu": 0.846,
+        "math_level_5": 0.375,
+        "otis_mock_aime_2024_2025": 0.047,
+        "simplebench": 0.235
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "clarifai/stable-diffusion-xl",
+      "name": null,
+      "provider": "clarifai",
+      "model_id": "stable-diffusion-xl",
+      "model_type": "image_generation"
+    },
+    {
+      "id": "clarifai/dall-e-3",
+      "name": null,
+      "provider": "clarifai",
+      "model_id": "dall-e-3",
+      "model_type": "image_generation"
+    }
+  ]
+}

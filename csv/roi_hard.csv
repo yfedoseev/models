@@ -1,0 +1,51 @@
+rank,name,provider,roi_score,category_score,avg_price_per_million
+1,o3-mini-2025-01-31,openai,0.324,0.4456,1.375
+2,o4-mini-2025-04-16,openai,0.3127,0.4299,1.375
+3,o4-mini,openai,0.3127,0.4299,1.375
+4,o3-2025-04-16,openai,0.1782,0.4456,2.5
+5,o3,openai,0.1782,0.4456,2.5
+6,gemini-3-flash-preview,google,0.1137,0.199,1.75
+7,publishers/google/models/gemini-3-flash-preview,vertex,0.1137,0.199,1.75
+8,Deepseek v3.2,fireworks,0.108,0.121,1.12
+9,Kimi K2 Thinking,fireworks,0.0974,0.151,1.55
+10,moonshotai/Kimi-K2-Thinking,nebius,0.0974,0.151,1.55
+11,gpt-4.1-mini-2025-04-14,openai,0.09,0.045,0.5
+12,gpt-4.1-mini,openai,0.09,0.045,0.5
+13,Qwen/Qwen3-235B-A22B-Thinking-2507,nebius,0.085,0.0425,0.5
+14,gpt-4.1-nano-2025-04-14,openai,0.08,0.01,0.125
+15,gpt-4.1-nano,openai,0.08,0.01,0.125
+16,gemini-3-pro-preview,google,0.0496,0.3475,7.0
+17,deepseek-ai/DeepSeek-V3,siliconflow,0.0486,0.017,0.35
+18,publishers/google/models/gemini-2.0-flash-001,vertex,0.0453,0.017,0.375
+19,publishers/google/models/gemini-3-pro-preview,vertex,0.0447,0.313,7.0
+20,Qwen/Qwen3-235B-A22B-Thinking-2507,deepinfra,0.0324,0.0425,1.31
+21,google/gemini-2.5-flash,deepinfra,0.0321,0.045,1.4
+22,gemini-2.5-flash,google,0.0321,0.045,1.4
+23,publishers/google/models/gemini-2.5-flash,vertex,0.0321,0.045,1.4
+24,deepseek-ai/DeepSeek-V3,deepinfra,0.0281,0.017,0.605
+25,meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8,deepinfra,0.0187,0.007,0.375
+26,deepseek-ai/DeepSeek-V3-0324,nebius,0.017,0.017,1.0
+27,google/gemini-2.5-pro,deepinfra,0.0163,0.0915,5.625
+28,gemini-2.5-pro,google,0.0163,0.0915,5.625
+29,publishers/google/models/gemini-2.5-pro,vertex,0.0163,0.0915,5.625
+30,Claude Haiku 4.5,anthropic,0.0137,0.041,3.0
+31,Claude Opus 4.5,anthropic,0.0123,0.1842,15.0
+32,grok-4-0709,xai,0.0121,0.109,9.0
+33,gpt-4.1-2025-04-14,openai,0.011,0.0275,2.5
+34,gpt-4.1,openai,0.011,0.0275,2.5
+35,qwen/qwen-plus-2025-01-12,qwen,0.0079,0.017,2.1435
+36,qwen/qwen-plus-2024-12-20,qwen,0.0079,0.017,2.1435
+37,qwen/qwen-plus-2024-11-27,qwen,0.0079,0.017,2.1435
+38,qwen/qwen-plus-2024-11-25,qwen,0.0079,0.017,2.1435
+39,qwen/qwen-plus-2024-09-19,qwen,0.0079,0.017,2.1435
+40,qwen/qwen-plus,qwen,0.0065,0.017,2.6
+41,qwen/qwen-plus-2025-12-01,qwen,0.0065,0.017,2.6
+42,qwen/qwen-plus-2025-09-11,qwen,0.0065,0.017,2.6
+43,qwen/qwen-plus-2025-07-28,qwen,0.0065,0.017,2.6
+44,qwen/qwen-plus-latest,qwen,0.0065,0.017,2.6
+45,qwen/qwen-plus-2025-07-14,qwen,0.0065,0.017,2.6
+46,qwen/qwen-plus-2025-04-28,qwen,0.0065,0.017,2.6
+47,qwen/qwen-plus-2025-01-25,qwen,0.0065,0.017,2.6
+48,Claude Sonnet 4.5,anthropic,0.0063,0.057,9.0
+49,qwen/qwen-plus-2024-08-06,qwen,0.0059,0.017,2.8605
+50,moonshotai/Kimi-K2-Thinking,featherless,0.0036,0.151,42.535

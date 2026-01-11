@@ -1,0 +1,34 @@
+{
+  "provider": "modal",
+  "model_count": 4,
+  "models": [
+    {
+      "id": "modal/vllm-llama-3.1-70b",
+      "name": "vllm-llama-3.1-70b",
+      "provider": "modal",
+      "model_id": "vllm-llama-3.1-70b",
+      "context_window": 131072
+    },
+    {
+      "id": "modal/vllm-llama-3.1-8b",
+      "name": "vllm-llama-3.1-8b",
+      "provider": "modal",
+      "model_id": "vllm-llama-3.1-8b",
+      "context_window": 131072
+    },
+    {
+      "id": "modal/vllm-mixtral-8x7b",
+      "name": "vllm-mixtral-8x7b",
+      "provider": "modal",
+      "model_id": "vllm-mixtral-8x7b",
+      "context_window": 32768
+    },
+    {
+      "id": "modal/tgi-mistral-7b",
+      "name": "tgi-mistral-7b",
+      "provider": "modal",
+      "model_id": "tgi-mistral-7b",
+      "context_window": 32768
+    }
+  ]
+}

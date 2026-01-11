@@ -1,0 +1,34 @@
+{
+  "provider": "luma",
+  "model_count": 4,
+  "models": [
+    {
+      "id": "luma/ray-flash-2",
+      "name": "Ray 2 Flash",
+      "provider": "luma",
+      "model_id": "ray-flash-2",
+      "model_type": "video_gen"
+    },
+    {
+      "id": "luma/ray-2",
+      "name": "Ray 2",
+      "provider": "luma",
+      "model_id": "ray-2",
+      "model_type": "video_gen"
+    },
+    {
+      "id": "luma/ray-1-6",
+      "name": "Ray 1.6",
+      "provider": "luma",
+      "model_id": "ray-1-6",
+      "model_type": "video_gen"
+    },
+    {
+      "id": "luma/ray-3",
+      "name": "Ray 3",
+      "provider": "luma",
+      "model_id": "ray-3",
+      "model_type": "video_gen"
+    }
+  ]
+}

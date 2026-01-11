@@ -1,0 +1,34 @@
+{
+  "provider": "oracle",
+  "model_count": 4,
+  "models": [
+    {
+      "id": "oracle/cohere.command-r-plus",
+      "name": null,
+      "provider": "oracle",
+      "model_id": "cohere.command-r-plus",
+      "context_window": 131072
+    },
+    {
+      "id": "oracle/cohere.command-r",
+      "name": null,
+      "provider": "oracle",
+      "model_id": "cohere.command-r",
+      "context_window": 131072
+    },
+    {
+      "id": "oracle/cohere.embed-english-v3.0",
+      "name": null,
+      "provider": "oracle",
+      "model_id": "cohere.embed-english-v3.0",
+      "context_window": 512
+    },
+    {
+      "id": "oracle/meta.llama-3-70b-instruct",
+      "name": null,
+      "provider": "oracle",
+      "model_id": "meta.llama-3-70b-instruct",
+      "context_window": 8192
+    }
+  ]
+}

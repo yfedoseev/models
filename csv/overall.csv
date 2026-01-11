@@ -1,0 +1,51 @@
+rank,name,provider,score
+1,gpt-5-mini-2025-08-07,openai,0.8427
+2,gpt-5-codex,openai,0.8427
+3,gpt-5-search-api,openai,0.8427
+4,gpt-5.1-codex-max,openai,0.8427
+5,gpt-5.2-pro-2025-12-11,openai,0.8427
+6,eu/o4-mini,azure_openai,0.8416
+7,o1-pro-2025-03-19,openai,0.8229
+8,gpt-5.2-2025-12-11,openai,0.8153
+9,gpt-5.1-chat-latest,openai,0.8133
+10,gpt-5-2025-08-07,openai,0.8091
+11,gpt-5.1-codex,openai,0.8064
+12,eu/o3-mini,azure_openai,0.8007
+13,gpt-5.1-codex-mini,openai,0.7903
+14,eu/o1-mini,azure_openai,0.7787
+15,o3-2025-04-16,openai,0.778
+16,gpt-5-pro-2025-10-06,openai,0.7741
+17,Qwen3 Max,novita,0.7623
+18,gpt-5-nano-2025-08-07,openai,0.761
+19,gemini-2.5-pro-preview-tts,google,0.7458
+20,o1-2024-12-17,openai,0.7073
+21,gemini-3-pro-preview,ollama,0.7001
+22,gemini-3-flash-preview,ollama,0.6977
+23,deepseek-reasoner,deepseek,0.6618
+24,deepseek-ai/DeepSeek-R1-Distill-Llama-70B,deepinfra,0.6567
+25,gemini-2.5-pro,google,0.6466
+26,deepseek-ai/DeepSeek-V3.2,huggingface_inference,0.6451
+27,grok-4-0709,xai,0.6372
+28,Qwen 3 235B Instruct*,cerebras,0.5851
+29,Qwen/Qwen3-235B-A22B-Instruct-2507,deepinfra,0.5851
+30,eu/gpt-4.1-mini,azure_openai,0.5692
+31,eu/gpt-4.1,azure_openai,0.5675
+32,Claude Sonnet 4.5,anthropic,0.5614
+33,Claude Opus 4.5,anthropic,0.5593
+34,@cf/qwen/qwen2.5-coder-32b-instruct,cloudflare,0.558
+35,Claude Opus 4,anthropic,0.5527
+36,microsoft/phi-4,deepinfra,0.549
+37,phi4,ollama,0.549
+38,Claude Opus 4.1,anthropic,0.5446
+39,deepseek-r1,crusoe,0.5376
+40,DeepSeek R1 (Fast),fireworks,0.5376
+41,Claude Sonnet 4,anthropic,0.5358
+42,Claude Haiku 4.5,anthropic,0.53
+43,Qwen/Qwen2-72B-Instruct,featherless,0.5149
+44,Qwen/Qwen2.5-72B-Instruct,deepinfra,0.5083
+45,Qwen 2.5 72B Instruct,novita,0.5083
+46,gpt-4-turbo-preview,openai,0.5057
+47,tiiuae/falcon-180B,ai71,0.4989
+48,tiiuae/falcon-180B-chat,ai71,0.4989
+49,gemini-2.0-flash,google,0.4842
+50,Qwen 3 32B,cerebras,0.4806

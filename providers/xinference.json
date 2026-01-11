@@ -1,0 +1,1173 @@
+{
+  "provider": "xinference",
+  "model_count": 140,
+  "models": [
+    {
+      "id": "xinference/codestral-v0.1",
+      "name": "codestral-v0.1",
+      "provider": "xinference",
+      "model_id": "codestral-v0.1",
+      "context_window": 32768
+    },
+    {
+      "id": "xinference/gorilla-openfunctions-v2",
+      "name": "gorilla-openfunctions-v2",
+      "provider": "xinference",
+      "model_id": "gorilla-openfunctions-v2",
+      "context_window": 4096
+    },
+    {
+      "id": "xinference/gpt-2",
+      "name": "gpt-2",
+      "provider": "xinference",
+      "model_id": "gpt-2",
+      "context_window": 1024
+    },
+    {
+      "id": "xinference/llama-2",
+      "name": "llama-2",
+      "provider": "xinference",
+      "model_id": "llama-2",
+      "context_window": 4096
+    },
+    {
+      "id": "xinference/mistral-instruct-v0.3",
+      "name": "mistral-instruct-v0.3",
+      "provider": "xinference",
+      "model_id": "mistral-instruct-v0.3",
+      "context_window": 32768
+    },
+    {
+      "id": "xinference/mixtral-8x22B-instruct-v0.1",
+      "name": "mixtral-8x22B-instruct-v0.1",
+      "provider": "xinference",
+      "model_id": "mixtral-8x22B-instruct-v0.1",
+      "context_window": 65536,
+      "benchmarks": {
+        "gpqa_diamond": 0.306,
+        "mmlu": 0.705,
+        "math_level_5": 0.093,
+        "gsm8k": 0.744,
+        "trivia_qa": 0.822,
+        "arena_elo": 1198.0
+      }
+    },
+    {
+      "id": "xinference/openhermes-2.5",
+      "name": "openhermes-2.5",
+      "provider": "xinference",
+      "model_id": "openhermes-2.5",
+      "context_window": 8192
+    },
+    {
+      "id": "xinference/opt",
+      "name": "opt",
+      "provider": "xinference",
+      "model_id": "opt",
+      "context_window": 2048
+    },
+    {
+      "id": "xinference/phi-2",
+      "name": "phi-2",
+      "provider": "xinference",
+      "model_id": "phi-2",
+      "context_window": 2048,
+      "benchmarks": {
+        "mmlu": 0.563,
+        "trivia_qa": 0.452
+      }
+    },
+    {
+      "id": "xinference/seallm_v2",
+      "name": "seallm_v2",
+      "provider": "xinference",
+      "model_id": "seallm_v2",
+      "context_window": 8192
+    },
+    {
+      "id": "xinference/seallm_v2.5",
+      "name": "seallm_v2.5",
+      "provider": "xinference",
+      "model_id": "seallm_v2.5",
+      "context_window": 8192
+    },
+    {
+      "id": "xinference/DianJin-R1",
+      "name": "DianJin-R1",
+      "provider": "xinference",
+      "model_id": "DianJin-R1",
+      "context_window": 32768
+    },
+    {
+      "id": "xinference/HuatuoGPT-o1-LLaMA-3.1",
+      "name": "HuatuoGPT-o1-LLaMA-3.1",
+      "provider": "xinference",
+      "model_id": "HuatuoGPT-o1-LLaMA-3.1",
+      "context_window": 131072
+    },
+    {
+      "id": "xinference/HuatuoGPT-o1-Qwen2.5",
+      "name": "HuatuoGPT-o1-Qwen2.5",
+      "provider": "xinference",
+      "model_id": "HuatuoGPT-o1-Qwen2.5",
+      "context_window": 32768
+    },
+    {
+      "id": "xinference/InternVL3",
+      "name": "InternVL3",
+      "provider": "xinference",
+      "model_id": "InternVL3",
+      "context_window": 8192
+    },
+    {
+      "id": "xinference/MiniCPM-V-2.6",
+      "name": "MiniCPM-V-2.6",
+      "provider": "xinference",
+      "model_id": "MiniCPM-V-2.6",
+      "context_window": 32768
+    },
+    {
+      "id": "xinference/Ovis2",
+      "name": "Ovis2",
+      "provider": "xinference",
+      "model_id": "Ovis2",
+      "context_window": 32768
+    },
+    {
+      "id": "xinference/QvQ-72B-Preview",
+      "name": "QvQ-72B-Preview",
+      "provider": "xinference",
+      "model_id": "QvQ-72B-Preview",
+      "context_window": 32768
+    },
+    {
+      "id": "xinference/QwQ-32B",
+      "name": "QwQ-32B",
+      "provider": "xinference",
+      "model_id": "QwQ-32B",
+      "context_window": 131072,
+      "benchmarks": {
+        "aider_polyglot": 20.9,
+        "arena_elo": 1159.0
+      }
+    },
+    {
+      "id": "xinference/QwQ-32B-Preview",
+      "name": "QwQ-32B-Preview",
+      "provider": "xinference",
+      "model_id": "QwQ-32B-Preview",
+      "context_window": 32768,
+      "benchmarks": {
+        "aider_polyglot": 20.9,
+        "arena_elo": 1159.0
+      }
+    },
+    {
+      "id": "xinference/Skywork",
+      "name": "Skywork",
+      "provider": "xinference",
+      "model_id": "Skywork",
+      "context_window": 4096
+    },
+    {
+      "id": "xinference/Skywork-Math",
+      "name": "Skywork-Math",
+      "provider": "xinference",
+      "model_id": "Skywork-Math",
+      "context_window": 4096
+    },
+    {
+      "id": "xinference/XiYanSQL-QwenCoder-2504",
+      "name": "XiYanSQL-QwenCoder-2504",
+      "provider": "xinference",
+      "model_id": "XiYanSQL-QwenCoder-2504",
+      "context_window": 32768
+    },
+    {
+      "id": "xinference/Yi",
+      "name": "Yi",
+      "provider": "xinference",
+      "model_id": "Yi",
+      "context_window": 4096
+    },
+    {
+      "id": "xinference/Yi-1.5",
+      "name": "Yi-1.5",
+      "provider": "xinference",
+      "model_id": "Yi-1.5",
+      "context_window": 4096
+    },
+    {
+      "id": "xinference/Yi-1.5-chat",
+      "name": "Yi-1.5-chat",
+      "provider": "xinference",
+      "model_id": "Yi-1.5-chat",
+      "context_window": 4096
+    },
+    {
+      "id": "xinference/Yi-1.5-chat-16k",
+      "name": "Yi-1.5-chat-16k",
+      "provider": "xinference",
+      "model_id": "Yi-1.5-chat-16k",
+      "context_window": 16384
+    },
+    {
+      "id": "xinference/Yi-200k",
+      "name": "Yi-200k",
+      "provider": "xinference",
+      "model_id": "Yi-200k",
+      "context_window": 262144
+    },
+    {
+      "id": "xinference/Yi-chat",
+      "name": "Yi-chat",
+      "provider": "xinference",
+      "model_id": "Yi-chat",
+      "context_window": 4096
+    },
+    {
+      "id": "xinference/baichuan-2",
+      "name": "baichuan-2",
+      "provider": "xinference",
+      "model_id": "baichuan-2",
+      "context_window": 4096
+    },
+    {
+      "id": "xinference/baichuan-2-chat",
+      "name": "baichuan-2-chat",
+      "provider": "xinference",
+      "model_id": "baichuan-2-chat",
+      "context_window": 4096
+    },
+    {
+      "id": "xinference/code-llama",
+      "name": "code-llama",
+      "provider": "xinference",
+      "model_id": "code-llama",
+      "context_window": 100000
+    },
+    {
+      "id": "xinference/code-llama-instruct",
+      "name": "code-llama-instruct",
+      "provider": "xinference",
+      "model_id": "code-llama-instruct",
+      "context_window": 100000
+    },
+    {
+      "id": "xinference/code-llama-python",
+      "name": "code-llama-python",
+      "provider": "xinference",
+      "model_id": "code-llama-python",
+      "context_window": 100000
+    },
+    {
+      "id": "xinference/codegeex4",
+      "name": "codegeex4",
+      "provider": "xinference",
+      "model_id": "codegeex4",
+      "context_window": 131072
+    },
+    {
+      "id": "xinference/codeqwen1.5",
+      "name": "codeqwen1.5",
+      "provider": "xinference",
+      "model_id": "codeqwen1.5",
+      "context_window": 65536
+    },
+    {
+      "id": "xinference/codeqwen1.5-chat",
+      "name": "codeqwen1.5-chat",
+      "provider": "xinference",
+      "model_id": "codeqwen1.5-chat",
+      "context_window": 65536
+    },
+    {
+      "id": "xinference/codeshell",
+      "name": "codeshell",
+      "provider": "xinference",
+      "model_id": "codeshell",
+      "context_window": 8194
+    },
+    {
+      "id": "xinference/codeshell-chat",
+      "name": "codeshell-chat",
+      "provider": "xinference",
+      "model_id": "codeshell-chat",
+      "context_window": 8194
+    },
+    {
+      "id": "xinference/cogagent",
+      "name": "cogagent",
+      "provider": "xinference",
+      "model_id": "cogagent",
+      "context_window": 4096
+    },
+    {
+      "id": "xinference/deepseek",
+      "name": "deepseek",
+      "provider": "xinference",
+      "model_id": "deepseek",
+      "context_window": 4096,
+      "benchmarks": {
+        "gpqa_diamond": 0.565,
+        "mmlu": 0.871,
+        "math_level_5": 0.649,
+        "otis_mock_aime_2024_2025": 0.158,
+        "frontiermath": 0.017,
+        "aider_polyglot": 17.8,
+        "simplebench": 0.189,
+        "trivia_qa": 0.829,
+        "swe_bench_verified": 0.521,
+        "arena_elo": 1306.0
+      }
+    },
+    {
+      "id": "xinference/deepseek-chat",
+      "name": "deepseek-chat",
+      "provider": "xinference",
+      "model_id": "deepseek-chat",
+      "context_window": 4096
+    },
+    {
+      "id": "xinference/deepseek-coder",
+      "name": "deepseek-coder",
+      "provider": "xinference",
+      "model_id": "deepseek-coder",
+      "context_window": 16384
+    },
+    {
+      "id": "xinference/deepseek-coder-instruct",
+      "name": "deepseek-coder-instruct",
+      "provider": "xinference",
+      "model_id": "deepseek-coder-instruct",
+      "context_window": 16384
+    },
+    {
+      "id": "xinference/deepseek-prover-v2",
+      "name": "deepseek-prover-v2",
+      "provider": "xinference",
+      "model_id": "deepseek-prover-v2",
+      "context_window": 163840
+    },
+    {
+      "id": "xinference/deepseek-r1",
+      "name": "deepseek-r1",
+      "provider": "xinference",
+      "model_id": "deepseek-r1",
+      "context_window": 163840,
+      "benchmarks": {
+        "gpqa_diamond": 0.692,
+        "math_level_5": 0.931,
+        "otis_mock_aime_2024_2025": 0.533,
+        "aider_polyglot": 56.9,
+        "simplebench": 0.309,
+        "simpleqa_verified": 0.274,
+        "swe_bench_verified": 0.333,
+        "arena_elo": 1396.0
+      }
+    },
+    {
+      "id": "xinference/deepseek-r1-0528",
+      "name": "deepseek-r1-0528",
+      "provider": "xinference",
+      "model_id": "deepseek-r1-0528",
+      "context_window": 163840,
+      "benchmarks": {
+        "gpqa_diamond": 0.692,
+        "math_level_5": 0.931,
+        "otis_mock_aime_2024_2025": 0.533,
+        "aider_polyglot": 56.9,
+        "simplebench": 0.309,
+        "simpleqa_verified": 0.274,
+        "swe_bench_verified": 0.333,
+        "arena_elo": 1396.0
+      }
+    },
+    {
+      "id": "xinference/deepseek-r1-0528-qwen3",
+      "name": "deepseek-r1-0528-qwen3",
+      "provider": "xinference",
+      "model_id": "deepseek-r1-0528-qwen3",
+      "context_window": 131072
+    },
+    {
+      "id": "xinference/deepseek-r1-distill-llama",
+      "name": "deepseek-r1-distill-llama",
+      "provider": "xinference",
+      "model_id": "deepseek-r1-distill-llama",
+      "context_window": 131072
+    },
+    {
+      "id": "xinference/deepseek-r1-distill-qwen",
+      "name": "deepseek-r1-distill-qwen",
+      "provider": "xinference",
+      "model_id": "deepseek-r1-distill-qwen",
+      "context_window": 131072
+    },
+    {
+      "id": "xinference/deepseek-v2-chat",
+      "name": "deepseek-v2-chat",
+      "provider": "xinference",
+      "model_id": "deepseek-v2-chat",
+      "context_window": 128000,
+      "benchmarks": {
+        "frontiermath": 0.221,
+        "frontiermath_tier_4": 0.021
+      }
+    },
+    {
+      "id": "xinference/deepseek-v2-chat-0628",
+      "name": "deepseek-v2-chat-0628",
+      "provider": "xinference",
+      "model_id": "deepseek-v2-chat-0628",
+      "context_window": 128000,
+      "benchmarks": {
+        "frontiermath": 0.221,
+        "frontiermath_tier_4": 0.021
+      }
+    },
+    {
+      "id": "xinference/deepseek-v2.5",
+      "name": "deepseek-v2.5",
+      "provider": "xinference",
+      "model_id": "deepseek-v2.5",
+      "context_window": 128000,
+      "benchmarks": {
+        "gpqa_diamond": 0.565,
+        "mmlu": 0.871,
+        "math_level_5": 0.649,
+        "otis_mock_aime_2024_2025": 0.158,
+        "frontiermath": 0.017,
+        "aider_polyglot": 17.8,
+        "simplebench": 0.189,
+        "trivia_qa": 0.829,
+        "swe_bench_verified": 0.521,
+        "arena_elo": 1306.0
+      }
+    },
+    {
+      "id": "xinference/deepseek-v3",
+      "name": "deepseek-v3",
+      "provider": "xinference",
+      "model_id": "deepseek-v3",
+      "context_window": 163840,
+      "benchmarks": {
+        "gpqa_diamond": 0.565,
+        "mmlu": 0.871,
+        "math_level_5": 0.649,
+        "otis_mock_aime_2024_2025": 0.158,
+        "frontiermath": 0.017,
+        "aider_polyglot": 17.8,
+        "simplebench": 0.189,
+        "trivia_qa": 0.829,
+        "swe_bench_verified": 0.521,
+        "arena_elo": 1306.0
+      }
+    },
+    {
+      "id": "xinference/deepseek-v3-0324",
+      "name": "deepseek-v3-0324",
+      "provider": "xinference",
+      "model_id": "deepseek-v3-0324",
+      "context_window": 163840,
+      "benchmarks": {
+        "gpqa_diamond": 0.565,
+        "mmlu": 0.871,
+        "math_level_5": 0.649,
+        "otis_mock_aime_2024_2025": 0.158,
+        "frontiermath": 0.017,
+        "aider_polyglot": 17.8,
+        "simplebench": 0.189,
+        "trivia_qa": 0.829,
+        "swe_bench_verified": 0.521,
+        "arena_elo": 1306.0
+      }
+    },
+    {
+      "id": "xinference/deepseek-vl2",
+      "name": "deepseek-vl2",
+      "provider": "xinference",
+      "model_id": "deepseek-vl2",
+      "context_window": 4096
+    },
+    {
+      "id": "xinference/fin-r1",
+      "name": "fin-r1",
+      "provider": "xinference",
+      "model_id": "fin-r1",
+      "context_window": 131072
+    },
+    {
+      "id": "xinference/gemma-3-1b-it",
+      "name": "gemma-3-1b-it",
+      "provider": "xinference",
+      "model_id": "gemma-3-1b-it",
+      "context_window": 32768
+    },
+    {
+      "id": "xinference/gemma-3-it",
+      "name": "gemma-3-it",
+      "provider": "xinference",
+      "model_id": "gemma-3-it",
+      "context_window": 131072
+    },
+    {
+      "id": "xinference/glm-4v",
+      "name": "glm-4v",
+      "provider": "xinference",
+      "model_id": "glm-4v",
+      "context_window": 8192
+    },
+    {
+      "id": "xinference/glm-edge-chat",
+      "name": "glm-edge-chat",
+      "provider": "xinference",
+      "model_id": "glm-edge-chat",
+      "context_window": 8192
+    },
+    {
+      "id": "xinference/glm4-0414",
+      "name": "glm4-0414",
+      "provider": "xinference",
+      "model_id": "glm4-0414",
+      "context_window": 32768,
+      "benchmarks": {
+        "arena_elo": 1273.0
+      }
+    },
+    {
+      "id": "xinference/glm4-chat",
+      "name": "glm4-chat",
+      "provider": "xinference",
+      "model_id": "glm4-chat",
+      "context_window": 131072,
+      "benchmarks": {
+        "arena_elo": 1273.0
+      }
+    },
+    {
+      "id": "xinference/glm4-chat-1m",
+      "name": "glm4-chat-1m",
+      "provider": "xinference",
+      "model_id": "glm4-chat-1m",
+      "context_window": 1048576
+    },
+    {
+      "id": "xinference/internlm3-instruct",
+      "name": "internlm3-instruct",
+      "provider": "xinference",
+      "model_id": "internlm3-instruct",
+      "context_window": 32768
+    },
+    {
+      "id": "xinference/llama-2-chat",
+      "name": "llama-2-chat",
+      "provider": "xinference",
+      "model_id": "llama-2-chat",
+      "context_window": 4096
+    },
+    {
+      "id": "xinference/llama-3",
+      "name": "llama-3",
+      "provider": "xinference",
+      "model_id": "llama-3",
+      "context_window": 8192
+    },
+    {
+      "id": "xinference/llama-3-instruct",
+      "name": "llama-3-instruct",
+      "provider": "xinference",
+      "model_id": "llama-3-instruct",
+      "context_window": 8192
+    },
+    {
+      "id": "xinference/llama-3.1",
+      "name": "llama-3.1",
+      "provider": "xinference",
+      "model_id": "llama-3.1",
+      "context_window": 131072
+    },
+    {
+      "id": "xinference/llama-3.1-instruct",
+      "name": "llama-3.1-instruct",
+      "provider": "xinference",
+      "model_id": "llama-3.1-instruct",
+      "context_window": 131072
+    },
+    {
+      "id": "xinference/llama-3.2-vision",
+      "name": "llama-3.2-vision",
+      "provider": "xinference",
+      "model_id": "llama-3.2-vision",
+      "context_window": 131072
+    },
+    {
+      "id": "xinference/llama-3.2-vision-instruct",
+      "name": "llama-3.2-vision-instruct",
+      "provider": "xinference",
+      "model_id": "llama-3.2-vision-instruct",
+      "context_window": 131072
+    },
+    {
+      "id": "xinference/llama-3.3-instruct",
+      "name": "llama-3.3-instruct",
+      "provider": "xinference",
+      "model_id": "llama-3.3-instruct",
+      "context_window": 131072
+    },
+    {
+      "id": "xinference/marco-o1",
+      "name": "marco-o1",
+      "provider": "xinference",
+      "model_id": "marco-o1",
+      "context_window": 32768,
+      "benchmarks": {
+        "gpqa_diamond": 1.23,
+        "ifeval": 47.708,
+        "bbh": 34.843,
+        "musr": 9.964
+      }
+    },
+    {
+      "id": "xinference/minicpm-2b-dpo-bf16",
+      "name": "minicpm-2b-dpo-bf16",
+      "provider": "xinference",
+      "model_id": "minicpm-2b-dpo-bf16",
+      "context_window": 4096
+    },
+    {
+      "id": "xinference/minicpm-2b-dpo-fp16",
+      "name": "minicpm-2b-dpo-fp16",
+      "provider": "xinference",
+      "model_id": "minicpm-2b-dpo-fp16",
+      "context_window": 4096
+    },
+    {
+      "id": "xinference/minicpm-2b-dpo-fp32",
+      "name": "minicpm-2b-dpo-fp32",
+      "provider": "xinference",
+      "model_id": "minicpm-2b-dpo-fp32",
+      "context_window": 4096
+    },
+    {
+      "id": "xinference/minicpm-2b-sft-bf16",
+      "name": "minicpm-2b-sft-bf16",
+      "provider": "xinference",
+      "model_id": "minicpm-2b-sft-bf16",
+      "context_window": 4096
+    },
+    {
+      "id": "xinference/minicpm-2b-sft-fp32",
+      "name": "minicpm-2b-sft-fp32",
+      "provider": "xinference",
+      "model_id": "minicpm-2b-sft-fp32",
+      "context_window": 4096
+    },
+    {
+      "id": "xinference/minicpm3-4b",
+      "name": "minicpm3-4b",
+      "provider": "xinference",
+      "model_id": "minicpm3-4b",
+      "context_window": 32768
+    },
+    {
+      "id": "xinference/minicpm4",
+      "name": "minicpm4",
+      "provider": "xinference",
+      "model_id": "minicpm4",
+      "context_window": 32768
+    },
+    {
+      "id": "xinference/mistral-instruct-v0.1",
+      "name": "mistral-instruct-v0.1",
+      "provider": "xinference",
+      "model_id": "mistral-instruct-v0.1",
+      "context_window": 8192
+    },
+    {
+      "id": "xinference/mistral-instruct-v0.2",
+      "name": "mistral-instruct-v0.2",
+      "provider": "xinference",
+      "model_id": "mistral-instruct-v0.2",
+      "context_window": 8192
+    },
+    {
+      "id": "xinference/mistral-large-instruct",
+      "name": "mistral-large-instruct",
+      "provider": "xinference",
+      "model_id": "mistral-large-instruct",
+      "context_window": 131072,
+      "benchmarks": {
+        "gpqa_diamond": 0.49,
+        "mmlu": 0.8,
+        "math_level_5": 0.245,
+        "otis_mock_aime_2024_2025": 0.085,
+        "frontiermath": 0.003,
+        "simplebench": 0.225,
+        "arena_elo": 1242.0
+      }
+    },
+    {
+      "id": "xinference/mistral-nemo-instruct",
+      "name": "mistral-nemo-instruct",
+      "provider": "xinference",
+      "model_id": "mistral-nemo-instruct",
+      "context_window": 1024000
+    },
+    {
+      "id": "xinference/mistral-v0.1",
+      "name": "mistral-v0.1",
+      "provider": "xinference",
+      "model_id": "mistral-v0.1",
+      "context_window": 8192
+    },
+    {
+      "id": "xinference/mixtral-instruct-v0.1",
+      "name": "mixtral-instruct-v0.1",
+      "provider": "xinference",
+      "model_id": "mixtral-instruct-v0.1",
+      "context_window": 32768,
+      "benchmarks": {
+        "gpqa_diamond": 0.306,
+        "mmlu": 0.705,
+        "math_level_5": 0.093,
+        "gsm8k": 0.744,
+        "trivia_qa": 0.822,
+        "arena_elo": 1198.0
+      }
+    },
+    {
+      "id": "xinference/mixtral-v0.1",
+      "name": "mixtral-v0.1",
+      "provider": "xinference",
+      "model_id": "mixtral-v0.1",
+      "context_window": 32768,
+      "benchmarks": {
+        "gpqa_diamond": 0.306,
+        "mmlu": 0.705,
+        "math_level_5": 0.093,
+        "gsm8k": 0.744,
+        "trivia_qa": 0.822,
+        "arena_elo": 1198.0
+      }
+    },
+    {
+      "id": "xinference/moonlight-16b-a3b-instruct",
+      "name": "moonlight-16b-a3b-instruct",
+      "provider": "xinference",
+      "model_id": "moonlight-16b-a3b-instruct",
+      "context_window": 8192
+    },
+    {
+      "id": "xinference/orion-chat",
+      "name": "orion-chat",
+      "provider": "xinference",
+      "model_id": "orion-chat",
+      "context_window": 4096
+    },
+    {
+      "id": "xinference/phi-3-mini-128k-instruct",
+      "name": "phi-3-mini-128k-instruct",
+      "provider": "xinference",
+      "model_id": "phi-3-mini-128k-instruct",
+      "context_window": 128000
+    },
+    {
+      "id": "xinference/phi-3-mini-4k-instruct",
+      "name": "phi-3-mini-4k-instruct",
+      "provider": "xinference",
+      "model_id": "phi-3-mini-4k-instruct",
+      "context_window": 4096,
+      "benchmarks": {
+        "mmlu": 0.688,
+        "trivia_qa": 0.64
+      }
+    },
+    {
+      "id": "xinference/qwen-chat",
+      "name": "qwen-chat",
+      "provider": "xinference",
+      "model_id": "qwen-chat",
+      "context_window": 32768
+    },
+    {
+      "id": "xinference/qwen1.5-chat",
+      "name": "qwen1.5-chat",
+      "provider": "xinference",
+      "model_id": "qwen1.5-chat",
+      "context_window": 32768
+    },
+    {
+      "id": "xinference/qwen1.5-moe-chat",
+      "name": "qwen1.5-moe-chat",
+      "provider": "xinference",
+      "model_id": "qwen1.5-moe-chat",
+      "context_window": 32768
+    },
+    {
+      "id": "xinference/qwen2-audio",
+      "name": "qwen2-audio",
+      "provider": "xinference",
+      "model_id": "qwen2-audio",
+      "context_window": 32768
+    },
+    {
+      "id": "xinference/qwen2-audio-instruct",
+      "name": "qwen2-audio-instruct",
+      "provider": "xinference",
+      "model_id": "qwen2-audio-instruct",
+      "context_window": 32768
+    },
+    {
+      "id": "xinference/qwen2-instruct",
+      "name": "qwen2-instruct",
+      "provider": "xinference",
+      "model_id": "qwen2-instruct",
+      "context_window": 32768
+    },
+    {
+      "id": "xinference/qwen2-moe-instruct",
+      "name": "qwen2-moe-instruct",
+      "provider": "xinference",
+      "model_id": "qwen2-moe-instruct",
+      "context_window": 32768
+    },
+    {
+      "id": "xinference/qwen2-vl-instruct",
+      "name": "qwen2-vl-instruct",
+      "provider": "xinference",
+      "model_id": "qwen2-vl-instruct",
+      "context_window": 32768
+    },
+    {
+      "id": "xinference/qwen2.5",
+      "name": "qwen2.5",
+      "provider": "xinference",
+      "model_id": "qwen2.5",
+      "context_window": 32768
+    },
+    {
+      "id": "xinference/qwen2.5-coder",
+      "name": "qwen2.5-coder",
+      "provider": "xinference",
+      "model_id": "qwen2.5-coder",
+      "context_window": 32768
+    },
+    {
+      "id": "xinference/qwen2.5-coder-instruct",
+      "name": "qwen2.5-coder-instruct",
+      "provider": "xinference",
+      "model_id": "qwen2.5-coder-instruct",
+      "context_window": 32768
+    },
+    {
+      "id": "xinference/qwen2.5-instruct",
+      "name": "qwen2.5-instruct",
+      "provider": "xinference",
+      "model_id": "qwen2.5-instruct",
+      "context_window": 32768
+    },
+    {
+      "id": "xinference/qwen2.5-instruct-1m",
+      "name": "qwen2.5-instruct-1m",
+      "provider": "xinference",
+      "model_id": "qwen2.5-instruct-1m",
+      "context_window": 1010000
+    },
+    {
+      "id": "xinference/qwen2.5-omni",
+      "name": "qwen2.5-omni",
+      "provider": "xinference",
+      "model_id": "qwen2.5-omni",
+      "context_window": 32768
+    },
+    {
+      "id": "xinference/qwen2.5-vl-instruct",
+      "name": "qwen2.5-vl-instruct",
+      "provider": "xinference",
+      "model_id": "qwen2.5-vl-instruct",
+      "context_window": 128000
+    },
+    {
+      "id": "xinference/qwen3",
+      "name": "qwen3",
+      "provider": "xinference",
+      "model_id": "qwen3",
+      "context_window": 40960
+    },
+    {
+      "id": "xinference/Qwen3-Instruct",
+      "name": "Qwen3-Instruct",
+      "provider": "xinference",
+      "model_id": "Qwen3-Instruct",
+      "context_window": 262144
+    },
+    {
+      "id": "xinference/Qwen3-Thinking",
+      "name": "Qwen3-Thinking",
+      "provider": "xinference",
+      "model_id": "Qwen3-Thinking",
+      "context_window": 262144
+    },
+    {
+      "id": "xinference/Qwen3-Coder",
+      "name": "Qwen3-Coder",
+      "provider": "xinference",
+      "model_id": "Qwen3-Coder",
+      "context_window": 262144
+    },
+    {
+      "id": "xinference/seallms-v3",
+      "name": "seallms-v3",
+      "provider": "xinference",
+      "model_id": "seallms-v3",
+      "context_window": 32768
+    },
+    {
+      "id": "xinference/skywork-or1",
+      "name": "skywork-or1",
+      "provider": "xinference",
+      "model_id": "skywork-or1",
+      "context_window": 131072
+    },
+    {
+      "id": "xinference/skywork-or1-preview",
+      "name": "skywork-or1-preview",
+      "provider": "xinference",
+      "model_id": "skywork-or1-preview",
+      "context_window": 32768
+    },
+    {
+      "id": "xinference/telechat",
+      "name": "telechat",
+      "provider": "xinference",
+      "model_id": "telechat",
+      "context_window": 8192
+    },
+    {
+      "id": "xinference/tiny-llama",
+      "name": "tiny-llama",
+      "provider": "xinference",
+      "model_id": "tiny-llama",
+      "context_window": 2048
+    },
+    {
+      "id": "xinference/wizardcoder-python-v1.0",
+      "name": "wizardcoder-python-v1.0",
+      "provider": "xinference",
+      "model_id": "wizardcoder-python-v1.0",
+      "context_window": 100000
+    },
+    {
+      "id": "xinference/wizardmath-v1.0",
+      "name": "wizardmath-v1.0",
+      "provider": "xinference",
+      "model_id": "wizardmath-v1.0",
+      "context_window": 2048
+    },
+    {
+      "id": "xinference/xverse",
+      "name": "xverse",
+      "provider": "xinference",
+      "model_id": "xverse",
+      "context_window": 2048
+    },
+    {
+      "id": "xinference/xverse-chat",
+      "name": "xverse-chat",
+      "provider": "xinference",
+      "model_id": "xverse-chat",
+      "context_window": 2048
+    },
+    {
+      "id": "xinference/qwenLong-l1",
+      "name": "qwenLong-l1",
+      "provider": "xinference",
+      "model_id": "qwenLong-l1",
+      "context_window": 32768
+    },
+    {
+      "id": "xinference/Ernie4.5",
+      "name": "Ernie4.5",
+      "provider": "xinference",
+      "model_id": "Ernie4.5",
+      "context_window": 131072
+    },
+    {
+      "id": "xinference/glm-4.1v-thinking",
+      "name": "glm-4.1v-thinking",
+      "provider": "xinference",
+      "model_id": "glm-4.1v-thinking",
+      "context_window": 65536
+    },
+    {
+      "id": "xinference/glm-4.5",
+      "name": "glm-4.5",
+      "provider": "xinference",
+      "model_id": "glm-4.5",
+      "context_window": 131072,
+      "benchmarks": {
+        "arena_elo": 1409.0
+      }
+    },
+    {
+      "id": "xinference/glm-4.5v",
+      "name": "glm-4.5v",
+      "provider": "xinference",
+      "model_id": "glm-4.5v",
+      "context_window": 131072,
+      "benchmarks": {
+        "arena_elo": 1353.0,
+        "livebench_global": 42.94,
+        "livebench_reasoning": 37.22,
+        "livebench_coding": 64.24,
+        "livebench_agentic_coding": 3.33,
+        "livebench_math": 62.5,
+        "livebench_data_analysis": 66.49,
+        "livebench_language": 49.74,
+        "livebench_ifeval": 17.06
+      }
+    },
+    {
+      "id": "xinference/gpt-oss",
+      "name": "gpt-oss",
+      "provider": "xinference",
+      "model_id": "gpt-oss",
+      "context_window": 131072
+    },
+    {
+      "id": "xinference/KAT-V1",
+      "name": "KAT-V1",
+      "provider": "xinference",
+      "model_id": "KAT-V1",
+      "context_window": 131072
+    },
+    {
+      "id": "xinference/Deepseek-V3.1",
+      "name": "Deepseek-V3.1",
+      "provider": "xinference",
+      "model_id": "Deepseek-V3.1",
+      "context_window": 131072,
+      "benchmarks": {
+        "gpqa_diamond": 0.565,
+        "mmlu": 0.871,
+        "math_level_5": 0.649,
+        "otis_mock_aime_2024_2025": 0.158,
+        "frontiermath": 0.017,
+        "aider_polyglot": 17.8,
+        "simplebench": 0.189,
+        "trivia_qa": 0.829,
+        "swe_bench_verified": 0.521,
+        "arena_elo": 1306.0
+      }
+    },
+    {
+      "id": "xinference/seed-oss",
+      "name": "seed-oss",
+      "provider": "xinference",
+      "model_id": "seed-oss",
+      "context_window": 524288
+    },
+    {
+      "id": "xinference/Baichuan-M2",
+      "name": "Baichuan-M2",
+      "provider": "xinference",
+      "model_id": "Baichuan-M2",
+      "context_window": 131072
+    },
+    {
+      "id": "xinference/Qwen3-VL-Instruct",
+      "name": "Qwen3-VL-Instruct",
+      "provider": "xinference",
+      "model_id": "Qwen3-VL-Instruct",
+      "context_window": 262144
+    },
+    {
+      "id": "xinference/Qwen3-VL-Thinking",
+      "name": "Qwen3-VL-Thinking",
+      "provider": "xinference",
+      "model_id": "Qwen3-VL-Thinking",
+      "context_window": 262144
+    },
+    {
+      "id": "xinference/Qwen3-Next-Instruct",
+      "name": "Qwen3-Next-Instruct",
+      "provider": "xinference",
+      "model_id": "Qwen3-Next-Instruct",
+      "context_window": 262144
+    },
+    {
+      "id": "xinference/Qwen3-Next-Thinking",
+      "name": "Qwen3-Next-Thinking",
+      "provider": "xinference",
+      "model_id": "Qwen3-Next-Thinking",
+      "context_window": 262144
+    },
+    {
+      "id": "xinference/MiniCPM-V-4.5",
+      "name": "MiniCPM-V-4.5",
+      "provider": "xinference",
+      "model_id": "MiniCPM-V-4.5",
+      "context_window": 32768
+    },
+    {
+      "id": "xinference/Qwen3-Omni-Thinking",
+      "name": "Qwen3-Omni-Thinking",
+      "provider": "xinference",
+      "model_id": "Qwen3-Omni-Thinking",
+      "context_window": 262144
+    },
+    {
+      "id": "xinference/Qwen3-Omni-Instruct",
+      "name": "Qwen3-Omni-Instruct",
+      "provider": "xinference",
+      "model_id": "Qwen3-Omni-Instruct",
+      "context_window": 262144
+    },
+    {
+      "id": "xinference/MiniMax-M2",
+      "name": "MiniMax-M2",
+      "provider": "xinference",
+      "model_id": "MiniMax-M2",
+      "context_window": 196608
+    },
+    {
+      "id": "xinference/DeepSeek-V3.2",
+      "name": "DeepSeek-V3.2",
+      "provider": "xinference",
+      "model_id": "DeepSeek-V3.2",
+      "context_window": 163840,
+      "benchmarks": {
+        "gpqa_diamond": 0.565,
+        "mmlu": 0.871,
+        "math_level_5": 0.649,
+        "otis_mock_aime_2024_2025": 0.158,
+        "frontiermath": 0.017,
+        "aider_polyglot": 17.8,
+        "simplebench": 0.189,
+        "trivia_qa": 0.829,
+        "swe_bench_verified": 0.521,
+        "arena_elo": 1306.0
+      }
+    },
+    {
+      "id": "xinference/DeepSeek-V3.2-Exp",
+      "name": "DeepSeek-V3.2-Exp",
+      "provider": "xinference",
+      "model_id": "DeepSeek-V3.2-Exp",
+      "context_window": 163840,
+      "benchmarks": {
+        "aider_polyglot": 70.2,
+        "arena_elo": 1423.0,
+        "livebench_global": 52.82,
+        "livebench_reasoning": 45.5,
+        "livebench_coding": 73.19,
+        "livebench_agentic_coding": 36.67,
+        "livebench_math": 64.38,
+        "livebench_data_analysis": 65.09,
+        "livebench_language": 65.6,
+        "livebench_ifeval": 19.33
+      }
+    }
+  ]
+}

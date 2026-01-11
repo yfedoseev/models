@@ -1,0 +1,96 @@
+{
+  "provider": "volcengine",
+  "model_count": 10,
+  "models": [
+    {
+      "id": "volcengine/doubao-1-5-thinking-pro",
+      "name": "Doubao-1.5-Thinking-Pro",
+      "provider": "volcengine",
+      "model_id": "doubao-1-5-thinking-pro",
+      "input_price_per_million": 0.56,
+      "output_price_per_million": 2.24,
+      "model_type": "reasoning"
+    },
+    {
+      "id": "volcengine/doubao-1.5-pro-32k",
+      "name": "Doubao-1.5-Pro-32K",
+      "provider": "volcengine",
+      "model_id": "doubao-1.5-pro-32k",
+      "input_price_per_million": 0.28,
+      "output_price_per_million": 1.12,
+      "model_type": "chat"
+    },
+    {
+      "id": "volcengine/doubao-1.5-pro-256k",
+      "name": "Doubao-1.5-Pro-256K",
+      "provider": "volcengine",
+      "model_id": "doubao-1.5-pro-256k",
+      "input_price_per_million": 0.7,
+      "output_price_per_million": 2.8,
+      "model_type": "chat"
+    },
+    {
+      "id": "volcengine/doubao-1.5-lite-32k",
+      "name": "Doubao-1.5-Lite-32K",
+      "provider": "volcengine",
+      "model_id": "doubao-1.5-lite-32k",
+      "input_price_per_million": 0.04,
+      "output_price_per_million": 0.14,
+      "model_type": "chat"
+    },
+    {
+      "id": "volcengine/doubao-pro-32k",
+      "name": "Doubao-Pro-32K",
+      "provider": "volcengine",
+      "model_id": "doubao-pro-32k",
+      "input_price_per_million": 0.11,
+      "output_price_per_million": 0.28,
+      "model_type": "chat"
+    },
+    {
+      "id": "volcengine/doubao-pro-128k",
+      "name": "Doubao-Pro-128K",
+      "provider": "volcengine",
+      "model_id": "doubao-pro-128k",
+      "input_price_per_million": 0.7,
+      "output_price_per_million": 1.26,
+      "model_type": "chat"
+    },
+    {
+      "id": "volcengine/doubao-1.6-vision",
+      "name": "Doubao-1.6-Vision",
+      "provider": "volcengine",
+      "model_id": "doubao-1.6-vision",
+      "input_price_per_million": 0.28,
+      "output_price_per_million": 1.12,
+      "model_type": "vision"
+    },
+    {
+      "id": "volcengine/doubao-seed-1-6-thinking",
+      "name": "Doubao-Seed-1.6-Thinking",
+      "provider": "volcengine",
+      "model_id": "doubao-seed-1-6-thinking",
+      "input_price_per_million": 0.56,
+      "output_price_per_million": 2.24,
+      "model_type": "reasoning"
+    },
+    {
+      "id": "volcengine/doubao-seed-1-8",
+      "name": "Doubao-Seed-1.8",
+      "provider": "volcengine",
+      "model_id": "doubao-seed-1-8",
+      "input_price_per_million": 0.56,
+      "output_price_per_million": 2.24,
+      "model_type": "reasoning"
+    },
+    {
+      "id": "volcengine/doubao-seed-code-preview",
+      "name": "Doubao-Seed-Code-Preview",
+      "provider": "volcengine",
+      "model_id": "doubao-seed-code-preview",
+      "input_price_per_million": 0.28,
+      "output_price_per_million": 1.12,
+      "model_type": "reasoning"
+    }
+  ]
+}

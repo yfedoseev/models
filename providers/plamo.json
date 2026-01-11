@@ -1,0 +1,162 @@
+{
+  "provider": "plamo",
+  "model_count": 26,
+  "models": [
+    {
+      "id": "plamo/pfnet/plamo-13b",
+      "name": "pfnet/plamo-13b",
+      "provider": "plamo",
+      "model_id": "pfnet/plamo-13b"
+    },
+    {
+      "id": "plamo/pfnet/plamo-13b-instruct",
+      "name": "pfnet/plamo-13b-instruct",
+      "provider": "plamo",
+      "model_id": "pfnet/plamo-13b-instruct"
+    },
+    {
+      "id": "plamo/pfnet/plamo-13b-instruct-nc",
+      "name": "pfnet/plamo-13b-instruct-nc",
+      "provider": "plamo",
+      "model_id": "pfnet/plamo-13b-instruct-nc"
+    },
+    {
+      "id": "plamo/pfnet/GenerRNA",
+      "name": "pfnet/GenerRNA",
+      "provider": "plamo",
+      "model_id": "pfnet/GenerRNA"
+    },
+    {
+      "id": "plamo/pfnet/nekomata-14b-pfn-qfin",
+      "name": "pfnet/nekomata-14b-pfn-qfin",
+      "provider": "plamo",
+      "model_id": "pfnet/nekomata-14b-pfn-qfin"
+    },
+    {
+      "id": "plamo/pfnet/nekomata-14b-pfn-qfin-inst-merge",
+      "name": "pfnet/nekomata-14b-pfn-qfin-inst-merge",
+      "provider": "plamo",
+      "model_id": "pfnet/nekomata-14b-pfn-qfin-inst-merge"
+    },
+    {
+      "id": "plamo/pfnet/nekomata-7b-pfn-qfin",
+      "name": "pfnet/nekomata-7b-pfn-qfin",
+      "provider": "plamo",
+      "model_id": "pfnet/nekomata-7b-pfn-qfin"
+    },
+    {
+      "id": "plamo/pfnet/nekomata-7b-pfn-qfin-inst-merge",
+      "name": "pfnet/nekomata-7b-pfn-qfin-inst-merge",
+      "provider": "plamo",
+      "model_id": "pfnet/nekomata-7b-pfn-qfin-inst-merge"
+    },
+    {
+      "id": "plamo/pfnet/Llama3-Preferred-MedSwallow-70B",
+      "name": "pfnet/Llama3-Preferred-MedSwallow-70B",
+      "provider": "plamo",
+      "model_id": "pfnet/Llama3-Preferred-MedSwallow-70B"
+    },
+    {
+      "id": "plamo/pfnet/timesfm-1.0-200m-fin",
+      "name": "pfnet/timesfm-1.0-200m-fin",
+      "provider": "plamo",
+      "model_id": "pfnet/timesfm-1.0-200m-fin"
+    },
+    {
+      "id": "plamo/pfnet/plamo-100b",
+      "name": "pfnet/plamo-100b",
+      "provider": "plamo",
+      "model_id": "pfnet/plamo-100b"
+    },
+    {
+      "id": "plamo/pfnet/plamo-2-1b",
+      "name": "pfnet/plamo-2-1b",
+      "provider": "plamo",
+      "model_id": "pfnet/plamo-2-1b"
+    },
+    {
+      "id": "plamo/pfnet/plamo-2-8b",
+      "name": "pfnet/plamo-2-8b",
+      "provider": "plamo",
+      "model_id": "pfnet/plamo-2-8b"
+    },
+    {
+      "id": "plamo/pfnet/Preferred-MedLLM-Qwen-72B",
+      "name": "pfnet/Preferred-MedLLM-Qwen-72B",
+      "provider": "plamo",
+      "model_id": "pfnet/Preferred-MedLLM-Qwen-72B"
+    },
+    {
+      "id": "plamo/pfnet/plamo-embedding-1b",
+      "name": "pfnet/plamo-embedding-1b",
+      "provider": "plamo",
+      "model_id": "pfnet/plamo-embedding-1b"
+    },
+    {
+      "id": "plamo/pfnet/plamo-2-translate",
+      "name": "pfnet/plamo-2-translate",
+      "provider": "plamo",
+      "model_id": "pfnet/plamo-2-translate"
+    },
+    {
+      "id": "plamo/pfnet/plamo-2-translate-eval",
+      "name": "pfnet/plamo-2-translate-eval",
+      "provider": "plamo",
+      "model_id": "pfnet/plamo-2-translate-eval"
+    },
+    {
+      "id": "plamo/pfnet/plamo-2-translate-base",
+      "name": "pfnet/plamo-2-translate-base",
+      "provider": "plamo",
+      "model_id": "pfnet/plamo-2-translate-base"
+    },
+    {
+      "id": "plamo/pfnet/plamo-2.1-8b-cpt",
+      "name": "pfnet/plamo-2.1-8b-cpt",
+      "provider": "plamo",
+      "model_id": "pfnet/plamo-2.1-8b-cpt"
+    },
+    {
+      "id": "plamo/pfnet/plamo-2.1-2b-cpt",
+      "name": "pfnet/plamo-2.1-2b-cpt",
+      "provider": "plamo",
+      "model_id": "pfnet/plamo-2.1-2b-cpt"
+    },
+    {
+      "id": "plamo/pfnet/Qwen2.5-1.5B-pfn-qfin",
+      "name": "pfnet/Qwen2.5-1.5B-pfn-qfin",
+      "provider": "plamo",
+      "model_id": "pfnet/Qwen2.5-1.5B-pfn-qfin"
+    },
+    {
+      "id": "plamo/pfnet/Qwen3-1.7B-pfn-qfin",
+      "name": "pfnet/Qwen3-1.7B-pfn-qfin",
+      "provider": "plamo",
+      "model_id": "pfnet/Qwen3-1.7B-pfn-qfin"
+    },
+    {
+      "id": "plamo/pfnet/plamo-3-nict-2b-base",
+      "name": "pfnet/plamo-3-nict-2b-base",
+      "provider": "plamo",
+      "model_id": "pfnet/plamo-3-nict-2b-base"
+    },
+    {
+      "id": "plamo/pfnet/plamo-3-nict-8b-base",
+      "name": "pfnet/plamo-3-nict-8b-base",
+      "provider": "plamo",
+      "model_id": "pfnet/plamo-3-nict-8b-base"
+    },
+    {
+      "id": "plamo/pfnet/plamo-3-nict-31b-base",
+      "name": "pfnet/plamo-3-nict-31b-base",
+      "provider": "plamo",
+      "model_id": "pfnet/plamo-3-nict-31b-base"
+    },
+    {
+      "id": "plamo/pfnet/Preferred-MedRECT-32B",
+      "name": "pfnet/Preferred-MedRECT-32B",
+      "provider": "plamo",
+      "model_id": "pfnet/Preferred-MedRECT-32B"
+    }
+  ]
+}

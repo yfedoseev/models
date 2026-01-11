@@ -1,0 +1,34 @@
+{
+  "provider": "d_id",
+  "model_count": 4,
+  "models": [
+    {
+      "id": "d-id/talks",
+      "name": "Speaking Portrait (Talks)",
+      "provider": "d_id",
+      "model_id": "talks",
+      "model_type": "video_gen"
+    },
+    {
+      "id": "d-id/premium_plus_avatar",
+      "name": "Premium+ Avatar",
+      "provider": "d_id",
+      "model_id": "premium_plus_avatar",
+      "model_type": "avatar"
+    },
+    {
+      "id": "d-id/express_avatar",
+      "name": "Express Avatar",
+      "provider": "d_id",
+      "model_id": "express_avatar",
+      "model_type": "avatar"
+    },
+    {
+      "id": "d-id/agents",
+      "name": "Conversational Agents",
+      "provider": "d_id",
+      "model_id": "agents",
+      "model_type": "agents"
+    }
+  ]
+}

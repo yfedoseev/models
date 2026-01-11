@@ -1,0 +1,69 @@
+{
+  "provider": "runway",
+  "model_count": 9,
+  "models": [
+    {
+      "id": "runway/gen4_5",
+      "name": null,
+      "provider": "runway",
+      "model_id": "gen4_5",
+      "model_type": "video_gen"
+    },
+    {
+      "id": "runway/gen4",
+      "name": null,
+      "provider": "runway",
+      "model_id": "gen4",
+      "model_type": "video_gen"
+    },
+    {
+      "id": "runway/gen4_turbo",
+      "name": null,
+      "provider": "runway",
+      "model_id": "gen4_turbo",
+      "model_type": "video_gen"
+    },
+    {
+      "id": "runway/aleph",
+      "name": null,
+      "provider": "runway",
+      "model_id": "aleph",
+      "model_type": "unknown"
+    },
+    {
+      "id": "runway/gen3a_turbo",
+      "name": null,
+      "provider": "runway",
+      "model_id": "gen3a_turbo",
+      "model_type": "video_gen"
+    },
+    {
+      "id": "runway/gen3a",
+      "name": null,
+      "provider": "runway",
+      "model_id": "gen3a",
+      "model_type": "video_gen"
+    },
+    {
+      "id": "runway/act_two",
+      "name": null,
+      "provider": "runway",
+      "model_id": "act_two",
+      "model_type": "motion_capture"
+    },
+    {
+      "id": "runway/veo_3_1",
+      "name": null,
+      "provider": "runway",
+      "model_id": "veo_3_1",
+      "model_type": "video_gen"
+    },
+    {
+      "id": "runway/veo_3",
+      "name": null,
+      "provider": "runway",
+      "model_id": "veo_3",
+      "model_type": "video_gen"
+    }
+  ]
+}

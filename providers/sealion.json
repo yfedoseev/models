@@ -1,0 +1,306 @@
+{
+  "provider": "sealion",
+  "model_count": 50,
+  "models": [
+    {
+      "id": "sealion/aisingapore/Qwen-SEA-LION-v4-8B-VL",
+      "name": "aisingapore/Qwen-SEA-LION-v4-8B-VL",
+      "provider": "sealion",
+      "model_id": "aisingapore/Qwen-SEA-LION-v4-8B-VL"
+    },
+    {
+      "id": "sealion/aisingapore/SenticGCN",
+      "name": "aisingapore/SenticGCN",
+      "provider": "sealion",
+      "model_id": "aisingapore/SenticGCN"
+    },
+    {
+      "id": "sealion/aisingapore/unsupervised-feature-decomposition",
+      "name": "aisingapore/unsupervised-feature-decomposition",
+      "provider": "sealion",
+      "model_id": "aisingapore/unsupervised-feature-decomposition"
+    },
+    {
+      "id": "sealion/aisingapore/coherence-momentum",
+      "name": "aisingapore/coherence-momentum",
+      "provider": "sealion",
+      "model_id": "aisingapore/coherence-momentum"
+    },
+    {
+      "id": "sealion/aisingapore/RST-pointer",
+      "name": "aisingapore/RST-pointer",
+      "provider": "sealion",
+      "model_id": "aisingapore/RST-pointer"
+    },
+    {
+      "id": "sealion/aisingapore/rumour-detection-twitter",
+      "name": "aisingapore/rumour-detection-twitter",
+      "provider": "sealion",
+      "model_id": "aisingapore/rumour-detection-twitter"
+    },
+    {
+      "id": "sealion/aisingapore/LSR",
+      "name": "aisingapore/LSR",
+      "provider": "sealion",
+      "model_id": "aisingapore/LSR"
+    },
+    {
+      "id": "sealion/aisingapore/cross-sentence-GEC",
+      "name": "aisingapore/cross-sentence-GEC",
+      "provider": "sealion",
+      "model_id": "aisingapore/cross-sentence-GEC"
+    },
+    {
+      "id": "sealion/aisingapore/Lif3WayAp",
+      "name": "aisingapore/Lif3WayAp",
+      "provider": "sealion",
+      "model_id": "aisingapore/Lif3WayAp"
+    },
+    {
+      "id": "sealion/aisingapore/SPANBert",
+      "name": "aisingapore/SPANBert",
+      "provider": "sealion",
+      "model_id": "aisingapore/SPANBert"
+    },
+    {
+      "id": "sealion/aisingapore/RoBERTa-base",
+      "name": "aisingapore/RoBERTa-base",
+      "provider": "sealion",
+      "model_id": "aisingapore/RoBERTa-base"
+    },
+    {
+      "id": "sealion/aisingapore/SEA-LION-v1-3B",
+      "name": "aisingapore/SEA-LION-v1-3B",
+      "provider": "sealion",
+      "model_id": "aisingapore/SEA-LION-v1-3B"
+    },
+    {
+      "id": "sealion/aisingapore/SEA-LION-v1-7B",
+      "name": "aisingapore/SEA-LION-v1-7B",
+      "provider": "sealion",
+      "model_id": "aisingapore/SEA-LION-v1-7B"
+    },
+    {
+      "id": "sealion/aisingapore/SEA-LION-v1-7B-IT-Research",
+      "name": "aisingapore/SEA-LION-v1-7B-IT-Research",
+      "provider": "sealion",
+      "model_id": "aisingapore/SEA-LION-v1-7B-IT-Research"
+    },
+    {
+      "id": "sealion/aisingapore/sealion-bert-base",
+      "name": "aisingapore/sealion-bert-base",
+      "provider": "sealion",
+      "model_id": "aisingapore/sealion-bert-base"
+    },
+    {
+      "id": "sealion/aisingapore/sealion-bert-large",
+      "name": "aisingapore/sealion-bert-large",
+      "provider": "sealion",
+      "model_id": "aisingapore/sealion-bert-large"
+    },
+    {
+      "id": "sealion/aisingapore/SEA-LION-v1-7B-IT",
+      "name": "aisingapore/SEA-LION-v1-7B-IT",
+      "provider": "sealion",
+      "model_id": "aisingapore/SEA-LION-v1-7B-IT"
+    },
+    {
+      "id": "sealion/aisingapore/SEA-LION-v1-7B-IT-GPTQ",
+      "name": "aisingapore/SEA-LION-v1-7B-IT-GPTQ",
+      "provider": "sealion",
+      "model_id": "aisingapore/SEA-LION-v1-7B-IT-GPTQ"
+    },
+    {
+      "id": "sealion/aisingapore/SEA-LION-v1-7B-IT-GGUF",
+      "name": "aisingapore/SEA-LION-v1-7B-IT-GGUF",
+      "provider": "sealion",
+      "model_id": "aisingapore/SEA-LION-v1-7B-IT-GGUF"
+    },
+    {
+      "id": "sealion/aisingapore/Llama-SEA-LION-v2-8B",
+      "name": "aisingapore/Llama-SEA-LION-v2-8B",
+      "provider": "sealion",
+      "model_id": "aisingapore/Llama-SEA-LION-v2-8B"
+    },
+    {
+      "id": "sealion/aisingapore/Llama-SEA-LION-v2-8B-IT",
+      "name": "aisingapore/Llama-SEA-LION-v2-8B-IT",
+      "provider": "sealion",
+      "model_id": "aisingapore/Llama-SEA-LION-v2-8B-IT"
+    },
+    {
+      "id": "sealion/aisingapore/Llama-SEA-LION-v2-8B-IT-GGUF",
+      "name": "aisingapore/Llama-SEA-LION-v2-8B-IT-GGUF",
+      "provider": "sealion",
+      "model_id": "aisingapore/Llama-SEA-LION-v2-8B-IT-GGUF"
+    },
+    {
+      "id": "sealion/aisingapore/Gemma-SEA-LION-v3-9B-IT",
+      "name": "aisingapore/Gemma-SEA-LION-v3-9B-IT",
+      "provider": "sealion",
+      "model_id": "aisingapore/Gemma-SEA-LION-v3-9B-IT"
+    },
+    {
+      "id": "sealion/aisingapore/Gemma-SEA-LION-v3-9B",
+      "name": "aisingapore/Gemma-SEA-LION-v3-9B",
+      "provider": "sealion",
+      "model_id": "aisingapore/Gemma-SEA-LION-v3-9B"
+    },
+    {
+      "id": "sealion/aisingapore/Gemma-SEA-LION-v3-9B-IT-GGUF",
+      "name": "aisingapore/Gemma-SEA-LION-v3-9B-IT-GGUF",
+      "provider": "sealion",
+      "model_id": "aisingapore/Gemma-SEA-LION-v3-9B-IT-GGUF"
+    },
+    {
+      "id": "sealion/aisingapore/Gemma2-9b-WangchanLIONv2-instruct",
+      "name": "aisingapore/Gemma2-9b-WangchanLIONv2-instruct",
+      "provider": "sealion",
+      "model_id": "aisingapore/Gemma2-9b-WangchanLIONv2-instruct"
+    },
+    {
+      "id": "sealion/aisingapore/Llama-SEA-LION-v3-8B",
+      "name": "aisingapore/Llama-SEA-LION-v3-8B",
+      "provider": "sealion",
+      "model_id": "aisingapore/Llama-SEA-LION-v3-8B"
+    },
+    {
+      "id": "sealion/aisingapore/Llama-SEA-LION-v3-8B-IT",
+      "name": "aisingapore/Llama-SEA-LION-v3-8B-IT",
+      "provider": "sealion",
+      "model_id": "aisingapore/Llama-SEA-LION-v3-8B-IT"
+    },
+    {
+      "id": "sealion/aisingapore/Llama-SEA-LION-v3-70B",
+      "name": "aisingapore/Llama-SEA-LION-v3-70B",
+      "provider": "sealion",
+      "model_id": "aisingapore/Llama-SEA-LION-v3-70B"
+    },
+    {
+      "id": "sealion/aisingapore/Llama-SEA-LION-v3-70B-IT",
+      "name": "aisingapore/Llama-SEA-LION-v3-70B-IT",
+      "provider": "sealion",
+      "model_id": "aisingapore/Llama-SEA-LION-v3-70B-IT"
+    },
+    {
+      "id": "sealion/aisingapore/Llama-SEA-LION-v3-70B-IT-GGUF",
+      "name": "aisingapore/Llama-SEA-LION-v3-70B-IT-GGUF",
+      "provider": "sealion",
+      "model_id": "aisingapore/Llama-SEA-LION-v3-70B-IT-GGUF"
+    },
+    {
+      "id": "sealion/aisingapore/Llama-SEA-LION-v3-8B-IT-GGUF",
+      "name": "aisingapore/Llama-SEA-LION-v3-8B-IT-GGUF",
+      "provider": "sealion",
+      "model_id": "aisingapore/Llama-SEA-LION-v3-8B-IT-GGUF"
+    },
+    {
+      "id": "sealion/aisingapore/Llama-SEA-LION-v3.5-8B-R",
+      "name": "aisingapore/Llama-SEA-LION-v3.5-8B-R",
+      "provider": "sealion",
+      "model_id": "aisingapore/Llama-SEA-LION-v3.5-8B-R"
+    },
+    {
+      "id": "sealion/aisingapore/Llama-SEA-LION-v3.5-70B-R",
+      "name": "aisingapore/Llama-SEA-LION-v3.5-70B-R",
+      "provider": "sealion",
+      "model_id": "aisingapore/Llama-SEA-LION-v3.5-70B-R"
+    },
+    {
+      "id": "sealion/aisingapore/Llama-SEA-LION-v3.5-70B-R-GGUF",
+      "name": "aisingapore/Llama-SEA-LION-v3.5-70B-R-GGUF",
+      "provider": "sealion",
+      "model_id": "aisingapore/Llama-SEA-LION-v3.5-70B-R-GGUF"
+    },
+    {
+      "id": "sealion/aisingapore/Llama-SEA-LION-v3.5-8B-R-GGUF",
+      "name": "aisingapore/Llama-SEA-LION-v3.5-8B-R-GGUF",
+      "provider": "sealion",
+      "model_id": "aisingapore/Llama-SEA-LION-v3.5-8B-R-GGUF"
+    },
+    {
+      "id": "sealion/aisingapore/WangchanLION-v3",
+      "name": "aisingapore/WangchanLION-v3",
+      "provider": "sealion",
+      "model_id": "aisingapore/WangchanLION-v3"
+    },
+    {
+      "id": "sealion/aisingapore/WangchanLION-v3-IT",
+      "name": "aisingapore/WangchanLION-v3-IT",
+      "provider": "sealion",
+      "model_id": "aisingapore/WangchanLION-v3-IT"
+    },
+    {
+      "id": "sealion/aisingapore/Gemma-SEA-LION-v4-27B-IT",
+      "name": "aisingapore/Gemma-SEA-LION-v4-27B-IT",
+      "provider": "sealion",
+      "model_id": "aisingapore/Gemma-SEA-LION-v4-27B-IT"
+    },
+    {
+      "id": "sealion/aisingapore/Gemma-SEA-LION-v4-27B",
+      "name": "aisingapore/Gemma-SEA-LION-v4-27B",
+      "provider": "sealion",
+      "model_id": "aisingapore/Gemma-SEA-LION-v4-27B"
+    },
+    {
+      "id": "sealion/aisingapore/Gemma-SEA-LION-v4-27B-IT-GGUF",
+      "name": "aisingapore/Gemma-SEA-LION-v4-27B-IT-GGUF",
+      "provider": "sealion",
+      "model_id": "aisingapore/Gemma-SEA-LION-v4-27B-IT-GGUF"
+    },
+    {
+      "id": "sealion/aisingapore/Gemma-SEA-LION-v4-27B-IT-FP8-Dynamic",
+      "name": "aisingapore/Gemma-SEA-LION-v4-27B-IT-FP8-Dynamic",
+      "provider": "sealion",
+      "model_id": "aisingapore/Gemma-SEA-LION-v4-27B-IT-FP8-Dynamic"
+    },
+    {
+      "id": "sealion/aisingapore/Gemma-SEA-LION-v4-27B-IT-NVFP4",
+      "name": "aisingapore/Gemma-SEA-LION-v4-27B-IT-NVFP4",
+      "provider": "sealion",
+      "model_id": "aisingapore/Gemma-SEA-LION-v4-27B-IT-NVFP4"
+    },
+    {
+      "id": "sealion/aisingapore/Llama-SEA-LION-v3.5-70B-R-FP8-Dynamic",
+      "name": "aisingapore/Llama-SEA-LION-v3.5-70B-R-FP8-Dynamic",
+      "provider": "sealion",
+      "model_id": "aisingapore/Llama-SEA-LION-v3.5-70B-R-FP8-Dynamic"
+    },
+    {
+      "id": "sealion/aisingapore/Llama-SEA-LION-v3.5-70B-R-NVFP4",
+      "name": "aisingapore/Llama-SEA-LION-v3.5-70B-R-NVFP4",
+      "provider": "sealion",
+      "model_id": "aisingapore/Llama-SEA-LION-v3.5-70B-R-NVFP4"
+    },
+    {
+      "id": "sealion/aisingapore/Gemma-SEA-LION-v4-27B-VL",
+      "name": "aisingapore/Gemma-SEA-LION-v4-27B-VL",
+      "provider": "sealion",
+      "model_id": "aisingapore/Gemma-SEA-LION-v4-27B-VL"
+    },
+    {
+      "id": "sealion/aisingapore/Qwen-SEA-LION-v4-32B-IT",
+      "name": "aisingapore/Qwen-SEA-LION-v4-32B-IT",
+      "provider": "sealion",
+      "model_id": "aisingapore/Qwen-SEA-LION-v4-32B-IT"
+    },
+    {
+      "id": "sealion/aisingapore/Qwen-SEA-LION-v4-32B-IT-4BIT",
+      "name": "aisingapore/Qwen-SEA-LION-v4-32B-IT-4BIT",
+      "provider": "sealion",
+      "model_id": "aisingapore/Qwen-SEA-LION-v4-32B-IT-4BIT"
+    },
+    {
+      "id": "sealion/aisingapore/Qwen-SEA-LION-v4-32B-IT-8BIT",
+      "name": "aisingapore/Qwen-SEA-LION-v4-32B-IT-8BIT",
+      "provider": "sealion",
+      "model_id": "aisingapore/Qwen-SEA-LION-v4-32B-IT-8BIT"
+    },
+    {
+      "id": "sealion/aisingapore/Qwen-SEA-LION-v4-4B-VL",
+      "name": "aisingapore/Qwen-SEA-LION-v4-4B-VL",
+      "provider": "sealion",
+      "model_id": "aisingapore/Qwen-SEA-LION-v4-4B-VL"
+    }
+  ]
+}

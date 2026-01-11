@@ -1,0 +1,48 @@
+{
+  "provider": "ideogram",
+  "model_count": 6,
+  "models": [
+    {
+      "id": "ideogram/V_3",
+      "name": "Ideogram 3.0",
+      "provider": "ideogram",
+      "model_id": "V_3",
+      "model_type": "image_gen"
+    },
+    {
+      "id": "ideogram/V_2",
+      "name": "Ideogram 2.0",
+      "provider": "ideogram",
+      "model_id": "V_2",
+      "model_type": "image_gen"
+    },
+    {
+      "id": "ideogram/V_2_TURBO",
+      "name": "Ideogram 2.0 Turbo",
+      "provider": "ideogram",
+      "model_id": "V_2_TURBO",
+      "model_type": "image_gen"
+    },
+    {
+      "id": "ideogram/V_2A",
+      "name": "Ideogram 2.0A",
+      "provider": "ideogram",
+      "model_id": "V_2A",
+      "model_type": "image_gen"
+    },
+    {
+      "id": "ideogram/V_1",
+      "name": "Ideogram 1.0",
+      "provider": "ideogram",
+      "model_id": "V_1",
+      "model_type": "image_gen"
+    },
+    {
+      "id": "ideogram/V_1_TURBO",
+      "name": "Ideogram 1.0 Turbo",
+      "provider": "ideogram",
+      "model_id": "V_1_TURBO",
+      "model_type": "image_gen"
+    }
+  ]
+}
