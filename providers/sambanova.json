@@ -1,6 +1,6 @@
 {
   "provider": "sambanova",
-  "model_count": 13,
+  "model_count": 18,
   "models": [
     {
       "id": "sambanova/DeepSeek-R1-0528",
@@ -8,6 +8,8 @@
       "provider": "sambanova",
       "model_id": "DeepSeek-R1-0528",
       "context_window": 65536,
+      "input_price_per_million": 0.6,
+      "output_price_per_million": 1.2,
       "benchmarks": {
         "gpqa_diamond": 0.692,
         "math_level_5": 0.931,
@@ -25,6 +27,8 @@
       "name": "DeepSeek-V3-0324",
       "provider": "sambanova",
       "model_id": "DeepSeek-V3-0324",
+      "input_price_per_million": 0.6,
+      "output_price_per_million": 1.2,
       "benchmarks": {
         "gpqa_diamond": 0.565,
         "mmlu": 0.871,
@@ -44,6 +48,8 @@
       "name": "DeepSeek-V3.1",
       "provider": "sambanova",
       "model_id": "DeepSeek-V3.1",
+      "input_price_per_million": 0.6,
+      "output_price_per_million": 1.2,
       "benchmarks": {
         "gpqa_diamond": 0.565,
         "mmlu": 0.871,
@@ -64,6 +70,8 @@
       "provider": "sambanova",
       "model_id": "DeepSeek-R1-Distill-Llama-70B",
       "context_window": 65536,
+      "input_price_per_million": 0.6,
+      "output_price_per_million": 1.2,
       "benchmarks": {
         "gpqa_diamond": 0.557,
         "math_level_5": 0.899,
@@ -77,6 +85,8 @@
       "provider": "sambanova",
       "model_id": "Meta-Llama-3.3-70B-Instruct",
       "context_window": 65536,
+      "input_price_per_million": 0.6,
+      "output_price_per_million": 1.2,
       "benchmarks": {
         "arena_elo": 1319.0
       },
@@ -88,6 +98,8 @@
       "provider": "sambanova",
       "model_id": "Meta-Llama-3.1-8B-Instruct",
       "context_window": 8192,
+      "input_price_per_million": 0.1,
+      "output_price_per_million": 0.2,
       "benchmarks": {
         "arena_elo": 1211.0
       },
@@ -98,6 +110,8 @@
       "name": "Llama-4-Maverick-17B-128E-Instruct",
       "provider": "sambanova",
       "model_id": "Llama-4-Maverick-17B-128E-Instruct",
+      "input_price_per_million": 0.3,
+      "output_price_per_million": 0.6,
       "benchmarks": {
         "gpqa_diamond": 0.67,
         "math_level_5": 0.73,
@@ -113,6 +127,8 @@
       "name": "gpt-oss-120b",
       "provider": "sambanova",
       "model_id": "gpt-oss-120b",
+      "input_price_per_million": 0.22,
+      "output_price_per_million": 0.59,
       "benchmarks": {
         "simplebench": 0.221,
         "arena_elo": 1353.0,
@@ -139,6 +155,8 @@
       "name": "Qwen3-32B",
       "provider": "sambanova",
       "model_id": "Qwen3-32B",
+      "input_price_per_million": 0.3,
+      "output_price_per_million": 0.6,
       "benchmarks": {
         "aider_polyglot": 40.0,
         "arena_elo": 1345.0,
@@ -165,6 +183,8 @@
       "name": "Llama-3.3-Swallow-70B-Instruct-v0.4",
       "provider": "sambanova",
       "model_id": "Llama-3.3-Swallow-70B-Instruct-v0.4",
+      "input_price_per_million": 0.6,
+      "output_price_per_million": 1.2,
       "model_type": "chat"
     },
     {
@@ -173,6 +193,86 @@
       "provider": "sambanova",
       "model_id": "E5-Mistral-7B-Instruct",
       "model_type": "unknown"
+    },
+    {
+      "id": "sambanova/Meta-Llama-3.1-70B-Instruct",
+      "name": "Meta-Llama-3.1-70B-Instruct",
+      "provider": "sambanova",
+      "model_id": "Meta-Llama-3.1-70B-Instruct",
+      "context_window": 65536,
+      "input_price_per_million": 0.6,
+      "output_price_per_million": 1.2,
+      "benchmarks": {
+        "arena_elo": 1293.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "sambanova/Meta-Llama-3.1-405B-Instruct",
+      "name": "Meta-Llama-3.1-405B-Instruct",
+      "provider": "sambanova",
+      "model_id": "Meta-Llama-3.1-405B-Instruct",
+      "context_window": 16384,
+      "input_price_per_million": 5.0,
+      "output_price_per_million": 10.0,
+      "benchmarks": {
+        "arena_elo": 1333.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "sambanova/DeepSeek-R1",
+      "name": "DeepSeek-R1",
+      "provider": "sambanova",
+      "model_id": "DeepSeek-R1",
+      "context_window": 65536,
+      "input_price_per_million": 0.6,
+      "output_price_per_million": 1.2,
+      "benchmarks": {
+        "gpqa_diamond": 0.692,
+        "math_level_5": 0.931,
+        "otis_mock_aime_2024_2025": 0.533,
+        "aider_polyglot": 56.9,
+        "simplebench": 0.309,
+        "simpleqa_verified": 0.274,
+        "swe_bench_verified": 0.333,
+        "arena_elo": 1396.0
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "sambanova/Qwen2.5-72B-Instruct",
+      "name": "Qwen2.5-72B-Instruct",
+      "provider": "sambanova",
+      "model_id": "Qwen2.5-72B-Instruct",
+      "context_window": 32768,
+      "input_price_per_million": 0.6,
+      "output_price_per_million": 1.2,
+      "benchmarks": {
+        "gpqa_diamond": 0.491,
+        "mmlu": 0.834,
+        "math_level_5": 0.632,
+        "otis_mock_aime_2024_2025": 0.081,
+        "trivia_qa": 0.719,
+        "arena_elo": 1302.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "sambanova/Qwen2.5-Coder-32B-Instruct",
+      "name": "Qwen2.5-Coder-32B-Instruct",
+      "provider": "sambanova",
+      "model_id": "Qwen2.5-Coder-32B-Instruct",
+      "context_window": 32768,
+      "input_price_per_million": 0.3,
+      "output_price_per_million": 0.6,
+      "benchmarks": {
+        "mmlu": 0.791,
+        "gsm8k": 0.911,
+        "aider_polyglot": 8.0,
+        "arena_elo": 1270.0
+      },
+      "model_type": "code"
     }
   ]
 }

@@ -1,7 +1,29 @@
 {
   "provider": "siliconflow",
-  "model_count": 7,
+  "model_count": 13,
   "models": [
+    {
+      "id": "siliconflow/deepseek-ai/DeepSeek-V3",
+      "name": "deepseek-ai/DeepSeek-V3",
+      "provider": "siliconflow",
+      "model_id": "deepseek-ai/DeepSeek-V3",
+      "context_window": 128000,
+      "input_price_per_million": 0.28,
+      "output_price_per_million": 1.11,
+      "benchmarks": {
+        "gpqa_diamond": 0.565,
+        "mmlu": 0.871,
+        "math_level_5": 0.649,
+        "otis_mock_aime_2024_2025": 0.158,
+        "frontiermath": 0.017,
+        "aider_polyglot": 17.8,
+        "simplebench": 0.189,
+        "trivia_qa": 0.829,
+        "swe_bench_verified": 0.521,
+        "arena_elo": 1306.0
+      },
+      "model_type": "chat"
+    },
     {
       "id": "siliconflow/deepseek-ai/DeepSeek-V3.2",
       "name": "deepseek-ai/DeepSeek-V3.2",
@@ -9,7 +31,7 @@
       "model_id": "deepseek-ai/DeepSeek-V3.2",
       "context_window": 128000,
       "input_price_per_million": 0.28,
-      "output_price_per_million": 0.42,
+      "output_price_per_million": 1.11,
       "benchmarks": {
         "aider_polyglot": 70.2,
         "arena_elo": 1423.0,
@@ -31,7 +53,7 @@
       "model_id": "deepseek-ai/DeepSeek-R1",
       "context_window": 128000,
       "input_price_per_million": 0.55,
-      "output_price_per_million": 2.19,
+      "output_price_per_million": 2.22,
       "benchmarks": {
         "gpqa_diamond": 0.692,
         "math_level_5": 0.931,
@@ -45,26 +67,24 @@
       "model_type": "reasoning"
     },
     {
-      "id": "siliconflow/deepseek-ai/DeepSeek-V3",
-      "name": "deepseek-ai/DeepSeek-V3",
+      "id": "siliconflow/deepseek-ai/DeepSeek-R1-0528",
+      "name": "deepseek-ai/DeepSeek-R1-0528",
       "provider": "siliconflow",
-      "model_id": "deepseek-ai/DeepSeek-V3",
+      "model_id": "deepseek-ai/DeepSeek-R1-0528",
       "context_window": 128000,
-      "input_price_per_million": 0.28,
-      "output_price_per_million": 0.42,
+      "input_price_per_million": 0.55,
+      "output_price_per_million": 2.22,
       "benchmarks": {
-        "gpqa_diamond": 0.565,
-        "mmlu": 0.871,
-        "math_level_5": 0.649,
-        "otis_mock_aime_2024_2025": 0.158,
-        "frontiermath": 0.017,
-        "aider_polyglot": 17.8,
-        "simplebench": 0.189,
-        "trivia_qa": 0.829,
-        "swe_bench_verified": 0.521,
-        "arena_elo": 1306.0
+        "gpqa_diamond": 0.692,
+        "math_level_5": 0.931,
+        "otis_mock_aime_2024_2025": 0.533,
+        "aider_polyglot": 56.9,
+        "simplebench": 0.309,
+        "simpleqa_verified": 0.274,
+        "swe_bench_verified": 0.333,
+        "arena_elo": 1396.0
       },
-      "model_type": "chat"
+      "model_type": "reasoning"
     },
     {
       "id": "siliconflow/Qwen/Qwen3-8B",
@@ -75,13 +95,37 @@
       "model_type": "chat"
     },
     {
+      "id": "siliconflow/Qwen/Qwen2.5-7B-Instruct",
+      "name": "Qwen/Qwen2.5-7B-Instruct",
+      "provider": "siliconflow",
+      "model_id": "Qwen/Qwen2.5-7B-Instruct",
+      "benchmarks": {
+        "mmlu": 0.729
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "siliconflow/Qwen/Qwen2.5-32B-Instruct",
+      "name": "Qwen/Qwen2.5-32B-Instruct",
+      "provider": "siliconflow",
+      "model_id": "Qwen/Qwen2.5-32B-Instruct",
+      "input_price_per_million": 0.18,
+      "output_price_per_million": 0.18,
+      "benchmarks": {
+        "gpqa_diamond": 0.461,
+        "math_level_5": 0.561,
+        "otis_mock_aime_2024_2025": 0.074
+      },
+      "model_type": "chat"
+    },
+    {
       "id": "siliconflow/Qwen/Qwen2.5-72B-Instruct",
       "name": "Qwen/Qwen2.5-72B-Instruct",
       "provider": "siliconflow",
       "model_id": "Qwen/Qwen2.5-72B-Instruct",
       "context_window": 131072,
-      "input_price_per_million": 0.55,
-      "output_price_per_million": 0.55,
+      "input_price_per_million": 0.57,
+      "output_price_per_million": 0.57,
       "benchmarks": {
         "gpqa_diamond": 0.491,
         "mmlu": 0.834,
@@ -106,6 +150,13 @@
       "model_type": "chat"
     },
     {
+      "id": "siliconflow/THUDM/glm-4-9b-chat",
+      "name": "THUDM/glm-4-9b-chat",
+      "provider": "siliconflow",
+      "model_id": "THUDM/glm-4-9b-chat",
+      "model_type": "chat"
+    },
+    {
       "id": "siliconflow/meta-llama/Llama-3.3-70B-Instruct",
       "name": "meta-llama/Llama-3.3-70B-Instruct",
       "provider": "siliconflow",
@@ -120,6 +171,32 @@
         "simplebench": 0.199
       },
       "model_type": "chat"
+    },
+    {
+      "id": "siliconflow/01-ai/Yi-1.5-34B-Chat",
+      "name": "01-ai/Yi-1.5-34B-Chat",
+      "provider": "siliconflow",
+      "model_id": "01-ai/Yi-1.5-34B-Chat",
+      "input_price_per_million": 0.28,
+      "output_price_per_million": 0.28,
+      "benchmarks": {
+        "gpqa_diamond": 15.324,
+        "math_level_5": 0.255,
+        "ifeval": 60.668,
+        "arena_elo": 1213.0,
+        "bbh": 44.263,
+        "musr": 13.058
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "siliconflow/internlm/internlm2_5-20b-chat",
+      "name": "internlm/internlm2_5-20b-chat",
+      "provider": "siliconflow",
+      "model_id": "internlm/internlm2_5-20b-chat",
+      "input_price_per_million": 0.14,
+      "output_price_per_million": 0.14,
+      "model_type": "unknown"
     }
   ]
 }

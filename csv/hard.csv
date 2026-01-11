@@ -1,17 +1,17 @@
 rank,name,provider,score
-1,o3-mini-2025-01-31,openai,0.4456
-2,o3-2025-04-16,openai,0.4456
-3,o4-mini-2025-04-16,openai,0.4299
+1,o4-mini-2025-04-16,openai,0.4299
+2,o3-mini-2025-01-31,openai,0.4216
+3,o3-2025-04-16,openai,0.4216
 4,gemini-3-pro-preview,google,0.3475
-5,gemini-3-flash-preview,google,0.199
-6,Claude Opus 4.5,anthropic,0.1842
-7,moonshotai/Kimi-K2-Thinking,featherless,0.151
-8,Deepseek v3.2,fireworks,0.121
-9,deepseek-v2-chat,xinference,0.121
-10,grok-4-0709,xai,0.109
-11,google/gemini-2.5-pro,deepinfra,0.0915
-12,Claude Opus 4.1,anthropic,0.059
-13,Claude Sonnet 4.5,anthropic,0.057
+5,Claude Opus 4.5,anthropic,0.2526
+6,gemini-3-flash-preview,google,0.199
+7,Claude Sonnet 4.5,anthropic,0.1963
+8,moonshotai/Kimi-K2-Thinking,featherless,0.151
+9,Deepseek v3.2,fireworks,0.121
+10,deepseek-v2-chat,xinference,0.121
+11,grok-4-0709,xai,0.109
+12,google/gemini-2.5-pro,deepinfra,0.0915
+13,Claude Opus 4.1,anthropic,0.059
 14,eu/gpt-4.1-mini,azure_openai,0.045
 15,google/gemini-2.5-flash,deepinfra,0.045
 16,Qwen/Qwen3-235B-A22B-Thinking-2507,deepinfra,0.0425

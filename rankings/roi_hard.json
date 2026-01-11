@@ -1,21 +1,10 @@
 {
-  "generated_at": "2026-01-11T03:41:26.186972",
+  "generated_at": "2026-01-11T14:27:05.274251",
   "ranking_type": "roi_hard",
   "count": 50,
   "models": [
     {
       "rank": 1,
-      "model_id": "openai/o3-mini-2025-01-31",
-      "provider": "openai",
-      "name": "o3-mini-2025-01-31",
-      "score": 0.324,
-      "category_score": 0.4456,
-      "avg_price_per_million": 1.375,
-      "input_price": 0.55,
-      "output_price": 2.2
-    },
-    {
-      "rank": 2,
       "model_id": "openai/o4-mini-2025-04-16",
       "provider": "openai",
       "name": "o4-mini-2025-04-16",
@@ -26,7 +15,7 @@
       "output_price": 2.2
     },
     {
-      "rank": 3,
+      "rank": 2,
       "model_id": "openai/o4-mini",
       "provider": "openai",
       "name": "o4-mini",
@@ -37,12 +26,23 @@
       "output_price": 2.2
     },
     {
+      "rank": 3,
+      "model_id": "openai/o3-mini-2025-01-31",
+      "provider": "openai",
+      "name": "o3-mini-2025-01-31",
+      "score": 0.3066,
+      "category_score": 0.4216,
+      "avg_price_per_million": 1.375,
+      "input_price": 0.55,
+      "output_price": 2.2
+    },
+    {
       "rank": 4,
       "model_id": "openai/o3-2025-04-16",
       "provider": "openai",
       "name": "o3-2025-04-16",
-      "score": 0.1782,
-      "category_score": 0.4456,
+      "score": 0.1687,
+      "category_score": 0.4216,
       "avg_price_per_million": 2.5,
       "input_price": 1.0,
       "output_price": 4.0
@@ -52,8 +52,8 @@
       "model_id": "openai/o3",
       "provider": "openai",
       "name": "o3",
-      "score": 0.1782,
-      "category_score": 0.4456,
+      "score": 0.1687,
+      "category_score": 0.4216,
       "avg_price_per_million": 2.5,
       "input_price": 1.0,
       "output_price": 4.0
@@ -181,17 +181,6 @@
     },
     {
       "rank": 17,
-      "model_id": "siliconflow/deepseek-ai/DeepSeek-V3",
-      "provider": "siliconflow",
-      "name": "deepseek-ai/DeepSeek-V3",
-      "score": 0.0486,
-      "category_score": 0.017,
-      "avg_price_per_million": 0.35,
-      "input_price": 0.28,
-      "output_price": 0.42
-    },
-    {
-      "rank": 18,
       "model_id": "vertex/publishers/google/models/gemini-2.0-flash-001",
       "provider": "vertex",
       "name": "publishers/google/models/gemini-2.0-flash-001",
@@ -202,7 +191,7 @@
       "output_price": 0.6
     },
     {
-      "rank": 19,
+      "rank": 18,
       "model_id": "vertex/publishers/google/models/gemini-3-pro-preview",
       "provider": "vertex",
       "name": "publishers/google/models/gemini-3-pro-preview",
@@ -213,7 +202,7 @@
       "output_price": 12.0
     },
     {
-      "rank": 20,
+      "rank": 19,
       "model_id": "deepinfra/Qwen/Qwen3-235B-A22B-Thinking-2507",
       "provider": "deepinfra",
       "name": "Qwen/Qwen3-235B-A22B-Thinking-2507",
@@ -224,7 +213,7 @@
       "output_price": 2.39
     },
     {
-      "rank": 21,
+      "rank": 20,
       "model_id": "deepinfra/google/gemini-2.5-flash",
       "provider": "deepinfra",
       "name": "google/gemini-2.5-flash",
@@ -235,7 +224,7 @@
       "output_price": 2.5
     },
     {
-      "rank": 22,
+      "rank": 21,
       "model_id": "google/gemini-2.5-flash",
       "provider": "google",
       "name": "gemini-2.5-flash",
@@ -246,7 +235,7 @@
       "output_price": 2.5
     },
     {
-      "rank": 23,
+      "rank": 22,
       "model_id": "vertex/publishers/google/models/gemini-2.5-flash",
       "provider": "vertex",
       "name": "publishers/google/models/gemini-2.5-flash",
@@ -257,7 +246,7 @@
       "output_price": 2.5
     },
     {
-      "rank": 24,
+      "rank": 23,
       "model_id": "deepinfra/deepseek-ai/DeepSeek-V3",
       "provider": "deepinfra",
       "name": "deepseek-ai/DeepSeek-V3",
@@ -268,7 +257,51 @@
       "output_price": 0.89
     },
     {
+      "rank": 24,
+      "model_id": "siliconflow/deepseek-ai/DeepSeek-V3",
+      "provider": "siliconflow",
+      "name": "deepseek-ai/DeepSeek-V3",
+      "score": 0.0245,
+      "category_score": 0.017,
+      "avg_price_per_million": 0.695,
+      "input_price": 0.28,
+      "output_price": 1.11
+    },
+    {
       "rank": 25,
+      "model_id": "anthropic/claude-sonnet-4-5-20250929",
+      "provider": "anthropic",
+      "name": "Claude Sonnet 4.5",
+      "score": 0.0218,
+      "category_score": 0.1963,
+      "avg_price_per_million": 9.0,
+      "input_price": 3.0,
+      "output_price": 15.0
+    },
+    {
+      "rank": 26,
+      "model_id": "sambanova/DeepSeek-V3-0324",
+      "provider": "sambanova",
+      "name": "DeepSeek-V3-0324",
+      "score": 0.0189,
+      "category_score": 0.017,
+      "avg_price_per_million": 0.9,
+      "input_price": 0.6,
+      "output_price": 1.2
+    },
+    {
+      "rank": 27,
+      "model_id": "sambanova/DeepSeek-V3.1",
+      "provider": "sambanova",
+      "name": "DeepSeek-V3.1",
+      "score": 0.0189,
+      "category_score": 0.017,
+      "avg_price_per_million": 0.9,
+      "input_price": 0.6,
+      "output_price": 1.2
+    },
+    {
+      "rank": 28,
       "model_id": "deepinfra/meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
       "provider": "deepinfra",
       "name": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
@@ -279,7 +312,7 @@
       "output_price": 0.6
     },
     {
-      "rank": 26,
+      "rank": 29,
       "model_id": "nebius/deepseek-ai/DeepSeek-V3-0324",
       "provider": "nebius",
       "name": "deepseek-ai/DeepSeek-V3-0324",
@@ -290,7 +323,18 @@
       "output_price": 1.5
     },
     {
-      "rank": 27,
+      "rank": 30,
+      "model_id": "anthropic/claude-opus-4-5-20251101",
+      "provider": "anthropic",
+      "name": "Claude Opus 4.5",
+      "score": 0.0168,
+      "category_score": 0.2526,
+      "avg_price_per_million": 15.0,
+      "input_price": 5.0,
+      "output_price": 25.0
+    },
+    {
+      "rank": 31,
       "model_id": "deepinfra/google/gemini-2.5-pro",
       "provider": "deepinfra",
       "name": "google/gemini-2.5-pro",
@@ -301,7 +345,7 @@
       "output_price": 10.0
     },
     {
-      "rank": 28,
+      "rank": 32,
       "model_id": "google/gemini-2.5-pro",
       "provider": "google",
       "name": "gemini-2.5-pro",
@@ -312,7 +356,7 @@
       "output_price": 10.0
     },
     {
-      "rank": 29,
+      "rank": 33,
       "model_id": "vertex/publishers/google/models/gemini-2.5-pro",
       "provider": "vertex",
       "name": "publishers/google/models/gemini-2.5-pro",
@@ -323,7 +367,18 @@
       "output_price": 10.0
     },
     {
-      "rank": 30,
+      "rank": 34,
+      "model_id": "sambanova/Llama-4-Maverick-17B-128E-Instruct",
+      "provider": "sambanova",
+      "name": "Llama-4-Maverick-17B-128E-Instruct",
+      "score": 0.0156,
+      "category_score": 0.007,
+      "avg_price_per_million": 0.45,
+      "input_price": 0.3,
+      "output_price": 0.6
+    },
+    {
+      "rank": 35,
       "model_id": "anthropic/claude-haiku-4-5-20251001",
       "provider": "anthropic",
       "name": "Claude Haiku 4.5",
@@ -334,18 +389,7 @@
       "output_price": 5.0
     },
     {
-      "rank": 31,
-      "model_id": "anthropic/claude-opus-4-5-20251101",
-      "provider": "anthropic",
-      "name": "Claude Opus 4.5",
-      "score": 0.0123,
-      "category_score": 0.1842,
-      "avg_price_per_million": 15.0,
-      "input_price": 5.0,
-      "output_price": 25.0
-    },
-    {
-      "rank": 32,
+      "rank": 36,
       "model_id": "grok-4-0709",
       "provider": "xai",
       "name": "grok-4-0709",
@@ -356,7 +400,7 @@
       "output_price": 15.0
     },
     {
-      "rank": 33,
+      "rank": 37,
       "model_id": "openai/gpt-4.1-2025-04-14",
       "provider": "openai",
       "name": "gpt-4.1-2025-04-14",
@@ -367,7 +411,7 @@
       "output_price": 4.0
     },
     {
-      "rank": 34,
+      "rank": 38,
       "model_id": "openai/gpt-4.1",
       "provider": "openai",
       "name": "gpt-4.1",
@@ -378,7 +422,7 @@
       "output_price": 4.0
     },
     {
-      "rank": 35,
+      "rank": 39,
       "model_id": "qwen/qwen-plus-2025-01-12",
       "provider": "qwen",
       "name": "qwen/qwen-plus-2025-01-12",
@@ -389,7 +433,7 @@
       "output_price": 4.0
     },
     {
-      "rank": 36,
+      "rank": 40,
       "model_id": "qwen/qwen-plus-2024-12-20",
       "provider": "qwen",
       "name": "qwen/qwen-plus-2024-12-20",
@@ -400,7 +444,7 @@
       "output_price": 4.0
     },
     {
-      "rank": 37,
+      "rank": 41,
       "model_id": "qwen/qwen-plus-2024-11-27",
       "provider": "qwen",
       "name": "qwen/qwen-plus-2024-11-27",
@@ -411,7 +455,7 @@
       "output_price": 4.0
     },
     {
-      "rank": 38,
+      "rank": 42,
       "model_id": "qwen/qwen-plus-2024-11-25",
       "provider": "qwen",
       "name": "qwen/qwen-plus-2024-11-25",
@@ -422,7 +466,7 @@
       "output_price": 4.0
     },
     {
-      "rank": 39,
+      "rank": 43,
       "model_id": "qwen/qwen-plus-2024-09-19",
       "provider": "qwen",
       "name": "qwen/qwen-plus-2024-09-19",
@@ -433,7 +477,7 @@
       "output_price": 4.0
     },
     {
-      "rank": 40,
+      "rank": 44,
       "model_id": "qwen/qwen-plus",
       "provider": "qwen",
       "name": "qwen/qwen-plus",
@@ -444,7 +488,7 @@
       "output_price": 4.0
     },
     {
-      "rank": 41,
+      "rank": 45,
       "model_id": "qwen/qwen-plus-2025-12-01",
       "provider": "qwen",
       "name": "qwen/qwen-plus-2025-12-01",
@@ -455,7 +499,7 @@
       "output_price": 4.0
     },
     {
-      "rank": 42,
+      "rank": 46,
       "model_id": "qwen/qwen-plus-2025-09-11",
       "provider": "qwen",
       "name": "qwen/qwen-plus-2025-09-11",
@@ -466,7 +510,7 @@
       "output_price": 4.0
     },
     {
-      "rank": 43,
+      "rank": 47,
       "model_id": "qwen/qwen-plus-2025-07-28",
       "provider": "qwen",
       "name": "qwen/qwen-plus-2025-07-28",
@@ -477,7 +521,7 @@
       "output_price": 4.0
     },
     {
-      "rank": 44,
+      "rank": 48,
       "model_id": "qwen/qwen-plus-latest",
       "provider": "qwen",
       "name": "qwen/qwen-plus-latest",
@@ -488,7 +532,7 @@
       "output_price": 4.0
     },
     {
-      "rank": 45,
+      "rank": 49,
       "model_id": "qwen/qwen-plus-2025-07-14",
       "provider": "qwen",
       "name": "qwen/qwen-plus-2025-07-14",
@@ -499,7 +543,7 @@
       "output_price": 4.0
     },
     {
-      "rank": 46,
+      "rank": 50,
       "model_id": "qwen/qwen-plus-2025-04-28",
       "provider": "qwen",
       "name": "qwen/qwen-plus-2025-04-28",
@@ -508,50 +552,6 @@
       "avg_price_per_million": 2.6,
       "input_price": 1.2,
       "output_price": 4.0
-    },
-    {
-      "rank": 47,
-      "model_id": "qwen/qwen-plus-2025-01-25",
-      "provider": "qwen",
-      "name": "qwen/qwen-plus-2025-01-25",
-      "score": 0.0065,
-      "category_score": 0.017,
-      "avg_price_per_million": 2.6,
-      "input_price": 1.2,
-      "output_price": 4.0
-    },
-    {
-      "rank": 48,
-      "model_id": "anthropic/claude-sonnet-4-5-20250929",
-      "provider": "anthropic",
-      "name": "Claude Sonnet 4.5",
-      "score": 0.0063,
-      "category_score": 0.057,
-      "avg_price_per_million": 9.0,
-      "input_price": 3.0,
-      "output_price": 15.0
-    },
-    {
-      "rank": 49,
-      "model_id": "qwen/qwen-plus-2024-08-06",
-      "provider": "qwen",
-      "name": "qwen/qwen-plus-2024-08-06",
-      "score": 0.0059,
-      "category_score": 0.017,
-      "avg_price_per_million": 2.8605,
-      "input_price": 1.721,
-      "output_price": 4.0
-    },
-    {
-      "rank": 50,
-      "model_id": "featherless/moonshotai/Kimi-K2-Thinking",
-      "provider": "featherless",
-      "name": "moonshotai/Kimi-K2-Thinking",
-      "score": 0.0036,
-      "category_score": 0.151,
-      "avg_price_per_million": 42.535,
-      "input_price": 1.07,
-      "output_price": 84.0
     }
   ]
 }

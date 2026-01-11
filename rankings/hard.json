@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-01-11T03:41:26.179213",
+  "generated_at": "2026-01-11T14:27:05.266113",
   "ranking_type": "hard",
   "count": 43,
   "models": [
     {
       "rank": 1,
-      "model_id": "openai/o3-mini-2025-01-31",
+      "model_id": "openai/o4-mini-2025-04-16",
       "provider": "openai",
-      "name": "o3-mini-2025-01-31",
-      "score": 0.4456,
-      "composite_score": 0.7803,
+      "name": "o4-mini-2025-04-16",
+      "score": 0.4299,
+      "composite_score": 0.7646,
       "benchmark_count": 8,
       "intelligence_tier": "P"
     },
     {
       "rank": 2,
-      "model_id": "openai/o3-2025-04-16",
+      "model_id": "openai/o3-mini-2025-01-31",
       "provider": "openai",
-      "name": "o3-2025-04-16",
-      "score": 0.4456,
-      "composite_score": 0.778,
-      "benchmark_count": 8,
+      "name": "o3-mini-2025-01-31",
+      "score": 0.4216,
+      "composite_score": 0.7204,
+      "benchmark_count": 9,
       "intelligence_tier": "P"
     },
     {
       "rank": 3,
-      "model_id": "openai/o4-mini-2025-04-16",
+      "model_id": "openai/o3-2025-04-16",
       "provider": "openai",
-      "name": "o4-mini-2025-04-16",
-      "score": 0.4299,
-      "composite_score": 0.8397,
-      "benchmark_count": 7,
+      "name": "o3-2025-04-16",
+      "score": 0.4216,
+      "composite_score": 0.7194,
+      "benchmark_count": 9,
       "intelligence_tier": "P"
     },
     {
@@ -39,98 +39,98 @@
       "provider": "google",
       "name": "gemini-3-pro-preview",
       "score": 0.3475,
-      "composite_score": 0.6694,
-      "benchmark_count": 8,
-      "intelligence_tier": "P"
-    },
-    {
-      "rank": 5,
-      "model_id": "google/gemini-3-flash-preview",
-      "provider": "google",
-      "name": "gemini-3-flash-preview",
-      "score": 0.199,
-      "composite_score": 0.6918,
-      "benchmark_count": 6,
-      "intelligence_tier": "P"
-    },
-    {
-      "rank": 6,
-      "model_id": "anthropic/claude-opus-4-5-20251101",
-      "provider": "anthropic",
-      "name": "Claude Opus 4.5",
-      "score": 0.1842,
-      "composite_score": 0.5593,
-      "benchmark_count": 10,
-      "intelligence_tier": "P"
-    },
-    {
-      "rank": 7,
-      "model_id": "featherless/moonshotai/Kimi-K2-Thinking",
-      "provider": "featherless",
-      "name": "moonshotai/Kimi-K2-Thinking",
-      "score": 0.151,
-      "composite_score": 0.365,
-      "benchmark_count": 3,
-      "intelligence_tier": "S"
-    },
-    {
-      "rank": 8,
-      "model_id": "fireworks/deepseek-v3p2",
-      "provider": "fireworks",
-      "name": "Deepseek v3.2",
-      "score": 0.121,
-      "composite_score": 0.221,
-      "benchmark_count": 1,
-      "intelligence_tier": "F"
-    },
-    {
-      "rank": 9,
-      "model_id": "xinference/deepseek-v2-chat",
-      "provider": "xinference",
-      "name": "deepseek-v2-chat",
-      "score": 0.121,
-      "composite_score": 0.221,
-      "benchmark_count": 1,
-      "intelligence_tier": "S"
-    },
-    {
-      "rank": 10,
-      "model_id": "grok-4-0709",
-      "provider": "xai",
-      "name": "grok-4-0709",
-      "score": 0.109,
-      "composite_score": 0.6372,
-      "benchmark_count": 8,
-      "intelligence_tier": "S"
-    },
-    {
-      "rank": 11,
-      "model_id": "deepinfra/google/gemini-2.5-pro",
-      "provider": "deepinfra",
-      "name": "google/gemini-2.5-pro",
-      "score": 0.0915,
-      "composite_score": 0.6292,
-      "benchmark_count": 5,
-      "intelligence_tier": "P"
-    },
-    {
-      "rank": 12,
-      "model_id": "anthropic/claude-opus-4-1-20250805",
-      "provider": "anthropic",
-      "name": "Claude Opus 4.1",
-      "score": 0.059,
-      "composite_score": 0.5446,
+      "composite_score": 0.5952,
       "benchmark_count": 9,
       "intelligence_tier": "P"
     },
     {
-      "rank": 13,
+      "rank": 5,
+      "model_id": "anthropic/claude-opus-4-5-20251101",
+      "provider": "anthropic",
+      "name": "Claude Opus 4.5",
+      "score": 0.2526,
+      "composite_score": 0.5188,
+      "benchmark_count": 12,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 6,
+      "model_id": "google/gemini-3-flash-preview",
+      "provider": "google",
+      "name": "gemini-3-flash-preview",
+      "score": 0.199,
+      "composite_score": 0.5737,
+      "benchmark_count": 7,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 7,
       "model_id": "anthropic/claude-sonnet-4-5-20250929",
       "provider": "anthropic",
       "name": "Claude Sonnet 4.5",
-      "score": 0.057,
-      "composite_score": 0.5614,
+      "score": 0.1963,
+      "composite_score": 0.5211,
+      "benchmark_count": 16,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 8,
+      "model_id": "featherless/moonshotai/Kimi-K2-Thinking",
+      "provider": "featherless",
+      "name": "moonshotai/Kimi-K2-Thinking",
+      "score": 0.151,
+      "composite_score": 0.3402,
+      "benchmark_count": 6,
+      "intelligence_tier": "S"
+    },
+    {
+      "rank": 9,
+      "model_id": "fireworks/deepseek-v3p2",
+      "provider": "fireworks",
+      "name": "Deepseek v3.2",
+      "score": 0.121,
+      "composite_score": 0.121,
+      "benchmark_count": 2,
+      "intelligence_tier": "F"
+    },
+    {
+      "rank": 10,
+      "model_id": "xinference/deepseek-v2-chat",
+      "provider": "xinference",
+      "name": "deepseek-v2-chat",
+      "score": 0.121,
+      "composite_score": 0.121,
+      "benchmark_count": 2,
+      "intelligence_tier": "S"
+    },
+    {
+      "rank": 11,
+      "model_id": "grok-4-0709",
+      "provider": "xai",
+      "name": "grok-4-0709",
+      "score": 0.109,
+      "composite_score": 0.5399,
       "benchmark_count": 11,
+      "intelligence_tier": "S"
+    },
+    {
+      "rank": 12,
+      "model_id": "deepinfra/google/gemini-2.5-pro",
+      "provider": "deepinfra",
+      "name": "google/gemini-2.5-pro",
+      "score": 0.0915,
+      "composite_score": 0.4983,
+      "benchmark_count": 6,
+      "intelligence_tier": "P"
+    },
+    {
+      "rank": 13,
+      "model_id": "anthropic/claude-opus-4-1-20250805",
+      "provider": "anthropic",
+      "name": "Claude Opus 4.1",
+      "score": 0.059,
+      "composite_score": 0.5563,
+      "benchmark_count": 12,
       "intelligence_tier": "P"
     },
     {
@@ -139,7 +139,7 @@
       "provider": "azure_openai",
       "name": "eu/gpt-4.1-mini",
       "score": 0.045,
-      "composite_score": 0.5692,
+      "composite_score": 0.4894,
       "benchmark_count": 9,
       "intelligence_tier": "S"
     },
@@ -149,8 +149,8 @@
       "provider": "deepinfra",
       "name": "google/gemini-2.5-flash",
       "score": 0.045,
-      "composite_score": 0.38,
-      "benchmark_count": 3,
+      "composite_score": 0.2605,
+      "benchmark_count": 4,
       "intelligence_tier": "S"
     },
     {
@@ -159,8 +159,8 @@
       "provider": "deepinfra",
       "name": "Qwen/Qwen3-235B-A22B-Thinking-2507",
       "score": 0.0425,
-      "composite_score": 0.5835,
-      "benchmark_count": 5,
+      "composite_score": 0.4514,
+      "benchmark_count": 6,
       "intelligence_tier": "S"
     },
     {
@@ -169,8 +169,8 @@
       "provider": "anthropic",
       "name": "Claude Haiku 4.5",
       "score": 0.041,
-      "composite_score": 0.53,
-      "benchmark_count": 8,
+      "composite_score": 0.5064,
+      "benchmark_count": 10,
       "intelligence_tier": "P"
     },
     {
@@ -179,7 +179,7 @@
       "provider": "bedrock",
       "name": "Claude 3.7 Sonnet",
       "score": 0.031,
-      "composite_score": 0.4524,
+      "composite_score": 0.4526,
       "benchmark_count": 7,
       "intelligence_tier": "S"
     },
@@ -189,8 +189,8 @@
       "provider": "featherless",
       "name": "zai-org/GLM-4.6",
       "score": 0.0295,
-      "composite_score": 0.4416,
-      "benchmark_count": 3,
+      "composite_score": 0.3626,
+      "benchmark_count": 6,
       "intelligence_tier": "S"
     },
     {
@@ -199,8 +199,8 @@
       "provider": "azure_openai",
       "name": "eu/gpt-4.1",
       "score": 0.0275,
-      "composite_score": 0.5675,
-      "benchmark_count": 10,
+      "composite_score": 0.4396,
+      "benchmark_count": 11,
       "intelligence_tier": "S"
     },
     {
@@ -209,8 +209,8 @@
       "provider": "anthropic",
       "name": "Claude Opus 4",
       "score": 0.0225,
-      "composite_score": 0.5527,
-      "benchmark_count": 9,
+      "composite_score": 0.4851,
+      "benchmark_count": 11,
       "intelligence_tier": "P"
     },
     {
@@ -219,8 +219,8 @@
       "provider": "anthropic",
       "name": "Claude Sonnet 4",
       "score": 0.0205,
-      "composite_score": 0.5358,
-      "benchmark_count": 10,
+      "composite_score": 0.4843,
+      "benchmark_count": 13,
       "intelligence_tier": "P"
     },
     {
@@ -229,8 +229,8 @@
       "provider": "deepinfra",
       "name": "deepseek-ai/DeepSeek-V3",
       "score": 0.017,
-      "composite_score": 0.4064,
-      "benchmark_count": 9,
+      "composite_score": 0.3802,
+      "benchmark_count": 10,
       "intelligence_tier": "S"
     },
     {
@@ -239,8 +239,8 @@
       "provider": "fireworks",
       "name": "Deepseek V3 03-24",
       "score": 0.017,
-      "composite_score": 0.4064,
-      "benchmark_count": 9,
+      "composite_score": 0.3802,
+      "benchmark_count": 10,
       "intelligence_tier": "F"
     },
     {
@@ -249,8 +249,8 @@
       "provider": "ollama",
       "name": "deepseek-v3.1",
       "score": 0.017,
-      "composite_score": 0.4064,
-      "benchmark_count": 9,
+      "composite_score": 0.3802,
+      "benchmark_count": 10,
       "intelligence_tier": "S"
     },
     {
@@ -259,8 +259,8 @@
       "provider": "ollama",
       "name": "deepseek-v2.5",
       "score": 0.017,
-      "composite_score": 0.4064,
-      "benchmark_count": 9,
+      "composite_score": 0.3802,
+      "benchmark_count": 10,
       "intelligence_tier": "S"
     },
     {
@@ -269,7 +269,7 @@
       "provider": "qwen",
       "name": "qwen/qwen-plus",
       "score": 0.017,
-      "composite_score": 0.364,
+      "composite_score": 0.3431,
       "benchmark_count": 6,
       "intelligence_tier": "S"
     },
@@ -279,7 +279,7 @@
       "provider": "qwen",
       "name": "qwen/qwen-plus-latest",
       "score": 0.017,
-      "composite_score": 0.364,
+      "composite_score": 0.3431,
       "benchmark_count": 6,
       "intelligence_tier": "S"
     },
@@ -289,7 +289,7 @@
       "provider": "vertex",
       "name": "publishers/google/models/gemini-2.0-flash-001",
       "score": 0.017,
-      "composite_score": 0.4352,
+      "composite_score": 0.4067,
       "benchmark_count": 6,
       "intelligence_tier": "S"
     },
@@ -299,8 +299,8 @@
       "provider": "xinference",
       "name": "deepseek",
       "score": 0.017,
-      "composite_score": 0.4064,
-      "benchmark_count": 9,
+      "composite_score": 0.3802,
+      "benchmark_count": 10,
       "intelligence_tier": "S"
     },
     {
@@ -309,8 +309,8 @@
       "provider": "bedrock",
       "name": "Claude 3.5 Sonnet v2",
       "score": 0.0105,
-      "composite_score": 0.4041,
-      "benchmark_count": 8,
+      "composite_score": 0.3196,
+      "benchmark_count": 9,
       "intelligence_tier": "S"
     },
     {
@@ -319,7 +319,7 @@
       "provider": "azure_openai",
       "name": "eu/gpt-4.1-nano",
       "score": 0.01,
-      "composite_score": 0.4729,
+      "composite_score": 0.3814,
       "benchmark_count": 8,
       "intelligence_tier": "S"
     },
@@ -329,7 +329,7 @@
       "provider": "qwen",
       "name": "qwen/qwen-max",
       "score": 0.01,
-      "composite_score": 0.3584,
+      "composite_score": 0.3393,
       "benchmark_count": 6,
       "intelligence_tier": "S"
     },
@@ -339,7 +339,7 @@
       "provider": "qwen",
       "name": "qwen/qwen-max-latest",
       "score": 0.01,
-      "composite_score": 0.3584,
+      "composite_score": 0.3393,
       "benchmark_count": 6,
       "intelligence_tier": "S"
     },
@@ -349,7 +349,7 @@
       "provider": "deepinfra",
       "name": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
       "score": 0.007,
-      "composite_score": 0.341,
+      "composite_score": 0.3251,
       "benchmark_count": 6,
       "intelligence_tier": "S"
     },
@@ -359,7 +359,7 @@
       "provider": "groq",
       "name": "Llama 4 Maverick 17B 128E meta-llama/llama-4-maverick-17b-128e-instruct",
       "score": 0.007,
-      "composite_score": 0.341,
+      "composite_score": 0.3251,
       "benchmark_count": 6,
       "intelligence_tier": "S"
     },
@@ -369,7 +369,7 @@
       "provider": "azure_openai",
       "name": "eu/gpt-4o",
       "score": 0.003,
-      "composite_score": 0.4041,
+      "composite_score": 0.322,
       "benchmark_count": 10,
       "intelligence_tier": "S"
     },
@@ -379,7 +379,7 @@
       "provider": "bedrock",
       "name": "Claude 3.5 Haiku",
       "score": 0.003,
-      "composite_score": 0.283,
+      "composite_score": 0.2324,
       "benchmark_count": 7,
       "intelligence_tier": "F"
     },
@@ -389,7 +389,7 @@
       "provider": "bedrock",
       "name": "Mistral Large (24.02)",
       "score": 0.003,
-      "composite_score": 0.3216,
+      "composite_score": 0.2763,
       "benchmark_count": 7,
       "intelligence_tier": "P"
     },
@@ -399,7 +399,7 @@
       "provider": "crusoe",
       "name": "mistral-large",
       "score": 0.003,
-      "composite_score": 0.3216,
+      "composite_score": 0.2763,
       "benchmark_count": 7,
       "intelligence_tier": "P"
     },
@@ -409,7 +409,7 @@
       "provider": "mistral",
       "name": "mistral-large-latest",
       "score": 0.003,
-      "composite_score": 0.3216,
+      "composite_score": 0.3119,
       "benchmark_count": 7,
       "intelligence_tier": "P"
     },
@@ -419,7 +419,7 @@
       "provider": "mistral",
       "name": "mistral-medium-latest",
       "score": 0.003,
-      "composite_score": 0.4215,
+      "composite_score": 0.4011,
       "benchmark_count": 5,
       "intelligence_tier": "S"
     },
@@ -429,7 +429,7 @@
       "provider": "openai",
       "name": "chatgpt-4o-latest",
       "score": 0.003,
-      "composite_score": 0.4041,
+      "composite_score": 0.322,
       "benchmark_count": 10,
       "intelligence_tier": "S"
     }

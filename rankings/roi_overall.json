@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-11T03:41:26.183703",
+  "generated_at": "2026-01-11T14:27:05.270788",
   "ranking_type": "roi_overall",
   "count": 50,
   "models": [
@@ -126,28 +126,6 @@
     },
     {
       "rank": 12,
-      "model_id": "openai/gpt-5-nano-2025-08-07",
-      "provider": "openai",
-      "name": "gpt-5-nano-2025-08-07",
-      "score": 6.7647,
-      "category_score": 0.761,
-      "avg_price_per_million": 0.1125,
-      "input_price": 0.025,
-      "output_price": 0.2
-    },
-    {
-      "rank": 13,
-      "model_id": "openai/gpt-5-nano",
-      "provider": "openai",
-      "name": "gpt-5-nano",
-      "score": 6.7647,
-      "category_score": 0.761,
-      "avg_price_per_million": 0.1125,
-      "input_price": 0.025,
-      "output_price": 0.2
-    },
-    {
-      "rank": 14,
       "model_id": "deepinfra/google/gemma-3-12b-it",
       "provider": "deepinfra",
       "name": "google/gemma-3-12b-it",
@@ -158,7 +136,7 @@
       "output_price": 0.13
     },
     {
-      "rank": 15,
+      "rank": 13,
       "model_id": "together/gemma-3n-E4B-it Other",
       "provider": "together",
       "name": "gemma-3n-E4B-it Other",
@@ -169,7 +147,7 @@
       "output_price": 0.04
     },
     {
-      "rank": 16,
+      "rank": 14,
       "model_id": "deepinfra/meta-llama/Llama-3.2-3B-Instruct",
       "provider": "deepinfra",
       "name": "meta-llama/Llama-3.2-3B-Instruct",
@@ -180,7 +158,7 @@
       "output_price": 0.02
     },
     {
-      "rank": 17,
+      "rank": 15,
       "model_id": "yandex/yandexgpt-lite",
       "provider": "yandex",
       "name": "yandexgpt-lite",
@@ -191,29 +169,40 @@
       "output_price": 0.02
     },
     {
-      "rank": 18,
+      "rank": 16,
       "model_id": "deepinfra/meta-llama/Meta-Llama-3-8B-Instruct",
       "provider": "deepinfra",
       "name": "meta-llama/Meta-Llama-3-8B-Instruct",
-      "score": 6.0741,
+      "score": 6.0734,
       "category_score": 0.2733,
       "avg_price_per_million": 0.045,
       "input_price": 0.03,
       "output_price": 0.06
     },
     {
-      "rank": 19,
-      "model_id": "deepinfra/microsoft/phi-4",
-      "provider": "deepinfra",
-      "name": "microsoft/phi-4",
-      "score": 5.2286,
-      "category_score": 0.549,
-      "avg_price_per_million": 0.105,
-      "input_price": 0.07,
-      "output_price": 0.14
+      "rank": 17,
+      "model_id": "openai/gpt-5-nano-2025-08-07",
+      "provider": "openai",
+      "name": "gpt-5-nano-2025-08-07",
+      "score": 5.62,
+      "category_score": 0.6323,
+      "avg_price_per_million": 0.1125,
+      "input_price": 0.025,
+      "output_price": 0.2
     },
     {
-      "rank": 20,
+      "rank": 18,
+      "model_id": "openai/gpt-5-nano",
+      "provider": "openai",
+      "name": "gpt-5-nano",
+      "score": 5.62,
+      "category_score": 0.6323,
+      "avg_price_per_million": 0.1125,
+      "input_price": 0.025,
+      "output_price": 0.2
+    },
+    {
+      "rank": 19,
       "model_id": "deepinfra/meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
       "provider": "deepinfra",
       "name": "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
@@ -222,6 +211,17 @@
       "avg_price_per_million": 0.025,
       "input_price": 0.02,
       "output_price": 0.03
+    },
+    {
+      "rank": 20,
+      "model_id": "deepinfra/microsoft/phi-4",
+      "provider": "deepinfra",
+      "name": "microsoft/phi-4",
+      "score": 4.8869,
+      "category_score": 0.5131,
+      "avg_price_per_million": 0.105,
+      "input_price": 0.07,
+      "output_price": 0.14
     },
     {
       "rank": 21,
@@ -247,28 +247,17 @@
     },
     {
       "rank": 23,
-      "model_id": "openai/gpt-4.1-nano-2025-04-14",
-      "provider": "openai",
-      "name": "gpt-4.1-nano-2025-04-14",
-      "score": 3.783,
-      "category_score": 0.4729,
-      "avg_price_per_million": 0.125,
-      "input_price": 0.05,
-      "output_price": 0.2
+      "model_id": "cloudflare/mistral/mistral-7b-instruct-v0.1",
+      "provider": "cloudflare",
+      "name": "@cf/mistral/mistral-7b-instruct-v0.1",
+      "score": 4.04,
+      "category_score": 0.606,
+      "avg_price_per_million": 0.15,
+      "input_price": 0.11,
+      "output_price": 0.19
     },
     {
       "rank": 24,
-      "model_id": "openai/gpt-4.1-nano",
-      "provider": "openai",
-      "name": "gpt-4.1-nano",
-      "score": 3.783,
-      "category_score": 0.4729,
-      "avg_price_per_million": 0.125,
-      "input_price": 0.05,
-      "output_price": 0.2
-    },
-    {
-      "rank": 25,
       "model_id": "nebius/google/gemma-2-9b-it-fast",
       "provider": "nebius",
       "name": "google/gemma-2-9b-it-fast",
@@ -279,29 +268,29 @@
       "output_price": 0.09
     },
     {
+      "rank": 25,
+      "model_id": "google/gemini-2.0-flash-lite",
+      "provider": "google",
+      "name": "gemini-2.0-flash-lite",
+      "score": 3.2523,
+      "category_score": 0.6098,
+      "avg_price_per_million": 0.1875,
+      "input_price": 0.075,
+      "output_price": 0.3
+    },
+    {
       "rank": 26,
       "model_id": "deepinfra/google/gemma-3-27b-it",
       "provider": "deepinfra",
       "name": "google/gemma-3-27b-it",
-      "score": 3.3333,
-      "category_score": 0.4167,
+      "score": 3.1364,
+      "category_score": 0.3921,
       "avg_price_per_million": 0.125,
       "input_price": 0.09,
       "output_price": 0.16
     },
     {
       "rank": 27,
-      "model_id": "google/gemini-2.0-flash-lite",
-      "provider": "google",
-      "name": "gemini-2.0-flash-lite",
-      "score": 3.2347,
-      "category_score": 0.6065,
-      "avg_price_per_million": 0.1875,
-      "input_price": 0.075,
-      "output_price": 0.3
-    },
-    {
-      "rank": 28,
       "model_id": "nebius/meta-llama/Llama-Guard-3-8B",
       "provider": "nebius",
       "name": "meta-llama/Llama-Guard-3-8B",
@@ -312,95 +301,117 @@
       "output_price": 0.06
     },
     {
+      "rank": 28,
+      "model_id": "openai/gpt-4.1-nano-2025-04-14",
+      "provider": "openai",
+      "name": "gpt-4.1-nano-2025-04-14",
+      "score": 3.0508,
+      "category_score": 0.3814,
+      "avg_price_per_million": 0.125,
+      "input_price": 0.05,
+      "output_price": 0.2
+    },
+    {
       "rank": 29,
+      "model_id": "openai/gpt-4.1-nano",
+      "provider": "openai",
+      "name": "gpt-4.1-nano",
+      "score": 3.0508,
+      "category_score": 0.3814,
+      "avg_price_per_million": 0.125,
+      "input_price": 0.05,
+      "output_price": 0.2
+    },
+    {
+      "rank": 30,
+      "model_id": "cloudflare/google/gemma-3-12b-it",
+      "provider": "cloudflare",
+      "name": "@cf/google/gemma-3-12b-it",
+      "score": 2.5892,
+      "category_score": 0.5683,
+      "avg_price_per_million": 0.2195,
+      "input_price": 0.152,
+      "output_price": 0.287
+    },
+    {
+      "rank": 31,
+      "model_id": "cloudflare/meta/llama-3.2-11b-vision-instruct",
+      "provider": "cloudflare",
+      "name": "@cf/meta/llama-3.2-11b-vision-instruct",
+      "score": 2.574,
+      "category_score": 0.565,
+      "avg_price_per_million": 0.2195,
+      "input_price": 0.152,
+      "output_price": 0.287
+    },
+    {
+      "rank": 32,
+      "model_id": "sambanova/Meta-Llama-3.1-8B-Instruct",
+      "provider": "sambanova",
+      "name": "Meta-Llama-3.1-8B-Instruct",
+      "score": 2.3444,
+      "category_score": 0.3517,
+      "avg_price_per_million": 0.15,
+      "input_price": 0.1,
+      "output_price": 0.2
+    },
+    {
+      "rank": 33,
       "model_id": "deepinfra/Qwen/Qwen3-32B",
       "provider": "deepinfra",
       "name": "Qwen/Qwen3-32B",
-      "score": 2.6698,
-      "category_score": 0.4806,
+      "score": 2.2097,
+      "category_score": 0.3977,
       "avg_price_per_million": 0.18,
       "input_price": 0.08,
       "output_price": 0.28
     },
     {
-      "rank": 30,
-      "model_id": "deepinfra/Qwen/Qwen3-30B-A3B",
-      "provider": "deepinfra",
-      "name": "Qwen/Qwen3-30B-A3B",
-      "score": 2.6066,
-      "category_score": 0.4822,
-      "avg_price_per_million": 0.185,
-      "input_price": 0.08,
-      "output_price": 0.29
-    },
-    {
-      "rank": 31,
-      "model_id": "openai/gpt-4o-mini-2024-07-18",
-      "provider": "openai",
-      "name": "gpt-4o-mini-2024-07-18",
-      "score": 2.5452,
-      "category_score": 0.4772,
-      "avg_price_per_million": 0.1875,
-      "input_price": 0.075,
-      "output_price": 0.3
-    },
-    {
-      "rank": 32,
-      "model_id": "openai/gpt-4o-mini",
-      "provider": "openai",
-      "name": "gpt-4o-mini",
-      "score": 2.5175,
-      "category_score": 0.472,
-      "avg_price_per_million": 0.1875,
-      "input_price": 0.075,
-      "output_price": 0.3
-    },
-    {
-      "rank": 33,
-      "model_id": "nebius/Qwen/Qwen3-30B-A3B-Instruct-2507",
-      "provider": "nebius",
-      "name": "Qwen/Qwen3-30B-A3B-Instruct-2507",
-      "score": 2.4111,
-      "category_score": 0.4822,
-      "avg_price_per_million": 0.2,
-      "input_price": 0.1,
-      "output_price": 0.3
-    },
-    {
       "rank": 34,
-      "model_id": "nebius/Qwen/Qwen3-32B",
-      "provider": "nebius",
-      "name": "Qwen/Qwen3-32B",
-      "score": 2.4028,
-      "category_score": 0.4806,
-      "avg_price_per_million": 0.2,
-      "input_price": 0.1,
-      "output_price": 0.3
+      "model_id": "deepinfra/Qwen/Qwen3-235B-A22B-Instruct-2507",
+      "provider": "deepinfra",
+      "name": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+      "score": 2.1503,
+      "category_score": 0.5741,
+      "avg_price_per_million": 0.267,
+      "input_price": 0.071,
+      "output_price": 0.463
     },
     {
       "rank": 35,
       "model_id": "mistral-small-latest",
       "provider": "mistral",
       "name": "mistral-small-latest",
-      "score": 2.2377,
-      "category_score": 0.4475,
+      "score": 2.1207,
+      "category_score": 0.4241,
       "avg_price_per_million": 0.2,
       "input_price": 0.1,
       "output_price": 0.3
     },
     {
       "rank": 36,
-      "model_id": "deepinfra/Qwen/Qwen3-235B-A22B-Instruct-2507",
-      "provider": "deepinfra",
-      "name": "Qwen/Qwen3-235B-A22B-Instruct-2507",
-      "score": 2.1913,
-      "category_score": 0.5851,
-      "avg_price_per_million": 0.267,
-      "input_price": 0.071,
-      "output_price": 0.463
+      "model_id": "siliconflow/Qwen/Qwen2.5-32B-Instruct",
+      "provider": "siliconflow",
+      "name": "Qwen/Qwen2.5-32B-Instruct",
+      "score": 2.1056,
+      "category_score": 0.379,
+      "avg_price_per_million": 0.18,
+      "input_price": 0.18,
+      "output_price": 0.18
     },
     {
       "rank": 37,
+      "model_id": "ministral-3b-latest",
+      "provider": "mistral",
+      "name": "ministral-3b-latest",
+      "score": 2.094,
+      "category_score": 0.2094,
+      "avg_price_per_million": 0.1,
+      "input_price": 0.1,
+      "output_price": 0.1
+    },
+    {
+      "rank": 38,
       "model_id": "nebius/meta-llama/Meta-Llama-3.1-8B-Instruct-fast",
       "provider": "nebius",
       "name": "meta-llama/Meta-Llama-3.1-8B-Instruct-fast",
@@ -411,7 +422,7 @@
       "output_price": 0.09
     },
     {
-      "rank": 38,
+      "rank": 39,
       "model_id": "nebius/Qwen/Qwen2.5-Coder-7B-fast",
       "provider": "nebius",
       "name": "Qwen/Qwen2.5-Coder-7B-fast",
@@ -422,7 +433,7 @@
       "output_price": 0.09
     },
     {
-      "rank": 39,
+      "rank": 40,
       "model_id": "together/Llama 3.2 3B Instruct Turbo Llama",
       "provider": "together",
       "name": "Llama 3.2 3B Instruct Turbo Llama",
@@ -431,17 +442,6 @@
       "avg_price_per_million": 0.06,
       "input_price": 0.06,
       "output_price": 0.06
-    },
-    {
-      "rank": 40,
-      "model_id": "nebius/google/gemma-3-27b-it",
-      "provider": "nebius",
-      "name": "google/gemma-3-27b-it",
-      "score": 2.0833,
-      "category_score": 0.4167,
-      "avg_price_per_million": 0.2,
-      "input_price": 0.1,
-      "output_price": 0.3
     },
     {
       "rank": 41,
@@ -456,39 +456,50 @@
     },
     {
       "rank": 42,
+      "model_id": "nebius/Qwen/Qwen3-32B",
+      "provider": "nebius",
+      "name": "Qwen/Qwen3-32B",
+      "score": 1.9887,
+      "category_score": 0.3977,
+      "avg_price_per_million": 0.2,
+      "input_price": 0.1,
+      "output_price": 0.3
+    },
+    {
+      "rank": 43,
+      "model_id": "nebius/google/gemma-3-27b-it",
+      "provider": "nebius",
+      "name": "google/gemma-3-27b-it",
+      "score": 1.9603,
+      "category_score": 0.3921,
+      "avg_price_per_million": 0.2,
+      "input_price": 0.1,
+      "output_price": 0.3
+    },
+    {
+      "rank": 44,
       "model_id": "deepinfra/Qwen/Qwen2.5-72B-Instruct",
       "provider": "deepinfra",
       "name": "Qwen/Qwen2.5-72B-Instruct",
-      "score": 1.9932,
-      "category_score": 0.5083,
+      "score": 1.946,
+      "category_score": 0.4962,
       "avg_price_per_million": 0.255,
       "input_price": 0.12,
       "output_price": 0.39
     },
     {
-      "rank": 43,
-      "model_id": "ministral-3b-latest",
-      "provider": "mistral",
-      "name": "ministral-3b-latest",
-      "score": 1.985,
-      "category_score": 0.1985,
-      "avg_price_per_million": 0.1,
-      "input_price": 0.1,
-      "output_price": 0.1
-    },
-    {
-      "rank": 44,
-      "model_id": "google/gemini-2.0-flash",
-      "provider": "google",
-      "name": "gemini-2.0-flash",
-      "score": 1.9368,
-      "category_score": 0.4842,
-      "avg_price_per_million": 0.25,
-      "input_price": 0.1,
-      "output_price": 0.4
-    },
-    {
       "rank": 45,
+      "model_id": "openai/gpt-4o-mini-2024-07-18",
+      "provider": "openai",
+      "name": "gpt-4o-mini-2024-07-18",
+      "score": 1.9274,
+      "category_score": 0.3614,
+      "avg_price_per_million": 0.1875,
+      "input_price": 0.075,
+      "output_price": 0.3
+    },
+    {
+      "rank": 46,
       "model_id": "deepinfra/deepseek-ai/DeepSeek-OCR",
       "provider": "deepinfra",
       "name": "deepseek-ai/DeepSeek-OCR",
@@ -499,7 +510,7 @@
       "output_price": 0.1
     },
     {
-      "rank": 46,
+      "rank": 47,
       "model_id": "grok-4-fast-reasoning",
       "provider": "xai",
       "name": "grok-4-fast-reasoning",
@@ -510,26 +521,15 @@
       "output_price": 0.5
     },
     {
-      "rank": 47,
-      "model_id": "deepseek-reasoner",
-      "provider": "deepseek",
-      "name": "deepseek-reasoner",
-      "score": 1.8907,
-      "category_score": 0.6618,
-      "avg_price_per_million": 0.35,
-      "input_price": 0.28,
-      "output_price": 0.42
-    },
-    {
       "rank": 48,
-      "model_id": "deepseek-chat",
-      "provider": "deepseek",
-      "name": "deepseek-chat",
-      "score": 1.8714,
-      "category_score": 0.655,
-      "avg_price_per_million": 0.35,
-      "input_price": 0.28,
-      "output_price": 0.42
+      "model_id": "openai/gpt-4o-mini",
+      "provider": "openai",
+      "name": "gpt-4o-mini",
+      "score": 1.8998,
+      "category_score": 0.3562,
+      "avg_price_per_million": 0.1875,
+      "input_price": 0.075,
+      "output_price": 0.3
     },
     {
       "rank": 49,
@@ -544,14 +544,14 @@
     },
     {
       "rank": 50,
-      "model_id": "siliconflow/deepseek-ai/DeepSeek-V3.2",
-      "provider": "siliconflow",
-      "name": "deepseek-ai/DeepSeek-V3.2",
-      "score": 1.843,
-      "category_score": 0.6451,
-      "avg_price_per_million": 0.35,
-      "input_price": 0.28,
-      "output_price": 0.42
+      "model_id": "deepinfra/Qwen/Qwen3-30B-A3B",
+      "provider": "deepinfra",
+      "name": "Qwen/Qwen3-30B-A3B",
+      "score": 1.8258,
+      "category_score": 0.3378,
+      "avg_price_per_million": 0.185,
+      "input_price": 0.08,
+      "output_price": 0.29
     }
   ]
 }

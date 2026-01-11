@@ -1,8 +1,8 @@
 {
   "total_providers": 108,
-  "total_models": 11757,
-  "models_with_pricing": 1586,
-  "models_with_benchmarks": 1211,
+  "total_models": 11481,
+  "models_with_pricing": 1783,
+  "models_with_benchmarks": 1222,
   "providers": [
     {
       "name": "featherless",
@@ -24,13 +24,6 @@
       "model_count": 349,
       "with_pricing": 349,
       "with_benchmarks": 134
-    },
-    {
-      "name": "edenai",
-      "display_name": "edenai",
-      "model_count": 285,
-      "with_pricing": 0,
-      "with_benchmarks": 0
     },
     {
       "name": "qwen",
@@ -99,7 +92,7 @@
       "name": "vercel",
       "display_name": "vercel",
       "model_count": 117,
-      "with_pricing": 19,
+      "with_pricing": 96,
       "with_benchmarks": 65
     },
     {
@@ -120,7 +113,7 @@
       "name": "helicone",
       "display_name": "helicone",
       "model_count": 100,
-      "with_pricing": 21,
+      "with_pricing": 84,
       "with_benchmarks": 69
     },
     {
@@ -148,7 +141,7 @@
       "name": "cloudflare",
       "display_name": "cloudflare",
       "model_count": 77,
-      "with_pricing": 1,
+      "with_pricing": 19,
       "with_benchmarks": 21
     },
     {
@@ -156,13 +149,13 @@
       "display_name": "mistral",
       "model_count": 70,
       "with_pricing": 51,
-      "with_benchmarks": 12
+      "with_benchmarks": 16
     },
     {
       "name": "portkey",
       "display_name": "portkey",
       "model_count": 55,
-      "with_pricing": 0,
+      "with_pricing": 23,
       "with_benchmarks": 25
     },
     {
@@ -229,6 +222,13 @@
       "with_benchmarks": 0
     },
     {
+      "name": "sambanova",
+      "display_name": "sambanova",
+      "model_count": 18,
+      "with_pricing": 15,
+      "with_benchmarks": 14
+    },
+    {
       "name": "groq",
       "display_name": "groq",
       "model_count": 16,
@@ -257,11 +257,11 @@
       "with_benchmarks": 0
     },
     {
-      "name": "sambanova",
-      "display_name": "sambanova",
+      "name": "siliconflow",
+      "display_name": "siliconflow",
       "model_count": 13,
-      "with_pricing": 1,
-      "with_benchmarks": 9
+      "with_pricing": 10,
+      "with_benchmarks": 10
     },
     {
       "name": "kakao",
@@ -401,13 +401,6 @@
       "display_name": "nscale",
       "model_count": 7,
       "with_pricing": 2,
-      "with_benchmarks": 6
-    },
-    {
-      "name": "siliconflow",
-      "display_name": "siliconflow",
-      "model_count": 7,
-      "with_pricing": 6,
       "with_benchmarks": 6
     },
     {
@@ -693,13 +686,6 @@
     {
       "name": "ai21",
       "display_name": "ai21",
-      "model_count": 2,
-      "with_pricing": 2,
-      "with_benchmarks": 2
-    },
-    {
-      "name": "deepseek",
-      "display_name": "deepseek",
       "model_count": 2,
       "with_pricing": 2,
       "with_benchmarks": 2

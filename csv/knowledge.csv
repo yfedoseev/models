@@ -1,51 +1,51 @@
 rank,name,provider,score
-1,o3-2025-04-16,openai,0.929
-2,gpt-5-2025-08-07,openai,0.923
-3,gpt-5-mini-2025-08-07,openai,0.923
-4,gpt-5-nano-2025-08-07,openai,0.923
-5,gpt-5-codex,openai,0.923
-6,gpt-5-pro-2025-10-06,openai,0.923
-7,gpt-5-search-api,openai,0.923
-8,gpt-5.1-chat-latest,openai,0.923
-9,gpt-5.1-codex,openai,0.923
-10,gpt-5.1-codex-mini,openai,0.923
-11,gpt-5.1-codex-max,openai,0.923
-12,gpt-5.2-2025-12-11,openai,0.923
-13,gpt-5.2-pro-2025-12-11,openai,0.923
-14,o1-2024-12-17,openai,0.908
-15,o1-pro-2025-03-19,openai,0.908
-16,eu/gpt-4.1,azure_openai,0.902
-17,eu/o4-mini,azure_openai,0.9
-18,eu/gpt-4.1-mini,azure_openai,0.875
-19,Claude 3.5 Sonnet v2,bedrock,0.873
-20,eu/gpt-4o,azure_openai,0.872
-21,chatgpt-4o-latest,openai,0.872
-22,gpt-4-turbo-preview,openai,0.867
-23,Llama 3.3 70B Instruct,bedrock,0.863
-24,Llama 3.3 70B,cerebras,0.863
-25,mlx-community/Llama-3.3-70B-Instruct-bf16,featherless,0.863
-26,eu/o3-mini,azure_openai,0.859
-27,eu/gpt-4,azure_openai,0.856
-28,eu/o1-mini,azure_openai,0.852
-29,deepseek-ai/DeepSeek-V3,deepinfra,0.85
-30,Deepseek V3 03-24,fireworks,0.85
-31,deepseek-v2,ollama,0.85
-32,deepseek-v3.1,ollama,0.85
-33,deepseek-v2.5,ollama,0.85
-34,deepseek,xinference,0.85
-35,DeepSeek-V3.2,xinference,0.85
-36,microsoft/phi-4,deepinfra,0.848
-37,phi4,ollama,0.848
-38,Llama 3.1 405B,baseten,0.8355
-39,Llama 3.1 405B Instruct,bedrock,0.8355
-40,llama3.1-405b,snowflake,0.8355
-41,Qwen/Qwen2-72B-Instruct,featherless,0.824
-42,eu/gpt-4o-mini,azure_openai,0.82
-43,Nova Pro,bedrock,0.82
-44,meta/llama-3.2-90b-vision-instruct,nvidia_nim,0.803
-45,Llama 3.1 70B,baseten,0.801
-46,Llama 3.1 70B Instruct,bedrock,0.801
-47,llama3.1-70b,snowflake,0.801
-48,eu/gpt-4.1-nano,azure_openai,0.801
-49,Mistral Large (24.02),bedrock,0.8
-50,mistral-large,crusoe,0.8
+1,gemini-3-pro-preview,ollama,0.729
+2,Qwen3 Max,novita,0.675
+3,gemini-3-flash-preview,google,0.674
+4,google/gemini-2.5-pro,deepinfra,0.56
+5,Qwen/Qwen3-235B-A22B-Thinking-2507,deepinfra,0.501
+6,grok-4-0709,xai,0.479
+7,deepseek-r1,crusoe,0.274
+8,DeepSeek R1 (Fast),fireworks,0.274
+9,Claude Sonnet 4.5,anthropic,0.13
+10,Claude 3.5 Haiku,bedrock,0.067
+11,o3-2025-04-16,openai,0.929
+12,gpt-5-2025-08-07,openai,0.923
+13,gpt-5-mini-2025-08-07,openai,0.923
+14,gpt-5-nano-2025-08-07,openai,0.923
+15,gpt-5-codex,openai,0.923
+16,gpt-5-pro-2025-10-06,openai,0.923
+17,gpt-5-search-api,openai,0.923
+18,gpt-5.1-chat-latest,openai,0.923
+19,gpt-5.1-codex,openai,0.923
+20,gpt-5.1-codex-mini,openai,0.923
+21,gpt-5.1-codex-max,openai,0.923
+22,gpt-5.2-2025-12-11,openai,0.923
+23,gpt-5.2-pro-2025-12-11,openai,0.923
+24,o1-2024-12-17,openai,0.908
+25,o1-pro-2025-03-19,openai,0.908
+26,eu/gpt-4.1,azure_openai,0.902
+27,eu/o4-mini,azure_openai,0.9
+28,eu/gpt-4.1-mini,azure_openai,0.875
+29,Claude 3.5 Sonnet v2,bedrock,0.873
+30,eu/gpt-4o,azure_openai,0.872
+31,chatgpt-4o-latest,openai,0.872
+32,deepseek-ai/DeepSeek-V3,deepinfra,0.871
+33,Deepseek V3 03-24,fireworks,0.871
+34,deepseek-v2,ollama,0.871
+35,deepseek-v3.1,ollama,0.871
+36,deepseek-v2.5,ollama,0.871
+37,deepseek,xinference,0.871
+38,DeepSeek-V3.2,xinference,0.871
+39,gpt-4-turbo-preview,openai,0.867
+40,eu/gpt-4,azure_openai,0.864
+41,Llama 3.3 70B Instruct,bedrock,0.863
+42,Llama 3.3 70B,cerebras,0.863
+43,mlx-community/Llama-3.3-70B-Instruct-bf16,featherless,0.863
+44,eu/o3-mini,azure_openai,0.859
+45,eu/o1-mini,azure_openai,0.852
+46,microsoft/phi-4,deepinfra,0.848
+47,phi4,ollama,0.848
+48,Llama 3.1 405B,baseten,0.844
+49,Llama 3.1 405B Instruct,bedrock,0.844
+50,llama3.1-405b,snowflake,0.844

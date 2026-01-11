@@ -70,6 +70,8 @@
       "name": "@cf/deepseek-ai/deepseek-math-7b-instruct",
       "provider": "cloudflare",
       "model_id": "@cf/deepseek-ai/deepseek-math-7b-instruct",
+      "input_price_per_million": 0.11,
+      "output_price_per_million": 0.19,
       "model_type": "unknown"
     },
     {
@@ -77,6 +79,8 @@
       "name": "@cf/deepseek-ai/deepseek-r1-distill-qwen-32b",
       "provider": "cloudflare",
       "model_id": "@cf/deepseek-ai/deepseek-r1-distill-qwen-32b",
+      "input_price_per_million": 0.497,
+      "output_price_per_million": 4.881,
       "model_type": "chat"
     },
     {
@@ -160,6 +164,8 @@
       "provider": "cloudflare",
       "model_id": "@cf/google/gemma-3-12b-it",
       "context_window": 8192,
+      "input_price_per_million": 0.152,
+      "output_price_per_million": 0.287,
       "benchmarks": {
         "arena_elo": 1341.0
       },
@@ -253,6 +259,8 @@
       "name": "@cf/meta/llama-3-8b-instruct",
       "provider": "cloudflare",
       "model_id": "@cf/meta/llama-3-8b-instruct",
+      "input_price_per_million": 0.152,
+      "output_price_per_million": 0.287,
       "benchmarks": {
         "gpqa_diamond": 2.125,
         "ifeval": 24.013,
@@ -266,6 +274,8 @@
       "name": "@cf/meta/llama-3-8b-instruct-awq",
       "provider": "cloudflare",
       "model_id": "@cf/meta/llama-3-8b-instruct-awq",
+      "input_price_per_million": 0.152,
+      "output_price_per_million": 0.287,
       "benchmarks": {
         "gpqa_diamond": 2.125,
         "ifeval": 24.013,
@@ -280,6 +290,8 @@
       "provider": "cloudflare",
       "model_id": "@cf/meta/llama-3.1-70b-instruct",
       "context_window": 131072,
+      "input_price_per_million": 0.293,
+      "output_price_per_million": 2.253,
       "benchmarks": {
         "gpqa_diamond": 0.442,
         "mmlu": 0.801,
@@ -294,6 +306,8 @@
       "provider": "cloudflare",
       "model_id": "@cf/meta/llama-3.1-8b-instruct-awq",
       "context_window": 131072,
+      "input_price_per_million": 0.152,
+      "output_price_per_million": 0.287,
       "benchmarks": {
         "gpqa_diamond": 0.259,
         "mmlu": 0.561,
@@ -309,6 +323,8 @@
       "provider": "cloudflare",
       "model_id": "@cf/meta/llama-3.1-8b-instruct-fast",
       "context_window": 131072,
+      "input_price_per_million": 0.152,
+      "output_price_per_million": 0.287,
       "model_type": "chat"
     },
     {
@@ -317,6 +333,8 @@
       "provider": "cloudflare",
       "model_id": "@cf/meta/llama-3.1-8b-instruct-fp8",
       "context_window": 131072,
+      "input_price_per_million": 0.152,
+      "output_price_per_million": 0.287,
       "benchmarks": {
         "gpqa_diamond": 0.259,
         "mmlu": 0.561,
@@ -332,6 +350,8 @@
       "provider": "cloudflare",
       "model_id": "@cf/meta/llama-3.1-8b-instruct",
       "context_window": 131072,
+      "input_price_per_million": 0.152,
+      "output_price_per_million": 0.287,
       "benchmarks": {
         "gpqa_diamond": 0.259,
         "mmlu": 0.561,
@@ -347,6 +367,8 @@
       "provider": "cloudflare",
       "model_id": "@cf/meta/llama-3.2-11b-vision-instruct",
       "context_window": 131072,
+      "input_price_per_million": 0.152,
+      "output_price_per_million": 0.287,
       "benchmarks": {
         "mmlu": 0.565
       },
@@ -357,6 +379,8 @@
       "name": "@cf/meta/llama-3.2-1b-instruct",
       "provider": "cloudflare",
       "model_id": "@cf/meta/llama-3.2-1b-instruct",
+      "input_price_per_million": 0.027,
+      "output_price_per_million": 0.201,
       "model_type": "chat"
     },
     {
@@ -364,6 +388,8 @@
       "name": "@cf/meta/llama-3.2-3b-instruct",
       "provider": "cloudflare",
       "model_id": "@cf/meta/llama-3.2-3b-instruct",
+      "input_price_per_million": 0.055,
+      "output_price_per_million": 0.201,
       "model_type": "chat"
     },
     {
@@ -372,6 +398,8 @@
       "provider": "cloudflare",
       "model_id": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
       "context_window": 131072,
+      "input_price_per_million": 0.293,
+      "output_price_per_million": 2.253,
       "model_type": "chat"
     },
     {
@@ -427,6 +455,8 @@
       "name": "@cf/mistral/mistral-7b-instruct-v0.1",
       "provider": "cloudflare",
       "model_id": "@cf/mistral/mistral-7b-instruct-v0.1",
+      "input_price_per_million": 0.11,
+      "output_price_per_million": 0.19,
       "benchmarks": {
         "mmlu": 0.566,
         "gsm8k": 0.5,
@@ -447,6 +477,8 @@
       "provider": "cloudflare",
       "model_id": "@cf/mistralai/mistral-small-3.1-24b-instruct",
       "context_window": 32768,
+      "input_price_per_million": 0.293,
+      "output_price_per_million": 2.253,
       "benchmarks": {
         "arena_elo": 1304.0
       },
@@ -533,6 +565,8 @@
       "provider": "cloudflare",
       "model_id": "@cf/qwen/qwen2.5-coder-32b-instruct",
       "context_window": 32768,
+      "input_price_per_million": 0.497,
+      "output_price_per_million": 4.881,
       "benchmarks": {
         "mmlu": 0.791,
         "gsm8k": 0.911,
@@ -546,6 +580,8 @@
       "name": "@cf/qwen/qwen3-30b-a3b-fp8",
       "provider": "cloudflare",
       "model_id": "@cf/qwen/qwen3-30b-a3b-fp8",
+      "input_price_per_million": 0.293,
+      "output_price_per_million": 2.253,
       "benchmarks": {
         "arena_elo": 1326.0,
         "livebench_global": 42.11,
@@ -565,6 +601,8 @@
       "provider": "cloudflare",
       "model_id": "@cf/qwen/qwq-32b",
       "context_window": 32768,
+      "input_price_per_million": 0.497,
+      "output_price_per_million": 4.881,
       "benchmarks": {
         "aider_polyglot": 20.9,
         "arena_elo": 1159.0

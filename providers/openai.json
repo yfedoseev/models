@@ -1487,7 +1487,7 @@
       "input_price_per_million": 0.875,
       "output_price_per_million": 7.0,
       "benchmarks": {
-        "arena_elo": 1440.0,
+        "arena_elo": 1425.0,
         "swe_bench_verified": 0.763,
         "gpqa_diamond": 0.842,
         "mmlu": 0.923
@@ -1503,7 +1503,7 @@
       "input_price_per_million": 0.875,
       "output_price_per_million": 7.0,
       "benchmarks": {
-        "arena_elo": 1440.0,
+        "arena_elo": 1425.0,
         "swe_bench_verified": 0.763,
         "gpqa_diamond": 0.842,
         "mmlu": 0.923
@@ -1549,7 +1549,7 @@
       "input_price_per_million": 0.875,
       "output_price_per_million": 7.0,
       "benchmarks": {
-        "arena_elo": 1440.0,
+        "arena_elo": 1425.0,
         "swe_bench_verified": 0.763,
         "gpqa_diamond": 0.842,
         "mmlu": 0.923

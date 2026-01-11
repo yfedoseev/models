@@ -14,31 +14,31 @@ See: [rankings/arena.json](../rankings/arena.json) | [csv/arena.csv](../csv/aren
 
 ### Overall
 
-*Average across all benchmarks (minimum 3 required)*
+*Weighted average across all benchmarks (Tier 1=3x, Tier 2=2x, Tier 3=1x). Minimum 3 benchmarks required.*
 
 See: [rankings/overall.json](../rankings/overall.json) | [csv/overall.csv](../csv/overall.csv)
 
 ### Coding / Software Engineering
 
-*SWE-bench, HumanEval, Aider Polyglot, Terminal-Bench*
+*Primary: SWE-bench Verified. Models with SWE-bench always rank above models without.*
 
 See: [rankings/coding.json](../rankings/coding.json) | [csv/coding.csv](../csv/coding.csv)
 
 ### Reasoning / Math
 
-*GPQA Diamond, MATH Level 5, MMLU, AIME, GSM8K*
+*Primary: GPQA Diamond. Models with GPQA always rank above models without.*
 
 See: [rankings/reasoning.json](../rankings/reasoning.json) | [csv/reasoning.csv](../csv/reasoning.csv)
 
 ### Knowledge / Research
 
-*MMLU, SimpleQA, TriviaQA*
+*Primary: SimpleQA Verified. Models with SimpleQA always rank above models without.*
 
 See: [rankings/knowledge.json](../rankings/knowledge.json) | [csv/knowledge.csv](../csv/knowledge.csv)
 
 ### Hard / Frontier
 
-*ARC-AGI-2, FrontierMath, Humanity's Last Exam*
+*ARC-AGI-2, FrontierMath, Humanity's Last Exam - the hardest benchmarks*
 
 See: [rankings/hard.json](../rankings/hard.json) | [csv/hard.csv](../csv/hard.csv)
 
@@ -46,17 +46,23 @@ See: [rankings/hard.json](../rankings/hard.json) | [csv/hard.csv](../csv/hard.cs
 
 ## ROI Rankings (Best Value)
 
-*Performance per dollar - higher is better*
+*Performance per dollar using primary benchmark score - higher is better*
 
 ### ROI: Coding
+
+*SWE-bench score / price*
 
 See: [rankings/roi_coding.json](../rankings/roi_coding.json) | [csv/roi_coding.csv](../csv/roi_coding.csv)
 
 ### ROI: Reasoning
 
+*GPQA score / price*
+
 See: [rankings/roi_reasoning.json](../rankings/roi_reasoning.json) | [csv/roi_reasoning.csv](../csv/roi_reasoning.csv)
 
 ### ROI: Knowledge
+
+*SimpleQA score / price*
 
 See: [rankings/roi_knowledge.json](../rankings/roi_knowledge.json) | [csv/roi_knowledge.csv](../csv/roi_knowledge.csv)
 

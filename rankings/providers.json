@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-01-11T03:41:26.182774",
+  "generated_at": "2026-01-11T14:27:05.269863",
   "ranking_type": "providers",
-  "count": 89,
+  "count": 87,
   "providers": [
     {
       "provider": "nvidia_nim",
       "model_count": 169,
       "models_with_benchmarks": 61,
-      "avg_composite": 0.2588,
+      "avg_composite": 0.2513,
       "max_composite": 0.887,
       "top_model": "microsoft/phi-3.5-moe-instruct"
     },
@@ -15,7 +15,7 @@
       "provider": "fireworks",
       "model_count": 228,
       "models_with_benchmarks": 46,
-      "avg_composite": 0.2088,
+      "avg_composite": 0.2015,
       "max_composite": 0.876,
       "top_model": "DeepSeek Coder V2 Lite Instruct"
     },
@@ -23,39 +23,31 @@
       "provider": "featherless",
       "model_count": 7034,
       "models_with_benchmarks": 175,
-      "avg_composite": 0.1419,
+      "avg_composite": 0.1416,
       "max_composite": 0.862,
       "top_model": "microsoft/Phi-3.5-mini-instruct"
-    },
-    {
-      "provider": "openai",
-      "model_count": 77,
-      "models_with_benchmarks": 63,
-      "avg_composite": 0.5901,
-      "max_composite": 0.8427,
-      "top_model": "gpt-5-mini-2025-08-07"
-    },
-    {
-      "provider": "azure_openai",
-      "model_count": 94,
-      "models_with_benchmarks": 39,
-      "avg_composite": 0.3133,
-      "max_composite": 0.8416,
-      "top_model": "eu/o4-mini"
     },
     {
       "provider": "bedrock",
       "model_count": 185,
       "models_with_benchmarks": 25,
-      "avg_composite": 0.2971,
+      "avg_composite": 0.2933,
       "max_composite": 0.82,
       "top_model": "Nova Pro"
+    },
+    {
+      "provider": "openai",
+      "model_count": 77,
+      "models_with_benchmarks": 63,
+      "avg_composite": 0.5529,
+      "max_composite": 0.8197,
+      "top_model": "gpt-5-mini-2025-08-07"
     },
     {
       "provider": "huggingface_inference",
       "model_count": 335,
       "models_with_benchmarks": 69,
-      "avg_composite": 0.2107,
+      "avg_composite": 0.2041,
       "max_composite": 0.8195,
       "top_model": "Qwen/Qwen2.5-Coder-14B-Instruct"
     },
@@ -63,15 +55,23 @@
       "provider": "qwen",
       "model_count": 242,
       "models_with_benchmarks": 67,
-      "avg_composite": 0.2395,
+      "avg_composite": 0.2319,
       "max_composite": 0.8195,
       "top_model": "qwen/qwen2.5-coder-14b-instruct"
+    },
+    {
+      "provider": "azure_openai",
+      "model_count": 94,
+      "models_with_benchmarks": 39,
+      "avg_composite": 0.2939,
+      "max_composite": 0.7941,
+      "top_model": "eu/o4-mini"
     },
     {
       "provider": "yi",
       "model_count": 8,
       "models_with_benchmarks": 2,
-      "avg_composite": 0.2445,
+      "avg_composite": 0.2393,
       "max_composite": 0.793,
       "top_model": "yi-large"
     },
@@ -79,57 +79,49 @@
       "provider": "novita",
       "model_count": 81,
       "models_with_benchmarks": 39,
-      "avg_composite": 0.3282,
-      "max_composite": 0.7623,
+      "avg_composite": 0.3101,
+      "max_composite": 0.752,
       "top_model": "Qwen3 Max"
     },
     {
       "provider": "google",
       "model_count": 12,
       "models_with_benchmarks": 10,
-      "avg_composite": 0.5732,
-      "max_composite": 0.7458,
+      "avg_composite": 0.5388,
+      "max_composite": 0.7472,
       "top_model": "gemini-2.5-pro-preview-tts"
+    },
+    {
+      "provider": "siliconflow",
+      "model_count": 13,
+      "models_with_benchmarks": 10,
+      "avg_composite": 0.375,
+      "max_composite": 0.729,
+      "top_model": "Qwen/Qwen2.5-7B-Instruct"
     },
     {
       "provider": "xai",
       "model_count": 9,
       "models_with_benchmarks": 5,
-      "avg_composite": 0.3802,
+      "avg_composite": 0.3601,
       "max_composite": 0.7183,
       "top_model": "grok-4-1-fast-reasoning"
     },
     {
-      "provider": "ollama",
-      "model_count": 193,
-      "models_with_benchmarks": 21,
-      "avg_composite": 0.167,
-      "max_composite": 0.7001,
-      "top_model": "gemini-3-pro-preview"
+      "provider": "mistral",
+      "model_count": 66,
+      "models_with_benchmarks": 16,
+      "avg_composite": 0.2321,
+      "max_composite": 0.6883,
+      "top_model": "mistral-large-3-25-12"
     },
     {
       "provider": "vertex",
       "model_count": 203,
       "models_with_benchmarks": 20,
-      "avg_composite": 0.1805,
-      "max_composite": 0.7001,
-      "top_model": "publishers/google/models/gemini-3-pro-preview"
-    },
-    {
-      "provider": "gpt4all",
-      "model_count": 30,
-      "models_with_benchmarks": 4,
-      "avg_composite": 0.1648,
-      "max_composite": 0.688,
-      "top_model": "Phi-3-mini-4k-instruct.Q4_0.gguf"
-    },
-    {
-      "provider": "xinference",
-      "model_count": 140,
-      "models_with_benchmarks": 24,
-      "avg_composite": 0.1916,
-      "max_composite": 0.688,
-      "top_model": "phi-3-mini-4k-instruct"
+      "avg_composite": 0.1761,
+      "max_composite": 0.6883,
+      "top_model": "publishers/mistralai/models/mistral-large-3"
     },
     {
       "provider": "sap_ai_core",
@@ -143,161 +135,145 @@
       "provider": "nebius",
       "model_count": 38,
       "models_with_benchmarks": 19,
-      "avg_composite": 0.3208,
+      "avg_composite": 0.3023,
       "max_composite": 0.6817,
       "top_model": "zai-org/GLM-4.5"
     },
     {
-      "provider": "deepseek",
-      "model_count": 2,
-      "models_with_benchmarks": 2,
-      "avg_composite": 0.6584,
-      "max_composite": 0.6618,
-      "top_model": "deepseek-reasoner"
+      "provider": "xinference",
+      "model_count": 140,
+      "models_with_benchmarks": 24,
+      "avg_composite": 0.1854,
+      "max_composite": 0.6817,
+      "top_model": "glm-4.5"
+    },
+    {
+      "provider": "gpt4all",
+      "model_count": 30,
+      "models_with_benchmarks": 4,
+      "avg_composite": 0.1668,
+      "max_composite": 0.664,
+      "top_model": "Phi-3-mini-4k-instruct.Q4_0.gguf"
     },
     {
       "provider": "deepinfra",
       "model_count": 43,
       "models_with_benchmarks": 26,
-      "avg_composite": 0.3453,
-      "max_composite": 0.6567,
-      "top_model": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B"
-    },
-    {
-      "provider": "nscale",
-      "model_count": 7,
-      "models_with_benchmarks": 6,
-      "avg_composite": 0.4125,
-      "max_composite": 0.6567,
-      "top_model": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B"
-    },
-    {
-      "provider": "sambanova",
-      "model_count": 12,
-      "models_with_benchmarks": 9,
-      "avg_composite": 0.3766,
-      "max_composite": 0.6567,
-      "top_model": "DeepSeek-R1-Distill-Llama-70B"
-    },
-    {
-      "provider": "siliconflow",
-      "model_count": 7,
-      "models_with_benchmarks": 6,
-      "avg_composite": 0.4086,
-      "max_composite": 0.6451,
-      "top_model": "deepseek-ai/DeepSeek-V3.2"
+      "avg_composite": 0.3214,
+      "max_composite": 0.645,
+      "top_model": "Qwen/Qwen3-Coder-480B-A35B-Instruct"
     },
     {
       "provider": "together",
       "model_count": 119,
       "models_with_benchmarks": 2,
-      "avg_composite": 0.1418,
+      "avg_composite": 0.1414,
       "max_composite": 0.645,
       "top_model": "Qwen3-Coder-480B-A35B-Instruct"
     },
     {
-      "provider": "hyperbolic",
-      "model_count": 28,
-      "models_with_benchmarks": 3,
-      "avg_composite": 0.1814,
-      "max_composite": 0.5894,
-      "top_model": "Qwen 3 Next 80B A3b Instruct"
+      "provider": "nscale",
+      "model_count": 7,
+      "models_with_benchmarks": 6,
+      "avg_composite": 0.3835,
+      "max_composite": 0.6424,
+      "top_model": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B"
+    },
+    {
+      "provider": "sambanova",
+      "model_count": 17,
+      "models_with_benchmarks": 14,
+      "avg_composite": 0.3965,
+      "max_composite": 0.6424,
+      "top_model": "DeepSeek-R1-Distill-Llama-70B"
+    },
+    {
+      "provider": "ollama",
+      "model_count": 193,
+      "models_with_benchmarks": 21,
+      "avg_composite": 0.164,
+      "max_composite": 0.6152,
+      "top_model": "gemini-3-pro-preview"
+    },
+    {
+      "provider": "cloudflare",
+      "model_count": 57,
+      "models_with_benchmarks": 21,
+      "avg_composite": 0.2302,
+      "max_composite": 0.606,
+      "top_model": "@cf/mistral/mistral-7b-instruct-v0.1"
+    },
+    {
+      "provider": "cloudflare_ai",
+      "model_count": 84,
+      "models_with_benchmarks": 29,
+      "avg_composite": 0.2151,
+      "max_composite": 0.606,
+      "top_model": "mistral-7b-instruct-v0.1-awq"
     },
     {
       "provider": "cerebras",
       "model_count": 7,
       "models_with_benchmarks": 5,
-      "avg_composite": 0.3611,
-      "max_composite": 0.5851,
+      "avg_composite": 0.3215,
+      "max_composite": 0.5741,
       "top_model": "Qwen 3 235B Instruct*"
     },
     {
       "provider": "scaleway",
       "model_count": 5,
       "models_with_benchmarks": 2,
-      "avg_composite": 0.2871,
-      "max_composite": 0.5851,
+      "avg_composite": 0.2742,
+      "max_composite": 0.5741,
       "top_model": "qwen3-235b-a22b-instruct-2507"
-    },
-    {
-      "provider": "cloudflare",
-      "model_count": 57,
-      "models_with_benchmarks": 21,
-      "avg_composite": 0.239,
-      "max_composite": 0.5683,
-      "top_model": "@cf/google/gemma-3-12b-it"
-    },
-    {
-      "provider": "cloudflare_ai",
-      "model_count": 84,
-      "models_with_benchmarks": 29,
-      "avg_composite": 0.2186,
-      "max_composite": 0.5683,
-      "top_model": "gemma-3-12b-it"
-    },
-    {
-      "provider": "anthropic",
-      "model_count": 6,
-      "models_with_benchmarks": 6,
-      "avg_composite": 0.5473,
-      "max_composite": 0.5614,
-      "top_model": "Claude Sonnet 4.5"
     },
     {
       "provider": "ai71",
       "model_count": 109,
       "models_with_benchmarks": 7,
-      "avg_composite": 0.1409,
+      "avg_composite": 0.1452,
       "max_composite": 0.561,
       "top_model": "tiiuae/falcon-11B"
     },
     {
-      "provider": "snowflake",
-      "model_count": 12,
-      "models_with_benchmarks": 9,
-      "avg_composite": 0.3635,
-      "max_composite": 0.5516,
-      "top_model": "claude-4-opus"
+      "provider": "anthropic",
+      "model_count": 6,
+      "models_with_benchmarks": 6,
+      "avg_composite": 0.512,
+      "max_composite": 0.5563,
+      "top_model": "Claude Opus 4.1"
+    },
+    {
+      "provider": "groq",
+      "model_count": 16,
+      "models_with_benchmarks": 6,
+      "avg_composite": 0.2281,
+      "max_composite": 0.53,
+      "top_model": "GPT OSS 20B openai/gpt-oss-20b"
     },
     {
       "provider": "crusoe",
       "model_count": 4,
       "models_with_benchmarks": 4,
-      "avg_composite": 0.4239,
-      "max_composite": 0.5376,
+      "avg_composite": 0.3899,
+      "max_composite": 0.5133,
       "top_model": "deepseek-r1"
     },
     {
       "provider": "replicate",
       "model_count": 9,
       "models_with_benchmarks": 2,
-      "avg_composite": 0.2072,
-      "max_composite": 0.5376,
+      "avg_composite": 0.2045,
+      "max_composite": 0.5133,
       "top_model": "deepseek-ai/deepseek-r1"
     },
     {
-      "provider": "groq",
-      "model_count": 16,
-      "models_with_benchmarks": 6,
-      "avg_composite": 0.2371,
-      "max_composite": 0.53,
-      "top_model": "GPT OSS 20B openai/gpt-oss-20b"
-    },
-    {
-      "provider": "lepton",
-      "model_count": 7,
-      "models_with_benchmarks": 6,
-      "avg_composite": 0.3503,
-      "max_composite": 0.5149,
-      "top_model": "qwen2-72b"
-    },
-    {
-      "provider": "mistral",
-      "model_count": 66,
-      "models_with_benchmarks": 12,
-      "avg_composite": 0.2008,
-      "max_composite": 0.5083,
-      "top_model": "magistral-medium-latest"
+      "provider": "snowflake",
+      "model_count": 12,
+      "models_with_benchmarks": 9,
+      "avg_composite": 0.3311,
+      "max_composite": 0.4827,
+      "top_model": "claude-4-opus"
     },
     {
       "provider": "ai21",
@@ -306,6 +282,22 @@
       "avg_composite": 0.44,
       "max_composite": 0.4817,
       "top_model": "jamba-1.5-large"
+    },
+    {
+      "provider": "lepton",
+      "model_count": 7,
+      "models_with_benchmarks": 6,
+      "avg_composite": 0.3152,
+      "max_composite": 0.4629,
+      "top_model": "qwen2-72b"
+    },
+    {
+      "provider": "hyperbolic",
+      "model_count": 28,
+      "models_with_benchmarks": 3,
+      "avg_composite": 0.1679,
+      "max_composite": 0.4532,
+      "top_model": "Qwen 3 Next 80B A3b Instruct"
     },
     {
       "provider": "cohere",
@@ -319,48 +311,48 @@
       "provider": "baseten",
       "model_count": 5,
       "models_with_benchmarks": 4,
-      "avg_composite": 0.3073,
-      "max_composite": 0.4356,
+      "avg_composite": 0.2793,
+      "max_composite": 0.4232,
       "top_model": "Llama 3.1 405B"
     },
     {
       "provider": "watsonx",
       "model_count": 6,
       "models_with_benchmarks": 3,
-      "avg_composite": 0.2669,
-      "max_composite": 0.4356,
+      "avg_composite": 0.2403,
+      "max_composite": 0.4035,
       "top_model": "mistralai/mixtral-8x7b-instruct-v01"
     },
     {
       "provider": "beam",
       "model_count": 3,
       "models_with_benchmarks": 3,
-      "avg_composite": 0.3254,
-      "max_composite": 0.4115,
+      "avg_composite": 0.2828,
+      "max_composite": 0.3666,
       "top_model": "llama-3.1-70b"
     },
     {
       "provider": "cerebrium",
       "model_count": 4,
       "models_with_benchmarks": 3,
-      "avg_composite": 0.2753,
-      "max_composite": 0.4115,
+      "avg_composite": 0.2433,
+      "max_composite": 0.3666,
       "top_model": "llama-3.1-70b"
     },
     {
       "provider": "lightning",
       "model_count": 3,
       "models_with_benchmarks": 3,
-      "avg_composite": 0.3254,
-      "max_composite": 0.4115,
+      "avg_composite": 0.2828,
+      "max_composite": 0.3666,
       "top_model": "llama-3.1-70b"
     },
     {
       "provider": "predibase",
       "model_count": 6,
       "models_with_benchmarks": 4,
-      "avg_composite": 0.2261,
-      "max_composite": 0.4115,
+      "avg_composite": 0.2012,
+      "max_composite": 0.3666,
       "top_model": "Llama 3.1 70B"
     },
     {
@@ -410,14 +402,6 @@
       "avg_composite": 0.1525,
       "max_composite": 0.225,
       "top_model": "Doubao-1.5-Thinking-Pro"
-    },
-    {
-      "provider": "edenai",
-      "model_count": 270,
-      "models_with_benchmarks": 0,
-      "avg_composite": 0.131,
-      "max_composite": 0.2,
-      "top_model": "Microsoft - summarize"
     },
     {
       "provider": "ntt_tsuzumi",

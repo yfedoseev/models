@@ -7,6 +7,8 @@
       "name": "xai/grok-code-fast-1",
       "provider": "vercel",
       "model_id": "grok-code-fast-1",
+      "input_price_per_million": 0.19999999999999998,
+      "output_price_per_million": 1.5,
       "model_type": "code"
     },
     {
@@ -14,6 +16,8 @@
       "name": "anthropic/claude-sonnet-4.5",
       "provider": "vercel",
       "model_id": "claude-sonnet-4.5",
+      "input_price_per_million": 3.0,
+      "output_price_per_million": 15.0,
       "benchmarks": {
         "gpqa_diamond": 0.737,
         "math_level_5": 0.977,
@@ -36,10 +40,21 @@
       "model_type": "chat"
     },
     {
+      "id": "vercel/google/gemini-2.5-flash-lite",
+      "name": "google/gemini-2.5-flash-lite",
+      "provider": "vercel",
+      "model_id": "gemini-2.5-flash-lite",
+      "input_price_per_million": "0.50",
+      "output_price_per_million": "2.00",
+      "model_type": "vision"
+    },
+    {
       "id": "vercel/google/gemini-3-flash",
       "name": "google/gemini-3-flash",
       "provider": "vercel",
       "model_id": "gemini-3-flash",
+      "input_price_per_million": "0.50",
+      "output_price_per_million": "3.00",
       "benchmarks": {
         "gpqa_diamond": 0.832,
         "otis_mock_aime_2024_2025": 0.928,
@@ -53,19 +68,14 @@
       "model_type": "vision"
     },
     {
-      "id": "vercel/google/gemini-2.5-flash-lite",
-      "name": "google/gemini-2.5-flash-lite",
-      "provider": "vercel",
-      "model_id": "gemini-2.5-flash-lite",
-      "model_type": "vision"
-    },
-    {
       "id": "vercel/openai/gpt-5.2",
       "name": "openai/gpt-5.2",
       "provider": "vercel",
       "model_id": "gpt-5.2",
+      "input_price_per_million": 0.875,
+      "output_price_per_million": 7.0,
       "benchmarks": {
-        "arena_elo": 1440.0
+        "arena_elo": 1425.0
       },
       "model_type": "chat"
     },
@@ -74,6 +84,8 @@
       "name": "anthropic/claude-haiku-4.5",
       "provider": "vercel",
       "model_id": "claude-haiku-4.5",
+      "input_price_per_million": 1.0,
+      "output_price_per_million": 5.0,
       "benchmarks": {
         "gpqa_diamond": 0.605,
         "math_level_5": 0.869,
@@ -97,6 +109,8 @@
       "name": "anthropic/claude-opus-4.5",
       "provider": "vercel",
       "model_id": "claude-opus-4.5",
+      "input_price_per_million": 5.0,
+      "output_price_per_million": 25.0,
       "benchmarks": {
         "gpqa_diamond": 0.807,
         "otis_mock_aime_2024_2025": 0.481,
@@ -107,26 +121,12 @@
       "model_type": "chat"
     },
     {
-      "id": "vercel/anthropic/claude-3.7-sonnet",
-      "name": "anthropic/claude-3.7-sonnet",
-      "provider": "vercel",
-      "model_id": "claude-3.7-sonnet",
-      "benchmarks": {
-        "gpqa_diamond": 0.66,
-        "math_level_5": 0.682,
-        "otis_mock_aime_2024_2025": 0.219,
-        "frontiermath": 0.031,
-        "aider_polyglot": 60.4,
-        "simplebench": 0.449,
-        "swe_bench_verified": 0.522
-      },
-      "model_type": "vision"
-    },
-    {
       "id": "vercel/google/gemini-3-pro-preview",
       "name": "google/gemini-3-pro-preview",
       "provider": "vercel",
       "model_id": "gemini-3-pro-preview",
+      "input_price_per_million": "2.00",
+      "output_price_per_million": "12.00",
       "benchmarks": {
         "gpqa_diamond": 0.926,
         "otis_mock_aime_2024_2025": 0.914,
@@ -142,10 +142,30 @@
       "model_type": "vision"
     },
     {
+      "id": "vercel/anthropic/claude-3.7-sonnet",
+      "name": "anthropic/claude-3.7-sonnet",
+      "provider": "vercel",
+      "model_id": "claude-3.7-sonnet",
+      "input_price_per_million": 3.0,
+      "output_price_per_million": 15.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.66,
+        "math_level_5": 0.682,
+        "otis_mock_aime_2024_2025": 0.219,
+        "frontiermath": 0.031,
+        "aider_polyglot": 60.4,
+        "simplebench": 0.449,
+        "swe_bench_verified": 0.522
+      },
+      "model_type": "vision"
+    },
+    {
       "id": "vercel/anthropic/claude-sonnet-4",
       "name": "anthropic/claude-sonnet-4",
       "provider": "vercel",
       "model_id": "claude-sonnet-4",
+      "input_price_per_million": 3.0,
+      "output_price_per_million": 15.0,
       "benchmarks": {
         "gpqa_diamond": 0.667,
         "math_level_5": 0.844,
@@ -168,6 +188,26 @@
       "model_type": "chat"
     },
     {
+      "id": "vercel/openai/gpt-4.1-mini",
+      "name": "openai/gpt-4.1-mini",
+      "provider": "vercel",
+      "model_id": "gpt-4.1-mini",
+      "input_price_per_million": 0.2,
+      "output_price_per_million": 0.8,
+      "benchmarks": {
+        "gpqa_diamond": 0.658,
+        "mmlu": 87.5,
+        "math_level_5": 0.873,
+        "otis_mock_aime_2024_2025": 0.447,
+        "frontiermath": 0.045,
+        "aider_polyglot": 32.4,
+        "swe_bench_verified": 0.328,
+        "humaneval": 93.8,
+        "arena_elo": 1381.0
+      },
+      "model_type": "chat"
+    },
+    {
       "id": "vercel/xai/grok-4.1-fast-non-reasoning",
       "name": "xai/grok-4.1-fast-non-reasoning",
       "provider": "vercel",
@@ -186,28 +226,12 @@
       "model_type": "chat"
     },
     {
-      "id": "vercel/openai/gpt-4.1-mini",
-      "name": "openai/gpt-4.1-mini",
-      "provider": "vercel",
-      "model_id": "gpt-4.1-mini",
-      "benchmarks": {
-        "gpqa_diamond": 0.658,
-        "mmlu": 87.5,
-        "math_level_5": 0.873,
-        "otis_mock_aime_2024_2025": 0.447,
-        "frontiermath": 0.045,
-        "aider_polyglot": 32.4,
-        "swe_bench_verified": 0.328,
-        "humaneval": 93.8,
-        "arena_elo": 1381.0
-      },
-      "model_type": "chat"
-    },
-    {
       "id": "vercel/google/gemini-2.5-flash",
       "name": "google/gemini-2.5-flash",
       "provider": "vercel",
       "model_id": "gemini-2.5-flash",
+      "input_price_per_million": "0.30",
+      "output_price_per_million": "2.50",
       "benchmarks": {
         "frontiermath": 0.048,
         "simplebench": 0.412,
@@ -221,37 +245,10 @@
       "name": "openai/gpt-5-chat",
       "provider": "vercel",
       "model_id": "gpt-5-chat",
+      "input_price_per_million": 0.625,
+      "output_price_per_million": 5.0,
       "benchmarks": {
         "arena_elo": 1425.0
-      },
-      "model_type": "chat"
-    },
-    {
-      "id": "vercel/google/gemini-2.0-flash",
-      "name": "google/gemini-2.0-flash",
-      "provider": "vercel",
-      "model_id": "gemini-2.0-flash",
-      "benchmarks": {
-        "mmlu": 0.797,
-        "aider_polyglot": 22.2,
-        "simplebench": 0.189
-      },
-      "model_type": "vision"
-    },
-    {
-      "id": "vercel/openai/gpt-5-nano",
-      "name": "openai/gpt-5-nano",
-      "provider": "vercel",
-      "model_id": "gpt-5-nano",
-      "benchmarks": {
-        "livebench_global": 51.61,
-        "livebench_reasoning": 35.45,
-        "livebench_coding": 67.38,
-        "livebench_agentic_coding": 28.33,
-        "livebench_math": 64.7,
-        "livebench_data_analysis": 65.73,
-        "livebench_language": 47.73,
-        "livebench_ifeval": 51.98
       },
       "model_type": "chat"
     },
@@ -260,6 +257,8 @@
       "name": "deepseek/deepseek-v3.2",
       "provider": "vercel",
       "model_id": "deepseek-v3.2",
+      "input_price_per_million": 0.25,
+      "output_price_per_million": 0.38,
       "benchmarks": {
         "gpqa_diamond": 0.565,
         "mmlu": 0.871,
@@ -273,6 +272,78 @@
         "arena_elo": 1306.0
       },
       "model_type": "unknown"
+    },
+    {
+      "id": "vercel/openai/gpt-5-nano",
+      "name": "openai/gpt-5-nano",
+      "provider": "vercel",
+      "model_id": "gpt-5-nano",
+      "input_price_per_million": 0.025,
+      "output_price_per_million": 0.2,
+      "benchmarks": {
+        "livebench_global": 51.61,
+        "livebench_reasoning": 35.45,
+        "livebench_coding": 67.38,
+        "livebench_agentic_coding": 28.33,
+        "livebench_math": 64.7,
+        "livebench_data_analysis": 65.73,
+        "livebench_language": 47.73,
+        "livebench_ifeval": 51.98
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "vercel/google/gemini-2.5-flash-lite-preview-09-2025",
+      "name": "google/gemini-2.5-flash-lite-preview-09-2025",
+      "provider": "vercel",
+      "model_id": "gemini-2.5-flash-lite-preview-09-2025",
+      "input_price_per_million": 0.09999999999999999,
+      "output_price_per_million": 0.39999999999999997,
+      "model_type": "vision"
+    },
+    {
+      "id": "vercel/google/gemini-2.0-flash",
+      "name": "google/gemini-2.0-flash",
+      "provider": "vercel",
+      "model_id": "gemini-2.0-flash",
+      "input_price_per_million": "0.10",
+      "output_price_per_million": "0.40",
+      "benchmarks": {
+        "mmlu": 0.797,
+        "aider_polyglot": 22.2,
+        "simplebench": 0.189
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "vercel/openai/gpt-5",
+      "name": "openai/gpt-5",
+      "provider": "vercel",
+      "model_id": "gpt-5",
+      "input_price_per_million": 0.625,
+      "output_price_per_million": 5.0,
+      "benchmarks": {
+        "arena_elo": 1425.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "vercel/google/gemini-2.5-pro",
+      "name": "google/gemini-2.5-pro",
+      "provider": "vercel",
+      "model_id": "gemini-2.5-pro",
+      "input_price_per_million": "1.25",
+      "output_price_per_million": "10.00",
+      "benchmarks": {
+        "gpqa_diamond": 0.853,
+        "otis_mock_aime_2024_2025": 0.842,
+        "frontiermath": 0.141,
+        "frontiermath_tier_4": 0.042,
+        "simpleqa_verified": 0.56,
+        "chess_puzzles": 0.2,
+        "arena_elo": 1450.0
+      },
+      "model_type": "vision"
     },
     {
       "id": "vercel/mistral/devstral-2",
@@ -292,46 +363,6 @@
       "model_type": "unknown"
     },
     {
-      "id": "vercel/openai/gpt-5",
-      "name": "openai/gpt-5",
-      "provider": "vercel",
-      "model_id": "gpt-5",
-      "benchmarks": {
-        "arena_elo": 1425.0
-      },
-      "model_type": "chat"
-    },
-    {
-      "id": "vercel/openai/gpt-5-mini",
-      "name": "openai/gpt-5-mini",
-      "provider": "vercel",
-      "model_id": "gpt-5-mini",
-      "model_type": "chat"
-    },
-    {
-      "id": "vercel/google/gemini-2.5-pro",
-      "name": "google/gemini-2.5-pro",
-      "provider": "vercel",
-      "model_id": "gemini-2.5-pro",
-      "benchmarks": {
-        "gpqa_diamond": 0.853,
-        "otis_mock_aime_2024_2025": 0.842,
-        "frontiermath": 0.141,
-        "frontiermath_tier_4": 0.042,
-        "simpleqa_verified": 0.56,
-        "chess_puzzles": 0.2,
-        "arena_elo": 1450.0
-      },
-      "model_type": "vision"
-    },
-    {
-      "id": "vercel/xai/grok-4-fast-non-reasoning",
-      "name": "xai/grok-4-fast-non-reasoning",
-      "provider": "vercel",
-      "model_id": "grok-4-fast-non-reasoning",
-      "model_type": "chat"
-    },
-    {
       "id": "vercel/openai/gpt-5.1-thinking",
       "name": "openai/gpt-5.1-thinking",
       "provider": "vercel",
@@ -339,10 +370,12 @@
       "model_type": "chat"
     },
     {
-      "id": "vercel/openai/gpt-5-codex",
-      "name": "openai/gpt-5-codex",
+      "id": "vercel/openai/gpt-5-mini",
+      "name": "openai/gpt-5-mini",
       "provider": "vercel",
-      "model_id": "gpt-5-codex",
+      "model_id": "gpt-5-mini",
+      "input_price_per_million": 0.125,
+      "output_price_per_million": 1.0,
       "model_type": "chat"
     },
     {
@@ -350,6 +383,8 @@
       "name": "openai/gpt-oss-120b",
       "provider": "vercel",
       "model_id": "gpt-oss-120b",
+      "input_price_per_million": 0.039,
+      "output_price_per_million": 0.19,
       "benchmarks": {
         "simplebench": 0.221,
         "arena_elo": 1353.0,
@@ -365,6 +400,13 @@
       "model_type": "chat"
     },
     {
+      "id": "vercel/xai/grok-4-fast-non-reasoning",
+      "name": "xai/grok-4-fast-non-reasoning",
+      "provider": "vercel",
+      "model_id": "grok-4-fast-non-reasoning",
+      "model_type": "chat"
+    },
+    {
       "id": "vercel/openai/gpt-5.1-instant",
       "name": "openai/gpt-5.1-instant",
       "provider": "vercel",
@@ -372,10 +414,21 @@
       "model_type": "chat"
     },
     {
+      "id": "vercel/openai/gpt-5-codex",
+      "name": "openai/gpt-5-codex",
+      "provider": "vercel",
+      "model_id": "gpt-5-codex",
+      "input_price_per_million": 1.25,
+      "output_price_per_million": 10.0,
+      "model_type": "chat"
+    },
+    {
       "id": "vercel/openai/gpt-oss-safeguard-20b",
       "name": "openai/gpt-oss-safeguard-20b",
       "provider": "vercel",
       "model_id": "gpt-oss-safeguard-20b",
+      "input_price_per_million": 0.075,
+      "output_price_per_million": 0.3,
       "model_type": "chat"
     },
     {
@@ -390,6 +443,7 @@
       "name": "openai/text-embedding-3-small",
       "provider": "vercel",
       "model_id": "text-embedding-3-small",
+      "input_price_per_million": 0.02,
       "model_type": "embedding"
     },
     {
@@ -403,17 +457,12 @@
       "model_type": "chat"
     },
     {
-      "id": "vercel/google/gemini-2.5-flash-lite-preview-09-2025",
-      "name": "google/gemini-2.5-flash-lite-preview-09-2025",
-      "provider": "vercel",
-      "model_id": "gemini-2.5-flash-lite-preview-09-2025",
-      "model_type": "vision"
-    },
-    {
       "id": "vercel/openai/gpt-4o-mini",
       "name": "openai/gpt-4o-mini",
       "provider": "vercel",
       "model_id": "gpt-4o-mini",
+      "input_price_per_million": 0.075,
+      "output_price_per_million": 0.3,
       "benchmarks": {
         "gpqa_diamond": 0.377,
         "mmlu": 82.0,
@@ -428,27 +477,20 @@
       "model_type": "vision"
     },
     {
-      "id": "vercel/openai/gpt-4.1-nano",
-      "name": "openai/gpt-4.1-nano",
+      "id": "vercel/mistral/mistral-embed",
+      "name": "mistral/mistral-embed",
       "provider": "vercel",
-      "model_id": "gpt-4.1-nano",
-      "benchmarks": {
-        "gpqa_diamond": 0.489,
-        "mmlu": 80.1,
-        "math_level_5": 0.7,
-        "otis_mock_aime_2024_2025": 0.289,
-        "frontiermath": 0.01,
-        "aider_polyglot": 8.9,
-        "humaneval": 87.0,
-        "arena_elo": 1321.0
-      },
-      "model_type": "chat"
+      "model_id": "mistral-embed",
+      "input_price_per_million": 0.1,
+      "model_type": "embedding"
     },
     {
       "id": "vercel/mistral/ministral-3b",
       "name": "mistral/ministral-3b",
       "provider": "vercel",
       "model_id": "ministral-3b",
+      "input_price_per_million": 0.1,
+      "output_price_per_million": 0.1,
       "benchmarks": {
         "gpqa_diamond": 0.253,
         "math_level_5": 0.144
@@ -460,6 +502,8 @@
       "name": "openai/gpt-4o",
       "provider": "vercel",
       "model_id": "gpt-4o",
+      "input_price_per_million": 1.25,
+      "output_price_per_million": 5.0,
       "benchmarks": {
         "gpqa_diamond": 0.489,
         "mmlu": 87.2,
@@ -475,17 +519,12 @@
       "model_type": "vision"
     },
     {
-      "id": "vercel/mistral/mistral-embed",
-      "name": "mistral/mistral-embed",
-      "provider": "vercel",
-      "model_id": "mistral-embed",
-      "model_type": "embedding"
-    },
-    {
       "id": "vercel/openai/gpt-4.1",
       "name": "openai/gpt-4.1",
       "provider": "vercel",
       "model_id": "gpt-4.1",
+      "input_price_per_million": 1.0,
+      "output_price_per_million": 4.0,
       "benchmarks": {
         "gpqa_diamond": 0.669,
         "mmlu": 90.2,
@@ -502,17 +541,31 @@
       "model_type": "chat"
     },
     {
-      "id": "vercel/google/gemini-2.5-flash-image",
-      "name": "google/gemini-2.5-flash-image",
+      "id": "vercel/openai/gpt-4.1-nano",
+      "name": "openai/gpt-4.1-nano",
       "provider": "vercel",
-      "model_id": "gemini-2.5-flash-image",
-      "model_type": "vision"
+      "model_id": "gpt-4.1-nano",
+      "input_price_per_million": 0.05,
+      "output_price_per_million": 0.2,
+      "benchmarks": {
+        "gpqa_diamond": 0.489,
+        "mmlu": 80.1,
+        "math_level_5": 0.7,
+        "otis_mock_aime_2024_2025": 0.289,
+        "frontiermath": 0.01,
+        "aider_polyglot": 8.9,
+        "humaneval": 87.0,
+        "arena_elo": 1321.0
+      },
+      "model_type": "chat"
     },
     {
       "id": "vercel/xai/grok-4",
       "name": "xai/grok-4",
       "provider": "vercel",
       "model_id": "grok-4",
+      "input_price_per_million": 3.0,
+      "output_price_per_million": 15.0,
       "benchmarks": {
         "gpqa_diamond": 0.87,
         "otis_mock_aime_2024_2025": 0.84,
@@ -533,6 +586,15 @@
         "livebench_ifeval": 29.07
       },
       "model_type": "chat"
+    },
+    {
+      "id": "vercel/google/gemini-2.5-flash-image",
+      "name": "google/gemini-2.5-flash-image",
+      "provider": "vercel",
+      "model_id": "gemini-2.5-flash-image",
+      "input_price_per_million": "0.30",
+      "output_price_per_million": "0.039",
+      "model_type": "vision"
     },
     {
       "id": "vercel/xai/grok-4-fast-reasoning",
@@ -564,48 +626,12 @@
       "model_type": "unknown"
     },
     {
-      "id": "vercel/perplexity/sonar",
-      "name": "perplexity/sonar",
-      "provider": "vercel",
-      "model_id": "sonar",
-      "model_type": "unknown"
-    },
-    {
-      "id": "vercel/google/gemini-3-pro-image",
-      "name": "google/gemini-3-pro-image",
-      "provider": "vercel",
-      "model_id": "gemini-3-pro-image",
-      "model_type": "vision"
-    },
-    {
-      "id": "vercel/openai/gpt-5.1-codex-max",
-      "name": "openai/gpt-5.1-codex-max",
-      "provider": "vercel",
-      "model_id": "gpt-5.1-codex-max",
-      "model_type": "chat"
-    },
-    {
-      "id": "vercel/openai/gpt-5.1-codex-mini",
-      "name": "openai/gpt-5.1-codex-mini",
-      "provider": "vercel",
-      "model_id": "gpt-5.1-codex-mini",
-      "benchmarks": {
-        "livebench_global": 63.32,
-        "livebench_reasoning": 64.71,
-        "livebench_coding": 69.93,
-        "livebench_agentic_coding": 40.0,
-        "livebench_math": 76.26,
-        "livebench_data_analysis": 70.29,
-        "livebench_language": 63.01,
-        "livebench_ifeval": 59.02
-      },
-      "model_type": "chat"
-    },
-    {
       "id": "vercel/anthropic/claude-opus-4.1",
       "name": "anthropic/claude-opus-4.1",
       "provider": "vercel",
       "model_id": "claude-opus-4.1",
+      "input_price_per_million": 15.0,
+      "output_price_per_million": 75.0,
       "benchmarks": {
         "gpqa_diamond": 0.732,
         "otis_mock_aime_2024_2025": 0.4,
@@ -627,17 +653,75 @@
       "model_type": "chat"
     },
     {
+      "id": "vercel/google/gemini-3-pro-image",
+      "name": "google/gemini-3-pro-image",
+      "provider": "vercel",
+      "model_id": "gemini-3-pro-image",
+      "input_price_per_million": "2.00",
+      "output_price_per_million": "12.00",
+      "model_type": "vision"
+    },
+    {
+      "id": "vercel/openai/gpt-5.1-codex-max",
+      "name": "openai/gpt-5.1-codex-max",
+      "provider": "vercel",
+      "model_id": "gpt-5.1-codex-max",
+      "input_price_per_million": 1.25,
+      "output_price_per_million": 10.0,
+      "model_type": "chat"
+    },
+    {
       "id": "vercel/google/gemini-embedding-001",
       "name": "google/gemini-embedding-001",
       "provider": "vercel",
       "model_id": "gemini-embedding-001",
+      "input_price_per_million": "0.15",
+      "output_price_per_million": "2.50",
       "model_type": "embedding"
+    },
+    {
+      "id": "vercel/perplexity/sonar",
+      "name": "perplexity/sonar",
+      "provider": "vercel",
+      "model_id": "sonar",
+      "input_price_per_million": 1.0,
+      "output_price_per_million": 1.0,
+      "model_type": "unknown"
+    },
+    {
+      "id": "vercel/openai/text-embedding-3-large",
+      "name": "openai/text-embedding-3-large",
+      "provider": "vercel",
+      "model_id": "text-embedding-3-large",
+      "input_price_per_million": 0.13,
+      "model_type": "embedding"
+    },
+    {
+      "id": "vercel/openai/gpt-5.1-codex-mini",
+      "name": "openai/gpt-5.1-codex-mini",
+      "provider": "vercel",
+      "model_id": "gpt-5.1-codex-mini",
+      "input_price_per_million": 0.25,
+      "output_price_per_million": 2.0,
+      "benchmarks": {
+        "livebench_global": 63.32,
+        "livebench_reasoning": 64.71,
+        "livebench_coding": 69.93,
+        "livebench_agentic_coding": 40.0,
+        "livebench_math": 76.26,
+        "livebench_data_analysis": 70.29,
+        "livebench_language": 63.01,
+        "livebench_ifeval": 59.02
+      },
+      "model_type": "chat"
     },
     {
       "id": "vercel/deepseek/deepseek-v3.2-exp",
       "name": "deepseek/deepseek-v3.2-exp",
       "provider": "vercel",
       "model_id": "deepseek-v3.2-exp",
+      "input_price_per_million": 0.25,
+      "output_price_per_million": 0.38,
       "benchmarks": {
         "aider_polyglot": 70.2,
         "arena_elo": 1423.0,
@@ -657,6 +741,8 @@
       "name": "mistral/mistral-small",
       "provider": "vercel",
       "model_id": "mistral-small",
+      "input_price_per_million": 0.1,
+      "output_price_per_million": 0.3,
       "benchmarks": {
         "gpqa_diamond": 0.453,
         "mmlu": 0.687,
@@ -667,86 +753,12 @@
       "model_type": "chat"
     },
     {
-      "id": "vercel/openai/text-embedding-3-large",
-      "name": "openai/text-embedding-3-large",
-      "provider": "vercel",
-      "model_id": "text-embedding-3-large",
-      "model_type": "embedding"
-    },
-    {
-      "id": "vercel/deepseek/deepseek-v3.1",
-      "name": "deepseek/deepseek-v3.1",
-      "provider": "vercel",
-      "model_id": "deepseek-v3.1",
-      "benchmarks": {
-        "gpqa_diamond": 0.565,
-        "mmlu": 0.871,
-        "math_level_5": 0.649,
-        "otis_mock_aime_2024_2025": 0.158,
-        "frontiermath": 0.017,
-        "aider_polyglot": 17.8,
-        "simplebench": 0.189,
-        "trivia_qa": 0.829,
-        "swe_bench_verified": 0.521,
-        "arena_elo": 1306.0
-      },
-      "model_type": "unknown"
-    },
-    {
-      "id": "vercel/deepseek/deepseek-v3",
-      "name": "deepseek/deepseek-v3",
-      "provider": "vercel",
-      "model_id": "deepseek-v3",
-      "benchmarks": {
-        "gpqa_diamond": 0.565,
-        "mmlu": 0.871,
-        "math_level_5": 0.649,
-        "otis_mock_aime_2024_2025": 0.158,
-        "frontiermath": 0.017,
-        "aider_polyglot": 17.8,
-        "simplebench": 0.189,
-        "trivia_qa": 0.829,
-        "swe_bench_verified": 0.521,
-        "arena_elo": 1306.0
-      },
-      "model_type": "unknown"
-    },
-    {
-      "id": "vercel/google/gemini-2.0-flash-lite",
-      "name": "google/gemini-2.0-flash-lite",
-      "provider": "vercel",
-      "model_id": "gemini-2.0-flash-lite",
-      "model_type": "vision"
-    },
-    {
-      "id": "vercel/openai/gpt-5.2-chat",
-      "name": "openai/gpt-5.2-chat",
-      "provider": "vercel",
-      "model_id": "gpt-5.2-chat",
-      "benchmarks": {
-        "arena_elo": 1440.0
-      },
-      "model_type": "chat"
-    },
-    {
-      "id": "vercel/meta/llama-3.3-70b",
-      "name": "meta/llama-3.3-70b",
-      "provider": "vercel",
-      "model_id": "llama-3.3-70b",
-      "benchmarks": {
-        "gpqa_diamond": 0.474,
-        "mmlu": 0.863,
-        "math_level_5": 0.416,
-        "otis_mock_aime_2024_2025": 0.051,
-        "simplebench": 0.199
-      },
-      "model_type": "chat"
-    },
-    {
       "id": "vercel/deepseek/deepseek-r1",
       "name": "deepseek/deepseek-r1",
       "provider": "vercel",
       "model_id": "deepseek-r1",
+      "input_price_per_million": 0.39999999999999997,
+      "output_price_per_million": 1.75,
       "benchmarks": {
         "gpqa_diamond": 0.692,
         "math_level_5": 0.931,
@@ -760,33 +772,84 @@
       "model_type": "reasoning"
     },
     {
+      "id": "vercel/deepseek/deepseek-v3.1",
+      "name": "deepseek/deepseek-v3.1",
+      "provider": "vercel",
+      "model_id": "deepseek-v3.1",
+      "input_price_per_million": 0.15,
+      "output_price_per_million": 0.75,
+      "benchmarks": {
+        "gpqa_diamond": 0.565,
+        "mmlu": 0.871,
+        "math_level_5": 0.649,
+        "otis_mock_aime_2024_2025": 0.158,
+        "frontiermath": 0.017,
+        "aider_polyglot": 17.8,
+        "simplebench": 0.189,
+        "trivia_qa": 0.829,
+        "swe_bench_verified": 0.521,
+        "arena_elo": 1306.0
+      },
+      "model_type": "unknown"
+    },
+    {
       "id": "vercel/google/gemini-2.5-flash-image-preview",
       "name": "google/gemini-2.5-flash-image-preview",
       "provider": "vercel",
       "model_id": "gemini-2.5-flash-image-preview",
+      "input_price_per_million": "0.30",
+      "output_price_per_million": "0.039",
       "model_type": "vision"
     },
     {
-      "id": "vercel/anthropic/claude-3.5-haiku",
-      "name": "anthropic/claude-3.5-haiku",
+      "id": "vercel/deepseek/deepseek-v3",
+      "name": "deepseek/deepseek-v3",
       "provider": "vercel",
-      "model_id": "claude-3.5-haiku",
+      "model_id": "deepseek-v3",
+      "input_price_per_million": 0.19,
+      "output_price_per_million": 0.87,
       "benchmarks": {
-        "gpqa_diamond": 0.381,
-        "mmlu": 0.743,
-        "math_level_5": 0.464,
-        "otis_mock_aime_2024_2025": 0.043,
-        "frontiermath": 0.003,
-        "aider_polyglot": 28.0,
-        "simpleqa_verified": 0.067
+        "gpqa_diamond": 0.565,
+        "mmlu": 0.871,
+        "math_level_5": 0.649,
+        "otis_mock_aime_2024_2025": 0.158,
+        "frontiermath": 0.017,
+        "aider_polyglot": 17.8,
+        "simplebench": 0.189,
+        "trivia_qa": 0.829,
+        "swe_bench_verified": 0.521,
+        "arena_elo": 1306.0
       },
-      "model_type": "vision"
+      "model_type": "unknown"
+    },
+    {
+      "id": "vercel/openai/gpt-5.2-chat",
+      "name": "openai/gpt-5.2-chat",
+      "provider": "vercel",
+      "model_id": "gpt-5.2-chat",
+      "input_price_per_million": 0.875,
+      "output_price_per_million": 7.0,
+      "benchmarks": {
+        "arena_elo": 1425.0
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "vercel/perplexity/sonar-reasoning-pro",
+      "name": "perplexity/sonar-reasoning-pro",
+      "provider": "vercel",
+      "model_id": "sonar-reasoning-pro",
+      "input_price_per_million": 2.0,
+      "output_price_per_million": 8.0,
+      "model_type": "unknown"
     },
     {
       "id": "vercel/openai/o4-mini",
       "name": "openai/o4-mini",
       "provider": "vercel",
       "model_id": "o4-mini",
+      "input_price_per_million": 0.55,
+      "output_price_per_million": 2.2,
       "benchmarks": {
         "mmlu": 90.0,
         "humaneval": 97.3,
@@ -795,80 +858,33 @@
       "model_type": "reasoning"
     },
     {
-      "id": "vercel/openai/o3-mini",
-      "name": "openai/o3-mini",
+      "id": "vercel/google/gemini-2.0-flash-lite",
+      "name": "google/gemini-2.0-flash-lite",
       "provider": "vercel",
-      "model_id": "o3-mini",
-      "benchmarks": {
-        "mmlu": 85.9,
-        "humaneval": 96.3,
-        "arena_elo": 1348.0
-      },
-      "model_type": "reasoning"
-    },
-    {
-      "id": "vercel/openai/gpt-5.1-codex",
-      "name": "openai/gpt-5.1-codex",
-      "provider": "vercel",
-      "model_id": "gpt-5.1-codex",
-      "benchmarks": {
-        "livebench_global": 69.76,
-        "livebench_reasoning": 81.98,
-        "livebench_coding": 71.78,
-        "livebench_agentic_coding": 53.33,
-        "livebench_math": 79.58,
-        "livebench_data_analysis": 68.8,
-        "livebench_language": 69.48,
-        "livebench_ifeval": 63.39
-      },
-      "model_type": "chat"
-    },
-    {
-      "id": "vercel/google/gemini-2.5-flash-preview-09-2025",
-      "name": "google/gemini-2.5-flash-preview-09-2025",
-      "provider": "vercel",
-      "model_id": "gemini-2.5-flash-preview-09-2025",
-      "benchmarks": {
-        "arena_elo": 1405.0
-      },
+      "model_id": "gemini-2.0-flash-lite",
+      "input_price_per_million": "0.075",
+      "output_price_per_million": "0.30",
       "model_type": "vision"
     },
     {
-      "id": "vercel/meta/llama-3.1-8b",
-      "name": "meta/llama-3.1-8b",
+      "id": "vercel/openai/gpt-oss-20b",
+      "name": "openai/gpt-oss-20b",
       "provider": "vercel",
-      "model_id": "llama-3.1-8b",
+      "model_id": "gpt-oss-20b",
+      "input_price_per_million": 0.02,
+      "output_price_per_million": 0.09999999999999999,
       "benchmarks": {
-        "gpqa_diamond": 0.259,
-        "mmlu": 0.561,
-        "math_level_5": 0.229,
-        "gsm8k": 0.824,
-        "otis_mock_aime_2024_2025": 0.025
+        "arena_elo": 1318.0
       },
       "model_type": "chat"
-    },
-    {
-      "id": "vercel/cohere/embed-v4.0",
-      "name": "cohere/embed-v4.0",
-      "provider": "vercel",
-      "model_id": "embed-v4.0",
-      "model_type": "embedding"
-    },
-    {
-      "id": "vercel/deepseek/deepseek-v3.1-terminus",
-      "name": "deepseek/deepseek-v3.1-terminus",
-      "provider": "vercel",
-      "model_id": "deepseek-v3.1-terminus",
-      "benchmarks": {
-        "arena_elo": 1415.0
-      },
-      "model_type": "unknown"
     },
     {
       "id": "vercel/anthropic/claude-3.5-sonnet",
       "name": "anthropic/claude-3.5-sonnet",
       "provider": "vercel",
       "model_id": "claude-3.5-sonnet",
+      "input_price_per_million": 6.0,
+      "output_price_per_million": 30.0,
       "benchmarks": {
         "gpqa_diamond": 0.54,
         "mmlu": 0.873,
@@ -883,10 +899,98 @@
       "model_type": "vision"
     },
     {
+      "id": "vercel/openai/gpt-5.1-codex",
+      "name": "openai/gpt-5.1-codex",
+      "provider": "vercel",
+      "model_id": "gpt-5.1-codex",
+      "input_price_per_million": 1.25,
+      "output_price_per_million": 10.0,
+      "benchmarks": {
+        "livebench_global": 69.76,
+        "livebench_reasoning": 81.98,
+        "livebench_coding": 71.78,
+        "livebench_agentic_coding": 53.33,
+        "livebench_math": 79.58,
+        "livebench_data_analysis": 68.8,
+        "livebench_language": 69.48,
+        "livebench_ifeval": 63.39
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "vercel/anthropic/claude-3.5-haiku",
+      "name": "anthropic/claude-3.5-haiku",
+      "provider": "vercel",
+      "model_id": "claude-3.5-haiku",
+      "input_price_per_million": 0.7999999999999999,
+      "output_price_per_million": 4.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.381,
+        "mmlu": 0.743,
+        "math_level_5": 0.464,
+        "otis_mock_aime_2024_2025": 0.043,
+        "frontiermath": 0.003,
+        "aider_polyglot": 28.0,
+        "simpleqa_verified": 0.067
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "vercel/openai/o3-mini",
+      "name": "openai/o3-mini",
+      "provider": "vercel",
+      "model_id": "o3-mini",
+      "input_price_per_million": 0.55,
+      "output_price_per_million": 2.2,
+      "benchmarks": {
+        "mmlu": 85.9,
+        "humaneval": 96.3,
+        "arena_elo": 1348.0
+      },
+      "model_type": "reasoning"
+    },
+    {
+      "id": "vercel/google/gemini-2.5-flash-preview-09-2025",
+      "name": "google/gemini-2.5-flash-preview-09-2025",
+      "provider": "vercel",
+      "model_id": "gemini-2.5-flash-preview-09-2025",
+      "input_price_per_million": "0.30",
+      "output_price_per_million": "2.50",
+      "benchmarks": {
+        "arena_elo": 1405.0
+      },
+      "model_type": "vision"
+    },
+    {
+      "id": "vercel/meta/llama-3.3-70b",
+      "name": "meta/llama-3.3-70b",
+      "provider": "vercel",
+      "model_id": "llama-3.3-70b",
+      "input_price_per_million": 0.09999999999999999,
+      "output_price_per_million": 0.32,
+      "benchmarks": {
+        "gpqa_diamond": 0.474,
+        "mmlu": 0.863,
+        "math_level_5": 0.416,
+        "otis_mock_aime_2024_2025": 0.051,
+        "simplebench": 0.199
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "vercel/cohere/embed-v4.0",
+      "name": "cohere/embed-v4.0",
+      "provider": "vercel",
+      "model_id": "embed-v4.0",
+      "model_type": "embedding"
+    },
+    {
       "id": "vercel/openai/o3",
       "name": "openai/o3",
       "provider": "vercel",
       "model_id": "o3",
+      "input_price_per_million": 1.0,
+      "output_price_per_million": 4.0,
       "benchmarks": {
         "mmlu": 92.9,
         "humaneval": 87.4,
@@ -895,30 +999,50 @@
       "model_type": "reasoning"
     },
     {
-      "id": "vercel/xai/grok-3",
-      "name": "xai/grok-3",
+      "id": "vercel/meta/llama-3.1-8b",
+      "name": "meta/llama-3.1-8b",
       "provider": "vercel",
-      "model_id": "grok-3",
+      "model_id": "llama-3.1-8b",
+      "input_price_per_million": 0.152,
+      "output_price_per_million": 0.287,
       "benchmarks": {
-        "simplebench": 0.361
+        "gpqa_diamond": 0.259,
+        "mmlu": 0.561,
+        "math_level_5": 0.229,
+        "gsm8k": 0.824,
+        "otis_mock_aime_2024_2025": 0.025
       },
       "model_type": "chat"
     },
     {
-      "id": "vercel/openai/gpt-oss-20b",
-      "name": "openai/gpt-oss-20b",
+      "id": "vercel/deepseek/deepseek-v3.1-terminus",
+      "name": "deepseek/deepseek-v3.1-terminus",
       "provider": "vercel",
-      "model_id": "gpt-oss-20b",
+      "model_id": "deepseek-v3.1-terminus",
+      "input_price_per_million": 0.21,
+      "output_price_per_million": 0.7899999999999999,
       "benchmarks": {
-        "arena_elo": 1318.0
+        "arena_elo": 1415.0
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "vercel/mistral/mistral-large-3",
+      "name": "mistral/mistral-large-3",
+      "provider": "vercel",
+      "model_id": "mistral-large-3",
+      "benchmarks": {
+        "arena_elo": 1413.0
       },
       "model_type": "chat"
     },
     {
-      "id": "vercel/xai/grok-3-mini",
-      "name": "xai/grok-3-mini",
+      "id": "vercel/openai/gpt-5.2-pro",
+      "name": "openai/gpt-5.2-pro",
       "provider": "vercel",
-      "model_id": "grok-3-mini",
+      "model_id": "gpt-5.2-pro",
+      "input_price_per_million": 10.5,
+      "output_price_per_million": 84.0,
       "model_type": "chat"
     },
     {
@@ -933,42 +1057,63 @@
       "name": "perplexity/sonar-pro",
       "provider": "vercel",
       "model_id": "sonar-pro",
+      "input_price_per_million": 3.0,
+      "output_price_per_million": 15.0,
       "model_type": "unknown"
+    },
+    {
+      "id": "vercel/xai/grok-3-mini",
+      "name": "xai/grok-3-mini",
+      "provider": "vercel",
+      "model_id": "grok-3-mini",
+      "input_price_per_million": 0.3,
+      "output_price_per_million": 0.5,
+      "model_type": "chat"
+    },
+    {
+      "id": "vercel/mistral/ministral-14b",
+      "name": "mistral/ministral-14b",
+      "provider": "vercel",
+      "model_id": "ministral-14b",
+      "input_price_per_million": 0.2,
+      "output_price_per_million": 0.2,
+      "model_type": "unknown"
+    },
+    {
+      "id": "vercel/xai/grok-2-vision",
+      "name": "xai/grok-2-vision",
+      "provider": "vercel",
+      "model_id": "grok-2-vision",
+      "model_type": "vision"
+    },
+    {
+      "id": "vercel/xai/grok-3",
+      "name": "xai/grok-3",
+      "provider": "vercel",
+      "model_id": "grok-3",
+      "input_price_per_million": 3.0,
+      "output_price_per_million": 15.0,
+      "benchmarks": {
+        "simplebench": 0.361
+      },
+      "model_type": "chat"
     },
     {
       "id": "vercel/meta/llama-4-scout",
       "name": "meta/llama-4-scout",
       "provider": "vercel",
       "model_id": "llama-4-scout",
+      "input_price_per_million": 0.08,
+      "output_price_per_million": 0.3,
       "model_type": "chat"
-    },
-    {
-      "id": "vercel/mistral/mistral-large-3",
-      "name": "mistral/mistral-large-3",
-      "provider": "vercel",
-      "model_id": "mistral-large-3",
-      "benchmarks": {
-        "arena_elo": 1413.0
-      },
-      "model_type": "chat"
-    },
-    {
-      "id": "vercel/mistral/ministral-8b",
-      "name": "mistral/ministral-8b",
-      "provider": "vercel",
-      "model_id": "ministral-8b",
-      "benchmarks": {
-        "gpqa_diamond": 0.271,
-        "math_level_5": 0.149,
-        "arena_elo": 1237.0
-      },
-      "model_type": "unknown"
     },
     {
       "id": "vercel/anthropic/claude-opus-4",
       "name": "anthropic/claude-opus-4",
       "provider": "vercel",
       "model_id": "claude-opus-4",
+      "input_price_per_million": 15.0,
+      "output_price_per_million": 75.0,
       "benchmarks": {
         "gpqa_diamond": 0.692,
         "math_level_5": 0.85,
@@ -984,17 +1129,26 @@
       "model_type": "chat"
     },
     {
-      "id": "vercel/xai/grok-2-vision",
-      "name": "xai/grok-2-vision",
+      "id": "vercel/mistral/pixtral-12b",
+      "name": "mistral/pixtral-12b",
       "provider": "vercel",
-      "model_id": "grok-2-vision",
+      "model_id": "pixtral-12b",
+      "input_price_per_million": 0.15,
+      "output_price_per_million": 0.15,
       "model_type": "vision"
     },
     {
-      "id": "vercel/mistral/ministral-14b",
-      "name": "mistral/ministral-14b",
+      "id": "vercel/mistral/ministral-8b",
+      "name": "mistral/ministral-8b",
       "provider": "vercel",
-      "model_id": "ministral-14b",
+      "model_id": "ministral-8b",
+      "input_price_per_million": 0.15,
+      "output_price_per_million": 0.15,
+      "benchmarks": {
+        "gpqa_diamond": 0.271,
+        "math_level_5": 0.149,
+        "arena_elo": 1237.0
+      },
       "model_type": "unknown"
     },
     {
@@ -1002,34 +1156,40 @@
       "name": "openai/text-embedding-ada-002",
       "provider": "vercel",
       "model_id": "text-embedding-ada-002",
+      "input_price_per_million": 0.1,
       "model_type": "embedding"
     },
     {
-      "id": "vercel/mistral/pixtral-12b",
-      "name": "mistral/pixtral-12b",
+      "id": "vercel/meta/llama-4-maverick",
+      "name": "meta/llama-4-maverick",
       "provider": "vercel",
-      "model_id": "pixtral-12b",
-      "model_type": "vision"
-    },
-    {
-      "id": "vercel/openai/gpt-5.2-pro",
-      "name": "openai/gpt-5.2-pro",
-      "provider": "vercel",
-      "model_id": "gpt-5.2-pro",
+      "model_id": "llama-4-maverick",
+      "input_price_per_million": 0.15,
+      "output_price_per_million": 0.6,
       "model_type": "chat"
     },
     {
-      "id": "vercel/google/text-multilingual-embedding-002",
-      "name": "google/text-multilingual-embedding-002",
+      "id": "vercel/anthropic/claude-3-haiku",
+      "name": "anthropic/claude-3-haiku",
       "provider": "vercel",
-      "model_id": "text-multilingual-embedding-002",
-      "model_type": "embedding"
+      "model_id": "claude-3-haiku",
+      "input_price_per_million": 0.25,
+      "output_price_per_million": 1.25,
+      "benchmarks": {
+        "gpqa_diamond": 0.363,
+        "mmlu": 0.738,
+        "math_level_5": 0.149,
+        "otis_mock_aime_2024_2025": 0.018
+      },
+      "model_type": "vision"
     },
     {
       "id": "vercel/openai/o1",
       "name": "openai/o1",
       "provider": "vercel",
       "model_id": "o1",
+      "input_price_per_million": 7.5,
+      "output_price_per_million": 30.0,
       "benchmarks": {
         "gpqa_diamond": 0.503,
         "mmlu": 90.8,
@@ -1042,30 +1202,12 @@
       "model_type": "reasoning"
     },
     {
-      "id": "vercel/anthropic/claude-3-haiku",
-      "name": "anthropic/claude-3-haiku",
-      "provider": "vercel",
-      "model_id": "claude-3-haiku",
-      "benchmarks": {
-        "gpqa_diamond": 0.363,
-        "mmlu": 0.738,
-        "math_level_5": 0.149,
-        "otis_mock_aime_2024_2025": 0.018
-      },
-      "model_type": "vision"
-    },
-    {
-      "id": "vercel/meta/llama-4-maverick",
-      "name": "meta/llama-4-maverick",
-      "provider": "vercel",
-      "model_id": "llama-4-maverick",
-      "model_type": "chat"
-    },
-    {
       "id": "vercel/mistral/mistral-medium",
       "name": "mistral/mistral-medium",
       "provider": "vercel",
       "model_id": "mistral-medium",
+      "input_price_per_million": 0.4,
+      "output_price_per_million": 2.0,
       "benchmarks": {
         "gpqa_diamond": 0.595,
         "math_level_5": 0.816,
@@ -1076,17 +1218,12 @@
       "model_type": "chat"
     },
     {
-      "id": "vercel/perplexity/sonar-reasoning-pro",
-      "name": "perplexity/sonar-reasoning-pro",
-      "provider": "vercel",
-      "model_id": "sonar-reasoning-pro",
-      "model_type": "unknown"
-    },
-    {
       "id": "vercel/openai/gpt-4-turbo",
       "name": "openai/gpt-4-turbo",
       "provider": "vercel",
       "model_id": "gpt-4-turbo",
+      "input_price_per_million": 10.0,
+      "output_price_per_million": 30.0,
       "benchmarks": {
         "gpqa_diamond": 0.466,
         "mmlu": 86.7,
@@ -1110,6 +1247,8 @@
       "name": "openai/gpt-3.5-turbo",
       "provider": "vercel",
       "model_id": "gpt-3.5-turbo",
+      "input_price_per_million": 0.5,
+      "output_price_per_million": 1.5,
       "benchmarks": {
         "gpqa_diamond": 0.272,
         "mmlu": 0.714,
@@ -1121,14 +1260,91 @@
       "model_type": "chat"
     },
     {
+      "id": "vercel/google/text-multilingual-embedding-002",
+      "name": "google/text-multilingual-embedding-002",
+      "provider": "vercel",
+      "model_id": "text-multilingual-embedding-002",
+      "model_type": "embedding"
+    },
+    {
       "id": "vercel/mistral/codestral",
       "name": "mistral/codestral",
       "provider": "vercel",
       "model_id": "codestral",
+      "input_price_per_million": 0.3,
+      "output_price_per_million": 0.9,
       "benchmarks": {
         "aider_polyglot": 11.1
       },
       "model_type": "code"
+    },
+    {
+      "id": "vercel/openai/gpt-5-pro",
+      "name": "openai/gpt-5-pro",
+      "provider": "vercel",
+      "model_id": "gpt-5-pro",
+      "input_price_per_million": 7.5,
+      "output_price_per_million": 60.0,
+      "benchmarks": {
+        "simplebench": 0.616,
+        "livebench_global": 72.67,
+        "livebench_reasoning": 81.69,
+        "livebench_coding": 72.11,
+        "livebench_agentic_coding": 51.67,
+        "livebench_math": 86.17,
+        "livebench_data_analysis": 72.42,
+        "livebench_language": 80.69,
+        "livebench_ifeval": 63.96
+      },
+      "model_type": "chat"
+    },
+    {
+      "id": "vercel/mistral/magistral-medium",
+      "name": "mistral/magistral-medium",
+      "provider": "vercel",
+      "model_id": "magistral-medium",
+      "input_price_per_million": 2.0,
+      "output_price_per_million": 5.0,
+      "benchmarks": {
+        "arena_elo": 1305.0
+      },
+      "model_type": "unknown"
+    },
+    {
+      "id": "vercel/meta/llama-3.2-3b",
+      "name": "meta/llama-3.2-3b",
+      "provider": "vercel",
+      "model_id": "llama-3.2-3b",
+      "input_price_per_million": 0.055,
+      "output_price_per_million": 0.201,
+      "model_type": "chat"
+    },
+    {
+      "id": "vercel/xai/grok-3-mini-fast",
+      "name": "xai/grok-3-mini-fast",
+      "provider": "vercel",
+      "model_id": "grok-3-mini-fast",
+      "model_type": "chat"
+    },
+    {
+      "id": "vercel/anthropic/claude-3.5-sonnet-20240620",
+      "name": "anthropic/claude-3.5-sonnet-20240620",
+      "provider": "vercel",
+      "model_id": "claude-3.5-sonnet-20240620",
+      "input_price_per_million": 6.0,
+      "output_price_per_million": 30.0,
+      "benchmarks": {
+        "gpqa_diamond": 0.54,
+        "mmlu": 0.873,
+        "math_level_5": 0.517,
+        "otis_mock_aime_2024_2025": 0.085,
+        "frontiermath": 0.021,
+        "aider_polyglot": 51.6,
+        "simplebench": 0.275,
+        "frontiermath_tier_4": 0.0,
+        "swe_bench_verified": 0.406
+      },
+      "model_type": "vision"
     },
     {
       "id": "vercel/anthropic/claude-3-opus",
@@ -1145,70 +1361,12 @@
       "model_type": "vision"
     },
     {
-      "id": "vercel/mistral/magistral-medium",
-      "name": "mistral/magistral-medium",
-      "provider": "vercel",
-      "model_id": "magistral-medium",
-      "benchmarks": {
-        "arena_elo": 1305.0
-      },
-      "model_type": "unknown"
-    },
-    {
-      "id": "vercel/openai/gpt-5-pro",
-      "name": "openai/gpt-5-pro",
-      "provider": "vercel",
-      "model_id": "gpt-5-pro",
-      "benchmarks": {
-        "simplebench": 0.616,
-        "livebench_global": 72.67,
-        "livebench_reasoning": 81.69,
-        "livebench_coding": 72.11,
-        "livebench_agentic_coding": 51.67,
-        "livebench_math": 86.17,
-        "livebench_data_analysis": 72.42,
-        "livebench_language": 80.69,
-        "livebench_ifeval": 63.96
-      },
-      "model_type": "chat"
-    },
-    {
-      "id": "vercel/anthropic/claude-3.5-sonnet-20240620",
-      "name": "anthropic/claude-3.5-sonnet-20240620",
-      "provider": "vercel",
-      "model_id": "claude-3.5-sonnet-20240620",
-      "benchmarks": {
-        "gpqa_diamond": 0.54,
-        "mmlu": 0.873,
-        "math_level_5": 0.517,
-        "otis_mock_aime_2024_2025": 0.085,
-        "frontiermath": 0.021,
-        "aider_polyglot": 51.6,
-        "simplebench": 0.275,
-        "frontiermath_tier_4": 0.0,
-        "swe_bench_verified": 0.406
-      },
-      "model_type": "vision"
-    },
-    {
-      "id": "vercel/meta/llama-3.2-3b",
-      "name": "meta/llama-3.2-3b",
-      "provider": "vercel",
-      "model_id": "llama-3.2-3b",
-      "model_type": "chat"
-    },
-    {
-      "id": "vercel/xai/grok-3-mini-fast",
-      "name": "xai/grok-3-mini-fast",
-      "provider": "vercel",
-      "model_id": "grok-3-mini-fast",
-      "model_type": "chat"
-    },
-    {
       "id": "vercel/mistral/pixtral-large",
       "name": "mistral/pixtral-large",
       "provider": "vercel",
       "model_id": "pixtral-large",
+      "input_price_per_million": 2.0,
+      "output_price_per_million": 6.0,
       "model_type": "vision"
     },
     {
@@ -1216,6 +1374,8 @@
       "name": "meta/llama-3.1-70b",
       "provider": "vercel",
       "model_id": "llama-3.1-70b",
+      "input_price_per_million": 0.293,
+      "output_price_per_million": 2.253,
       "benchmarks": {
         "gpqa_diamond": 0.442,
         "mmlu": 0.801,
@@ -1229,6 +1389,8 @@
       "name": "openai/o3-pro",
       "provider": "vercel",
       "model_id": "o3-pro",
+      "input_price_per_million": 20.0,
+      "output_price_per_million": 80.0,
       "benchmarks": {
         "aider_polyglot": 0.849
       },
@@ -1239,6 +1401,8 @@
       "name": "openai/codex-mini",
       "provider": "vercel",
       "model_id": "codex-mini",
+      "input_price_per_million": 1.5,
+      "output_price_per_million": 6.0,
       "model_type": "unknown"
     },
     {
@@ -1246,6 +1410,8 @@
       "name": "mistral/devstral-small",
       "provider": "vercel",
       "model_id": "devstral-small",
+      "input_price_per_million": 0.07,
+      "output_price_per_million": 0.28,
       "model_type": "unknown"
     },
     {
@@ -1260,6 +1426,8 @@
       "name": "meta/llama-3.2-1b",
       "provider": "vercel",
       "model_id": "llama-3.2-1b",
+      "input_price_per_million": 0.027,
+      "output_price_per_million": 0.201,
       "model_type": "chat"
     },
     {
@@ -1281,6 +1449,8 @@
       "name": "openai/gpt-3.5-turbo-instruct",
       "provider": "vercel",
       "model_id": "gpt-3.5-turbo-instruct",
+      "input_price_per_million": 0.5,
+      "output_price_per_million": 1.5,
       "benchmarks": {
         "gpqa_diamond": 0.272,
         "mmlu": 0.714,
@@ -1306,6 +1476,15 @@
       "model_type": "chat"
     },
     {
+      "id": "vercel/openai/o3-deep-research",
+      "name": "openai/o3-deep-research",
+      "provider": "vercel",
+      "model_id": "o3-deep-research",
+      "input_price_per_million": 10.0,
+      "output_price_per_million": 40.0,
+      "model_type": "reasoning"
+    },
+    {
       "id": "vercel/meta/llama-3.2-90b",
       "name": "meta/llama-3.2-90b",
       "provider": "vercel",
@@ -1317,6 +1496,8 @@
       "name": "cohere/command-a",
       "provider": "vercel",
       "model_id": "command-a",
+      "input_price_per_million": 2.5,
+      "output_price_per_million": 10.0,
       "model_type": "unknown"
     },
     {
@@ -1324,6 +1505,7 @@
       "name": "mistral/codestral-embed",
       "provider": "vercel",
       "model_id": "codestral-embed",
+      "input_price_per_million": 0.15,
       "model_type": "embedding"
     },
     {
@@ -1331,6 +1513,8 @@
       "name": "mistral/magistral-small",
       "provider": "vercel",
       "model_id": "magistral-small",
+      "input_price_per_million": 0.5,
+      "output_price_per_million": 1.5,
       "benchmarks": {
         "gpqa_diamond": 0.484,
         "otis_mock_aime_2024_2025": 0.3
@@ -1342,6 +1526,8 @@
       "name": "mistral/mistral-nemo",
       "provider": "vercel",
       "model_id": "mistral-nemo",
+      "input_price_per_million": 0.02,
+      "output_price_per_million": 0.04,
       "model_type": "chat"
     },
     {
@@ -1349,6 +1535,8 @@
       "name": "mistral/mixtral-8x22b-instruct",
       "provider": "vercel",
       "model_id": "mixtral-8x22b-instruct",
+      "input_price_per_million": 2.0,
+      "output_price_per_million": 6.0,
       "model_type": "unknown"
     },
     {
@@ -1357,13 +1545,6 @@
       "provider": "vercel",
       "model_id": "models",
       "model_type": "unknown"
-    },
-    {
-      "id": "vercel/openai/o3-deep-research",
-      "name": "openai/o3-deep-research",
-      "provider": "vercel",
-      "model_id": "o3-deep-research",
-      "model_type": "reasoning"
     }
   ]
 }

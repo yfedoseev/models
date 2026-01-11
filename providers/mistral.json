@@ -10,6 +10,9 @@
       "context_window": 131072,
       "input_price_per_million": 0.5,
       "output_price_per_million": 1.5,
+      "benchmarks": {
+        "arena_elo": 1413
+      },
       "model_type": "chat"
     },
     {
@@ -199,6 +202,9 @@
       "context_window": 131072,
       "input_price_per_million": 0.5,
       "output_price_per_million": 1.5,
+      "benchmarks": {
+        "arena_elo": 1413
+      },
       "model_type": "chat"
     },
     {
@@ -346,6 +352,9 @@
       "context_window": 131072,
       "input_price_per_million": 0.5,
       "output_price_per_million": 1.5,
+      "benchmarks": {
+        "arena_elo": 1413
+      },
       "model_type": "chat"
     },
     {
@@ -398,6 +407,9 @@
       "context_window": 131072,
       "input_price_per_million": 0.5,
       "output_price_per_million": 1.5,
+      "benchmarks": {
+        "arena_elo": 1413
+      },
       "model_type": "chat"
     },
     {
@@ -449,7 +461,7 @@
         "otis_mock_aime_2024_2025": 0.085,
         "frontiermath": 0.003,
         "simplebench": 0.225,
-        "arena_elo": 1242.0
+        "arena_elo": 1413
       },
       "model_type": "chat"
     },
