@@ -1,51 +1,51 @@
 rank,name,provider,score
 1,meta-llama/Llama-3.2-11B-Vision-Instruct,deepinfra,115.3061
 2,meta-llama/Meta-Llama-3.1-8B-Instruct,deepinfra,87.9167
-3,google/gemma-3-4b-it,deepinfra,84.1667
-4,google/gemma-2-2b-it,nebius,82.9167
-5,mistralai/Mistral-Small-24B-Instruct-2501,deepinfra,70.2564
-6,google/gemma-3-12b-it,deepinfra,66.8627
-7,meta-llama/Meta-Llama-3-8B-Instruct,deepinfra,60.734
-8,gpt-5-nano-2025-08-07,openai,56.2003
-9,microsoft/phi-4,deepinfra,48.869
-10,openai/gpt-oss-20b,nebius,42.4
-11,@cf/mistral/mistral-7b-instruct-v0.1,cloudflare,40.4
-12,gemini-2.0-flash-lite,google,32.5227
-13,google/gemma-3-27b-it,deepinfra,31.3644
-14,gpt-4.1-nano-2025-04-14,openai,30.5082
-15,Qwen/Qwen3-32B,deepinfra,22.0966
-16,Qwen/Qwen3-235B-A22B-Instruct-2507,deepinfra,21.5029
-17,mistral-small-latest,mistral,21.2067
-18,Qwen/Qwen2.5-32B-Instruct,siliconflow,21.0556
-19,ministral-3b-latest,mistral,20.94
-20,grok-4-1-fast-reasoning,xai,20.5238
-21,Qwen/Qwen2.5-72B-Instruct,deepinfra,19.4605
-22,gpt-4o-mini-2024-07-18,openai,19.2741
-23,gpt-4o-mini-tts,openai,18.6992
-24,Qwen/Qwen3-30B-A3B,deepinfra,18.2577
-25,ministral-8b-latest,mistral,18.1048
-26,deepseek-ai/deepseek-v3.1-terminus,nvidia_nim,17.2917
-27,gemini-2.0-flash,google,16.93
-28,meta-llama/Llama-4-Scout-17B-16E-Instruct,deepinfra,15.5579
-29,gpt-4o-mini-audio-preview-2024-12-17,openai,15.3333
-30,gpt-4o-mini-search-preview-2025-03-11,openai,15.3333
-31,open-mistral-nemo,mistral,14.84
-32,gpt-5-mini-2025-08-07,openai,14.5727
-33,Qwen/QwQ-32B,siliconflow,13.6118
-34,@cf/meta/llama-3.1-8b-instruct-awq,cloudflare,13.5156
-35,@cf/meta/llama-3.1-8b-instruct-fp8,cloudflare,13.5156
-36,@cf/meta/llama-3.1-8b-instruct,cloudflare,13.5156
-37,jamba-1.5-mini,ai21,13.2778
-38,meta-llama/Llama-3.3-70B-Instruct,nebius,13.0909
-39,Qwen3 VL 235B A22B Instruct,fireworks,12.5455
-40,meta-llama/Meta-Llama-3.1-70B-Instruct,deepinfra,12.2083
-41,Qwen3 VL 235B A22B Thinking,fireworks,11.9394
-42,01-ai/Yi-1.5-34B-Chat,siliconflow,11.4805
-43,publishers/google/models/gemini-2.0-flash-001,vertex,10.8444
-44,OpenAI gpt-oss-120b,fireworks,10.2641
-45,openai/gpt-oss-120b,nebius,10.2641
-46,gpt-4.1-mini-2025-04-14,openai,9.788
-47,PrimeIntellect/INTELLECT-3,nebius,9.0769
-48,Qwen2.5-Coder-32B-Instruct,sambanova,9.0222
-49,zai-org/GLM-4.5-Air,nebius,8.8333
-50,meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8,deepinfra,8.67
+3,Llama 3.1 8B Instruct,bedrock,84.7619
+4,Llama 3.1 8B Instruct,bedrock,84.7619
+5,google/gemma-3-4b-it,deepinfra,84.1667
+6,google/gemma-2-2b-it,nebius,82.9167
+7,mistralai/Mistral-Small-24B-Instruct-2501,deepinfra,70.2564
+8,google/gemma-3-12b-it,deepinfra,66.8627
+9,meta-llama/Meta-Llama-3-8B-Instruct,deepinfra,60.734
+10,gpt-5-nano-2025-08-07,openai,56.2003
+11,publishers/microsoft/models/phi4,vertex,51.3125
+12,microsoft/phi-4,deepinfra,48.869
+13,Mistral 7B Instruct,bedrock,45.122
+14,openai/gpt-oss-20b,nebius,42.4
+15,@cf/mistral/mistral-7b-instruct-v0.1,cloudflare,40.4
+16,gemini-2.0-flash-lite,google,32.5227
+17,google/gemma-3-27b-it,deepinfra,31.3644
+18,gpt-4.1-nano-2025-04-14,openai,30.5082
+19,Llama 3 8B Instruct,bedrock,24.1782
+20,Qwen/Qwen3-32B,deepinfra,22.0966
+21,Qwen/Qwen3-235B-A22B-Instruct-2507,deepinfra,21.5029
+22,mistral-small-latest,mistral,21.2067
+23,Mistral Small (24.02),bedrock,21.2067
+24,publishers/mistralai/models/mistral-small-2503,vertex,21.2067
+25,Qwen/Qwen2.5-32B-Instruct,siliconflow,21.0556
+26,ministral-3b-latest,mistral,20.94
+27,grok-4-1-fast-reasoning,xai,20.5238
+28,Qwen/Qwen2.5-72B-Instruct,deepinfra,19.4605
+29,gpt-4o-mini-2024-07-18,openai,19.2741
+30,publishers/deepseek-ai/models/deepseek-v3-2,vertex,18.7167
+31,gpt-4o-mini-tts,openai,18.6992
+32,Qwen/Qwen3-30B-A3B,deepinfra,18.2577
+33,ministral-8b-latest,mistral,18.1048
+34,deepseek-ai/deepseek-v3.1-terminus,nvidia_nim,17.2917
+35,gemini-2.0-flash,google,16.93
+36,Llama 3.3 70B Instruct,bedrock,16.5195
+37,Llama 3.3 70B Instruct,bedrock,16.5195
+38,meta-llama/Llama-4-Scout-17B-16E-Instruct,deepinfra,15.5579
+39,gpt-4o-mini-audio-preview-2024-12-17,openai,15.3333
+40,gpt-4o-mini-search-preview-2025-03-11,openai,15.3333
+41,open-mistral-nemo,mistral,14.84
+42,gpt-5-mini-2025-08-07,openai,14.5727
+43,Qwen/QwQ-32B,siliconflow,13.6118
+44,@cf/meta/llama-3.1-8b-instruct-awq,cloudflare,13.5156
+45,@cf/meta/llama-3.1-8b-instruct-fp8,cloudflare,13.5156
+46,@cf/meta/llama-3.1-8b-instruct,cloudflare,13.5156
+47,Jamba 1.5 Mini,bedrock,13.2778
+48,jamba-1.5-mini,ai21,13.2778
+49,meta-llama/Llama-3.3-70B-Instruct,nebius,13.0909
+50,Qwen3 VL 235B A22B Instruct,fireworks,12.5455

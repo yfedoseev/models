@@ -72,7 +72,7 @@ Combined with pricing from official API pages, this enables both performance ran
 |--------|-------|
 | Providers | 108 |
 | Total Models | 11,481 |
-| With Pricing | 1,789 |
+| With Pricing | 1,930 |
 | With Benchmarks | 1,247 |
 
 ## What's Included

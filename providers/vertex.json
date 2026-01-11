@@ -543,6 +543,7 @@
       "provider": "vertex",
       "model_id": "publishers/meta/models/codellama-7b-hf",
       "context_window": 16384,
+      "input_price_per_million": 0.2,
       "model_type": "code"
     },
     {
@@ -616,6 +617,8 @@
       "provider": "vertex",
       "model_id": "publishers/mistral-ai/models/mixtral",
       "context_window": 32768,
+      "input_price_per_million": 2.0,
+      "output_price_per_million": 6.0,
       "model_type": "chat"
     },
     {
@@ -729,6 +732,8 @@
       "provider": "vertex",
       "model_id": "publishers/deepseek-ai/models/deepseek-r1",
       "context_window": 131072,
+      "input_price_per_million": 0.39999999999999997,
+      "output_price_per_million": 1.75,
       "benchmarks": {
         "gpqa_diamond": 0.692,
         "math_level_5": 0.931,
@@ -747,6 +752,8 @@
       "provider": "vertex",
       "model_id": "publishers/deepseek-ai/models/deepseek-v3",
       "context_window": 131072,
+      "input_price_per_million": 0.19,
+      "output_price_per_million": 0.87,
       "benchmarks": {
         "gpqa_diamond": 0.565,
         "mmlu": 0.871,
@@ -775,6 +782,7 @@
       "provider": "vertex",
       "model_id": "publishers/qwen/models/qwen3",
       "context_window": 131072,
+      "input_price_per_million": 0.1,
       "model_type": "unknown"
     },
     {
@@ -791,6 +799,8 @@
       "provider": "vertex",
       "model_id": "publishers/microsoft/models/phi4",
       "context_window": 16384,
+      "input_price_per_million": 0.06,
+      "output_price_per_million": 0.14,
       "benchmarks": {
         "gpqa_diamond": 0.561,
         "mmlu": 0.848,
@@ -912,6 +922,8 @@
       "provider": "vertex",
       "model_id": "publishers/anthropic/models/claude-3-haiku",
       "context_window": 200000,
+      "input_price_per_million": 0.25,
+      "output_price_per_million": 1.25,
       "benchmarks": {
         "gpqa_diamond": 0.363,
         "mmlu": 0.738,
@@ -1084,6 +1096,8 @@
       "provider": "vertex",
       "model_id": "publishers/mistralai/models/mistral-small-2503",
       "context_window": 32768,
+      "input_price_per_million": 0.1,
+      "output_price_per_million": 0.3,
       "benchmarks": {
         "gpqa_diamond": 0.453,
         "mmlu": 0.687,
@@ -1152,6 +1166,8 @@
       "provider": "vertex",
       "model_id": "publishers/mistralai/models/mistral-medium-3",
       "context_window": 32768,
+      "input_price_per_million": 0.39999999999999997,
+      "output_price_per_million": 2.0,
       "model_type": "chat"
     },
     {
@@ -1168,6 +1184,8 @@
       "provider": "vertex",
       "model_id": "publishers/anthropic/models/claude-opus-4",
       "context_window": 200000,
+      "input_price_per_million": 15.0,
+      "output_price_per_million": 75.0,
       "benchmarks": {
         "gpqa_diamond": 0.692,
         "math_level_5": 0.85,
@@ -1188,6 +1206,8 @@
       "provider": "vertex",
       "model_id": "publishers/anthropic/models/claude-sonnet-4",
       "context_window": 200000,
+      "input_price_per_million": 3.0,
+      "output_price_per_million": 15.0,
       "benchmarks": {
         "gpqa_diamond": 0.667,
         "math_level_5": 0.844,
@@ -1214,6 +1234,7 @@
       "name": "publishers/virtueai/models/virtueguard-text-lite",
       "provider": "vertex",
       "model_id": "publishers/virtueai/models/virtueguard-text-lite",
+      "input_price_per_million": 0.2,
       "model_type": "unknown"
     },
     {
@@ -1236,6 +1257,8 @@
       "provider": "vertex",
       "model_id": "publishers/anthropic/models/claude-opus-4-1",
       "context_window": 200000,
+      "input_price_per_million": 15.0,
+      "output_price_per_million": 75.0,
       "benchmarks": {
         "gpqa_diamond": 0.732,
         "otis_mock_aime_2024_2025": 0.4,
@@ -1269,6 +1292,8 @@
       "provider": "vertex",
       "model_id": "publishers/anthropic/models/claude-sonnet-4-5",
       "context_window": 200000,
+      "input_price_per_million": 3.0,
+      "output_price_per_million": 15.0,
       "benchmarks": {
         "gpqa_diamond": 0.737,
         "math_level_5": 0.977,
@@ -1296,6 +1321,8 @@
       "provider": "vertex",
       "model_id": "publishers/anthropic/models/claude-haiku-4-5",
       "context_window": 200000,
+      "input_price_per_million": 1.0,
+      "output_price_per_million": 5.0,
       "benchmarks": {
         "gpqa_diamond": 0.605,
         "math_level_5": 0.869,
@@ -1336,6 +1363,8 @@
       "provider": "vertex",
       "model_id": "publishers/nvidia/models/nemotron-nano-12b-v2-vl",
       "context_window": 131072,
+      "input_price_per_million": 0.19999999999999998,
+      "output_price_per_million": 0.6,
       "model_type": "unknown"
     },
     {
@@ -1344,6 +1373,8 @@
       "provider": "vertex",
       "model_id": "publishers/anthropic/models/claude-opus-4-5",
       "context_window": 200000,
+      "input_price_per_million": 5.0,
+      "output_price_per_million": 25.0,
       "benchmarks": {
         "gpqa_diamond": 0.807,
         "otis_mock_aime_2024_2025": 0.481,
@@ -1435,6 +1466,8 @@
       "provider": "vertex",
       "model_id": "publishers/google/models/gemini-embedding-001",
       "context_window": 8192,
+      "input_price_per_million": "0.15",
+      "output_price_per_million": "2.50",
       "model_type": "embedding"
     },
     {
@@ -1605,6 +1638,8 @@
       "provider": "vertex",
       "model_id": "publishers/moonshotai/models/kimi-k2",
       "context_window": 131072,
+      "input_price_per_million": 1.0,
+      "output_price_per_million": 250.0,
       "benchmarks": {
         "aider_polyglot": 59.1,
         "simplebench": 0.263,
@@ -1625,6 +1660,8 @@
       "provider": "vertex",
       "model_id": "publishers/qwen/models/qwen3-coder",
       "context_window": 131072,
+      "input_price_per_million": 0.22,
+      "output_price_per_million": 0.95,
       "model_type": "unknown"
     },
     {
@@ -1656,6 +1693,8 @@
       "provider": "vertex",
       "model_id": "publishers/deepseek-ai/models/deepseek-v3-1",
       "context_window": 131072,
+      "input_price_per_million": 0.15,
+      "output_price_per_million": 0.75,
       "model_type": "chat"
     },
     {
@@ -1664,6 +1703,8 @@
       "provider": "vertex",
       "model_id": "publishers/google/models/gemini-2.5-flash-image-preview",
       "context_window": 32768,
+      "input_price_per_million": "0.30",
+      "output_price_per_million": "0.039",
       "model_type": "vision"
     },
     {
@@ -1679,6 +1720,8 @@
       "provider": "vertex",
       "model_id": "publishers/qwen/models/qwen-image",
       "context_window": 32768,
+      "input_price_per_million": 0.0058,
+      "output_price_per_million": 172.4,
       "model_type": "unknown"
     },
     {
@@ -1687,6 +1730,8 @@
       "provider": "vertex",
       "model_id": "publishers/zai-org/models/glm-4.5",
       "context_window": 131072,
+      "input_price_per_million": 0.35,
+      "output_price_per_million": 1.55,
       "benchmarks": {
         "arena_elo": 1409.0
       },
@@ -1721,6 +1766,8 @@
       "provider": "vertex",
       "model_id": "publishers/google/models/gemini-2.5-computer-use-preview-10-2025",
       "context_window": 1048576,
+      "input_price_per_million": "1.25",
+      "output_price_per_million": "10.00",
       "model_type": "vision"
     },
     {
@@ -1737,6 +1784,8 @@
       "provider": "vertex",
       "model_id": "publishers/deepseek-ai/models/deepseek-v3-2",
       "context_window": 131072,
+      "input_price_per_million": 0.25,
+      "output_price_per_million": 0.38,
       "benchmarks": {
         "aider_polyglot": 70.2,
         "arena_elo": 1423.0,
@@ -1781,6 +1830,8 @@
       "provider": "vertex",
       "model_id": "publishers/google/models/gemini-2.5-flash-preview-09-2025",
       "context_window": 1048576,
+      "input_price_per_million": "0.30",
+      "output_price_per_million": "2.50",
       "benchmarks": {
         "arena_elo": 1405.0
       },
@@ -1792,6 +1843,8 @@
       "provider": "vertex",
       "model_id": "publishers/google/models/gemini-2.5-flash-lite-preview-09-2025",
       "context_window": 1048576,
+      "input_price_per_million": 0.09999999999999999,
+      "output_price_per_million": 0.39999999999999997,
       "model_type": "vision"
     },
     {
@@ -1800,6 +1853,8 @@
       "provider": "vertex",
       "model_id": "publishers/google/models/gemini-2.5-flash-image",
       "context_window": 32768,
+      "input_price_per_million": "0.30",
+      "output_price_per_million": "0.039",
       "model_type": "vision"
     },
     {
@@ -1822,6 +1877,8 @@
       "provider": "vertex",
       "model_id": "publishers/deepseek-ai/models/deepseek-ocr",
       "context_window": 8192,
+      "input_price_per_million": "0.03",
+      "output_price_per_million": "0.10",
       "model_type": "chat"
     },
     {
@@ -1874,6 +1931,8 @@
       "provider": "vertex",
       "model_id": "publishers/google/models/gemini-3-pro-image-preview",
       "context_window": 65536,
+      "input_price_per_million": "2.00",
+      "output_price_per_million": "12.00",
       "model_type": "vision"
     },
     {
@@ -1912,6 +1971,8 @@
       "provider": "vertex",
       "model_id": "publishers/minimaxai/models/minimax-m2",
       "context_window": 131072,
+      "input_price_per_million": 0.19999999999999998,
+      "output_price_per_million": 1.0,
       "model_type": "unknown"
     },
     {
@@ -1979,6 +2040,7 @@
       "provider": "vertex",
       "model_id": "publishers/mistralai/models/mistral-large-3",
       "context_window": 131072,
+      "input_price_per_million": 1.2,
       "benchmarks": {
         "arena_elo": 1413.0
       },

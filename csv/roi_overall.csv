@@ -1,51 +1,51 @@
 rank,name,provider,roi_score,category_score,avg_price_per_million
 1,black-forest-labs/flux-schnell,nebius,22.7273,0.125,0.0055
-2,meta-llama/Llama-3.2-11B-Vision-Instruct,deepinfra,11.5306,0.565,0.049
-3,black-forest-labs/flux-dev,nebius,9.2593,0.125,0.0135
-4,meta-llama/Meta-Llama-3.1-8B-Instruct,deepinfra,8.7917,0.3517,0.04
-5,meta-llama/Meta-Llama-3.1-8B-Instruct,nebius,8.7917,0.3517,0.04
-6,voxtral-mini-transcribe-25-07,mistral,8.5366,0.175,0.0205
-7,voxtral-mini-25-07,mistral,8.5366,0.175,0.0205
-8,voxtral-mini-latest,mistral,8.5366,0.175,0.0205
-9,google/gemma-3-4b-it,deepinfra,8.4167,0.505,0.06
-10,google/gemma-2-2b-it,nebius,8.2917,0.3317,0.04
-11,mistralai/Mistral-Small-24B-Instruct-2501,deepinfra,7.0256,0.4567,0.065
-12,google/gemma-3-12b-it,deepinfra,6.6863,0.5683,0.085
-13,gemma-3n-E4B-it Other,together,6.6667,0.2,0.03
-14,meta-llama/Llama-3.2-3B-Instruct,deepinfra,6.25,0.125,0.02
-15,yandexgpt-lite,yandex,6.25,0.125,0.02
-16,meta-llama/Meta-Llama-3-8B-Instruct,deepinfra,6.0734,0.2733,0.045
-17,gpt-5-nano-2025-08-07,openai,5.62,0.6323,0.1125
-18,gpt-5-nano,openai,5.62,0.6323,0.1125
-19,meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo,deepinfra,5.0,0.125,0.025
-20,microsoft/phi-4,deepinfra,4.8869,0.5131,0.105
-21,openai/gpt-oss-20b,nebius,4.24,0.53,0.125
-22,mistralai/Mistral-Nemo-Instruct-2407,deepinfra,4.1667,0.125,0.03
-23,@cf/mistral/mistral-7b-instruct-v0.1,cloudflare,4.04,0.606,0.15
-24,google/gemma-2-9b-it-fast,nebius,3.3333,0.2,0.06
-25,gemini-2.0-flash-lite,google,3.2523,0.6098,0.1875
-26,google/gemma-3-27b-it,deepinfra,3.1364,0.3921,0.125
-27,meta-llama/Llama-Guard-3-8B,nebius,3.125,0.125,0.04
-28,gpt-4.1-nano-2025-04-14,openai,3.0508,0.3814,0.125
-29,gpt-4.1-nano,openai,3.0508,0.3814,0.125
-30,@cf/google/gemma-3-12b-it,cloudflare,2.5892,0.5683,0.2195
-31,@cf/meta/llama-3.2-11b-vision-instruct,cloudflare,2.574,0.565,0.2195
-32,Meta-Llama-3.1-8B-Instruct,sambanova,2.3444,0.3517,0.15
-33,Qwen/Qwen3-32B,deepinfra,2.2097,0.3977,0.18
-34,Qwen/Qwen3-235B-A22B-Instruct-2507,deepinfra,2.1503,0.5741,0.267
-35,mistral-small-latest,mistral,2.1207,0.4241,0.2
-36,Qwen/Qwen2.5-32B-Instruct,siliconflow,2.1056,0.379,0.18
-37,ministral-3b-latest,mistral,2.094,0.2094,0.1
-38,Llama 3.2 3B Instruct Turbo Llama,together,2.0833,0.125,0.06
-39,meta-llama/Meta-Llama-3.1-8B-Instruct-fast,nebius,2.0833,0.125,0.06
-40,Qwen/Qwen2.5-Coder-7B-fast,nebius,2.0833,0.125,0.06
-41,grok-4-1-fast-reasoning,xai,2.0524,0.7183,0.35
-42,Qwen/Qwen3-32B,nebius,1.9887,0.3977,0.2
-43,google/gemma-3-27b-it,nebius,1.9603,0.3921,0.2
-44,Qwen/Qwen2.5-72B-Instruct,deepinfra,1.946,0.4962,0.255
-45,gpt-4o-mini-2024-07-18,openai,1.9274,0.3614,0.1875
-46,deepseek-ai/DeepSeek-OCR,deepinfra,1.9231,0.125,0.065
-47,grok-4-fast-reasoning,xai,1.9143,0.67,0.35
-48,gpt-4o-mini,openai,1.8998,0.3562,0.1875
-49,gpt-4o-mini-tts,openai,1.8699,0.575,0.3075
-50,Qwen/Qwen3-30B-A3B,deepinfra,1.8258,0.3378,0.185
+2,Llama 3.2 3B Instruct,bedrock,12.5,0.25,0.02
+3,Llama 3.2 3B Instruct,bedrock,12.5,0.25,0.02
+4,meta-llama/Llama-3.2-11B-Vision-Instruct,deepinfra,11.5306,0.565,0.049
+5,black-forest-labs/flux-dev,nebius,9.2593,0.125,0.0135
+6,meta-llama/Meta-Llama-3.1-8B-Instruct,deepinfra,8.7917,0.3517,0.04
+7,meta-llama/Meta-Llama-3.1-8B-Instruct,nebius,8.7917,0.3517,0.04
+8,voxtral-mini-transcribe-25-07,mistral,8.5366,0.175,0.0205
+9,voxtral-mini-25-07,mistral,8.5366,0.175,0.0205
+10,voxtral-mini-latest,mistral,8.5366,0.175,0.0205
+11,Llama 3.1 8B Instruct,bedrock,8.4762,0.2967,0.035
+12,Llama 3.1 8B Instruct,bedrock,8.4762,0.2967,0.035
+13,google/gemma-3-4b-it,deepinfra,8.4167,0.505,0.06
+14,google/gemma-2-2b-it,nebius,8.2917,0.3317,0.04
+15,mistralai/Mistral-Small-24B-Instruct-2501,deepinfra,7.0256,0.4567,0.065
+16,google/gemma-3-12b-it,deepinfra,6.6863,0.5683,0.085
+17,gemma-3n-E4B-it Other,together,6.6667,0.2,0.03
+18,meta-llama/Llama-3.2-3B-Instruct,deepinfra,6.25,0.125,0.02
+19,yandexgpt-lite,yandex,6.25,0.125,0.02
+20,meta-llama/Meta-Llama-3-8B-Instruct,deepinfra,6.0734,0.2733,0.045
+21,gpt-5-nano-2025-08-07,openai,5.62,0.6323,0.1125
+22,gpt-5-nano,openai,5.62,0.6323,0.1125
+23,publishers/microsoft/models/phi4,vertex,5.1313,0.5131,0.1
+24,meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo,deepinfra,5.0,0.125,0.025
+25,microsoft/phi-4,deepinfra,4.8869,0.5131,0.105
+26,Mistral 7B Instruct,bedrock,4.5122,0.185,0.041
+27,openai/gpt-oss-20b,nebius,4.24,0.53,0.125
+28,mistralai/Mistral-Nemo-Instruct-2407,deepinfra,4.1667,0.125,0.03
+29,eu/gpt-5-nano,azure_openai,4.162,0.4682,0.1125
+30,us/gpt-5-nano,azure_openai,4.162,0.4682,0.1125
+31,@cf/mistral/mistral-7b-instruct-v0.1,cloudflare,4.04,0.606,0.15
+32,google/gemma-2-9b-it-fast,nebius,3.3333,0.2,0.06
+33,gemini-2.0-flash-lite,google,3.2523,0.6098,0.1875
+34,google/gemma-3-27b-it,deepinfra,3.1364,0.3921,0.125
+35,meta-llama/Llama-Guard-3-8B,nebius,3.125,0.125,0.04
+36,gpt-4.1-nano-2025-04-14,openai,3.0508,0.3814,0.125
+37,gpt-4.1-nano,openai,3.0508,0.3814,0.125
+38,eu/gpt-4.1-nano,azure_openai,3.0508,0.3814,0.125
+39,us/gpt-4.1-nano,azure_openai,3.0508,0.3814,0.125
+40,@cf/google/gemma-3-12b-it,cloudflare,2.5892,0.5683,0.2195
+41,@cf/meta/llama-3.2-11b-vision-instruct,cloudflare,2.574,0.565,0.2195
+42,Llama 3 8B Instruct,bedrock,2.4178,0.1088,0.045
+43,Meta-Llama-3.1-8B-Instruct,sambanova,2.3444,0.3517,0.15
+44,Qwen/Qwen3-32B,deepinfra,2.2097,0.3977,0.18
+45,Llama 3.2 1B Instruct,bedrock,2.2026,0.25,0.1135
+46,Llama 3.2 1B Instruct,bedrock,2.2026,0.25,0.1135
+47,Qwen/Qwen3-235B-A22B-Instruct-2507,deepinfra,2.1503,0.5741,0.267
+48,mistral-small-latest,mistral,2.1207,0.4241,0.2
+49,Mistral Small (24.02),bedrock,2.1207,0.4241,0.2
+50,publishers/mistralai/models/mistral-small-2503,vertex,2.1207,0.4241,0.2

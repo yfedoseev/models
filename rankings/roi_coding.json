@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-11T14:56:35.235172",
+  "generated_at": "2026-01-11T15:02:29.704309",
   "ranking_type": "roi_coding",
   "count": 50,
   "models": [
@@ -27,6 +27,28 @@
     },
     {
       "rank": 3,
+      "model_id": "azure/eu/gpt-5-nano",
+      "provider": "azure_openai",
+      "name": "eu/gpt-5-nano",
+      "score": 2.5182,
+      "category_score": 0.2833,
+      "avg_price_per_million": 0.1125,
+      "input_price": 0.025,
+      "output_price": 0.2
+    },
+    {
+      "rank": 4,
+      "model_id": "azure/us/gpt-5-nano",
+      "provider": "azure_openai",
+      "name": "us/gpt-5-nano",
+      "score": 2.5182,
+      "category_score": 0.2833,
+      "avg_price_per_million": 0.1125,
+      "input_price": 0.025,
+      "output_price": 0.2
+    },
+    {
+      "rank": 5,
       "model_id": "deepinfra/Qwen/Qwen3-235B-A22B-Instruct-2507",
       "provider": "deepinfra",
       "name": "Qwen/Qwen3-235B-A22B-Instruct-2507",
@@ -37,7 +59,18 @@
       "output_price": 0.463
     },
     {
-      "rank": 4,
+      "rank": 6,
+      "model_id": "vertex/publishers/deepseek-ai/models/deepseek-v3-2",
+      "provider": "vertex",
+      "name": "publishers/deepseek-ai/models/deepseek-v3-2",
+      "score": 2.2286,
+      "category_score": 0.702,
+      "avg_price_per_million": 0.315,
+      "input_price": 0.25,
+      "output_price": 0.38
+    },
+    {
+      "rank": 7,
       "model_id": "deepinfra/Qwen/Qwen3-32B",
       "provider": "deepinfra",
       "name": "Qwen/Qwen3-32B",
@@ -48,7 +81,7 @@
       "output_price": 0.28
     },
     {
-      "rank": 5,
+      "rank": 8,
       "model_id": "nebius/Qwen/Qwen3-32B",
       "provider": "nebius",
       "name": "Qwen/Qwen3-32B",
@@ -59,7 +92,7 @@
       "output_price": 0.3
     },
     {
-      "rank": 6,
+      "rank": 9,
       "model_id": "nebius/Qwen/Qwen3-235B-A22B-Instruct-2507",
       "provider": "nebius",
       "name": "Qwen/Qwen3-235B-A22B-Instruct-2507",
@@ -70,7 +103,7 @@
       "output_price": 0.6
     },
     {
-      "rank": 7,
+      "rank": 10,
       "model_id": "openai/gpt-5-mini-2025-08-07",
       "provider": "openai",
       "name": "gpt-5-mini-2025-08-07",
@@ -81,7 +114,7 @@
       "output_price": 1.0
     },
     {
-      "rank": 8,
+      "rank": 11,
       "model_id": "siliconflow/Qwen/QwQ-32B",
       "provider": "siliconflow",
       "name": "Qwen/QwQ-32B",
@@ -92,7 +125,7 @@
       "output_price": 0.17
     },
     {
-      "rank": 9,
+      "rank": 12,
       "model_id": "fireworks/qwen3-235b-a22b",
       "provider": "fireworks",
       "name": "Qwen3 235B A22B",
@@ -103,7 +136,7 @@
       "output_price": 0.88
     },
     {
-      "rank": 10,
+      "rank": 13,
       "model_id": "fireworks/qwen3-235b-a22b-instruct-2507",
       "provider": "fireworks",
       "name": "Qwen3 235B A22B Instruct 2507",
@@ -114,7 +147,7 @@
       "output_price": 0.88
     },
     {
-      "rank": 11,
+      "rank": 14,
       "model_id": "siliconflow/deepseek-ai/DeepSeek-V3.2",
       "provider": "siliconflow",
       "name": "deepseek-ai/DeepSeek-V3.2",
@@ -125,7 +158,29 @@
       "output_price": 1.11
     },
     {
-      "rank": 12,
+      "rank": 15,
+      "model_id": "bedrock/deepseek.v3-v1:0",
+      "provider": "bedrock",
+      "name": "DeepSeek-V3.1",
+      "score": 0.983,
+      "category_score": 0.521,
+      "avg_price_per_million": 0.53,
+      "input_price": 0.19,
+      "output_price": 0.87
+    },
+    {
+      "rank": 16,
+      "model_id": "vertex/publishers/deepseek-ai/models/deepseek-v3",
+      "provider": "vertex",
+      "name": "publishers/deepseek-ai/models/deepseek-v3",
+      "score": 0.983,
+      "category_score": 0.521,
+      "avg_price_per_million": 0.53,
+      "input_price": 0.19,
+      "output_price": 0.87
+    },
+    {
+      "rank": 17,
       "model_id": "sambanova/Qwen3-32B",
       "provider": "sambanova",
       "name": "Qwen3-32B",
@@ -136,7 +191,7 @@
       "output_price": 0.6
     },
     {
-      "rank": 13,
+      "rank": 18,
       "model_id": "google/gemini-2.0-flash",
       "provider": "google",
       "name": "gemini-2.0-flash",
@@ -147,7 +202,7 @@
       "output_price": 0.4
     },
     {
-      "rank": 14,
+      "rank": 19,
       "model_id": "deepinfra/deepseek-ai/DeepSeek-V3",
       "provider": "deepinfra",
       "name": "deepseek-ai/DeepSeek-V3",
@@ -158,7 +213,7 @@
       "output_price": 0.89
     },
     {
-      "rank": 15,
+      "rank": 20,
       "model_id": "siliconflow/deepseek-ai/DeepSeek-V3",
       "provider": "siliconflow",
       "name": "deepseek-ai/DeepSeek-V3",
@@ -169,7 +224,7 @@
       "output_price": 1.11
     },
     {
-      "rank": 16,
+      "rank": 21,
       "model_id": "openai/gpt-4.1-nano-2025-04-14",
       "provider": "openai",
       "name": "gpt-4.1-nano-2025-04-14",
@@ -180,7 +235,7 @@
       "output_price": 0.2
     },
     {
-      "rank": 17,
+      "rank": 22,
       "model_id": "openai/gpt-4.1-nano",
       "provider": "openai",
       "name": "gpt-4.1-nano",
@@ -191,7 +246,73 @@
       "output_price": 0.2
     },
     {
-      "rank": 18,
+      "rank": 23,
+      "model_id": "azure/eu/gpt-4.1-nano",
+      "provider": "azure_openai",
+      "name": "eu/gpt-4.1-nano",
+      "score": 0.712,
+      "category_score": 0.089,
+      "avg_price_per_million": 0.125,
+      "input_price": 0.05,
+      "output_price": 0.2
+    },
+    {
+      "rank": 24,
+      "model_id": "azure/us/gpt-4.1-nano",
+      "provider": "azure_openai",
+      "name": "us/gpt-4.1-nano",
+      "score": 0.712,
+      "category_score": 0.089,
+      "avg_price_per_million": 0.125,
+      "input_price": 0.05,
+      "output_price": 0.2
+    },
+    {
+      "rank": 25,
+      "model_id": "azure/eu/o4-mini",
+      "provider": "azure_openai",
+      "name": "eu/o4-mini",
+      "score": 0.7076,
+      "category_score": 0.973,
+      "avg_price_per_million": 1.375,
+      "input_price": 0.55,
+      "output_price": 2.2
+    },
+    {
+      "rank": 26,
+      "model_id": "azure/us/o4-mini",
+      "provider": "azure_openai",
+      "name": "us/o4-mini",
+      "score": 0.7076,
+      "category_score": 0.973,
+      "avg_price_per_million": 1.375,
+      "input_price": 0.55,
+      "output_price": 2.2
+    },
+    {
+      "rank": 27,
+      "model_id": "azure/eu/o3-mini",
+      "provider": "azure_openai",
+      "name": "eu/o3-mini",
+      "score": 0.7004,
+      "category_score": 0.963,
+      "avg_price_per_million": 1.375,
+      "input_price": 0.55,
+      "output_price": 2.2
+    },
+    {
+      "rank": 28,
+      "model_id": "azure/us/o3-mini",
+      "provider": "azure_openai",
+      "name": "us/o3-mini",
+      "score": 0.7004,
+      "category_score": 0.963,
+      "avg_price_per_million": 1.375,
+      "input_price": 0.55,
+      "output_price": 2.2
+    },
+    {
+      "rank": 29,
       "model_id": "openai/gpt-5.1-codex-mini",
       "provider": "openai",
       "name": "gpt-5.1-codex-mini",
@@ -202,7 +323,7 @@
       "output_price": 2.0
     },
     {
-      "rank": 19,
+      "rank": 30,
       "model_id": "openai/gpt-4.1-mini-2025-04-14",
       "provider": "openai",
       "name": "gpt-4.1-mini-2025-04-14",
@@ -213,7 +334,7 @@
       "output_price": 0.8
     },
     {
-      "rank": 20,
+      "rank": 31,
       "model_id": "openai/gpt-4.1-mini",
       "provider": "openai",
       "name": "gpt-4.1-mini",
@@ -224,7 +345,29 @@
       "output_price": 0.8
     },
     {
-      "rank": 21,
+      "rank": 32,
+      "model_id": "azure/eu/gpt-4.1-mini",
+      "provider": "azure_openai",
+      "name": "eu/gpt-4.1-mini",
+      "score": 0.656,
+      "category_score": 0.328,
+      "avg_price_per_million": 0.5,
+      "input_price": 0.2,
+      "output_price": 0.8
+    },
+    {
+      "rank": 33,
+      "model_id": "azure/us/gpt-4.1-mini",
+      "provider": "azure_openai",
+      "name": "us/gpt-4.1-mini",
+      "score": 0.656,
+      "category_score": 0.328,
+      "avg_price_per_million": 0.5,
+      "input_price": 0.2,
+      "output_price": 0.8
+    },
+    {
+      "rank": 34,
       "model_id": "qwen/qwen3-32b",
       "provider": "qwen",
       "name": "qwen/qwen3-32b",
@@ -235,7 +378,7 @@
       "output_price": 0.64
     },
     {
-      "rank": 22,
+      "rank": 35,
       "model_id": "vertex/publishers/google/models/gemini-2.0-flash-001",
       "provider": "vertex",
       "name": "publishers/google/models/gemini-2.0-flash-001",
@@ -246,7 +389,7 @@
       "output_price": 0.6
     },
     {
-      "rank": 23,
+      "rank": 36,
       "model_id": "sambanova/DeepSeek-V3-0324",
       "provider": "sambanova",
       "name": "DeepSeek-V3-0324",
@@ -257,7 +400,7 @@
       "output_price": 1.2
     },
     {
-      "rank": 24,
+      "rank": 37,
       "model_id": "sambanova/DeepSeek-V3.1",
       "provider": "sambanova",
       "name": "DeepSeek-V3.1",
@@ -268,7 +411,7 @@
       "output_price": 1.2
     },
     {
-      "rank": 25,
+      "rank": 38,
       "model_id": "nebius/deepseek-ai/DeepSeek-V3-0324",
       "provider": "nebius",
       "name": "deepseek-ai/DeepSeek-V3-0324",
@@ -279,7 +422,7 @@
       "output_price": 1.5
     },
     {
-      "rank": 26,
+      "rank": 39,
       "model_id": "openai/o3-mini-2025-01-31",
       "provider": "openai",
       "name": "o3-mini-2025-01-31",
@@ -290,7 +433,7 @@
       "output_price": 2.2
     },
     {
-      "rank": 27,
+      "rank": 40,
       "model_id": "openai/o4-mini-2025-04-16",
       "provider": "openai",
       "name": "o4-mini-2025-04-16",
@@ -301,7 +444,7 @@
       "output_price": 2.2
     },
     {
-      "rank": 28,
+      "rank": 41,
       "model_id": "openai/o4-mini",
       "provider": "openai",
       "name": "o4-mini",
@@ -312,7 +455,7 @@
       "output_price": 2.2
     },
     {
-      "rank": 29,
+      "rank": 42,
       "model_id": "fireworks/gpt-oss-120b",
       "provider": "fireworks",
       "name": "OpenAI gpt-oss-120b",
@@ -323,7 +466,7 @@
       "output_price": 0.6
     },
     {
-      "rank": 30,
+      "rank": 43,
       "model_id": "nebius/openai/gpt-oss-120b",
       "provider": "nebius",
       "name": "openai/gpt-oss-120b",
@@ -334,7 +477,7 @@
       "output_price": 0.6
     },
     {
-      "rank": 31,
+      "rank": 44,
       "model_id": "deepinfra/meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
       "provider": "deepinfra",
       "name": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
@@ -345,7 +488,7 @@
       "output_price": 0.6
     },
     {
-      "rank": 32,
+      "rank": 45,
       "model_id": "sambanova/gpt-oss-120b",
       "provider": "sambanova",
       "name": "gpt-oss-120b",
@@ -356,7 +499,7 @@
       "output_price": 0.59
     },
     {
-      "rank": 33,
+      "rank": 46,
       "model_id": "nebius/moonshotai/Kimi-K2-Instruct",
       "provider": "nebius",
       "name": "moonshotai/Kimi-K2-Instruct",
@@ -367,7 +510,7 @@
       "output_price": 2.4
     },
     {
-      "rank": 34,
+      "rank": 47,
       "model_id": "deepinfra/google/gemma-3-27b-it",
       "provider": "deepinfra",
       "name": "google/gemma-3-27b-it",
@@ -378,7 +521,7 @@
       "output_price": 0.16
     },
     {
-      "rank": 35,
+      "rank": 48,
       "model_id": "fireworks/kimi-k2-instruct",
       "provider": "fireworks",
       "name": "Kimi K2 Instruct",
@@ -389,7 +532,7 @@
       "output_price": 2.5
     },
     {
-      "rank": 36,
+      "rank": 49,
       "model_id": "fireworks/kimi-k2-instruct-0905",
       "provider": "fireworks",
       "name": "Kimi K2 Instruct 0905",
@@ -400,7 +543,7 @@
       "output_price": 2.5
     },
     {
-      "rank": 37,
+      "rank": 50,
       "model_id": "sambanova/DeepSeek-R1-0528",
       "provider": "sambanova",
       "name": "DeepSeek-R1-0528",
@@ -409,149 +552,6 @@
       "avg_price_per_million": 0.9,
       "input_price": 0.6,
       "output_price": 1.2
-    },
-    {
-      "rank": 38,
-      "model_id": "sambanova/DeepSeek-R1",
-      "provider": "sambanova",
-      "name": "DeepSeek-R1",
-      "score": 0.37,
-      "category_score": 0.333,
-      "avg_price_per_million": 0.9,
-      "input_price": 0.6,
-      "output_price": 1.2
-    },
-    {
-      "rank": 39,
-      "model_id": "openai/o3-mini",
-      "provider": "openai",
-      "name": "o3-mini",
-      "score": 0.3585,
-      "category_score": 0.493,
-      "avg_price_per_million": 1.375,
-      "input_price": 0.55,
-      "output_price": 2.2
-    },
-    {
-      "rank": 40,
-      "model_id": "sambanova/Llama-4-Maverick-17B-128E-Instruct",
-      "provider": "sambanova",
-      "name": "Llama-4-Maverick-17B-128E-Instruct",
-      "score": 0.3467,
-      "category_score": 0.156,
-      "avg_price_per_million": 0.45,
-      "input_price": 0.3,
-      "output_price": 0.6
-    },
-    {
-      "rank": 41,
-      "model_id": "grok-4-1-fast-non-reasoning",
-      "provider": "xai",
-      "name": "grok-4-1-fast-non-reasoning",
-      "score": 0.2857,
-      "category_score": 0.1,
-      "avg_price_per_million": 0.35,
-      "input_price": 0.2,
-      "output_price": 0.5
-    },
-    {
-      "rank": 42,
-      "model_id": "openai/o3-2025-04-16",
-      "provider": "openai",
-      "name": "o3-2025-04-16",
-      "score": 0.2764,
-      "category_score": 0.691,
-      "avg_price_per_million": 2.5,
-      "input_price": 1.0,
-      "output_price": 4.0
-    },
-    {
-      "rank": 43,
-      "model_id": "openai/o3",
-      "provider": "openai",
-      "name": "o3",
-      "score": 0.2764,
-      "category_score": 0.691,
-      "avg_price_per_million": 2.5,
-      "input_price": 1.0,
-      "output_price": 4.0
-    },
-    {
-      "rank": 44,
-      "model_id": "openai/gpt-5-2025-08-07",
-      "provider": "openai",
-      "name": "gpt-5-2025-08-07",
-      "score": 0.2713,
-      "category_score": 0.763,
-      "avg_price_per_million": 2.8125,
-      "input_price": 0.625,
-      "output_price": 5.0
-    },
-    {
-      "rank": 45,
-      "model_id": "openai/gpt-5",
-      "provider": "openai",
-      "name": "gpt-5",
-      "score": 0.2713,
-      "category_score": 0.763,
-      "avg_price_per_million": 2.8125,
-      "input_price": 0.625,
-      "output_price": 5.0
-    },
-    {
-      "rank": 46,
-      "model_id": "openai/gpt-5.1-chat-latest",
-      "provider": "openai",
-      "name": "gpt-5.1-chat-latest",
-      "score": 0.2713,
-      "category_score": 0.763,
-      "avg_price_per_million": 2.8125,
-      "input_price": 0.625,
-      "output_price": 5.0
-    },
-    {
-      "rank": 47,
-      "model_id": "openai/gpt-5.1-2025-11-13",
-      "provider": "openai",
-      "name": "gpt-5.1-2025-11-13",
-      "score": 0.2713,
-      "category_score": 0.763,
-      "avg_price_per_million": 2.8125,
-      "input_price": 0.625,
-      "output_price": 5.0
-    },
-    {
-      "rank": 48,
-      "model_id": "openai/gpt-5.1",
-      "provider": "openai",
-      "name": "gpt-5.1",
-      "score": 0.2713,
-      "category_score": 0.763,
-      "avg_price_per_million": 2.8125,
-      "input_price": 0.625,
-      "output_price": 5.0
-    },
-    {
-      "rank": 49,
-      "model_id": "fireworks/kimi-k2-thinking",
-      "provider": "fireworks",
-      "name": "Kimi K2 Thinking",
-      "score": 0.2473,
-      "category_score": 0.3833,
-      "avg_price_per_million": 1.55,
-      "input_price": 0.6,
-      "output_price": 2.5
-    },
-    {
-      "rank": 50,
-      "model_id": "nebius/moonshotai/Kimi-K2-Thinking",
-      "provider": "nebius",
-      "name": "moonshotai/Kimi-K2-Thinking",
-      "score": 0.2473,
-      "category_score": 0.3833,
-      "avg_price_per_million": 1.55,
-      "input_price": 0.6,
-      "output_price": 2.5
     }
   ]
 }

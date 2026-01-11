@@ -2930,6 +2930,8 @@
       "name": "Claude Sonnet 4",
       "provider": "bedrock",
       "model_id": "anthropic.claude-sonnet-4-20250514-v1:0",
+      "input_price_per_million": 3.0,
+      "output_price_per_million": 15.0,
       "benchmarks": {
         "gpqa_diamond": 0.667,
         "math_level_5": 0.844,
@@ -2956,6 +2958,8 @@
       "name": "Claude Haiku 4.5",
       "provider": "bedrock",
       "model_id": "anthropic.claude-haiku-4-5-20251001-v1:0",
+      "input_price_per_million": 1.0,
+      "output_price_per_million": 5.0,
       "benchmarks": {
         "gpqa_diamond": 0.605,
         "math_level_5": 0.869,
@@ -3118,6 +3122,7 @@
       "name": "Ministral 14B 3.0",
       "provider": "bedrock",
       "model_id": "mistral.ministral-3-14b-instruct",
+      "input_price_per_million": 0.2,
       "model_type": "chat"
     },
     {
@@ -3132,6 +3137,7 @@
       "name": "Ministral 3 8B",
       "provider": "bedrock",
       "model_id": "mistral.ministral-3-8b-instruct",
+      "input_price_per_million": 0.2,
       "model_type": "chat"
     },
     {
@@ -3139,6 +3145,8 @@
       "name": "Voxtral Small 24B 2507",
       "provider": "bedrock",
       "model_id": "mistral.voxtral-small-24b-2507",
+      "input_price_per_million": 0.09999999999999999,
+      "output_price_per_million": 0.3,
       "model_type": "chat"
     },
     {
@@ -3195,6 +3203,8 @@
       "name": "Claude Sonnet 4.5",
       "provider": "bedrock",
       "model_id": "anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "input_price_per_million": 3.0,
+      "output_price_per_million": 15.0,
       "benchmarks": {
         "gpqa_diamond": 0.737,
         "math_level_5": 0.977,
@@ -3242,6 +3252,8 @@
       "name": "Claude Opus 4.1",
       "provider": "bedrock",
       "model_id": "anthropic.claude-opus-4-1-20250805-v1:0",
+      "input_price_per_million": 15.0,
+      "output_price_per_million": 75.0,
       "benchmarks": {
         "gpqa_diamond": 0.732,
         "otis_mock_aime_2024_2025": 0.4,
@@ -3281,6 +3293,8 @@
       "name": "Magistral Small 2509",
       "provider": "bedrock",
       "model_id": "mistral.magistral-small-2509",
+      "input_price_per_million": 0.5,
+      "output_price_per_million": 1.5,
       "benchmarks": {
         "gpqa_diamond": 0.484,
         "otis_mock_aime_2024_2025": 0.3
@@ -3306,6 +3320,8 @@
       "name": "DeepSeek-V3.1",
       "provider": "bedrock",
       "model_id": "deepseek.v3-v1:0",
+      "input_price_per_million": 0.19,
+      "output_price_per_million": 0.87,
       "benchmarks": {
         "gpqa_diamond": 0.565,
         "mmlu": 0.871,
@@ -3325,6 +3341,7 @@
       "name": "Ministral 3B",
       "provider": "bedrock",
       "model_id": "mistral.ministral-3-3b-instruct",
+      "input_price_per_million": 0.1,
       "model_type": "chat"
     },
     {
@@ -3332,6 +3349,8 @@
       "name": "Claude Opus 4.5",
       "provider": "bedrock",
       "model_id": "anthropic.claude-opus-4-5-20251101-v1:0",
+      "input_price_per_million": 5.0,
+      "output_price_per_million": 25.0,
       "benchmarks": {
         "gpqa_diamond": 0.807,
         "otis_mock_aime_2024_2025": 0.481,
@@ -3506,6 +3525,8 @@
       "name": "Claude 3.5 Sonnet v2",
       "provider": "bedrock",
       "model_id": "anthropic.claude-3-5-sonnet-20241022-v2:0:18k",
+      "input_price_per_million": 6.0,
+      "output_price_per_million": 30.0,
       "benchmarks": {
         "gpqa_diamond": 0.54,
         "mmlu": 0.873,
@@ -3524,6 +3545,8 @@
       "name": "Claude 3.5 Sonnet v2",
       "provider": "bedrock",
       "model_id": "anthropic.claude-3-5-sonnet-20241022-v2:0:51k",
+      "input_price_per_million": 6.0,
+      "output_price_per_million": 30.0,
       "benchmarks": {
         "gpqa_diamond": 0.54,
         "mmlu": 0.873,
@@ -3542,6 +3565,8 @@
       "name": "Claude 3.5 Sonnet v2",
       "provider": "bedrock",
       "model_id": "anthropic.claude-3-5-sonnet-20241022-v2:0:200k",
+      "input_price_per_million": 6.0,
+      "output_price_per_million": 30.0,
       "benchmarks": {
         "gpqa_diamond": 0.54,
         "mmlu": 0.873,
@@ -3560,6 +3585,8 @@
       "name": "Claude 3.5 Sonnet v2",
       "provider": "bedrock",
       "model_id": "anthropic.claude-3-5-sonnet-20241022-v2:0",
+      "input_price_per_million": 6.0,
+      "output_price_per_million": 30.0,
       "benchmarks": {
         "gpqa_diamond": 0.54,
         "mmlu": 0.873,
@@ -3578,6 +3605,8 @@
       "name": "Claude 3.7 Sonnet",
       "provider": "bedrock",
       "model_id": "anthropic.claude-3-7-sonnet-20250219-v1:0",
+      "input_price_per_million": 3.0,
+      "output_price_per_million": 15.0,
       "benchmarks": {
         "gpqa_diamond": 0.66,
         "math_level_5": 0.682,
@@ -3594,6 +3623,8 @@
       "name": "Claude 3.5 Haiku",
       "provider": "bedrock",
       "model_id": "anthropic.claude-3-5-haiku-20241022-v1:0",
+      "input_price_per_million": 0.7999999999999999,
+      "output_price_per_million": 4.0,
       "benchmarks": {
         "gpqa_diamond": 0.381,
         "mmlu": 0.743,
@@ -3684,6 +3715,8 @@
       "name": "Claude 3 Haiku",
       "provider": "bedrock",
       "model_id": "anthropic.claude-3-haiku-20240307-v1:0:48k",
+      "input_price_per_million": 0.25,
+      "output_price_per_million": 1.25,
       "benchmarks": {
         "gpqa_diamond": 0.363,
         "mmlu": 0.738,
@@ -3697,6 +3730,8 @@
       "name": "Claude 3 Haiku",
       "provider": "bedrock",
       "model_id": "anthropic.claude-3-haiku-20240307-v1:0:200k",
+      "input_price_per_million": 0.25,
+      "output_price_per_million": 1.25,
       "benchmarks": {
         "gpqa_diamond": 0.363,
         "mmlu": 0.738,
@@ -3710,6 +3745,8 @@
       "name": "Claude 3 Haiku",
       "provider": "bedrock",
       "model_id": "anthropic.claude-3-haiku-20240307-v1:0",
+      "input_price_per_million": 0.25,
+      "output_price_per_million": 1.25,
       "benchmarks": {
         "gpqa_diamond": 0.363,
         "mmlu": 0.738,
@@ -3779,6 +3816,8 @@
       "name": "Claude 3.5 Sonnet",
       "provider": "bedrock",
       "model_id": "anthropic.claude-3-5-sonnet-20240620-v1:0:18k",
+      "input_price_per_million": 6.0,
+      "output_price_per_million": 30.0,
       "benchmarks": {
         "gpqa_diamond": 0.54,
         "mmlu": 0.873,
@@ -3797,6 +3836,8 @@
       "name": "Claude 3.5 Sonnet",
       "provider": "bedrock",
       "model_id": "anthropic.claude-3-5-sonnet-20240620-v1:0:51k",
+      "input_price_per_million": 6.0,
+      "output_price_per_million": 30.0,
       "benchmarks": {
         "gpqa_diamond": 0.54,
         "mmlu": 0.873,
@@ -3815,6 +3856,8 @@
       "name": "Claude 3.5 Sonnet",
       "provider": "bedrock",
       "model_id": "anthropic.claude-3-5-sonnet-20240620-v1:0:200k",
+      "input_price_per_million": 6.0,
+      "output_price_per_million": 30.0,
       "benchmarks": {
         "gpqa_diamond": 0.54,
         "mmlu": 0.873,
@@ -3833,6 +3876,8 @@
       "name": "Claude 3.5 Sonnet",
       "provider": "bedrock",
       "model_id": "anthropic.claude-3-5-sonnet-20240620-v1:0",
+      "input_price_per_million": 6.0,
+      "output_price_per_million": 30.0,
       "benchmarks": {
         "gpqa_diamond": 0.54,
         "mmlu": 0.873,
@@ -3851,6 +3896,8 @@
       "name": "Claude Opus 4",
       "provider": "bedrock",
       "model_id": "anthropic.claude-opus-4-20250514-v1:0",
+      "input_price_per_million": 15.0,
+      "output_price_per_million": 75.0,
       "benchmarks": {
         "gpqa_diamond": 0.692,
         "math_level_5": 0.85,
@@ -3919,6 +3966,8 @@
       "name": "DeepSeek-R1",
       "provider": "bedrock",
       "model_id": "deepseek.r1-v1:0",
+      "input_price_per_million": 0.39999999999999997,
+      "output_price_per_million": 1.75,
       "benchmarks": {
         "gpqa_diamond": 0.692,
         "math_level_5": 0.931,
@@ -3936,6 +3985,8 @@
       "name": "Llama 3 8B Instruct",
       "provider": "bedrock",
       "model_id": "meta.llama3-8b-instruct-v1:0",
+      "input_price_per_million": 0.03,
+      "output_price_per_million": 0.06,
       "benchmarks": {
         "gpqa_diamond": 2.125,
         "ifeval": 24.013,
@@ -3949,6 +4000,8 @@
       "name": "Llama 3 70B Instruct",
       "provider": "bedrock",
       "model_id": "meta.llama3-70b-instruct-v1:0",
+      "input_price_per_million": 0.3,
+      "output_price_per_million": 0.39999999999999997,
       "model_type": "chat"
     },
     {
@@ -3956,6 +4009,8 @@
       "name": "Llama 3.1 8B Instruct",
       "provider": "bedrock",
       "model_id": "meta.llama3-1-8b-instruct-v1:0:128k",
+      "input_price_per_million": 0.02,
+      "output_price_per_million": 0.049999999999999996,
       "benchmarks": {
         "gpqa_diamond": 0.259,
         "mmlu": 0.561,
@@ -3970,6 +4025,8 @@
       "name": "Llama 3.1 8B Instruct",
       "provider": "bedrock",
       "model_id": "meta.llama3-1-8b-instruct-v1:0",
+      "input_price_per_million": 0.02,
+      "output_price_per_million": 0.049999999999999996,
       "benchmarks": {
         "gpqa_diamond": 0.259,
         "mmlu": 0.561,
@@ -3984,6 +4041,8 @@
       "name": "Llama 3.1 70B Instruct",
       "provider": "bedrock",
       "model_id": "meta.llama3-1-70b-instruct-v1:0:128k",
+      "input_price_per_million": 0.39999999999999997,
+      "output_price_per_million": 0.39999999999999997,
       "benchmarks": {
         "gpqa_diamond": 0.442,
         "mmlu": 0.801,
@@ -3997,6 +4056,8 @@
       "name": "Llama 3.1 70B Instruct",
       "provider": "bedrock",
       "model_id": "meta.llama3-1-70b-instruct-v1:0",
+      "input_price_per_million": 0.39999999999999997,
+      "output_price_per_million": 0.39999999999999997,
       "benchmarks": {
         "gpqa_diamond": 0.442,
         "mmlu": 0.801,
@@ -4010,6 +4071,8 @@
       "name": "Llama 3.1 405B Instruct",
       "provider": "bedrock",
       "model_id": "meta.llama3-1-405b-instruct-v1:0",
+      "input_price_per_million": 4.0,
+      "output_price_per_million": 4.0,
       "benchmarks": {
         "gpqa_diamond": 0.509,
         "mmlu": 0.844,
@@ -4053,6 +4116,8 @@
       "name": "Llama 3.2 1B Instruct",
       "provider": "bedrock",
       "model_id": "meta.llama3-2-1b-instruct-v1:0:128k",
+      "input_price_per_million": 0.027,
+      "output_price_per_million": 0.19999999999999998,
       "model_type": "chat"
     },
     {
@@ -4060,6 +4125,8 @@
       "name": "Llama 3.2 1B Instruct",
       "provider": "bedrock",
       "model_id": "meta.llama3-2-1b-instruct-v1:0",
+      "input_price_per_million": 0.027,
+      "output_price_per_million": 0.19999999999999998,
       "model_type": "chat"
     },
     {
@@ -4067,6 +4134,8 @@
       "name": "Llama 3.2 3B Instruct",
       "provider": "bedrock",
       "model_id": "meta.llama3-2-3b-instruct-v1:0:128k",
+      "input_price_per_million": 0.02,
+      "output_price_per_million": 0.02,
       "model_type": "chat"
     },
     {
@@ -4074,6 +4143,8 @@
       "name": "Llama 3.2 3B Instruct",
       "provider": "bedrock",
       "model_id": "meta.llama3-2-3b-instruct-v1:0",
+      "input_price_per_million": 0.02,
+      "output_price_per_million": 0.02,
       "model_type": "chat"
     },
     {
@@ -4081,6 +4152,8 @@
       "name": "Llama 3.3 70B Instruct",
       "provider": "bedrock",
       "model_id": "meta.llama3-3-70b-instruct-v1:0:128k",
+      "input_price_per_million": 0.09999999999999999,
+      "output_price_per_million": 0.32,
       "benchmarks": {
         "gpqa_diamond": 0.474,
         "mmlu": 0.863,
@@ -4095,6 +4168,8 @@
       "name": "Llama 3.3 70B Instruct",
       "provider": "bedrock",
       "model_id": "meta.llama3-3-70b-instruct-v1:0",
+      "input_price_per_million": 0.09999999999999999,
+      "output_price_per_million": 0.32,
       "benchmarks": {
         "gpqa_diamond": 0.474,
         "mmlu": 0.863,
@@ -4123,6 +4198,8 @@
       "name": "Mistral 7B Instruct",
       "provider": "bedrock",
       "model_id": "mistral.mistral-7b-instruct-v0:2",
+      "input_price_per_million": 0.028,
+      "output_price_per_million": 0.054,
       "benchmarks": {
         "arena_elo": 1111.0
       },
@@ -4133,6 +4210,8 @@
       "name": "Mixtral 8x7B Instruct",
       "provider": "bedrock",
       "model_id": "mistral.mixtral-8x7b-instruct-v0:1",
+      "input_price_per_million": 2.0,
+      "output_price_per_million": 6.0,
       "model_type": "chat"
     },
     {
@@ -4140,6 +4219,8 @@
       "name": "Mistral Large (24.02)",
       "provider": "bedrock",
       "model_id": "mistral.mistral-large-2402-v1:0",
+      "input_price_per_million": 0.5,
+      "output_price_per_million": 1.5,
       "benchmarks": {
         "gpqa_diamond": 0.49,
         "mmlu": 0.8,
@@ -4156,6 +4237,8 @@
       "name": "Mistral Large (24.07)",
       "provider": "bedrock",
       "model_id": "mistral.mistral-large-2407-v1:0",
+      "input_price_per_million": 0.5,
+      "output_price_per_million": 1.5,
       "benchmarks": {
         "gpqa_diamond": 0.49,
         "mmlu": 0.8,
@@ -4172,6 +4255,8 @@
       "name": "Pixtral Large (25.02)",
       "provider": "bedrock",
       "model_id": "mistral.pixtral-large-2502-v1:0",
+      "input_price_per_million": 2.0,
+      "output_price_per_million": 6.0,
       "model_type": "chat"
     },
     {
@@ -4326,6 +4411,8 @@
       "name": "Jamba 1.5 Large",
       "provider": "bedrock",
       "model_id": "ai21.jamba-1-5-large-v1:0",
+      "input_price_per_million": "2",
+      "output_price_per_million": "8",
       "benchmarks": {
         "arena_elo": 1289.0
       },
@@ -4336,6 +4423,8 @@
       "name": "Jamba 1.5 Mini",
       "provider": "bedrock",
       "model_id": "ai21.jamba-1-5-mini-v1:0",
+      "input_price_per_million": "0.2",
+      "output_price_per_million": "0.4",
       "benchmarks": {
         "arena_elo": 1239.0
       },
@@ -4346,6 +4435,8 @@
       "name": "Mistral Small (24.02)",
       "provider": "bedrock",
       "model_id": "mistral.mistral-small-2402-v1:0",
+      "input_price_per_million": 0.1,
+      "output_price_per_million": 0.3,
       "benchmarks": {
         "gpqa_diamond": 0.453,
         "mmlu": 0.687,
@@ -4633,6 +4724,8 @@
       "name": "US Nova Pro",
       "provider": "bedrock",
       "model_id": "us.amazon.nova-pro-v1:0",
+      "input_price_per_million": 0.05,
+      "output_price_per_million": 20.0,
       "model_type": "unknown"
     },
     {
@@ -4787,6 +4880,8 @@
       "name": "EU Nova Pro",
       "provider": "bedrock",
       "model_id": "eu.amazon.nova-pro-v1:0",
+      "input_price_per_million": 0.05,
+      "output_price_per_million": 20.0,
       "model_type": "unknown"
     },
     {
@@ -4913,6 +5008,8 @@
       "name": "APAC Nova Pro",
       "provider": "bedrock",
       "model_id": "apac.amazon.nova-pro-v1:0",
+      "input_price_per_million": 0.05,
+      "output_price_per_million": 20.0,
       "model_type": "unknown"
     },
     {
@@ -13371,6 +13468,7 @@
       "provider": "azure_openai",
       "model_id": "gpt-4",
       "context_window": 8192,
+      "input_price_per_million": 15.0,
       "benchmarks": {
         "gpqa_diamond": 0.307,
         "mmlu": 0.864,
@@ -13396,6 +13494,8 @@
       "provider": "azure_openai",
       "model_id": "gpt-4o",
       "context_window": 128000,
+      "input_price_per_million": 1.25,
+      "output_price_per_million": 5.0,
       "benchmarks": {
         "gpqa_diamond": 0.489,
         "mmlu": 87.2,
@@ -13416,6 +13516,8 @@
       "provider": "azure_openai",
       "model_id": "gpt-4o-mini",
       "context_window": 128000,
+      "input_price_per_million": 0.075,
+      "output_price_per_million": 0.3,
       "benchmarks": {
         "gpqa_diamond": 0.377,
         "mmlu": 82.0,
@@ -13435,6 +13537,8 @@
       "provider": "azure_openai",
       "model_id": "gpt-4o-mini-realtime-preview",
       "context_window": 128000,
+      "input_price_per_million": 0.6,
+      "output_price_per_million": 2.4,
       "model_type": "vision"
     },
     {
@@ -13443,6 +13547,8 @@
       "provider": "azure_openai",
       "model_id": "gpt-4o-realtime-preview",
       "context_window": 128000,
+      "input_price_per_million": 5.0,
+      "output_price_per_million": 20.0,
       "model_type": "vision"
     },
     {
@@ -13451,6 +13557,8 @@
       "provider": "azure_openai",
       "model_id": "gpt-4o-audio-preview",
       "context_window": 128000,
+      "input_price_per_million": 2.5,
+      "output_price_per_million": 10.0,
       "model_type": "vision"
     },
     {
@@ -13475,6 +13583,8 @@
       "provider": "azure_openai",
       "model_id": "gpt-35-turbo",
       "context_window": 16385,
+      "input_price_per_million": 0.5,
+      "output_price_per_million": 1.5,
       "benchmarks": {
         "gpqa_diamond": 0.272,
         "mmlu": 0.714,
@@ -13491,6 +13601,8 @@
       "provider": "azure_openai",
       "model_id": "gpt-35-turbo-instruct",
       "context_window": 16385,
+      "input_price_per_million": 0.5,
+      "output_price_per_million": 1.5,
       "benchmarks": {
         "gpqa_diamond": 0.272,
         "mmlu": 0.714,
@@ -13507,6 +13619,8 @@
       "provider": "azure_openai",
       "model_id": "gpt-35-turbo-16k",
       "context_window": 16385,
+      "input_price_per_million": 3.0,
+      "output_price_per_million": 4.0,
       "model_type": "chat"
     },
     {
@@ -13524,6 +13638,7 @@
       "name": "eu/babbage-002",
       "provider": "azure_openai",
       "model_id": "babbage-002",
+      "input_price_per_million": 0.4,
       "model_type": "unknown"
     },
     {
@@ -13551,6 +13666,7 @@
       "name": "eu/davinci-002",
       "provider": "azure_openai",
       "model_id": "davinci-002",
+      "input_price_per_million": 6.0,
       "model_type": "unknown"
     },
     {
@@ -13569,6 +13685,7 @@
       "provider": "azure_openai",
       "model_id": "text-embedding-ada-002",
       "context_window": 8191,
+      "input_price_per_million": 0.1,
       "model_type": "embedding"
     },
     {
@@ -13577,6 +13694,7 @@
       "provider": "azure_openai",
       "model_id": "text-embedding-3-small",
       "context_window": 8191,
+      "input_price_per_million": 0.02,
       "model_type": "embedding"
     },
     {
@@ -13585,6 +13703,7 @@
       "provider": "azure_openai",
       "model_id": "text-embedding-3-large",
       "context_window": 8191,
+      "input_price_per_million": 0.13,
       "model_type": "embedding"
     },
     {
@@ -13606,6 +13725,8 @@
       "provider": "azure_openai",
       "model_id": "o1",
       "context_window": 200000,
+      "input_price_per_million": 7.5,
+      "output_price_per_million": 30.0,
       "benchmarks": {
         "gpqa_diamond": 0.503,
         "mmlu": 90.8,
@@ -13623,6 +13744,8 @@
       "provider": "azure_openai",
       "model_id": "o3-mini",
       "context_window": 200000,
+      "input_price_per_million": 0.55,
+      "output_price_per_million": 2.2,
       "benchmarks": {
         "mmlu": 85.9,
         "humaneval": 96.3,
@@ -13642,6 +13765,8 @@
       "name": "eu/codex-mini",
       "provider": "azure_openai",
       "model_id": "codex-mini",
+      "input_price_per_million": 1.5,
+      "output_price_per_million": 6.0,
       "model_type": "unknown"
     },
     {
@@ -13657,6 +13782,8 @@
       "provider": "azure_openai",
       "model_id": "o4-mini",
       "context_window": 200000,
+      "input_price_per_million": 0.55,
+      "output_price_per_million": 2.2,
       "benchmarks": {
         "mmlu": 90.0,
         "humaneval": 97.3,
@@ -13670,6 +13797,8 @@
       "provider": "azure_openai",
       "model_id": "gpt-4.1",
       "context_window": 1047576,
+      "input_price_per_million": 1.0,
+      "output_price_per_million": 4.0,
       "benchmarks": {
         "gpqa_diamond": 0.669,
         "mmlu": 90.2,
@@ -13691,6 +13820,8 @@
       "provider": "azure_openai",
       "model_id": "gpt-4.1-mini",
       "context_window": 1047576,
+      "input_price_per_million": 0.2,
+      "output_price_per_million": 0.8,
       "benchmarks": {
         "gpqa_diamond": 0.658,
         "mmlu": 87.5,
@@ -13710,6 +13841,8 @@
       "provider": "azure_openai",
       "model_id": "gpt-4.1-nano",
       "context_window": 1047576,
+      "input_price_per_million": 0.05,
+      "output_price_per_million": 0.2,
       "benchmarks": {
         "gpqa_diamond": 0.489,
         "mmlu": 80.1,
@@ -13728,6 +13861,8 @@
       "provider": "azure_openai",
       "model_id": "gpt-5-nano",
       "context_window": 1047576,
+      "input_price_per_million": 0.025,
+      "output_price_per_million": 0.2,
       "benchmarks": {
         "livebench_global": 51.61,
         "livebench_reasoning": 35.45,
@@ -13746,6 +13881,8 @@
       "provider": "azure_openai",
       "model_id": "gpt-5-mini",
       "context_window": 1047576,
+      "input_price_per_million": 0.125,
+      "output_price_per_million": 1.0,
       "model_type": "vision"
     },
     {
@@ -13753,6 +13890,8 @@
       "name": "eu/gpt-5-chat",
       "provider": "azure_openai",
       "model_id": "gpt-5-chat",
+      "input_price_per_million": 0.625,
+      "output_price_per_million": 5.0,
       "benchmarks": {
         "arena_elo": 1425.0
       },
@@ -13763,6 +13902,8 @@
       "name": "eu/gpt-audio",
       "provider": "azure_openai",
       "model_id": "gpt-audio",
+      "input_price_per_million": 2.5,
+      "output_price_per_million": 10.0,
       "model_type": "unknown"
     },
     {
@@ -13770,6 +13911,8 @@
       "name": "eu/gpt-realtime",
       "provider": "azure_openai",
       "model_id": "gpt-realtime",
+      "input_price_per_million": 4.0,
+      "output_price_per_million": 16.0,
       "model_type": "unknown"
     },
     {
@@ -13777,6 +13920,8 @@
       "name": "eu/gpt-audio-mini",
       "provider": "azure_openai",
       "model_id": "gpt-audio-mini",
+      "input_price_per_million": 0.6,
+      "output_price_per_million": 2.4,
       "model_type": "unknown"
     },
     {
@@ -13784,6 +13929,8 @@
       "name": "eu/gpt-realtime-mini",
       "provider": "azure_openai",
       "model_id": "gpt-realtime-mini",
+      "input_price_per_million": 0.6,
+      "output_price_per_million": 2.4,
       "model_type": "unknown"
     },
     {
@@ -13799,6 +13946,8 @@
       "name": "eu/gpt-5.1-chat",
       "provider": "azure_openai",
       "model_id": "gpt-5.1-chat",
+      "input_price_per_million": 0.625,
+      "output_price_per_million": 5.0,
       "benchmarks": {
         "arena_elo": 1435.0
       },
@@ -13809,6 +13958,8 @@
       "name": "eu/gpt-5.1-codex-mini",
       "provider": "azure_openai",
       "model_id": "gpt-5.1-codex-mini",
+      "input_price_per_million": 0.25,
+      "output_price_per_million": 2.0,
       "benchmarks": {
         "livebench_global": 63.32,
         "livebench_reasoning": 64.71,
@@ -13826,6 +13977,8 @@
       "name": "eu/gpt-5.2-chat",
       "provider": "azure_openai",
       "model_id": "gpt-5.2-chat",
+      "input_price_per_million": 0.875,
+      "output_price_per_million": 7.0,
       "benchmarks": {
         "arena_elo": 1440.0
       },
@@ -13858,6 +14011,8 @@
       "provider": "azure_openai",
       "model_id": "gpt-35-turbo",
       "context_window": 16385,
+      "input_price_per_million": 0.5,
+      "output_price_per_million": 1.5,
       "benchmarks": {
         "gpqa_diamond": 0.272,
         "mmlu": 0.714,
@@ -13874,6 +14029,7 @@
       "provider": "azure_openai",
       "model_id": "gpt-4",
       "context_window": 8192,
+      "input_price_per_million": 15.0,
       "benchmarks": {
         "gpqa_diamond": 0.307,
         "mmlu": 0.864,
@@ -13899,6 +14055,8 @@
       "provider": "azure_openai",
       "model_id": "gpt-4o",
       "context_window": 128000,
+      "input_price_per_million": 1.25,
+      "output_price_per_million": 5.0,
       "benchmarks": {
         "gpqa_diamond": 0.489,
         "mmlu": 87.2,
@@ -13919,6 +14077,8 @@
       "provider": "azure_openai",
       "model_id": "gpt-4o-mini",
       "context_window": 128000,
+      "input_price_per_million": 0.075,
+      "output_price_per_million": 0.3,
       "benchmarks": {
         "gpqa_diamond": 0.377,
         "mmlu": 82.0,
@@ -13938,6 +14098,8 @@
       "provider": "azure_openai",
       "model_id": "gpt-4o-audio-preview",
       "context_window": 128000,
+      "input_price_per_million": 2.5,
+      "output_price_per_million": 10.0,
       "model_type": "vision"
     },
     {
@@ -14119,6 +14281,7 @@
       "provider": "azure_openai",
       "model_id": "text-embedding-ada-002",
       "context_window": 8191,
+      "input_price_per_million": 0.1,
       "model_type": "embedding"
     },
     {
@@ -14182,6 +14345,7 @@
       "provider": "azure_openai",
       "model_id": "text-embedding-3-small",
       "context_window": 8191,
+      "input_price_per_million": 0.02,
       "model_type": "embedding"
     },
     {
@@ -14190,6 +14354,7 @@
       "provider": "azure_openai",
       "model_id": "text-embedding-3-large",
       "context_window": 8191,
+      "input_price_per_million": 0.13,
       "model_type": "embedding"
     },
     {
@@ -14211,6 +14376,8 @@
       "provider": "azure_openai",
       "model_id": "o1",
       "context_window": 200000,
+      "input_price_per_million": 7.5,
+      "output_price_per_million": 30.0,
       "benchmarks": {
         "gpqa_diamond": 0.503,
         "mmlu": 90.8,
@@ -14228,6 +14395,8 @@
       "provider": "azure_openai",
       "model_id": "o3-mini",
       "context_window": 200000,
+      "input_price_per_million": 0.55,
+      "output_price_per_million": 2.2,
       "benchmarks": {
         "mmlu": 85.9,
         "humaneval": 96.3,
@@ -14241,6 +14410,8 @@
       "provider": "azure_openai",
       "model_id": "o4-mini",
       "context_window": 200000,
+      "input_price_per_million": 0.55,
+      "output_price_per_million": 2.2,
       "benchmarks": {
         "mmlu": 90.0,
         "humaneval": 97.3,
@@ -14254,6 +14425,8 @@
       "provider": "azure_openai",
       "model_id": "gpt-4.1",
       "context_window": 1047576,
+      "input_price_per_million": 1.0,
+      "output_price_per_million": 4.0,
       "benchmarks": {
         "gpqa_diamond": 0.669,
         "mmlu": 90.2,
@@ -14275,6 +14448,8 @@
       "provider": "azure_openai",
       "model_id": "gpt-4.1-mini",
       "context_window": 1047576,
+      "input_price_per_million": 0.2,
+      "output_price_per_million": 0.8,
       "benchmarks": {
         "gpqa_diamond": 0.658,
         "mmlu": 87.5,
@@ -14294,6 +14469,8 @@
       "provider": "azure_openai",
       "model_id": "gpt-4.1-nano",
       "context_window": 1047576,
+      "input_price_per_million": 0.05,
+      "output_price_per_million": 0.2,
       "benchmarks": {
         "gpqa_diamond": 0.489,
         "mmlu": 80.1,
@@ -14312,6 +14489,8 @@
       "provider": "azure_openai",
       "model_id": "gpt-5-mini",
       "context_window": 1047576,
+      "input_price_per_million": 0.125,
+      "output_price_per_million": 1.0,
       "model_type": "vision"
     },
     {
@@ -14320,6 +14499,8 @@
       "provider": "azure_openai",
       "model_id": "gpt-5-nano",
       "context_window": 1047576,
+      "input_price_per_million": 0.025,
+      "output_price_per_million": 0.2,
       "benchmarks": {
         "livebench_global": 51.61,
         "livebench_reasoning": 35.45,
@@ -14338,6 +14519,8 @@
       "provider": "azure_openai",
       "model_id": "gpt-35-turbo-16k",
       "context_window": 16385,
+      "input_price_per_million": 3.0,
+      "output_price_per_million": 4.0,
       "model_type": "chat"
     },
     {
@@ -14346,6 +14529,8 @@
       "provider": "azure_openai",
       "model_id": "gpt-4o-mini-realtime-preview",
       "context_window": 128000,
+      "input_price_per_million": 0.6,
+      "output_price_per_million": 2.4,
       "model_type": "vision"
     },
     {
@@ -14354,6 +14539,8 @@
       "provider": "azure_openai",
       "model_id": "gpt-4o-realtime-preview",
       "context_window": 128000,
+      "input_price_per_million": 5.0,
+      "output_price_per_million": 20.0,
       "model_type": "vision"
     },
     {
@@ -14362,6 +14549,8 @@
       "provider": "azure_openai",
       "model_id": "gpt-4o-mini-audio-preview",
       "context_window": 128000,
+      "input_price_per_million": 0.15,
+      "output_price_per_million": 0.6,
       "model_type": "vision"
     },
     {
@@ -14386,6 +14575,8 @@
       "provider": "azure_openai",
       "model_id": "gpt-4o-mini-tts",
       "context_window": 128000,
+      "input_price_per_million": 0.6,
+      "output_price_per_million": 0.015,
       "model_type": "audio"
     },
     {
@@ -14400,6 +14591,8 @@
       "name": "us/codex-mini",
       "provider": "azure_openai",
       "model_id": "codex-mini",
+      "input_price_per_million": 1.5,
+      "output_price_per_million": 6.0,
       "model_type": "unknown"
     },
     {
@@ -14414,6 +14607,8 @@
       "name": "us/gpt-5-chat",
       "provider": "azure_openai",
       "model_id": "gpt-5-chat",
+      "input_price_per_million": 0.625,
+      "output_price_per_million": 5.0,
       "benchmarks": {
         "arena_elo": 1425.0
       },
@@ -14424,6 +14619,8 @@
       "name": "us/gpt-audio",
       "provider": "azure_openai",
       "model_id": "gpt-audio",
+      "input_price_per_million": 2.5,
+      "output_price_per_million": 10.0,
       "model_type": "unknown"
     },
     {
@@ -14431,6 +14628,8 @@
       "name": "us/gpt-realtime",
       "provider": "azure_openai",
       "model_id": "gpt-realtime",
+      "input_price_per_million": 4.0,
+      "output_price_per_million": 16.0,
       "model_type": "unknown"
     },
     {
@@ -14438,6 +14637,8 @@
       "name": "us/gpt-audio-mini",
       "provider": "azure_openai",
       "model_id": "gpt-audio-mini",
+      "input_price_per_million": 0.6,
+      "output_price_per_million": 2.4,
       "model_type": "unknown"
     },
     {
@@ -14445,6 +14646,8 @@
       "name": "us/gpt-realtime-mini",
       "provider": "azure_openai",
       "model_id": "gpt-realtime-mini",
+      "input_price_per_million": 0.6,
+      "output_price_per_million": 2.4,
       "model_type": "unknown"
     },
     {
@@ -14460,6 +14663,8 @@
       "name": "us/gpt-5.1-chat",
       "provider": "azure_openai",
       "model_id": "gpt-5.1-chat",
+      "input_price_per_million": 0.625,
+      "output_price_per_million": 5.0,
       "benchmarks": {
         "arena_elo": 1435.0
       },
@@ -14470,6 +14675,8 @@
       "name": "us/gpt-5.1-codex-mini",
       "provider": "azure_openai",
       "model_id": "gpt-5.1-codex-mini",
+      "input_price_per_million": 0.25,
+      "output_price_per_million": 2.0,
       "benchmarks": {
         "livebench_global": 63.32,
         "livebench_reasoning": 64.71,
@@ -14487,6 +14694,8 @@
       "name": "us/gpt-5.2-chat",
       "provider": "azure_openai",
       "model_id": "gpt-5.2-chat",
+      "input_price_per_million": 0.875,
+      "output_price_per_million": 7.0,
       "benchmarks": {
         "arena_elo": 1440.0
       },
@@ -15245,6 +15454,7 @@
       "provider": "vertex",
       "model_id": "publishers/meta/models/codellama-7b-hf",
       "context_window": 16384,
+      "input_price_per_million": 0.2,
       "model_type": "code"
     },
     {
@@ -15318,6 +15528,8 @@
       "provider": "vertex",
       "model_id": "publishers/mistral-ai/models/mixtral",
       "context_window": 32768,
+      "input_price_per_million": 2.0,
+      "output_price_per_million": 6.0,
       "model_type": "chat"
     },
     {
@@ -15431,6 +15643,8 @@
       "provider": "vertex",
       "model_id": "publishers/deepseek-ai/models/deepseek-r1",
       "context_window": 131072,
+      "input_price_per_million": 0.39999999999999997,
+      "output_price_per_million": 1.75,
       "benchmarks": {
         "gpqa_diamond": 0.692,
         "math_level_5": 0.931,
@@ -15449,6 +15663,8 @@
       "provider": "vertex",
       "model_id": "publishers/deepseek-ai/models/deepseek-v3",
       "context_window": 131072,
+      "input_price_per_million": 0.19,
+      "output_price_per_million": 0.87,
       "benchmarks": {
         "gpqa_diamond": 0.565,
         "mmlu": 0.871,
@@ -15477,6 +15693,7 @@
       "provider": "vertex",
       "model_id": "publishers/qwen/models/qwen3",
       "context_window": 131072,
+      "input_price_per_million": 0.1,
       "model_type": "unknown"
     },
     {
@@ -15493,6 +15710,8 @@
       "provider": "vertex",
       "model_id": "publishers/microsoft/models/phi4",
       "context_window": 16384,
+      "input_price_per_million": 0.06,
+      "output_price_per_million": 0.14,
       "benchmarks": {
         "gpqa_diamond": 0.561,
         "mmlu": 0.848,
@@ -15614,6 +15833,8 @@
       "provider": "vertex",
       "model_id": "publishers/anthropic/models/claude-3-haiku",
       "context_window": 200000,
+      "input_price_per_million": 0.25,
+      "output_price_per_million": 1.25,
       "benchmarks": {
         "gpqa_diamond": 0.363,
         "mmlu": 0.738,
@@ -15786,6 +16007,8 @@
       "provider": "vertex",
       "model_id": "publishers/mistralai/models/mistral-small-2503",
       "context_window": 32768,
+      "input_price_per_million": 0.1,
+      "output_price_per_million": 0.3,
       "benchmarks": {
         "gpqa_diamond": 0.453,
         "mmlu": 0.687,
@@ -15854,6 +16077,8 @@
       "provider": "vertex",
       "model_id": "publishers/mistralai/models/mistral-medium-3",
       "context_window": 32768,
+      "input_price_per_million": 0.39999999999999997,
+      "output_price_per_million": 2.0,
       "model_type": "chat"
     },
     {
@@ -15870,6 +16095,8 @@
       "provider": "vertex",
       "model_id": "publishers/anthropic/models/claude-opus-4",
       "context_window": 200000,
+      "input_price_per_million": 15.0,
+      "output_price_per_million": 75.0,
       "benchmarks": {
         "gpqa_diamond": 0.692,
         "math_level_5": 0.85,
@@ -15890,6 +16117,8 @@
       "provider": "vertex",
       "model_id": "publishers/anthropic/models/claude-sonnet-4",
       "context_window": 200000,
+      "input_price_per_million": 3.0,
+      "output_price_per_million": 15.0,
       "benchmarks": {
         "gpqa_diamond": 0.667,
         "math_level_5": 0.844,
@@ -15916,6 +16145,7 @@
       "name": "publishers/virtueai/models/virtueguard-text-lite",
       "provider": "vertex",
       "model_id": "publishers/virtueai/models/virtueguard-text-lite",
+      "input_price_per_million": 0.2,
       "model_type": "unknown"
     },
     {
@@ -15938,6 +16168,8 @@
       "provider": "vertex",
       "model_id": "publishers/anthropic/models/claude-opus-4-1",
       "context_window": 200000,
+      "input_price_per_million": 15.0,
+      "output_price_per_million": 75.0,
       "benchmarks": {
         "gpqa_diamond": 0.732,
         "otis_mock_aime_2024_2025": 0.4,
@@ -15971,6 +16203,8 @@
       "provider": "vertex",
       "model_id": "publishers/anthropic/models/claude-sonnet-4-5",
       "context_window": 200000,
+      "input_price_per_million": 3.0,
+      "output_price_per_million": 15.0,
       "benchmarks": {
         "gpqa_diamond": 0.737,
         "math_level_5": 0.977,
@@ -15998,6 +16232,8 @@
       "provider": "vertex",
       "model_id": "publishers/anthropic/models/claude-haiku-4-5",
       "context_window": 200000,
+      "input_price_per_million": 1.0,
+      "output_price_per_million": 5.0,
       "benchmarks": {
         "gpqa_diamond": 0.605,
         "math_level_5": 0.869,
@@ -16038,6 +16274,8 @@
       "provider": "vertex",
       "model_id": "publishers/nvidia/models/nemotron-nano-12b-v2-vl",
       "context_window": 131072,
+      "input_price_per_million": 0.19999999999999998,
+      "output_price_per_million": 0.6,
       "model_type": "unknown"
     },
     {
@@ -16046,6 +16284,8 @@
       "provider": "vertex",
       "model_id": "publishers/anthropic/models/claude-opus-4-5",
       "context_window": 200000,
+      "input_price_per_million": 5.0,
+      "output_price_per_million": 25.0,
       "benchmarks": {
         "gpqa_diamond": 0.807,
         "otis_mock_aime_2024_2025": 0.481,
@@ -16137,6 +16377,8 @@
       "provider": "vertex",
       "model_id": "publishers/google/models/gemini-embedding-001",
       "context_window": 8192,
+      "input_price_per_million": "0.15",
+      "output_price_per_million": "2.50",
       "model_type": "embedding"
     },
     {
@@ -16307,6 +16549,8 @@
       "provider": "vertex",
       "model_id": "publishers/moonshotai/models/kimi-k2",
       "context_window": 131072,
+      "input_price_per_million": 1.0,
+      "output_price_per_million": 250.0,
       "benchmarks": {
         "aider_polyglot": 59.1,
         "simplebench": 0.263,
@@ -16327,6 +16571,8 @@
       "provider": "vertex",
       "model_id": "publishers/qwen/models/qwen3-coder",
       "context_window": 131072,
+      "input_price_per_million": 0.22,
+      "output_price_per_million": 0.95,
       "model_type": "unknown"
     },
     {
@@ -16358,6 +16604,8 @@
       "provider": "vertex",
       "model_id": "publishers/deepseek-ai/models/deepseek-v3-1",
       "context_window": 131072,
+      "input_price_per_million": 0.15,
+      "output_price_per_million": 0.75,
       "model_type": "chat"
     },
     {
@@ -16366,6 +16614,8 @@
       "provider": "vertex",
       "model_id": "publishers/google/models/gemini-2.5-flash-image-preview",
       "context_window": 32768,
+      "input_price_per_million": "0.30",
+      "output_price_per_million": "0.039",
       "model_type": "vision"
     },
     {
@@ -16381,6 +16631,8 @@
       "provider": "vertex",
       "model_id": "publishers/qwen/models/qwen-image",
       "context_window": 32768,
+      "input_price_per_million": 0.0058,
+      "output_price_per_million": 172.4,
       "model_type": "unknown"
     },
     {
@@ -16389,6 +16641,8 @@
       "provider": "vertex",
       "model_id": "publishers/zai-org/models/glm-4.5",
       "context_window": 131072,
+      "input_price_per_million": 0.35,
+      "output_price_per_million": 1.55,
       "benchmarks": {
         "arena_elo": 1409.0
       },
@@ -16423,6 +16677,8 @@
       "provider": "vertex",
       "model_id": "publishers/google/models/gemini-2.5-computer-use-preview-10-2025",
       "context_window": 1048576,
+      "input_price_per_million": "1.25",
+      "output_price_per_million": "10.00",
       "model_type": "vision"
     },
     {
@@ -16439,6 +16695,8 @@
       "provider": "vertex",
       "model_id": "publishers/deepseek-ai/models/deepseek-v3-2",
       "context_window": 131072,
+      "input_price_per_million": 0.25,
+      "output_price_per_million": 0.38,
       "benchmarks": {
         "aider_polyglot": 70.2,
         "arena_elo": 1423.0,
@@ -16483,6 +16741,8 @@
       "provider": "vertex",
       "model_id": "publishers/google/models/gemini-2.5-flash-preview-09-2025",
       "context_window": 1048576,
+      "input_price_per_million": "0.30",
+      "output_price_per_million": "2.50",
       "benchmarks": {
         "arena_elo": 1405.0
       },
@@ -16494,6 +16754,8 @@
       "provider": "vertex",
       "model_id": "publishers/google/models/gemini-2.5-flash-lite-preview-09-2025",
       "context_window": 1048576,
+      "input_price_per_million": 0.09999999999999999,
+      "output_price_per_million": 0.39999999999999997,
       "model_type": "vision"
     },
     {
@@ -16502,6 +16764,8 @@
       "provider": "vertex",
       "model_id": "publishers/google/models/gemini-2.5-flash-image",
       "context_window": 32768,
+      "input_price_per_million": "0.30",
+      "output_price_per_million": "0.039",
       "model_type": "vision"
     },
     {
@@ -16524,6 +16788,8 @@
       "provider": "vertex",
       "model_id": "publishers/deepseek-ai/models/deepseek-ocr",
       "context_window": 8192,
+      "input_price_per_million": "0.03",
+      "output_price_per_million": "0.10",
       "model_type": "chat"
     },
     {
@@ -16576,6 +16842,8 @@
       "provider": "vertex",
       "model_id": "publishers/google/models/gemini-3-pro-image-preview",
       "context_window": 65536,
+      "input_price_per_million": "2.00",
+      "output_price_per_million": "12.00",
       "model_type": "vision"
     },
     {
@@ -16614,6 +16882,8 @@
       "provider": "vertex",
       "model_id": "publishers/minimaxai/models/minimax-m2",
       "context_window": 131072,
+      "input_price_per_million": 0.19999999999999998,
+      "output_price_per_million": 1.0,
       "model_type": "unknown"
     },
     {
@@ -16681,6 +16951,7 @@
       "provider": "vertex",
       "model_id": "publishers/mistralai/models/mistral-large-3",
       "context_window": 131072,
+      "input_price_per_million": 1.2,
       "benchmarks": {
         "arena_elo": 1413.0
       },
@@ -93713,6 +93984,8 @@
       "provider": "helicone",
       "model_id": "grok-4-fast-reasoning",
       "context_window": 2000000,
+      "input_price_per_million": 0.2,
+      "output_price_per_million": 0.5,
       "benchmarks": {
         "arena_elo": 1402.0
       },
@@ -93724,6 +93997,8 @@
       "provider": "helicone",
       "model_id": "grok-4-fast-non-reasoning",
       "context_window": 2000000,
+      "input_price_per_million": 0.2,
+      "output_price_per_million": 0.5,
       "model_type": "unknown"
     },
     {
@@ -93732,6 +94007,8 @@
       "provider": "helicone",
       "model_id": "grok-4-1-fast-non-reasoning",
       "context_window": 2000000,
+      "input_price_per_million": 0.2,
+      "output_price_per_million": 0.5,
       "benchmarks": {
         "simplebench": 0.56,
         "livebench_global": 35.97,
@@ -93751,6 +94028,8 @@
       "provider": "helicone",
       "model_id": "grok-4-1-fast-reasoning",
       "context_window": 2000000,
+      "input_price_per_million": 0.2,
+      "output_price_per_million": 0.5,
       "benchmarks": {
         "arena_elo": 1431.0
       },
@@ -93846,6 +94125,8 @@
       "provider": "helicone",
       "model_id": "llama-prompt-guard-2-86m",
       "context_window": 512,
+      "input_price_per_million": 0.04,
+      "output_price_per_million": 30.0,
       "model_type": "chat"
     },
     {
@@ -93854,6 +94135,8 @@
       "provider": "helicone",
       "model_id": "llama-prompt-guard-2-22m",
       "context_window": 512,
+      "input_price_per_million": 0.03,
+      "output_price_per_million": 30.0,
       "model_type": "chat"
     },
     {
@@ -93964,6 +94247,8 @@
       "provider": "helicone",
       "model_id": "qwen2.5-coder-7b-fast",
       "context_window": 32000,
+      "input_price_per_million": "0.03",
+      "output_price_per_million": "0.09",
       "model_type": "chat"
     },
     {
@@ -97811,6 +98096,8 @@
       "name": "xai/grok-4.1-fast-non-reasoning",
       "provider": "vercel",
       "model_id": "grok-4.1-fast-non-reasoning",
+      "input_price_per_million": 0.2,
+      "output_price_per_million": 0.5,
       "benchmarks": {
         "simplebench": 0.56,
         "livebench_global": 35.97,
@@ -98003,6 +98290,8 @@
       "name": "xai/grok-4-fast-non-reasoning",
       "provider": "vercel",
       "model_id": "grok-4-fast-non-reasoning",
+      "input_price_per_million": 0.2,
+      "output_price_per_million": 0.5,
       "model_type": "chat"
     },
     {
@@ -98050,6 +98339,8 @@
       "name": "xai/grok-4.1-fast-reasoning",
       "provider": "vercel",
       "model_id": "grok-4.1-fast-reasoning",
+      "input_price_per_million": 0.2,
+      "output_price_per_million": 0.5,
       "benchmarks": {
         "arena_elo": 1431.0
       },
@@ -98200,6 +98491,8 @@
       "name": "xai/grok-4-fast-reasoning",
       "provider": "vercel",
       "model_id": "grok-4-fast-reasoning",
+      "input_price_per_million": 0.2,
+      "output_price_per_million": 0.5,
       "benchmarks": {
         "arena_elo": 1402.0
       },
@@ -98630,6 +98923,7 @@
       "name": "mistral/mistral-large-3",
       "provider": "vercel",
       "model_id": "mistral-large-3",
+      "input_price_per_million": 1.2,
       "benchmarks": {
         "arena_elo": 1413.0
       },
@@ -98683,6 +98977,8 @@
       "name": "xai/grok-2-vision",
       "provider": "vercel",
       "model_id": "grok-2-vision",
+      "input_price_per_million": 2.0,
+      "output_price_per_million": 10.0,
       "model_type": "vision"
     },
     {

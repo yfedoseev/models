@@ -1,7 +1,7 @@
 {
   "total_providers": 108,
   "total_models": 11481,
-  "models_with_pricing": 1789,
+  "models_with_pricing": 1930,
   "models_with_benchmarks": 1247,
   "providers": [
     {
@@ -36,7 +36,7 @@
       "name": "vertex",
       "display_name": "vertex",
       "model_count": 239,
-      "with_pricing": 14,
+      "with_pricing": 40,
       "with_benchmarks": 21
     },
     {
@@ -50,7 +50,7 @@
       "name": "bedrock",
       "display_name": "bedrock",
       "model_count": 231,
-      "with_pricing": 13,
+      "with_pricing": 57,
       "with_benchmarks": 54
     },
     {
@@ -71,7 +71,7 @@
       "name": "azure_openai",
       "display_name": "azure_openai",
       "model_count": 141,
-      "with_pricing": 2,
+      "with_pricing": 61,
       "with_benchmarks": 54
     },
     {
@@ -92,7 +92,7 @@
       "name": "vercel",
       "display_name": "vercel",
       "model_count": 117,
-      "with_pricing": 96,
+      "with_pricing": 101,
       "with_benchmarks": 65
     },
     {
@@ -113,7 +113,7 @@
       "name": "helicone",
       "display_name": "helicone",
       "model_count": 100,
-      "with_pricing": 84,
+      "with_pricing": 91,
       "with_benchmarks": 69
     },
     {

@@ -11,41 +11,41 @@ rank,name,provider,roi_score,category_score,avg_price_per_million
 10,moonshotai/Kimi-K2-Thinking,nebius,0.0974,0.151,1.55
 11,gpt-4.1-mini-2025-04-14,openai,0.09,0.045,0.5
 12,gpt-4.1-mini,openai,0.09,0.045,0.5
-13,Qwen/Qwen3-235B-A22B-Thinking-2507,nebius,0.085,0.0425,0.5
-14,gpt-4.1-nano-2025-04-14,openai,0.08,0.01,0.125
-15,gpt-4.1-nano,openai,0.08,0.01,0.125
-16,gemini-3-pro-preview,google,0.0496,0.3475,7.0
-17,publishers/google/models/gemini-2.0-flash-001,vertex,0.0453,0.017,0.375
-18,publishers/google/models/gemini-3-pro-preview,vertex,0.0447,0.313,7.0
-19,Qwen/Qwen3-235B-A22B-Thinking-2507,deepinfra,0.0324,0.0425,1.31
-20,gemini-2.5-flash,google,0.0321,0.045,1.4
-21,publishers/google/models/gemini-2.5-flash,vertex,0.0321,0.045,1.4
-22,google/gemini-2.5-flash,deepinfra,0.0321,0.045,1.4
-23,deepseek-ai/DeepSeek-V3,deepinfra,0.0281,0.017,0.605
-24,deepseek-ai/DeepSeek-V3,siliconflow,0.0245,0.017,0.695
-25,Claude Sonnet 4.5,anthropic,0.0218,0.1963,9.0
-26,DeepSeek-V3-0324,sambanova,0.0189,0.017,0.9
-27,DeepSeek-V3.1,sambanova,0.0189,0.017,0.9
-28,meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8,deepinfra,0.0187,0.007,0.375
-29,deepseek-ai/DeepSeek-V3-0324,nebius,0.017,0.017,1.0
-30,Claude Opus 4.5,anthropic,0.0168,0.2526,15.0
-31,gemini-2.5-pro,google,0.0163,0.0915,5.625
-32,publishers/google/models/gemini-2.5-pro,vertex,0.0163,0.0915,5.625
-33,google/gemini-2.5-pro,deepinfra,0.0163,0.0915,5.625
-34,Llama-4-Maverick-17B-128E-Instruct,sambanova,0.0156,0.007,0.45
-35,Claude Haiku 4.5,anthropic,0.0137,0.041,3.0
-36,grok-4-0709,xai,0.0121,0.109,9.0
-37,gpt-4.1-2025-04-14,openai,0.011,0.0275,2.5
-38,gpt-4.1,openai,0.011,0.0275,2.5
-39,qwen/qwen-plus-2025-01-12,qwen,0.0079,0.017,2.1435
-40,qwen/qwen-plus-2024-12-20,qwen,0.0079,0.017,2.1435
-41,qwen/qwen-plus-2024-11-27,qwen,0.0079,0.017,2.1435
-42,qwen/qwen-plus-2024-11-25,qwen,0.0079,0.017,2.1435
-43,qwen/qwen-plus-2024-09-19,qwen,0.0079,0.017,2.1435
-44,qwen/qwen-plus,qwen,0.0065,0.017,2.6
-45,qwen/qwen-plus-2025-12-01,qwen,0.0065,0.017,2.6
-46,qwen/qwen-plus-2025-09-11,qwen,0.0065,0.017,2.6
-47,qwen/qwen-plus-2025-07-28,qwen,0.0065,0.017,2.6
-48,qwen/qwen-plus-latest,qwen,0.0065,0.017,2.6
-49,qwen/qwen-plus-2025-07-14,qwen,0.0065,0.017,2.6
-50,qwen/qwen-plus-2025-04-28,qwen,0.0065,0.017,2.6
+13,eu/gpt-4.1-mini,azure_openai,0.09,0.045,0.5
+14,us/gpt-4.1-mini,azure_openai,0.09,0.045,0.5
+15,Qwen/Qwen3-235B-A22B-Thinking-2507,nebius,0.085,0.0425,0.5
+16,gpt-4.1-nano-2025-04-14,openai,0.08,0.01,0.125
+17,gpt-4.1-nano,openai,0.08,0.01,0.125
+18,eu/gpt-4.1-nano,azure_openai,0.08,0.01,0.125
+19,us/gpt-4.1-nano,azure_openai,0.08,0.01,0.125
+20,gemini-3-pro-preview,google,0.0496,0.3475,7.0
+21,publishers/google/models/gemini-2.0-flash-001,vertex,0.0453,0.017,0.375
+22,publishers/google/models/gemini-3-pro-preview,vertex,0.0447,0.313,7.0
+23,Qwen/Qwen3-235B-A22B-Thinking-2507,deepinfra,0.0324,0.0425,1.31
+24,gemini-2.5-flash,google,0.0321,0.045,1.4
+25,publishers/google/models/gemini-2.5-flash,vertex,0.0321,0.045,1.4
+26,google/gemini-2.5-flash,deepinfra,0.0321,0.045,1.4
+27,DeepSeek-V3.1,bedrock,0.0321,0.017,0.53
+28,publishers/deepseek-ai/models/deepseek-v3,vertex,0.0321,0.017,0.53
+29,deepseek-ai/DeepSeek-V3,deepinfra,0.0281,0.017,0.605
+30,deepseek-ai/DeepSeek-V3,siliconflow,0.0245,0.017,0.695
+31,Claude Sonnet 4.5,anthropic,0.0218,0.1963,9.0
+32,DeepSeek-V3-0324,sambanova,0.0189,0.017,0.9
+33,DeepSeek-V3.1,sambanova,0.0189,0.017,0.9
+34,meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8,deepinfra,0.0187,0.007,0.375
+35,deepseek-ai/DeepSeek-V3-0324,nebius,0.017,0.017,1.0
+36,Claude Opus 4.5,anthropic,0.0168,0.2526,15.0
+37,gemini-2.5-pro,google,0.0163,0.0915,5.625
+38,publishers/google/models/gemini-2.5-pro,vertex,0.0163,0.0915,5.625
+39,google/gemini-2.5-pro,deepinfra,0.0163,0.0915,5.625
+40,Llama-4-Maverick-17B-128E-Instruct,sambanova,0.0156,0.007,0.45
+41,Claude Haiku 4.5,anthropic,0.0137,0.041,3.0
+42,Claude Haiku 4.5,bedrock,0.0137,0.041,3.0
+43,publishers/anthropic/models/claude-haiku-4-5,vertex,0.0137,0.041,3.0
+44,grok-4-0709,xai,0.0121,0.109,9.0
+45,gpt-4.1-2025-04-14,openai,0.011,0.0275,2.5
+46,gpt-4.1,openai,0.011,0.0275,2.5
+47,eu/gpt-4.1,azure_openai,0.011,0.0275,2.5
+48,us/gpt-4.1,azure_openai,0.011,0.0275,2.5
+49,Claude Opus 4.5,bedrock,0.0083,0.1245,15.0
+50,publishers/anthropic/models/claude-opus-4-5,vertex,0.0083,0.1245,15.0

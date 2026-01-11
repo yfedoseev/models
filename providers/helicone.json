@@ -1000,6 +1000,8 @@
       "provider": "helicone",
       "model_id": "grok-4-fast-reasoning",
       "context_window": 2000000,
+      "input_price_per_million": 0.2,
+      "output_price_per_million": 0.5,
       "benchmarks": {
         "arena_elo": 1402.0
       },
@@ -1011,6 +1013,8 @@
       "provider": "helicone",
       "model_id": "grok-4-fast-non-reasoning",
       "context_window": 2000000,
+      "input_price_per_million": 0.2,
+      "output_price_per_million": 0.5,
       "model_type": "unknown"
     },
     {
@@ -1019,6 +1023,8 @@
       "provider": "helicone",
       "model_id": "grok-4-1-fast-non-reasoning",
       "context_window": 2000000,
+      "input_price_per_million": 0.2,
+      "output_price_per_million": 0.5,
       "benchmarks": {
         "simplebench": 0.56,
         "livebench_global": 35.97,
@@ -1038,6 +1044,8 @@
       "provider": "helicone",
       "model_id": "grok-4-1-fast-reasoning",
       "context_window": 2000000,
+      "input_price_per_million": 0.2,
+      "output_price_per_million": 0.5,
       "benchmarks": {
         "arena_elo": 1431.0
       },
@@ -1133,6 +1141,8 @@
       "provider": "helicone",
       "model_id": "llama-prompt-guard-2-86m",
       "context_window": 512,
+      "input_price_per_million": 0.04,
+      "output_price_per_million": 30.0,
       "model_type": "chat"
     },
     {
@@ -1141,6 +1151,8 @@
       "provider": "helicone",
       "model_id": "llama-prompt-guard-2-22m",
       "context_window": 512,
+      "input_price_per_million": 0.03,
+      "output_price_per_million": 30.0,
       "model_type": "chat"
     },
     {
@@ -1251,6 +1263,8 @@
       "provider": "helicone",
       "model_id": "qwen2.5-coder-7b-fast",
       "context_window": 32000,
+      "input_price_per_million": "0.03",
+      "output_price_per_million": "0.09",
       "model_type": "chat"
     },
     {

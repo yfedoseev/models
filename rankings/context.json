@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-11T14:56:35.232622",
+  "generated_at": "2026-01-11T15:02:29.702994",
   "ranking_type": "context",
   "count": 50,
   "models": [
@@ -140,8 +140,8 @@
       "name": "publishers/google/models/gemini-2.5-computer-use-preview-10-2025",
       "context_window": 1048576,
       "max_output_tokens": 65535,
-      "input_price": null,
-      "output_price": null
+      "input_price": 1.25,
+      "output_price": 10.0
     },
     {
       "rank": 15,
@@ -150,8 +150,8 @@
       "name": "publishers/google/models/gemini-2.5-flash-preview-09-2025",
       "context_window": 1048576,
       "max_output_tokens": 65535,
-      "input_price": null,
-      "output_price": null
+      "input_price": 0.3,
+      "output_price": 2.5
     },
     {
       "rank": 16,
@@ -160,8 +160,8 @@
       "name": "publishers/google/models/gemini-2.5-flash-lite-preview-09-2025",
       "context_window": 1048576,
       "max_output_tokens": 65535,
-      "input_price": null,
-      "output_price": null
+      "input_price": 0.09999999999999999,
+      "output_price": 0.39999999999999997
     },
     {
       "rank": 17,
@@ -240,8 +240,8 @@
       "name": "eu/gpt-4.1",
       "context_window": 1047576,
       "max_output_tokens": 32768,
-      "input_price": null,
-      "output_price": null
+      "input_price": 1.0,
+      "output_price": 4.0
     },
     {
       "rank": 25,
@@ -250,8 +250,8 @@
       "name": "eu/gpt-4.1-mini",
       "context_window": 1047576,
       "max_output_tokens": 32768,
-      "input_price": null,
-      "output_price": null
+      "input_price": 0.2,
+      "output_price": 0.8
     },
     {
       "rank": 26,
@@ -260,8 +260,8 @@
       "name": "eu/gpt-4.1-nano",
       "context_window": 1047576,
       "max_output_tokens": 32768,
-      "input_price": null,
-      "output_price": null
+      "input_price": 0.05,
+      "output_price": 0.2
     },
     {
       "rank": 27,
@@ -270,8 +270,8 @@
       "name": "eu/gpt-5-nano",
       "context_window": 1047576,
       "max_output_tokens": 32768,
-      "input_price": null,
-      "output_price": null
+      "input_price": 0.025,
+      "output_price": 0.2
     },
     {
       "rank": 28,
@@ -280,8 +280,8 @@
       "name": "eu/gpt-5-mini",
       "context_window": 1047576,
       "max_output_tokens": 32768,
-      "input_price": null,
-      "output_price": null
+      "input_price": 0.125,
+      "output_price": 1.0
     },
     {
       "rank": 29,
@@ -290,8 +290,8 @@
       "name": "us/gpt-4.1",
       "context_window": 1047576,
       "max_output_tokens": 32768,
-      "input_price": null,
-      "output_price": null
+      "input_price": 1.0,
+      "output_price": 4.0
     },
     {
       "rank": 30,
@@ -300,8 +300,8 @@
       "name": "us/gpt-4.1-mini",
       "context_window": 1047576,
       "max_output_tokens": 32768,
-      "input_price": null,
-      "output_price": null
+      "input_price": 0.2,
+      "output_price": 0.8
     },
     {
       "rank": 31,
@@ -310,8 +310,8 @@
       "name": "us/gpt-4.1-nano",
       "context_window": 1047576,
       "max_output_tokens": 32768,
-      "input_price": null,
-      "output_price": null
+      "input_price": 0.05,
+      "output_price": 0.2
     },
     {
       "rank": 32,
@@ -320,8 +320,8 @@
       "name": "us/gpt-5-mini",
       "context_window": 1047576,
       "max_output_tokens": 32768,
-      "input_price": null,
-      "output_price": null
+      "input_price": 0.125,
+      "output_price": 1.0
     },
     {
       "rank": 33,
@@ -330,8 +330,8 @@
       "name": "us/gpt-5-nano",
       "context_window": 1047576,
       "max_output_tokens": 32768,
-      "input_price": null,
-      "output_price": null
+      "input_price": 0.025,
+      "output_price": 0.2
     },
     {
       "rank": 34,

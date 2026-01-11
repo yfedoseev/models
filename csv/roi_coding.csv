@@ -1,51 +1,51 @@
 rank,name,provider,roi_score,category_score,avg_price_per_million
 1,gpt-5-nano-2025-08-07,openai,6.7822,0.763,0.1125
 2,gpt-5-nano,openai,6.7822,0.763,0.1125
-3,Qwen/Qwen3-235B-A22B-Instruct-2507,deepinfra,2.2322,0.596,0.267
-4,Qwen/Qwen3-32B,deepinfra,2.2222,0.4,0.18
-5,Qwen/Qwen3-32B,nebius,2.0,0.4,0.2
-6,Qwen/Qwen3-235B-A22B-Instruct-2507,nebius,1.49,0.596,0.4
-7,gpt-5-mini-2025-08-07,openai,1.3564,0.763,0.5625
-8,Qwen/QwQ-32B,siliconflow,1.2294,0.209,0.17
-9,Qwen3 235B A22B,fireworks,1.0836,0.596,0.55
-10,Qwen3 235B A22B Instruct 2507,fireworks,1.0836,0.596,0.55
-11,deepseek-ai/DeepSeek-V3.2,siliconflow,1.0101,0.702,0.695
-12,Qwen3-32B,sambanova,0.8889,0.4,0.45
-13,gemini-2.0-flash,google,0.888,0.222,0.25
-14,deepseek-ai/DeepSeek-V3,deepinfra,0.8612,0.521,0.605
-15,deepseek-ai/DeepSeek-V3,siliconflow,0.7496,0.521,0.695
-16,gpt-4.1-nano-2025-04-14,openai,0.712,0.089,0.125
-17,gpt-4.1-nano,openai,0.712,0.089,0.125
-18,gpt-5.1-codex-mini,openai,0.6782,0.763,1.125
-19,gpt-4.1-mini-2025-04-14,openai,0.656,0.328,0.5
-20,gpt-4.1-mini,openai,0.656,0.328,0.5
-21,qwen/qwen3-32b,qwen,0.625,0.4,0.64
-22,publishers/google/models/gemini-2.0-flash-001,vertex,0.5867,0.22,0.375
-23,DeepSeek-V3-0324,sambanova,0.5789,0.521,0.9
-24,DeepSeek-V3.1,sambanova,0.5789,0.521,0.9
-25,deepseek-ai/DeepSeek-V3-0324,nebius,0.521,0.521,1.0
-26,o3-mini-2025-01-31,openai,0.5025,0.691,1.375
-27,o4-mini-2025-04-16,openai,0.4953,0.681,1.375
-28,o4-mini,openai,0.4953,0.681,1.375
-29,OpenAI gpt-oss-120b,fireworks,0.4445,0.1667,0.375
-30,openai/gpt-oss-120b,nebius,0.4445,0.1667,0.375
-31,meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8,deepinfra,0.416,0.156,0.375
-32,gpt-oss-120b,sambanova,0.4116,0.1667,0.405
-33,moonshotai/Kimi-K2-Instruct,nebius,0.4076,0.591,1.45
-34,google/gemma-3-27b-it,deepinfra,0.392,0.049,0.125
-35,Kimi K2 Instruct,fireworks,0.3813,0.591,1.55
-36,Kimi K2 Instruct 0905,fireworks,0.3813,0.591,1.55
-37,DeepSeek-R1-0528,sambanova,0.37,0.333,0.9
-38,DeepSeek-R1,sambanova,0.37,0.333,0.9
-39,o3-mini,openai,0.3585,0.493,1.375
-40,Llama-4-Maverick-17B-128E-Instruct,sambanova,0.3467,0.156,0.45
-41,grok-4-1-fast-non-reasoning,xai,0.2857,0.1,0.35
-42,o3-2025-04-16,openai,0.2764,0.691,2.5
-43,o3,openai,0.2764,0.691,2.5
-44,gpt-5-2025-08-07,openai,0.2713,0.763,2.8125
-45,gpt-5,openai,0.2713,0.763,2.8125
-46,gpt-5.1-chat-latest,openai,0.2713,0.763,2.8125
-47,gpt-5.1-2025-11-13,openai,0.2713,0.763,2.8125
-48,gpt-5.1,openai,0.2713,0.763,2.8125
-49,Kimi K2 Thinking,fireworks,0.2473,0.3833,1.55
-50,moonshotai/Kimi-K2-Thinking,nebius,0.2473,0.3833,1.55
+3,eu/gpt-5-nano,azure_openai,2.5182,0.2833,0.1125
+4,us/gpt-5-nano,azure_openai,2.5182,0.2833,0.1125
+5,Qwen/Qwen3-235B-A22B-Instruct-2507,deepinfra,2.2322,0.596,0.267
+6,publishers/deepseek-ai/models/deepseek-v3-2,vertex,2.2286,0.702,0.315
+7,Qwen/Qwen3-32B,deepinfra,2.2222,0.4,0.18
+8,Qwen/Qwen3-32B,nebius,2.0,0.4,0.2
+9,Qwen/Qwen3-235B-A22B-Instruct-2507,nebius,1.49,0.596,0.4
+10,gpt-5-mini-2025-08-07,openai,1.3564,0.763,0.5625
+11,Qwen/QwQ-32B,siliconflow,1.2294,0.209,0.17
+12,Qwen3 235B A22B,fireworks,1.0836,0.596,0.55
+13,Qwen3 235B A22B Instruct 2507,fireworks,1.0836,0.596,0.55
+14,deepseek-ai/DeepSeek-V3.2,siliconflow,1.0101,0.702,0.695
+15,DeepSeek-V3.1,bedrock,0.983,0.521,0.53
+16,publishers/deepseek-ai/models/deepseek-v3,vertex,0.983,0.521,0.53
+17,Qwen3-32B,sambanova,0.8889,0.4,0.45
+18,gemini-2.0-flash,google,0.888,0.222,0.25
+19,deepseek-ai/DeepSeek-V3,deepinfra,0.8612,0.521,0.605
+20,deepseek-ai/DeepSeek-V3,siliconflow,0.7496,0.521,0.695
+21,gpt-4.1-nano-2025-04-14,openai,0.712,0.089,0.125
+22,gpt-4.1-nano,openai,0.712,0.089,0.125
+23,eu/gpt-4.1-nano,azure_openai,0.712,0.089,0.125
+24,us/gpt-4.1-nano,azure_openai,0.712,0.089,0.125
+25,eu/o4-mini,azure_openai,0.7076,0.973,1.375
+26,us/o4-mini,azure_openai,0.7076,0.973,1.375
+27,eu/o3-mini,azure_openai,0.7004,0.963,1.375
+28,us/o3-mini,azure_openai,0.7004,0.963,1.375
+29,gpt-5.1-codex-mini,openai,0.6782,0.763,1.125
+30,gpt-4.1-mini-2025-04-14,openai,0.656,0.328,0.5
+31,gpt-4.1-mini,openai,0.656,0.328,0.5
+32,eu/gpt-4.1-mini,azure_openai,0.656,0.328,0.5
+33,us/gpt-4.1-mini,azure_openai,0.656,0.328,0.5
+34,qwen/qwen3-32b,qwen,0.625,0.4,0.64
+35,publishers/google/models/gemini-2.0-flash-001,vertex,0.5867,0.22,0.375
+36,DeepSeek-V3-0324,sambanova,0.5789,0.521,0.9
+37,DeepSeek-V3.1,sambanova,0.5789,0.521,0.9
+38,deepseek-ai/DeepSeek-V3-0324,nebius,0.521,0.521,1.0
+39,o3-mini-2025-01-31,openai,0.5025,0.691,1.375
+40,o4-mini-2025-04-16,openai,0.4953,0.681,1.375
+41,o4-mini,openai,0.4953,0.681,1.375
+42,OpenAI gpt-oss-120b,fireworks,0.4445,0.1667,0.375
+43,openai/gpt-oss-120b,nebius,0.4445,0.1667,0.375
+44,meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8,deepinfra,0.416,0.156,0.375
+45,gpt-oss-120b,sambanova,0.4116,0.1667,0.405
+46,moonshotai/Kimi-K2-Instruct,nebius,0.4076,0.591,1.45
+47,google/gemma-3-27b-it,deepinfra,0.392,0.049,0.125
+48,Kimi K2 Instruct,fireworks,0.3813,0.591,1.55
+49,Kimi K2 Instruct 0905,fireworks,0.3813,0.591,1.55
+50,DeepSeek-R1-0528,sambanova,0.37,0.333,0.9

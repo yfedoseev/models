@@ -212,6 +212,8 @@
       "name": "xai/grok-4.1-fast-non-reasoning",
       "provider": "vercel",
       "model_id": "grok-4.1-fast-non-reasoning",
+      "input_price_per_million": 0.2,
+      "output_price_per_million": 0.5,
       "benchmarks": {
         "simplebench": 0.56,
         "livebench_global": 35.97,
@@ -404,6 +406,8 @@
       "name": "xai/grok-4-fast-non-reasoning",
       "provider": "vercel",
       "model_id": "grok-4-fast-non-reasoning",
+      "input_price_per_million": 0.2,
+      "output_price_per_million": 0.5,
       "model_type": "chat"
     },
     {
@@ -451,6 +455,8 @@
       "name": "xai/grok-4.1-fast-reasoning",
       "provider": "vercel",
       "model_id": "grok-4.1-fast-reasoning",
+      "input_price_per_million": 0.2,
+      "output_price_per_million": 0.5,
       "benchmarks": {
         "arena_elo": 1431.0
       },
@@ -601,6 +607,8 @@
       "name": "xai/grok-4-fast-reasoning",
       "provider": "vercel",
       "model_id": "grok-4-fast-reasoning",
+      "input_price_per_million": 0.2,
+      "output_price_per_million": 0.5,
       "benchmarks": {
         "arena_elo": 1402.0
       },
@@ -1031,6 +1039,7 @@
       "name": "mistral/mistral-large-3",
       "provider": "vercel",
       "model_id": "mistral-large-3",
+      "input_price_per_million": 1.2,
       "benchmarks": {
         "arena_elo": 1413.0
       },
@@ -1084,6 +1093,8 @@
       "name": "xai/grok-2-vision",
       "provider": "vercel",
       "model_id": "grok-2-vision",
+      "input_price_per_million": 2.0,
+      "output_price_per_million": 10.0,
       "model_type": "vision"
     },
     {

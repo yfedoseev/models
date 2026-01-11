@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-11T14:56:35.230978",
+  "generated_at": "2026-01-11T15:02:29.702179",
   "ranking_type": "value",
   "count": 50,
   "models": [
@@ -29,6 +29,30 @@
     },
     {
       "rank": 3,
+      "model_id": "bedrock/meta.llama3-1-8b-instruct-v1:0:128k",
+      "provider": "bedrock",
+      "name": "Llama 3.1 8B Instruct",
+      "score": 84.7619,
+      "composite_score": 0.2967,
+      "benchmark_count": 5,
+      "intelligence_tier": "S",
+      "input_price": 0.02,
+      "output_price": 0.049999999999999996
+    },
+    {
+      "rank": 4,
+      "model_id": "bedrock/meta.llama3-1-8b-instruct-v1:0",
+      "provider": "bedrock",
+      "name": "Llama 3.1 8B Instruct",
+      "score": 84.7619,
+      "composite_score": 0.2967,
+      "benchmark_count": 5,
+      "intelligence_tier": "S",
+      "input_price": 0.02,
+      "output_price": 0.049999999999999996
+    },
+    {
+      "rank": 5,
       "model_id": "deepinfra/google/gemma-3-4b-it",
       "provider": "deepinfra",
       "name": "google/gemma-3-4b-it",
@@ -40,7 +64,7 @@
       "output_price": 0.08
     },
     {
-      "rank": 4,
+      "rank": 6,
       "model_id": "nebius/google/gemma-2-2b-it",
       "provider": "nebius",
       "name": "google/gemma-2-2b-it",
@@ -52,7 +76,7 @@
       "output_price": 0.06
     },
     {
-      "rank": 5,
+      "rank": 7,
       "model_id": "deepinfra/mistralai/Mistral-Small-24B-Instruct-2501",
       "provider": "deepinfra",
       "name": "mistralai/Mistral-Small-24B-Instruct-2501",
@@ -64,7 +88,7 @@
       "output_price": 0.08
     },
     {
-      "rank": 6,
+      "rank": 8,
       "model_id": "deepinfra/google/gemma-3-12b-it",
       "provider": "deepinfra",
       "name": "google/gemma-3-12b-it",
@@ -76,7 +100,7 @@
       "output_price": 0.13
     },
     {
-      "rank": 7,
+      "rank": 9,
       "model_id": "deepinfra/meta-llama/Meta-Llama-3-8B-Instruct",
       "provider": "deepinfra",
       "name": "meta-llama/Meta-Llama-3-8B-Instruct",
@@ -88,7 +112,7 @@
       "output_price": 0.06
     },
     {
-      "rank": 8,
+      "rank": 10,
       "model_id": "openai/gpt-5-nano-2025-08-07",
       "provider": "openai",
       "name": "gpt-5-nano-2025-08-07",
@@ -100,7 +124,19 @@
       "output_price": 0.2
     },
     {
-      "rank": 9,
+      "rank": 11,
+      "model_id": "vertex/publishers/microsoft/models/phi4",
+      "provider": "vertex",
+      "name": "publishers/microsoft/models/phi4",
+      "score": 51.3125,
+      "composite_score": 0.5131,
+      "benchmark_count": 4,
+      "intelligence_tier": "S",
+      "input_price": 0.06,
+      "output_price": 0.14
+    },
+    {
+      "rank": 12,
       "model_id": "deepinfra/microsoft/phi-4",
       "provider": "deepinfra",
       "name": "microsoft/phi-4",
@@ -112,7 +148,19 @@
       "output_price": 0.14
     },
     {
-      "rank": 10,
+      "rank": 13,
+      "model_id": "bedrock/mistral.mistral-7b-instruct-v0:2",
+      "provider": "bedrock",
+      "name": "Mistral 7B Instruct",
+      "score": 45.122,
+      "composite_score": 0.185,
+      "benchmark_count": 1,
+      "intelligence_tier": "S",
+      "input_price": 0.028,
+      "output_price": 0.054
+    },
+    {
+      "rank": 14,
       "model_id": "nebius/openai/gpt-oss-20b",
       "provider": "nebius",
       "name": "openai/gpt-oss-20b",
@@ -124,7 +172,7 @@
       "output_price": 0.2
     },
     {
-      "rank": 11,
+      "rank": 15,
       "model_id": "cloudflare/mistral/mistral-7b-instruct-v0.1",
       "provider": "cloudflare",
       "name": "@cf/mistral/mistral-7b-instruct-v0.1",
@@ -136,7 +184,7 @@
       "output_price": 0.19
     },
     {
-      "rank": 12,
+      "rank": 16,
       "model_id": "google/gemini-2.0-flash-lite",
       "provider": "google",
       "name": "gemini-2.0-flash-lite",
@@ -148,7 +196,7 @@
       "output_price": 0.3
     },
     {
-      "rank": 13,
+      "rank": 17,
       "model_id": "deepinfra/google/gemma-3-27b-it",
       "provider": "deepinfra",
       "name": "google/gemma-3-27b-it",
@@ -160,7 +208,7 @@
       "output_price": 0.16
     },
     {
-      "rank": 14,
+      "rank": 18,
       "model_id": "openai/gpt-4.1-nano-2025-04-14",
       "provider": "openai",
       "name": "gpt-4.1-nano-2025-04-14",
@@ -172,7 +220,19 @@
       "output_price": 0.2
     },
     {
-      "rank": 15,
+      "rank": 19,
+      "model_id": "bedrock/meta.llama3-8b-instruct-v1:0",
+      "provider": "bedrock",
+      "name": "Llama 3 8B Instruct",
+      "score": 24.1782,
+      "composite_score": 0.1088,
+      "benchmark_count": 2,
+      "intelligence_tier": "S",
+      "input_price": 0.03,
+      "output_price": 0.06
+    },
+    {
+      "rank": 20,
       "model_id": "deepinfra/Qwen/Qwen3-32B",
       "provider": "deepinfra",
       "name": "Qwen/Qwen3-32B",
@@ -184,7 +244,7 @@
       "output_price": 0.28
     },
     {
-      "rank": 16,
+      "rank": 21,
       "model_id": "deepinfra/Qwen/Qwen3-235B-A22B-Instruct-2507",
       "provider": "deepinfra",
       "name": "Qwen/Qwen3-235B-A22B-Instruct-2507",
@@ -196,7 +256,7 @@
       "output_price": 0.463
     },
     {
-      "rank": 17,
+      "rank": 22,
       "model_id": "mistral-small-latest",
       "provider": "mistral",
       "name": "mistral-small-latest",
@@ -208,7 +268,31 @@
       "output_price": 0.3
     },
     {
-      "rank": 18,
+      "rank": 23,
+      "model_id": "bedrock/mistral.mistral-small-2402-v1:0",
+      "provider": "bedrock",
+      "name": "Mistral Small (24.02)",
+      "score": 21.2067,
+      "composite_score": 0.4241,
+      "benchmark_count": 5,
+      "intelligence_tier": "F",
+      "input_price": 0.1,
+      "output_price": 0.3
+    },
+    {
+      "rank": 24,
+      "model_id": "vertex/publishers/mistralai/models/mistral-small-2503",
+      "provider": "vertex",
+      "name": "publishers/mistralai/models/mistral-small-2503",
+      "score": 21.2067,
+      "composite_score": 0.4241,
+      "benchmark_count": 5,
+      "intelligence_tier": "F",
+      "input_price": 0.1,
+      "output_price": 0.3
+    },
+    {
+      "rank": 25,
       "model_id": "siliconflow/Qwen/Qwen2.5-32B-Instruct",
       "provider": "siliconflow",
       "name": "Qwen/Qwen2.5-32B-Instruct",
@@ -220,7 +304,7 @@
       "output_price": 0.18
     },
     {
-      "rank": 19,
+      "rank": 26,
       "model_id": "ministral-3b-latest",
       "provider": "mistral",
       "name": "ministral-3b-latest",
@@ -232,7 +316,7 @@
       "output_price": 0.1
     },
     {
-      "rank": 20,
+      "rank": 27,
       "model_id": "grok-4-1-fast-reasoning",
       "provider": "xai",
       "name": "grok-4-1-fast-reasoning",
@@ -244,7 +328,7 @@
       "output_price": 0.5
     },
     {
-      "rank": 21,
+      "rank": 28,
       "model_id": "deepinfra/Qwen/Qwen2.5-72B-Instruct",
       "provider": "deepinfra",
       "name": "Qwen/Qwen2.5-72B-Instruct",
@@ -256,7 +340,7 @@
       "output_price": 0.39
     },
     {
-      "rank": 22,
+      "rank": 29,
       "model_id": "openai/gpt-4o-mini-2024-07-18",
       "provider": "openai",
       "name": "gpt-4o-mini-2024-07-18",
@@ -268,7 +352,19 @@
       "output_price": 0.3
     },
     {
-      "rank": 23,
+      "rank": 30,
+      "model_id": "vertex/publishers/deepseek-ai/models/deepseek-v3-2",
+      "provider": "vertex",
+      "name": "publishers/deepseek-ai/models/deepseek-v3-2",
+      "score": 18.7167,
+      "composite_score": 0.5896,
+      "benchmark_count": 5,
+      "intelligence_tier": "S",
+      "input_price": 0.25,
+      "output_price": 0.38
+    },
+    {
+      "rank": 31,
       "model_id": "openai/gpt-4o-mini-tts",
       "provider": "openai",
       "name": "gpt-4o-mini-tts",
@@ -280,7 +376,7 @@
       "output_price": 0.015
     },
     {
-      "rank": 24,
+      "rank": 32,
       "model_id": "deepinfra/Qwen/Qwen3-30B-A3B",
       "provider": "deepinfra",
       "name": "Qwen/Qwen3-30B-A3B",
@@ -292,7 +388,7 @@
       "output_price": 0.29
     },
     {
-      "rank": 25,
+      "rank": 33,
       "model_id": "ministral-8b-latest",
       "provider": "mistral",
       "name": "ministral-8b-latest",
@@ -304,7 +400,7 @@
       "output_price": 0.15
     },
     {
-      "rank": 26,
+      "rank": 34,
       "model_id": "nvidia_nim/deepseek-ai/deepseek-v3.1-terminus",
       "provider": "nvidia_nim",
       "name": "deepseek-ai/deepseek-v3.1-terminus",
@@ -316,7 +412,7 @@
       "output_price": 0.0
     },
     {
-      "rank": 27,
+      "rank": 35,
       "model_id": "google/gemini-2.0-flash",
       "provider": "google",
       "name": "gemini-2.0-flash",
@@ -328,7 +424,31 @@
       "output_price": 0.4
     },
     {
-      "rank": 28,
+      "rank": 36,
+      "model_id": "bedrock/meta.llama3-3-70b-instruct-v1:0:128k",
+      "provider": "bedrock",
+      "name": "Llama 3.3 70B Instruct",
+      "score": 16.5195,
+      "composite_score": 0.3469,
+      "benchmark_count": 5,
+      "intelligence_tier": "S",
+      "input_price": 0.09999999999999999,
+      "output_price": 0.32
+    },
+    {
+      "rank": 37,
+      "model_id": "bedrock/meta.llama3-3-70b-instruct-v1:0",
+      "provider": "bedrock",
+      "name": "Llama 3.3 70B Instruct",
+      "score": 16.5195,
+      "composite_score": 0.3469,
+      "benchmark_count": 5,
+      "intelligence_tier": "S",
+      "input_price": 0.09999999999999999,
+      "output_price": 0.32
+    },
+    {
+      "rank": 38,
       "model_id": "deepinfra/meta-llama/Llama-4-Scout-17B-16E-Instruct",
       "provider": "deepinfra",
       "name": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
@@ -340,7 +460,7 @@
       "output_price": 0.3
     },
     {
-      "rank": 29,
+      "rank": 39,
       "model_id": "openai/gpt-4o-mini-audio-preview-2024-12-17",
       "provider": "openai",
       "name": "gpt-4o-mini-audio-preview-2024-12-17",
@@ -352,7 +472,7 @@
       "output_price": 0.6
     },
     {
-      "rank": 30,
+      "rank": 40,
       "model_id": "openai/gpt-4o-mini-search-preview-2025-03-11",
       "provider": "openai",
       "name": "gpt-4o-mini-search-preview-2025-03-11",
@@ -364,7 +484,7 @@
       "output_price": 0.6
     },
     {
-      "rank": 31,
+      "rank": 41,
       "model_id": "open-mistral-nemo",
       "provider": "mistral",
       "name": "open-mistral-nemo",
@@ -376,7 +496,7 @@
       "output_price": 0.15
     },
     {
-      "rank": 32,
+      "rank": 42,
       "model_id": "openai/gpt-5-mini-2025-08-07",
       "provider": "openai",
       "name": "gpt-5-mini-2025-08-07",
@@ -388,7 +508,7 @@
       "output_price": 1.0
     },
     {
-      "rank": 33,
+      "rank": 43,
       "model_id": "siliconflow/Qwen/QwQ-32B",
       "provider": "siliconflow",
       "name": "Qwen/QwQ-32B",
@@ -400,7 +520,7 @@
       "output_price": 0.17
     },
     {
-      "rank": 34,
+      "rank": 44,
       "model_id": "cloudflare/meta/llama-3.1-8b-instruct-awq",
       "provider": "cloudflare",
       "name": "@cf/meta/llama-3.1-8b-instruct-awq",
@@ -412,7 +532,7 @@
       "output_price": 0.287
     },
     {
-      "rank": 35,
+      "rank": 45,
       "model_id": "cloudflare/meta/llama-3.1-8b-instruct-fp8",
       "provider": "cloudflare",
       "name": "@cf/meta/llama-3.1-8b-instruct-fp8",
@@ -424,7 +544,7 @@
       "output_price": 0.287
     },
     {
-      "rank": 36,
+      "rank": 46,
       "model_id": "cloudflare/meta/llama-3.1-8b-instruct",
       "provider": "cloudflare",
       "name": "@cf/meta/llama-3.1-8b-instruct",
@@ -436,7 +556,19 @@
       "output_price": 0.287
     },
     {
-      "rank": 37,
+      "rank": 47,
+      "model_id": "bedrock/ai21.jamba-1-5-mini-v1:0",
+      "provider": "bedrock",
+      "name": "Jamba 1.5 Mini",
+      "score": 13.2778,
+      "composite_score": 0.3983,
+      "benchmark_count": 1,
+      "intelligence_tier": "F",
+      "input_price": 0.2,
+      "output_price": 0.4
+    },
+    {
+      "rank": 48,
       "model_id": "jamba-1.5-mini",
       "provider": "ai21",
       "name": "jamba-1.5-mini",
@@ -448,7 +580,7 @@
       "output_price": 0.4
     },
     {
-      "rank": 38,
+      "rank": 49,
       "model_id": "nebius/meta-llama/Llama-3.3-70B-Instruct",
       "provider": "nebius",
       "name": "meta-llama/Llama-3.3-70B-Instruct",
@@ -460,7 +592,7 @@
       "output_price": 0.4
     },
     {
-      "rank": 39,
+      "rank": 50,
       "model_id": "fireworks/qwen3-vl-235b-a22b-instruct",
       "provider": "fireworks",
       "name": "Qwen3 VL 235B A22B Instruct",
@@ -470,138 +602,6 @@
       "intelligence_tier": "F",
       "input_price": 0.22,
       "output_price": 0.88
-    },
-    {
-      "rank": 40,
-      "model_id": "deepinfra/meta-llama/Meta-Llama-3.1-70B-Instruct",
-      "provider": "deepinfra",
-      "name": "meta-llama/Meta-Llama-3.1-70B-Instruct",
-      "score": 12.2083,
-      "composite_score": 0.4883,
-      "benchmark_count": 1,
-      "intelligence_tier": "S",
-      "input_price": 0.4,
-      "output_price": 0.4
-    },
-    {
-      "rank": 41,
-      "model_id": "fireworks/qwen3-vl-235b-a22b-thinking",
-      "provider": "fireworks",
-      "name": "Qwen3 VL 235B A22B Thinking",
-      "score": 11.9394,
-      "composite_score": 0.6567,
-      "benchmark_count": 1,
-      "intelligence_tier": "F",
-      "input_price": 0.22,
-      "output_price": 0.88
-    },
-    {
-      "rank": 42,
-      "model_id": "siliconflow/01-ai/Yi-1.5-34B-Chat",
-      "provider": "siliconflow",
-      "name": "01-ai/Yi-1.5-34B-Chat",
-      "score": 11.4805,
-      "composite_score": 0.3215,
-      "benchmark_count": 4,
-      "intelligence_tier": "S",
-      "input_price": 0.28,
-      "output_price": 0.28
-    },
-    {
-      "rank": 43,
-      "model_id": "vertex/publishers/google/models/gemini-2.0-flash-001",
-      "provider": "vertex",
-      "name": "publishers/google/models/gemini-2.0-flash-001",
-      "score": 10.8444,
-      "composite_score": 0.4067,
-      "benchmark_count": 6,
-      "intelligence_tier": "S",
-      "input_price": 0.15,
-      "output_price": 0.6
-    },
-    {
-      "rank": 44,
-      "model_id": "fireworks/gpt-oss-120b",
-      "provider": "fireworks",
-      "name": "OpenAI gpt-oss-120b",
-      "score": 10.2641,
-      "composite_score": 0.3849,
-      "benchmark_count": 5,
-      "intelligence_tier": "F",
-      "input_price": 0.15,
-      "output_price": 0.6
-    },
-    {
-      "rank": 45,
-      "model_id": "nebius/openai/gpt-oss-120b",
-      "provider": "nebius",
-      "name": "openai/gpt-oss-120b",
-      "score": 10.2641,
-      "composite_score": 0.3849,
-      "benchmark_count": 5,
-      "intelligence_tier": "S",
-      "input_price": 0.15,
-      "output_price": 0.6
-    },
-    {
-      "rank": 46,
-      "model_id": "openai/gpt-4.1-mini-2025-04-14",
-      "provider": "openai",
-      "name": "gpt-4.1-mini-2025-04-14",
-      "score": 9.788,
-      "composite_score": 0.4894,
-      "benchmark_count": 9,
-      "intelligence_tier": "S",
-      "input_price": 0.2,
-      "output_price": 0.8
-    },
-    {
-      "rank": 47,
-      "model_id": "nebius/PrimeIntellect/INTELLECT-3",
-      "provider": "nebius",
-      "name": "PrimeIntellect/INTELLECT-3",
-      "score": 9.0769,
-      "composite_score": 0.59,
-      "benchmark_count": 1,
-      "intelligence_tier": "S",
-      "input_price": 0.2,
-      "output_price": 1.1
-    },
-    {
-      "rank": 48,
-      "model_id": "sambanova/Qwen2.5-Coder-32B-Instruct",
-      "provider": "sambanova",
-      "name": "Qwen2.5-Coder-32B-Instruct",
-      "score": 9.0222,
-      "composite_score": 0.406,
-      "benchmark_count": 4,
-      "intelligence_tier": "S",
-      "input_price": 0.3,
-      "output_price": 0.6
-    },
-    {
-      "rank": 49,
-      "model_id": "nebius/zai-org/GLM-4.5-Air",
-      "provider": "nebius",
-      "name": "zai-org/GLM-4.5-Air",
-      "score": 8.8333,
-      "composite_score": 0.6183,
-      "benchmark_count": 1,
-      "intelligence_tier": "S",
-      "input_price": 0.2,
-      "output_price": 1.2
-    },
-    {
-      "rank": 50,
-      "model_id": "deepinfra/meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
-      "provider": "deepinfra",
-      "name": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
-      "score": 8.67,
-      "composite_score": 0.3251,
-      "benchmark_count": 6,
-      "intelligence_tier": "S",
-      "input_price": 0.15,
-      "output_price": 0.6
     }
   ]
 }
