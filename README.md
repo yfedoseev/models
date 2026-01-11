@@ -1,6 +1,6 @@
 # LLM Models
 
-An open source of truth for Large Language Model data.
+An open database of Large Language Models: specs, pricing, and benchmarks from 100+ providers.
 
 ## Goals
 
@@ -59,12 +59,20 @@ Combined with pricing from official API pages, this enables both performance ran
 
 ## What's Included
 
+### Model Data
+Each model includes (where available):
+- **Specs**: Context window, max output tokens, modalities
+- **Pricing**: Input/output cost per million tokens
+- **Benchmarks**: 30+ evaluations (SWE-bench, GPQA, Arena ELO, etc.)
+
+### Directory Structure
+
 | Directory | Contents |
 |-----------|----------|
-| `rankings/` | JSON rankings for each category |
-| `csv/` | CSV exports of all rankings |
-| `providers/` | Per-provider model data |
-| `data/` | Combined model data and statistics |
+| `providers/` | Per-provider model data (JSON) |
+| `data/` | Combined model database and statistics |
+| `rankings/` | Performance rankings by category |
+| `csv/` | CSV exports of all data |
 | `docs/` | Methodology and documentation |
 
 ## Documentation
@@ -79,12 +87,18 @@ All data is available in JSON and CSV formats:
 ```python
 import json
 
-# Load all models
+# Load all models from a provider
+with open('providers/openai.json') as f:
+    openai = json.load(f)
+    for model in openai['models'][:3]:
+        print(f"{model['name']}: ${model.get('input_price_per_million', 'N/A')}/1M input")
+
+# Load combined model database
 with open('data/all_models.json') as f:
     data = json.load(f)
     print(f"Total models: {data['total_models']}")
 
-# Load coding rankings
+# Load rankings
 with open('rankings/coding.json') as f:
     coding = json.load(f)
     for model in coding['models'][:5]:
