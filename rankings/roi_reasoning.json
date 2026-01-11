@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-11T14:27:05.272515",
+  "generated_at": "2026-01-11T14:56:35.235996",
   "ranking_type": "roi_reasoning",
   "count": 50,
   "models": [
@@ -60,17 +60,6 @@
     },
     {
       "rank": 6,
-      "model_id": "deepinfra/google/gemma-3-27b-it",
-      "provider": "deepinfra",
-      "name": "google/gemma-3-27b-it",
-      "score": 3.912,
-      "category_score": 0.489,
-      "avg_price_per_million": 0.125,
-      "input_price": 0.09,
-      "output_price": 0.16
-    },
-    {
-      "rank": 7,
       "model_id": "openai/gpt-4.1-nano-2025-04-14",
       "provider": "openai",
       "name": "gpt-4.1-nano-2025-04-14",
@@ -81,7 +70,7 @@
       "output_price": 0.2
     },
     {
-      "rank": 8,
+      "rank": 7,
       "model_id": "openai/gpt-4.1-nano",
       "provider": "openai",
       "name": "gpt-4.1-nano",
@@ -90,6 +79,17 @@
       "avg_price_per_million": 0.125,
       "input_price": 0.05,
       "output_price": 0.2
+    },
+    {
+      "rank": 8,
+      "model_id": "deepinfra/google/gemma-3-27b-it",
+      "provider": "deepinfra",
+      "name": "google/gemma-3-27b-it",
+      "score": 3.912,
+      "category_score": 0.489,
+      "avg_price_per_million": 0.125,
+      "input_price": 0.09,
+      "output_price": 0.16
     },
     {
       "rank": 9,

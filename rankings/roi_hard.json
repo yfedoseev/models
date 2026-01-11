@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-11T14:27:05.274251",
+  "generated_at": "2026-01-11T14:56:35.237737",
   "ranking_type": "roi_hard",
   "count": 50,
   "models": [
@@ -214,17 +214,6 @@
     },
     {
       "rank": 20,
-      "model_id": "deepinfra/google/gemini-2.5-flash",
-      "provider": "deepinfra",
-      "name": "google/gemini-2.5-flash",
-      "score": 0.0321,
-      "category_score": 0.045,
-      "avg_price_per_million": 1.4,
-      "input_price": 0.3,
-      "output_price": 2.5
-    },
-    {
-      "rank": 21,
       "model_id": "google/gemini-2.5-flash",
       "provider": "google",
       "name": "gemini-2.5-flash",
@@ -235,10 +224,21 @@
       "output_price": 2.5
     },
     {
-      "rank": 22,
+      "rank": 21,
       "model_id": "vertex/publishers/google/models/gemini-2.5-flash",
       "provider": "vertex",
       "name": "publishers/google/models/gemini-2.5-flash",
+      "score": 0.0321,
+      "category_score": 0.045,
+      "avg_price_per_million": 1.4,
+      "input_price": 0.3,
+      "output_price": 2.5
+    },
+    {
+      "rank": 22,
+      "model_id": "deepinfra/google/gemini-2.5-flash",
+      "provider": "deepinfra",
+      "name": "google/gemini-2.5-flash",
       "score": 0.0321,
       "category_score": 0.045,
       "avg_price_per_million": 1.4,
@@ -335,17 +335,6 @@
     },
     {
       "rank": 31,
-      "model_id": "deepinfra/google/gemini-2.5-pro",
-      "provider": "deepinfra",
-      "name": "google/gemini-2.5-pro",
-      "score": 0.0163,
-      "category_score": 0.0915,
-      "avg_price_per_million": 5.625,
-      "input_price": 1.25,
-      "output_price": 10.0
-    },
-    {
-      "rank": 32,
       "model_id": "google/gemini-2.5-pro",
       "provider": "google",
       "name": "gemini-2.5-pro",
@@ -356,10 +345,21 @@
       "output_price": 10.0
     },
     {
-      "rank": 33,
+      "rank": 32,
       "model_id": "vertex/publishers/google/models/gemini-2.5-pro",
       "provider": "vertex",
       "name": "publishers/google/models/gemini-2.5-pro",
+      "score": 0.0163,
+      "category_score": 0.0915,
+      "avg_price_per_million": 5.625,
+      "input_price": 1.25,
+      "output_price": 10.0
+    },
+    {
+      "rank": 33,
+      "model_id": "deepinfra/google/gemini-2.5-pro",
+      "provider": "deepinfra",
+      "name": "google/gemini-2.5-pro",
       "score": 0.0163,
       "category_score": 0.0915,
       "avg_price_per_million": 5.625,

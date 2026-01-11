@@ -1,11 +1,11 @@
 rank,name,provider,score
-1,gemini-3-pro-preview,ollama,0.729
-2,Qwen3 Max,novita,0.675
+1,publishers/google/models/gemini-3-pro-preview,vertex,0.729
+2,qwen/qwen3-max,qwen,0.675
 3,gemini-3-flash-preview,google,0.674
-4,google/gemini-2.5-pro,deepinfra,0.56
-5,Qwen/Qwen3-235B-A22B-Thinking-2507,deepinfra,0.501
+4,gemini-2.5-pro,google,0.56
+5,qwen/qwen3-235b-a22b-thinking-2507,qwen,0.501
 6,grok-4-0709,xai,0.479
-7,deepseek-r1,crusoe,0.274
+7,DeepSeek-R1,bedrock,0.274
 8,DeepSeek R1 (Fast),fireworks,0.274
 9,Claude Sonnet 4.5,anthropic,0.13
 10,Claude 3.5 Haiku,bedrock,0.067
@@ -24,28 +24,28 @@ rank,name,provider,score
 23,gpt-5.2-pro-2025-12-11,openai,0.923
 24,o1-2024-12-17,openai,0.908
 25,o1-pro-2025-03-19,openai,0.908
-26,eu/gpt-4.1,azure_openai,0.902
-27,eu/o4-mini,azure_openai,0.9
-28,eu/gpt-4.1-mini,azure_openai,0.875
+26,gpt-4.1-2025-04-14,openai,0.902
+27,o4-mini-2025-04-16,openai,0.9
+28,gpt-4.1-mini-2025-04-14,openai,0.875
 29,Claude 3.5 Sonnet v2,bedrock,0.873
-30,eu/gpt-4o,azure_openai,0.872
-31,chatgpt-4o-latest,openai,0.872
-32,deepseek-ai/DeepSeek-V3,deepinfra,0.871
-33,Deepseek V3 03-24,fireworks,0.871
-34,deepseek-v2,ollama,0.871
-35,deepseek-v3.1,ollama,0.871
-36,deepseek-v2.5,ollama,0.871
-37,deepseek,xinference,0.871
-38,DeepSeek-V3.2,xinference,0.871
-39,gpt-4-turbo-preview,openai,0.867
-40,eu/gpt-4,azure_openai,0.864
-41,Llama 3.3 70B Instruct,bedrock,0.863
-42,Llama 3.3 70B,cerebras,0.863
-43,mlx-community/Llama-3.3-70B-Instruct-bf16,featherless,0.863
-44,eu/o3-mini,azure_openai,0.859
-45,eu/o1-mini,azure_openai,0.852
-46,microsoft/phi-4,deepinfra,0.848
-47,phi4,ollama,0.848
-48,Llama 3.1 405B,baseten,0.844
-49,Llama 3.1 405B Instruct,bedrock,0.844
-50,llama3.1-405b,snowflake,0.844
+30,Claude 3.5 Sonnet v2,bedrock,0.873
+31,Claude 3.5 Sonnet v2,bedrock,0.873
+32,Claude 3.5 Sonnet v2,bedrock,0.873
+33,gpt-4o,openai,0.872
+34,chatgpt-4o-latest,openai,0.872
+35,DeepSeek-V3.1,bedrock,0.871
+36,Deepseek V3 03-24,fireworks,0.871
+37,deepseek-v2,ollama,0.871
+38,deepseek-v3.1,ollama,0.871
+39,deepseek-v2.5,ollama,0.871
+40,deepseek,xinference,0.871
+41,DeepSeek-V3.2,xinference,0.871
+42,gpt-4-turbo-preview,openai,0.867
+43,gpt-4,openai,0.864
+44,Llama 3.3 70B Instruct,bedrock,0.863
+45,Llama 3.3 70B Instruct,bedrock,0.863
+46,Llama 3.3 70B,cerebras,0.863
+47,mlx-community/Llama-3.3-70B-Instruct-bf16,featherless,0.863
+48,o3-mini-2025-01-31,openai,0.859
+49,eu/o1-mini,azure_openai,0.852
+50,publishers/microsoft/models/phi4,vertex,0.848

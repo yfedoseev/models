@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-01-11T14:27:05.263659",
+  "generated_at": "2026-01-11T14:56:35.226862",
   "ranking_type": "reasoning",
   "count": 50,
   "models": [
     {
       "rank": 1,
-      "model_id": "ollama/gemini-3-pro-preview",
-      "provider": "ollama",
-      "name": "gemini-3-pro-preview",
+      "model_id": "vertex/publishers/google/models/gemini-3-pro-preview",
+      "provider": "vertex",
+      "name": "publishers/google/models/gemini-3-pro-preview",
       "score": 0.926,
       "tiebreaker": 0.6073,
       "composite_score": 0.6152,
@@ -102,13 +102,13 @@
     },
     {
       "rank": 5,
-      "model_id": "deepinfra/google/gemini-2.5-pro",
-      "provider": "deepinfra",
-      "name": "google/gemini-2.5-pro",
+      "model_id": "google/gemini-2.5-pro",
+      "provider": "google",
+      "name": "gemini-2.5-pro",
       "score": 0.853,
       "tiebreaker": 0.4915,
-      "composite_score": 0.4983,
-      "benchmark_count": 6,
+      "composite_score": 0.5515,
+      "benchmark_count": 8,
       "intelligence_tier": "P",
       "benchmarks": {
         "gpqa_diamond": 0.853,
@@ -117,7 +117,9 @@
         "frontiermath_tier_4": 0.042,
         "simpleqa_verified": 0.56,
         "chess_puzzles": 0.2,
-        "arena_elo": 1450.0
+        "arena_elo": 1438,
+        "swe_bench_verified": 0.631,
+        "aider_polyglot": 0.769
       }
     },
     {
@@ -427,9 +429,9 @@
     },
     {
       "rank": 22,
-      "model_id": "deepinfra/Qwen/Qwen3-235B-A22B-Thinking-2507",
-      "provider": "deepinfra",
-      "name": "Qwen/Qwen3-235B-A22B-Thinking-2507",
+      "model_id": "qwen/qwen3-235b-a22b-thinking-2507",
+      "provider": "qwen",
+      "name": "qwen/qwen3-235b-a22b-thinking-2507",
       "score": 0.801,
       "tiebreaker": 0.476,
       "composite_score": 0.4514,
@@ -550,9 +552,9 @@
     },
     {
       "rank": 27,
-      "model_id": "novita/qwen/qwen3-max",
-      "provider": "novita",
-      "name": "Qwen3 Max",
+      "model_id": "qwen/qwen3-max",
+      "provider": "qwen",
+      "name": "qwen/qwen3-max",
       "score": 0.726,
       "tiebreaker": 0.852,
       "composite_score": 0.752,
@@ -650,9 +652,9 @@
     },
     {
       "rank": 33,
-      "model_id": "crusoe/deepseek-r1",
-      "provider": "crusoe",
-      "name": "deepseek-r1",
+      "model_id": "bedrock/deepseek.r1-v1:0",
+      "provider": "bedrock",
+      "name": "DeepSeek-R1",
       "score": 0.692,
       "tiebreaker": 0.591,
       "composite_score": 0.5133,
@@ -716,25 +718,6 @@
     },
     {
       "rank": 36,
-      "model_id": "deepinfra/meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
-      "provider": "deepinfra",
-      "name": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
-      "score": 0.67,
-      "tiebreaker": 0.305,
-      "composite_score": 0.3251,
-      "benchmark_count": 6,
-      "intelligence_tier": "S",
-      "benchmarks": {
-        "gpqa_diamond": 0.67,
-        "math_level_5": 0.73,
-        "otis_mock_aime_2024_2025": 0.206,
-        "frontiermath": 0.007,
-        "aider_polyglot": 15.6,
-        "simplebench": 0.277
-      }
-    },
-    {
-      "rank": 37,
       "model_id": "groq/Llama 4 Maverick 17B 128E meta-llama/llama-4-maverick-17b-128e-instruct",
       "provider": "groq",
       "name": "Llama 4 Maverick 17B 128E meta-llama/llama-4-maverick-17b-128e-instruct",
@@ -753,10 +736,29 @@
       }
     },
     {
+      "rank": 37,
+      "model_id": "deepinfra/meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
+      "provider": "deepinfra",
+      "name": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
+      "score": 0.67,
+      "tiebreaker": 0.305,
+      "composite_score": 0.3251,
+      "benchmark_count": 6,
+      "intelligence_tier": "S",
+      "benchmarks": {
+        "gpqa_diamond": 0.67,
+        "math_level_5": 0.73,
+        "otis_mock_aime_2024_2025": 0.206,
+        "frontiermath": 0.007,
+        "aider_polyglot": 15.6,
+        "simplebench": 0.277
+      }
+    },
+    {
       "rank": 38,
-      "model_id": "azure/eu/gpt-4.1",
-      "provider": "azure_openai",
-      "name": "eu/gpt-4.1",
+      "model_id": "openai/gpt-4.1-2025-04-14",
+      "provider": "openai",
+      "name": "gpt-4.1-2025-04-14",
       "score": 0.669,
       "tiebreaker": 0.3845,
       "composite_score": 0.4396,
@@ -829,9 +831,9 @@
     },
     {
       "rank": 41,
-      "model_id": "azure/eu/gpt-4.1-mini",
-      "provider": "azure_openai",
-      "name": "eu/gpt-4.1-mini",
+      "model_id": "openai/gpt-4.1-mini-2025-04-14",
+      "provider": "openai",
+      "name": "gpt-4.1-mini-2025-04-14",
       "score": 0.658,
       "tiebreaker": 0.455,
       "composite_score": 0.4894,
@@ -977,9 +979,9 @@
     },
     {
       "rank": 49,
-      "model_id": "deepinfra/deepseek-ai/DeepSeek-V3",
-      "provider": "deepinfra",
-      "name": "deepseek-ai/DeepSeek-V3",
+      "model_id": "bedrock/deepseek.v3-v1:0",
+      "provider": "bedrock",
+      "name": "DeepSeek-V3.1",
       "score": 0.565,
       "tiebreaker": 0.2533,
       "composite_score": 0.3802,

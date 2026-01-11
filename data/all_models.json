@@ -3306,6 +3306,18 @@
       "name": "DeepSeek-V3.1",
       "provider": "bedrock",
       "model_id": "deepseek.v3-v1:0",
+      "benchmarks": {
+        "gpqa_diamond": 0.565,
+        "mmlu": 0.871,
+        "math_level_5": 0.649,
+        "otis_mock_aime_2024_2025": 0.158,
+        "frontiermath": 0.017,
+        "aider_polyglot": 17.8,
+        "simplebench": 0.189,
+        "trivia_qa": 0.829,
+        "swe_bench_verified": 0.521,
+        "arena_elo": 1306.0
+      },
       "model_type": "unknown"
     },
     {
@@ -3494,6 +3506,17 @@
       "name": "Claude 3.5 Sonnet v2",
       "provider": "bedrock",
       "model_id": "anthropic.claude-3-5-sonnet-20241022-v2:0:18k",
+      "benchmarks": {
+        "gpqa_diamond": 0.54,
+        "mmlu": 0.873,
+        "math_level_5": 0.517,
+        "otis_mock_aime_2024_2025": 0.085,
+        "frontiermath": 0.021,
+        "aider_polyglot": 51.6,
+        "simplebench": 0.275,
+        "frontiermath_tier_4": 0.0,
+        "swe_bench_verified": 0.406
+      },
       "model_type": "reasoning"
     },
     {
@@ -3501,6 +3524,17 @@
       "name": "Claude 3.5 Sonnet v2",
       "provider": "bedrock",
       "model_id": "anthropic.claude-3-5-sonnet-20241022-v2:0:51k",
+      "benchmarks": {
+        "gpqa_diamond": 0.54,
+        "mmlu": 0.873,
+        "math_level_5": 0.517,
+        "otis_mock_aime_2024_2025": 0.085,
+        "frontiermath": 0.021,
+        "aider_polyglot": 51.6,
+        "simplebench": 0.275,
+        "frontiermath_tier_4": 0.0,
+        "swe_bench_verified": 0.406
+      },
       "model_type": "reasoning"
     },
     {
@@ -3508,6 +3542,17 @@
       "name": "Claude 3.5 Sonnet v2",
       "provider": "bedrock",
       "model_id": "anthropic.claude-3-5-sonnet-20241022-v2:0:200k",
+      "benchmarks": {
+        "gpqa_diamond": 0.54,
+        "mmlu": 0.873,
+        "math_level_5": 0.517,
+        "otis_mock_aime_2024_2025": 0.085,
+        "frontiermath": 0.021,
+        "aider_polyglot": 51.6,
+        "simplebench": 0.275,
+        "frontiermath_tier_4": 0.0,
+        "swe_bench_verified": 0.406
+      },
       "model_type": "reasoning"
     },
     {
@@ -3600,6 +3645,12 @@
       "name": "Claude 3 Sonnet",
       "provider": "bedrock",
       "model_id": "anthropic.claude-3-sonnet-20240229-v1:0:28k",
+      "benchmarks": {
+        "gpqa_diamond": 0.406,
+        "mmlu": 0.759,
+        "math_level_5": 0.182,
+        "otis_mock_aime_2024_2025": 0.025
+      },
       "model_type": "chat"
     },
     {
@@ -3607,6 +3658,12 @@
       "name": "Claude 3 Sonnet",
       "provider": "bedrock",
       "model_id": "anthropic.claude-3-sonnet-20240229-v1:0:200k",
+      "benchmarks": {
+        "gpqa_diamond": 0.406,
+        "mmlu": 0.759,
+        "math_level_5": 0.182,
+        "otis_mock_aime_2024_2025": 0.025
+      },
       "model_type": "chat"
     },
     {
@@ -3627,6 +3684,12 @@
       "name": "Claude 3 Haiku",
       "provider": "bedrock",
       "model_id": "anthropic.claude-3-haiku-20240307-v1:0:48k",
+      "benchmarks": {
+        "gpqa_diamond": 0.363,
+        "mmlu": 0.738,
+        "math_level_5": 0.149,
+        "otis_mock_aime_2024_2025": 0.018
+      },
       "model_type": "chat"
     },
     {
@@ -3634,6 +3697,12 @@
       "name": "Claude 3 Haiku",
       "provider": "bedrock",
       "model_id": "anthropic.claude-3-haiku-20240307-v1:0:200k",
+      "benchmarks": {
+        "gpqa_diamond": 0.363,
+        "mmlu": 0.738,
+        "math_level_5": 0.149,
+        "otis_mock_aime_2024_2025": 0.018
+      },
       "model_type": "chat"
     },
     {
@@ -3654,6 +3723,13 @@
       "name": "Claude 3 Opus",
       "provider": "bedrock",
       "model_id": "anthropic.claude-3-opus-20240229-v1:0:12k",
+      "benchmarks": {
+        "gpqa_diamond": 0.472,
+        "mmlu": 0.846,
+        "math_level_5": 0.375,
+        "otis_mock_aime_2024_2025": 0.047,
+        "simplebench": 0.235
+      },
       "model_type": "chat"
     },
     {
@@ -3661,6 +3737,13 @@
       "name": "Claude 3 Opus",
       "provider": "bedrock",
       "model_id": "anthropic.claude-3-opus-20240229-v1:0:28k",
+      "benchmarks": {
+        "gpqa_diamond": 0.472,
+        "mmlu": 0.846,
+        "math_level_5": 0.375,
+        "otis_mock_aime_2024_2025": 0.047,
+        "simplebench": 0.235
+      },
       "model_type": "chat"
     },
     {
@@ -3668,6 +3751,13 @@
       "name": "Claude 3 Opus",
       "provider": "bedrock",
       "model_id": "anthropic.claude-3-opus-20240229-v1:0:200k",
+      "benchmarks": {
+        "gpqa_diamond": 0.472,
+        "mmlu": 0.846,
+        "math_level_5": 0.375,
+        "otis_mock_aime_2024_2025": 0.047,
+        "simplebench": 0.235
+      },
       "model_type": "chat"
     },
     {
@@ -3689,6 +3779,17 @@
       "name": "Claude 3.5 Sonnet",
       "provider": "bedrock",
       "model_id": "anthropic.claude-3-5-sonnet-20240620-v1:0:18k",
+      "benchmarks": {
+        "gpqa_diamond": 0.54,
+        "mmlu": 0.873,
+        "math_level_5": 0.517,
+        "otis_mock_aime_2024_2025": 0.085,
+        "frontiermath": 0.021,
+        "aider_polyglot": 51.6,
+        "simplebench": 0.275,
+        "frontiermath_tier_4": 0.0,
+        "swe_bench_verified": 0.406
+      },
       "model_type": "reasoning"
     },
     {
@@ -3696,6 +3797,17 @@
       "name": "Claude 3.5 Sonnet",
       "provider": "bedrock",
       "model_id": "anthropic.claude-3-5-sonnet-20240620-v1:0:51k",
+      "benchmarks": {
+        "gpqa_diamond": 0.54,
+        "mmlu": 0.873,
+        "math_level_5": 0.517,
+        "otis_mock_aime_2024_2025": 0.085,
+        "frontiermath": 0.021,
+        "aider_polyglot": 51.6,
+        "simplebench": 0.275,
+        "frontiermath_tier_4": 0.0,
+        "swe_bench_verified": 0.406
+      },
       "model_type": "reasoning"
     },
     {
@@ -3703,6 +3815,17 @@
       "name": "Claude 3.5 Sonnet",
       "provider": "bedrock",
       "model_id": "anthropic.claude-3-5-sonnet-20240620-v1:0:200k",
+      "benchmarks": {
+        "gpqa_diamond": 0.54,
+        "mmlu": 0.873,
+        "math_level_5": 0.517,
+        "otis_mock_aime_2024_2025": 0.085,
+        "frontiermath": 0.021,
+        "aider_polyglot": 51.6,
+        "simplebench": 0.275,
+        "frontiermath_tier_4": 0.0,
+        "swe_bench_verified": 0.406
+      },
       "model_type": "reasoning"
     },
     {
@@ -3796,6 +3919,16 @@
       "name": "DeepSeek-R1",
       "provider": "bedrock",
       "model_id": "deepseek.r1-v1:0",
+      "benchmarks": {
+        "gpqa_diamond": 0.692,
+        "math_level_5": 0.931,
+        "otis_mock_aime_2024_2025": 0.533,
+        "aider_polyglot": 56.9,
+        "simplebench": 0.309,
+        "simpleqa_verified": 0.274,
+        "swe_bench_verified": 0.333,
+        "arena_elo": 1396.0
+      },
       "model_type": "unknown"
     },
     {
@@ -3823,6 +3956,13 @@
       "name": "Llama 3.1 8B Instruct",
       "provider": "bedrock",
       "model_id": "meta.llama3-1-8b-instruct-v1:0:128k",
+      "benchmarks": {
+        "gpqa_diamond": 0.259,
+        "mmlu": 0.561,
+        "math_level_5": 0.229,
+        "gsm8k": 0.824,
+        "otis_mock_aime_2024_2025": 0.025
+      },
       "model_type": "chat"
     },
     {
@@ -3844,6 +3984,12 @@
       "name": "Llama 3.1 70B Instruct",
       "provider": "bedrock",
       "model_id": "meta.llama3-1-70b-instruct-v1:0:128k",
+      "benchmarks": {
+        "gpqa_diamond": 0.442,
+        "mmlu": 0.801,
+        "math_level_5": 0.367,
+        "otis_mock_aime_2024_2025": 0.036
+      },
       "model_type": "chat"
     },
     {
@@ -3935,6 +4081,13 @@
       "name": "Llama 3.3 70B Instruct",
       "provider": "bedrock",
       "model_id": "meta.llama3-3-70b-instruct-v1:0:128k",
+      "benchmarks": {
+        "gpqa_diamond": 0.474,
+        "mmlu": 0.863,
+        "math_level_5": 0.416,
+        "otis_mock_aime_2024_2025": 0.051,
+        "simplebench": 0.199
+      },
       "model_type": "chat"
     },
     {
@@ -4054,6 +4207,9 @@
       "name": "Nova 2 Lite",
       "provider": "bedrock",
       "model_id": "amazon.nova-2-lite-v1:0:256k",
+      "benchmarks": {
+        "arena_elo": 1337.0
+      },
       "model_type": "unknown"
     },
     {
@@ -4075,6 +4231,9 @@
       "name": "Nova Pro",
       "provider": "bedrock",
       "model_id": "amazon.nova-pro-v1:0:24k",
+      "benchmarks": {
+        "mmlu": 0.82
+      },
       "model_type": "unknown"
     },
     {
@@ -4082,6 +4241,9 @@
       "name": "Nova Pro",
       "provider": "bedrock",
       "model_id": "amazon.nova-pro-v1:0:300k",
+      "benchmarks": {
+        "mmlu": 0.82
+      },
       "model_type": "unknown"
     },
     {
@@ -4089,6 +4251,9 @@
       "name": "Nova Lite",
       "provider": "bedrock",
       "model_id": "amazon.nova-lite-v1:0:24k",
+      "benchmarks": {
+        "mmlu": 0.77
+      },
       "model_type": "unknown"
     },
     {
@@ -4096,6 +4261,9 @@
       "name": "Nova Lite",
       "provider": "bedrock",
       "model_id": "amazon.nova-lite-v1:0:300k",
+      "benchmarks": {
+        "mmlu": 0.77
+      },
       "model_type": "unknown"
     },
     {
@@ -4124,6 +4292,9 @@
       "name": "Nova Micro",
       "provider": "bedrock",
       "model_id": "amazon.nova-micro-v1:0:24k",
+      "benchmarks": {
+        "mmlu": 0.708
+      },
       "model_type": "unknown"
     },
     {
@@ -4131,6 +4302,9 @@
       "name": "Nova Micro",
       "provider": "bedrock",
       "model_id": "amazon.nova-micro-v1:0:128k",
+      "benchmarks": {
+        "mmlu": 0.708
+      },
       "model_type": "unknown"
     },
     {

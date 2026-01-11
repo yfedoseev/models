@@ -18,9 +18,9 @@ rank,name,provider,roi_score,category_score,avg_price_per_million
 17,publishers/google/models/gemini-2.0-flash-001,vertex,0.0453,0.017,0.375
 18,publishers/google/models/gemini-3-pro-preview,vertex,0.0447,0.313,7.0
 19,Qwen/Qwen3-235B-A22B-Thinking-2507,deepinfra,0.0324,0.0425,1.31
-20,google/gemini-2.5-flash,deepinfra,0.0321,0.045,1.4
-21,gemini-2.5-flash,google,0.0321,0.045,1.4
-22,publishers/google/models/gemini-2.5-flash,vertex,0.0321,0.045,1.4
+20,gemini-2.5-flash,google,0.0321,0.045,1.4
+21,publishers/google/models/gemini-2.5-flash,vertex,0.0321,0.045,1.4
+22,google/gemini-2.5-flash,deepinfra,0.0321,0.045,1.4
 23,deepseek-ai/DeepSeek-V3,deepinfra,0.0281,0.017,0.605
 24,deepseek-ai/DeepSeek-V3,siliconflow,0.0245,0.017,0.695
 25,Claude Sonnet 4.5,anthropic,0.0218,0.1963,9.0
@@ -29,9 +29,9 @@ rank,name,provider,roi_score,category_score,avg_price_per_million
 28,meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8,deepinfra,0.0187,0.007,0.375
 29,deepseek-ai/DeepSeek-V3-0324,nebius,0.017,0.017,1.0
 30,Claude Opus 4.5,anthropic,0.0168,0.2526,15.0
-31,google/gemini-2.5-pro,deepinfra,0.0163,0.0915,5.625
-32,gemini-2.5-pro,google,0.0163,0.0915,5.625
-33,publishers/google/models/gemini-2.5-pro,vertex,0.0163,0.0915,5.625
+31,gemini-2.5-pro,google,0.0163,0.0915,5.625
+32,publishers/google/models/gemini-2.5-pro,vertex,0.0163,0.0915,5.625
+33,google/gemini-2.5-pro,deepinfra,0.0163,0.0915,5.625
 34,Llama-4-Maverick-17B-128E-Instruct,sambanova,0.0156,0.007,0.45
 35,Claude Haiku 4.5,anthropic,0.0137,0.041,3.0
 36,grok-4-0709,xai,0.0121,0.109,9.0

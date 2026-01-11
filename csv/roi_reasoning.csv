@@ -4,9 +4,9 @@ rank,name,provider,roi_score,category_score,avg_price_per_million
 3,gpt-5-nano,openai,7.4844,0.842,0.1125
 4,meta-llama/Meta-Llama-3-8B-Instruct,deepinfra,5.8,0.261,0.045
 5,microsoft/phi-4,deepinfra,5.3429,0.561,0.105
-6,google/gemma-3-27b-it,deepinfra,3.912,0.489,0.125
-7,gpt-4.1-nano-2025-04-14,openai,3.912,0.489,0.125
-8,gpt-4.1-nano,openai,3.912,0.489,0.125
+6,gpt-4.1-nano-2025-04-14,openai,3.912,0.489,0.125
+7,gpt-4.1-nano,openai,3.912,0.489,0.125
+8,google/gemma-3-27b-it,deepinfra,3.912,0.489,0.125
 9,@cf/mistral/mistral-7b-instruct-v0.1,cloudflare,3.7733,0.566,0.15
 10,gemini-2.0-flash-lite,google,3.3227,0.623,0.1875
 11,meta-llama/Llama-4-Scout-17B-16E-Instruct,deepinfra,2.7263,0.518,0.19

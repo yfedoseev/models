@@ -36,9 +36,9 @@ rank,name,provider,roi_score,category_score,avg_price_per_million
 35,mistral-small-latest,mistral,2.1207,0.4241,0.2
 36,Qwen/Qwen2.5-32B-Instruct,siliconflow,2.1056,0.379,0.18
 37,ministral-3b-latest,mistral,2.094,0.2094,0.1
-38,meta-llama/Meta-Llama-3.1-8B-Instruct-fast,nebius,2.0833,0.125,0.06
-39,Qwen/Qwen2.5-Coder-7B-fast,nebius,2.0833,0.125,0.06
-40,Llama 3.2 3B Instruct Turbo Llama,together,2.0833,0.125,0.06
+38,Llama 3.2 3B Instruct Turbo Llama,together,2.0833,0.125,0.06
+39,meta-llama/Meta-Llama-3.1-8B-Instruct-fast,nebius,2.0833,0.125,0.06
+40,Qwen/Qwen2.5-Coder-7B-fast,nebius,2.0833,0.125,0.06
 41,grok-4-1-fast-reasoning,xai,2.0524,0.7183,0.35
 42,Qwen/Qwen3-32B,nebius,1.9887,0.3977,0.2
 43,google/gemma-3-27b-it,nebius,1.9603,0.3921,0.2

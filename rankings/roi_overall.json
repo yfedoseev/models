@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-11T14:27:05.270788",
+  "generated_at": "2026-01-11T14:56:35.234216",
   "ranking_type": "roi_overall",
   "count": 50,
   "models": [
@@ -412,6 +412,17 @@
     },
     {
       "rank": 38,
+      "model_id": "together/Llama 3.2 3B Instruct Turbo Llama",
+      "provider": "together",
+      "name": "Llama 3.2 3B Instruct Turbo Llama",
+      "score": 2.0833,
+      "category_score": 0.125,
+      "avg_price_per_million": 0.06,
+      "input_price": 0.06,
+      "output_price": 0.06
+    },
+    {
+      "rank": 39,
       "model_id": "nebius/meta-llama/Meta-Llama-3.1-8B-Instruct-fast",
       "provider": "nebius",
       "name": "meta-llama/Meta-Llama-3.1-8B-Instruct-fast",
@@ -422,7 +433,7 @@
       "output_price": 0.09
     },
     {
-      "rank": 39,
+      "rank": 40,
       "model_id": "nebius/Qwen/Qwen2.5-Coder-7B-fast",
       "provider": "nebius",
       "name": "Qwen/Qwen2.5-Coder-7B-fast",
@@ -431,17 +442,6 @@
       "avg_price_per_million": 0.06,
       "input_price": 0.03,
       "output_price": 0.09
-    },
-    {
-      "rank": 40,
-      "model_id": "together/Llama 3.2 3B Instruct Turbo Llama",
-      "provider": "together",
-      "name": "Llama 3.2 3B Instruct Turbo Llama",
-      "score": 2.0833,
-      "category_score": 0.125,
-      "avg_price_per_million": 0.06,
-      "input_price": 0.06,
-      "output_price": 0.06
     },
     {
       "rank": 41,
