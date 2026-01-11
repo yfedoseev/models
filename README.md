@@ -44,6 +44,8 @@ Combined with pricing from official API pages, this enables both performance ran
 
 ## Top Models (January 2026)
 
+### Performance Rankings
+
 | Category | #1 | #2 | #3 |
 |----------|-----|-----|-----|
 | **Arena ELO** | Gemini 3 Pro | Gemini 3 Flash | Claude Opus 4.5 |
@@ -51,7 +53,16 @@ Combined with pricing from official API pages, this enables both performance ran
 | **Reasoning** | Gemini 3 Pro | o3-mini | o3 |
 | **Knowledge** | Gemini 3 Pro | Qwen3 Max | Gemini 3 Flash |
 | **Hard/Frontier** | o4-mini | o3-mini | o3 |
+
+### ROI Rankings (Best Value)
+
+| Category | #1 | #2 | #3 |
+|----------|-----|-----|-----|
 | **ROI: Coding** | gpt-5-nano | Qwen3-235B | Qwen3-32B |
+| **ROI: Reasoning** | Llama-3.2-11B | gpt-5-nano | Llama-3-8B |
+| **ROI: Knowledge** | Llama-3-8B | Llama-3.2-11B | gpt-5-nano |
+| **ROI: Hard** | o4-mini | o3-mini | o3 |
+| **ROI: Arena** | Llama-3.1-8B | Gemma-3-4B | Gemma-2-2B |
 
 *Full rankings: [docs/rankings.md](docs/rankings.md)*
 
