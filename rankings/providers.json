@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-01-11T15:14:16.899977",
+  "generated_at": "2026-01-11T16:15:00.658851",
   "ranking_type": "providers",
-  "count": 86,
+  "count": 87,
   "providers": [
     {
       "provider": "nvidia_nim",
@@ -28,6 +28,14 @@
       "top_model": "microsoft/Phi-3.5-mini-instruct"
     },
     {
+      "provider": "bedrock",
+      "model_count": 185,
+      "models_with_benchmarks": 40,
+      "avg_composite": 0.315,
+      "max_composite": 0.82,
+      "top_model": "Nova Pro"
+    },
+    {
       "provider": "openai",
       "model_count": 77,
       "models_with_benchmarks": 63,
@@ -36,20 +44,20 @@
       "top_model": "gpt-5-mini-2025-08-07"
     },
     {
-      "provider": "qwen",
-      "model_count": 242,
-      "models_with_benchmarks": 67,
-      "avg_composite": 0.2319,
-      "max_composite": 0.8195,
-      "top_model": "qwen/qwen2.5-coder-14b-instruct"
-    },
-    {
       "provider": "huggingface_inference",
       "model_count": 335,
       "models_with_benchmarks": 69,
       "avg_composite": 0.2041,
       "max_composite": 0.8195,
       "top_model": "Qwen/Qwen2.5-Coder-14B-Instruct"
+    },
+    {
+      "provider": "qwen",
+      "model_count": 242,
+      "models_with_benchmarks": 67,
+      "avg_composite": 0.2319,
+      "max_composite": 0.8195,
+      "top_model": "qwen/qwen2.5-coder-14b-instruct"
     },
     {
       "provider": "azure_openai",
@@ -148,14 +156,6 @@
       "top_model": "Phi-3-mini-4k-instruct.Q4_0.gguf"
     },
     {
-      "provider": "together",
-      "model_count": 119,
-      "models_with_benchmarks": 2,
-      "avg_composite": 0.1414,
-      "max_composite": 0.645,
-      "top_model": "Qwen3-Coder-480B-A35B-Instruct"
-    },
-    {
       "provider": "deepinfra",
       "model_count": 43,
       "models_with_benchmarks": 26,
@@ -164,12 +164,12 @@
       "top_model": "Qwen/Qwen3-Coder-480B-A35B-Instruct"
     },
     {
-      "provider": "sambanova",
-      "model_count": 17,
-      "models_with_benchmarks": 14,
-      "avg_composite": 0.3965,
-      "max_composite": 0.6424,
-      "top_model": "DeepSeek-R1-Distill-Llama-70B"
+      "provider": "together",
+      "model_count": 119,
+      "models_with_benchmarks": 2,
+      "avg_composite": 0.1414,
+      "max_composite": 0.645,
+      "top_model": "Qwen3-Coder-480B-A35B-Instruct"
     },
     {
       "provider": "nscale",
@@ -180,6 +180,14 @@
       "top_model": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B"
     },
     {
+      "provider": "sambanova",
+      "model_count": 17,
+      "models_with_benchmarks": 14,
+      "avg_composite": 0.3965,
+      "max_composite": 0.6424,
+      "top_model": "DeepSeek-R1-Distill-Llama-70B"
+    },
+    {
       "provider": "ollama",
       "model_count": 193,
       "models_with_benchmarks": 21,
@@ -188,20 +196,20 @@
       "top_model": "gemini-3-pro-preview"
     },
     {
-      "provider": "cloudflare_ai",
-      "model_count": 84,
-      "models_with_benchmarks": 29,
-      "avg_composite": 0.2151,
-      "max_composite": 0.606,
-      "top_model": "mistral-7b-instruct-v0.1-awq"
-    },
-    {
       "provider": "cloudflare",
       "model_count": 57,
       "models_with_benchmarks": 21,
       "avg_composite": 0.2302,
       "max_composite": 0.606,
       "top_model": "@cf/mistral/mistral-7b-instruct-v0.1"
+    },
+    {
+      "provider": "cloudflare_ai",
+      "model_count": 84,
+      "models_with_benchmarks": 29,
+      "avg_composite": 0.2151,
+      "max_composite": 0.606,
+      "top_model": "mistral-7b-instruct-v0.1-awq"
     },
     {
       "provider": "cerebras",
@@ -244,20 +252,20 @@
       "top_model": "GPT OSS 20B openai/gpt-oss-20b"
     },
     {
-      "provider": "replicate",
-      "model_count": 9,
-      "models_with_benchmarks": 2,
-      "avg_composite": 0.2045,
-      "max_composite": 0.5133,
-      "top_model": "deepseek-ai/deepseek-r1"
-    },
-    {
       "provider": "crusoe",
       "model_count": 4,
       "models_with_benchmarks": 4,
       "avg_composite": 0.3899,
       "max_composite": 0.5133,
       "top_model": "deepseek-r1"
+    },
+    {
+      "provider": "replicate",
+      "model_count": 9,
+      "models_with_benchmarks": 2,
+      "avg_composite": 0.2045,
+      "max_composite": 0.5133,
+      "top_model": "deepseek-ai/deepseek-r1"
     },
     {
       "provider": "snowflake",
@@ -396,14 +404,6 @@
       "top_model": "Doubao-1.5-Thinking-Pro"
     },
     {
-      "provider": "oracle",
-      "model_count": 3,
-      "models_with_benchmarks": 0,
-      "avg_composite": 0.175,
-      "max_composite": 0.2,
-      "top_model": "cohere.command-r-plus"
-    },
-    {
       "provider": "ntt_tsuzumi",
       "model_count": 3,
       "models_with_benchmarks": 0,
@@ -412,20 +412,12 @@
       "top_model": "tsuzumi-7b"
     },
     {
-      "provider": "upstage",
-      "model_count": 4,
+      "provider": "oracle",
+      "model_count": 3,
       "models_with_benchmarks": 0,
-      "avg_composite": 0.1437,
+      "avg_composite": 0.175,
       "max_composite": 0.2,
-      "top_model": "solar-docvision"
-    },
-    {
-      "provider": "yandex",
-      "model_count": 6,
-      "models_with_benchmarks": 0,
-      "avg_composite": 0.1375,
-      "max_composite": 0.2,
-      "top_model": "summarization"
+      "top_model": "cohere.command-r-plus"
     },
     {
       "provider": "sealion",
@@ -436,12 +428,28 @@
       "top_model": "aisingapore/Gemma-SEA-LION-v3-9B-IT"
     },
     {
+      "provider": "upstage",
+      "model_count": 4,
+      "models_with_benchmarks": 0,
+      "avg_composite": 0.1437,
+      "max_composite": 0.2,
+      "top_model": "solar-docvision"
+    },
+    {
       "provider": "writer",
       "model_count": 7,
       "models_with_benchmarks": 0,
       "avg_composite": 0.1357,
       "max_composite": 0.2,
       "top_model": "palmyra-vision"
+    },
+    {
+      "provider": "yandex",
+      "model_count": 6,
+      "models_with_benchmarks": 0,
+      "avg_composite": 0.1375,
+      "max_composite": 0.2,
+      "top_model": "summarization"
     },
     {
       "provider": "resembleai",
@@ -452,14 +460,6 @@
       "top_model": "resemble-tts"
     },
     {
-      "provider": "speechmatics",
-      "model_count": 3,
-      "models_with_benchmarks": 0,
-      "avg_composite": 0.1417,
-      "max_composite": 0.175,
-      "top_model": "tts"
-    },
-    {
       "provider": "sarvam",
       "model_count": 5,
       "models_with_benchmarks": 0,
@@ -468,12 +468,12 @@
       "top_model": "saaras-speech"
     },
     {
-      "provider": "perplexity",
-      "model_count": 4,
+      "provider": "speechmatics",
+      "model_count": 3,
       "models_with_benchmarks": 0,
-      "avg_composite": 0.125,
-      "max_composite": 0.125,
-      "top_model": "sonar"
+      "avg_composite": 0.1417,
+      "max_composite": 0.175,
+      "top_model": "tts"
     },
     {
       "provider": "aleph_alpha",
@@ -508,92 +508,12 @@
       "top_model": "FLUX.2 [max]"
     },
     {
-      "provider": "kakao",
-      "model_count": 12,
-      "models_with_benchmarks": 0,
-      "avg_composite": 0.125,
-      "max_composite": 0.125,
-      "top_model": "kakaobrain/kogpt"
-    },
-    {
-      "provider": "lg_exaone",
-      "model_count": 41,
-      "models_with_benchmarks": 0,
-      "avg_composite": 0.125,
-      "max_composite": 0.125,
-      "top_model": "LGAI-EXAONE/K-EXAONE-236B-A23B"
-    },
-    {
-      "provider": "revai",
-      "model_count": 3,
-      "models_with_benchmarks": 0,
-      "avg_composite": 0.125,
-      "max_composite": 0.125,
-      "top_model": "reverb"
-    },
-    {
-      "provider": "recraft",
-      "model_count": 4,
-      "models_with_benchmarks": 0,
-      "avg_composite": 0.125,
-      "max_composite": 0.125,
-      "top_model": "Recraft V3 Raster"
-    },
-    {
-      "provider": "stability",
-      "model_count": 24,
-      "models_with_benchmarks": 0,
-      "avg_composite": 0.125,
-      "max_composite": 0.125,
-      "top_model": "Stable Image Ultra"
-    },
-    {
-      "provider": "fal",
-      "model_count": 8,
-      "models_with_benchmarks": 0,
-      "avg_composite": 0.125,
-      "max_composite": 0.125,
-      "top_model": "Wan 2.5"
-    },
-    {
-      "provider": "spark",
-      "model_count": 7,
-      "models_with_benchmarks": 0,
-      "avg_composite": 0.125,
-      "max_composite": 0.125,
-      "top_model": "Spark Lite"
-    },
-    {
       "provider": "d_id",
       "model_count": 3,
       "models_with_benchmarks": 0,
       "avg_composite": 0.125,
       "max_composite": 0.125,
       "top_model": "Premium+ Avatar"
-    },
-    {
-      "provider": "runway",
-      "model_count": 2,
-      "models_with_benchmarks": 0,
-      "avg_composite": 0.125,
-      "max_composite": 0.125,
-      "top_model": "aleph"
-    },
-    {
-      "provider": "playht",
-      "model_count": 3,
-      "models_with_benchmarks": 0,
-      "avg_composite": 0.125,
-      "max_composite": 0.125,
-      "top_model": "play-dialog"
-    },
-    {
-      "provider": "twelvelabs",
-      "model_count": 2,
-      "models_with_benchmarks": 0,
-      "avg_composite": 0.125,
-      "max_composite": 0.125,
-      "top_model": "Marengo"
     },
     {
       "provider": "databricks",
@@ -604,6 +524,14 @@
       "top_model": "databricks-dbrx-instruct"
     },
     {
+      "provider": "fal",
+      "model_count": 8,
+      "models_with_benchmarks": 0,
+      "avg_composite": 0.125,
+      "max_composite": 0.125,
+      "top_model": "Wan 2.5"
+    },
+    {
       "provider": "gigachat",
       "model_count": 4,
       "models_with_benchmarks": 0,
@@ -612,28 +540,12 @@
       "top_model": "GigaChat"
     },
     {
-      "provider": "maritaca",
-      "model_count": 3,
+      "provider": "kakao",
+      "model_count": 12,
       "models_with_benchmarks": 0,
       "avg_composite": 0.125,
       "max_composite": 0.125,
-      "top_model": "sabia-3"
-    },
-    {
-      "provider": "naver_clova",
-      "model_count": 3,
-      "models_with_benchmarks": 0,
-      "avg_composite": 0.125,
-      "max_composite": 0.125,
-      "top_model": "HCX-005"
-    },
-    {
-      "provider": "plamo",
-      "model_count": 25,
-      "models_with_benchmarks": 0,
-      "avg_composite": 0.125,
-      "max_composite": 0.125,
-      "top_model": "pfnet/plamo-13b"
+      "top_model": "kakaobrain/kogpt"
     },
     {
       "provider": "krutrim",
@@ -644,12 +556,92 @@
       "top_model": "krutrim-ai-labs/Vyakyarth"
     },
     {
-      "provider": "softbank_sarashina",
+      "provider": "lg_exaone",
+      "model_count": 41,
+      "models_with_benchmarks": 0,
+      "avg_composite": 0.125,
+      "max_composite": 0.125,
+      "top_model": "LGAI-EXAONE/K-EXAONE-236B-A23B"
+    },
+    {
+      "provider": "maritaca",
+      "model_count": 3,
+      "models_with_benchmarks": 0,
+      "avg_composite": 0.125,
+      "max_composite": 0.125,
+      "top_model": "sabia-3"
+    },
+    {
+      "provider": "modal",
+      "model_count": 4,
+      "models_with_benchmarks": 0,
+      "avg_composite": 0.125,
+      "max_composite": 0.125,
+      "top_model": "vllm-llama-3.1-70b"
+    },
+    {
+      "provider": "naver_clova",
+      "model_count": 3,
+      "models_with_benchmarks": 0,
+      "avg_composite": 0.125,
+      "max_composite": 0.125,
+      "top_model": "HCX-005"
+    },
+    {
+      "provider": "perplexity",
+      "model_count": 4,
+      "models_with_benchmarks": 0,
+      "avg_composite": 0.125,
+      "max_composite": 0.125,
+      "top_model": "sonar"
+    },
+    {
+      "provider": "plamo",
+      "model_count": 25,
+      "models_with_benchmarks": 0,
+      "avg_composite": 0.125,
+      "max_composite": 0.125,
+      "top_model": "pfnet/plamo-13b"
+    },
+    {
+      "provider": "playht",
+      "model_count": 3,
+      "models_with_benchmarks": 0,
+      "avg_composite": 0.125,
+      "max_composite": 0.125,
+      "top_model": "play-dialog"
+    },
+    {
+      "provider": "recraft",
+      "model_count": 4,
+      "models_with_benchmarks": 0,
+      "avg_composite": 0.125,
+      "max_composite": 0.125,
+      "top_model": "Recraft V3 Raster"
+    },
+    {
+      "provider": "revai",
+      "model_count": 3,
+      "models_with_benchmarks": 0,
+      "avg_composite": 0.125,
+      "max_composite": 0.125,
+      "top_model": "reverb"
+    },
+    {
+      "provider": "runware",
+      "model_count": 6,
+      "models_with_benchmarks": 0,
+      "avg_composite": 0.125,
+      "max_composite": 0.125,
+      "top_model": "flux-schnell"
+    },
+    {
+      "provider": "runway",
       "model_count": 2,
       "models_with_benchmarks": 0,
       "avg_composite": 0.125,
       "max_composite": 0.125,
-      "top_model": "sarashina"
+      "top_model": "aleph"
     },
     {
       "provider": "siloai",
@@ -658,6 +650,30 @@
       "avg_composite": 0.125,
       "max_composite": 0.125,
       "top_model": "LumiOpen/Poro-34B"
+    },
+    {
+      "provider": "softbank_sarashina",
+      "model_count": 2,
+      "models_with_benchmarks": 0,
+      "avg_composite": 0.125,
+      "max_composite": 0.125,
+      "top_model": "sarashina"
+    },
+    {
+      "provider": "spark",
+      "model_count": 7,
+      "models_with_benchmarks": 0,
+      "avg_composite": 0.125,
+      "max_composite": 0.125,
+      "top_model": "Spark Lite"
+    },
+    {
+      "provider": "stability",
+      "model_count": 24,
+      "models_with_benchmarks": 0,
+      "avg_composite": 0.125,
+      "max_composite": 0.125,
+      "top_model": "Stable Image Ultra"
     },
     {
       "provider": "swissai",
@@ -676,20 +692,12 @@
       "top_model": "en-lv"
     },
     {
-      "provider": "modal",
-      "model_count": 4,
+      "provider": "twelvelabs",
+      "model_count": 2,
       "models_with_benchmarks": 0,
       "avg_composite": 0.125,
       "max_composite": 0.125,
-      "top_model": "vllm-llama-3.1-70b"
-    },
-    {
-      "provider": "runware",
-      "model_count": 6,
-      "models_with_benchmarks": 0,
-      "avg_composite": 0.125,
-      "max_composite": 0.125,
-      "top_model": "flux-schnell"
+      "top_model": "Marengo"
     }
   ]
 }

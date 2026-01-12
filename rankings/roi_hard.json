@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-11T15:14:16.902348",
+  "generated_at": "2026-01-11T16:15:00.662448",
   "ranking_type": "roi_hard",
   "count": 50,
   "models": [
@@ -115,28 +115,6 @@
     },
     {
       "rank": 11,
-      "model_id": "openai/gpt-4.1-mini-2025-04-14",
-      "provider": "openai",
-      "name": "gpt-4.1-mini-2025-04-14",
-      "score": 0.09,
-      "category_score": 0.045,
-      "avg_price_per_million": 0.5,
-      "input_price": 0.2,
-      "output_price": 0.8
-    },
-    {
-      "rank": 12,
-      "model_id": "openai/gpt-4.1-mini",
-      "provider": "openai",
-      "name": "gpt-4.1-mini",
-      "score": 0.09,
-      "category_score": 0.045,
-      "avg_price_per_million": 0.5,
-      "input_price": 0.2,
-      "output_price": 0.8
-    },
-    {
-      "rank": 13,
       "model_id": "azure/eu/gpt-4.1-mini",
       "provider": "azure_openai",
       "name": "eu/gpt-4.1-mini",
@@ -147,10 +125,32 @@
       "output_price": 0.8
     },
     {
-      "rank": 14,
+      "rank": 12,
       "model_id": "azure/us/gpt-4.1-mini",
       "provider": "azure_openai",
       "name": "us/gpt-4.1-mini",
+      "score": 0.09,
+      "category_score": 0.045,
+      "avg_price_per_million": 0.5,
+      "input_price": 0.2,
+      "output_price": 0.8
+    },
+    {
+      "rank": 13,
+      "model_id": "openai/gpt-4.1-mini-2025-04-14",
+      "provider": "openai",
+      "name": "gpt-4.1-mini-2025-04-14",
+      "score": 0.09,
+      "category_score": 0.045,
+      "avg_price_per_million": 0.5,
+      "input_price": 0.2,
+      "output_price": 0.8
+    },
+    {
+      "rank": 14,
+      "model_id": "openai/gpt-4.1-mini",
+      "provider": "openai",
+      "name": "gpt-4.1-mini",
       "score": 0.09,
       "category_score": 0.045,
       "avg_price_per_million": 0.5,
@@ -170,28 +170,6 @@
     },
     {
       "rank": 16,
-      "model_id": "openai/gpt-4.1-nano-2025-04-14",
-      "provider": "openai",
-      "name": "gpt-4.1-nano-2025-04-14",
-      "score": 0.08,
-      "category_score": 0.01,
-      "avg_price_per_million": 0.125,
-      "input_price": 0.05,
-      "output_price": 0.2
-    },
-    {
-      "rank": 17,
-      "model_id": "openai/gpt-4.1-nano",
-      "provider": "openai",
-      "name": "gpt-4.1-nano",
-      "score": 0.08,
-      "category_score": 0.01,
-      "avg_price_per_million": 0.125,
-      "input_price": 0.05,
-      "output_price": 0.2
-    },
-    {
-      "rank": 18,
       "model_id": "azure/eu/gpt-4.1-nano",
       "provider": "azure_openai",
       "name": "eu/gpt-4.1-nano",
@@ -202,10 +180,32 @@
       "output_price": 0.2
     },
     {
-      "rank": 19,
+      "rank": 17,
       "model_id": "azure/us/gpt-4.1-nano",
       "provider": "azure_openai",
       "name": "us/gpt-4.1-nano",
+      "score": 0.08,
+      "category_score": 0.01,
+      "avg_price_per_million": 0.125,
+      "input_price": 0.05,
+      "output_price": 0.2
+    },
+    {
+      "rank": 18,
+      "model_id": "openai/gpt-4.1-nano-2025-04-14",
+      "provider": "openai",
+      "name": "gpt-4.1-nano-2025-04-14",
+      "score": 0.08,
+      "category_score": 0.01,
+      "avg_price_per_million": 0.125,
+      "input_price": 0.05,
+      "output_price": 0.2
+    },
+    {
+      "rank": 19,
+      "model_id": "openai/gpt-4.1-nano",
+      "provider": "openai",
+      "name": "gpt-4.1-nano",
       "score": 0.08,
       "category_score": 0.01,
       "avg_price_per_million": 0.125,
@@ -258,6 +258,17 @@
     },
     {
       "rank": 24,
+      "model_id": "deepinfra/google/gemini-2.5-flash",
+      "provider": "deepinfra",
+      "name": "google/gemini-2.5-flash",
+      "score": 0.0321,
+      "category_score": 0.045,
+      "avg_price_per_million": 1.4,
+      "input_price": 0.3,
+      "output_price": 2.5
+    },
+    {
+      "rank": 25,
       "model_id": "google/gemini-2.5-flash",
       "provider": "google",
       "name": "gemini-2.5-flash",
@@ -268,21 +279,10 @@
       "output_price": 2.5
     },
     {
-      "rank": 25,
+      "rank": 26,
       "model_id": "vertex/publishers/google/models/gemini-2.5-flash",
       "provider": "vertex",
       "name": "publishers/google/models/gemini-2.5-flash",
-      "score": 0.0321,
-      "category_score": 0.045,
-      "avg_price_per_million": 1.4,
-      "input_price": 0.3,
-      "output_price": 2.5
-    },
-    {
-      "rank": 26,
-      "model_id": "deepinfra/google/gemini-2.5-flash",
-      "provider": "deepinfra",
-      "name": "google/gemini-2.5-flash",
       "score": 0.0321,
       "category_score": 0.045,
       "avg_price_per_million": 1.4,
@@ -412,6 +412,17 @@
     },
     {
       "rank": 38,
+      "model_id": "deepinfra/google/gemini-2.5-pro",
+      "provider": "deepinfra",
+      "name": "google/gemini-2.5-pro",
+      "score": 0.0163,
+      "category_score": 0.0915,
+      "avg_price_per_million": 5.625,
+      "input_price": 1.25,
+      "output_price": 10.0
+    },
+    {
+      "rank": 39,
       "model_id": "google/gemini-2.5-pro",
       "provider": "google",
       "name": "gemini-2.5-pro",
@@ -422,21 +433,10 @@
       "output_price": 10.0
     },
     {
-      "rank": 39,
+      "rank": 40,
       "model_id": "vertex/publishers/google/models/gemini-2.5-pro",
       "provider": "vertex",
       "name": "publishers/google/models/gemini-2.5-pro",
-      "score": 0.0163,
-      "category_score": 0.0915,
-      "avg_price_per_million": 5.625,
-      "input_price": 1.25,
-      "output_price": 10.0
-    },
-    {
-      "rank": 40,
-      "model_id": "deepinfra/google/gemini-2.5-pro",
-      "provider": "deepinfra",
-      "name": "google/gemini-2.5-pro",
       "score": 0.0163,
       "category_score": 0.0915,
       "avg_price_per_million": 5.625,
@@ -467,6 +467,17 @@
     },
     {
       "rank": 43,
+      "model_id": "bedrock/anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "name": "Claude Haiku 4.5",
+      "score": 0.0137,
+      "category_score": 0.041,
+      "avg_price_per_million": 3.0,
+      "input_price": 1.0,
+      "output_price": 5.0
+    },
+    {
+      "rank": 44,
       "model_id": "vertex/publishers/anthropic/models/claude-haiku-4-5",
       "provider": "vertex",
       "name": "publishers/anthropic/models/claude-haiku-4-5",
@@ -477,7 +488,7 @@
       "output_price": 5.0
     },
     {
-      "rank": 44,
+      "rank": 45,
       "model_id": "grok-4-0709",
       "provider": "xai",
       "name": "grok-4-0709",
@@ -488,29 +499,7 @@
       "output_price": 15.0
     },
     {
-      "rank": 45,
-      "model_id": "openai/gpt-4.1-2025-04-14",
-      "provider": "openai",
-      "name": "gpt-4.1-2025-04-14",
-      "score": 0.011,
-      "category_score": 0.0275,
-      "avg_price_per_million": 2.5,
-      "input_price": 1.0,
-      "output_price": 4.0
-    },
-    {
       "rank": 46,
-      "model_id": "openai/gpt-4.1",
-      "provider": "openai",
-      "name": "gpt-4.1",
-      "score": 0.011,
-      "category_score": 0.0275,
-      "avg_price_per_million": 2.5,
-      "input_price": 1.0,
-      "output_price": 4.0
-    },
-    {
-      "rank": 47,
       "model_id": "azure/eu/gpt-4.1",
       "provider": "azure_openai",
       "name": "eu/gpt-4.1",
@@ -521,7 +510,7 @@
       "output_price": 4.0
     },
     {
-      "rank": 48,
+      "rank": 47,
       "model_id": "azure/us/gpt-4.1",
       "provider": "azure_openai",
       "name": "us/gpt-4.1",
@@ -532,26 +521,37 @@
       "output_price": 4.0
     },
     {
+      "rank": 48,
+      "model_id": "openai/gpt-4.1-2025-04-14",
+      "provider": "openai",
+      "name": "gpt-4.1-2025-04-14",
+      "score": 0.011,
+      "category_score": 0.0275,
+      "avg_price_per_million": 2.5,
+      "input_price": 1.0,
+      "output_price": 4.0
+    },
+    {
       "rank": 49,
-      "model_id": "vertex/publishers/anthropic/models/claude-opus-4-5",
-      "provider": "vertex",
-      "name": "publishers/anthropic/models/claude-opus-4-5",
+      "model_id": "openai/gpt-4.1",
+      "provider": "openai",
+      "name": "gpt-4.1",
+      "score": 0.011,
+      "category_score": 0.0275,
+      "avg_price_per_million": 2.5,
+      "input_price": 1.0,
+      "output_price": 4.0
+    },
+    {
+      "rank": 50,
+      "model_id": "bedrock/anthropic.claude-opus-4-5-20251101-v1:0",
+      "provider": "bedrock",
+      "name": "Claude Opus 4.5",
       "score": 0.0083,
       "category_score": 0.1245,
       "avg_price_per_million": 15.0,
       "input_price": 5.0,
       "output_price": 25.0
-    },
-    {
-      "rank": 50,
-      "model_id": "qwen/qwen-plus-2025-01-12",
-      "provider": "qwen",
-      "name": "qwen/qwen-plus-2025-01-12",
-      "score": 0.0079,
-      "category_score": 0.017,
-      "avg_price_per_million": 2.1435,
-      "input_price": 0.287,
-      "output_price": 4.0
     }
   ]
 }

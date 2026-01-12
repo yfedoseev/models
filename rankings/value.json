@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-11T15:14:16.898661",
+  "generated_at": "2026-01-11T16:15:00.656799",
   "ranking_type": "value",
   "count": 50,
   "models": [
@@ -209,9 +209,9 @@
     },
     {
       "rank": 18,
-      "model_id": "openai/gpt-4.1-nano-2025-04-14",
-      "provider": "openai",
-      "name": "gpt-4.1-nano-2025-04-14",
+      "model_id": "azure/eu/gpt-4.1-nano",
+      "provider": "azure_openai",
+      "name": "eu/gpt-4.1-nano",
       "score": 30.5082,
       "composite_score": 0.3814,
       "benchmark_count": 8,

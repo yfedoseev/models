@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-11T15:14:16.895546",
+  "generated_at": "2026-01-11T16:15:00.648277",
   "ranking_type": "coding",
   "count": 50,
   "models": [
@@ -426,9 +426,9 @@
     },
     {
       "rank": 21,
-      "model_id": "vertex/publishers/anthropic/models/claude-opus-4",
-      "provider": "vertex",
-      "name": "publishers/anthropic/models/claude-opus-4",
+      "model_id": "bedrock/anthropic.claude-opus-4-20250514-v1:0",
+      "provider": "bedrock",
+      "name": "Claude Opus 4",
       "score": 0.622,
       "tiebreaker": 0.58,
       "composite_score": 0.4827,
@@ -508,9 +508,9 @@
     },
     {
       "rank": 24,
-      "model_id": "replicate/anthropic/claude-3.7-sonnet",
-      "provider": "replicate",
-      "name": "anthropic/claude-3.7-sonnet",
+      "model_id": "bedrock/anthropic.claude-3-7-sonnet-20250219-v1:0",
+      "provider": "bedrock",
+      "name": "Claude 3.7 Sonnet",
       "score": 0.522,
       "tiebreaker": 0.604,
       "composite_score": 0.4526,
@@ -528,14 +528,14 @@
     },
     {
       "rank": 25,
-      "model_id": "fireworks/deepseek-v3",
-      "provider": "fireworks",
-      "name": "DeepSeek V3",
+      "model_id": "bedrock/deepseek.v3-v1:0",
+      "provider": "bedrock",
+      "name": "DeepSeek-V3.1",
       "score": 0.521,
       "tiebreaker": 0.178,
       "composite_score": 0.3802,
       "benchmark_count": 10,
-      "intelligence_tier": "F",
+      "intelligence_tier": "S",
       "benchmarks": {
         "gpqa_diamond": 0.565,
         "mmlu": 0.871,
@@ -689,9 +689,9 @@
     },
     {
       "rank": 32,
-      "model_id": "openai/gpt-4.1-2025-04-14",
-      "provider": "openai",
-      "name": "gpt-4.1-2025-04-14",
+      "model_id": "azure/eu/gpt-4.1",
+      "provider": "azure_openai",
+      "name": "eu/gpt-4.1",
       "score": 0.41,
       "tiebreaker": 0.524,
       "composite_score": 0.4396,
@@ -713,9 +713,9 @@
     },
     {
       "rank": 33,
-      "model_id": "snowflake/claude-3-5-sonnet",
-      "provider": "snowflake",
-      "name": "claude-3-5-sonnet",
+      "model_id": "bedrock/anthropic.claude-3-5-sonnet-20241022-v2:0:18k",
+      "provider": "bedrock",
+      "name": "Claude 3.5 Sonnet v2",
       "score": 0.406,
       "tiebreaker": 0.516,
       "composite_score": 0.3196,
@@ -735,6 +735,93 @@
     },
     {
       "rank": 34,
+      "model_id": "bedrock/anthropic.claude-3-5-sonnet-20241022-v2:0:51k",
+      "provider": "bedrock",
+      "name": "Claude 3.5 Sonnet v2",
+      "score": 0.406,
+      "tiebreaker": 0.516,
+      "composite_score": 0.3196,
+      "benchmark_count": 9,
+      "intelligence_tier": "S",
+      "benchmarks": {
+        "gpqa_diamond": 0.54,
+        "mmlu": 0.873,
+        "math_level_5": 0.517,
+        "otis_mock_aime_2024_2025": 0.085,
+        "frontiermath": 0.021,
+        "aider_polyglot": 51.6,
+        "simplebench": 0.275,
+        "frontiermath_tier_4": 0.0,
+        "swe_bench_verified": 0.406
+      }
+    },
+    {
+      "rank": 35,
+      "model_id": "bedrock/anthropic.claude-3-5-sonnet-20241022-v2:0:200k",
+      "provider": "bedrock",
+      "name": "Claude 3.5 Sonnet v2",
+      "score": 0.406,
+      "tiebreaker": 0.516,
+      "composite_score": 0.3196,
+      "benchmark_count": 9,
+      "intelligence_tier": "S",
+      "benchmarks": {
+        "gpqa_diamond": 0.54,
+        "mmlu": 0.873,
+        "math_level_5": 0.517,
+        "otis_mock_aime_2024_2025": 0.085,
+        "frontiermath": 0.021,
+        "aider_polyglot": 51.6,
+        "simplebench": 0.275,
+        "frontiermath_tier_4": 0.0,
+        "swe_bench_verified": 0.406
+      }
+    },
+    {
+      "rank": 36,
+      "model_id": "bedrock/anthropic.claude-3-5-sonnet-20241022-v2:0",
+      "provider": "bedrock",
+      "name": "Claude 3.5 Sonnet v2",
+      "score": 0.406,
+      "tiebreaker": 0.516,
+      "composite_score": 0.3196,
+      "benchmark_count": 9,
+      "intelligence_tier": "S",
+      "benchmarks": {
+        "gpqa_diamond": 0.54,
+        "mmlu": 0.873,
+        "math_level_5": 0.517,
+        "otis_mock_aime_2024_2025": 0.085,
+        "frontiermath": 0.021,
+        "aider_polyglot": 51.6,
+        "simplebench": 0.275,
+        "frontiermath_tier_4": 0.0,
+        "swe_bench_verified": 0.406
+      }
+    },
+    {
+      "rank": 37,
+      "model_id": "bedrock/deepseek.r1-v1:0",
+      "provider": "bedrock",
+      "name": "DeepSeek-R1",
+      "score": 0.333,
+      "tiebreaker": 0.569,
+      "composite_score": 0.5133,
+      "benchmark_count": 8,
+      "intelligence_tier": "S",
+      "benchmarks": {
+        "gpqa_diamond": 0.692,
+        "math_level_5": 0.931,
+        "otis_mock_aime_2024_2025": 0.533,
+        "aider_polyglot": 56.9,
+        "simplebench": 0.309,
+        "simpleqa_verified": 0.274,
+        "swe_bench_verified": 0.333,
+        "arena_elo": 1396.0
+      }
+    },
+    {
+      "rank": 38,
       "model_id": "fireworks/deepseek-r1",
       "provider": "fireworks",
       "name": "DeepSeek R1 (Fast)",
@@ -755,31 +842,10 @@
       }
     },
     {
-      "rank": 35,
-      "model_id": "fireworks/deepseek-r1-0528",
-      "provider": "fireworks",
-      "name": "Deepseek R1 05/28",
-      "score": 0.333,
-      "tiebreaker": 0.569,
-      "composite_score": 0.5133,
-      "benchmark_count": 8,
-      "intelligence_tier": "S",
-      "benchmarks": {
-        "gpqa_diamond": 0.692,
-        "math_level_5": 0.931,
-        "otis_mock_aime_2024_2025": 0.533,
-        "aider_polyglot": 56.9,
-        "simplebench": 0.309,
-        "simpleqa_verified": 0.274,
-        "swe_bench_verified": 0.333,
-        "arena_elo": 1396.0
-      }
-    },
-    {
-      "rank": 36,
-      "model_id": "openai/gpt-4.1-mini-2025-04-14",
-      "provider": "openai",
-      "name": "gpt-4.1-mini-2025-04-14",
+      "rank": 39,
+      "model_id": "azure/eu/gpt-4.1-mini",
+      "provider": "azure_openai",
+      "name": "eu/gpt-4.1-mini",
       "score": 0.328,
       "tiebreaker": 0.324,
       "composite_score": 0.4894,
@@ -798,7 +864,7 @@
       }
     },
     {
-      "rank": 37,
+      "rank": 40,
       "model_id": "qwen/qwen-plus",
       "provider": "qwen",
       "name": "qwen/qwen-plus",
@@ -817,7 +883,7 @@
       }
     },
     {
-      "rank": 38,
+      "rank": 41,
       "model_id": "qwen/qwen-plus-latest",
       "provider": "qwen",
       "name": "qwen/qwen-plus-latest",
@@ -836,13 +902,13 @@
       }
     },
     {
-      "rank": 39,
-      "model_id": "openai/gpt-4o",
-      "provider": "openai",
-      "name": "gpt-4o",
+      "rank": 42,
+      "model_id": "azure/eu/gpt-4o",
+      "provider": "azure_openai",
+      "name": "eu/gpt-4o",
       "score": 0.254,
       "tiebreaker": 0.182,
-      "composite_score": 0.3235,
+      "composite_score": 0.322,
       "benchmark_count": 10,
       "intelligence_tier": "S",
       "benchmarks": {
@@ -855,11 +921,11 @@
         "simplebench": 0.178,
         "swe_bench_verified": 0.254,
         "humaneval": 91.0,
-        "arena_elo": 1345
+        "arena_elo": 1335.0
       }
     },
     {
-      "rank": 40,
+      "rank": 43,
       "model_id": "openai/chatgpt-4o-latest",
       "provider": "openai",
       "name": "chatgpt-4o-latest",
@@ -882,7 +948,7 @@
       }
     },
     {
-      "rank": 41,
+      "rank": 44,
       "model_id": "vertex/publishers/google/models/gemini-2.0-flash-001",
       "provider": "vertex",
       "name": "publishers/google/models/gemini-2.0-flash-001",
@@ -901,28 +967,43 @@
       }
     },
     {
-      "rank": 42,
-      "model_id": "openai/o1-2024-12-17",
-      "provider": "openai",
-      "name": "o1-2024-12-17",
+      "rank": 45,
+      "model_id": "azure/eu/o1-mini",
+      "provider": "azure_openai",
+      "name": "eu/o1-mini",
       "score": 0.924,
       "tiebreaker": 0.0,
-      "composite_score": 0.6677,
-      "benchmark_count": 8,
+      "composite_score": 0.724,
+      "benchmark_count": 3,
       "intelligence_tier": "P",
       "benchmarks": {
-        "gpqa_diamond": 0.781,
-        "mmlu": 0.908,
-        "math_level_5": 0.816,
-        "otis_mock_aime_2024_2025": 0.311,
-        "simplebench": 0.417,
-        "humaneval": 0.924,
-        "arena_elo": 1401,
-        "aime_2024": 0.833
+        "mmlu": 85.2,
+        "humaneval": 92.4,
+        "arena_elo": 1336.0
       }
     },
     {
-      "rank": 43,
+      "rank": 46,
+      "model_id": "azure/eu/o1",
+      "provider": "azure_openai",
+      "name": "eu/o1",
+      "score": 0.924,
+      "tiebreaker": 0.0,
+      "composite_score": 0.5814,
+      "benchmark_count": 7,
+      "intelligence_tier": "P",
+      "benchmarks": {
+        "gpqa_diamond": 0.503,
+        "mmlu": 90.8,
+        "math_level_5": 0.816,
+        "otis_mock_aime_2024_2025": 0.311,
+        "simplebench": 0.417,
+        "humaneval": 92.4,
+        "arena_elo": 1388.0
+      }
+    },
+    {
+      "rank": 47,
       "model_id": "openai/o1-pro-2025-03-19",
       "provider": "openai",
       "name": "o1-pro-2025-03-19",
@@ -940,23 +1021,7 @@
       }
     },
     {
-      "rank": 44,
-      "model_id": "azure/eu/o1-mini",
-      "provider": "azure_openai",
-      "name": "eu/o1-mini",
-      "score": 0.924,
-      "tiebreaker": 0.0,
-      "composite_score": 0.724,
-      "benchmark_count": 3,
-      "intelligence_tier": "P",
-      "benchmarks": {
-        "mmlu": 85.2,
-        "humaneval": 92.4,
-        "arena_elo": 1336.0
-      }
-    },
-    {
-      "rank": 45,
+      "rank": 48,
       "model_id": "openai/gpt-4-turbo-preview",
       "provider": "openai",
       "name": "gpt-4-turbo-preview",
@@ -976,7 +1041,7 @@
       }
     },
     {
-      "rank": 46,
+      "rank": 49,
       "model_id": "grok-4-0709",
       "provider": "xai",
       "name": "grok-4-0709",
@@ -1006,25 +1071,7 @@
       }
     },
     {
-      "rank": 47,
-      "model_id": "fireworks/qwen3-235b-a22b",
-      "provider": "fireworks",
-      "name": "Qwen3 235B A22B",
-      "score": 0.596,
-      "tiebreaker": 0.596,
-      "composite_score": 0.5741,
-      "benchmark_count": 5,
-      "intelligence_tier": "F",
-      "benchmarks": {
-        "gpqa_diamond": 0.707,
-        "math_level_5": 0.689,
-        "aider_polyglot": 59.6,
-        "simplebench": 0.31,
-        "arena_elo": 1374.0
-      }
-    },
-    {
-      "rank": 48,
+      "rank": 50,
       "model_id": "cerebras/Qwen 3 235B Instruct*",
       "provider": "cerebras",
       "name": "Qwen 3 235B Instruct*",
@@ -1039,50 +1086,6 @@
         "aider_polyglot": 59.6,
         "simplebench": 0.31,
         "arena_elo": 1374.0
-      }
-    },
-    {
-      "rank": 49,
-      "model_id": "groq/Kimi K2 0905 moonshotai/kimi-k2-instruct-0905",
-      "provider": "groq",
-      "name": "Kimi K2 0905 moonshotai/kimi-k2-instruct-0905",
-      "score": 0.591,
-      "tiebreaker": 0.4538,
-      "composite_score": 0.4662,
-      "benchmark_count": 5,
-      "intelligence_tier": "S",
-      "benchmarks": {
-        "aider_polyglot": 59.1,
-        "simplebench": 0.263,
-        "livebench_global": 50.97,
-        "livebench_reasoning": 42.23,
-        "livebench_coding": 74.28,
-        "livebench_agentic_coding": 31.67,
-        "livebench_math": 58.15,
-        "livebench_data_analysis": 63.41,
-        "livebench_language": 66.69,
-        "livebench_ifeval": 20.36
-      }
-    },
-    {
-      "rank": 50,
-      "model_id": "ollama/devstral-2",
-      "provider": "ollama",
-      "name": "devstral-2",
-      "score": 0.4333,
-      "tiebreaker": 0.4333,
-      "composite_score": 0.4937,
-      "benchmark_count": 3,
-      "intelligence_tier": "S",
-      "benchmarks": {
-        "livebench_global": 43.79,
-        "livebench_reasoning": 27.74,
-        "livebench_coding": 66.79,
-        "livebench_agentic_coding": 43.33,
-        "livebench_math": 52.52,
-        "livebench_data_analysis": 56.95,
-        "livebench_language": 45.67,
-        "livebench_ifeval": 13.5
       }
     }
   ]

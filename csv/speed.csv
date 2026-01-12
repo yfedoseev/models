@@ -1,51 +1,51 @@
 rank,name,provider,score
-1,devstral-medium-latest,mistral,0.5
-2,devstral-small-latest,mistral,0.5
-3,GLM-4.5,fireworks,0.5
-4,GLM-4.5V,fireworks,0.5
-5,GLM-4.6,fireworks,0.5
-6,GLM-4.7,fireworks,0.5
-7,NVIDIA Nemotron Nano 9B v2,fireworks,0.5
-8,Qwen3 Coder 30B A3B Instruct,fireworks,0.5
-9,Qwen3 Next 80B A3B Instruct,fireworks,0.5
-10,Qwen3 VL 30B A3B Instruct,fireworks,0.5
-11,Qwen3 VL 32B Instruct,fireworks,0.5
-12,qwen/qwen3-1.7b,qwen,0.5
-13,qwen/qwen3-0.6b,qwen,0.5
-14,qwen/qwen3-vl-8b-instruct,qwen,0.5
-15,Llama 3.3 70B,cerebras,0.5
-16,tiiuae/Falcon-H1R-7B,ai71,0.5
-17,devstral-small-2,ollama,0.5
-18,mistral-small3.2,ollama,0.5
-19,command-a,ollama,0.5
-20,LGAI-EXAONE/EXAONE-4.0-1.2B,lg_exaone,0.5
-21,LGAI-EXAONE/EXAONE-4.0-32B,lg_exaone,0.5
-22,LGAI-EXAONE/EXAONE-4.0-32B-FP8,lg_exaone,0.5
-23,LGAI-EXAONE/EXAONE-4.0-32B-GPTQ,lg_exaone,0.5
-24,LGAI-EXAONE/EXAONE-4.0-32B-AWQ,lg_exaone,0.5
-25,LGAI-EXAONE/EXAONE-4.0-1.2B-FP8,lg_exaone,0.5
-26,LGAI-EXAONE/EXAONE-4.0-1.2B-AWQ,lg_exaone,0.5
-27,nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL,deepinfra,0.5
-28,nvidia/Llama-3.1-Nemotron-70B-Instruct,deepinfra,0.5
-29,zai-org/GLM-4.6V,huggingface_inference,0.5
-30,meta/llama-3.1-405b-instruct,nvidia_nim,0.5
-31,inclusionAI/Ling-1T,featherless,0.5
-32,nvidia/Llama-3.1-Nemotron-70B-Instruct-HF,featherless,0.5
-33,mlx-community/Llama-3.1-Nemotron-70B-Instruct-HF-bf16,featherless,0.5
-34,mlx-community/Llama-3.3-70B-Instruct-bf16,featherless,0.5
-35,mistralai/Devstral-Small-2505,featherless,0.5
-36,Qwen 3 Next 80B A3b Instruct,hyperbolic,0.5
-37,Qwen3 Omni 30B A3B Instruct,novita,0.5
-38,llama3.1-405b,snowflake,0.5
-39,Qwen3 VL 235B A22B Instruct,fireworks,0.4997
-40,Mistral Large 3 675B Instruct 2512,fireworks,0.4995
-41,publishers/mistralai/models/mistral-large-3,vertex,0.4995
-42,devstral-2,ollama,0.4995
-43,PrimeIntellect/INTELLECT-3-FP8,huggingface_inference,0.4995
-44,PrimeIntellect/INTELLECT-3,nebius,0.4995
-45,zai-org/GLM-4.5-Air,huggingface_inference,0.4992
-46,Qwen 3 235B A22B Instruct 2507,hyperbolic,0.499
-47,Qwen3-Coder-480B-A35B-Instruct,together,0.4987
-48,Qwen3 Coder 480B Instruct BF16,fireworks,0.4987
-49,Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8,huggingface_inference,0.4987
-50,deepseek-ai/deepseek-v3.1-terminus,nvidia_nim,0.498
+1,tiiuae/Falcon-H1R-7B,ai71,0.5
+2,Llama 3.1 405B,baseten,0.5
+3,Nova Premier,bedrock,0.5
+4,Nova Premier,bedrock,0.5
+5,Nova Premier,bedrock,0.5
+6,Nova Premier,bedrock,0.5
+7,Llama 3.1 405B Instruct,bedrock,0.5
+8,Llama 3.3 70B Instruct,bedrock,0.5
+9,Llama 3.3 70B Instruct,bedrock,0.5
+10,Llama 3.3 70B,cerebras,0.5
+11,Qwen/Qwen3-Next-80B-A3B-Instruct,deepinfra,0.5
+12,nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL,deepinfra,0.5
+13,nvidia/Llama-3.1-Nemotron-70B-Instruct,deepinfra,0.5
+14,nvidia/NVIDIA-Nemotron-Nano-9B-v2,deepinfra,0.5
+15,Qwen/Qwen3-0.6B,featherless,0.5
+16,inclusionAI/Ling-1T,featherless,0.5
+17,nvidia/Llama-3.1-Nemotron-70B-Instruct-HF,featherless,0.5
+18,mlx-community/Llama-3.1-Nemotron-70B-Instruct-HF-bf16,featherless,0.5
+19,mlx-community/Llama-3.3-70B-Instruct-bf16,featherless,0.5
+20,mistralai/Devstral-Small-2505,featherless,0.5
+21,Qwen/Qwen3-1.7B,featherless,0.5
+22,Qwen/Qwen3-Coder-30B-A3B-Instruct,featherless,0.5
+23,GLM-4.5,fireworks,0.5
+24,GLM-4.5V,fireworks,0.5
+25,GLM-4.6,fireworks,0.5
+26,GLM-4.7,fireworks,0.5
+27,Qwen3 VL 30B A3B Instruct,fireworks,0.5
+28,Qwen3 VL 32B Instruct,fireworks,0.5
+29,Qwen/Qwen3-VL-8B-Instruct,huggingface_inference,0.5
+30,zai-org/GLM-4.6V,huggingface_inference,0.5
+31,Qwen 3 Next 80B A3b Instruct,hyperbolic,0.5
+32,LGAI-EXAONE/EXAONE-4.0-1.2B,lg_exaone,0.5
+33,LGAI-EXAONE/EXAONE-4.0-32B,lg_exaone,0.5
+34,LGAI-EXAONE/EXAONE-4.0-32B-FP8,lg_exaone,0.5
+35,LGAI-EXAONE/EXAONE-4.0-32B-GPTQ,lg_exaone,0.5
+36,LGAI-EXAONE/EXAONE-4.0-32B-AWQ,lg_exaone,0.5
+37,LGAI-EXAONE/EXAONE-4.0-1.2B-FP8,lg_exaone,0.5
+38,LGAI-EXAONE/EXAONE-4.0-1.2B-AWQ,lg_exaone,0.5
+39,devstral-medium-latest,mistral,0.5
+40,devstral-small-latest,mistral,0.5
+41,Qwen3 Omni 30B A3B Instruct,novita,0.5
+42,devstral-small-2,ollama,0.5
+43,mistral-small3.2,ollama,0.5
+44,command-a,ollama,0.5
+45,llama3.1-405b,snowflake,0.5
+46,Qwen3 VL 235B A22B Instruct,fireworks,0.4997
+47,Mistral Large 3 675B Instruct 2512,fireworks,0.4995
+48,PrimeIntellect/INTELLECT-3-FP8,huggingface_inference,0.4995
+49,PrimeIntellect/INTELLECT-3,nebius,0.4995
+50,devstral-2,ollama,0.4995

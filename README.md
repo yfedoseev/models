@@ -10,7 +10,7 @@ The AI landscape changes weekly. New models launch, prices drop, capabilities ev
 
 - **100+ providers** crawled for model data
 - **Weekly updates** to catch new releases and price changes
-- **11,000+ models** tracked with specs, pricing, and capabilities
+- **11,400+ models** tracked with specs, pricing, and capabilities
 
 Staying current means you always have accurate data for decision-making.
 
@@ -71,9 +71,9 @@ Combined with pricing from official API pages, this enables both performance ran
 | Metric | Count |
 |--------|-------|
 | Providers | 108 |
-| Total Models | 11,250 |
-| With Pricing | 1,918 |
-| With Benchmarks | 1,193 |
+| Total Models | 11,481 |
+| With Pricing | 1,991 |
+| With Benchmarks | 1,255 |
 
 ## What's Included
 

@@ -32,10 +32,10 @@ rank,name,provider,roi_score,category_score,avg_price_per_million
 31,meta-llama/Llama-Guard-3-8B,nebius,3.125,0.125,0.04
 32,qwen/qwen2.5-coder-0.5b-instruct,qwen,3.06,0.3825,0.125
 33,qwen/deepseek-r1-distill-llama-70b,qwen,3.0592,0.6424,0.21
-34,gpt-4.1-nano-2025-04-14,openai,3.0508,0.3814,0.125
-35,gpt-4.1-nano,openai,3.0508,0.3814,0.125
-36,eu/gpt-4.1-nano,azure_openai,3.0508,0.3814,0.125
-37,us/gpt-4.1-nano,azure_openai,3.0508,0.3814,0.125
+34,eu/gpt-4.1-nano,azure_openai,3.0508,0.3814,0.125
+35,us/gpt-4.1-nano,azure_openai,3.0508,0.3814,0.125
+36,gpt-4.1-nano-2025-04-14,openai,3.0508,0.3814,0.125
+37,gpt-4.1-nano,openai,3.0508,0.3814,0.125
 38,qwen/qwen2.5-coder-3b-instruct,qwen,3.028,0.757,0.25
 39,qwen/deepseek-r1-distill-qwen-14b,qwen,2.9362,0.6166,0.21
 40,@cf/google/gemma-3-12b-it,cloudflare,2.5892,0.5683,0.2195
@@ -47,5 +47,5 @@ rank,name,provider,roi_score,category_score,avg_price_per_million
 46,publishers/mistralai/models/mistral-small-2503,vertex,2.1207,0.4241,0.2
 47,Qwen/Qwen2.5-32B-Instruct,siliconflow,2.1056,0.379,0.18
 48,ministral-3b-latest,mistral,2.094,0.2094,0.1
-49,Llama 3.2 3B Instruct Turbo Llama,together,2.0833,0.125,0.06
-50,meta-llama/Meta-Llama-3.1-8B-Instruct-fast,nebius,2.0833,0.125,0.06
+49,meta-llama/Meta-Llama-3.1-8B-Instruct-fast,nebius,2.0833,0.125,0.06
+50,Qwen/Qwen2.5-Coder-7B-fast,nebius,2.0833,0.125,0.06

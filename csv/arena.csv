@@ -1,51 +1,51 @@
 rank,name,provider,score
 1,gemini-3-pro-preview,google,0.835
-2,publishers/google/models/gemini-3-flash-preview,vertex,0.785
+2,gemini-3-flash-preview,ollama,0.785
 3,Claude Opus 4.5,anthropic,0.775
-4,publishers/google/models/gemini-2.5-pro,vertex,0.75
+4,google/gemini-2.5-pro,deepinfra,0.75
 5,Claude Sonnet 4.5,anthropic,0.7467
 6,eu/gpt-5.2-chat,azure_openai,0.7333
 7,gemini-2.5-pro-preview-tts,google,0.73
-8,gpt-5.1-chat-latest,openai,0.725
-9,eu/gpt-5.1-chat,azure_openai,0.725
+8,eu/gpt-5.1-chat,azure_openai,0.725
+9,gpt-5.1-chat-latest,openai,0.725
 10,o3-mini-2025-01-31,openai,0.7217
 11,o3-2025-04-16,openai,0.7217
 12,grok-4-1-fast-reasoning,xai,0.7183
-13,gpt-5-chat-latest,openai,0.7083
-14,gpt-5.2-2025-12-11,openai,0.7083
-15,eu/gpt-5-chat,azure_openai,0.7083
-16,qwen/qwen3-max,qwen,0.7067
-17,glm-4.6,ollama,0.7067
-18,publishers/deepseek-ai/models/deepseek-v3-2,vertex,0.705
-19,deepseek-ai/deepseek-v3.1-terminus,nvidia_nim,0.6917
+13,eu/gpt-5-chat,azure_openai,0.7083
+14,gpt-5-chat-latest,openai,0.7083
+15,gpt-5.2-2025-12-11,openai,0.7083
+16,zai-org/GLM-4.6,featherless,0.7067
+17,Qwen3 Max,novita,0.7067
+18,deepseek-ai/DeepSeek-V3.2,huggingface_inference,0.705
+19,Deepseek V3.1 Terminus,novita,0.6917
 20,Qwen3 VL 235B A22B Instruct,fireworks,0.69
-21,mistral-large-3-25-12,mistral,0.6883
-22,mistral-large-2-1-24-11,mistral,0.6883
-23,mistral-large-2-0-24-07,mistral,0.6883
-24,mistral-large-1-0-24-02,mistral,0.6883
-25,mistral-large-latest,mistral,0.6883
-26,Mistral Large 3 675B Instruct 2512,fireworks,0.6883
+21,Mistral Large 3 675B Instruct 2512,fireworks,0.6883
+22,mistral-large-3-25-12,mistral,0.6883
+23,mistral-large-2-1-24-11,mistral,0.6883
+24,mistral-large-2-0-24-07,mistral,0.6883
+25,mistral-large-1-0-24-02,mistral,0.6883
+26,mistral-large-latest,mistral,0.6883
 27,publishers/mistralai/models/mistral-large-3,vertex,0.6883
-28,gpt-4.1-2025-04-14,openai,0.6867
+28,eu/gpt-4.1,azure_openai,0.6867
 29,anthropic--claude-4-opus,sap_ai_core,0.6867
 30,Claude Opus 4.1,anthropic,0.6833
-31,publishers/zai-org/models/glm-4.5,vertex,0.6817
-32,publishers/google/models/gemini-2.5-flash,vertex,0.68
+31,zai-org/GLM-4.5,nebius,0.6817
+32,google/gemini-2.5-flash,deepinfra,0.68
 33,publishers/google/models/gemini-2.5-flash-preview-09-2025,vertex,0.675
 34,Claude Haiku 4.5,anthropic,0.6717
-35,o1-2024-12-17,openai,0.6683
-36,o1-pro-2025-03-19,openai,0.6683
-37,Qwen3 Next 80B A3B Instruct,fireworks,0.6683
-38,Qwen 3 Next 80B A3b Instruct,hyperbolic,0.6683
-39,qwen/qwen3-235b-a22b-thinking-2507,qwen,0.6633
-40,DeepSeek R1 (Fast),fireworks,0.66
-41,Deepseek R1 05/28,fireworks,0.66
+35,Qwen/Qwen3-Next-80B-A3B-Instruct,deepinfra,0.6683
+36,Qwen 3 Next 80B A3b Instruct,hyperbolic,0.6683
+37,o1-2024-12-17,openai,0.6683
+38,o1-pro-2025-03-19,openai,0.6683
+39,Qwen/Qwen3-235B-A22B-Thinking-2507,deepinfra,0.6633
+40,DeepSeek-R1,bedrock,0.66
+41,DeepSeek R1 (Fast),fireworks,0.66
 42,Qwen3 VL 235B A22B Thinking,fireworks,0.6567
-43,o4-mini-2025-04-16,openai,0.6517
+43,eu/o4-mini,azure_openai,0.6517
 44,Claude Opus 4,anthropic,0.65
 45,anthropic--claude-sonnet-4,sap_ai_core,0.6483
-46,Qwen3-Coder-480B-A35B-Instruct,together,0.645
+46,Qwen/Qwen3-Coder-480B-A35B-Instruct,deepinfra,0.645
 47,Qwen3 Coder 480B Instruct BF16,fireworks,0.645
 48,Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8,huggingface_inference,0.645
-49,gpt-4.1-mini-2025-04-14,openai,0.635
+49,eu/gpt-4.1-mini,azure_openai,0.635
 50,Claude Sonnet 4,anthropic,0.6333

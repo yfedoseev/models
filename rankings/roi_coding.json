@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-11T15:14:16.900968",
+  "generated_at": "2026-01-11T16:15:00.660460",
   "ranking_type": "roi_coding",
   "count": 50,
   "models": [
@@ -247,28 +247,6 @@
     },
     {
       "rank": 23,
-      "model_id": "openai/gpt-4.1-nano-2025-04-14",
-      "provider": "openai",
-      "name": "gpt-4.1-nano-2025-04-14",
-      "score": 0.712,
-      "category_score": 0.089,
-      "avg_price_per_million": 0.125,
-      "input_price": 0.05,
-      "output_price": 0.2
-    },
-    {
-      "rank": 24,
-      "model_id": "openai/gpt-4.1-nano",
-      "provider": "openai",
-      "name": "gpt-4.1-nano",
-      "score": 0.712,
-      "category_score": 0.089,
-      "avg_price_per_million": 0.125,
-      "input_price": 0.05,
-      "output_price": 0.2
-    },
-    {
-      "rank": 25,
       "model_id": "azure/eu/gpt-4.1-nano",
       "provider": "azure_openai",
       "name": "eu/gpt-4.1-nano",
@@ -279,10 +257,32 @@
       "output_price": 0.2
     },
     {
-      "rank": 26,
+      "rank": 24,
       "model_id": "azure/us/gpt-4.1-nano",
       "provider": "azure_openai",
       "name": "us/gpt-4.1-nano",
+      "score": 0.712,
+      "category_score": 0.089,
+      "avg_price_per_million": 0.125,
+      "input_price": 0.05,
+      "output_price": 0.2
+    },
+    {
+      "rank": 25,
+      "model_id": "openai/gpt-4.1-nano-2025-04-14",
+      "provider": "openai",
+      "name": "gpt-4.1-nano-2025-04-14",
+      "score": 0.712,
+      "category_score": 0.089,
+      "avg_price_per_million": 0.125,
+      "input_price": 0.05,
+      "output_price": 0.2
+    },
+    {
+      "rank": 26,
+      "model_id": "openai/gpt-4.1-nano",
+      "provider": "openai",
+      "name": "gpt-4.1-nano",
       "score": 0.712,
       "category_score": 0.089,
       "avg_price_per_million": 0.125,
@@ -346,28 +346,6 @@
     },
     {
       "rank": 32,
-      "model_id": "openai/gpt-4.1-mini-2025-04-14",
-      "provider": "openai",
-      "name": "gpt-4.1-mini-2025-04-14",
-      "score": 0.656,
-      "category_score": 0.328,
-      "avg_price_per_million": 0.5,
-      "input_price": 0.2,
-      "output_price": 0.8
-    },
-    {
-      "rank": 33,
-      "model_id": "openai/gpt-4.1-mini",
-      "provider": "openai",
-      "name": "gpt-4.1-mini",
-      "score": 0.656,
-      "category_score": 0.328,
-      "avg_price_per_million": 0.5,
-      "input_price": 0.2,
-      "output_price": 0.8
-    },
-    {
-      "rank": 34,
       "model_id": "azure/eu/gpt-4.1-mini",
       "provider": "azure_openai",
       "name": "eu/gpt-4.1-mini",
@@ -378,10 +356,32 @@
       "output_price": 0.8
     },
     {
-      "rank": 35,
+      "rank": 33,
       "model_id": "azure/us/gpt-4.1-mini",
       "provider": "azure_openai",
       "name": "us/gpt-4.1-mini",
+      "score": 0.656,
+      "category_score": 0.328,
+      "avg_price_per_million": 0.5,
+      "input_price": 0.2,
+      "output_price": 0.8
+    },
+    {
+      "rank": 34,
+      "model_id": "openai/gpt-4.1-mini-2025-04-14",
+      "provider": "openai",
+      "name": "gpt-4.1-mini-2025-04-14",
+      "score": 0.656,
+      "category_score": 0.328,
+      "avg_price_per_million": 0.5,
+      "input_price": 0.2,
+      "output_price": 0.8
+    },
+    {
+      "rank": 35,
+      "model_id": "openai/gpt-4.1-mini",
+      "provider": "openai",
+      "name": "gpt-4.1-mini",
       "score": 0.656,
       "category_score": 0.328,
       "avg_price_per_million": 0.5,

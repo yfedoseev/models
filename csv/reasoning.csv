@@ -1,9 +1,9 @@
 rank,name,provider,score
-1,publishers/google/models/gemini-3-pro-preview,vertex,0.926
+1,gemini-3-pro-preview,ollama,0.926
 2,o3-mini-2025-01-31,openai,0.877
 3,o3-2025-04-16,openai,0.877
 4,grok-4-0709,xai,0.87
-5,gemini-2.5-pro,google,0.853
+5,google/gemini-2.5-pro,deepinfra,0.853
 6,gemini-2.5-pro-preview-tts,google,0.853
 7,gpt-5-pro-2025-10-06,openai,0.842
 8,gpt-5-2025-08-07,openai,0.842
@@ -19,27 +19,27 @@ rank,name,provider,score
 18,gpt-5.2-pro-2025-12-11,openai,0.842
 19,gemini-3-flash-preview,google,0.832
 20,o4-mini-2025-04-16,openai,0.811
-21,publishers/anthropic/models/claude-opus-4-5,vertex,0.807
-22,qwen/qwen3-235b-a22b-thinking-2507,qwen,0.801
+21,Claude Opus 4.5,bedrock,0.807
+22,Qwen/Qwen3-235B-A22B-Thinking-2507,deepinfra,0.801
 23,o1-pro-2025-03-19,openai,0.781
 24,o1-2024-12-17,openai,0.781
 25,Claude Sonnet 4.5,anthropic,0.737
 26,Claude Opus 4.1,anthropic,0.732
-27,qwen/qwen3-max,qwen,0.726
+27,Qwen3 Max,novita,0.726
 28,gemini-2.5-flash,google,0.712
 29,gemini-2.5-flash-preview-09-2025,google,0.712
 30,gemini-2.5-flash-lite,google,0.712
 31,gemini-2.5-flash-preview-tts,google,0.712
 32,Qwen 3 235B Instruct*,cerebras,0.707
-33,DeepSeek R1 (Fast),fireworks,0.692
-34,Deepseek R1 05/28,fireworks,0.692
+33,DeepSeek-R1,bedrock,0.692
+34,DeepSeek R1 (Fast),fireworks,0.692
 35,Claude Opus 4,anthropic,0.692
-36,Llama 4 Maverick 17B 128E meta-llama/llama-4-maverick-17b-128e-instruct,groq,0.67
-37,meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8,deepinfra,0.67
-38,gpt-4.1-2025-04-14,openai,0.669
+36,meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8,deepinfra,0.67
+37,Llama 4 Maverick 17B 128E meta-llama/llama-4-maverick-17b-128e-instruct,groq,0.67
+38,eu/gpt-4.1,azure_openai,0.669
 39,Claude Sonnet 4,anthropic,0.667
-40,anthropic/claude-3.7-sonnet,replicate,0.66
-41,gpt-4.1-mini-2025-04-14,openai,0.658
+40,Claude 3.7 Sonnet,bedrock,0.66
+41,eu/gpt-4.1-mini,azure_openai,0.658
 42,qwen/qwq-plus,qwen,0.654
 43,qwen/qwq-plus-latest,qwen,0.654
 44,publishers/google/models/gemini-2.0-flash-001,vertex,0.641
@@ -47,5 +47,5 @@ rank,name,provider,score
 46,gemini-2.0-flash-lite,google,0.623
 47,Claude Haiku 4.5,anthropic,0.605
 48,mistral-medium-latest,mistral,0.595
-49,DeepSeek V3,fireworks,0.565
+49,DeepSeek-V3.1,bedrock,0.565
 50,Deepseek V3 03-24,fireworks,0.565

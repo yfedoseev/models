@@ -19,33 +19,33 @@ rank,name,provider,score
 18,Claude Opus 4.1,anthropic,0.632
 19,gemini-2.5-pro,google,0.631
 20,gemini-2.5-pro-preview-tts,google,0.631
-21,publishers/anthropic/models/claude-opus-4,vertex,0.622
+21,Claude Opus 4,bedrock,0.622
 22,Claude Sonnet 4,anthropic,0.606
 23,Claude Haiku 4.5,anthropic,0.606
-24,anthropic/claude-3.7-sonnet,replicate,0.522
-25,DeepSeek V3,fireworks,0.521
+24,Claude 3.7 Sonnet,bedrock,0.522
+25,DeepSeek-V3.1,bedrock,0.521
 26,Deepseek V3 03-24,fireworks,0.521
 27,deepseek-v2,ollama,0.521
 28,deepseek-v3.1,ollama,0.521
 29,deepseek-v2.5,ollama,0.521
 30,deepseek,xinference,0.521
 31,DeepSeek-V3.2,xinference,0.521
-32,gpt-4.1-2025-04-14,openai,0.41
-33,claude-3-5-sonnet,snowflake,0.406
-34,DeepSeek R1 (Fast),fireworks,0.333
-35,Deepseek R1 05/28,fireworks,0.333
-36,gpt-4.1-mini-2025-04-14,openai,0.328
-37,qwen/qwen-plus,qwen,0.28
-38,qwen/qwen-plus-latest,qwen,0.28
-39,gpt-4o,openai,0.254
-40,chatgpt-4o-latest,openai,0.254
-41,publishers/google/models/gemini-2.0-flash-001,vertex,0.22
-42,o1-2024-12-17,openai,0.924
-43,o1-pro-2025-03-19,openai,0.924
-44,eu/o1-mini,azure_openai,0.924
-45,gpt-4-turbo-preview,openai,0.882
-46,grok-4-0709,xai,0.796
-47,Qwen3 235B A22B,fireworks,0.596
-48,Qwen 3 235B Instruct*,cerebras,0.596
-49,Kimi K2 0905 moonshotai/kimi-k2-instruct-0905,groq,0.591
-50,devstral-2,ollama,0.4333
+32,eu/gpt-4.1,azure_openai,0.41
+33,Claude 3.5 Sonnet v2,bedrock,0.406
+34,Claude 3.5 Sonnet v2,bedrock,0.406
+35,Claude 3.5 Sonnet v2,bedrock,0.406
+36,Claude 3.5 Sonnet v2,bedrock,0.406
+37,DeepSeek-R1,bedrock,0.333
+38,DeepSeek R1 (Fast),fireworks,0.333
+39,eu/gpt-4.1-mini,azure_openai,0.328
+40,qwen/qwen-plus,qwen,0.28
+41,qwen/qwen-plus-latest,qwen,0.28
+42,eu/gpt-4o,azure_openai,0.254
+43,chatgpt-4o-latest,openai,0.254
+44,publishers/google/models/gemini-2.0-flash-001,vertex,0.22
+45,eu/o1-mini,azure_openai,0.924
+46,eu/o1,azure_openai,0.924
+47,o1-pro-2025-03-19,openai,0.924
+48,gpt-4-turbo-preview,openai,0.882
+49,grok-4-0709,xai,0.796
+50,Qwen 3 235B Instruct*,cerebras,0.596

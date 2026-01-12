@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-11T15:14:16.899521",
+  "generated_at": "2026-01-11T16:15:00.658184",
   "ranking_type": "context",
   "count": 50,
   "models": [
@@ -85,6 +85,16 @@
     },
     {
       "rank": 9,
+      "model_id": "novita/meta-llama/llama-4-maverick-17b-128e-instruct-fp8",
+      "provider": "novita",
+      "name": "Llama 4 Maverick Instruct",
+      "context_window": 1048576,
+      "max_output_tokens": 8192,
+      "input_price": 2700.0,
+      "output_price": 8500.0
+    },
+    {
+      "rank": 10,
       "model_id": "vertex/publishers/google/models/gemini-2.0-flash-001",
       "provider": "vertex",
       "name": "publishers/google/models/gemini-2.0-flash-001",
@@ -94,7 +104,7 @@
       "output_price": 0.6
     },
     {
-      "rank": 10,
+      "rank": 11,
       "model_id": "vertex/publishers/google/models/gemini-2.0-flash-lite-001",
       "provider": "vertex",
       "name": "publishers/google/models/gemini-2.0-flash-lite-001",
@@ -104,7 +114,7 @@
       "output_price": 0.3
     },
     {
-      "rank": 11,
+      "rank": 12,
       "model_id": "vertex/publishers/google/models/gemini-2.5-pro",
       "provider": "vertex",
       "name": "publishers/google/models/gemini-2.5-pro",
@@ -114,7 +124,7 @@
       "output_price": 10.0
     },
     {
-      "rank": 12,
+      "rank": 13,
       "model_id": "vertex/publishers/google/models/gemini-2.5-flash",
       "provider": "vertex",
       "name": "publishers/google/models/gemini-2.5-flash",
@@ -124,7 +134,7 @@
       "output_price": 2.5
     },
     {
-      "rank": 13,
+      "rank": 14,
       "model_id": "vertex/publishers/google/models/gemini-2.5-flash-lite",
       "provider": "vertex",
       "name": "publishers/google/models/gemini-2.5-flash-lite",
@@ -134,7 +144,7 @@
       "output_price": 0.4
     },
     {
-      "rank": 14,
+      "rank": 15,
       "model_id": "vertex/publishers/google/models/gemini-2.5-computer-use-preview-10-2025",
       "provider": "vertex",
       "name": "publishers/google/models/gemini-2.5-computer-use-preview-10-2025",
@@ -144,7 +154,7 @@
       "output_price": 10.0
     },
     {
-      "rank": 15,
+      "rank": 16,
       "model_id": "vertex/publishers/google/models/gemini-2.5-flash-preview-09-2025",
       "provider": "vertex",
       "name": "publishers/google/models/gemini-2.5-flash-preview-09-2025",
@@ -154,7 +164,7 @@
       "output_price": 2.5
     },
     {
-      "rank": 16,
+      "rank": 17,
       "model_id": "vertex/publishers/google/models/gemini-2.5-flash-lite-preview-09-2025",
       "provider": "vertex",
       "name": "publishers/google/models/gemini-2.5-flash-lite-preview-09-2025",
@@ -164,7 +174,7 @@
       "output_price": 0.39999999999999997
     },
     {
-      "rank": 17,
+      "rank": 18,
       "model_id": "vertex/publishers/google/models/gemini-3-pro-preview",
       "provider": "vertex",
       "name": "publishers/google/models/gemini-3-pro-preview",
@@ -174,7 +184,7 @@
       "output_price": 12.0
     },
     {
-      "rank": 18,
+      "rank": 19,
       "model_id": "vertex/publishers/google/models/gemini-3-flash-preview",
       "provider": "vertex",
       "name": "publishers/google/models/gemini-3-flash-preview",
@@ -182,16 +192,6 @@
       "max_output_tokens": 65535,
       "input_price": 0.5,
       "output_price": 3.0
-    },
-    {
-      "rank": 19,
-      "model_id": "novita/meta-llama/llama-4-maverick-17b-128e-instruct-fp8",
-      "provider": "novita",
-      "name": "Llama 4 Maverick Instruct",
-      "context_window": 1048576,
-      "max_output_tokens": 8192,
-      "input_price": 2700.0,
-      "output_price": 8500.0
     },
     {
       "rank": 20,
@@ -205,36 +205,6 @@
     },
     {
       "rank": 21,
-      "model_id": "openai/gpt-4.1",
-      "provider": "openai",
-      "name": "gpt-4.1",
-      "context_window": 1047576,
-      "max_output_tokens": 32768,
-      "input_price": 1.0,
-      "output_price": 4.0
-    },
-    {
-      "rank": 22,
-      "model_id": "openai/gpt-4.1-mini",
-      "provider": "openai",
-      "name": "gpt-4.1-mini",
-      "context_window": 1047576,
-      "max_output_tokens": 32768,
-      "input_price": 0.2,
-      "output_price": 0.8
-    },
-    {
-      "rank": 23,
-      "model_id": "openai/gpt-4.1-nano",
-      "provider": "openai",
-      "name": "gpt-4.1-nano",
-      "context_window": 1047576,
-      "max_output_tokens": 32768,
-      "input_price": 0.05,
-      "output_price": 0.2
-    },
-    {
-      "rank": 24,
       "model_id": "azure/eu/gpt-4.1",
       "provider": "azure_openai",
       "name": "eu/gpt-4.1",
@@ -244,7 +214,7 @@
       "output_price": 4.0
     },
     {
-      "rank": 25,
+      "rank": 22,
       "model_id": "azure/eu/gpt-4.1-mini",
       "provider": "azure_openai",
       "name": "eu/gpt-4.1-mini",
@@ -254,7 +224,7 @@
       "output_price": 0.8
     },
     {
-      "rank": 26,
+      "rank": 23,
       "model_id": "azure/eu/gpt-4.1-nano",
       "provider": "azure_openai",
       "name": "eu/gpt-4.1-nano",
@@ -264,7 +234,7 @@
       "output_price": 0.2
     },
     {
-      "rank": 27,
+      "rank": 24,
       "model_id": "azure/eu/gpt-5-nano",
       "provider": "azure_openai",
       "name": "eu/gpt-5-nano",
@@ -274,7 +244,7 @@
       "output_price": 0.2
     },
     {
-      "rank": 28,
+      "rank": 25,
       "model_id": "azure/eu/gpt-5-mini",
       "provider": "azure_openai",
       "name": "eu/gpt-5-mini",
@@ -284,7 +254,7 @@
       "output_price": 1.0
     },
     {
-      "rank": 29,
+      "rank": 26,
       "model_id": "azure/us/gpt-4.1",
       "provider": "azure_openai",
       "name": "us/gpt-4.1",
@@ -294,7 +264,7 @@
       "output_price": 4.0
     },
     {
-      "rank": 30,
+      "rank": 27,
       "model_id": "azure/us/gpt-4.1-mini",
       "provider": "azure_openai",
       "name": "us/gpt-4.1-mini",
@@ -304,7 +274,7 @@
       "output_price": 0.8
     },
     {
-      "rank": 31,
+      "rank": 28,
       "model_id": "azure/us/gpt-4.1-nano",
       "provider": "azure_openai",
       "name": "us/gpt-4.1-nano",
@@ -314,7 +284,7 @@
       "output_price": 0.2
     },
     {
-      "rank": 32,
+      "rank": 29,
       "model_id": "azure/us/gpt-5-mini",
       "provider": "azure_openai",
       "name": "us/gpt-5-mini",
@@ -324,13 +294,43 @@
       "output_price": 1.0
     },
     {
-      "rank": 33,
+      "rank": 30,
       "model_id": "azure/us/gpt-5-nano",
       "provider": "azure_openai",
       "name": "us/gpt-5-nano",
       "context_window": 1047576,
       "max_output_tokens": 32768,
       "input_price": 0.025,
+      "output_price": 0.2
+    },
+    {
+      "rank": 31,
+      "model_id": "openai/gpt-4.1",
+      "provider": "openai",
+      "name": "gpt-4.1",
+      "context_window": 1047576,
+      "max_output_tokens": 32768,
+      "input_price": 1.0,
+      "output_price": 4.0
+    },
+    {
+      "rank": 32,
+      "model_id": "openai/gpt-4.1-mini",
+      "provider": "openai",
+      "name": "gpt-4.1-mini",
+      "context_window": 1047576,
+      "max_output_tokens": 32768,
+      "input_price": 0.2,
+      "output_price": 0.8
+    },
+    {
+      "rank": 33,
+      "model_id": "openai/gpt-4.1-nano",
+      "provider": "openai",
+      "name": "gpt-4.1-nano",
+      "context_window": 1047576,
+      "max_output_tokens": 32768,
+      "input_price": 0.05,
       "output_price": 0.2
     },
     {
@@ -455,6 +455,16 @@
     },
     {
       "rank": 46,
+      "model_id": "novita/minimaxai/minimax-m1-80k",
+      "provider": "novita",
+      "name": "MiniMax M1",
+      "context_window": 1000000,
+      "max_output_tokens": 40000,
+      "input_price": 5500.0,
+      "output_price": 22000.0
+    },
+    {
+      "rank": 47,
       "model_id": "qwen/qwen-flash",
       "provider": "qwen",
       "name": "qwen/qwen-flash",
@@ -464,7 +474,7 @@
       "output_price": 1.0
     },
     {
-      "rank": 47,
+      "rank": 48,
       "model_id": "qwen/qwen-flash-us",
       "provider": "qwen",
       "name": "qwen/qwen-flash-us",
@@ -474,7 +484,7 @@
       "output_price": 1.0
     },
     {
-      "rank": 48,
+      "rank": 49,
       "model_id": "qwen/qwen2.5-7b-instruct-1m",
       "provider": "qwen",
       "name": "qwen/qwen2.5-7b-instruct-1m",
@@ -482,16 +492,6 @@
       "max_output_tokens": 8192,
       "input_price": 0.4,
       "output_price": 1.2
-    },
-    {
-      "rank": 49,
-      "model_id": "novita/minimaxai/minimax-m1-80k",
-      "provider": "novita",
-      "name": "MiniMax M1",
-      "context_window": 1000000,
-      "max_output_tokens": 40000,
-      "input_price": 5500.0,
-      "output_price": 22000.0
     },
     {
       "rank": 50,

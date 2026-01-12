@@ -7,31 +7,31 @@ rank,name,provider,score
 6,grok-4-fast-reasoning,xai,0
 7,Llama 4 Maverick Instruct (Basic),fireworks,0
 8,Llama 4 Scout Instruct (Basic),fireworks,0
-9,publishers/google/models/gemini-2.0-flash-001,vertex,0
-10,publishers/google/models/gemini-2.0-flash-lite-001,vertex,0
-11,publishers/google/models/gemini-2.5-pro,vertex,0
-12,publishers/google/models/gemini-2.5-flash,vertex,0
-13,publishers/google/models/gemini-2.5-flash-lite,vertex,0
-14,publishers/google/models/gemini-2.5-computer-use-preview-10-2025,vertex,0
-15,publishers/google/models/gemini-2.5-flash-preview-09-2025,vertex,0
-16,publishers/google/models/gemini-2.5-flash-lite-preview-09-2025,vertex,0
-17,publishers/google/models/gemini-3-pro-preview,vertex,0
-18,publishers/google/models/gemini-3-flash-preview,vertex,0
-19,Llama 4 Maverick Instruct,novita,0
+9,Llama 4 Maverick Instruct,novita,0
+10,publishers/google/models/gemini-2.0-flash-001,vertex,0
+11,publishers/google/models/gemini-2.0-flash-lite-001,vertex,0
+12,publishers/google/models/gemini-2.5-pro,vertex,0
+13,publishers/google/models/gemini-2.5-flash,vertex,0
+14,publishers/google/models/gemini-2.5-flash-lite,vertex,0
+15,publishers/google/models/gemini-2.5-computer-use-preview-10-2025,vertex,0
+16,publishers/google/models/gemini-2.5-flash-preview-09-2025,vertex,0
+17,publishers/google/models/gemini-2.5-flash-lite-preview-09-2025,vertex,0
+18,publishers/google/models/gemini-3-pro-preview,vertex,0
+19,publishers/google/models/gemini-3-flash-preview,vertex,0
 20,glm4-chat-1m,xinference,0
-21,gpt-4.1,openai,0
-22,gpt-4.1-mini,openai,0
-23,gpt-4.1-nano,openai,0
-24,eu/gpt-4.1,azure_openai,0
-25,eu/gpt-4.1-mini,azure_openai,0
-26,eu/gpt-4.1-nano,azure_openai,0
-27,eu/gpt-5-nano,azure_openai,0
-28,eu/gpt-5-mini,azure_openai,0
-29,us/gpt-4.1,azure_openai,0
-30,us/gpt-4.1-mini,azure_openai,0
-31,us/gpt-4.1-nano,azure_openai,0
-32,us/gpt-5-mini,azure_openai,0
-33,us/gpt-5-nano,azure_openai,0
+21,eu/gpt-4.1,azure_openai,0
+22,eu/gpt-4.1-mini,azure_openai,0
+23,eu/gpt-4.1-nano,azure_openai,0
+24,eu/gpt-5-nano,azure_openai,0
+25,eu/gpt-5-mini,azure_openai,0
+26,us/gpt-4.1,azure_openai,0
+27,us/gpt-4.1-mini,azure_openai,0
+28,us/gpt-4.1-nano,azure_openai,0
+29,us/gpt-5-mini,azure_openai,0
+30,us/gpt-5-nano,azure_openai,0
+31,gpt-4.1,openai,0
+32,gpt-4.1-mini,openai,0
+33,gpt-4.1-nano,openai,0
 34,mistral-nemo-instruct,xinference,0
 35,qwen2.5-instruct-1m,xinference,0
 36,gemini-3-pro-preview,google,0
@@ -44,8 +44,8 @@ rank,name,provider,score
 43,gemini-2.5-pro-preview-tts,google,0
 44,gemini-2.0-flash,google,0
 45,gemini-2.0-flash-lite,google,0
-46,qwen/qwen-flash,qwen,0
-47,qwen/qwen-flash-us,qwen,0
-48,qwen/qwen2.5-7b-instruct-1m,qwen,0
-49,MiniMax M1,novita,0
+46,MiniMax M1,novita,0
+47,qwen/qwen-flash,qwen,0
+48,qwen/qwen-flash-us,qwen,0
+49,qwen/qwen2.5-7b-instruct-1m,qwen,0
 50,google--gemini-2.5-flash,sap_ai_core,0

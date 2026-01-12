@@ -1,8 +1,8 @@
 {
   "total_providers": 108,
-  "total_models": 11250,
-  "models_with_pricing": 1918,
-  "models_with_benchmarks": 1193,
+  "total_models": 11481,
+  "models_with_pricing": 1991,
+  "models_with_benchmarks": 1255,
   "providers": [
     {
       "name": "featherless",
@@ -45,6 +45,13 @@
       "model_count": 238,
       "with_pricing": 223,
       "with_benchmarks": 46
+    },
+    {
+      "name": "bedrock",
+      "display_name": "bedrock",
+      "model_count": 231,
+      "with_pricing": 73,
+      "with_benchmarks": 62
     },
     {
       "name": "ollama",

@@ -16,7 +16,7 @@ rank,name,provider,score
 15,google/gemma-3-27b-it,deepinfra,31.3644
 16,qwen/qwen2.5-coder-0.5b-instruct,qwen,30.6
 17,qwen/deepseek-r1-distill-llama-70b,qwen,30.5918
-18,gpt-4.1-nano-2025-04-14,openai,30.5082
+18,eu/gpt-4.1-nano,azure_openai,30.5082
 19,qwen/qwen2.5-coder-3b-instruct,qwen,30.28
 20,qwen/deepseek-r1-distill-qwen-14b,qwen,29.3619
 21,Qwen/Qwen3-32B,deepinfra,22.0966

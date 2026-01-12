@@ -6,11 +6,11 @@ rank,name,provider,roi_score,category_score,avg_price_per_million
 5,publishers/microsoft/models/phi4,vertex,5.61,0.561,0.1
 6,microsoft/phi-4,deepinfra,5.3429,0.561,0.105
 7,qwen/qwen2.5-coder-1.5b-instruct,qwen,4.288,0.536,0.125
-8,gpt-4.1-nano-2025-04-14,openai,3.912,0.489,0.125
-9,gpt-4.1-nano,openai,3.912,0.489,0.125
-10,eu/gpt-4.1-nano,azure_openai,3.912,0.489,0.125
-11,us/gpt-4.1-nano,azure_openai,3.912,0.489,0.125
-12,google/gemma-3-27b-it,deepinfra,3.912,0.489,0.125
+8,eu/gpt-4.1-nano,azure_openai,3.912,0.489,0.125
+9,us/gpt-4.1-nano,azure_openai,3.912,0.489,0.125
+10,google/gemma-3-27b-it,deepinfra,3.912,0.489,0.125
+11,gpt-4.1-nano-2025-04-14,openai,3.912,0.489,0.125
+12,gpt-4.1-nano,openai,3.912,0.489,0.125
 13,@cf/mistral/mistral-7b-instruct-v0.1,cloudflare,3.7733,0.566,0.15
 14,qwen/qwen2.5-coder-0.5b-instruct,qwen,3.36,0.42,0.125
 15,gemini-2.0-flash-lite,google,3.3227,0.623,0.1875
@@ -26,10 +26,10 @@ rank,name,provider,roi_score,category_score,avg_price_per_million
 25,mistral-small-latest,mistral,2.265,0.453,0.2
 26,publishers/mistralai/models/mistral-small-2503,vertex,2.265,0.453,0.2
 27,qwen/deepseek-r1-distill-qwen-14b,qwen,2.1286,0.447,0.21
-28,gpt-4o-mini-2024-07-18,openai,2.0107,0.377,0.1875
-29,gpt-4o-mini,openai,2.0107,0.377,0.1875
-30,eu/gpt-4o-mini,azure_openai,2.0107,0.377,0.1875
-31,us/gpt-4o-mini,azure_openai,2.0107,0.377,0.1875
+28,eu/gpt-4o-mini,azure_openai,2.0107,0.377,0.1875
+29,us/gpt-4o-mini,azure_openai,2.0107,0.377,0.1875
+30,gpt-4o-mini-2024-07-18,openai,2.0107,0.377,0.1875
+31,gpt-4o-mini,openai,2.0107,0.377,0.1875
 32,open-mistral-nemo,mistral,1.9933,0.299,0.15
 33,Qwen/Qwen2.5-72B-Instruct,deepinfra,1.9255,0.491,0.255
 34,ministral-8b-latest,mistral,1.8067,0.271,0.15
@@ -44,8 +44,8 @@ rank,name,provider,roi_score,category_score,avg_price_per_million
 43,gpt-5-mini-2025-08-07,openai,1.4969,0.842,0.5625
 44,Llama-4-Maverick-17B-128E-Instruct,sambanova,1.4889,0.67,0.45
 45,qwen/qwen2.5-coder-7b-instruct,qwen,1.3779,0.68,0.4935
-46,gpt-4.1-mini-2025-04-14,openai,1.316,0.658,0.5
-47,gpt-4.1-mini,openai,1.316,0.658,0.5
-48,eu/gpt-4.1-mini,azure_openai,1.316,0.658,0.5
-49,us/gpt-4.1-mini,azure_openai,1.316,0.658,0.5
+46,eu/gpt-4.1-mini,azure_openai,1.316,0.658,0.5
+47,us/gpt-4.1-mini,azure_openai,1.316,0.658,0.5
+48,gpt-4.1-mini-2025-04-14,openai,1.316,0.658,0.5
+49,gpt-4.1-mini,openai,1.316,0.658,0.5
 50,Qwen3 235B A22B,fireworks,1.2855,0.707,0.55

@@ -7,10 +7,10 @@ rank,name,provider,roi_score,category_score,avg_price_per_million
 6,mistralai/Mistral-Small-24B-Instruct-2501,deepinfra,7.0256,0.4567,0.065
 7,google/gemma-3-12b-it,deepinfra,6.6863,0.5683,0.085
 8,google/gemma-3-27b-it,deepinfra,4.8667,0.6083,0.125
-9,gpt-4.1-nano-2025-04-14,openai,4.28,0.535,0.125
-10,gpt-4.1-nano,openai,4.28,0.535,0.125
-11,eu/gpt-4.1-nano,azure_openai,4.28,0.535,0.125
-12,us/gpt-4.1-nano,azure_openai,4.28,0.535,0.125
+9,eu/gpt-4.1-nano,azure_openai,4.28,0.535,0.125
+10,us/gpt-4.1-nano,azure_openai,4.28,0.535,0.125
+11,gpt-4.1-nano-2025-04-14,openai,4.28,0.535,0.125
+12,gpt-4.1-nano,openai,4.28,0.535,0.125
 13,openai/gpt-oss-20b,nebius,4.24,0.53,0.125
 14,Qwen/Qwen3-32B,deepinfra,3.1944,0.575,0.18
 15,gemini-2.0-flash-lite,google,3.1467,0.59,0.1875
@@ -20,9 +20,9 @@ rank,name,provider,roi_score,category_score,avg_price_per_million
 19,publishers/mistralai/models/mistral-small-2503,vertex,2.9583,0.5917,0.2
 20,Qwen/Qwen3-30B-A3B,deepinfra,2.9369,0.5433,0.185
 21,Qwen/Qwen3-32B,nebius,2.875,0.575,0.2
-22,gpt-4o-mini,openai,2.8178,0.5283,0.1875
-23,eu/gpt-4o-mini,azure_openai,2.8178,0.5283,0.1875
-24,us/gpt-4o-mini,azure_openai,2.8178,0.5283,0.1875
+22,eu/gpt-4o-mini,azure_openai,2.8178,0.5283,0.1875
+23,us/gpt-4o-mini,azure_openai,2.8178,0.5283,0.1875
+24,gpt-4o-mini,openai,2.8178,0.5283,0.1875
 25,Qwen/Qwen3-30B-A3B-Instruct-2507,nebius,2.7167,0.5433,0.2
 26,ministral-8b-latest,mistral,2.6333,0.395,0.15
 27,@cf/google/gemma-3-12b-it,cloudflare,2.5892,0.5683,0.2195
